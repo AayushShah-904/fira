@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "api",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "runtimeArgs": ["api/src/index.js"],
+      "port": 4000
+    },
+    {
+      "name": "ui",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "runtimeArgs": [".claude/start-ui.js"],
+      "port": 5173
+    }
+  ]
+}

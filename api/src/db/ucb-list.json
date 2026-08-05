@@ -1,0 +1,7352 @@
+[
+  {
+    "serial": 2,
+    "name": "Cooperative",
+    "state": "Mizoram"
+  },
+  {
+    "serial": 3,
+    "name": "Cooperative",
+    "state": "Mizoram"
+  },
+  {
+    "serial": 4,
+    "name": "UCB TEST",
+    "state": "Sikkim"
+  },
+  {
+    "serial": 5,
+    "name": "Warangal Urban",
+    "state": "Telangana"
+  },
+  {
+    "serial": 6,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 7,
+    "name": "THE CKP MAHARASHTR MUMBAI 23/07/1943 Urban Name :NILESH G/North - Ward",
+    "state": null
+  },
+  {
+    "serial": 8,
+    "name": "AKHIL MAHARASHTR MUMBAI 01/11/1990 Urban Name G/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 9,
+    "name": "Mahendra MAHARASHTR NASHIK 10/09/1997 Urban Name :N G Malegaon (Mu",
+    "state": null
+  },
+  {
+    "serial": 10,
+    "name": "KOLHAPUR MAHARASHTR KOLHAPUR 01/10/1938 Urban Name :G M 1, Kolhapur",
+    "state": null
+  },
+  {
+    "serial": 11,
+    "name": "ALWAR URBAN",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 12,
+    "name": "MUMBAI MAHARASHTR MUMBAI 06/08/1974 Urban Name :KADAM A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 13,
+    "name": "No.29",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 14,
+    "name": "THE SURI",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 15,
+    "name": "CO OPERATIVE",
+    "state": "Kerala"
+  },
+  {
+    "serial": 16,
+    "name": "THE SULTHAN",
+    "state": "Kerala"
+  },
+  {
+    "serial": 17,
+    "name": "Thodupuzha",
+    "state": "Kerala"
+  },
+  {
+    "serial": 18,
+    "name": "MALA BLOCK",
+    "state": "Kerala"
+  },
+  {
+    "serial": 19,
+    "name": "The Payyanur",
+    "state": "Kerala"
+  },
+  {
+    "serial": 20,
+    "name": "The Pazhayangadi",
+    "state": "Kerala"
+  },
+  {
+    "serial": 21,
+    "name": "THIRUVALLA",
+    "state": "Kerala"
+  },
+  {
+    "serial": 22,
+    "name": "Ambasamudram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 23,
+    "name": "TIRUNELVELI",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 24,
+    "name": "PALYAMKOTTA",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 25,
+    "name": "THIRUVALLA",
+    "state": "Kerala"
+  },
+  {
+    "serial": 26,
+    "name": "BALUSSERY",
+    "state": "Kerala"
+  },
+  {
+    "serial": 27,
+    "name": "PAYYOLI",
+    "state": "Kerala"
+  },
+  {
+    "serial": 28,
+    "name": "KUTTIADI",
+    "state": "Kerala"
+  },
+  {
+    "serial": 29,
+    "name": "PALA URBAN",
+    "state": "Kerala"
+  },
+  {
+    "serial": 30,
+    "name": "MEENACHIL",
+    "state": "Kerala"
+  },
+  {
+    "serial": 31,
+    "name": "VATAKARA CO",
+    "state": "Kerala"
+  },
+  {
+    "serial": 32,
+    "name": "KOTTAYAM",
+    "state": "Kerala"
+  },
+  {
+    "serial": 33,
+    "name": "NADAPURAM",
+    "state": "Kerala"
+  },
+  {
+    "serial": 34,
+    "name": "Kannur Co Op",
+    "state": "Kerala"
+  },
+  {
+    "serial": 35,
+    "name": "KASARAGOD",
+    "state": "Kerala"
+  },
+  {
+    "serial": 36,
+    "name": "TALIPARAMBA",
+    "state": "Kerala"
+  },
+  {
+    "serial": 37,
+    "name": "KATTAPPANA",
+    "state": "Kerala"
+  },
+  {
+    "serial": 38,
+    "name": "THE AGRASEN MAHARASHTR AKOLA 14/01/1997 Urban Name :ASHISH GRAHAK SEVA",
+    "state": null
+  },
+  {
+    "serial": 39,
+    "name": "THE PALGHAT",
+    "state": "Kerala"
+  },
+  {
+    "serial": 40,
+    "name": "PEOPLES",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 41,
+    "name": "CHERPALCHERI",
+    "state": "Kerala"
+  },
+  {
+    "serial": 42,
+    "name": "OTTAPALAM",
+    "state": "Kerala"
+  },
+  {
+    "serial": 43,
+    "name": "LIC of India Staff",
+    "state": "Kerala"
+  },
+  {
+    "serial": 44,
+    "name": "KARAMANA CO-",
+    "state": "Kerala"
+  },
+  {
+    "serial": 45,
+    "name": "Trivandrum",
+    "state": "Kerala"
+  },
+  {
+    "serial": 46,
+    "name": "PONNANI CO-",
+    "state": "Kerala"
+  },
+  {
+    "serial": 47,
+    "name": "Nilambur Co",
+    "state": "Kerala"
+  },
+  {
+    "serial": 48,
+    "name": "KOLLAM CO-",
+    "state": "Kerala"
+  },
+  {
+    "serial": 49,
+    "name": "KOLLAM",
+    "state": "Kerala"
+  },
+  {
+    "serial": 50,
+    "name": "MANJERI CO",
+    "state": "Kerala"
+  },
+  {
+    "serial": 51,
+    "name": "KARUNAGAPPA",
+    "state": "Kerala"
+  },
+  {
+    "serial": 52,
+    "name": "KODUNGALLU",
+    "state": "Kerala"
+  },
+  {
+    "serial": 53,
+    "name": "Kaduthuruthy",
+    "state": "Kerala"
+  },
+  {
+    "serial": 54,
+    "name": "Guruvayur Co-",
+    "state": "Kerala"
+  },
+  {
+    "serial": 55,
+    "name": "Aluva Urban Co",
+    "state": "Kerala"
+  },
+  {
+    "serial": 56,
+    "name": "NEDUMANGAD",
+    "state": "Kerala"
+  },
+  {
+    "serial": 57,
+    "name": "Alappuzha Urban",
+    "state": "Kerala"
+  },
+  {
+    "serial": 58,
+    "name": "The Urban Co-",
+    "state": "Kerala"
+  },
+  {
+    "serial": 59,
+    "name": "MATTANCHERR",
+    "state": "Kerala"
+  },
+  {
+    "serial": 60,
+    "name": "The Muvattupuzha",
+    "state": "Kerala"
+  },
+  {
+    "serial": 61,
+    "name": "MATTANCHERR",
+    "state": "Kerala"
+  },
+  {
+    "serial": 62,
+    "name": "Tirur Co op Urban",
+    "state": "Kerala"
+  },
+  {
+    "serial": 63,
+    "name": "Tanur Co op",
+    "state": "Kerala"
+  },
+  {
+    "serial": 64,
+    "name": "Kottakkal Coop",
+    "state": "Kerala"
+  },
+  {
+    "serial": 65,
+    "name": "The Kurmanchal UTTARAKHAN PITHORAGARH 03/04/1982 Urban Name :Akshay Nainital (MB)",
+    "state": null
+  },
+  {
+    "serial": 66,
+    "name": "INDUSTRIAL",
+    "state": "Assam"
+  },
+  {
+    "serial": 67,
+    "name": "NAGARIK",
+    "state": "Assam"
+  },
+  {
+    "serial": 68,
+    "name": "THE KAIRA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 69,
+    "name": "UTTRAKHAND UTTARAKHAN DEHRADUN 14/06/1999 Urban Name :S S RANA Rishikesh (MB)",
+    "state": null
+  },
+  {
+    "serial": 70,
+    "name": "Navi Mumbai Co- MAHARASHTR THANE 12/12/1998 Urban Name :Shivani F1,D1, Sector 10",
+    "state": null
+  },
+  {
+    "serial": 71,
+    "name": "Nagrik Sahakari MAHARASHTR THANE 19/12/1949 Urban Name :Anjali Bhiwandi (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 72,
+    "name": "URBAN CO- UTTARAKHAN DEHRADUN 30/07/1973 Urban Name :MR Select, Dehradun",
+    "state": null
+  },
+  {
+    "serial": 73,
+    "name": "SIDDHESHWAR MAHARASHTR Chhatrapati 12/10/1990 Urban Name Ward No. 1, Sillod",
+    "state": null
+  },
+  {
+    "serial": 74,
+    "name": "The Pen MAHARASHTR RAIGAD 03/09/1935 Urban Name :Mr Raje Shivaji Chawk",
+    "state": null
+  },
+  {
+    "serial": 75,
+    "name": "The Panvel MAHARASHTR RAIGAD 14/08/1965 Urban Name :Mr 471, Tilak Road",
+    "state": null
+  },
+  {
+    "serial": 76,
+    "name": "vyavsayik evam MADHYA MORENA 15/12/1971 Urban Name :Arjun Shri Ram janki",
+    "state": null
+  },
+  {
+    "serial": 77,
+    "name": "Proddatur Coop. ANDHRA Y.S.R. 28/05/1920 Urban Name :B V Subba 36, Proddatur",
+    "state": null
+  },
+  {
+    "serial": 78,
+    "name": "THE UDAIPUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 79,
+    "name": "Jalgaon Janata MAHARASHTR JALGAON 08/06/1977 Urban Name :Shri Sanjay Jalgaon (M CO)",
+    "state": null
+  },
+  {
+    "serial": 80,
+    "name": "Shri Mahavir MAHARASHTR JALGAON 16/02/1998 Urban Name :Manohar 92, Navi peth",
+    "state": null
+  },
+  {
+    "serial": 81,
+    "name": "The Jalgaon MAHARASHTR JALGAON 23/12/1933 Urban Name :Mr Rohit 152, Polan",
+    "state": null
+  },
+  {
+    "serial": 82,
+    "name": "Godavari Laxmi MAHARASHTR JALGAON 25/01/2001 Urban Name :Ashok 121, Navi peth",
+    "state": null
+  },
+  {
+    "serial": 83,
+    "name": "SHARAD MAHARASHTR PUNE 25/04/1974 Urban Name :MR Manchar",
+    "state": null
+  },
+  {
+    "serial": 84,
+    "name": "PUNE DISTRICT MAHARASHTR PUNE 04/09/1917 Urban Name :Anivudha Pune(M",
+    "state": null
+  },
+  {
+    "serial": 85,
+    "name": "THE UDAIPUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 86,
+    "name": "kashipur urban co- UTTARAKHAN UDAM SINGH 03/09/1990 Urban Name :gurdeep pal Kashipur (MB) -",
+    "state": null
+  },
+  {
+    "serial": 87,
+    "name": "THE RAILWAY",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 88,
+    "name": "STERLING",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 89,
+    "name": "THE RAJPUTAN",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 90,
+    "name": "intergral urban",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 91,
+    "name": "THE JANATA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 92,
+    "name": "JALORE",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 93,
+    "name": "JILA SAHKARI MADHYA GWALIOR 19/07/1918 Urban Name DEEDWANA",
+    "state": null
+  },
+  {
+    "serial": 94,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 95,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 96,
+    "name": "AMARNATH CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 97,
+    "name": "Umiya Urban Co- MAHARASHTR NAGPUR 20/01/1998 Urban Name :ANUP K Sakkardhara",
+    "state": null
+  },
+  {
+    "serial": 98,
+    "name": "Sardar Singh MADHYA TIKAMGARH 13/02/1996 Urban Name :M L JAIN Haridas ward",
+    "state": null
+  },
+  {
+    "serial": 99,
+    "name": "BHIND NAGRIK MADHYA BHIND 10/04/1996 Urban Name Bhagat Singh",
+    "state": null
+  },
+  {
+    "serial": 100,
+    "name": "JABALPUR MADHYA JABALPUR 27/04/1996 Urban Name :SHUKLA Mahatma Gandhi",
+    "state": null
+  },
+  {
+    "serial": 101,
+    "name": "Mahila nagarik MADHYA KHARGONE 28/02/1997 Urban Name :Mahendra SAHKARI BANK",
+    "state": null
+  },
+  {
+    "serial": 102,
+    "name": "khargone nagarik MADHYA KHARGONE 14/07/1989 Urban Name :Vivek SAHKARI BANK",
+    "state": null
+  },
+  {
+    "serial": 103,
+    "name": "sanawad nagarik MADHYA KHARGONE 23/11/1985 Urban Name :Indr singh Gurunanak ward",
+    "state": null
+  },
+  {
+    "serial": 104,
+    "name": "ROUTHA",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 105,
+    "name": "The Panihati Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 106,
+    "name": "Khardah Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 107,
+    "name": "THE UDAIPUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 108,
+    "name": "The Nabapally Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 109,
+    "name": "Bhatpara Naihati",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 110,
+    "name": "Samata Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 111,
+    "name": "CHITTORGARH",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 112,
+    "name": "WARDHAMAN MAHARASHTR NAGPUR 09/02/1999 Urban Name :RAM 73-C SEVA",
+    "state": null
+  },
+  {
+    "serial": 113,
+    "name": "DR. MAHARASHTR NAGPUR 03/03/1989 Urban Name MA 1",
+    "state": null
+  },
+  {
+    "serial": 114,
+    "name": "The Nandura MAHARASHTR BULDHANA 19/03/1964 Urban Name :sHRI Nandura (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 115,
+    "name": "The Coonoor",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 116,
+    "name": "PEOPLES MAHARASHTR BULDHANA 04/07/1995 Urban Name :V R near balaji mandir",
+    "state": null
+  },
+  {
+    "serial": 117,
+    "name": "The",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 118,
+    "name": "Cordite Factory",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 119,
+    "name": "THE TALOD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 120,
+    "name": "HINDU",
+    "state": "Punjab"
+  },
+  {
+    "serial": 121,
+    "name": "PROGRESSIVE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 122,
+    "name": "JAMSHEDPUR",
+    "state": "Jharkhand"
+  },
+  {
+    "serial": 124,
+    "name": "CONTAI CO-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 125,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 126,
+    "name": "Colour",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 127,
+    "name": "MANINAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 128,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 129,
+    "name": "THE TALOD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 130,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 131,
+    "name": "NIDHI CO-",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 132,
+    "name": "THE VIJAY CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 133,
+    "name": "THE UNITED CO-",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 134,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 135,
+    "name": "THE PRANTIJ",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 136,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 137,
+    "name": "THE UNION CO-",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 138,
+    "name": "THE NARODA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 139,
+    "name": "Sardar",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 140,
+    "name": "THE SOCIAL CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 141,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 142,
+    "name": "Bhadohi Urban Co UTTAR BHADOHI 02/11/1996 Urban Name :AJITA Gyanpur (NP) -",
+    "state": null
+  },
+  {
+    "serial": 143,
+    "name": "Saraspur Nagrik",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 144,
+    "name": "THE UNA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 145,
+    "name": "THE VADALI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 146,
+    "name": "THE IDAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 147,
+    "name": "The Uttarsanda",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 148,
+    "name": "Nadiad pepoles co-",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 149,
+    "name": "VIJAY",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 150,
+    "name": "The Kheda",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 151,
+    "name": "Limbasi urban co-",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 152,
+    "name": "Sardar Bhiladwala",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 153,
+    "name": "AMRELI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 154,
+    "name": "SARVODAY",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 155,
+    "name": "HIMATNAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 156,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 157,
+    "name": "The Mahemdavad",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 158,
+    "name": "Pij peoples co-op",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 159,
+    "name": "THE THASRA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 160,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 161,
+    "name": "THE SEVALIYA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 162,
+    "name": "Valsad Mahila",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 163,
+    "name": "THE MAHUDHA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 164,
+    "name": "BABRA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 165,
+    "name": "SHREE SAVARK",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 166,
+    "name": "THE RAJULA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 167,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 168,
+    "name": "GONDAL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 169,
+    "name": "JIVAN",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 170,
+    "name": "THE RAJKOT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 171,
+    "name": "RAJKOT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 172,
+    "name": "NIRMAL MAHARASHTR NAGPUR 27/03/1999 Urban Name 218, NIRMAL",
+    "state": null
+  },
+  {
+    "serial": 173,
+    "name": "JANSEWA MAHARASHTR NAGPUR 05/04/1999 Urban Name :MRS 1ST FLOOR",
+    "state": null
+  },
+  {
+    "serial": 174,
+    "name": "GANDHIBAG MAHARASHTR NAGPUR 08/04/1963 Urban Name :MR Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 175,
+    "name": "SHRIKRISHNA MAHARASHTR NAGPUR 12/12/1996 Urban Name :RAJESH umred, Umred (M",
+    "state": null
+  },
+  {
+    "serial": 176,
+    "name": "NAGPUR MAHA MAHARASHTR NAGPUR 01/01/1970 Urban Name :MANISH Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 177,
+    "name": "Sadhana Sahakari MAHARASHTR NAGPUR 05/07/1984 Urban Name :Mr Milind Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 178,
+    "name": "SHRIRAM MAHARASHTR NAGPUR 27/09/1995 Urban Name :MILIND SHRINIDHI",
+    "state": null
+  },
+  {
+    "serial": 179,
+    "name": "JOWAI",
+    "state": "Meghalaya"
+  },
+  {
+    "serial": 180,
+    "name": "RAMANATHAP",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 181,
+    "name": "Paramakudi Co-",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 182,
+    "name": "ABIRAMAM CO-",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 183,
+    "name": "Q1102.KAMUTH",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 184,
+    "name": "bhilai nagrik CHHATTISGAR DURG 02/12/1974 Urban Name :suresh SECTOR-6 EAST",
+    "state": null
+  },
+  {
+    "serial": 185,
+    "name": "Pragti Mahila CHHATTISGAR DURG 25/01/1995 Urban Name :Pratul P SECTOR-2 EAST",
+    "state": null
+  },
+  {
+    "serial": 186,
+    "name": "NAGARIK CHHATTISGAR DURG 07/07/1988 Urban Name :K A PACHRI PARA",
+    "state": null
+  },
+  {
+    "serial": 187,
+    "name": "MAHILA CHHATTISGAR MAHASAMUND 31/03/1997 Urban Name :ARUNA Vishwakarma",
+    "state": null
+  },
+  {
+    "serial": 188,
+    "name": "BILASPUR CHHATTISGAR BILASPUR 11/09/1987 Urban Name :ALKA Select, Bilaspur",
+    "state": null
+  },
+  {
+    "serial": 189,
+    "name": "UTHAMAPALA",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 190,
+    "name": "PERIYAKULAM",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 191,
+    "name": "Karaikudi Co-",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 192,
+    "name": "K4084UPPILIPA",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 193,
+    "name": "KVI1",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 194,
+    "name": "THE KARUR",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 195,
+    "name": "R.37",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 196,
+    "name": "SHRI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 197,
+    "name": "SHRI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 198,
+    "name": "SOURASHTRA",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 199,
+    "name": "SHOLAVANDH",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 200,
+    "name": "Hubli- Dharwad",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 201,
+    "name": "The Tapa Primary",
+    "state": "Punjab"
+  },
+  {
+    "serial": 202,
+    "name": "The P.A.D.B",
+    "state": "Punjab"
+  },
+  {
+    "serial": 203,
+    "name": "TIRUVALLUR",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 204,
+    "name": "C 4712 ARNI",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 205,
+    "name": "Mahesh co op MAHARASHTR NASHIK 24/10/1996 Urban Name :Bhaskar Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 206,
+    "name": "The Business MAHARASHTR NASHIK 08/04/1996 Urban Name :Ashok Rajan Complex",
+    "state": null
+  },
+  {
+    "serial": 207,
+    "name": "Nashik Jihla MAHARASHTR NASHIK 03/06/1997 Urban Name :xxx Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 208,
+    "name": "JAMNAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 209,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 210,
+    "name": "JAMNAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 211,
+    "name": "JAMNAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 212,
+    "name": "SATANA MAHARASHTR NASHIK 03/08/1957 Urban Name Satana (Mu Cl) -",
+    "state": null
+  },
+  {
+    "serial": 213,
+    "name": "JANTA MAHARASHTR NASHIK 01/03/1996 Urban Name :Ranjit 4187, Balaji Lane",
+    "state": null
+  },
+  {
+    "serial": 214,
+    "name": "Nashik Jilha MAHARASHTR NASHIK 22/09/1920 Urban Name :Annasaheb Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 215,
+    "name": "THE FAIZ MAHARASHTR NASHIK 24/01/1997 Urban Name :Sandip S.N.532, Rajiv",
+    "state": null
+  },
+  {
+    "serial": 216,
+    "name": "GODAVARI MAHARASHTR NASHIK 24/01/1995 Urban Name :Suresh Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 217,
+    "name": "The Nashik Road MAHARASHTR NASHIK 05/08/1961 Urban Name :Shri Kalpavruksha",
+    "state": null
+  },
+  {
+    "serial": 218,
+    "name": "JANSEVA CO OP MAHARASHTR NASHIK 01/07/1996 Urban Name Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 219,
+    "name": "Padmashri MAHARASHTR NASHIK 07/09/1996 Urban Name :RAHUL Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 220,
+    "name": "Janalaxmi MAHARASHTR NASHIK 14/02/1976 Urban Name :Ajit Samrudhhi",
+    "state": null
+  },
+  {
+    "serial": 221,
+    "name": "shri samarth MAHARASHTR NASHIK 06/09/1994 Urban Name :girish Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 222,
+    "name": "The Nashik Jilha MAHARASHTR NASHIK 11/07/1973 Urban Name :Madhuri Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 223,
+    "name": "Shri Ganesh MAHARASHTR NASHIK 23/08/1996 Urban Name Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 224,
+    "name": "Dr Babasaheb MAHARASHTR NASHIK 18/08/1997 Urban Name :V S Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 225,
+    "name": "Rajlaxmi Urban MAHARASHTR NASHIK 29/01/1997 Urban Name :Mrunalini Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 226,
+    "name": "Jankalyan co op MAHARASHTR NASHIK 23/08/1996 Urban Name :bapat Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 227,
+    "name": "Nashik Districk MAHARASHTR NASHIK 10/07/1995 Urban Name Nashik (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 228,
+    "name": "Nashik jJilha MAHARASHTR NASHIK 19/10/1973 Urban Name :Narendra 430, Vadnagare",
+    "state": null
+  },
+  {
+    "serial": 229,
+    "name": "Vishwas co MAHARASHTR NASHIK 08/10/1996 Urban Name :Sarika Vishwa Vishwas",
+    "state": null
+  },
+  {
+    "serial": 230,
+    "name": "Andersul Urban MAHARASHTR NASHIK 09/01/1996 Urban Name :Sahebrao Mahatma phule",
+    "state": null
+  },
+  {
+    "serial": 231,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 232,
+    "name": "SHREE SIHOR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 233,
+    "name": "Nanded Marchant MAHARASHTR NANDED 14/02/1963 Urban Name :Ramakant Nanded-Waghala",
+    "state": null
+  },
+  {
+    "serial": 234,
+    "name": "SIHOR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 235,
+    "name": "Shankar Nagar MAHARASHTR NANDED 03/08/1996 Urban Name :Vikram Nanded-Waghala",
+    "state": null
+  },
+  {
+    "serial": 236,
+    "name": "Godavari Urban MAHARASHTR NANDED 31/07/1998 Urban Name :K R Nanded-Waghala",
+    "state": null
+  },
+  {
+    "serial": 237,
+    "name": "THE",
+    "state": "Bihar"
+  },
+  {
+    "serial": 238,
+    "name": "Velur Cooperative",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 239,
+    "name": "Komarapalayam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 240,
+    "name": "Tiruchengode",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 241,
+    "name": "Rasipuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 242,
+    "name": "Namakkal",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 243,
+    "name": "Markendey Nagari MAHARASHTR NANDED 30/07/1997 Urban Name :G B Shinde Nanded-Waghala",
+    "state": null
+  },
+  {
+    "serial": 244,
+    "name": "SHIVSHAKTI MAHARASHTR SOLAPUR 30/12/1998 Urban Name :Umate Barshi (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 245,
+    "name": "The MAHARASHTR NANDED 03/06/1983 Urban Name :Vaidya Select, Nanded-",
+    "state": null
+  },
+  {
+    "serial": 246,
+    "name": "DILIP URBAN MAHARASHTR SOLAPUR 31/03/1997 Urban Name :SUNIL Barshi (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 247,
+    "name": "Gautam sahakari MAHARASHTR Ahilyanagar 22/04/1976 Urban Name :Pravin Gautamnagar",
+    "state": null
+  },
+  {
+    "serial": 248,
+    "name": "Kopargaon MAHARASHTR Ahilyanagar 29/10/1948 Urban Name :Deepak Kopargaon (MC) -",
+    "state": null
+  },
+  {
+    "serial": 249,
+    "name": "MELUR URBAN",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 250,
+    "name": "Parner Taluka MAHARASHTR Ahilyanagar 09/01/1995 Urban Name :Korade 1374, Yash",
+    "state": null
+  },
+  {
+    "serial": 251,
+    "name": "Shri Swami MAHARASHTR Ahilyanagar 18/09/1997 Urban Name :Ramesh Takali",
+    "state": null
+  },
+  {
+    "serial": 252,
+    "name": "Matoshri Mahila MAHARASHTR Ahilyanagar 06/06/2002 Urban Name :Sandip Samath Buiding",
+    "state": null
+  },
+  {
+    "serial": 253,
+    "name": "Sai Sanjivani Co- MAHARASHTR Ahilyanagar 15/03/1996 Urban Name :Padmakar Kopargaon (MC) -",
+    "state": null
+  },
+  {
+    "serial": 254,
+    "name": "The Cuddalore &",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 255,
+    "name": "Pravara Urbon Co- MAHARASHTR Ahilyanagar 11/12/1974 Urban Name :Saurabh Loni Bk., LONI",
+    "state": null
+  },
+  {
+    "serial": 256,
+    "name": "The Tirukoilur Co",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 257,
+    "name": "The Chidambaram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 258,
+    "name": "The Muktsar",
+    "state": "Punjab"
+  },
+  {
+    "serial": 259,
+    "name": "MADURANTHA",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 260,
+    "name": "Kanaklata mahila",
+    "state": "Assam"
+  },
+  {
+    "serial": 261,
+    "name": "THE METTUPAL",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 262,
+    "name": "THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 263,
+    "name": "Polur UCB",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 264,
+    "name": "Tiruvanamalai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 265,
+    "name": "CHENGALPATT",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 266,
+    "name": "GOMTI UTTAR JAUNPUR 25/06/1996 Urban Name 152, Ruhatta",
+    "state": null
+  },
+  {
+    "serial": 267,
+    "name": "TAMBARAM",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 268,
+    "name": "A 875 CUMBUM",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 269,
+    "name": "THE KARUNTH",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 270,
+    "name": "THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 271,
+    "name": "The",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 272,
+    "name": "GOKAK URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 273,
+    "name": "THE YEOLA MAHARASHTR NASHIK 28/07/1944 Urban Name Yeola (Mu Cl) -",
+    "state": null
+  },
+  {
+    "serial": 274,
+    "name": "THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 275,
+    "name": "THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 276,
+    "name": "THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 277,
+    "name": "THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 278,
+    "name": "BIG KANCHEEP",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 279,
+    "name": "Little",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 280,
+    "name": "TU1 BODINAYA",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 281,
+    "name": "THE VALPARAI",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 282,
+    "name": "K 7781 THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 7781,
+    "name": "b@gmail.com 642001",
+    "state": null
+  },
+  {
+    "serial": 283,
+    "name": "janseva nagari co- MAHARASHTR Dharashiv 23/01/1998 Urban Name :Mahesh Bhum (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 284,
+    "name": "ARIHANT MAHARASHTR MUMBAI 04/05/1984 Urban Name :PHADKE GBA, 10A / KAR",
+    "state": null
+  },
+  {
+    "serial": 285,
+    "name": "The Charda",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 286,
+    "name": "Shree Lodra",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 287,
+    "name": "The Kalol Nagrik",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 288,
+    "name": "The Kalyan Co op",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 289,
+    "name": "The gandhinagar",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 290,
+    "name": "The Randheja",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 291,
+    "name": "The Mansa",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 292,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 293,
+    "name": "THE JANTA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 294,
+    "name": "THE HALOL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 295,
+    "name": "THE VEJALPUR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 296,
+    "name": "SARVODAY MAHARASHTR MUMBAI 30/08/1996 Urban Name :Vilas 6/7, SHITAL",
+    "state": null
+  },
+  {
+    "serial": 297,
+    "name": "E-46 Tindivanam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 298,
+    "name": "E.34 The",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 299,
+    "name": "SREE",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 300,
+    "name": "Jansava sahakari MAHARASHTR PUNE 24/10/1972 Urban Name :Kulkarni Pune(M",
+    "state": null
+  },
+  {
+    "serial": 301,
+    "name": "Sanmitra Sahakari MAHARASHTR PUNE 04/11/1972 Urban Name :Sanjay J Pune(M",
+    "state": null
+  },
+  {
+    "serial": 302,
+    "name": "NARAYAN MAHARASHTR MUMBAI 01/05/2001 Urban Name :MR P L KOKHANDE",
+    "state": null
+  },
+  {
+    "serial": 303,
+    "name": "THE CHEMBUR MAHARASHTR MUMBAI 18/03/1974 Urban Name :MR PATIL 70 B",
+    "state": null
+  },
+  {
+    "serial": 304,
+    "name": "JANKALYAN MAHARASHTR MUMBAI 24/05/1974 Urban Name :MR 140",
+    "state": null
+  },
+  {
+    "serial": 305,
+    "name": "Krishiseva Aban MAHARASHTR SOLAPUR 22/11/1997 Urban Name :Sargar Kola, KOLA",
+    "state": null
+  },
+  {
+    "serial": 306,
+    "name": "To Sangola Urban. MAHARASHTR SOLAPUR 20/03/1996 Urban Name :Srirang Sangole (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 307,
+    "name": "SOLAPUR MAHARASHTR SOLAPUR 08/03/1918 Urban Name :BHOLE 207/8/9",
+    "state": null
+  },
+  {
+    "serial": 308,
+    "name": "THE DAHOD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 309,
+    "name": "THE BARIYA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 310,
+    "name": "THE VEPAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 311,
+    "name": "THE JHALOD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 312,
+    "name": "THE LIMDI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 313,
+    "name": "THE DAHOD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 314,
+    "name": "SADHANA MAHARASHTR PUNE 10/06/1975 Urban Name :CHARUC Pune(M",
+    "state": null
+  },
+  {
+    "serial": 315,
+    "name": "Ramrajya MAHARASHTR PUNE 02/12/1997 Urban Name P,NO7/8 INDIRA",
+    "state": null
+  },
+  {
+    "serial": 316,
+    "name": "URBAN UTTAR SITAPUR 12/09/1973 Urban Name STATION ROAD",
+    "state": null
+  },
+  {
+    "serial": 317,
+    "name": "Thane Bharat MAHARASHTR THANE 25/09/1978 Urban Name :Manager Bajiprabhu",
+    "state": null
+  },
+  {
+    "serial": 318,
+    "name": "SHRI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 319,
+    "name": "SHRI BOTAD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 320,
+    "name": "The Karan Urban",
+    "state": "Haryana"
+  },
+  {
+    "serial": 321,
+    "name": "THE TARAPUR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 322,
+    "name": "PARISAMAPAN MADHYA BETUL 06/03/1963 Urban Name :K V Gandhi Ward",
+    "state": null
+  },
+  {
+    "serial": 323,
+    "name": "PARISAMAPAN MADHYA NARMADAPUR 24/04/1963 Urban Name :shivam Sadar Bajar Ward",
+    "state": null
+  },
+  {
+    "serial": 324,
+    "name": "PARISAMAPAN MADHYA NARMADAPUR 03/08/1996 Urban Name :SHIVAM Sadar Bajar Ward",
+    "state": null
+  },
+  {
+    "serial": 325,
+    "name": "lAXMI MAHARASHTR PUNE 05/08/1997 Urban Name :SHRI PARVATI",
+    "state": null
+  },
+  {
+    "serial": 326,
+    "name": "SHRI GAJANAN MAHARASHTR PUNE 28/05/1999 Urban Name :YOGESH Pimpri Chinchwad",
+    "state": null
+  },
+  {
+    "serial": 327,
+    "name": "HAVELI MAHARASHTR PUNE 31/03/1999 Urban Name Pimpri Chinchwad",
+    "state": null
+  },
+  {
+    "serial": 328,
+    "name": "THE BHADRAN",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 329,
+    "name": "THE PRAGATI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 330,
+    "name": "THE SHIHORI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 331,
+    "name": "THE MAHARASHTR SANGLI 17/05/1997 Urban Name Atpadi, ATPADI",
+    "state": null
+  },
+  {
+    "serial": 332,
+    "name": "SARDARGANJ",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 333,
+    "name": "THE KAMBHAT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 334,
+    "name": "THE SARSA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 335,
+    "name": "THE UMRETH",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 336,
+    "name": "Konark Urban MAHARASHTR THANE 14/02/1985 Urban Name :Kunal 14, Hardwar",
+    "state": null
+  },
+  {
+    "serial": 337,
+    "name": "The Navjeevan MAHARASHTR THANE 14/02/1985 Urban Name :Tanvi Patil Bhawni Saw Mills",
+    "state": null
+  },
+  {
+    "serial": 338,
+    "name": "Hanamasagara",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 339,
+    "name": "Sri",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 340,
+    "name": "SRI SUDHA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 341,
+    "name": "Kushtagi Pattana",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 342,
+    "name": "Sri Ramanagara",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 343,
+    "name": "The Wardha Jillha MAHARASHTR WARDHA 30/09/1985 Urban Name :Dr In front of Civil",
+    "state": null
+  },
+  {
+    "serial": 344,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 345,
+    "name": "THE GRAIN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 346,
+    "name": "Pallikonda Urban",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 347,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 348,
+    "name": "The Subramania",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 349,
+    "name": "The Shevapet",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 350,
+    "name": "The Salem Urban",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 351,
+    "name": "Annasaheb Magar MAHARASHTR PUNE 01/06/1999 Urban Name Pimpri Chinchwad",
+    "state": null
+  },
+  {
+    "serial": 352,
+    "name": "Vishwakalyan",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 353,
+    "name": "Hubli Muslim",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 354,
+    "name": "The Ambala",
+    "state": "Haryana"
+  },
+  {
+    "serial": 355,
+    "name": "KALNA TOWN",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 356,
+    "name": "The",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 357,
+    "name": "THE MAHARASHTR BHANDARA 21/01/1971 Urban Name :H C Bhandara (M CI) -",
+    "state": null
+  },
+  {
+    "serial": 358,
+    "name": "SUVARNAYUG MAHARASHTR PUNE 02/10/1973 Urban Name :KEDAR 1102/10/11,MAR",
+    "state": null
+  },
+  {
+    "serial": 359,
+    "name": "SRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 360,
+    "name": "ABHIRVURDHI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 361,
+    "name": "DHARMAVIR MAHARASHTR PUNE 26/05/1998 Urban Name Pimpri Chinchwad",
+    "state": null
+  },
+  {
+    "serial": 362,
+    "name": "PAVANA MAHARASHTR PUNE 12/07/1973 Urban Name Pimpri Chinchwad",
+    "state": null
+  },
+  {
+    "serial": 363,
+    "name": "Vridhachalam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 364,
+    "name": "The Ammapet",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 365,
+    "name": "The Reserve Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 366,
+    "name": "Saidapet",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 367,
+    "name": "The Vellore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 368,
+    "name": "Thiruvalluvar",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 369,
+    "name": "The Omalur Urban",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 370,
+    "name": "The",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 371,
+    "name": "The Gudiyatham",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 372,
+    "name": "The Vellala",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 373,
+    "name": "The Life Insurance",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 374,
+    "name": "Purasawalkam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 375,
+    "name": "The Sonipat Urban",
+    "state": "Haryana"
+  },
+  {
+    "serial": 376,
+    "name": "SRI KANNIKAP",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 377,
+    "name": "The vallabh",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 378,
+    "name": "THE HANSOT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 379,
+    "name": "THE JAMBUSAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 380,
+    "name": "THE HALOL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 381,
+    "name": "THE KALOL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 382,
+    "name": "THE GODHRA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 383,
+    "name": "THE GODHRA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 384,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 385,
+    "name": "The Yavatmal MAHARASHTR YAVATMAL 12/04/1965 Urban Name :Ajay V Yavatmal (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 386,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 387,
+    "name": "DHANDHUKA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 388,
+    "name": "THE JANTA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 389,
+    "name": "KHATRA",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 390,
+    "name": "THE BANKURA",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 391,
+    "name": "THE MAHARASHTR PUNE 18/09/1972 Urban Name :SHRIRAM 471/472",
+    "state": null
+  },
+  {
+    "serial": 392,
+    "name": "Sankari Urban",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 393,
+    "name": "THE",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 394,
+    "name": "Srikalahasti ANDHRA Tirupati 06/05/1921 Urban Name :M 1-Srikalahasti",
+    "state": null
+  },
+  {
+    "serial": 395,
+    "name": "Mahesh Urban MAHARASHTR LATUR 03/08/1994 Urban Name :Balasaheb Ahmadpur (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 396,
+    "name": "the dharmaj",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 397,
+    "name": "the anand",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 398,
+    "name": "the ode urban co-",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 399,
+    "name": "UNJHA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 400,
+    "name": "KHERALU",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 401,
+    "name": "VADANAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 402,
+    "name": "UNJHA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 403,
+    "name": "UNAVA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 404,
+    "name": "The Dalmiapuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 405,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 406,
+    "name": "KUKARVADA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 407,
+    "name": "VIJAPUR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 408,
+    "name": "GOJHARIYA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 409,
+    "name": "THE BECHRAJI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 410,
+    "name": "LAKHAVAD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 411,
+    "name": "Jivaji Sahakari MAHARASHTR KOLHAPUR 17/07/1995 Urban Name :Mrs Nisha Gat no 18, Near",
+    "state": null
+  },
+  {
+    "serial": 412,
+    "name": "THE MADGAUM",
+    "state": "Goa"
+  },
+  {
+    "serial": 413,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 414,
+    "name": "Attur Town",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 415,
+    "name": "THE CITYCOOP",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 416,
+    "name": "PEOPLES CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 417,
+    "name": "THE BAVLA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 418,
+    "name": "Abasaheb Patil MAHARASHTR KOLHAPUR 17/08/1964 Urban Name :Suryakant Vitthal Mandir 1st",
+    "state": null
+  },
+  {
+    "serial": 419,
+    "name": "Jawahar Sahakari MAHARASHTR KOLHAPUR 15/03/1996 Urban Name Rendal",
+    "state": null
+  },
+  {
+    "serial": 420,
+    "name": "The Gadhinglaj MAHARASHTR KOLHAPUR 13/11/1950 Urban Name :Sunil Ajara-Sankeshwar",
+    "state": null
+  },
+  {
+    "serial": 421,
+    "name": "THE MANDAL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 422,
+    "name": "Shri Adinath Coop MAHARASHTR KOLHAPUR 15/03/1996 Urban Name :Jaykumar 7/23,24, Adat",
+    "state": null
+  },
+  {
+    "serial": 423,
+    "name": "Laxmi Vishnu MAHARASHTR KOLHAPUR 05/04/1995 Urban Name :Mr Vijay Chandrasen Villa",
+    "state": null
+  },
+  {
+    "serial": 424,
+    "name": "The Ichalkaranji MAHARASHTR KOLHAPUR 03/05/1995 Urban Name :Mr Dipak Ward No.27",
+    "state": null
+  },
+  {
+    "serial": 425,
+    "name": "Sanmati Sahakari MAHARASHTR KOLHAPUR 09/08/1996 Urban Name :Ashok 7/111, Laxmi",
+    "state": null
+  },
+  {
+    "serial": 426,
+    "name": "THE MHESANA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 427,
+    "name": "Dr. Annasaheb MAHARASHTR KOLHAPUR 12/10/1957 Urban Name :Shri A/p - Wani Peth",
+    "state": null
+  },
+  {
+    "serial": 428,
+    "name": "D Y Patil Sahakari MAHARASHTR KOLHAPUR 03/06/1995 Urban Name :Haridas 2457, E ward",
+    "state": null
+  },
+  {
+    "serial": 429,
+    "name": "Chartered Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 430,
+    "name": "THE",
+    "state": "Haryana"
+  },
+  {
+    "serial": 431,
+    "name": "Shripatraodada MAHARASHTR KOLHAPUR 13/01/1995 Urban Name :Sarjerao 573 E, Vyapari",
+    "state": null
+  },
+  {
+    "serial": 432,
+    "name": "THE AMOD",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 433,
+    "name": "SRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 434,
+    "name": "Adv. Shamraoji MAHARASHTR KOLHAPUR 31/07/1997 Urban Name :Shri Satish 2292 C ward",
+    "state": null
+  },
+  {
+    "serial": 435,
+    "name": "THE KADI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 436,
+    "name": "The Kolhapur MAHARASHTR KOLHAPUR 30/09/1913 Urban Name :Ramdas 514, D ward",
+    "state": null
+  },
+  {
+    "serial": 437,
+    "name": "Shri Mahalaxmi MAHARASHTR KOLHAPUR 10/01/1933 Urban Name :Bajirao 167, B ward, Shri",
+    "state": null
+  },
+  {
+    "serial": 438,
+    "name": "THE MAHILA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 439,
+    "name": "Prakasapuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 440,
+    "name": "Mukkuperi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 441,
+    "name": "LAXMI MAHILA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 442,
+    "name": "SARVODAY",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 443,
+    "name": "Nazareth Urban",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 444,
+    "name": "Tiruchendur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 445,
+    "name": "KACHCHH",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 446,
+    "name": "SHREE BHUJ",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 447,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 448,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 449,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 450,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 451,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 452,
+    "name": "SHREE BHARAT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 453,
+    "name": "SINOR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 454,
+    "name": "COMMERCIAL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 455,
+    "name": "ALAVI CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 456,
+    "name": "THE CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 457,
+    "name": "SHREE CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 458,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 459,
+    "name": "Belur Urban Co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 460,
+    "name": "THE KARJAN",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 461,
+    "name": "THE BARODA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 462,
+    "name": "LALBAUG CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 463,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 464,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 465,
+    "name": "The Kankariya",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 466,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 467,
+    "name": "SULAIMANI CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 468,
+    "name": "SHRI VINAYAK",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 469,
+    "name": "Mahila Seva co op",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 470,
+    "name": "THE TEXTILE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 471,
+    "name": "SHREE TALAJA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 472,
+    "name": "JAI BHAWANI MAHARASHTR PUNE 22/08/1972 Urban Name :sadhanshu 107, PAWAR",
+    "state": null
+  },
+  {
+    "serial": 473,
+    "name": "Sawantwadi MAHARASHTR SINDHUDURG 30/06/1947 Urban Name :Supriya Ubha Bajar, Shri",
+    "state": null
+  },
+  {
+    "serial": 474,
+    "name": "D Devgad Urban MAHARASHTR SINDHUDURG 23/11/1935 Urban Name :Shrikant 802, near Civil",
+    "state": null
+  },
+  {
+    "serial": 475,
+    "name": "The Suvikas",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 476,
+    "name": "M S CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 477,
+    "name": "THE VERAVAL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 478,
+    "name": "R.9710 Ariyalur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 479,
+    "name": "SHREE SAVLI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 480,
+    "name": "The",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 481,
+    "name": "Bhavanikudal Co-",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 482,
+    "name": "MAHILA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 483,
+    "name": "Gobichettipalayam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 484,
+    "name": "The ChennimalaiC",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 485,
+    "name": "UMA CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 486,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 487,
+    "name": "Thiruvaikuntam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 488,
+    "name": "BHILWARA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 489,
+    "name": "BHILWARA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 490,
+    "name": "THE BARODA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 491,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 492,
+    "name": "SHREE CHHANI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 493,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 494,
+    "name": "PADRA NAGAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 495,
+    "name": "PUNE MAHARASHTR PUNE 13/02/1914 Urban Name :SUDESH 768, SADASHIV",
+    "state": null
+  },
+  {
+    "serial": 496,
+    "name": "PUNE MAHARASHTR PUNE 11/07/1923 Urban Name :MR 151, M G ROAD",
+    "state": null
+  },
+  {
+    "serial": 497,
+    "name": "Ambika Mahila MAHARASHTR Ahilyanagar 18/09/1987 Urban Name :Rohini AhmadnPanchpir",
+    "state": null
+  },
+  {
+    "serial": 498,
+    "name": "UDYAM VIKAS MAHARASHTR PUNE 06/02/1989 Urban Name 8/6,Erandwana",
+    "state": null
+  },
+  {
+    "serial": 499,
+    "name": "Kovilpatti",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 500,
+    "name": "PRAGATI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 501,
+    "name": "Tuticorin Melur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 502,
+    "name": "MAKARPURA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 503,
+    "name": "Indira Mahila MAHARASHTR NANDURBAR 19/11/1976 Urban Name :Balkrushna Shriram Tower",
+    "state": null
+  },
+  {
+    "serial": 504,
+    "name": "Nandurbar MAHARASHTR NANDURBAR 28/09/1994 Urban Name :Kanaiyalal 1030 kanhaiya",
+    "state": null
+  },
+  {
+    "serial": 505,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 506,
+    "name": "THE RANUNJ",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 507,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 508,
+    "name": "THE CHHAPI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 509,
+    "name": "THE VIRAPUR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 510,
+    "name": "BALASINOR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 511,
+    "name": "DEFENCE MAHARASHTR PUNE 05/03/1980 Urban Name :MR 2013, TILAK",
+    "state": null
+  },
+  {
+    "serial": 512,
+    "name": "SAMPADA CO- MAHARASHTR PUNE 31/05/1974 Urban Name :MR 717, GANESH",
+    "state": null
+  },
+  {
+    "serial": 513,
+    "name": "RAJPIPLA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 514,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 515,
+    "name": "THE PATAN",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 516,
+    "name": "THE CHANSMA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 517,
+    "name": "THE HARIJ",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 518,
+    "name": "THE CHANSMA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 519,
+    "name": "THE SHAHADA MAHARASHTR NANDURBAR 02/05/1950 Urban Name :SHRI shahada, Shahade",
+    "state": null
+  },
+  {
+    "serial": 520,
+    "name": "THE KODINAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 521,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 522,
+    "name": "BHAGINI MAHARASHTR PUNE 26/03/1974 Urban Name :SMITA NIVEDITA",
+    "state": null
+  },
+  {
+    "serial": 13,
+    "name": "Erandwana ?",
+    "state": null
+  },
+  {
+    "serial": 523,
+    "name": "PUNE CO- MAHARASHTR PUNE 28/07/2003 Urban Name 1388, MAURYA",
+    "state": null
+  },
+  {
+    "serial": 524,
+    "name": "VIDYA CO- MAHARASHTR PUNE 09/04/1974 Urban Name :MRS C S NO 1355",
+    "state": null
+  },
+  {
+    "serial": 525,
+    "name": "THE KHATAV MAHARASHTR MUMBAI 12/04/1977 Urban Name :SUBHASH ABC, L - Ward",
+    "state": null
+  },
+  {
+    "serial": 526,
+    "name": "NAVAPUR MAHARASHTR NANDURBAR 03/10/1997 Urban Name :NILESH G Nawapur (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 527,
+    "name": "The Sanghamitra",
+    "state": "Telangana"
+  },
+  {
+    "serial": 528,
+    "name": "THE MANDVI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 529,
+    "name": "THE BARDOLI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 530,
+    "name": "AKHAND",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 531,
+    "name": "ASSOCIATE CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 532,
+    "name": "ADINATH CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 533,
+    "name": "THE PRIME CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 534,
+    "name": "THE SURAT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 535,
+    "name": "TEXTILE CO",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 536,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 537,
+    "name": "THE FINANCIAL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 538,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 539,
+    "name": "THE SURAT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 540,
+    "name": "THE RANDER",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 541,
+    "name": "The Laxmi Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 542,
+    "name": "THE",
+    "state": "Haryana"
+  },
+  {
+    "serial": 543,
+    "name": "GULBARGA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 544,
+    "name": "SHREE MORBI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 545,
+    "name": "THE VERAVAL",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 546,
+    "name": "THE MOTI MAHARASHTR NANDURBAR 21/07/1997 Urban Name :SHRI Talode (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 547,
+    "name": "SREE BHYRAW",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 548,
+    "name": "The Kashmir JAMMU AND BARAMULLA 15/11/1986 Urban Name :Fayaz Sopore (MC) -",
+    "state": null
+  },
+  {
+    "serial": 549,
+    "name": "SHRI VEERBHA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 550,
+    "name": "DEOGIRI MAHARASHTR Chhatrapati 24/01/1984 Urban Name :PRAVIN ARTH COMPEX",
+    "state": null
+  },
+  {
+    "serial": 551,
+    "name": "JYOTIRLINGA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 552,
+    "name": "DISTRICT GOVT",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 553,
+    "name": "VIJAYAPUR CO",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 554,
+    "name": "DISTRICT",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 555,
+    "name": "THE MAHARASHTR BULDHANA 12/07/2000 Urban Name :SUDHIR Y Khamgaon (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 556,
+    "name": "VAISHALI",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 557,
+    "name": "CHAITHANYA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 558,
+    "name": "JAIPUR JILA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 559,
+    "name": "THE JAIPUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 560,
+    "name": "MALVIYA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 561,
+    "name": "THE RAJASTHA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 562,
+    "name": "THE EAILWAY",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 563,
+    "name": "THE RAJLAXMI",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 564,
+    "name": "DECCAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 565,
+    "name": "SHREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 566,
+    "name": "SHRI GANESH MAHARASHTR PUNE 19/11/1952 Urban Name :MR 10, BUDHWAR",
+    "state": null
+  },
+  {
+    "serial": 567,
+    "name": "SHREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 568,
+    "name": "janseva sahakari MAHARASHTR MUMBAI 11/01/1982 Urban Name :sachin flat no.101 102 1st",
+    "state": null
+  },
+  {
+    "serial": 569,
+    "name": "Rameshwar MAHARASHTR MUMBAI 27/07/2000 Urban Name :shambhaji R/North - Ward",
+    "state": null
+  },
+  {
+    "serial": 570,
+    "name": "URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 571,
+    "name": "URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 572,
+    "name": "URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 573,
+    "name": "BASIN MAHARASHTR PALGHAR 06/02/1918 Urban Name Virar (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 574,
+    "name": "Lalgudi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 575,
+    "name": "SIKAR URBAN",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 576,
+    "name": "SHRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 577,
+    "name": "Musiri Urban",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 578,
+    "name": "BHEL Employees",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 579,
+    "name": "Manapparai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 580,
+    "name": "The Parwanoo HIMACHAL SOLAN 11/09/1997 Urban Name :Ajay Parwanoo (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 581,
+    "name": "Dahanu Road MAHARASHTR THANE 13/07/1937 Urban Name :Shri Jayant Dahanu (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 582,
+    "name": "Varaganery",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 583,
+    "name": "Desaiganj Nagri MAHARASHTR GADCHIROLI 17/10/1990 Urban Name :Govinda PATEL WARD",
+    "state": null
+  },
+  {
+    "serial": 584,
+    "name": "Srirangam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 585,
+    "name": "MAHESH MAHARASHTR PUNE 07/09/1972 Urban Name :PUROHIT PLOT NO.",
+    "state": null
+  },
+  {
+    "serial": 586,
+    "name": "VASAI VIKAS MAHARASHTR PALGHAR 31/03/1984 Urban Name :ASHAY Virar (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 587,
+    "name": "Gadchiroli Nagri MAHARASHTR GADCHIROLI 27/03/1997 Urban Name :S B Potwar Gadchiroli (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 588,
+    "name": "VASAI JANTA MAHARASHTR PALGHAR 21/09/1973 Urban Name :MAHESH Virar (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 589,
+    "name": "The Nalgonda",
+    "state": "Telangana"
+  },
+  {
+    "serial": 590,
+    "name": "Trichy",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 591,
+    "name": "Trichy City",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 592,
+    "name": "Pune Urban Co- MAHARASHTR PUNE 16/07/1924 Urban Name :Sadhu Pune(M",
+    "state": null
+  },
+  {
+    "serial": 593,
+    "name": "THE BIJAPUR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 594,
+    "name": "BAGALKOTE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 595,
+    "name": "RAJARSHI MAHARASHTR PUNE 13/09/1984 Urban Name 1304/1/10",
+    "state": null
+  },
+  {
+    "serial": 596,
+    "name": "ADARSH MAHARASHTR Chhatrapati 30/05/1997 Urban Name :SURESH SAMADHAN",
+    "state": null
+  },
+  {
+    "serial": 597,
+    "name": "THE MUSLIM MAHARASHTR PUNE 25/05/1931 Urban Name :MR 633, RAVIWAR",
+    "state": null
+  },
+  {
+    "serial": 598,
+    "name": "AURANGABD MAHARASHTR Chhatrapati 02/12/1998 Urban Name :VB AWARGAOKAR",
+    "state": null
+  },
+  {
+    "serial": 599,
+    "name": "The Bicholim",
+    "state": "Goa"
+  },
+  {
+    "serial": 600,
+    "name": "JIJAMATA MAHARASHTR PUNE 25/04/1974 Urban Name :MR MALATI",
+    "state": null
+  },
+  {
+    "serial": 601,
+    "name": "The Women",
+    "state": "Goa"
+  },
+  {
+    "serial": 602,
+    "name": "SRI SHARADA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 603,
+    "name": "PUNE MAHARASHTR PUNE 23/10/1924 Urban Name :MR 257, SHREE",
+    "state": null
+  },
+  {
+    "serial": 604,
+    "name": "VYSYA CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 605,
+    "name": "TGMC BANK",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 606,
+    "name": "The",
+    "state": "Goa"
+  },
+  {
+    "serial": 607,
+    "name": "The Jalgaon MAHARASHTR JALGAON 27/05/2016 Urban Name :Sapkale Jalgaon (M CO)",
+    "state": null
+  },
+  {
+    "serial": 608,
+    "name": "SRI PARSHWAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 609,
+    "name": "SIDDAGANA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 610,
+    "name": "Jila Sehkari MADHYA PANNA 30/03/1962 Urban Name :Manvendra Nehru ward",
+    "state": null
+  },
+  {
+    "serial": 611,
+    "name": "THE GANDEVI P",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 612,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 613,
+    "name": "SRI SIDDARAM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 614,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 615,
+    "name": "TUMKUR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 616,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 617,
+    "name": "THE MALAPUR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 618,
+    "name": "THE TOWN CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 619,
+    "name": "Raibag Urban Co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 620,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 621,
+    "name": "THE MODASA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 622,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 623,
+    "name": "SRHEE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 624,
+    "name": "THE DHARWAD",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 625,
+    "name": "The Baidyabati",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 626,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 627,
+    "name": "The Azad urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 628,
+    "name": "SHREE GANESH MAHARASHTR PUNE 08/05/2001 Urban Name :SANJAY SANGAVI PUNE",
+    "state": null
+  },
+  {
+    "serial": 629,
+    "name": "SHREE ANAND MAHARASHTR PUNE 14/07/2005 Urban Name :RAMESH CHINCHWAD",
+    "state": null
+  },
+  {
+    "serial": 630,
+    "name": "SEVA VIKAS CO MAHARASHTR PUNE 09/07/2019 Urban Name :AMAR M PIMPRI PUNE",
+    "state": null
+  },
+  {
+    "serial": 631,
+    "name": "PRERNA CO MAHARASHTR PUNE 16/06/2020 Urban Name :JOSHI THERGAON",
+    "state": null
+  },
+  {
+    "serial": 632,
+    "name": "PIMPRI MAHARASHTR PUNE 16/07/2001 Urban Name :RAKESH PIMPRI PUNE",
+    "state": null
+  },
+  {
+    "serial": 633,
+    "name": "JAY HIND MAHARASHTR PUNE 12/03/1998 Urban Name :A D WAKAD PUNE",
+    "state": null
+  },
+  {
+    "serial": 634,
+    "name": "INDRAYANI CO MAHARASHTR PUNE 21/10/1987 Urban Name :JADHAV PIMPRI PUNE",
+    "state": null
+  },
+  {
+    "serial": 635,
+    "name": "ASHOK NAGRI MAHARASHTR PUNE 17/07/2001 Urban Name SANT",
+    "state": null
+  },
+  {
+    "serial": 636,
+    "name": "Shri",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 637,
+    "name": "The Baghat Urban HIMACHAL SOLAN 07/09/1970 Urban Name :Raj Kumar Thodo Ground",
+    "state": null
+  },
+  {
+    "serial": 638,
+    "name": "Jijamata Women's MAHARASHTR BULDHANA 16/12/1991 Urban Name :Suyesh Buldana (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 639,
+    "name": "Kittur Rani",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 640,
+    "name": "The Shimla Urban HIMACHAL SHIMLA 17/09/1963 Urban Name :Jagdeep The Shimla Urban",
+    "state": null
+  },
+  {
+    "serial": 641,
+    "name": "Shri",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 642,
+    "name": "Maratha Coop",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 643,
+    "name": "S.S.K.Coop Bank",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 644,
+    "name": "Shri Kanyka Nagri MAHARASHTR CHANDRAPUR 29/11/1982 Urban Name :Ashok P Chandrapur (M",
+    "state": null
+  },
+  {
+    "serial": 645,
+    "name": "VITA MAHARASHTR SANGLI 14/12/1936 Urban Name Vita (M Cl) Ward",
+    "state": null
+  },
+  {
+    "serial": 646,
+    "name": "Sanmitra Mahila MAHARASHTR CHANDRAPUR 23/09/1997 Urban Name :Laxman Chandrapur (M",
+    "state": null
+  },
+  {
+    "serial": 647,
+    "name": "The Hooghly Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 648,
+    "name": "The Uttarpara Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 649,
+    "name": "THE SHIRPUR MAHARASHTR DHULE 22/01/1996 Urban Name :Shri C.T.S.No.1605/A",
+    "state": null
+  },
+  {
+    "serial": 650,
+    "name": "THE SHIRPUR MAHARASHTR DHULE 30/05/1946 Urban Name :SANJAY At Post shirpur",
+    "state": null
+  },
+  {
+    "serial": 651,
+    "name": "Shri Anand Nagari MAHARASHTR CHANDRAPUR 30/05/1996 Urban Name :Deepak R Chandrapur (M",
+    "state": null
+  },
+  {
+    "serial": 652,
+    "name": "Bramhapuri Urban MAHARASHTR CHANDRAPUR 11/07/1996 Urban Name :Atul Brahmapuri (M",
+    "state": null
+  },
+  {
+    "serial": 653,
+    "name": "Universal Coop.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 654,
+    "name": "Bellampally Coop.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 655,
+    "name": "Nabagram Peoples",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 656,
+    "name": "KONNAGAR",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 657,
+    "name": "SIRCILLA",
+    "state": "Telangana"
+  },
+  {
+    "serial": 658,
+    "name": "VITA URBAN MAHARASHTR SANGLI 15/03/1972 Urban Name Vita (M Cl) Ward",
+    "state": null
+  },
+  {
+    "serial": 659,
+    "name": "TEXTILES",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 660,
+    "name": "BANGALORE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 662,
+    "name": "LOKMANGAL MAHARASHTR SOLAPUR 21/07/1997 Urban Name Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 663,
+    "name": "Mahatma Fule MAHARASHTR AMRAVATI 18/02/1999 Urban Name :Hingane 1, Amravati (M",
+    "state": null
+  },
+  {
+    "serial": 664,
+    "name": "SAMATA MAHARASHTR MUMBAI 30/07/1983 Urban Name :RAJESH H/West - Ward",
+    "state": null
+  },
+  {
+    "serial": 665,
+    "name": "THE CHOPDA MAHARASHTR JALGAON 23/12/1986 Urban Name Chopda, Chopda",
+    "state": null
+  },
+  {
+    "serial": 666,
+    "name": "ANURADHA MAHARASHTR BULDHANA 15/01/1999 Urban Name :RAHUL SHIVAJI",
+    "state": null
+  },
+  {
+    "serial": 667,
+    "name": "SHER MAHAVIR MAHARASHTR SOLAPUR 08/07/1997 Urban Name 60/61 WEST",
+    "state": null
+  },
+  {
+    "serial": 668,
+    "name": "MAHESH MAHARASHTR SOLAPUR 08/07/1996 Urban Name 128 SUKARWAR",
+    "state": null
+  },
+  {
+    "serial": 669,
+    "name": "AAILYA URBAN MAHARASHTR SOLAPUR 31/07/1997 Urban Name :LAVTE 72/1 RELAY",
+    "state": null
+  },
+  {
+    "serial": 670,
+    "name": "RAVER PEOPLE MAHARASHTR JALGAON 10/10/1934 Urban Name :PRAKASH Raver (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 671,
+    "name": "GS MAHARASHTR MUMBAI 06/10/1973 Urban Name :UDAY F/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 672,
+    "name": "The Kunbi MAHARASHTR MUMBAI 14/10/2022 Urban Name :Mr Vithal F/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 673,
+    "name": "SINDHUDURG MAHARASHTR MUMBAI 12/03/1998 Urban Name F/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 674,
+    "name": "SHREERAM MAHARASHTR MUMBAI 31/07/2001 Urban Name :MR F/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 675,
+    "name": "RAIGAD MAHARASHTR MUMBAI 09/08/1984 Urban Name :Shri Rajiv F/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 676,
+    "name": "KURLA MAHARASHTR MUMBAI 02/10/1950 Urban Name L - Ward No. 156",
+    "state": null
+  },
+  {
+    "serial": 677,
+    "name": "THE SAHEBRAO MAHARASHTR MUMBAI 02/10/1972 Urban Name :SUBHASH cosmos co-op",
+    "state": null
+  },
+  {
+    "serial": 678,
+    "name": "Ravi commercial MAHARASHTR NAGPUR 22/03/1999 Urban Name :Shri 20 Laxminarayan",
+    "state": null
+  },
+  {
+    "serial": 679,
+    "name": "The Samruddhi Co- MAHARASHTR NAGPUR 16/04/1998 Urban Name :Shri Amit 22 A Wanzari",
+    "state": null
+  },
+  {
+    "serial": 680,
+    "name": "The Samata MAHARASHTR NAGPUR 03/07/1986 Urban Name :Shri CM Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 681,
+    "name": "PRERNA MAHARASHTR Chhatrapati 07/02/1999 Urban Name N-9 J PT NO 14",
+    "state": null
+  },
+  {
+    "serial": 682,
+    "name": "Jansewa Urban Co- MAHARASHTR NAGPUR 05/04/1999 Urban Name :Ramtikaya Makkasath Chowk",
+    "state": null
+  },
+  {
+    "serial": 683,
+    "name": "STANDARD MAHARASHTR Chhatrapati 31/05/1999 Urban Name :LB JNEC MGM",
+    "state": null
+  },
+  {
+    "serial": 684,
+    "name": "JUGALKISHOR MAHARASHTR Chhatrapati 30/03/1998 Urban Name ROKDIYA",
+    "state": null
+  },
+  {
+    "serial": 685,
+    "name": "The Chitanvispura MAHARASHTR NAGPUR 11/11/1987 Urban Name :Shri Ajay Budhawar Bazaar",
+    "state": null
+  },
+  {
+    "serial": 686,
+    "name": "AJANTHA MAHARASHTR Chhatrapati 22/12/1997 Urban Name :MUKESH ZANMBAD",
+    "state": null
+  },
+  {
+    "serial": 687,
+    "name": "Gandhibagh MAHARASHTR NAGPUR 18/07/1963 Urban Name :Bhanudas Sakkardhara",
+    "state": null
+  },
+  {
+    "serial": 688,
+    "name": "Umiya Urban MAHARASHTR NAGPUR 16/04/1998 Urban Name :Anup Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 689,
+    "name": "Shikshak Sahakari MAHARASHTR NAGPUR 31/07/1976 Urban Name :Vijay Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 690,
+    "name": "BHAVANI MAHARASHTR BEED 30/11/1994 Urban Name NEAR OLD BUS",
+    "state": null
+  },
+  {
+    "serial": 691,
+    "name": "Mangal Co-op MAHARASHTR MUMBAI 02/12/1996 Urban Name :Jasaram 168 Jawahar",
+    "state": null
+  },
+  {
+    "serial": 692,
+    "name": "The Malad co- op MAHARASHTR MUMBAI 22/01/1975 Urban Name :VINOD Sujata Niketan",
+    "state": null
+  },
+  {
+    "serial": 693,
+    "name": "Harugeri Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 694,
+    "name": "Shri Shivayogi",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 695,
+    "name": "The Primary",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 696,
+    "name": "Janata Urban Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 697,
+    "name": "Dhanshri Co-Op",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 698,
+    "name": "THE ABHINAV MAHARASHTR THANE 05/02/1976 Urban Name :Pranali PLOT NO - 48",
+    "state": null
+  },
+  {
+    "serial": 699,
+    "name": "THE CHIKHALI MAHARASHTR BULDHANA 23/09/1961 Urban Name :SATISH Chikhli (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 700,
+    "name": "Shriram Urban MAHARASHTR NAGPUR 27/09/1985 Urban Name :Abhiram Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 701,
+    "name": "Bedakihal Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 702,
+    "name": "Janata Urban Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 703,
+    "name": "Shedbal Urban Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 704,
+    "name": "D.T.Patil Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 705,
+    "name": "Mogaveera MAHARASHTR MUMBAI 01/04/1946 Urban Name :puthran K/West - Ward",
+    "state": null
+  },
+  {
+    "serial": 706,
+    "name": "Aroodjyoti urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 707,
+    "name": "The Mandi Urban HIMACHAL MANDI 12/02/1960 Urban Name :Dev Bart Samkheter",
+    "state": null
+  },
+  {
+    "serial": 708,
+    "name": "Shri Shantappanna",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 709,
+    "name": "THE PUSAD MAHARASHTR YAVATMAL 02/03/1985 Urban Name :SHARAD Pusad (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 710,
+    "name": "SURAT",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 711,
+    "name": "KOKANPRANT MAHARASHTR MUMBAI 22/07/1931 Urban Name :SATISH D - Ward No. 217",
+    "state": null
+  },
+  {
+    "serial": 712,
+    "name": "The Anjan",
+    "state": "Goa"
+  },
+  {
+    "serial": 713,
+    "name": "The amravati jilha MAHARASHTR AMRAVATI 15/08/1976 Urban Name :Salve Amravati (M",
+    "state": null
+  },
+  {
+    "serial": 714,
+    "name": "The amravati MAHARASHTR AMRAVATI 25/08/1994 Urban Name :uke Amravati (M",
+    "state": null
+  },
+  {
+    "serial": 715,
+    "name": "Doc Panjabrao MAHARASHTR AMRAVATI 27/12/1973 Urban Name :Naresh Amravati (M",
+    "state": null
+  },
+  {
+    "serial": 716,
+    "name": "Janata sahakri MAHARASHTR AMRAVATI 05/08/1979 Urban Name :Nimkar 1, Amravati (M",
+    "state": null
+  },
+  {
+    "serial": 717,
+    "name": "Jijau commercial MAHARASHTR AMRAVATI 31/03/1999 Urban Name :Avinash A Main office jijau",
+    "state": null
+  },
+  {
+    "serial": 718,
+    "name": "The amravati jilha MAHARASHTR AMRAVATI 12/03/1975 Urban Name :Bhamodkar 1, Amravati",
+    "state": null
+  },
+  {
+    "serial": 719,
+    "name": "RAJARAMBAPU MAHARASHTR SANGLI 29/06/1981 Urban Name :Surykant V Peth, PETH, VAL",
+    "state": null
+  },
+  {
+    "serial": 720,
+    "name": "THE MUMBAI M MAHARASHTR MUMBAI 15/02/1932 Urban Name :RAJESH D - Ward No. 214",
+    "state": null
+  },
+  {
+    "serial": 721,
+    "name": "The ISLAMPUR MAHARASHTR SANGLI 26/06/1935 Urban Name :Ankush V Uran Islampur (M",
+    "state": null
+  },
+  {
+    "serial": 722,
+    "name": "M D PAVAR MAHARASHTR SANGLI 04/05/1926 Urban Name :Santosh Uran Islampur",
+    "state": null
+  },
+  {
+    "serial": 723,
+    "name": "Nirmal Urban MAHARASHTR NAGPUR 30/12/1978 Urban Name :V V S Sakkardhara",
+    "state": null
+  },
+  {
+    "serial": 724,
+    "name": "VAISHYA MAHARASHTR MUMBAI 12/11/1945 Urban Name :SANJAY D - Ward No. 218",
+    "state": null
+  },
+  {
+    "serial": 725,
+    "name": "The Chamba HIMACHAL CHAMBA 12/01/1961 Urban Name :Dheeraj Chamba (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 726,
+    "name": "Tirupati Urban MAHARASHTR NAGPUR 31/03/1995 Urban Name :Ram Mangalwari",
+    "state": null
+  },
+  {
+    "serial": 727,
+    "name": "LOKVIKAS MAHARASHTR Chhatrapati 16/10/1996 Urban Name Aurangabad (M",
+    "state": null
+  },
+  {
+    "serial": 728,
+    "name": "THE DECCAN MAHARASHTR MUMBAI 30/08/1917 Urban Name :VICHARE D - Ward No. 215",
+    "state": null
+  },
+  {
+    "serial": 729,
+    "name": "HUTATMA CO- MAHARASHTR SANGLI 15/03/1996 Urban Name :Shrikant N Walwa, WALWA",
+    "state": null
+  },
+  {
+    "serial": 730,
+    "name": "ASHTA PEOPLS MAHARASHTR SANGLI 20/02/1960 Urban Name :Sumant Ashta (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 731,
+    "name": "SANT MAHARASHTR PUNE 09/04/1997 Urban Name :DILIP Sasvad(M CI)",
+    "state": null
+  },
+  {
+    "serial": 732,
+    "name": "THE BEED MAHARASHTR BEED 09/03/1956 Urban Name Bid (M Cl) - Ward",
+    "state": null
+  },
+  {
+    "serial": 733,
+    "name": "SHRI GAJANAN MAHARASHTR JALNA 16/03/1995 Urban Name :SHRI Market Yard]",
+    "state": null
+  },
+  {
+    "serial": 734,
+    "name": "Wardhaman MAHARASHTR NAGPUR 09/02/1999 Urban Name :Ramesh Gandhisagar",
+    "state": null
+  },
+  {
+    "serial": 735,
+    "name": "The Kanyaka",
+    "state": "Telangana"
+  },
+  {
+    "serial": 736,
+    "name": "THE CITIZEN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 10,
+    "name": "737 Shree Krushna MAHARASHTR NAGPUR 12/12/1996 Urban Name :Ramesh Ghoturli",
+    "state": null
+  },
+  {
+    "serial": 738,
+    "name": "The Pulgaon MAHARASHTR WARDHA 01/08/1992 Urban Name :Ramesh B Pulgaon (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 739,
+    "name": "The Palamoor",
+    "state": "Telangana"
+  },
+  {
+    "serial": 740,
+    "name": "JANATA MAHARASHTR SATARA 07/03/1963 Urban Name :ANIL 179, BHAWANI",
+    "state": null
+  },
+  {
+    "serial": 741,
+    "name": "DR MAHARASHTR Chhatrapati 19/01/1996 Urban Name :SHINDE Aurangabad (M",
+    "state": null
+  },
+  {
+    "serial": 742,
+    "name": "Pragathi Co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 743,
+    "name": "Janta Coop. Bank MAHARASHTR NASHIK 18/10/1973 Urban Name :Ansari 1398, Kidwai",
+    "state": null
+  },
+  {
+    "serial": 744,
+    "name": "The Malegaon MAHARASHTR NASHIK 30/06/1962 Urban Name :Kailas Malegaon (Mu",
+    "state": null
+  },
+  {
+    "serial": 745,
+    "name": "THE.JAWHAR MAHARASHTR PALGHAR 19/07/1949 Urban Name :PRASAD JAWHAR",
+    "state": null
+  },
+  {
+    "serial": 746,
+    "name": "LAKSHMI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 747,
+    "name": "POORNAWADI MAHARASHTR BEED 09/10/1984 Urban Name :RAJESH 2-11-286",
+    "state": null
+  },
+  {
+    "serial": 748,
+    "name": "Indira Mahila MAHARASHTR NASHIK 12/09/1996 Urban Name :S P Vastalya",
+    "state": null
+  },
+  {
+    "serial": 749,
+    "name": "Motiram Agrawal MAHARASHTR JALNA 26/03/1997 Urban Name Ward No.1, Jalna",
+    "state": null
+  },
+  {
+    "serial": 750,
+    "name": "SRI GURU",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 751,
+    "name": "HOTEL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 752,
+    "name": "Samarth Sahakari MAHARASHTR JALNA 25/11/1998 Urban Name :Rajkumar Ward No.1, Jalna",
+    "state": null
+  },
+  {
+    "serial": 753,
+    "name": "SRI M VISHWES",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 754,
+    "name": "THE HANUMAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 755,
+    "name": "SHRI MAHARASHTR BEED 05/10/1995 Urban Name :AJAY Bid (M Cl) - Ward",
+    "state": null
+  },
+  {
+    "serial": 756,
+    "name": "BARAMATI MAHARASHTR PUNE 23/09/1961 Urban Name Baramati (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 757,
+    "name": "SARASWATI MAHARASHTR NASHIK 30/06/1997 Urban Name :Bhausaheb Ojhar, NIPHAD",
+    "state": null
+  },
+  {
+    "serial": 758,
+    "name": "the mahila urban MAHARASHTR GONDIA 12/07/1994 Urban Name :Smt Gondiya (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 759,
+    "name": "SIR M VISHVES",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 760,
+    "name": "RAJAMPETA ANDHRA Y.S.R. 02/12/1929 Urban Name :K G Tallapaka",
+    "state": null
+  },
+  {
+    "serial": 761,
+    "name": "THE NATIONAL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 762,
+    "name": "Vaynkatesh Co- MAHARASHTR NASHIK 18/02/1995 Urban Name :Suresh Market Yard",
+    "state": null
+  },
+  {
+    "serial": 763,
+    "name": "The Jalna Peoples MAHARASHTR JALNA 01/09/1917 Urban Name :VIJAY G Ward No.20",
+    "state": null
+  },
+  {
+    "serial": 764,
+    "name": "ASHOKANAGA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 765,
+    "name": "THYAGARAJA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 766,
+    "name": "SUVARNA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 767,
+    "name": "THE RAYAT MAHARASHTR SATARA 16/08/1940 Urban Name Satara (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 768,
+    "name": "THE ALIBAG MAHARASHTR RAIGAD 14/06/1963 Urban Name : B C More Alibag (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 769,
+    "name": "THE MAHARASHTR RAIGAD 18/10/1928 Urban Name :Hajate Revdanda",
+    "state": null
+  },
+  {
+    "serial": 770,
+    "name": "PIMPALGAON MAHARASHTR NASHIK 29/03/1960 Urban Name :BHOJRAJ Pimpalgaon",
+    "state": null
+  },
+  {
+    "serial": 771,
+    "name": "Priyadashani MAHARASHTR JALNA 14/10/1994 Urban Name :Sachin M Ward No.1, Jalna",
+    "state": null
+  },
+  {
+    "serial": 772,
+    "name": "OZAR MAHARASHTR NASHIK 10/04/1961 Urban Name :Shankar Shri Vallabh",
+    "state": null
+  },
+  {
+    "serial": 773,
+    "name": "JANATA MAHARASHTR GONDIA 29/03/1969 Urban Name :Shri deshbandhu",
+    "state": null
+  },
+  {
+    "serial": 774,
+    "name": "The Almel Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 775,
+    "name": "THE MAHARASHTR NASHIK 17/11/1944 Urban Name Lasalgaon",
+    "state": null
+  },
+  {
+    "serial": 776,
+    "name": "Prathamik MAHARASHTR SATARA 17/04/1948 Urban Name :VIJAY 12B, RAVIVAR",
+    "state": null
+  },
+  {
+    "serial": 777,
+    "name": "COL RD NIKAM MAHARASHTR SATARA 22/06/1984 Urban Name Satara (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 778,
+    "name": "THE ROHTAK",
+    "state": "Haryana"
+  },
+  {
+    "serial": 779,
+    "name": "SONPETH MAHARASHTR PARBHANI 06/03/1997 Urban Name AATHAWADI",
+    "state": null
+  },
+  {
+    "serial": 780,
+    "name": "The Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 781,
+    "name": "NAGRIK MADHYA SHIVPURI 07/11/1974 Urban Name :SHRI Gandhi ward",
+    "state": null
+  },
+  {
+    "serial": 782,
+    "name": "MANVAT MAHARASHTR PARBHANI 17/07/1995 Urban Name :D P MAIN RAOD",
+    "state": null
+  },
+  {
+    "serial": 783,
+    "name": "Ambarnath Jai MAHARASHTR THANE 21/06/1985 Urban Name :Vijay 42 lokmanya Tilak",
+    "state": null
+  },
+  {
+    "serial": 784,
+    "name": "WANA NAGRIK MAHARASHTR WARDHA 03/03/1998 Urban Name :SHRI KOCHAR",
+    "state": null
+  },
+  {
+    "serial": 785,
+    "name": "The Washim MAHARASHTR WASHIM 01/11/1975 Urban Name :SHRI Washim(M Cl)-",
+    "state": null
+  },
+  {
+    "serial": 786,
+    "name": "Navabharath",
+    "state": "Telangana"
+  },
+  {
+    "serial": 787,
+    "name": "VIDYANNAD MAHARASHTR SOLAPUR 19/06/1997 Urban Name 13 BHUDAWAR",
+    "state": null
+  },
+  {
+    "serial": 788,
+    "name": "The Latur Urban MAHARASHTR LATUR 23/01/1995 Urban Name :Bhandarii The latur urban co",
+    "state": null
+  },
+  {
+    "serial": 789,
+    "name": "SHARD NAGARI MAHARASHTR SOLAPUR 01/01/1970 Urban Name 218/219",
+    "state": null
+  },
+  {
+    "serial": 790,
+    "name": "Devi Gayatri CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 791,
+    "name": "NEELKANTH MAHARASHTR SOLAPUR 07/01/1997 Urban Name :JADHVA 202 SUKARWAR",
+    "state": null
+  },
+  {
+    "serial": 792,
+    "name": "MAHESH MAHARASHTR PARBHANI 18/08/1996 Urban Name SARDAR PATEL",
+    "state": null
+  },
+  {
+    "serial": 793,
+    "name": "Praja CUB Ltd",
+    "state": "Telangana"
+  },
+  {
+    "serial": 794,
+    "name": "THE LAXMI MAHARASHTR SOLAPUR 06/06/1929 Urban Name :BAGAL P 319 SOUTH",
+    "state": null
+  },
+  {
+    "serial": 795,
+    "name": "Jagruthi",
+    "state": "Telangana"
+  },
+  {
+    "serial": 796,
+    "name": "DAUND URBAN MAHARASHTR PUNE 14/05/1998 Urban Name :SUSHIL Gandhi Chowk",
+    "state": null
+  },
+  {
+    "serial": 797,
+    "name": "The Kranthi CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 798,
+    "name": "Sri Gayatri CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 799,
+    "name": "The Adarsh CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 800,
+    "name": "The Kakatiya",
+    "state": "Telangana"
+  },
+  {
+    "serial": 801,
+    "name": "THE UDGIR MAHARASHTR LATUR 11/08/1997 Urban Name Select, Udgir",
+    "state": null
+  },
+  {
+    "serial": 802,
+    "name": "Sri Laxmi Mahila",
+    "state": "Telangana"
+  },
+  {
+    "serial": 803,
+    "name": "SAHYOG URAB MAHARASHTR LATUR 02/02/1998 Urban Name :DOLE Select, Udgir",
+    "state": null
+  },
+  {
+    "serial": 804,
+    "name": "Vasundara CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 805,
+    "name": "THE Amalner MAHARASHTR JALGAON 15/04/1926 Urban Name :Amrut Amalner (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 806,
+    "name": "THE KARAD MAHARASHTR SATARA 24/01/1917 Urban Name Shaniwar peth",
+    "state": null
+  },
+  {
+    "serial": 807,
+    "name": "VAISHYA MAHARASHTR PARBHANI 06/07/1996 Urban Name :D K SHANIWARI",
+    "state": null
+  },
+  {
+    "serial": 808,
+    "name": "Indapur Urban Co MAHARASHTR PUNE 17/05/1997 Urban Name :Devraj Indapur (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 809,
+    "name": "Walchandnagar MAHARASHTR PUNE 10/08/1968 Urban Name :Rajendra Kalamb",
+    "state": null
+  },
+  {
+    "serial": 810,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 811,
+    "name": "Ananda co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 812,
+    "name": "MAHILA CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 813,
+    "name": "SAIBABA MAHARASHTR PARBHANI 20/02/1995 Urban Name :R S VASANTRAO",
+    "state": null
+  },
+  {
+    "serial": 814,
+    "name": "Abhinandan co op MAHARASHTR AMRAVATI 31/03/1997 Urban Name :Shivaji Amravati (M",
+    "state": null
+  },
+  {
+    "serial": 815,
+    "name": "Urban",
+    "state": "Odisha"
+  },
+  {
+    "serial": 816,
+    "name": "Mamasaheb Pawar MAHARASHTR SANGLI 07/03/1964 Urban Name :Bharat Kundal",
+    "state": null
+  },
+  {
+    "serial": 817,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 818,
+    "name": "Janatha Seva Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 819,
+    "name": "Katakol co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 820,
+    "name": "AMANATH CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 821,
+    "name": "The Yaragatti",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 822,
+    "name": "Shree Mahant",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 823,
+    "name": "Munavalli",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 824,
+    "name": "Manihal urban co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 825,
+    "name": "Bajirao Appa Co- MAHARASHTR SANGLI 18/08/1997 Urban Name :Anadrao Ankalkhop",
+    "state": null
+  },
+  {
+    "serial": 826,
+    "name": "Ramdurg Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 827,
+    "name": "Jila Sahkari Krishi MADHYA RAISEN 12/10/1965 Urban Name :Ashok Raisen (M) - Amir",
+    "state": null
+  },
+  {
+    "serial": 828,
+    "name": "SARSVATI MAHARASHTR NASHIK 27/03/1997 Urban Name :RAKESH OZAR, NIPHAD",
+    "state": null
+  },
+  {
+    "serial": 829,
+    "name": "LOKNETE R D MAHARASHTR NASHIK 11/01/2001 Urban Name :SUBHASH Niphad (Mu Cl) -",
+    "state": null
+  },
+  {
+    "serial": 830,
+    "name": "The Chandwad M MAHARASHTR NASHIK 06/05/1959 Urban Name :Sachin Kamdhenu",
+    "state": null
+  },
+  {
+    "serial": 832,
+    "name": "KRISHNA MAHARASHTR SATARA 29/05/1971 Urban Name 1, Malkapur (M",
+    "state": null
+  },
+  {
+    "serial": 833,
+    "name": "Palus Sahkari MAHARASHTR SATARA 24/02/1966 Urban Name :Anil Ward No.4, Palus",
+    "state": null
+  },
+  {
+    "serial": 834,
+    "name": "The Mansingh Co- MAHARASHTR SANGLI 12/12/1996 Urban Name :Sambhaji Dudhondi",
+    "state": null
+  },
+  {
+    "serial": 835,
+    "name": "Malda Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 836,
+    "name": "THE NIPHAD MAHARASHTR NASHIK 16/01/1974 Urban Name :MOHAN Niphad (Mu Cl) -",
+    "state": null
+  },
+  {
+    "serial": 837,
+    "name": "KOYANA MAHARASHTR SATARA 21/06/1996 Urban Name GATE NO",
+    "state": null
+  },
+  {
+    "serial": 838,
+    "name": "ADARNIYA P.D. MAHARASHTR SATARA 16/03/1995 Urban Name :MOMIN 15/3C Mangalwar",
+    "state": null
+  },
+  {
+    "serial": 839,
+    "name": "THE MAHARASHTR SATARA 03/07/1973 Urban Name :MAHESH 56 Shaniwar Peth",
+    "state": null
+  },
+  {
+    "serial": 840,
+    "name": "VANI MAHARASHTR NASHIK 21/11/1961 Urban Name :Anilkumar Kasbe Vani",
+    "state": null
+  },
+  {
+    "serial": 841,
+    "name": "Jeypore",
+    "state": "Odisha"
+  },
+  {
+    "serial": 842,
+    "name": "JIJAMATA MAHARASHTR SATARA 25/01/1996 Urban Name :SHRISH Satara (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 843,
+    "name": "SWAMI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 844,
+    "name": "shree",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 845,
+    "name": "SHREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 846,
+    "name": "SHIV PARVATI MAHARASHTR PARBHANI 17/02/1995 Urban Name :ANJALI Parbhani (M CI) -",
+    "state": null
+  },
+  {
+    "serial": 847,
+    "name": "RESERVE BANK",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 560,
+    "name": "001",
+    "state": null
+  },
+  {
+    "serial": 848,
+    "name": "HALIYAL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 849,
+    "name": "THE KARWAR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 850,
+    "name": "VALMIKI MAHARASHTR PARBHANI 08/02/1999 Urban Name :B U SAI RAOD",
+    "state": null
+  },
+  {
+    "serial": 851,
+    "name": "RAJAJINAGARA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 852,
+    "name": "Kalghatagi Taluka",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 853,
+    "name": "Shree Warana MAHARASHTR KOLHAPUR 28/02/1966 Urban Name :Mr Rajesh A/p -",
+    "state": null
+  },
+  {
+    "serial": 854,
+    "name": "Government",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 855,
+    "name": "Shri Yashwant MAHARASHTR KOLHAPUR 28/06/1974 Urban Name :Mr Ramesh A/p - Kuditre, Tal",
+    "state": null
+  },
+  {
+    "serial": 856,
+    "name": "ARUNA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 857,
+    "name": "Manmad Urban MAHARASHTR NASHIK 30/10/1999 Urban Name :Gunwant Nandgaon (Mu Cl)",
+    "state": null
+  },
+  {
+    "serial": 858,
+    "name": "The Pragati Urban MAHARASHTR NASHIK 13/05/1996 Urban Name :Kiran Manmad (Mu Cl)",
+    "state": null
+  },
+  {
+    "serial": 859,
+    "name": "Samruddhi MAHARASHTR NASHIK 16/03/1998 Urban Name :Anjumtai Nandgaon (Mu Cl)",
+    "state": null
+  },
+  {
+    "serial": 860,
+    "name": "Veerashaiva",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 861,
+    "name": "Nyayamitra",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 862,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 863,
+    "name": "Sri Banashankari",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 864,
+    "name": "SRI RAMA CO",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 865,
+    "name": "The Accountant",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 866,
+    "name": "SREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 867,
+    "name": "SHRIMANT MAHARASHTR SATARA 10/07/1975 Urban Name :RAJESH Phaltan (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 868,
+    "name": "Indira Mahila MAHARASHTR LATUR 24/12/1996 Urban Name :Avinash Select, Latur",
+    "state": null
+  },
+  {
+    "serial": 869,
+    "name": "DEEPAK",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 870,
+    "name": "THE MAHARASHTR SATARA 12/06/1975 Urban Name Phaltan (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 871,
+    "name": "SRI KALIDASA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 560,
+    "name": "009",
+    "state": null
+  },
+  {
+    "serial": 872,
+    "name": "SRI LAKSHMIN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 873,
+    "name": "mayani urban MAHARASHTR SATARA 16/12/1973 Urban Name :chanrakant mayani",
+    "state": null
+  },
+  {
+    "serial": 874,
+    "name": "KOTESHWARA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 875,
+    "name": "KISAN NAGARI MAHARASHTR PARBHANI 17/10/1997 Urban Name :P G NEW MONDHA -",
+    "state": null
+  },
+  {
+    "serial": 876,
+    "name": "THE JANATHA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 877,
+    "name": "OM DATTA MAHARASHTR SATARA 14/11/1994 Urban Name :Ganesh Wai (M Cl) Ward",
+    "state": null
+  },
+  {
+    "serial": 878,
+    "name": "LALA URBAN MAHARASHTR PUNE 12/08/1974 Urban Name :PRADIP Narayangaon",
+    "state": null
+  },
+  {
+    "serial": 879,
+    "name": "JANATA MAHARASHTR SATARA 05/03/1998 Urban Name :Rupali Select, Wai",
+    "state": null
+  },
+  {
+    "serial": 880,
+    "name": "Sundarlal Sawji MAHARASHTR PARBHANI 30/12/1965 Urban Name :Niraj Jintur (M CI) -",
+    "state": null
+  },
+  {
+    "serial": 881,
+    "name": "The Wai Urban MAHARASHTR SATARA 06/08/1930 Urban Name Wai (M Cl) Ward",
+    "state": null
+  },
+  {
+    "serial": 882,
+    "name": "Harihareshwar MAHARASHTR SATARA 01/01/1998 Urban Name :Vijay Wai (M Cl) Ward",
+    "state": null
+  },
+  {
+    "serial": 883,
+    "name": "the. Mehkar urban MAHARASHTR BULDHANA 05/10/1968 Urban Name :mahajan Mehkar (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 884,
+    "name": "Sirkazhi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 885,
+    "name": "KAVERI URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 886,
+    "name": "Mayuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 888,
+    "name": "The Karimnagar",
+    "state": "Telangana"
+  },
+  {
+    "serial": 889,
+    "name": "Bangalore",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 890,
+    "name": "Sriramapura co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 891,
+    "name": "Navodhya co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 892,
+    "name": "SHRI.GOVARDH MAHARASHTR NANDURBAR 30/01/2001 Urban Name :ANKLESH SUBHASH",
+    "state": null
+  },
+  {
+    "serial": 893,
+    "name": "Shree Pragati",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 894,
+    "name": "SREE SUBRAM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 895,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 896,
+    "name": "KARANATAKA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 897,
+    "name": "The Madanapalle ANDHRA Annamayya 23/06/1924 Urban Name :PV Prasad Select",
+    "state": null
+  },
+  {
+    "serial": 898,
+    "name": "PARISAMAPAN MADHYA NARMADAPUR 03/08/1996 Urban Name :VINOD Sadar Bajar Ward",
+    "state": null
+  },
+  {
+    "serial": 899,
+    "name": "The Chennai Port",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 900,
+    "name": "George Town",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 901,
+    "name": "Yashwant NAgri MAHARASHTR LATUR 28/05/1999 Urban Name :Kapse Select, Latur",
+    "state": null
+  },
+  {
+    "serial": 902,
+    "name": "SREE HARIHAR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 903,
+    "name": "THE ELURU ANDHRA Eluru 14/07/1914 Urban Name :M Eluru (M) - Ward",
+    "state": null
+  },
+  {
+    "serial": 904,
+    "name": "The Srikakulam ANDHRA SRIKAKULAM 31/03/1995 Urban Name :Divisional Arasavilli (R)",
+    "state": null
+  },
+  {
+    "serial": 905,
+    "name": "Pune Commercial MAHARASHTR SATARA 16/05/1996 Urban Name :Mukund Koregaon",
+    "state": null
+  },
+  {
+    "serial": 906,
+    "name": "Rahimatpur MAHARASHTR SATARA 09/04/1947 Urban Name :Randive Rahimatpur ( MCI",
+    "state": null
+  },
+  {
+    "serial": 907,
+    "name": "The Urban",
+    "state": "Odisha"
+  },
+  {
+    "serial": 908,
+    "name": "Shivdaulat Coop MAHARASHTR SATARA 29/12/2000 Urban Name :Sharad Malharpeth",
+    "state": null
+  },
+  {
+    "serial": 909,
+    "name": "The Patan Urban MAHARASHTR SATARA 17/01/1996 Urban Name :R Y Patan",
+    "state": null
+  },
+  {
+    "serial": 910,
+    "name": "The Dadasaheb MAHARASHTR DHULE 23/04/1975 Urban Name :suboda SAKRI (NP) -",
+    "state": null
+  },
+  {
+    "serial": 911,
+    "name": "Mandeshi Mahila MAHARASHTR SATARA 31/10/1996 Urban Name :Rekha Mhaswad (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 912,
+    "name": "Dhule Vikas MAHARASHTR DHULE 13/02/1997 Urban Name :Upasni Dhule (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 913,
+    "name": "Arunodaya MAHARASHTR PUNE 26/12/2024 Urban Name :sachin City Survey No.",
+    "state": null
+  },
+  {
+    "serial": 914,
+    "name": "Tirupati ANDHRA Tirupati 02/06/1918 Urban Name :M Vijaya 1-Tirupati",
+    "state": null
+  },
+  {
+    "serial": 915,
+    "name": "ALOMRA UTTARAKHAN ALMORA 28/07/1990 Urban Name :MS Almora (MB)",
+    "state": null
+  },
+  {
+    "serial": 916,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 917,
+    "name": "THE",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 918,
+    "name": "The Nabadwip",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 919,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 920,
+    "name": "Ranaghat",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 921,
+    "name": "SHRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 922,
+    "name": "Bharathiya",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 923,
+    "name": "SRI GANESH",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 924,
+    "name": "SRI MAHATMA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 925,
+    "name": "Saibaba Janata MAHARASHTR LATUR 08/11/1996 Urban Name :Patil opp. shivneri gate",
+    "state": null
+  },
+  {
+    "serial": 926,
+    "name": "THE UNION",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 927,
+    "name": "THE JOYNAGAR",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 928,
+    "name": "SHIVAJI MAHARASHTR Chhatrapati 11/09/1989 Urban Name :KALE Paithan (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 929,
+    "name": "The Masulipatnam ANDHRA KRISHNA 04/04/1920 Urban Name :P Ramu Machilipatnam",
+    "state": null
+  },
+  {
+    "serial": 930,
+    "name": "THE BORAL",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 931,
+    "name": "BUDGE BUDGE",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 932,
+    "name": "VARADA CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 933,
+    "name": "SHRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 934,
+    "name": "Laxmi Urban co MAHARASHTR LATUR 10/01/1997 Urban Name :Avinash Latur (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 935,
+    "name": "SHRI BASAVES",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 936,
+    "name": "SHRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 937,
+    "name": "Priyadarshini",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 938,
+    "name": "URBAN CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 939,
+    "name": "THE CARDMAM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 940,
+    "name": "Dhule va MAHARASHTR DHULE 01/04/1921 Urban Name Dhule (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 941,
+    "name": "SARVODAY MADHYA BURHANPUR 13/11/1995 Urban Name :P M WARD 34",
+    "state": null
+  },
+  {
+    "serial": 942,
+    "name": "CITIZEN MADHYA BURHANPUR 27/02/1982 Urban Name :P M WARD 34",
+    "state": null
+  },
+  {
+    "serial": 943,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 944,
+    "name": "THE CITY",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 945,
+    "name": "Siddedhawar MAHARASHTR LATUR 07/01/1978 Urban Name :Prakash S Select, Latur",
+    "state": null
+  },
+  {
+    "serial": 946,
+    "name": "Kedarnath Urban MAHARASHTR LATUR 02/11/1995 Urban Name :Mahendra Latur (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 947,
+    "name": "Chickmagalur",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 948,
+    "name": "Chamaraja",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 949,
+    "name": "PRANABANAN",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 950,
+    "name": "GADAG URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 951,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 952,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 953,
+    "name": "Kumta Urban Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 954,
+    "name": "SRI KRISHNAR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 955,
+    "name": "Hospet City Co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 956,
+    "name": "Abhyudaya mahila",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 957,
+    "name": "Bhingar urban MAHARASHTR Ahilyanagar 28/03/1909 Urban Name Nagar",
+    "state": null
+  },
+  {
+    "serial": 958,
+    "name": "Urban Co-oprative",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 959,
+    "name": "URBAN",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 960,
+    "name": "BHAUSAHEB MAHARASHTR LATUR 01/03/1996 Urban Name :Shivaji Mukawar Chowk",
+    "state": null
+  },
+  {
+    "serial": 961,
+    "name": "Vijaya Mahila",
+    "state": "Telangana"
+  },
+  {
+    "serial": 962,
+    "name": "Aryan CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 963,
+    "name": "First City CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 964,
+    "name": "Megacity CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 965,
+    "name": "Manikanta CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 966,
+    "name": "Mother Theresa",
+    "state": "Telangana"
+  },
+  {
+    "serial": 967,
+    "name": "Sravya CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 968,
+    "name": "Ashok sahakari MAHARASHTR Ahilyanagar 26/06/1996 Urban Name :THORAT chatrapati shivaji",
+    "state": null
+  },
+  {
+    "serial": 969,
+    "name": "Sitara CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 970,
+    "name": "Kalyan CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 971,
+    "name": "Tirumala CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 972,
+    "name": "Mahaveer CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 973,
+    "name": "VISHWAKARM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 974,
+    "name": "Town Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 975,
+    "name": "THE BHATKAL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 976,
+    "name": "ahmednagar MAHARASHTR Ahilyanagar 30/10/1972 Urban Name :Sunil PLOT",
+    "state": null
+  },
+  {
+    "serial": 977,
+    "name": "ADARSHA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 978,
+    "name": "PADAVIDHARA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 979,
+    "name": "SRI GOKARNAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 980,
+    "name": "SRI KANNIKAP",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 981,
+    "name": "THE MUSLIM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 982,
+    "name": "DAKSHINA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 983,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 984,
+    "name": "INNOVATIVE",
+    "state": "Delhi"
+  },
+  {
+    "serial": 985,
+    "name": "DAXINA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 987,
+    "name": "MANGALORE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 988,
+    "name": "Town Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 989,
+    "name": "THE PUTTUR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 990,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 991,
+    "name": "SRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 992,
+    "name": "SHREE MAHAB",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 993,
+    "name": "THE SOUTH",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 994,
+    "name": "MYSORE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 995,
+    "name": "Kodagu District",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 996,
+    "name": "Navanagara Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 997,
+    "name": "Madikeri Town",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 998,
+    "name": "PARISHADCO-",
+    "state": "Delhi"
+  },
+  {
+    "serial": 999,
+    "name": "MERCHANTS",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1000,
+    "name": "SHRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1001,
+    "name": "Vilas co-operative MAHARASHTR LATUR 05/06/2002 Urban Name :Sapate Latur (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1002,
+    "name": "GUNA NAGRIK MADHYA GUNA 28/10/1996 Urban Name :pawan jain Vos Subhas Ward",
+    "state": null
+  },
+  {
+    "serial": 1003,
+    "name": "Twin Cities CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1004,
+    "name": "Secunderabad",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1005,
+    "name": "Maratha Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1006,
+    "name": "Jubilee Hills (M)",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1007,
+    "name": "Mahanagar CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1008,
+    "name": "Seven Hills CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1009,
+    "name": "THE MYSORE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1010,
+    "name": "Agrasen CUB Ltd",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1011,
+    "name": "Rajdhani Coop.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1012,
+    "name": "JAI LAXMI",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1013,
+    "name": "AHMEDNAGAR MAHARASHTR Ahilyanagar 22/04/1971 Urban Name :NITIN SARVARTH",
+    "state": null
+  },
+  {
+    "serial": 1014,
+    "name": "Sribharathi CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1015,
+    "name": "Darussalam Coop.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1016,
+    "name": "AHMEDNAGAR MAHARASHTR Ahilyanagar 20/09/1919 Urban Name AIKYA MANDIR",
+    "state": null
+  },
+  {
+    "serial": 1017,
+    "name": "THE CITIZEN",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1018,
+    "name": "Shree Tukaram",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1019,
+    "name": "MILLATH CO",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1020,
+    "name": "KANAKA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1021,
+    "name": "THE DHANERA",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1022,
+    "name": "THA GHATAL",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1023,
+    "name": "THE VAISH CO-",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1024,
+    "name": "wani nagria MAHARASHTR YAVATMAL 29/09/1998 Urban Name :ramesh n ganeshpur road",
+    "state": null
+  },
+  {
+    "serial": 1025,
+    "name": "The Ranga Reddy",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1026,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1027,
+    "name": "Bhavana Rishi",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1028,
+    "name": "The Navanirman",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1029,
+    "name": "MAA SHARDA MADHYA SATNA 15/05/1998 Urban Name :SHRI 06 Sarojini Naidu",
+    "state": null
+  },
+  {
+    "serial": 1030,
+    "name": "Sreenivasa",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1031,
+    "name": "Shiva Sahakari",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1032,
+    "name": "KALPAVRUSHA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1033,
+    "name": "SHRI BALAJI MADHYA SATNA 08/07/1999 Urban Name 39 Mahatma",
+    "state": null
+  },
+  {
+    "serial": 1034,
+    "name": "SUDHA",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1035,
+    "name": "The Model",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1036,
+    "name": "KRISHANGANJ MADHYA SHIVPURI 24/09/1947 Urban Name :SHRI Sant Kabir ward",
+    "state": null
+  },
+  {
+    "serial": 1037,
+    "name": "Chaitanya",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1038,
+    "name": "JILA SAHKARI MADHYA SATNA 16/11/1959 Urban Name :S C VARD 25/ 26",
+    "state": null
+  },
+  {
+    "serial": 1039,
+    "name": "SRI KANNIKAP",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1040,
+    "name": "ONAKE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1041,
+    "name": "Shankarrao MAHARASHTR NANDED 28/08/1998 Urban Name :P D Kinwat (M CI) -",
+    "state": null
+  },
+  {
+    "serial": 1042,
+    "name": "Sri Narayanaguru",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1043,
+    "name": "Teachers Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1044,
+    "name": "SAMPIGE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1045,
+    "name": "L.I.C Employees",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1046,
+    "name": "Eenadu",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1047,
+    "name": "Udupi Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1048,
+    "name": "Shri Bharat Urban MAHARASHTR KOLHAPUR 18/01/1971 Urban Name :Shri Bank Building",
+    "state": null
+  },
+  {
+    "serial": 1049,
+    "name": "BAPUJI CO",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1050,
+    "name": "RAMGARHIA",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1051,
+    "name": "Manipala Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1052,
+    "name": "Rajarshi Shahu MAHARASHTR KOLHAPUR 13/07/1982 Urban Name :Shri Suresh 749 E ward",
+    "state": null
+  },
+  {
+    "serial": 1053,
+    "name": "Mahalakshmi Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1054,
+    "name": "SHIVA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1055,
+    "name": "CITY CO",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1056,
+    "name": "THE JANTA CO-",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1057,
+    "name": "Vardhaman Coop.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1058,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1059,
+    "name": "RANIGANJ",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1060,
+    "name": "The Khatri Co-",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1061,
+    "name": "Ghoti Marchant co- MAHARASHTR NASHIK 08/01/1961 Urban Name :Rajendra BHAGYAVADHI",
+    "state": null
+  },
+  {
+    "serial": 1062,
+    "name": "The Arya Vaishya",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1063,
+    "name": "SHREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1064,
+    "name": "SRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1065,
+    "name": "Hubli urban Coop",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1066,
+    "name": "SHREE MURUG",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1067,
+    "name": "LAXMI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1068,
+    "name": "INDRAPRASTH",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1069,
+    "name": "Alnawar Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1070,
+    "name": "SHRI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1071,
+    "name": "JAMIA CO-",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1072,
+    "name": "SHRI VIJAYMA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1073,
+    "name": "THE RADDI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1074,
+    "name": "ILKAL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1075,
+    "name": "KESHAV",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1076,
+    "name": "Kittur",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1077,
+    "name": "CITY CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1078,
+    "name": "Nagrik Sahkari MADHYA SAGAR 22/01/1983 Urban Name :CS Jha 1, Avantibai ward",
+    "state": null
+  },
+  {
+    "serial": 1079,
+    "name": "The Honavar",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1080,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1081,
+    "name": "JIJAMATA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1082,
+    "name": "MANORAMA MAHARASHTR SOLAPUR 24/12/1996 Urban Name :MRS Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1083,
+    "name": "VIKAS MAHARASHTR SOLAPUR 26/10/1979 Urban Name Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1084,
+    "name": "SAMARTH MAHARASHTR SOLAPUR 04/05/1996 Urban Name :MR Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1085,
+    "name": "THE SOLAPUR MAHARASHTR SOLAPUR 04/11/1971 Urban Name :MR Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1086,
+    "name": "KAMALA MAHARASHTR SOLAPUR 09/07/1997 Urban Name :SHRI J G Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1087,
+    "name": "THE HUKERI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1089,
+    "name": "Shajapur Nagrik MADHYA SHAJAPUR 06/07/1995 Urban Name :Shri WARD 24",
+    "state": null
+  },
+  {
+    "serial": 1090,
+    "name": "THE PIONEER",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1091,
+    "name": "Rajrajeshwari MADHYA SHAJAPUR 30/09/1998 Urban Name :Shri WARD 11 P.",
+    "state": null
+  },
+  {
+    "serial": 1092,
+    "name": "Vivekanand MADHYA SHAJAPUR 25/08/1994 Urban Name :Shri Suresh Jawahar Ward",
+    "state": null
+  },
+  {
+    "serial": 1093,
+    "name": "BRAHMADEOD MAHARASHTR SOLAPUR 02/10/1976 Urban Name :MR Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1094,
+    "name": "DAIVADNYA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1095,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1096,
+    "name": "VYAPARI MAHARASHTR SOLAPUR 03/12/1970 Urban Name :MR Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1097,
+    "name": "THE BELGAUM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1098,
+    "name": "Bellad Bagewadi",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1099,
+    "name": "KAVITA URBAN MAHARASHTR SOLAPUR 21/06/1996 Urban Name :MR Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1100,
+    "name": "THE MUSLIM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1101,
+    "name": "THE BELGAUM",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1102,
+    "name": "SOLAPUR MAHARASHTR SOLAPUR 18/11/1974 Urban Name :SHRI R B Solapur (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1103,
+    "name": "Pali Urban Co-",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1104,
+    "name": "RANI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1105,
+    "name": "THE KANGRA",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1106,
+    "name": "SHRI SHARAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1107,
+    "name": "MAHALAXMI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1108,
+    "name": "NESARAGI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1109,
+    "name": "BHARATH",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1110,
+    "name": "BAILHONGAL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1111,
+    "name": "Bally Cooperative",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1112,
+    "name": "BELAGAVI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1113,
+    "name": "BAILHONGAL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1114,
+    "name": "Liluah",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1115,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1116,
+    "name": "Jain Co-Operative",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1117,
+    "name": "A 394",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 1118,
+    "name": "THE SIVAKASI",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 1119,
+    "name": "SRIVILLIPUTHU",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 1120,
+    "name": "A205/1524 THE",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 1121,
+    "name": "BHUPATHIRAJU",
+    "state": "Tamil Nadu"
+  },
+  {
+    "serial": 1122,
+    "name": "Di Avantika MADHYA UJJAIN 30/04/1966 Urban Name :Vinayak Chheer sagar",
+    "state": null
+  },
+  {
+    "serial": 1123,
+    "name": "BEAWAR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1124,
+    "name": "THE ANKOLA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1125,
+    "name": "The Urban Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1126,
+    "name": "NAGAUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1127,
+    "name": "Dwarkadas Mantri MAHARASHTR BEED 13/08/1962 Urban Name :S H Head office",
+    "state": null
+  },
+  {
+    "serial": 1128,
+    "name": "The Gooty ANDHRA ANANTAPUR 28/01/1923 Urban Name :S Abdul Gooty (CT) -",
+    "state": null
+  },
+  {
+    "serial": 1129,
+    "name": "The Citizen JAMMU AND JAMMU 04/03/1978 Urban Name :Ravi Kant 68B/D Jammu",
+    "state": null
+  },
+  {
+    "serial": 1130,
+    "name": "WARUD ARBAN MAHARASHTR AMRAVATI 30/06/1997 Urban Name :R A RAUT Warud (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1131,
+    "name": "The Uravakonda ANDHRA ANANTAPUR 02/05/1934 Urban Name :S Kullayai Uravakonda (CT)",
+    "state": null
+  },
+  {
+    "serial": 1132,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1133,
+    "name": "Mandapeta ANDHRA Konaseema 09/02/1997 Urban Name :K Prasad Mandapeta Ward",
+    "state": null
+  },
+  {
+    "serial": 1134,
+    "name": "THE PATDI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1135,
+    "name": "Ujjain Parspar MADHYA UJJAIN 19/03/1936 Urban Name :Satya Chamunda mata",
+    "state": null
+  },
+  {
+    "serial": 1136,
+    "name": "Vikram aaditya MADHYA UJJAIN 30/07/1994 Urban Name :Sudesh Begambaag",
+    "state": null
+  },
+  {
+    "serial": 1137,
+    "name": "NATIONAL",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1138,
+    "name": "The Urban MAHARASHTR JALGAON 04/08/1956 Urban Name :Sushil Dharangaon (M",
+    "state": null
+  },
+  {
+    "serial": 1139,
+    "name": "Mahesh Urban Co- MAHARASHTR BEED 17/06/2000 Urban Name : Dr Parli (M. C) -",
+    "state": null
+  },
+  {
+    "serial": 1140,
+    "name": "Ujjain MADHYA UJJAIN 22/06/1998 Urban Name :Dinesh Chheer sagar",
+    "state": null
+  },
+  {
+    "serial": 1141,
+    "name": "Anandeshwari MADHYA UJJAIN 06/08/1998 Urban Name :Vinay Shah Mahakal, Ujjain",
+    "state": null
+  },
+  {
+    "serial": 1142,
+    "name": "Ujjain Nagarik MADHYA UJJAIN 19/04/1995 Urban Name :Pradeep freeganj, Ujjain",
+    "state": null
+  },
+  {
+    "serial": 1143,
+    "name": "Gokul",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1144,
+    "name": "THE",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1145,
+    "name": "Kushi Coop.Urban",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1146,
+    "name": "Bharath",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1147,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1148,
+    "name": "AMBAJOGAI MAHARASHTR BEED 08/12/1995 Urban Name :SANJAY Ambajogai (M.",
+    "state": null
+  },
+  {
+    "serial": 1149,
+    "name": "Sathya Sai",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1150,
+    "name": "Sai Coop.Urban",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1151,
+    "name": "DEENDAYAL MAHARASHTR BEED 30/05/1996 Urban Name Ambajogai (M.",
+    "state": null
+  },
+  {
+    "serial": 1152,
+    "name": "RAICHUR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1153,
+    "name": "Neela krishna",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1154,
+    "name": "The Anantapur ANDHRA ANANTAPUR 24/04/1916 Urban Name :Bhaskar D.No.10-446",
+    "state": null
+  },
+  {
+    "serial": 1155,
+    "name": "Rani Laxmibai UTTAR JHANSI 23/12/1988 Urban Name :VINOD 77 OUT SIDE",
+    "state": null
+  },
+  {
+    "serial": 1156,
+    "name": "Amalapuram ANDHRA Konaseema 02/05/1998 Urban Name :S V V Amalapuram (M) -",
+    "state": null
+  },
+  {
+    "serial": 1157,
+    "name": "The Talikoti",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1158,
+    "name": "The Vaidyanath MAHARASHTR BEED 24/02/1966 Urban Name :Shri Vinod Parli (M. C) -",
+    "state": null
+  },
+  {
+    "serial": 1159,
+    "name": "KOLIKATA",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1160,
+    "name": "VASUNDHARA MAHARASHTR BEED 12/12/1994 Urban Name :DIPAK Ambajogai (M.",
+    "state": null
+  },
+  {
+    "serial": 1161,
+    "name": "The Tadipatri ANDHRA ANANTAPUR 11/06/1922 Urban Name :B Roshan Tadipatri Ward",
+    "state": null
+  },
+  {
+    "serial": 1162,
+    "name": "THE VAISH CO-",
+    "state": "Delhi"
+  },
+  {
+    "serial": 1163,
+    "name": "THE KAKINADA ANDHRA Kakinada 12/03/1980 Urban Name :CH Kakinada (M) -",
+    "state": null
+  },
+  {
+    "serial": 1164,
+    "name": "SREE ANDHRA Kakinada 04/05/2000 Urban Name :CH S S R Kakinada (M) -",
+    "state": null
+  },
+  {
+    "serial": 1165,
+    "name": "The Repalle ANDHRA Bapatla 13/11/1914 Urban Name :Gogineni Repalle, Repalle",
+    "state": null
+  },
+  {
+    "serial": 1166,
+    "name": "The Bapatla ANDHRA Bapatla 08/10/1914 Urban Name :A Ram Bapatla, Bapatla",
+    "state": null
+  },
+  {
+    "serial": 1167,
+    "name": "THE TEXTILE M",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1168,
+    "name": "Dhakuria",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1169,
+    "name": "BETUL NAGRIK MADHYA BETUL 25/02/1976 Urban Name :GOVIND Ganesh Ward",
+    "state": null
+  },
+  {
+    "serial": 1170,
+    "name": "Shree Gajanan MAHARASHTR BEED 02/08/1995 Urban Name :M R Sagar Hights",
+    "state": null
+  },
+  {
+    "serial": 1171,
+    "name": "Priyadarshni MAHARASHTR BEED 31/03/1994 Urban Name :Dilip Head office.",
+    "state": null
+  },
+  {
+    "serial": 1172,
+    "name": "SAMARTH MAHARASHTR Dharashiv 30/11/1994 Urban Name Osmanabad (M",
+    "state": null
+  },
+  {
+    "serial": 1173,
+    "name": "JAY MAHARASHTR Dharashiv 27/09/1996 Urban Name Osmanabad (M",
+    "state": null
+  },
+  {
+    "serial": 1174,
+    "name": "TERNA NAGARI MAHARASHTR Dharashiv 26/09/1996 Urban Name :K S Osmanabad (M",
+    "state": null
+  },
+  {
+    "serial": 1175,
+    "name": "PRIYADARSHIN MAHARASHTR Dharashiv 14/10/1997 Urban Name :P H Kalamb (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1176,
+    "name": "JANKALYAN MAHARASHTR Dharashiv 13/05/1996 Urban Name :V M Kalamb (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1177,
+    "name": "SANGALI MAHARASHTR MUMBAI 17/05/1964 Urban Name :Vijay G/North - Ward",
+    "state": null
+  },
+  {
+    "serial": 1178,
+    "name": "VAIJAPUR MAHARASHTR Chhatrapati 29/10/1959 Urban Name :Sancheti Vaijapur (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1179,
+    "name": "Ganraj Urban Co- MAHARASHTR BEED 09/05/1997 Urban Name :Balasaheb 09 stadium",
+    "state": null
+  },
+  {
+    "serial": 1180,
+    "name": "krishna urban co MAHARASHTR BEED 24/09/1997 Urban Name :v v munde Kaij (N P) - Ward",
+    "state": null
+  },
+  {
+    "serial": 1181,
+    "name": "Padmavathi Coop.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1182,
+    "name": "THE GUDIVADA ANDHRA KRISHNA 13/03/1915 Urban Name :SSRCHO Gudivada (M) -",
+    "state": null
+  },
+  {
+    "serial": 1183,
+    "name": "The Durga ANDHRA NTR 07/09/1928 Urban Name :A Srinivasa Vijayawada (M",
+    "state": null
+  },
+  {
+    "serial": 1184,
+    "name": "The Swasakthi ANDHRA NTR 26/05/1998 Urban Name Venkatratna",
+    "state": null
+  },
+  {
+    "serial": 1185,
+    "name": "The Kuppam ANDHRA CHITTOOR 24/10/1924 Urban Name :PSiva Chittoor - Ward",
+    "state": null
+  },
+  {
+    "serial": 1186,
+    "name": "The Chittoor ANDHRA CHITTOOR 22/02/1980 Urban Name :D Chittoor - Ward",
+    "state": null
+  },
+  {
+    "serial": 1187,
+    "name": "BHADRAK",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1188,
+    "name": "LIC Employees ANDHRA KRISHNA 30/03/1952 Urban Name :N Gopala Machilipatnam",
+    "state": null
+  },
+  {
+    "serial": 1189,
+    "name": "The Gandhi ANDHRA NTR 07/09/1928 Urban Name :Appa Rao Museum Road",
+    "state": null
+  },
+  {
+    "serial": 1190,
+    "name": "The Sharadamba ANDHRA NTR 02/04/1998 Urban Name :Gudipati Sivalayam Street",
+    "state": null
+  },
+  {
+    "serial": 1191,
+    "name": "urban coop bank",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1192,
+    "name": "THE CATHOLIC",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1193,
+    "name": "PRUDENTIAL",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1194,
+    "name": "BANARAS UTTAR VARANASI 11/02/1999 Urban Name :praveen Sigara, Varanasi",
+    "state": null
+  },
+  {
+    "serial": 1195,
+    "name": "The Modarn Co MAHARASHTR JALGAON 22/10/1999 Urban Name Chalisgaon (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 1196,
+    "name": "The A.P. Mahajan",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1197,
+    "name": "The Mercantile",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1198,
+    "name": "A.P.Janata",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1199,
+    "name": "A.P. Raja",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1200,
+    "name": "URBAN UTTAR MAINPURI 17/02/1999 Urban Name KACHARI",
+    "state": null
+  },
+  {
+    "serial": 1201,
+    "name": "sahyadri mahila",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1202,
+    "name": "STAMBHADRI",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1203,
+    "name": "Urban UTTARAKHAN TEHRI 23/01/1990 Urban Name :Subhash Sector 5A Chetra",
+    "state": null
+  },
+  {
+    "serial": 1204,
+    "name": "THE",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1205,
+    "name": "united india UTTAR BIJNOR 06/02/1998 Urban Name :komal Nagina (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1206,
+    "name": "MUNICIPAL MAHARASHTR MUMBAI 29/02/1952 Urban Name :G D A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1207,
+    "name": "Income Tax Co.op MAHARASHTR MUMBAI 17/08/1926 Urban Name :V A A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1208,
+    "name": "The sind",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1209,
+    "name": "Patan Co-op Back MAHARASHTR MUMBAI 22/10/1981 Urban Name A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1210,
+    "name": "Agroha",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1211,
+    "name": "Bima Kamgar MAHARASHTR MUMBAI 10/10/2007 Urban Name :SHENDE A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1212,
+    "name": "MAHARASHTR MAHARASHTR MUMBAI 10/05/1929 Urban Name :SANJAY A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1213,
+    "name": "NATIONAL CO- MAHARASHTR MUMBAI 01/04/1997 Urban Name :J KALA A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1214,
+    "name": "THE Naval MAHARASHTR MUMBAI 01/01/1931 Urban Name :NIMESH A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1215,
+    "name": "Model Co-op MAHARASHTR MUMBAI 26/04/1916 Urban Name A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1216,
+    "name": "JILA SAHAKARI MADHYA DATIA 06/03/1962 Urban Name :NAVIN RAJGARH",
+    "state": null
+  },
+  {
+    "serial": 1217,
+    "name": "Tura Urban",
+    "state": "Meghalaya"
+  },
+  {
+    "serial": 1218,
+    "name": "DATIA MADHYA DATIA 26/02/2002 Urban Name :K K AB G Ward",
+    "state": null
+  },
+  {
+    "serial": 1219,
+    "name": "JILA SAHAKARI MADHYA DATIA 14/01/1963 Urban Name :ARCS AB G Ward",
+    "state": null
+  },
+  {
+    "serial": 1220,
+    "name": "SHIMSHA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1221,
+    "name": "MANDYA CITY",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1222,
+    "name": "LOKAPAVANI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1223,
+    "name": "Bellary Urban Co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1224,
+    "name": "Maharanapratap",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1225,
+    "name": "The Deccan",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1226,
+    "name": "Vasavi CUB Ltd.",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1227,
+    "name": "Charminar CUB",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1228,
+    "name": "The Prathamik MAHARASHTR KOLHAPUR 12/10/1939 Urban Name :Mr 1031 K/2, E ward",
+    "state": null
+  },
+  {
+    "serial": 1229,
+    "name": "The Commercial MAHARASHTR KOLHAPUR 18/12/1961 Urban Name :Mr Sudhir 615 E, Shahupuri",
+    "state": null
+  },
+  {
+    "serial": 1230,
+    "name": "Devika Urban JAMMU AND UDHAMPUR 06/09/1996 Urban Name :Rakesh Udhampur (MC) -",
+    "state": null
+  },
+  {
+    "serial": 1231,
+    "name": "DURGAPUR",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1232,
+    "name": "DURGAPUR",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1233,
+    "name": "THE MAHARASHTR RAIGAD 03/01/1931 Urban Name SHREYASH",
+    "state": null
+  },
+  {
+    "serial": 1234,
+    "name": "Vishwanathrao MAHARASHTR KOLHAPUR 13/12/1947 Urban Name :Vishwas K A/p - Murgud, Tal",
+    "state": null
+  },
+  {
+    "serial": 1235,
+    "name": "Sangli District MAHARASHTR SANGLI 04/11/1952 Urban Name :Balasaheb Sangli-Miraj",
+    "state": null
+  },
+  {
+    "serial": 1236,
+    "name": "Etawah urban co- UTTAR ETAWAH 07/12/1988 Urban Name :satlsh Etawah (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1237,
+    "name": "Shree Panchganga MAHARASHTR KOLHAPUR 22/02/1972 Urban Name :Mr Deepak TPS no 3, Final",
+    "state": null
+  },
+  {
+    "serial": 1238,
+    "name": "VISL",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1239,
+    "name": "The TOWN CO-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1240,
+    "name": "Sahakarmaharshi MAHARASHTR Ahilyanagar 07/06/1983 Urban Name :Ambadas Ghulewadi",
+    "state": null
+  },
+  {
+    "serial": 1241,
+    "name": "Balotra Urban co",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1242,
+    "name": "Urban JAMMU AND ANANTNAG 15/11/1986 Urban Name :Mohd Mehandi Kadal",
+    "state": null
+  },
+  {
+    "serial": 1243,
+    "name": "Banda Urban UTTAR BANDA 25/05/1996 Urban Name :Suresh Banda (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1244,
+    "name": "THE SAHYADRI MAHARASHTR MUMBAI 09/10/1968 Urban Name C - Ward No. 222",
+    "state": null
+  },
+  {
+    "serial": 1245,
+    "name": "Kolkata Police Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1246,
+    "name": "Purvanchal Co- UTTAR GHAZIPUR 05/11/1988 Urban Name Select, Ghazipur",
+    "state": null
+  },
+  {
+    "serial": 1247,
+    "name": "THE BANK",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1248,
+    "name": "GANGANAGAR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1249,
+    "name": "SHIVA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1250,
+    "name": "NATIONAL",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1251,
+    "name": "SRI GANPATHI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1252,
+    "name": "510 army base UTTAR MEERUT 05/05/1969 Urban Name :subhash 510 army base",
+    "state": null
+  },
+  {
+    "serial": 1253,
+    "name": "SONBHADRA UTTAR SONBHADRA 22/06/1999 Urban Name :SHYAMA Robertsganj (MB)",
+    "state": null
+  },
+  {
+    "serial": 1254,
+    "name": "Sangli Urban Co- MAHARASHTR SANGLI 04/11/1935 Urban Name :Ulhas Sangli-Miraj",
+    "state": null
+  },
+  {
+    "serial": 1255,
+    "name": "NOIDA UTTAR GHAZIABAD 14/02/1996 Urban Name :NAVEEN Rajnagar",
+    "state": null
+  },
+  {
+    "serial": 1256,
+    "name": "THE SHIMOGA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1257,
+    "name": "Appasaheb MAHARASHTR SANGLI 18/05/1982 Urban Name :Girish Bhat Sangli-Miraj",
+    "state": null
+  },
+  {
+    "serial": 1258,
+    "name": "Nobel Cooperative UTTAR GAUTAM 20/04/2003 Urban Name :Shri Any Other (Please",
+    "state": null
+  },
+  {
+    "serial": 1259,
+    "name": "URBAN UTTAR BASTI 20/08/1986 Urban Name WARD NO. 8",
+    "state": null
+  },
+  {
+    "serial": 1260,
+    "name": "The New Urban UTTAR AGRA 17/12/1983 Urban Name :Guru Agra (M Corp.) -",
+    "state": null
+  },
+  {
+    "serial": 1261,
+    "name": "NATIONAL UTTAR BAHRAICH 30/06/1997 Urban Name :RAM Bahraich (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1262,
+    "name": "Shri Laxmi MAHARASHTR SANGLI 31/03/1984 Urban Name :Gajanan Sangli-Miraj",
+    "state": null
+  },
+  {
+    "serial": 1263,
+    "name": "Citizen UTTAR GAUTAM 15/10/1996 Urban Name :Shri Prem C-25, 5Th Floor.",
+    "state": null
+  },
+  {
+    "serial": 1264,
+    "name": "IMPERIAL UTTAR AYODHYA 09/08/1999 Urban Name :AMITABH Ayodhya (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1265,
+    "name": "UMARGA MAHARASHTR Dharashiv 25/03/1996 Urban Name :AMIT B. Umarga (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1266,
+    "name": "Shree Laxmi MAHARASHTR SANGLI 21/12/1971 Urban Name Sangli-Miraj",
+    "state": null
+  },
+  {
+    "serial": 1267,
+    "name": "NAGAR UTTAR GORAKHPUR 11/12/1981 Urban Name :AJAY Select, Gorakhpur",
+    "state": null
+  },
+  {
+    "serial": 1268,
+    "name": "Dayalbag Mahila UTTAR AGRA 20/12/1997 Urban Name :M Prem Dayalbagh (NP) -",
+    "state": null
+  },
+  {
+    "serial": 1269,
+    "name": "INDIAN UTTAR LUCKNOW 08/03/1989 Urban Name :BRAJESH 26 CANTT",
+    "state": null
+  },
+  {
+    "serial": 1270,
+    "name": "SRI BASAVESH",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1271,
+    "name": "LUCKNOW UTTAR LUCKNOW 11/08/1986 Urban Name :MRS Select, Lucknow",
+    "state": null
+  },
+  {
+    "serial": 1272,
+    "name": "UP Civil Secretriat UTTAR LUCKNOW 25/06/1932 Urban Name :Ashish U P Secretariat",
+    "state": null
+  },
+  {
+    "serial": 1273,
+    "name": "THE CO-",
+    "state": "Assam"
+  },
+  {
+    "serial": 1274,
+    "name": "The Radhasoami UTTAR AGRA 02/01/1947 Urban Name :Sushant Dayalbagh (NP) -",
+    "state": null
+  },
+  {
+    "serial": 1275,
+    "name": "Urban Co- UTTAR BUDAUN 12/02/1990 Urban Name :SACHIN STATION ROAD",
+    "state": null
+  },
+  {
+    "serial": 1276,
+    "name": "BARAN",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1277,
+    "name": "SHRI MAHARASHTR RAIGAD 02/05/1998 Urban Name :MR BAL Sarswati niwas",
+    "state": null
+  },
+  {
+    "serial": 1278,
+    "name": "The Sangamner MAHARASHTR Ahilyanagar 26/11/1965 Urban Name :Santosh Indira Gandhi",
+    "state": null
+  },
+  {
+    "serial": 1279,
+    "name": "JAT URABAN MAHARASHTR SANGLI 02/01/1953 Urban Name :JAGDISH Jat (MCI) Ward",
+    "state": null
+  },
+  {
+    "serial": 1280,
+    "name": "THE MAHABAL MAHARASHTR SATARA 06/05/1960 Urban Name :FAKIR 12",
+    "state": null
+  },
+  {
+    "serial": 1281,
+    "name": "Dharmavaram ANDHRA Sri Sathya Sai 08/01/1907 Urban Name :B Dharmavaram (M)",
+    "state": null
+  },
+  {
+    "serial": 1282,
+    "name": "DR. MAHARASHTR HINGOLI 26/09/1997 Urban Name :GOPAL L MAIN ROAD,-",
+    "state": null
+  },
+  {
+    "serial": 1283,
+    "name": "SHRI MAHARASHTR HINGOLI 13/02/1995 Urban Name :KISHAN Basmath (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1284,
+    "name": "JHALAWAR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1285,
+    "name": "YEMMIGANUR ANDHRA KURNOOL 08/07/1946 Urban Name :G Kala D.No.1/1138",
+    "state": null
+  },
+  {
+    "serial": 1286,
+    "name": "JAI KALIMATA MAHARASHTR HINGOLI 09/07/1996 Urban Name Basmath (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1287,
+    "name": "THE",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1288,
+    "name": "NAGRIK UTTAR LUCKNOW 04/05/1996 Urban Name :RANJANA C-13/112, Rajajip",
+    "state": null
+  },
+  {
+    "serial": 1289,
+    "name": "Nalbari Urban Co-",
+    "state": "Assam"
+  },
+  {
+    "serial": 1290,
+    "name": "PRIYADARSHIN ANDHRA KURNOOL 14/08/1997 Urban Name :K D.NO.15/474",
+    "state": null
+  },
+  {
+    "serial": 1291,
+    "name": "JAYPRAKASH MAHARASHTR HINGOLI 05/10/1994 Urban Name Basmath (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1292,
+    "name": "The",
+    "state": "Chandigarh"
+  },
+  {
+    "serial": 1293,
+    "name": "Nishigandha Co- MAHARASHTR SOLAPUR 21/06/1996 Urban Name :Kailash Ward No 1",
+    "state": null
+  },
+  {
+    "serial": 1294,
+    "name": "The Koylanchal",
+    "state": "Jharkhand"
+  },
+  {
+    "serial": 1295,
+    "name": "The imperial",
+    "state": "Punjab"
+  },
+  {
+    "serial": 1296,
+    "name": "THE GREATER MAHARASHTR MUMBAI 15/11/1952 Urban Name :KAMINI C - Ward No. 222",
+    "state": null
+  },
+  {
+    "serial": 1297,
+    "name": "THE MAHARASHTR BULDHANA 12/04/1962 Urban Name :A W Dhanshri, Buldhna",
+    "state": null
+  },
+  {
+    "serial": 1298,
+    "name": "URBAN",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1299,
+    "name": "NAGAR VIKAS UTTAR HARDOI 24/06/1998 Urban Name :VIJAY Hardoi (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1300,
+    "name": "BHADRADRI",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1301,
+    "name": "Sirsi Urban Co-",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1302,
+    "name": "Koilakuntla ANDHRA Nandyal 03/12/1967 Urban Name Koilkuntla",
+    "state": null
+  },
+  {
+    "serial": 1303,
+    "name": "Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1304,
+    "name": "The Amritsar",
+    "state": "Punjab"
+  },
+  {
+    "serial": 1305,
+    "name": "Birdeo Sahakari MAHARASHTR KOLHAPUR 25/07/1995 Urban Name :Mr Ward no 12",
+    "state": null
+  },
+  {
+    "serial": 1306,
+    "name": "The MAHARASHTR KOLHAPUR 21/04/1995 Urban Name :Sunil Ward No.8",
+    "state": null
+  },
+  {
+    "serial": 1307,
+    "name": "Dr Appasaheb Urf MAHARASHTR KOLHAPUR 25/04/2022 Urban Name :J M Bote 10th Lane, Sangli",
+    "state": null
+  },
+  {
+    "serial": 1308,
+    "name": "Kohinoor Sahakari MAHARASHTR KOLHAPUR 08/02/1996 Urban Name :Mr Amjad Ward No.27",
+    "state": null
+  },
+  {
+    "serial": 1309,
+    "name": "Kolhapur Mahila MAHARASHTR KOLHAPUR 19/05/1972 Urban Name :Jotiram 1082 B Ward",
+    "state": null
+  },
+  {
+    "serial": 1310,
+    "name": "The Santragachi",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1311,
+    "name": "Laxmeshwar",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1312,
+    "name": "LUCKNOW UTTAR LUCKNOW 07/08/1935 Urban Name :KAPIL OPPOSITE TO",
+    "state": null
+  },
+  {
+    "serial": 1313,
+    "name": "Progressive Urban UTTAR LUCKNOW 20/09/1990 Urban Name :SUNEEL 5 Mall Avenue",
+    "state": null
+  },
+  {
+    "serial": 1314,
+    "name": "Youth MAHARASHTR KOLHAPUR 16/06/1975 Urban Name :Shri R B 646 E ward",
+    "state": null
+  },
+  {
+    "serial": 1315,
+    "name": "Vikas Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1316,
+    "name": "Mangaldoi Nagar",
+    "state": "Assam"
+  },
+  {
+    "serial": 1317,
+    "name": "MANSAROVAR UTTAR LUCKNOW 07/05/1986 Urban Name :Ajay A - 969 Indira",
+    "state": null
+  },
+  {
+    "serial": 1318,
+    "name": "Agrasen MAHARASHTR Chhatrapati 25/09/1996 Urban Name Kannad (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1319,
+    "name": "THE BHABHAR",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1320,
+    "name": "SHREE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1321,
+    "name": "NATIONAL UTTAR PRATAPGARH 30/01/1986 Urban Name :VIKAS Bela Pratapgarh",
+    "state": null
+  },
+  {
+    "serial": 1322,
+    "name": "Raigarh Nagrik CHHATTISGAR RAIGARH 16/04/1996 Urban Name :KESHAV GANDHI",
+    "state": null
+  },
+  {
+    "serial": 1323,
+    "name": "The Yadagiri",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1324,
+    "name": "THE NEW UTTAR RAMPUR 08/12/1988 Urban Name :JEEWAN Rampur (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1325,
+    "name": "HCBL CO- UTTAR LUCKNOW 30/12/1999 Urban Name :ARVIND Lucknow (M",
+    "state": null
+  },
+  {
+    "serial": 1326,
+    "name": "SUMERPUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1327,
+    "name": "The Ganesh MAHARASHTR KOLHAPUR 28/02/1966 Urban Name :Neeta S 2568 Bazar Peth",
+    "state": null
+  },
+  {
+    "serial": 1328,
+    "name": "Parshwanath MAHARASHTR KOLHAPUR 02/02/1998 Urban Name :Jaysing 699 E ward, 3 rd",
+    "state": null
+  },
+  {
+    "serial": 1329,
+    "name": "National UTTAR LUCKNOW 26/05/1979 Urban Name :Deepak Lucknow (M",
+    "state": null
+  },
+  {
+    "serial": 1330,
+    "name": "Vaijanath Appa MAHARASHTR HINGOLI 21/05/1996 Urban Name :Sureshappa Gramin Police Stn",
+    "state": null
+  },
+  {
+    "serial": 1331,
+    "name": "RAJDHANI UTTAR LUCKNOW 11/06/1987 Urban Name :UMESH 551, G/86",
+    "state": null
+  },
+  {
+    "serial": 1332,
+    "name": "The Swarna ANDHRA NTR 04/01/1997 Urban Name :A Venkata Vijayawada (M",
+    "state": null
+  },
+  {
+    "serial": 1333,
+    "name": "Shri Narsinha MAHARASHTR KOLHAPUR 03/04/1997 Urban Name :K D Shelar 306 Karkhana",
+    "state": null
+  },
+  {
+    "serial": 1334,
+    "name": "The Nakodar",
+    "state": "Punjab"
+  },
+  {
+    "serial": 1335,
+    "name": "The pochampally",
+    "state": "Telangana"
+  },
+  {
+    "serial": 1336,
+    "name": "Hisar Urban",
+    "state": "Haryana"
+  },
+  {
+    "serial": 1337,
+    "name": "Omprakash devdra MAHARASHTR HINGOLI 14/12/1982 Urban Name paltan, Hingoli",
+    "state": null
+  },
+  {
+    "serial": 1338,
+    "name": "The Chandgad MAHARASHTR KOLHAPUR 06/05/1982 Urban Name :Mr Arun A/p - Guruwar",
+    "state": null
+  },
+  {
+    "serial": 1339,
+    "name": "Nandani Sahakari MAHARASHTR KOLHAPUR 21/08/1997 Urban Name :Mr Sultan 1224, Bazar Peth",
+    "state": null
+  },
+  {
+    "serial": 1340,
+    "name": "The Urban UTTAR MAU 04/04/1988 Urban Name :Vinit Maunath Bhanjan",
+    "state": null
+  },
+  {
+    "serial": 1341,
+    "name": "Swatantrya Senani MAHARASHTR KOLHAPUR 25/03/1956 Urban Name :Mr Theater Chowk",
+    "state": null
+  },
+  {
+    "serial": 1342,
+    "name": "The Ron Teachers",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1343,
+    "name": "Citizens Urban",
+    "state": "Sikkim"
+  },
+  {
+    "serial": 1344,
+    "name": "The Narsapuram ANDHRA WEST 07/05/1935 Urban Name :D Hema Narasapur (M) -",
+    "state": null
+  },
+  {
+    "serial": 1345,
+    "name": "The Kodoli Urban MAHARASHTR KOLHAPUR 27/10/1979 Urban Name :Mr Sanjay A/p - Main Road",
+    "state": null
+  },
+  {
+    "serial": 1346,
+    "name": "Yadrav MAHARASHTR KOLHAPUR 03/12/1994 Urban Name :Mr Plot no. 102",
+    "state": null
+  },
+  {
+    "serial": 1347,
+    "name": "Shri Kalmeshwar",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1348,
+    "name": "The Priyadarshini MAHARASHTR KOLHAPUR 21/09/1994 Urban Name :Kalpana A/p - Ajara",
+    "state": null
+  },
+  {
+    "serial": 1349,
+    "name": "Raje Vikramsinh MAHARASHTR KOLHAPUR 21/07/1917 Urban Name :Shri C.S.No. 2156, Plot",
+    "state": null
+  },
+  {
+    "serial": 1350,
+    "name": "Nagar Sahakari UTTAR MAHARAJGANJ 11/01/1999 Urban Name :Vinay Mahrajganj (MB)",
+    "state": null
+  },
+  {
+    "serial": 1351,
+    "name": "Janata Sahakari MAHARASHTR KOLHAPUR 05/04/1963 Urban Name :Shri M B A/p - Main Road",
+    "state": null
+  },
+  {
+    "serial": 1352,
+    "name": "Ron Urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1353,
+    "name": "THE",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1354,
+    "name": "MULA MAHARASHTR Ahilyanagar 13/05/1997 Urban Name :SANJAY Sonai (Navin)",
+    "state": null
+  },
+  {
+    "serial": 1355,
+    "name": "Kumbhi Kasari MAHARASHTR KOLHAPUR 23/07/1976 Urban Name :Shri D S A/p - Kuditre, Tal",
+    "state": null
+  },
+  {
+    "serial": 1356,
+    "name": "Nagina urban UTTAR BIJNOR 16/11/1999 Urban Name :s k agarwal Bijnor (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1357,
+    "name": "CHURU ZILA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1358,
+    "name": "URBAN UTTAR KHERI 18/10/1984 Urban Name :SHAVAL Lakhimpur (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1359,
+    "name": "The bijnor urban UTTAR BIJNOR 13/02/1987 Urban Name :Shankar lal Bijnor (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1360,
+    "name": "Aman Sahakari MAHARASHTR KOLHAPUR 22/06/1994 Urban Name :Mr Asif Ward No.12",
+    "state": null
+  },
+  {
+    "serial": 1361,
+    "name": "The Aryapuram ANDHRA EAST 30/12/1918 Urban Name :Swarjya Opp Gokavaram",
+    "state": null
+  },
+  {
+    "serial": 1362,
+    "name": "The Innespeta ANDHRA EAST 12/04/1918 Urban Name :. K D.No 6-5-10,Main",
+    "state": null
+  },
+  {
+    "serial": 1363,
+    "name": "The Jampeta ANDHRA EAST 26/06/1926 Urban Name D.No 28-28-34",
+    "state": null
+  },
+  {
+    "serial": 1364,
+    "name": "The Kovvuru ANDHRA EAST 12/03/1919 Urban Name :Maddipatla Kovvur (NP) -",
+    "state": null
+  },
+  {
+    "serial": 1365,
+    "name": "Commercial Co- CHHATTISGAR RAIPUR 08/07/1987 Urban Name :M K MAHATMA",
+    "state": null
+  },
+  {
+    "serial": 1366,
+    "name": "Laxmi Mahila CHHATTISGAR RAIPUR 04/04/1994 Urban Name :MANJEET BABU",
+    "state": null
+  },
+  {
+    "serial": 1367,
+    "name": "Citizen CHHATTISGAR RAIPUR 18/12/1974 Urban Name :G S PT.",
+    "state": null
+  },
+  {
+    "serial": 1368,
+    "name": "The Raipur Urban CHHATTISGAR RAIPUR 23/03/1996 Urban Name :RAKESH SWAMI",
+    "state": null
+  },
+  {
+    "serial": 1369,
+    "name": "Shri Rukmini MAHARASHTR Ahilyanagar 19/09/1997 Urban Name :Madake Shrigonda (MC)",
+    "state": null
+  },
+  {
+    "serial": 1370,
+    "name": "The Hindustan ANDHRA VISAKHAPATA 05/05/1948 Urban Name :MVSS Visakhapatnam",
+    "state": null
+  },
+  {
+    "serial": 1371,
+    "name": "HADAGALI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1372,
+    "name": "THE",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1373,
+    "name": "Nagar Shakari UTTAR ETAWAH 18/10/1997 Urban Name :Ashish Etawah (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1374,
+    "name": "Pandharpur MAHARASHTR SOLAPUR 12/06/1961 Urban Name :atul Ward No 1",
+    "state": null
+  },
+  {
+    "serial": 1375,
+    "name": "Shri Basaveshwar",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1376,
+    "name": "THE ANDHRA VIZIANAGARA 18/08/1914 Urban Name :SRI P Vizianagaram",
+    "state": null
+  },
+  {
+    "serial": 1377,
+    "name": "The Pondicherry",
+    "state": "Puducherry"
+  },
+  {
+    "serial": 1378,
+    "name": "Mahabhairab",
+    "state": "Assam"
+  },
+  {
+    "serial": 1379,
+    "name": "The Guntur ANDHRA GUNTUR 05/07/1975 Urban Name :K.vani Hall No 8 P V",
+    "state": null
+  },
+  {
+    "serial": 1380,
+    "name": "The Ganga UTTAR MUZAFFARNAG 31/07/1997 Urban Name :Shiva Muzaffarnagar",
+    "state": null
+  },
+  {
+    "serial": 1381,
+    "name": "MAHOBA UTTAR MAHOBA 29/11/1996 Urban Name :JYOTI BEHIND",
+    "state": null
+  },
+  {
+    "serial": 1382,
+    "name": "Adarsh Mahila UTTAR MUZAFFARNAG 27/03/2000 Urban Name :Pankaj Jain Muzaffarnagar",
+    "state": null
+  },
+  {
+    "serial": 1383,
+    "name": "Gulshan UTTAR MUZAFFARNAG 03/09/1990 Urban Name :Anil Muzaffarnagar",
+    "state": null
+  },
+  {
+    "serial": 1384,
+    "name": "BHAWANI MAHARASHTR MUMBAI 12/08/1981 Urban Name :Deepak G/North - Ward",
+    "state": null
+  },
+  {
+    "serial": 1385,
+    "name": "NAGNATH MAHARASHTR HINGOLI 27/09/1996 Urban Name :SATISH In front of LIC",
+    "state": null
+  },
+  {
+    "serial": 1386,
+    "name": "KALWAN MAHARASHTR NASHIK 30/06/1961 Urban Name :KAILAS Kalwan (Mu Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1387,
+    "name": "Puri CARD Bank",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1388,
+    "name": "Puri Urban",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1389,
+    "name": "THE DHOLPUR",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1390,
+    "name": "SHREEJI MAHARASHTR MUMBAI 02/12/1999 Urban Name :DINESH 1A/112, YUSUF",
+    "state": null
+  },
+  {
+    "serial": 1391,
+    "name": "THE PRATAP MAHARASHTR MUMBAI 15/06/1981 Urban Name :SATISH B - Ward No. 224",
+    "state": null
+  },
+  {
+    "serial": 1392,
+    "name": "KOTA MAHILA",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1393,
+    "name": "KOTA NAGRIK",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1394,
+    "name": "Ratanchand shaha MAHARASHTR SOLAPUR 31/07/1962 Urban Name :Rahul Mangalvedhe (M",
+    "state": null
+  },
+  {
+    "serial": 1395,
+    "name": "The Shibpur Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1396,
+    "name": "EXCELLENT CO MAHARASHTR MUMBAI 12/06/1972 Urban Name :DAS B - Ward No. 224",
+    "state": null
+  },
+  {
+    "serial": 1397,
+    "name": "HINDUSTAN CO MAHARASHTR MUMBAI 01/01/1970 Urban Name :SUNIL HORIZON TOW",
+    "state": null
+  },
+  {
+    "serial": 1398,
+    "name": "THE",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1399,
+    "name": "THE",
+    "state": "Chandigarh"
+  },
+  {
+    "serial": 1400,
+    "name": "Renuka nagarik CHHATTISGAR SURGUJA 03/02/1996 Urban Name :T S Singh RAMANUJ",
+    "state": null
+  },
+  {
+    "serial": 1401,
+    "name": "THE BANTRA",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1402,
+    "name": "Balitikuri Co-",
+    "state": "West Bengal"
+  },
+  {
+    "serial": 1403,
+    "name": "pandharpur urban MAHARASHTR SOLAPUR 19/11/1912 Urban Name :UMESH Ward No 1",
+    "state": null
+  },
+  {
+    "serial": 1404,
+    "name": "Rajmata urban MAHARASHTR SOLAPUR 01/08/1996 Urban Name :Navanath Mangalvedhe (M",
+    "state": null
+  },
+  {
+    "serial": 1405,
+    "name": "Rukmini Co- MAHARASHTR SOLAPUR 12/02/1996 Urban Name :balasaheb Ward No 7",
+    "state": null
+  },
+  {
+    "serial": 1406,
+    "name": "The Bhadgaon MAHARASHTR JALGAON 27/06/1996 Urban Name :Dattatry Bhadgaon (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 1407,
+    "name": "The berhampur",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1408,
+    "name": "BHAUSAHEB MAHARASHTR Dharashiv 08/03/1996 Urban Name :RAMESH Umarga (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1409,
+    "name": "THE KARMALA MAHARASHTR SOLAPUR 01/01/1970 Urban Name :v.v.Doke Karmala (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1410,
+    "name": "Dapoli Urban co MAHARASHTR RATNAGIRI 29/02/1960 Urban Name Vir savarkar",
+    "state": null
+  },
+  {
+    "serial": 1411,
+    "name": "Ratnagiri Urban MAHARASHTR RATNAGIRI 06/02/1999 Urban Name :Nanasaheb 12&#039;PRAMI",
+    "state": null
+  },
+  {
+    "serial": 1412,
+    "name": "The Cooperative",
+    "state": "Odisha"
+  },
+  {
+    "serial": 1413,
+    "name": "The Chiplun MAHARASHTR RATNAGIRI 31/10/1933 Urban Name :Tushar Bajarpeth Chiplun",
+    "state": null
+  },
+  {
+    "serial": 1414,
+    "name": "Nagrik Sahkari MADHYA RATLAM 19/09/1981 Urban Name :R K Soni WARD 48",
+    "state": null
+  },
+  {
+    "serial": 1415,
+    "name": "SHREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1416,
+    "name": "Jila Sahakari MADHYA RATLAM 11/11/1949 Urban Name :alok kumar WARD 39 Nagar",
+    "state": null
+  },
+  {
+    "serial": 1417,
+    "name": "The Citizen Urban",
+    "state": "Punjab"
+  },
+  {
+    "serial": 1418,
+    "name": "The Mudhol Co",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1419,
+    "name": "Jamkhandi urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1420,
+    "name": "SHREE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1421,
+    "name": "BILAGI URBAN",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1422,
+    "name": "SHRI KADASID",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1423,
+    "name": "BASAVESHWAR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1424,
+    "name": "MAHALINGPUR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1425,
+    "name": "RABAKAVI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1426,
+    "name": "SWARNABHAR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1427,
+    "name": "MOHOL URBAN MAHARASHTR SOLAPUR 16/11/1996 Urban Name :DR Mohol (M",
+    "state": null
+  },
+  {
+    "serial": 1428,
+    "name": "JANATA MAHARASHTR SOLAPUR 19/08/1977 Urban Name :ARJUN Kurduvadi (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 1429,
+    "name": "Madheshwri MAHARASHTR SOLAPUR 23/11/1995 Urban Name Madha (N",
+    "state": null
+  },
+  {
+    "serial": 1430,
+    "name": "THE URBAN UTTAR SAHARANPUR 27/01/1990 Urban Name :GULFAM Saharanpur (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1431,
+    "name": "Urban UTTAR BAREILLY 02/03/1996 Urban Name :Sripal Bareilly (M Corp.)",
+    "state": null
+  },
+  {
+    "serial": 1432,
+    "name": "sawaimadhopur",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1433,
+    "name": "KRISHNA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1434,
+    "name": "THE TASGAO MAHARASHTR SANGLI 06/02/1936 Urban Name Tasgaon (M Cl)",
+    "state": null
+  },
+  {
+    "serial": 1435,
+    "name": "Rajapur Urban Co- MAHARASHTR RATNAGIRI 01/10/1921 Urban Name Select, Rajapur",
+    "state": null
+  },
+  {
+    "serial": 1436,
+    "name": "Nagrik sahkari CHHATTISGAR BASTAR 25/09/1998 Urban Name :GOUTAM Pratap Dev Ward",
+    "state": null
+  },
+  {
+    "serial": 1437,
+    "name": "SHALINI CO- MAHARASHTR MUMBAI 14/12/1982 Urban Name :MR G/South - Ward",
+    "state": null
+  },
+  {
+    "serial": 1438,
+    "name": "THE RAJAPUR MAHARASHTR MUMBAI 20/12/1973 Urban Name :MR 22, G/South -",
+    "state": null
+  },
+  {
+    "serial": 1439,
+    "name": "SHILLONG",
+    "state": "Meghalaya"
+  },
+  {
+    "serial": 1440,
+    "name": "THE",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1441,
+    "name": "DEVELOPMENT UTTAR KANPUR 03/02/1999 Urban Name :SHYAM 113/129, SWARO",
+    "state": null
+  },
+  {
+    "serial": 1442,
+    "name": "SHRI MAHARASHTR PUNE 10/03/1998 Urban Name Pune(M",
+    "state": null
+  },
+  {
+    "serial": 1443,
+    "name": "ASCARD Bank",
+    "state": "Assam"
+  },
+  {
+    "serial": 1444,
+    "name": "The Bundi Urban",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1445,
+    "name": "AZAD CO OP",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1446,
+    "name": "BASAWAKALY",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1447,
+    "name": "HIRIYUR",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1448,
+    "name": "KALYANSAGAR MAHARASHTR Dharashiv 23/01/1998 Urban Name :THAKUR Paranda (M Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1449,
+    "name": "THE GANDHI",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1450,
+    "name": "Jodhpur Nagrik",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1451,
+    "name": "MANJARA",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1452,
+    "name": "OMKAR UTTAR KANPUR 21/03/1998 Urban Name :NIDHI 118/169",
+    "state": null
+  },
+  {
+    "serial": 1453,
+    "name": "ORDNANCE UTTAR KANPUR 23/09/1922 Urban Name :Rajesh PHOOL BAGH",
+    "state": null
+  },
+  {
+    "serial": 1454,
+    "name": "R.B.I. EMP. UTTAR KANPUR 20/10/1930 Urban Name :ANAND R.B.I. MALL",
+    "state": null
+  },
+  {
+    "serial": 1455,
+    "name": "UNITED UTTAR KANPUR 29/04/1975 Urban Name :R C 106/382, 2nd",
+    "state": null
+  },
+  {
+    "serial": 1456,
+    "name": "The Deola MAHARASHTR NASHIK 19/01/1961 Urban Name :Sunil Deola (Mu Cl) -",
+    "state": null
+  },
+  {
+    "serial": 1457,
+    "name": "Urban",
+    "state": "Rajasthan"
+  },
+  {
+    "serial": 1458,
+    "name": "The Nakodar",
+    "state": "Punjab"
+  },
+  {
+    "serial": 1459,
+    "name": "ANUBHAV",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1460,
+    "name": "CITY CO. OP. MAHARASHTR MUMBAI 23/07/1943 Urban Name :Reshma G/North - Ward",
+    "state": null
+  },
+  {
+    "serial": 1461,
+    "name": "The Hasti MAHARASHTR DHULE 18/09/1971 Urban Name :KAILAS Dondaicha-",
+    "state": null
+  },
+  {
+    "serial": 1462,
+    "name": "shankar mohite MAHARASHTR SOLAPUR 09/01/1975 Urban Name :satish Akluj",
+    "state": null
+  },
+  {
+    "serial": 1463,
+    "name": "satguru gahininath MAHARASHTR SOLAPUR 07/01/1998 Urban Name :nandkumar Akluj",
+    "state": null
+  },
+  {
+    "serial": 1464,
+    "name": "THE BODELI",
+    "state": "Gujarat"
+  },
+  {
+    "serial": 1465,
+    "name": "Etah ubran UTTAR ETAH 05/01/1990 Urban Name :AARIF Select, Etah",
+    "state": null
+  },
+  {
+    "serial": 1466,
+    "name": "URBAN UTTAR SIDDHARTH 05/05/1998 Urban Name :NAIYER Tetri Bazar (MB) -",
+    "state": null
+  },
+  {
+    "serial": 1467,
+    "name": "DATTATRAYA MAHARASHTR MUMBAI 19/07/1973 Urban Name 418/20",
+    "state": null
+  },
+  {
+    "serial": 1468,
+    "name": "U P Postal UTTAR LUCKNOW 21/08/1915 Urban Name :Sanjay 3- BALMIKI",
+    "state": null
+  },
+  {
+    "serial": 1469,
+    "name": "PROGRESIVE MAHARASHTR MUMBAI 15/10/1983 Urban Name :SEC A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1470,
+    "name": "SATARA MAHARASHTR MUMBAI 15/11/1971 Urban Name :Prashant A - Ward No. 225",
+    "state": null
+  },
+  {
+    "serial": 1471,
+    "name": "Sri mallikarjun",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1472,
+    "name": "Mudgal urban",
+    "state": "Karnataka"
+  },
+  {
+    "serial": 1473,
+    "name": "THE MAHARASHTR SANGLI 18/03/1995 Urban Name :SURESH kHANAPUR",
+    "state": null
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "fira-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/db/seed.js",
+    "seed:bulk": "node src/db/seed-bulk-banks.js",
+    "scrape": "node src/db/scrape-rates.js",
+    "scrape:resume": "node src/db/scrape-rates.js --resume",
+    "seed:scraped": "node src/db/seed-from-scraped.js",
+    "build": "echo 'API ready'"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.13.1",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.11.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^8.0.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.87.0",
+    "nodemon": "^3.1.9",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.6.205",
+    "playwright": "^1.59.1"
+  }
+}

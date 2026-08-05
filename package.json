@@ -1,0 +1,14 @@
+{
+  "name": "fira-app",
+  "version": "0.1.0-beta",
+  "private": true,
+  "workspaces": ["api", "ui"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=api\" \"npm run dev --workspace=ui\"",
+    "build": "npm run build --workspace=ui && npm run build --workspace=api",
+    "start": "npm run start --workspace=api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

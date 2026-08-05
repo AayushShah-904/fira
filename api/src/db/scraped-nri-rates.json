@@ -1,0 +1,360 @@
+{
+  "SBI": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:27:19.693Z",
+    "rates": []
+  },
+  "PNB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:27:56.316Z",
+    "rates": []
+  },
+  "BOB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:28:32.880Z",
+    "rates": []
+  },
+  "Canara": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:28:41.318Z",
+    "rates": []
+  },
+  "BOI": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:28:47.135Z",
+    "rates": []
+  },
+  "Indian Bank": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:29:23.632Z",
+    "rates": [
+      {
+        "tenure_label": "4.50",
+        "rate_general": 4.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5.00",
+        "rate_general": 5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5.50",
+        "rate_general": 5.55,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5.75",
+        "rate_general": 5.8,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "6.00",
+        "rate_general": 6.05,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5.50",
+        "rate_general": 5.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.75%",
+        "rate_general": 2.75,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.80%",
+        "rate_general": 2.8,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.90%",
+        "rate_general": 2.9,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  },
+  "HDFC": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:29:24.696Z",
+    "rates": []
+  },
+  "ICICI": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:29:36.230Z",
+    "rates": []
+  },
+  "Axis": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:29:43.543Z",
+    "rates": []
+  },
+  "Kotak": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:29:49.045Z",
+    "rates": []
+  },
+  "IndusInd": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:30:23.752Z",
+    "rates": []
+  },
+  "Federal": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:30:32.176Z",
+    "rates": []
+  },
+  "IDFC First": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:30:46.252Z",
+    "rates": []
+  },
+  "Yes Bank": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:30:54.770Z",
+    "rates": []
+  },
+  "DCB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:31:06.303Z",
+    "rates": []
+  },
+  "RBL": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:31:43.655Z",
+    "rates": []
+  },
+  "Bandhan": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:31:52.381Z",
+    "rates": []
+  },
+  "SIB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:32:28.183Z",
+    "rates": []
+  },
+  "KVB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:32:37.655Z",
+    "rates": []
+  },
+  "CSB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:33:16.157Z",
+    "rates": []
+  },
+  "J&K Bank": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:33:19.004Z",
+    "rates": []
+  },
+  "AU SFB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:33:53.757Z",
+    "rates": []
+  },
+  "Ujjivan SFB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:33:56.969Z",
+    "rates": []
+  },
+  "ESAF SFB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:34:03.919Z",
+    "rates": []
+  },
+  "Equitas SFB": {
+    "type": "nri",
+    "scraped_at": "2026-04-12T07:34:07.483Z",
+    "rates": []
+  },
+  "HDFC IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:34:08.451Z",
+    "rates": []
+  },
+  "ICICI IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:34:47.142Z",
+    "rates": []
+  },
+  "Axis IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:34:49.706Z",
+    "rates": []
+  },
+  "SBI IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:34:55.889Z",
+    "rates": [
+      {
+        "tenure_label": "1.",
+        "rate_general": 3.5,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.",
+        "rate_general": 3.65,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "3.",
+        "rate_general": 3.8,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "4.",
+        "rate_general": 3.9,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "For loan up to 1 year: 5.75% or (FCNR(B) deposit rate + 50 bps), whichever is higher",
+        "rate_general": 1,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  },
+  "Kotak IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:34:59.273Z",
+    "rates": []
+  },
+  "Yes IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:34:59.771Z",
+    "rates": []
+  },
+  "IndusInd IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:34.185Z",
+    "rates": []
+  },
+  "Federal IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:40.788Z",
+    "rates": []
+  },
+  "IDFC First IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:43.718Z",
+    "rates": []
+  },
+  "BOB IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:46.943Z",
+    "rates": []
+  },
+  "BOI IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:50.116Z",
+    "rates": []
+  },
+  "DBS IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:54.023Z",
+    "rates": []
+  },
+  "StanChart IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:35:57.941Z",
+    "rates": []
+  },
+  "HSBC IBU": {
+    "type": "ibu",
+    "scraped_at": "2026-04-12T07:36:32.887Z",
+    "rates": [
+      {
+        "tenure_label": "3.00%",
+        "rate_general": 2.85,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.95%",
+        "rate_general": 2.9,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "4.50%",
+        "rate_general": 3,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.55%",
+        "rate_general": 2.8,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.30%",
+        "rate_general": 2.7,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.25%",
+        "rate_general": 2.65,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  }
+}

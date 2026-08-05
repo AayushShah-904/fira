@@ -1,0 +1,679 @@
+{
+  "SBI": {
+    "scraped_at": "2026-04-12T11:50:32.910Z",
+    "rates": []
+  },
+  "PNB": {
+    "scraped_at": "2026-04-12T11:50:40.774Z",
+    "rates": []
+  },
+  "BOB": {
+    "scraped_at": "2026-04-12T11:50:46.080Z",
+    "rates": []
+  },
+  "BOI": {
+    "scraped_at": "2026-04-12T11:50:50.875Z",
+    "rates": []
+  },
+  "HDFC": {
+    "scraped_at": "2026-04-12T11:51:00.486Z",
+    "rates": []
+  },
+  "ICICI": {
+    "scraped_at": "2026-04-12T11:51:07.806Z",
+    "rates": []
+  },
+  "Axis": {
+    "scraped_at": "2026-04-12T11:51:14.632Z",
+    "rates": [
+      {
+        "tenure_label": "1 year to 1 year 10 days",
+        "rate_general": 6.25,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 365,
+        "tenure_days_max": 365
+      },
+      {
+        "tenure_label": "18 Months < 2 Years",
+        "rate_general": 6.45,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  },
+  "Kotak": {
+    "scraped_at": "2026-04-12T11:51:23.124Z",
+    "rates": [
+      {
+        "tenure_label": "A. Domestic (w.e.f. July 9th, 2025)",
+        "rate_general": 2.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Upto ₹1,000 Crore*",
+        "rate_general": 2.5,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "7 - 14 Days",
+        "rate_general": 7,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2 years- less than 3 years",
+        "rate_general": 2,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": 730,
+        "tenure_days_max": 1095
+      },
+      {
+        "tenure_label": "3 years and above but less than 4 years",
+        "rate_general": 3,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "4 years and above but less than 5 years",
+        "rate_general": 4,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5 years and above upto and inclusive of 10 years",
+        "rate_general": 5,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2 years and above but less than 3 years",
+        "rate_general": 2,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "181 days and above",
+        "rate_general": 0.5,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Greater than or equal to 365 days",
+        "rate_general": 1,
+        "rate_senior": null,
+        "product_type": "nro",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "6 Months",
+        "rate_general": 5.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 180,
+        "tenure_days_max": 180
+      },
+      {
+        "tenure_label": "9 Months",
+        "rate_general": 6,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 270,
+        "tenure_days_max": 270
+      },
+      {
+        "tenure_label": "12 Months",
+        "rate_general": 6.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 360,
+        "tenure_days_max": 360
+      },
+      {
+        "tenure_label": "15 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 450,
+        "tenure_days_max": 450
+      },
+      {
+        "tenure_label": "18 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 540,
+        "tenure_days_max": 540
+      },
+      {
+        "tenure_label": "21 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 630,
+        "tenure_days_max": 630
+      },
+      {
+        "tenure_label": "24 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 720,
+        "tenure_days_max": 720
+      },
+      {
+        "tenure_label": "27 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 810,
+        "tenure_days_max": 810
+      },
+      {
+        "tenure_label": "30 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 900,
+        "tenure_days_max": 900
+      },
+      {
+        "tenure_label": "33 Months",
+        "rate_general": 6.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 990,
+        "tenure_days_max": 990
+      },
+      {
+        "tenure_label": "3 years - less than 4 years",
+        "rate_general": 6.4,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 1095,
+        "tenure_days_max": 1460
+      },
+      {
+        "tenure_label": "4 years - less than 5 years",
+        "rate_general": 6.4,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 1460,
+        "tenure_days_max": 1825
+      },
+      {
+        "tenure_label": "5 years - 10years",
+        "rate_general": 6.25,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 1825,
+        "tenure_days_max": 3650
+      },
+      {
+        "tenure_label": "6 months - Less than 1 Year",
+        "rate_general": 6,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 180,
+        "tenure_days_max": 365
+      },
+      {
+        "tenure_label": ">=1 Year - Less than 2 years",
+        "rate_general": 1,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 365,
+        "tenure_days_max": 730
+      },
+      {
+        "tenure_label": "2 year - Less than 3 Year",
+        "rate_general": 2,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 730,
+        "tenure_days_max": 1095
+      },
+      {
+        "tenure_label": "3 Years Only",
+        "rate_general": 3,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Housing Finance and Affordable Housing",
+        "rate_general": 5.25,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "For Salaried individuals",
+        "rate_general": 7.7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Housing Loans and Affordable Housing",
+        "rate_general": 7.45,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Loan Against Property And Affordable LAP",
+        "rate_general": 8.2,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Personal Loans",
+        "rate_general": 9.97,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Loan Against Securities",
+        "rate_general": 8.35,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Consumer Durables Loan",
+        "rate_general": 10,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Business Loan",
+        "rate_general": 9.21,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Healthcare Finance",
+        "rate_general": 7.75,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "CV Retail (Commercial Vehicle) Group",
+        "rate_general": 7.78,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "CE Retail (Construction Equipment)",
+        "rate_general": 8.24,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "TFE (Tractor and Farm Equipment)",
+        "rate_general": 9.41,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "GLN (Gold Loan)",
+        "rate_general": 8.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "ABG (Agri Business Loan)",
+        "rate_general": 6.95,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "ILG",
+        "rate_general": 8.25,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "CROP LOAN",
+        "rate_general": 9,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "BBG",
+        "rate_general": 9.65,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Outward",
+        "rate_general": 1,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "Current Account",
+        "rate_general": 2,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  },
+  "IndusInd": {
+    "scraped_at": "2026-04-12T11:52:00.463Z",
+    "rates": []
+  },
+  "Yes Bank": {
+    "scraped_at": "2026-04-12T11:52:01.059Z",
+    "rates": []
+  },
+  "Federal": {
+    "scraped_at": "2026-04-12T11:52:10.825Z",
+    "rates": []
+  },
+  "IDFC First": {
+    "scraped_at": "2026-04-12T11:52:17.186Z",
+    "rates": [
+      {
+        "tenure_label": "7 - 14 days",
+        "rate_general": 3.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "30 - 45 days",
+        "rate_general": 4,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "46 - 90 days",
+        "rate_general": 4.75,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "91 - 180 days",
+        "rate_general": 5.25,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "181 days – less than 1 year",
+        "rate_general": 6.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "1 year",
+        "rate_general": 6.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 365,
+        "tenure_days_max": 365
+      },
+      {
+        "tenure_label": "1 year 1 day– 370 days",
+        "rate_general": 6.5,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 1,
+        "tenure_days_max": 370
+      },
+      {
+        "tenure_label": "371 days to 389 days",
+        "rate_general": 7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 371,
+        "tenure_days_max": 389
+      },
+      {
+        "tenure_label": "390 days",
+        "rate_general": 7.4,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 390,
+        "tenure_days_max": 390
+      },
+      {
+        "tenure_label": "391 days – 2 years",
+        "rate_general": 7.25,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2 years 1 day – 5 years",
+        "rate_general": 7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5 years 1 day – 10 years",
+        "rate_general": 6,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "5 years",
+        "rate_general": 7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 1825,
+        "tenure_days_max": 1825
+      },
+      {
+        "tenure_label": "375 days",
+        "rate_general": 7,
+        "rate_senior": null,
+        "product_type": "nre",
+        "tenure_days_min": 375,
+        "tenure_days_max": 375
+      }
+    ]
+  },
+  "DCB": {
+    "scraped_at": "2026-04-12T11:52:23.430Z",
+    "rates": []
+  },
+  "RBL": {
+    "scraped_at": "2026-04-12T11:52:36.039Z",
+    "rates": []
+  },
+  "Bandhan": {
+    "scraped_at": "2026-04-12T11:52:51.523Z",
+    "rates": []
+  },
+  "CSB": {
+    "scraped_at": "2026-04-12T11:52:57.616Z",
+    "rates": []
+  },
+  "ICICI IBU": {
+    "scraped_at": "2026-04-12T11:53:08.469Z",
+    "rates": [
+      {
+        "tenure_label": "USD",
+        "rate_general": 3.5,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "GBP",
+        "rate_general": 2.75,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "EUR",
+        "rate_general": 1.75,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "SGD",
+        "rate_general": 1,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "CAD",
+        "rate_general": 2.5,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  },
+  "Axis IBU": {
+    "scraped_at": "2026-04-12T11:53:09.083Z",
+    "rates": []
+  },
+  "SBI IBU": {
+    "scraped_at": "2026-04-12T11:53:20.657Z",
+    "rates": []
+  },
+  "Kotak IBU": {
+    "scraped_at": "2026-04-12T11:53:21.313Z",
+    "rates": []
+  },
+  "HDFC IBU": {
+    "scraped_at": "2026-04-12T11:53:21.893Z",
+    "rates": []
+  },
+  "HSBC IBU": {
+    "scraped_at": "2026-04-12T11:53:28.547Z",
+    "rates": [
+      {
+        "tenure_label": "3.00%",
+        "rate_general": 2.85,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.95%",
+        "rate_general": 2.9,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "4.50%",
+        "rate_general": 3,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.55%",
+        "rate_general": 2.8,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.30%",
+        "rate_general": 2.7,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      },
+      {
+        "tenure_label": "2.25%",
+        "rate_general": 2.65,
+        "rate_senior": null,
+        "product_type": "ibu_usd",
+        "tenure_days_min": null,
+        "tenure_days_max": null
+      }
+    ]
+  }
+}

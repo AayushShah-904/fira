@@ -1,0 +1,9 @@
+node_modules/
+api/data/
+api/.env
+ui/dist/
+.DS_Store
+*.log
+api/src/db/scraped-rates.json
+api/src/db/scrape-errors.json
+.env
