@@ -1,0 +1,11 @@
+name = "fira-api"
+main = "src/hono-app.js"
+compatibility_date = "2026-01-01"
+
+[site]
+bucket = "../ui/dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fira-db"
+database_id = "fira-d1-db-id-placeholder"

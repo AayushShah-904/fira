@@ -838,6 +838,72 @@ router.post('/pipeline/stop/:jobId', (req, res) => {
   res.json({ success: true });
 });
 
+// POST /api/v1/admin/ingest-rates (Phase 5b Rate Ingestion API)
+router.post('/ingest-rates', (req, res) => {
+  const apiKey = req.headers['x-api-key'] || req.body?.api_key;
+  const expectedKey = process.env.INGEST_API_KEY || 'fira_ingest_secret_2026';
+  
+  if (!apiKey || apiKey !== expectedKey) {
+    return res.status(401).json({ error: 'Unauthorized: invalid or missing ingest API key' });
+  }
+
+  const { rates } = req.body;
+  if (!Array.isArray(rates) || rates.length === 0) {
+    return res.status(400).json({ error: 'Invalid payload: rates array required' });
+  }
+
+  const db = getDb();
+  let inserted = 0;
+
+  const insertStmt = db.prepare(`
+    INSERT INTO fd_rates (
+      bank_id, product_type, tenure_days_min, tenure_days_max, tenure_label,
+      rate_general, rate_senior, rate_bulk_1cr, rate_staff, min_amount, max_amount,
+      compounding, effective_from, source_url, verified, updated_at
+    ) VALUES (
+      ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now')
+    )
+    ON CONFLICT(bank_id, product_type, tenure_days_min, tenure_days_max) DO UPDATE SET
+      rate_general = excluded.rate_general,
+      rate_senior = excluded.rate_senior,
+      tenure_label = excluded.tenure_label,
+      effective_from = excluded.effective_from,
+      verified = excluded.verified,
+      updated_at = datetime('now')
+  `);
+
+  const transaction = db.transaction((rateItems) => {
+    for (const r of rateItems) {
+      if (!r.bank_id || !r.product_type || r.rate_general == null) continue;
+      const result = insertStmt.run(
+        r.bank_id,
+        r.product_type,
+        r.tenure_days_min || 365,
+        r.tenure_days_max || 365,
+        r.tenure_label || '1 Year',
+        r.rate_general,
+        r.rate_senior || null,
+        r.rate_bulk_1cr || null,
+        r.rate_staff || null,
+        r.min_amount || null,
+        r.max_amount || null,
+        r.compounding || 'quarterly',
+        r.effective_from || new Date().toISOString().split('T')[0],
+        r.source_url || null,
+        r.verified ? 1 : 0
+      );
+      if (result.changes > 0) inserted++;
+    }
+  });
+
+  try {
+    transaction(rates);
+    res.json({ success: true, count: inserted, message: `Successfully ingested ${inserted} rate records.` });
+  } catch (err) {
+    res.status(500).json({ error: `Ingestion transaction failed: ${err.message}` });
+  }
+});
+
 router.pipelineJobs = pipelineJobs;
 router.getActiveJobId = () => activeJobId;
 router.setActiveJobId = (id) => { activeJobId = id; };
