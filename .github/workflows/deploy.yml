@@ -1,0 +1,17 @@
+name: Deploy FIRA UI (via platform-iac)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-iac-deployment:
+    name: Call platform-iac Deployment Pipeline
+    uses: BO-SoftwareEngineering/platform-iac/.github/workflows/deploy-vm-app.yml@main
+    with:
+      app_name: 'fira-main-ui'
+      resource_group: 'sandbox-rg'
+      vm_name: 'bo-sandbox-vm-india'
+    secrets: inherit

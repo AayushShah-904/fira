@@ -6,11 +6,18 @@ set -e
 
 echo "▸ Deploying FIRA update..."
 
-cd /opt/fira
-
-# Pull latest code
-echo "▸ Pulling latest code..."
-git pull origin main
+if [ -d "/tmp/fira-source" ]; then
+    cd /tmp/fira-source
+    echo "▸ Pulling latest code in /tmp/fira-source..."
+    git pull origin main
+    echo "▸ Syncing updated files to /opt/fira..."
+    cp -r /tmp/fira-source/api/* /opt/fira/api/
+    cp -r /tmp/fira-source/ui/* /opt/fira/ui/
+    cp /tmp/fira-source/package.json /opt/fira/
+else
+    echo "  ⚠ /tmp/fira-source not found"
+    exit 1
+fi
 
 # Reinstall API deps if package.json changed
 echo "▸ Updating API dependencies..."
@@ -30,4 +37,5 @@ chown -R fira:fira /opt/fira
 echo "▸ Restarting API..."
 systemctl restart fira-api
 
-echo "✅ Deployed! Check: https://fia.bharatomni.com/health"
+echo "✅ Deployed! Check health at http://52.172.225.199/health"
+
