@@ -33,6 +33,8 @@ export default function AdminPage() {
   const [lastSummary, setLastSummary] = useState(null)
   const [selectedTarget, setSelectedTarget] = useState('--cohort gold-11-nri-banks')
   const logsContainerRef = useRef(null)
+  const logOffsetRef = useRef(0)          // tracks how many lines we've already seen
+  const accumulatedLogsRef = useRef([])   // full log array built incrementally
 
   // On mount, check if there is an active job ID stored in localStorage
   useEffect(() => {
@@ -54,40 +56,71 @@ export default function AdminPage() {
     }
   }, [pipelineState])
 
-  // Poll status while job is running
+  // Poll status while job is running — incremental log fetching
   useEffect(() => {
     if (!pipelineJobId) return
 
+    // Reset accumulators whenever we attach to a new job
+    logOffsetRef.current = 0
+    accumulatedLogsRef.current = []
+
     let intervalId;
+    let consecutiveErrors = 0;
+    const MAX_ERRORS = 5;
 
     const fetchStatus = () => {
-      adminApi.pipelineStatus(pipelineJobId)
+      const currentOffset = logOffsetRef.current
+      adminApi.pipelineLogChunk(pipelineJobId, currentOffset)
         .then(res => {
-          const job = res.data
-          setPipelineState(job)
+          consecutiveErrors = 0
+          const data = res.data
 
-          if (job.status === 'done' || job.status === 'error') {
+          // Append only the new lines received
+          if (data.logs && data.logs.length > 0) {
+            accumulatedLogsRef.current = [...accumulatedLogsRef.current, ...data.logs]
+          }
+
+          // Advance offset to totalLines so next poll only gets truly new lines
+          if (data.totalLines !== undefined) {
+            logOffsetRef.current = data.totalLines
+          }
+
+          // Merge accumulated logs into state for rendering
+          setPipelineState(prev => ({
+            ...prev,
+            jobId: data.jobId,
+            phase: data.phase,
+            status: data.status,
+            startedAt: data.startedAt,
+            finishedAt: data.finishedAt,
+            summary: data.summary,
+            logs: accumulatedLogsRef.current,
+          }))
+
+          if (data.status === 'done' || data.status === 'error') {
             if (intervalId) clearInterval(intervalId)
             localStorage.removeItem('active_pipeline_job_id')
             
-            if (job.status === 'done') {
+            if (data.status === 'done') {
               localStorage.setItem('last_pipeline_summary', JSON.stringify({
                 timestamp: new Date().toLocaleString(),
-                summary: job.summary
+                summary: data.summary
               }))
             }
           }
         })
         .catch(err => {
-          console.error('Failed to fetch status:', err)
-          if (intervalId) clearInterval(intervalId)
-          localStorage.removeItem('active_pipeline_job_id')
+          consecutiveErrors++
+          console.warn(`Status fetch failed (attempt ${consecutiveErrors}/${MAX_ERRORS}):`, err)
+          if (consecutiveErrors >= MAX_ERRORS) {
+            console.error('Too many consecutive failures, stopping poll.')
+            if (intervalId) clearInterval(intervalId)
+            localStorage.removeItem('active_pipeline_job_id')
+          }
         })
     }
 
-    // Fetch once immediately
     fetchStatus()
-
     intervalId = setInterval(fetchStatus, 2000)
 
     return () => {
@@ -109,13 +142,16 @@ export default function AdminPage() {
 
   const handleStartPipeline = async () => {
     setIsStarting(true)
+    // Reset accumulators for the new run
+    logOffsetRef.current = 0
+    accumulatedLogsRef.current = []
+    setPipelineState(null)
     try {
       const res = await adminApi.pipelineStart(selectedTarget)
       const jobId = res.data.jobId
       setPipelineJobId(jobId)
       localStorage.setItem('active_pipeline_job_id', jobId)
-      const statusRes = await adminApi.pipelineStatus(jobId)
-      setPipelineState(statusRes.data)
+      // The polling useEffect will kick in automatically and do the first fetch
     } catch (err) {
       console.error(err)
       alert(err.response?.data?.error || 'Failed to start rate refresh pipeline.')
@@ -128,8 +164,10 @@ export default function AdminPage() {
     if (!pipelineJobId) return
     try {
       await adminApi.pipelineStop(pipelineJobId)
+      // Fetch final state (full, no offset) and set it
       const statusRes = await adminApi.pipelineStatus(pipelineJobId)
-      setPipelineState(statusRes.data)
+      accumulatedLogsRef.current = statusRes.data.logs || []
+      setPipelineState({ ...statusRes.data, logs: accumulatedLogsRef.current })
       localStorage.removeItem('active_pipeline_job_id')
     } catch (err) {
       console.error(err)
@@ -139,6 +177,8 @@ export default function AdminPage() {
   const handleClearPipeline = () => {
     setPipelineJobId(null)
     setPipelineState(null)
+    logOffsetRef.current = 0
+    accumulatedLogsRef.current = []
     localStorage.removeItem('active_pipeline_job_id')
     localStorage.removeItem('last_pipeline_summary')
     setLastSummary(null)
@@ -332,20 +372,20 @@ export default function AdminPage() {
         {pipelineState && pipelineState.status === 'done' && pipelineState.summary && (
           <div className="mt-4 p-4 rounded-xl border border-success-100 bg-success-50/20 grid grid-cols-2 sm:grid-cols-4 gap-4">
             <div>
-              <div className="text-[10px] uppercase font-semibold text-surface-400">Banks Added</div>
-              <div className="text-lg font-bold font-mono text-success-700">{pipelineState.summary.banksAdded}</div>
-            </div>
-            <div>
               <div className="text-[10px] uppercase font-semibold text-surface-400">Banks Matched</div>
               <div className="text-lg font-bold font-mono text-success-700">{pipelineState.summary.banksMatched}</div>
             </div>
             <div>
-              <div className="text-[10px] uppercase font-semibold text-surface-400">Rates Slabs Added</div>
+              <div className="text-[10px] uppercase font-semibold text-surface-400">Rates Added</div>
               <div className="text-lg font-bold font-mono text-success-700">{pipelineState.summary.ratesAdded}</div>
             </div>
             <div>
-              <div className="text-[10px] uppercase font-semibold text-surface-400">Total Rates in DB</div>
-              <div className="text-lg font-bold font-mono text-success-700">{pipelineState.summary.totalRates}</div>
+              <div className="text-[10px] uppercase font-semibold text-surface-400">Rates Updated</div>
+              <div className="text-lg font-bold font-mono text-success-700">{pipelineState.summary.ratesUpdated}</div>
+            </div>
+            <div>
+              <div className="text-[10px] uppercase font-semibold text-surface-400">Rates Kept (Verified)</div>
+              <div className="text-lg font-bold font-mono text-surface-500">{pipelineState.summary.ratesSkipped}</div>
             </div>
           </div>
         )}

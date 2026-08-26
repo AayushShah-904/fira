@@ -65,6 +65,7 @@ export const adminApi = {
   onboardingStats: ()                                                => api.get('/admin/onboarding-stats'),
   pipelineStart:   (target: string)                                  => api.post('/admin/pipeline/start', { target }),
   pipelineStatus:  (jobId: string)                                   => api.get(`/admin/pipeline/status/${jobId}`),
+  pipelineLogChunk:(jobId: string, offset: number)                   => api.get(`/admin/pipeline/status/${jobId}`, { params: { offset } }),
   pipelineStop:    (jobId: string)                                   => api.post(`/admin/pipeline/stop/${jobId}`),
 }
 

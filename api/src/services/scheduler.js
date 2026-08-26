@@ -1,7 +1,8 @@
 /**
  * scheduler.js
  * Background scheduler service for rate discovery agent runs.
- * - Schedule: Sunday and Wednesday at 2:00 AM IST
+ * - Schedule: Monday to Saturday (Business Days) at 10:15 AM IST
+ *   (Aligned with RBI guidelines requiring bulk deposit rates to be disclosed by 10:10 AM IST)
  */
 
 const path = require('path');
@@ -115,15 +116,16 @@ function checkAndRunSchedule() {
   const min = ist.minutes;
   const day = ist.day;
 
-  // Sunday and Wednesday at 2:00 AM IST (day === 0 or day === 3, hr === 2, min === 0)
-  if ((day === 0 || day === 3) && hr === 2 && min === 0) {
-    triggerScheduledJob('biweekly');
+  // Monday to Saturday at 10:15 AM IST (day 1-6, hr === 10, min === 15)
+  // Aligned with RBI guideline cutoff of 10:10 AM IST for bulk deposit rate disclosures
+  if (day >= 1 && day <= 6 && hr === 10 && min === 15) {
+    triggerScheduledJob('daily_business_day');
   }
 }
 
 function init() {
   console.log('⏰ Starting Rates Refresh Scheduler service...');
-  console.log('   - Schedule: Sunday and Wednesday at 2:00 AM IST');
+  console.log('   - Schedule: Monday to Saturday at 10:15 AM IST (RBI Bulk Rate Window)');
   console.log('   - Default cohort: gold-11-nri-banks');
   
   // Check once a minute

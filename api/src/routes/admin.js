@@ -337,6 +337,7 @@ function parseSummaryFromLogs(logs) {
     banksAdded: 0,
     banksMatched: 0,
     ratesAdded: 0,
+    ratesUpdated: 0,
     ratesSkipped: 0,
     totalBanks: 0,
     totalRates: 0
@@ -352,8 +353,11 @@ function parseSummaryFromLogs(logs) {
     } else if (line.includes('Rates added:')) {
       const match = line.match(/Rates added:\s+(\d+)/);
       if (match) summary.ratesAdded = parseInt(match[1], 10);
-    } else if (line.includes('Rates skipped:')) {
-      const match = line.match(/Rates skipped:\s+(\d+)/);
+    } else if (line.includes('Rates updated:')) {
+      const match = line.match(/Rates updated:\s+(\d+)/);
+      if (match) summary.ratesUpdated = parseInt(match[1], 10);
+    } else if (line.includes('Rates kept (ours):')) {
+      const match = line.match(/Rates kept \(ours\):\s+(\d+)/);
       if (match) summary.ratesSkipped = parseInt(match[1], 10);
     } else if (line.includes('Total banks:')) {
       const match = line.match(/Total banks:\s+(\d+)/);
@@ -458,6 +462,15 @@ function runPipelineJob(jobId) {
 
         const packData = await res.json();
         logToJob(job, `[SYSTEM] Downloaded rates pack: ${packData.banks?.length || 0} banks.`);
+
+        // Save a local copy for developer inspection
+        try {
+          const localPackPath = path.resolve(__dirname, '../../logs', 'rates-pack-latest.json');
+          fs.writeFileSync(localPackPath, JSON.stringify(packData, null, 2));
+          logToJob(job, `[SYSTEM] Saved rates-pack snapshot: ${localPackPath}`);
+        } catch (saveErr) {
+          logToJob(job, `[SYSTEM WARNING] Could not save local rates-pack copy: ${saveErr.message}`);
+        }
 
         logToJob(job, `[SYSTEM] Running database import transaction...`);
         const { importRatesPack } = require('../services/importer');
@@ -728,10 +741,13 @@ router.post('/pipeline/start', (req, res) => {
 });
 
 // GET /api/v1/admin/pipeline/status/:jobId
+// Optional query param: ?offset=N  — only returns log lines [N..end], plus totalLines count.
+// If offset is omitted, returns all logs (first load / reconstruction).
 router.get('/pipeline/status/:jobId', (req, res) => {
   res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
   
   const jobId = req.params.jobId;
+  const offset = req.query.offset !== undefined ? parseInt(req.query.offset, 10) : null;
   let job = pipelineJobs.get(jobId);
   
   // Reconstruct job state from disk log if it was wiped (e.g. nodemon restart)
@@ -773,31 +789,55 @@ router.get('/pipeline/status/:jobId', (req, res) => {
     return res.status(404).json({ error: 'Job not found' });
   }
 
-  // Sync log array from disk file if available to guarantee no missing logs
+  // Read entire log file from disk on every request (source of truth)
+  let allLines = [];
   if (job.logFile && fs.existsSync(job.logFile)) {
     try {
       const content = fs.readFileSync(job.logFile, 'utf8');
-      job.logs = content.split('\n').filter(Boolean);
-      
-      const contentStr = job.logs.join('\n');
-      if (contentStr.includes('[SYSTEM] Pipeline finished successfully!') || contentStr.includes('Database sync complete.')) {
+      allLines = content.split('\n').filter(Boolean);
+
+      // Derive job status/phase/summary from disk content
+      const isDone = content.includes('[SYSTEM] Pipeline finished successfully!') ||
+                     content.includes('Database sync complete') ||
+                     content.includes('- Rates updated:') ||
+                     content.includes('- Banks matched:');
+      const isError = !isDone && (
+        content.includes('[SYSTEM ERROR]') ||
+        content.includes('exited with code') ||
+        content.includes('process error') ||
+        content.includes('Status polling failed')
+      );
+
+      if (isDone) {
         job.status = 'done';
         job.phase = 'done';
-        job.summary = parseSummaryFromLogs(job.logs);
-      } else if (contentStr.includes('[SYSTEM ERROR]') || contentStr.includes('exited with code') || contentStr.includes('process error')) {
+        job.summary = parseSummaryFromLogs(allLines);
+        if (!job.finishedAt) job.finishedAt = new Date().toISOString();
+      } else if (isError) {
         job.status = 'error';
+        if (!job.finishedAt) job.finishedAt = new Date().toISOString();
       } else {
         job.status = 'running';
-        if (contentStr.includes('Starting Sync pipeline') || contentStr.includes('Running database import')) {
+        if (content.includes('Starting Sync pipeline') ||
+            content.includes('Running database import') ||
+            content.includes('Fetching rates-pack.json')) {
           job.phase = 'sync';
         } else {
           job.phase = 'discovery';
         }
       }
     } catch (err) {
-      // ignore
+      // ignore read errors — fall through with empty allLines
     }
   }
+
+  const totalLines = allLines.length;
+
+  // If offset provided, only send new lines since that offset (incremental mode)
+  // If offset is null/missing, send all lines (initial load)
+  const newLines = (offset !== null && !isNaN(offset) && offset >= 0)
+    ? allLines.slice(offset)
+    : allLines;
 
   res.json({
     jobId: job.jobId,
@@ -805,8 +845,9 @@ router.get('/pipeline/status/:jobId', (req, res) => {
     status: job.status,
     startedAt: job.startedAt,
     finishedAt: job.finishedAt,
-    logs: job.logs,
-    summary: job.summary
+    summary: job.summary,
+    logs: newLines,
+    totalLines,
   });
 });
 
@@ -902,6 +943,88 @@ router.post('/ingest-rates', (req, res) => {
   } catch (err) {
     res.status(500).json({ error: `Ingestion transaction failed: ${err.message}` });
   }
+});
+
+// GET /api/v1/admin/pipeline/rates-pack
+// Returns the locally cached rates-pack-latest.json downloaded from Azure Blob on last run.
+// Optional query params:
+//   ?bank=<bank_code>       — filter to a single bank
+//   ?product=<product_type> — filter rates by product type (fd_nre, fd_fcnr, etc.)
+router.get('/pipeline/rates-pack', (req, res) => {
+  const localPackPath = path.resolve(__dirname, '../../logs', 'rates-pack-latest.json');
+
+  if (!fs.existsSync(localPackPath)) {
+    return res.status(404).json({
+      error: 'No rates-pack snapshot found. Run the pipeline at least once to generate it.',
+    });
+  }
+
+  let pack;
+  try {
+    pack = JSON.parse(fs.readFileSync(localPackPath, 'utf8'));
+  } catch (err) {
+    return res.status(500).json({ error: `Failed to parse rates-pack: ${err.message}` });
+  }
+
+  const { bank, product } = req.query;
+
+  // Filter to a specific bank if requested
+  if (bank) {
+    const found = (pack.banks || []).find(b => b.bank_code === bank);
+    if (!found) {
+      return res.status(404).json({ error: `Bank '${bank}' not found in rates-pack.` });
+    }
+
+    // Optionally filter product type within the bank's products
+    if (product && found.products) {
+      const [prodType, subtype] = product.split('/');
+      const prodGroup = found.products[prodType];
+      if (!prodGroup) {
+        return res.status(404).json({ error: `Product type '${prodType}' not found for bank '${bank}'.` });
+      }
+      const subtypeData = subtype ? prodGroup[subtype] : prodGroup;
+      return res.json({
+        bank_code: found.bank_code,
+        bank_name: found.bank_name,
+        effective_date: found.effective_date,
+        product: product,
+        data: subtypeData || null,
+      });
+    }
+
+    return res.json(found);
+  }
+
+  // No bank filter — return summary (bank list + metadata, not all slabs)
+  const summary = {
+    generated_at: pack.generated_at || pack.timestamp || null,
+    total_banks: (pack.banks || []).length,
+    banks: (pack.banks || []).map(b => {
+      const productSummary = {};
+      for (const [prodType, prodData] of Object.entries(b.products || {})) {
+        if (!prodData) continue;
+        productSummary[prodType] = {};
+        for (const [subtype, subtypeData] of Object.entries(prodData)) {
+          if (!subtypeData) continue;
+          const slabs = subtypeData.slabs || subtypeData.rates || [];
+          productSummary[prodType][subtype] = {
+            slabs: slabs.length,
+            effective_date: subtypeData.effective_date || null,
+          };
+        }
+      }
+      return {
+        bank_code: b.bank_code,
+        bank_name: b.bank_name,
+        bank_type: b.bank_type,
+        status: b.status,
+        effective_date: b.effective_date,
+        products: productSummary,
+      };
+    }),
+  };
+
+  res.json(summary);
 });
 
 router.pipelineJobs = pipelineJobs;
