@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   run-iac-deployment:
     name: Call platform-iac Deployment Pipeline
@@ -15,3 +19,4 @@ jobs:
       resource_group: 'sandbox-rg'
       vm_name: 'bo-sandbox-vm-india'
     secrets: inherit
+
