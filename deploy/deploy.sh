@@ -24,6 +24,10 @@ echo "▸ Updating API dependencies..."
 cd /opt/fira/api
 npm install --omit=dev --quiet 2>&1 | tail -1
 
+# Seed/Update database users & rates
+echo "▸ Seeding/Updating database..."
+node -r dotenv/config src/db/seed.js
+
 # Rebuild UI
 echo "▸ Rebuilding UI..."
 cd /opt/fira/ui

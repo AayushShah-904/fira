@@ -583,21 +583,23 @@ function seed() {
   // ─── DEMO USER ───────────────────────────────────────────────
   const pw = bcrypt.hashSync('demo123!', 10);
   db.prepare(`
-    INSERT OR IGNORE INTO users(email,password_hash,name,firm,ria_reg_no,role,plan)
+    INSERT INTO users(email,password_hash,name,firm,ria_reg_no,role,plan)
     VALUES(?,?,?,?,?,?,?)
+    ON CONFLICT(email) DO UPDATE SET password_hash=excluded.password_hash
   `).run('demo@fira.in', pw, 'Demo RIA', 'Demo Capital Advisory', 'INA000000000', 'user', 'free');
-  console.log(`  ✓ Demo user: demo@fira.in / demo123!`);
 
   // ─── ADMIN USERS ──────────────────────────────────────────────
   const adminPw = bcrypt.hashSync('admin123!', 10);
   db.prepare(`
-    INSERT OR IGNORE INTO users(email,password_hash,name,firm,ria_reg_no,role,plan)
+    INSERT INTO users(email,password_hash,name,firm,ria_reg_no,role,plan)
     VALUES(?,?,?,?,?,?,?)
+    ON CONFLICT(email) DO UPDATE SET password_hash=excluded.password_hash
   `).run('admin@fira.in', adminPw, 'System Admin', 'FDRates Inc', 'INA999999999', 'admin', 'enterprise');
   
   db.prepare(`
-    INSERT OR IGNORE INTO users(email,password_hash,name,firm,ria_reg_no,role,plan)
+    INSERT INTO users(email,password_hash,name,firm,ria_reg_no,role,plan)
     VALUES(?,?,?,?,?,?,?)
+    ON CONFLICT(email) DO UPDATE SET password_hash=excluded.password_hash
   `).run('admin@fdrates.in', adminPw, 'System Admin', 'FDRates Inc', 'INA999999999', 'admin', 'enterprise');
   console.log(`  ✓ Admin users: admin@fira.in & admin@fdrates.in / admin123!`);
 
