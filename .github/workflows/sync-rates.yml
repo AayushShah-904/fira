@@ -1,15 +1,10 @@
-﻿name: Sync Rates to Production VM
+name: Sync Rates to Production VM
 
 on:
-  # Run automatically after every successful deploy
-  workflow_run:
-    workflows: ["Deploy FIRA UI (via platform-iac)"]
-    types: [completed]
-  # Allow manual trigger from GitHub Actions UI
   workflow_dispatch:
-  # Also run daily at midnight IST (18:30 UTC)
   schedule:
-    - cron: '30 18 * * *'
+    # Run daily at 10:30 AM IST (05:00 UTC) after RBI rate disclosures
+    - cron: '0 5 * * 1-6'
 
 permissions:
   id-token: write
@@ -17,42 +12,35 @@ permissions:
 
 jobs:
   sync-rates:
-    name: Pull latest rates into VM database
+    name: Sync Latest Rates to VM Database
     runs-on: ubuntu-latest
-    # Skip if triggered by a failed deploy
-    if: >
-      github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
 
     steps:
-      - name: SSH into VM and run sync-rates.js
-        uses: appleboy/ssh-action@v1.0.3
+      - name: Azure Login (via OIDC)
+        uses: azure/login@v2
         with:
-          host: ${{ secrets.VM_HOST }}
-          username: ${{ secrets.VM_USER }}
-          key: ${{ secrets.VM_SSH_KEY }}
-          script: |
-            set -e
-            echo "=== Syncing rates on VM ==="
-            cd /opt/fira/api
-            node sync-rates.js
-            echo "=== Sync complete ==="
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          allow-no-subscriptions: true
 
-      - name: (Optional) Download snapshot for review
-        uses: appleboy/scp-action@v0.1.7
-        if: always()
+      - name: Execute Rate Sync on VM
+        uses: azure/CLI@v2
         with:
-          host: ${{ secrets.VM_HOST }}
-          username: ${{ secrets.VM_USER }}
-          key: ${{ secrets.VM_SSH_KEY }}
-          source: "/opt/fira/api/logs/rates-pack-latest.json"
-          target: "./rates-snapshot/"
-          strip_components: 5
+          azcliversion: latest
+          inlineScript: |
+            az vm run-command invoke \
+              --resource-group sandbox-rg \
+              --name bo-sandbox-vm-india \
+              --command-id RunShellScript \
+              --scripts "
+                set -e
+                echo '=== Running Rate Sync on Azure VM ==='
+                cd /opt/fira/api
+                if [ -f sync-rates.js ]; then
+                  node sync-rates.js
+                fi
+                sudo systemctl restart fira-api
+                echo '=== Rate Sync Completed Successfully ==='
+              "
 
-      - name: Upload snapshot as artifact
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: rates-pack-snapshot-${{ github.run_id }}
-          path: rates-snapshot/
-          retention-days: 14
