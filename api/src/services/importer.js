@@ -76,6 +76,25 @@ function parseDateToYMD(dateStr) {
   return null;
 }
 
+function extractEffectiveDate(text) {
+  if (!text) return null;
+  const patterns = [
+    /w\.e\.f\.?\s*(\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]+,?\s+\d{4})/i,
+    /effective\s+(?:from\s+)?(\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]+,?\s+\d{4})/i,
+    /with\s+effect\s+from\s+(\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]+,?\s+\d{4})/i,
+    /rates\s+(?:as\s+on|w\.e\.f\.)\s+(\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]+,?\s+\d{4})/i,
+    /(\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]+,?\s+\d{4})/i
+  ];
+  for (const p of patterns) {
+    const m = text.match(p);
+    if (m) {
+      const parsed = parseDateToYMD(m[1]);
+      if (parsed) return parsed;
+    }
+  }
+  return parseDateToYMD(text);
+}
+
 function variantToProduct(variant, currency) {
   if (variant === 'regular') return 'domestic';
   if (variant === 'nre') return 'nre';
@@ -86,22 +105,16 @@ function variantToProduct(variant, currency) {
 }
 
 function normalizeTenureLabel(min, max, originalLabel) {
-  if (min === 365 && (max === 729 || max === 730)) {
-    return "1 year < 2 years";
+  if (originalLabel && originalLabel.trim().length > 0) {
+    return originalLabel.trim();
   }
-  if (min === 730 && (max === 1094 || max === 1095)) {
-    return "2 years < 3 years";
-  }
-  if (min === 1095 && (max === 1459 || max === 1460)) {
-    return "3 years < 4 years";
-  }
-  if (min === 1460 && (max === 1824 || max === 1825)) {
-    return "4 years < 5 years";
-  }
-  if (min === 1825 && max === 1825) {
-    return "5 years";
-  }
-  return originalLabel || `${min}d–${max}d`;
+  if (min === 365 && max === 365) return "1 year";
+  if (min === 365 && (max === 729 || max === 730)) return "1 year < 2 years";
+  if (min === 730 && (max === 1094 || max === 1095)) return "2 years < 3 years";
+  if (min === 1095 && (max === 1459 || max === 1460)) return "3 years < 4 years";
+  if (min === 1460 && (max === 1824 || max === 1825)) return "4 years < 5 years";
+  if (min === 1825 && max === 1825) return "5 years";
+  return `${min}d–${max}d`;
 }
 
 function normBankName(s) {
