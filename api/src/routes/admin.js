@@ -11,6 +11,40 @@ const AZURE_COHORT_BANKS = {
     'canara-bank',
     'bandhan-bank-limited',
     'bank-of-bahrain-and-kuwait-bsc'
+  ],
+  'gold-11-nri-banks': [
+    'yes-bank-limited',
+    'yes-bank-ibu',
+    'axis-bank-limited',
+    'axis-bank-ibu',
+    'au-small-finance-bank-limited',
+    'icici-bank-limited',
+    'icici-bank-ibu',
+    'rbl-bank-limited',
+    'rbl-bank-ibu',
+    'idfc-first-bank-limited',
+    'idfc-first-bank-ibu',
+    'canara-bank',
+    'canara-bank-ibu',
+    'indian-overseas-bank',
+    'bank-of-maharashtra',
+    'bank-of-maharashtra-ibu',
+    'saraswat-co-operative-bank-ltd',
+    'cosmos-co-operative-bank-ltd'
+  ],
+  'top-12': [
+    'state-bank-of-india',
+    'bank-of-baroda',
+    'punjab-national-bank',
+    'hdfc-bank-limited',
+    'icici-bank-limited',
+    'axis-bank-limited',
+    'kotak-mahindra-bank-limited',
+    'au-small-finance-bank-limited',
+    'equitas-small-finance-bank-limited',
+    'citibank-na',
+    'bank-of-india-ibu',
+    'abhyudaya-co-operative-bank-ltd-mumbai'
   ]
 };
 

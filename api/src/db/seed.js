@@ -178,7 +178,7 @@ function seed() {
   };
 
   // ─── FD RATES ────────────────────────────────────────────────
-  const TODAY = new Date().toISOString().slice(0, 10);
+  const TODAY = '2026-04-01';
 
   const rates = [
     // SBI
@@ -539,7 +539,7 @@ function seed() {
   ];
 
   const insertRate = db.prepare(`
-    INSERT INTO fd_rates(
+    INSERT OR IGNORE INTO fd_rates(
       bank_id,product_type,tenure_days_min,tenure_days_max,tenure_label,
       rate_general,rate_senior,rate_bulk_1cr,min_amount,compounding,
       effective_from,effective_to,source_url,verified,notes
@@ -548,11 +548,6 @@ function seed() {
       @rate_general,@rate_senior,@rate_bulk_1cr,@min_amount,@compounding,
       @effective_from,@effective_to,@source_url,@verified,@notes
     )
-    ON CONFLICT(bank_id, product_type, tenure_days_min, tenure_days_max) DO UPDATE SET
-      effective_from=excluded.effective_from,
-      rate_general=excluded.rate_general,
-      rate_senior=excluded.rate_senior,
-      verified=excluded.verified
   `);
 
   let rateCount = 0;
@@ -571,7 +566,7 @@ function seed() {
           rate_bulk_1cr: r.bulk ?? null,
           min_amount: r.min_amount ?? null,
           compounding: r.comp || 'quarterly',
-          effective_from: TODAY,
+          effective_from: r.eff,
           effective_to: r.eff_to ?? null,
           source_url: r.source ?? null,
           verified: r.verified ?? 0,

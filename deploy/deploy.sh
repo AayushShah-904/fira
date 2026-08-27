@@ -24,9 +24,13 @@ echo "▸ Updating API dependencies..."
 cd /opt/fira/api
 npm install --omit=dev --quiet 2>&1 | tail -1
 
-# Seed/Update database users & rates
-echo "▸ Seeding/Updating database..."
+# Seed/Update database users & banks schema
+echo "▸ Seeding database schema & users..."
 node -r dotenv/config src/db/seed.js
+
+# Sync live rates from Azure Blob Storage into the production DB
+echo "▸ Syncing latest rates from Azure Blob Storage..."
+node sync-rates.js && echo "  ✓ Rates synced" || echo "  ⚠ Rate sync failed — check logs, continuing deploy"
 
 # Rebuild UI
 echo "▸ Rebuilding UI..."
