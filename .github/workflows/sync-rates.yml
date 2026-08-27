@@ -1,0 +1,58 @@
+﻿name: Sync Rates to Production VM
+
+on:
+  # Run automatically after every successful deploy
+  workflow_run:
+    workflows: ["Deploy FIRA UI (via platform-iac)"]
+    types: [completed]
+  # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+  # Also run daily at midnight IST (18:30 UTC)
+  schedule:
+    - cron: '30 18 * * *'
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  sync-rates:
+    name: Pull latest rates into VM database
+    runs-on: ubuntu-latest
+    # Skip if triggered by a failed deploy
+    if: >
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: SSH into VM and run sync-rates.js
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VM_HOST }}
+          username: ${{ secrets.VM_USER }}
+          key: ${{ secrets.VM_SSH_KEY }}
+          script: |
+            set -e
+            echo "=== Syncing rates on VM ==="
+            cd /opt/fira/api
+            node sync-rates.js
+            echo "=== Sync complete ==="
+
+      - name: (Optional) Download snapshot for review
+        uses: appleboy/scp-action@v0.1.7
+        if: always()
+        with:
+          host: ${{ secrets.VM_HOST }}
+          username: ${{ secrets.VM_USER }}
+          key: ${{ secrets.VM_SSH_KEY }}
+          source: "/opt/fira/api/logs/rates-pack-latest.json"
+          target: "./rates-snapshot/"
+          strip_components: 5
+
+      - name: Upload snapshot as artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rates-pack-snapshot-${{ github.run_id }}
+          path: rates-snapshot/
+          retention-days: 14
