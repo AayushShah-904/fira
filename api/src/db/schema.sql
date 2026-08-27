@@ -75,6 +75,7 @@ CREATE TABLE IF NOT EXISTS banks (
 
 CREATE INDEX IF NOT EXISTS idx_banks_category ON banks(category_id);
 CREATE INDEX IF NOT EXISTS idx_banks_state ON banks(state);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_banks_category_name ON banks(category_id, name);
 
 -- ─── FD RATES ────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS fd_rates (
