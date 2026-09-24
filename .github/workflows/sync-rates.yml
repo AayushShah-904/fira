@@ -2,9 +2,10 @@ name: Sync Rates to Production VM
 
 on:
   workflow_dispatch:
-  schedule:
-    # Run daily at 10:30 AM IST (05:00 UTC) after RBI rate disclosures
-    - cron: '0 5 * * 1-6'
+  # schedule:
+  #   # Run daily at 10:30 AM IST (05:00 UTC) after RBI rate disclosures
+  #   # NOTE: Schedule disabled — VM is currently off. Uncomment when VM is running again.
+  #   - cron: '0 5 * * 1-6'
 
 permissions:
   id-token: write
