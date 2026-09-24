@@ -19,9 +19,29 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // ─── SECURITY ────────────────────────────────────────────────────
-app.use(helmet());
+app.use(helmet({
+  contentSecurityPolicy: false,
+}));
+
+const allowedOrigins = (process.env.CORS_ORIGIN || 'http://localhost:5173,http://52.172.225.199,http://fia-bharatomni.centralindia.cloudapp.azure.com,https://fia.bharatomni.com')
+  .split(',')
+  .map(o => o.trim());
+
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true);
+    if (
+      allowedOrigins.includes('*') ||
+      allowedOrigins.includes(origin) ||
+      origin.includes('cloudapp.azure.com') ||
+      origin.includes('52.172.225.199') ||
+      origin.includes('bharatomni.com') ||
+      origin.includes('localhost')
+    ) {
+      return callback(null, true);
+    }
+    return callback(null, true);
+  },
   credentials: true,
 }));
 
