@@ -30,6 +30,9 @@ node -r dotenv/config src/db/seed.js
 
 # Sync live rates from Azure Blob Storage into the production DB
 echo "▸ Syncing latest rates from Azure Blob Storage..."
+# Strip UTF-8 BOM if present (file may be authored on Windows)
+sed -i '1s/^\xEF\xBB\xBF//' /opt/fira/api/sync-rates.js 2>/dev/null || true
+sed -i 's/\r//' /opt/fira/api/sync-rates.js 2>/dev/null || true
 node sync-rates.js && echo "  ✓ Rates synced" || echo "  ⚠ Rate sync failed — check logs, continuing deploy"
 
 # Rebuild UI

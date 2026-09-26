@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 /**
  * sync-rates.js
  * Downloads the latest rates-pack.json from Azure Blob Storage
