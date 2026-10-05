@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="dg" viewBox="0 0 1680 1075" role="img" aria-label="Five-layer stack. Layer one, what partners sell: eight products, each labelled with the institution that issues it and whether it sits in GIFT City under IFSCA or mainland India under the RBI. Layer two, the eight building blocks. Layer three, our software in six services including payments that routes via FCSS or SWIFT and connectors to the GIFT bank, the GIFT AMC and the mainland bank. Layer four, eight Azure services. Layer five, foundations including two regulators, a private network, two Indian regions and safe releases. A band traces two products all the way down, one in GIFT City and one in mainland India, and a closing band covers security, monitoring and staying up.">
+<style>
+  .dg{--surface:#FFFFFF;--sunk:#EDF2EF;--band:#F0F4F2;--line:#CBD7D3;--ink:#0F1D1C;--muted:#576A67;
+      --gift:#0C6F62;--main:#2F4FC4;--out:#A9620C;--alert:#9E2F46;
+      --sans:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+      --mono:"IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",Menlo,monospace;
+      background:var(--surface)}
+  @media (prefers-color-scheme:dark){
+    .dg{--surface:#0F1B1A;--sunk:#0C1716;--band:#0B1615;--line:#2A4340;--ink:#E2EDEA;--muted:#93A9A5;
+        --gift:#3BBCA4;--main:#8FA6F4;--out:#E2A54B;--alert:#E8798D}
+  }
+  .dg text{font-family:var(--sans);fill:var(--ink)}
+  .dg .bx{fill:var(--surface);stroke:var(--line);stroke-width:1.3}
+  .dg .bx.q{fill:var(--sunk)}
+  .dg .bx.g{stroke:var(--gift)}
+  .dg .bx.m{stroke:var(--main);stroke-dasharray:6 4}
+  .dg .bx.o{stroke:var(--out)}
+  .dg .bandbg{fill:var(--band);stroke:none}
+  .dg .rowbg{fill:var(--sunk);stroke:none}
+  .dg .t{font-size:15px;font-weight:600;letter-spacing:-.005em}
+  .dg .t.s{font-size:13px}
+  .dg .d{font-size:11px;font-family:var(--mono);fill:var(--muted)}
+  .dg .lab{font-size:11px;font-family:var(--mono);letter-spacing:.14em;fill:var(--muted)}
+  .dg .num{font-size:18px;font-weight:700;fill:var(--gift)}
+  .dg .hd{font-size:25px;font-weight:700;letter-spacing:-.022em}
+  .dg .cg{fill:var(--gift)} .dg .cm{fill:var(--main)} .dg .co{fill:var(--out)}
+  .dg .ca{fill:var(--alert)} .dg .cmu{fill:var(--muted)}
+  .dg .rule{stroke:var(--line);stroke-width:1}
+  .dg .chev{fill:var(--gift)} .dg .chevm{fill:var(--main)}
+  .dg .mk{fill:var(--gift)} .dg .mk.u{fill-opacity:.42}
+  .dg .ring{fill:none;stroke:var(--gift);stroke-width:1.5}
+  .dg .non{stroke:var(--line);stroke-width:1.6}
+</style>
+
+    <text class="hd" x="24" y="34">The whole stack, top to bottom</text>
+    <text class="lab" x="1656" y="34" text-anchor="end">WHAT IS SOLD · WHAT IT RUNS ON</text>
+    <line class="rule" x1="24" y1="52" x2="1656" y2="52"/>
+    <rect class="bx q" x="24" y="76" width="120" height="112" rx="2"/>
+    <text class="num" x="84" y="110" text-anchor="middle">01</text>
+    <text class="lab" x="84" y="132" text-anchor="middle">WHAT PARTNERS</text>
+    <text class="lab" x="84" y="148" text-anchor="middle">SELL</text>
+    <rect class="bx q" x="24" y="200" width="120" height="88" rx="2"/>
+    <text class="num" x="84" y="234" text-anchor="middle">02</text>
+    <text class="lab" x="84" y="256" text-anchor="middle">WHAT IT IS</text>
+    <text class="lab" x="84" y="272" text-anchor="middle">BUILT FROM</text>
+    <rect class="bx q" x="24" y="300" width="120" height="112" rx="2"/>
+    <text class="num" x="84" y="334" text-anchor="middle">03</text>
+    <text class="lab" x="84" y="356" text-anchor="middle">OUR</text>
+    <text class="lab" x="84" y="372" text-anchor="middle">SOFTWARE</text>
+    <rect class="bx q" x="24" y="424" width="120" height="112" rx="2"/>
+    <text class="num" x="84" y="458" text-anchor="middle">04</text>
+    <text class="lab" x="84" y="480" text-anchor="middle">MICROSOFT</text>
+    <text class="lab" x="84" y="496" text-anchor="middle">AZURE</text>
+    <rect class="bx q" x="24" y="548" width="120" height="112" rx="2"/>
+    <text class="num" x="84" y="582" text-anchor="middle">05</text>
+    <text class="lab" x="84" y="604" text-anchor="middle">FOUNDATIONS</text>
+    <rect class="bandbg" x="156" y="200" width="1500" height="88" rx="2"/>
+    <rect class="bandbg" x="156" y="424" width="1500" height="112" rx="2"/>
+    <rect class="bx " x="156" y="94" width="178" height="76" rx="2"/>
+    <text class="t s" x="245" y="121" text-anchor="middle">Deposits</text>
+    <text class="d" x="245" y="141" text-anchor="middle">GIFT bank (IBU)</text>
+    <text class="d cmu" x="245" y="161" text-anchor="middle">GIFT CITY</text>
+    <rect class="bx m" x="344" y="94" width="178" height="76" rx="2"/>
+    <text class="t s cm" x="433" y="121" text-anchor="middle">FCNR deposits</text>
+    <text class="d" x="433" y="141" text-anchor="middle">Mainland bank</text>
+    <text class="d cm" x="433" y="161" text-anchor="middle">MAINLAND · RBI</text>
+    <rect class="bx " x="532" y="94" width="178" height="76" rx="2"/>
+    <text class="t s" x="621" y="121" text-anchor="middle">Payments</text>
+    <text class="d" x="621" y="141" text-anchor="middle">GIFT bank or PSP</text>
+    <text class="d cmu" x="621" y="161" text-anchor="middle">GIFT CITY</text>
+    <rect class="bx " x="720" y="94" width="178" height="76" rx="2"/>
+    <text class="t s" x="809" y="121" text-anchor="middle">Funds</text>
+    <text class="d" x="809" y="141" text-anchor="middle">GIFT AMC (FME)</text>
+    <text class="d cmu" x="809" y="161" text-anchor="middle">GIFT CITY</text>
+    <rect class="bx " x="908" y="94" width="178" height="76" rx="2"/>
+    <text class="t s" x="997" y="121" text-anchor="middle">Shares &amp; bonds</text>
+    <text class="d" x="997" y="141" text-anchor="middle">Broker in GIFT</text>
+    <text class="d cmu" x="997" y="161" text-anchor="middle">GIFT CITY</text>
+    <rect class="bx " x="1096" y="94" width="178" height="76" rx="2"/>
+    <text class="t s" x="1185" y="121" text-anchor="middle">Insurance</text>
+    <text class="d" x="1185" y="141" text-anchor="middle">Insurer in GIFT</text>
+    <text class="d cmu" x="1185" y="161" text-anchor="middle">GIFT CITY</text>
+    <rect class="bx " x="1284" y="94" width="178" height="76" rx="2"/>
+    <text class="t s" x="1373" y="121" text-anchor="middle">Pension</text>
+    <text class="d" x="1373" y="141" text-anchor="middle">Provider in GIFT</text>
+    <text class="d cmu" x="1373" y="161" text-anchor="middle">GIFT CITY</text>
+    <rect class="bx o" x="1472" y="94" width="178" height="76" rx="2"/>
+    <text class="t s co" x="1561" y="121" text-anchor="middle">Send abroad</text>
+    <text class="d" x="1561" y="141" text-anchor="middle">India bank + GIFT</text>
+    <text class="d cmu" x="1561" y="161" text-anchor="middle">BOTH</text>
+    <rect class="bx " x="156" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="245" y="245" text-anchor="middle">Know the customer</text>
+    <rect class="bx " x="344" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="433" y="245" text-anchor="middle">Residency &amp; tax</text>
+    <rect class="bx " x="532" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="621" y="245" text-anchor="middle">Accounts</text>
+    <rect class="bx " x="720" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="809" y="245" text-anchor="middle">Move money</text>
+    <rect class="bx " x="908" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="997" y="245" text-anchor="middle">Investments</text>
+    <rect class="bx " x="1096" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="1185" y="245" text-anchor="middle">Policy &amp; claims</text>
+    <rect class="bx " x="1284" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="1373" y="245" text-anchor="middle">Statements</text>
+    <rect class="bx " x="1472" y="218" width="178" height="52" rx="2"/>
+    <text class="t s" x="1561" y="245" text-anchor="middle">Reports</text>
+    <rect class="bx " x="156" y="318" width="241" height="76" rx="2"/>
+    <text class="t s" x="276" y="345" text-anchor="middle">Customer &amp; KYC</text>
+    <text class="d" x="276" y="365" text-anchor="middle">one record per person</text>
+    <rect class="bx " x="407" y="318" width="241" height="76" rx="2"/>
+    <text class="t s" x="527" y="345" text-anchor="middle">Accounts &amp; ledger</text>
+    <text class="d" x="527" y="365" text-anchor="middle">double-entry, tamper-evident</text>
+    <rect class="bx " x="658" y="318" width="241" height="76" rx="2"/>
+    <text class="t s" x="778" y="345" text-anchor="middle">Payments &amp; FX</text>
+    <text class="d" x="778" y="365" text-anchor="middle">routes via FCSS or SWIFT</text>
+    <rect class="bx " x="909" y="318" width="241" height="76" rx="2"/>
+    <text class="t s" x="1029" y="345" text-anchor="middle">Investments</text>
+    <text class="d" x="1029" y="365" text-anchor="middle">orders, units, holdings</text>
+    <rect class="bx " x="1160" y="318" width="241" height="76" rx="2"/>
+    <text class="t s" x="1280" y="345" text-anchor="middle">Connectors</text>
+    <text class="d" x="1280" y="365" text-anchor="middle">GIFT bank, AMC, mainland bank</text>
+    <rect class="bx " x="1411" y="318" width="241" height="76" rx="2"/>
+    <text class="t s" x="1531" y="345" text-anchor="middle">Background jobs</text>
+    <text class="d" x="1531" y="365" text-anchor="middle">webhooks, reports, reconciliation</text>
+    <rect class="bx g" x="156" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="245" y="469" text-anchor="middle">Front Door</text>
+    <text class="d" x="245" y="489" text-anchor="middle">blocks attacks</text>
+    <rect class="bx g" x="344" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="433" y="469" text-anchor="middle">API Management</text>
+    <text class="d" x="433" y="489" text-anchor="middle">checks callers</text>
+    <rect class="bx g" x="532" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="621" y="469" text-anchor="middle">Kubernetes</text>
+    <text class="d" x="621" y="489" text-anchor="middle">runs our services</text>
+    <rect class="bx g" x="720" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="809" y="469" text-anchor="middle">PostgreSQL</text>
+    <text class="d" x="809" y="489" text-anchor="middle">the ledger</text>
+    <rect class="bx g" x="908" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="997" y="469" text-anchor="middle">Redis</text>
+    <text class="d" x="997" y="489" text-anchor="middle">sessions and limits</text>
+    <rect class="bx g" x="1096" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="1185" y="469" text-anchor="middle">Service Bus</text>
+    <text class="d" x="1185" y="489" text-anchor="middle">queues and events</text>
+    <rect class="bx g" x="1284" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="1373" y="469" text-anchor="middle">Key Vault HSM</text>
+    <text class="d" x="1373" y="489" text-anchor="middle">keys, never exported</text>
+    <rect class="bx g" x="1472" y="442" width="178" height="76" rx="2"/>
+    <text class="t s" x="1561" y="469" text-anchor="middle">Firewall + NAT</text>
+    <text class="d" x="1561" y="489" text-anchor="middle">controls what we call</text>
+    <rect class="bx " x="156" y="566" width="241" height="76" rx="2"/>
+    <text class="t s" x="276" y="593" text-anchor="middle">Two regulators</text>
+    <text class="d" x="276" y="613" text-anchor="middle">IFSCA in GIFT, RBI in India</text>
+    <rect class="bx " x="407" y="566" width="241" height="76" rx="2"/>
+    <text class="t s" x="527" y="593" text-anchor="middle">Private network</text>
+    <text class="d" x="527" y="613" text-anchor="middle">nothing exposed publicly</text>
+    <rect class="bx " x="658" y="566" width="241" height="76" rx="2"/>
+    <text class="t s" x="778" y="593" text-anchor="middle">Identity</text>
+    <text class="d" x="778" y="613" text-anchor="middle">no static secrets anywhere</text>
+    <rect class="bx " x="909" y="566" width="241" height="76" rx="2"/>
+    <text class="t s" x="1029" y="593" text-anchor="middle">Built from code</text>
+    <text class="d" x="1029" y="613" text-anchor="middle">every environment, one source</text>
+    <rect class="bx " x="1160" y="566" width="241" height="76" rx="2"/>
+    <text class="t s" x="1280" y="593" text-anchor="middle">Two regions</text>
+    <text class="d" x="1280" y="613" text-anchor="middle">Central and South India</text>
+    <rect class="bx " x="1411" y="566" width="241" height="76" rx="2"/>
+    <text class="t s" x="1531" y="593" text-anchor="middle">Safe releases</text>
+    <text class="d" x="1531" y="613" text-anchor="middle">canary, automatic rollback</text>
+    <rect class="bx g" x="24" y="684" width="1632" height="196" rx="3"/>
+    <text class="t cg" x="38" y="712">Follow one product all the way down — two examples, because there are two rulebooks</text>
+    <text class="lab cg" x="38" y="738">IN GIFT CITY</text>
+    <rect class="bx " x="38" y="746" width="308" height="46" rx="2"/>
+    <text class="t s" x="192" y="773" text-anchor="middle">Funds</text>
+    <polygon class="chev" points="350,764 359,769 350,774"/>
+    <rect class="bx " x="362" y="746" width="308" height="46" rx="2"/>
+    <text class="t s" x="516" y="773" text-anchor="middle">Buy and hold investments</text>
+    <polygon class="chev" points="674,764 683,769 674,774"/>
+    <rect class="bx " x="686" y="746" width="308" height="46" rx="2"/>
+    <text class="t s" x="840" y="773" text-anchor="middle">Investments service</text>
+    <polygon class="chev" points="998,764 1007,769 998,774"/>
+    <rect class="bx " x="1010" y="746" width="308" height="46" rx="2"/>
+    <text class="t s" x="1164" y="773" text-anchor="middle">Kubernetes + PostgreSQL</text>
+    <polygon class="chev" points="1322,764 1331,769 1322,774"/>
+    <rect class="bx " x="1334" y="746" width="308" height="46" rx="2"/>
+    <text class="t s" x="1488" y="773" text-anchor="middle">GIFT AMC issues the units</text>
+    <text class="lab cm" x="38" y="822">IN MAINLAND INDIA</text>
+    <rect class="bx m" x="38" y="830" width="308" height="46" rx="2"/>
+    <text class="t s" x="192" y="857" text-anchor="middle">FCNR deposits</text>
+    <polygon class="chevm" points="350,848 359,853 350,858"/>
+    <rect class="bx m" x="362" y="830" width="308" height="46" rx="2"/>
+    <text class="t s" x="516" y="857" text-anchor="middle">Residency and tax status</text>
+    <polygon class="chevm" points="674,848 683,853 674,858"/>
+    <rect class="bx m" x="686" y="830" width="308" height="46" rx="2"/>
+    <text class="t s" x="840" y="857" text-anchor="middle">Deposits service</text>
+    <polygon class="chevm" points="998,848 1007,853 998,858"/>
+    <rect class="bx m" x="1010" y="830" width="308" height="46" rx="2"/>
+    <text class="t s" x="1164" y="857" text-anchor="middle">Private link to the bank</text>
+    <polygon class="chevm" points="1322,848 1331,853 1322,858"/>
+    <rect class="bx m" x="1334" y="830" width="308" height="46" rx="2"/>
+    <text class="t s" x="1488" y="857" text-anchor="middle">Mainland bank holds the money</text>
+    <text class="lab" x="24" y="910">TRUE OF EVERY LAYER</text>
+    <rect class="bx " x="24" y="922" width="533" height="124" rx="2"/>
+    <text class="t " x="38" y="950">Security</text>
+    <text class="d" x="38" y="972">one partner cannot see another — the database enforces it</text>
+    <text class="d" x="38" y="990">every request signed, and it can only take effect once</text>
+    <text class="d" x="38" y="1008">keys live in a hardware module and are never exported</text>
+    <text class="d" x="38" y="1026">if screening is unavailable, money does not move</text>
+    <rect class="bx " x="573" y="922" width="533" height="124" rx="2"/>
+    <text class="t " x="587" y="950">Monitoring</text>
+    <text class="d" x="587" y="972">one trace follows a request even across queues</text>
+    <text class="d" x="587" y="990">every number can be broken down per partner</text>
+    <text class="d" x="587" y="1008">we alert on customers being affected, not on CPU</text>
+    <text class="d" x="587" y="1026">a reconciliation break pages someone</text>
+    <rect class="bx " x="1122" y="922" width="533" height="124" rx="2"/>
+    <text class="t " x="1136" y="950">Staying up</text>
+    <text class="d" x="1136" y="972">one product line failing does not take the others with it</text>
+    <text class="d" x="1136" y="990">everything retries safely, nothing double-charges</text>
+    <text class="d" x="1136" y="1008">two copies in India, standby tested every quarter</text>
+    <text class="d" x="1136" y="1026">when something breaks, it says so instead of guessing</text>
+</svg>

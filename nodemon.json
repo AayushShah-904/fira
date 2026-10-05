@@ -1,0 +1,5 @@
+{
+  "watch": ["src/server", "src/config", "src/scrapers", "src/normalizer", "src/auditor", "src/database"],
+  "ext": "js,mjs,json",
+  "ignore": ["data/*", "data/fdrates.db*", "client/*", "node_modules/*"]
+}
