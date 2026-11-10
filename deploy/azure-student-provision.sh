@@ -9,21 +9,13 @@
 set -e
 
 # Configuration
-RESOURCE_GROUP="rg-fira-eastus"
-LOCATION="${AZURE_LOCATION:-eastus}" # East US has guaranteed free B1s capacity for student accounts
+RESOURCE_GROUP="rg-fira-india"
 VM_NAME="vm-fira-student"
-VM_SIZE="Standard_B1s" # 1 vCPU, 1 GB RAM — 100% Free Tier (750 hours/month)
 IMAGE="Ubuntu2204"
 ADMIN_USER="azureuser"
 PREFERRED_DNS="fira-app"
 REPO_URL="https://github.com/AayushShah-904/fira.git"
 REPO_BRANCH="final"
-
-echo "════════════════════════════════════════════════════════════════"
-echo "  🚀 FIRA Azure for Students Automated Deployer"
-echo "  Region:  ${LOCATION} (Guaranteed Free B1s Capacity)"
-echo "  VM Size: ${VM_SIZE} (100% Free Tier Eligible)"
-echo "════════════════════════════════════════════════════════════════"
 
 # 1. Verify Azure CLI login & active subscription
 echo ""
@@ -32,11 +24,53 @@ SUB_NAME=$(az account show --query name -o tsv 2>/dev/null || echo "Unknown")
 SUB_ID=$(az account show --query id -o tsv 2>/dev/null || echo "Unknown")
 echo "  Active Subscription: ${SUB_NAME} (${SUB_ID})"
 
-# 2. Generate a unique DNS label to prevent naming collision
-echo "▸ Step 2/6: Resolving public DNS prefix..."
+# 2. Find best available India region allowed by university Azure policy
+echo "▸ Step 2/6: Finding allowed India region with available capacity..."
+CHOSEN_LOC=""
+CHOSEN_SIZE=""
+
+# Priority 1: Check if Standard_B1s (100% Free Tier) is available in southindia, centralindia, or westindia
+for loc in "southindia" "centralindia" "westindia"; do
+    RESTRICTION=$(az vm list-skus --location "$loc" --size "Standard_B1s" --all --query "[0].restrictions[0].reasonCode" -o tsv 2>/dev/null || echo "Restricted")
+    if [ -z "$RESTRICTION" ] || [ "$RESTRICTION" = "None" ]; then
+        CHOSEN_LOC="$loc"
+        CHOSEN_SIZE="Standard_B1s"
+        echo "  ✓ Selected 100% Free Tier Standard_B1s in ${loc}!"
+        break
+    fi
+done
+
+# Priority 2: If Standard_B1s has capacity limits in all India regions, use B1ms or B2s (uses tiny fraction of $100 credit)
+if [ -z "$CHOSEN_LOC" ]; then
+    echo "  Notice: Standard_B1s currently has capacity limits across India regions."
+    echo "  Checking Standard_B1ms / Standard_B2s (covered by your \$100 student balance)..."
+    for loc in "centralindia" "southindia"; do
+        for size in "Standard_B1ms" "Standard_B2s"; do
+            RESTRICTION=$(az vm list-skus --location "$loc" --size "$size" --all --query "[0].restrictions[0].reasonCode" -o tsv 2>/dev/null || echo "Restricted")
+            if [ -z "$RESTRICTION" ] || [ "$RESTRICTION" = "None" ]; then
+                CHOSEN_LOC="$loc"
+                CHOSEN_SIZE="$size"
+                echo "  ✓ Selected available size ${size} in ${loc}!"
+                break 2
+            fi
+        done
+    done
+fi
+
+LOCATION="${CHOSEN_LOC:-centralindia}"
+VM_SIZE="${CHOSEN_SIZE:-Standard_B2s}"
+
+echo ""
+echo "════════════════════════════════════════════════════════════════"
+echo "  🚀 Provisioning FIRA Target"
+echo "  Region:   ${LOCATION} (Allowed by University Azure Policy)"
+echo "  VM Size:  ${VM_SIZE}"
+echo "════════════════════════════════════════════════════════════════"
+
+# 3. Generate a unique DNS label to prevent naming collision
+echo "▸ Step 3/6: Resolving public DNS prefix in ${LOCATION}..."
 DNS_LABEL="${PREFERRED_DNS}"
-# Check if the preferred DNS name is already registered in this region
-if az network public-ip list --query "[?dnsSettings.domainNameLabel=='${DNS_LABEL}']" -o tsv 2>/dev/null | grep -q "${DNS_LABEL}"; then
+if az network public-ip list --query "[?dnsSettings.domainNameLabel=='${DNS_LABEL}' && location=='${LOCATION}']" -o tsv 2>/dev/null | grep -q "${DNS_LABEL}"; then
     SUFFIX=$(od -A n -t x -N 2 /dev/urandom 2>/dev/null | tr -d ' ' || echo "$RANDOM")
     DNS_LABEL="${PREFERRED_DNS}-${SUFFIX}"
     echo "  Notice: '${PREFERRED_DNS}' was taken. Assigned unique label: ${DNS_LABEL}"
@@ -44,13 +78,13 @@ else
     echo "  DNS Label reserved: ${DNS_LABEL}"
 fi
 
-# 3. Create Resource Group in East US
-echo "▸ Step 3/6: Creating Resource Group '${RESOURCE_GROUP}' in ${LOCATION}..."
+# 4. Create Resource Group in Allowed Region
+echo "▸ Step 4/6: Creating Resource Group '${RESOURCE_GROUP}' in ${LOCATION}..."
 az group create --name "${RESOURCE_GROUP}" --location "${LOCATION}" --output none
 echo "  ✓ Resource group ready in ${LOCATION}"
 
-# 4. Create Network Security Group & Security Rules (Port 22, 80, 443)
-echo "▸ Step 4/6: Configuring Network Security Group..."
+# 5. Create Network Security Group & Security Rules (Port 22, 80, 443)
+echo "▸ Step 5/6: Configuring Network Security Group..."
 NSG_NAME="nsg-fira-student"
 az network nsg create --resource-group "${RESOURCE_GROUP}" --name "${NSG_NAME}" --location "${LOCATION}" --output none
 
@@ -88,8 +122,8 @@ az network nsg rule create \
   --output none
 echo "  ✓ NSG created (Inbound allowed: 80, 443, 22)"
 
-# 5. Create Virtual Machine (Standard_B1s Free Tier)
-echo "▸ Step 5/6: Provisioning Virtual Machine '${VM_NAME}' (${VM_SIZE})..."
+# 6. Create Virtual Machine
+echo "▸ Step 6/7: Provisioning Virtual Machine '${VM_NAME}' (${VM_SIZE})..."
 echo "  This typically takes 60–90 seconds..."
 
 VM_OUTPUT=$(az vm create \
@@ -114,8 +148,8 @@ echo "  ✓ VM created successfully!"
 echo "  Public IP: ${PUBLIC_IP}"
 echo "  FQDN:      http://${FQDN}"
 
-# 6. Execute FIRA installation directly on the VM via Azure Run-Command
-echo "▸ Step 6/6: Bootstrapping application on the VM..."
+# 7. Execute FIRA installation directly on the VM via Azure Run-Command
+echo "▸ Step 7/7: Bootstrapping application on the VM..."
 echo "  (Configuring 2GB swap, installing Node.js 22 LTS, Nginx, SQLite & building UI)..."
 
 az vm run-command invoke \
