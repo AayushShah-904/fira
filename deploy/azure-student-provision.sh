@@ -3,7 +3,7 @@
 # FIRA — Automated Azure for Students Provisioning & Deployment Script
 # Run this directly inside Azure Cloud Shell (Bash) in your browser:
 #
-#   curl -sSL https://raw.githubusercontent.com/BO-SoftwareEngineering/fira-main-ui/main/deploy/azure-student-provision.sh | bash
+#   curl -sSL https://raw.githubusercontent.com/AayushShah-904/fira/final/deploy/azure-student-provision.sh | bash
 #   (or paste and run this file directly in Cloud Shell)
 # ==============================================================================
 set -e
@@ -16,7 +16,8 @@ VM_SIZE="Standard_B1s" # 1 vCPU, 1 GB RAM — 100% Free Tier (750 hours/month)
 IMAGE="Ubuntu2204"
 ADMIN_USER="azureuser"
 PREFERRED_DNS="fira-app"
-REPO_URL="https://github.com/BO-SoftwareEngineering/fira-main-ui.git"
+REPO_URL="https://github.com/AayushShah-904/fira.git"
+REPO_BRANCH="final"
 
 echo "════════════════════════════════════════════════════════════════"
 echo "  🚀 FIRA Azure for Students Automated Deployer"
@@ -134,12 +135,12 @@ az vm run-command invoke \
       echo '/swapfile none swap sw 0 0' >> /etc/fstab
     fi
     
-    # 2. Clone Repository
+    # 2. Clone Repository (Branch: ${REPO_BRANCH})
     mkdir -p /tmp/fira-source
     if [ ! -d /tmp/fira-source/.git ]; then
-      git clone ${REPO_URL} /tmp/fira-source
+      git clone -b ${REPO_BRANCH} ${REPO_URL} /tmp/fira-source
     else
-      cd /tmp/fira-source && git pull origin main
+      cd /tmp/fira-source && git fetch origin && git checkout ${REPO_BRANCH} && git pull origin ${REPO_BRANCH}
     fi
 
     # 3. Run Setup

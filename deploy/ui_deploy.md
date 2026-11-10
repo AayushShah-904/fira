@@ -6,7 +6,7 @@
 > **Public IP:** `52.172.225.199`  
 > **Private IP:** `10.0.0.33`  
 > **OS & Spec:** Linux (Ubuntu) · Standard D2s v3 (2 vCPUs, 8 GiB RAM)  
-> **Repository:** `BO-SoftwareEngineering/fira-main-ui`
+> **Repository:** `AayushShah-904/fira` (branch: `final`)
 
 ---
 
@@ -99,8 +99,8 @@ On the VM, prepare the source directory:
 sudo mkdir -p /tmp/fira-source
 sudo chown -R $USER:$USER /tmp/fira-source
 
-# Clone repository directly to /tmp/fira-source
-git clone https://github.com/BO-SoftwareEngineering/fira-main-ui.git /tmp/fira-source
+# Clone repository directly to /tmp/fira-source (final branch)
+git clone -b final https://github.com/AayushShah-904/fira.git /tmp/fira-source
 ```
 
 ---

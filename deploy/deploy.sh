@@ -9,7 +9,7 @@ echo "▸ Deploying FIRA update..."
 if [ -d "/tmp/fira-source/.git" ]; then
     cd /tmp/fira-source
     echo "▸ Pulling latest code in /tmp/fira-source..."
-    git pull origin main || git pull
+    git pull origin final || git pull origin main || git pull
     echo "▸ Syncing updated files to /opt/fira..."
     cp -r /tmp/fira-source/api/* /opt/fira/api/
     cp -r /tmp/fira-source/ui/* /opt/fira/ui/

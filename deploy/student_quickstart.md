@@ -27,7 +27,7 @@ This guide shows you how to deploy FIRA onto your free **Azure for Students** ac
 In the Cloud Shell terminal at the bottom of your screen, paste and run:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/BO-SoftwareEngineering/fira-main-ui/main/deploy/azure-student-provision.sh | bash
+curl -sSL https://raw.githubusercontent.com/AayushShah-904/fira/final/deploy/azure-student-provision.sh | bash
 ```
 
 *(Or copy-paste the contents of [`deploy/azure-student-provision.sh`](file:///d:/Computer/Workspace/Projects/fira-project-final/deploy/azure-student-provision.sh) directly into the shell and run `bash deploy/azure-student-provision.sh`)*
