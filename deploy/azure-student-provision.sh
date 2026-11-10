@@ -9,7 +9,7 @@
 set -e
 
 # Configuration
-RESOURCE_GROUP="rg-fira-student"
+RESOURCE_GROUP="rg-fira-eastus"
 LOCATION="${AZURE_LOCATION:-eastus}" # East US has guaranteed free B1s capacity for student accounts
 VM_NAME="vm-fira-student"
 VM_SIZE="Standard_B1s" # 1 vCPU, 1 GB RAM — 100% Free Tier (750 hours/month)
@@ -44,15 +44,8 @@ else
     echo "  DNS Label reserved: ${DNS_LABEL}"
 fi
 
-# 3. Create Resource Group (cleaning up previous run if location changed)
-echo "▸ Step 3/6: Preparing Resource Group '${RESOURCE_GROUP}' in ${LOCATION}..."
-EXISTING_LOC=$(az group show --name "${RESOURCE_GROUP}" --query location -o tsv 2>/dev/null || echo "")
-if [ -n "$EXISTING_LOC" ] && [ "$EXISTING_LOC" != "$LOCATION" ]; then
-    echo "  Notice: Previous resource group was in '${EXISTING_LOC}'. Removing to deploy in '${LOCATION}'..."
-    az group delete --name "${RESOURCE_GROUP}" --yes --no-wait || true
-    echo "  Waiting for cleanup..."
-    sleep 10
-fi
+# 3. Create Resource Group in East US
+echo "▸ Step 3/6: Creating Resource Group '${RESOURCE_GROUP}' in ${LOCATION}..."
 az group create --name "${RESOURCE_GROUP}" --location "${LOCATION}" --output none
 echo "  ✓ Resource group ready in ${LOCATION}"
 

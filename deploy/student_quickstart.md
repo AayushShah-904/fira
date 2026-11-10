@@ -35,7 +35,7 @@ curl -sSL https://raw.githubusercontent.com/AayushShah-904/fira/final/deploy/azu
 ---
 
 ### Step 3: What the Script Does Automatically
-1. Creates a free-tier resource group `rg-fira-student` in **East US** (guaranteed B1s free-tier capacity).
+1. Creates a free-tier resource group `rg-fira-eastus` in **East US** (guaranteed B1s free-tier capacity).
 2. Sets up a Network Security Group with ports `80` (HTTP), `443` (HTTPS), and `22` (SSH) open.
 3. Allocates a free Standard Public IP with DNS name:  
    `http://fira-app.eastus.cloudapp.azure.com`
