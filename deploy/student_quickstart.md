@@ -35,10 +35,10 @@ curl -sSL https://raw.githubusercontent.com/AayushShah-904/fira/final/deploy/azu
 ---
 
 ### Step 3: What the Script Does Automatically
-1. Creates a free-tier resource group `rg-fira-student` in **Central India** (Pune).
+1. Creates a free-tier resource group `rg-fira-student` in **East US** (guaranteed B1s free-tier capacity).
 2. Sets up a Network Security Group with ports `80` (HTTP), `443` (HTTPS), and `22` (SSH) open.
 3. Allocates a free Standard Public IP with DNS name:  
-   `http://fira-app.centralindia.cloudapp.azure.com`
+   `http://fira-app.eastus.cloudapp.azure.com`
 4. Deploys an Ubuntu 22.04 LTS VM on the **`Standard_B1s`** size (eligible for 750 free hours/month).
 5. Automatically configures a **2 GB Swap file** (so Vite compiles React on 1GB RAM without memory errors).
 6. Installs Node.js 22 LTS, Nginx, SQLite database, seeds 60+ banks, builds the UI, and starts the systemd service.
@@ -51,9 +51,9 @@ Once the script completes, open the following in your web browser:
 
 | Resource | URL |
 |---|---|
-| **Web Application** | `http://fira-app.centralindia.cloudapp.azure.com/` |
-| **Health Check** | `http://fira-app.centralindia.cloudapp.azure.com/health` |
-| **API Base URL** | `http://fira-app.centralindia.cloudapp.azure.com/api/v1/` |
+| **Web Application** | `http://fira-app.eastus.cloudapp.azure.com/` |
+| **Health Check** | `http://fira-app.eastus.cloudapp.azure.com/health` |
+| **API Base URL** | `http://fira-app.eastus.cloudapp.azure.com/api/v1/` |
 
 ### Default Credentials:
 - **Email**: `demo@fdrates.in`
@@ -62,15 +62,15 @@ Once the script completes, open the following in your web browser:
 ---
 
 ## 🔒 Optional: Enabling Free HTTPS / SSL
-Azure assigns you a real subdomain (`.centralindia.cloudapp.azure.com`). You can get a free Let's Encrypt SSL certificate in one step:
+Azure assigns you a real subdomain (`.eastus.cloudapp.azure.com`). You can get a free Let's Encrypt SSL certificate in one step:
 
 1. Connect to your VM from Cloud Shell:
    ```bash
-   ssh azureuser@fira-app.centralindia.cloudapp.azure.com
+   ssh azureuser@fira-app.eastus.cloudapp.azure.com
    ```
 2. Run Certbot:
    ```bash
-   sudo certbot --nginx -d fira-app.centralindia.cloudapp.azure.com
+   sudo certbot --nginx -d fira-app.eastus.cloudapp.azure.com
    ```
 3. Enter your email and agree to terms. Certbot will automatically configure SSL and redirect HTTP to HTTPS!
 

@@ -10,7 +10,7 @@ set -e
 
 # Configuration
 RESOURCE_GROUP="rg-fira-student"
-LOCATION="centralindia"
+LOCATION="${AZURE_LOCATION:-eastus}" # East US has guaranteed free B1s capacity for student accounts
 VM_NAME="vm-fira-student"
 VM_SIZE="Standard_B1s" # 1 vCPU, 1 GB RAM — 100% Free Tier (750 hours/month)
 IMAGE="Ubuntu2204"
@@ -21,7 +21,7 @@ REPO_BRANCH="final"
 
 echo "════════════════════════════════════════════════════════════════"
 echo "  🚀 FIRA Azure for Students Automated Deployer"
-echo "  Region:  ${LOCATION} (Central India, Pune)"
+echo "  Region:  ${LOCATION} (Guaranteed Free B1s Capacity)"
 echo "  VM Size: ${VM_SIZE} (100% Free Tier Eligible)"
 echo "════════════════════════════════════════════════════════════════"
 
@@ -44,10 +44,17 @@ else
     echo "  DNS Label reserved: ${DNS_LABEL}"
 fi
 
-# 3. Create Resource Group
-echo "▸ Step 3/6: Creating Resource Group '${RESOURCE_GROUP}' in ${LOCATION}..."
+# 3. Create Resource Group (cleaning up previous run if location changed)
+echo "▸ Step 3/6: Preparing Resource Group '${RESOURCE_GROUP}' in ${LOCATION}..."
+EXISTING_LOC=$(az group show --name "${RESOURCE_GROUP}" --query location -o tsv 2>/dev/null || echo "")
+if [ -n "$EXISTING_LOC" ] && [ "$EXISTING_LOC" != "$LOCATION" ]; then
+    echo "  Notice: Previous resource group was in '${EXISTING_LOC}'. Removing to deploy in '${LOCATION}'..."
+    az group delete --name "${RESOURCE_GROUP}" --yes --no-wait || true
+    echo "  Waiting for cleanup..."
+    sleep 10
+fi
 az group create --name "${RESOURCE_GROUP}" --location "${LOCATION}" --output none
-echo "  ✓ Resource group ready"
+echo "  ✓ Resource group ready in ${LOCATION}"
 
 # 4. Create Network Security Group & Security Rules (Port 22, 80, 443)
 echo "▸ Step 4/6: Configuring Network Security Group..."
@@ -104,6 +111,7 @@ VM_OUTPUT=$(az vm create \
   --public-ip-address-dns-name "${DNS_LABEL}" \
   --os-disk-size-gb 30 \
   --storage-sku StandardSSD_LRS \
+  --security-type Standard \
   --output json)
 
 PUBLIC_IP=$(echo "${VM_OUTPUT}" | grep -o '"publicIps": *"[^"]*"' | cut -d'"' -f4)
