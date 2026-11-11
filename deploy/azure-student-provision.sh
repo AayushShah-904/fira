@@ -24,14 +24,21 @@ SUB_NAME=$(az account show --query name -o tsv 2>/dev/null || echo "Unknown")
 SUB_ID=$(az account show --query id -o tsv 2>/dev/null || echo "Unknown")
 echo "  Active Subscription: ${SUB_NAME} (${SUB_ID})"
 
-# 2. Candidate VM sizes & regions allowed by University Policy
-# Prioritizes D2s_v3 (8GB RAM, abundant enterprise capacity) and B-series fallbacks
+# 2. Candidate VM sizes & regions allowed by University Policy (India only)
+# Tests B-series (free tier core quota) across South India, West India & Central India
 CANDIDATES=(
-  "centralindia:Standard_D2s_v3"
+  "southindia:Standard_B1s"
+  "westindia:Standard_B1s"
+  "westindia:Standard_B2s"
+  "westindia:Standard_B1ms"
   "southindia:Standard_B2s"
-  "centralindia:Standard_B1ms"
   "southindia:Standard_B1ms"
-  "centralindia:Standard_D2as_v5"
+  "centralindia:Standard_B1s"
+  "centralindia:Standard_B1ms"
+  "centralindia:Standard_B2s"
+  "southindia:Standard_D2s_v3"
+  "westindia:Standard_D2s_v3"
+  "centralindia:Standard_D2s_v3"
 )
 
 # 3. Generate a unique DNS label to prevent naming collision
