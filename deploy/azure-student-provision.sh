@@ -24,21 +24,17 @@ SUB_NAME=$(az account show --query name -o tsv 2>/dev/null || echo "Unknown")
 SUB_ID=$(az account show --query id -o tsv 2>/dev/null || echo "Unknown")
 echo "  Active Subscription: ${SUB_NAME} (${SUB_ID})"
 
-# 2. Candidate VM sizes & regions allowed by University Policy (India only)
-# Tests B-series (free tier core quota) across South India, West India & Central India
+# 2. Candidate VM sizes based on active student subscription core quotas
+# Your subscription has 10 Cores approved for Bsv2 & Basv2, and 4 Cores for DSv4, DASv4, Av2 in Central India
 CANDIDATES=(
-  "southindia:Standard_B1s"
-  "westindia:Standard_B1s"
-  "westindia:Standard_B2s"
-  "westindia:Standard_B1ms"
-  "southindia:Standard_B2s"
-  "southindia:Standard_B1ms"
-  "centralindia:Standard_B1s"
-  "centralindia:Standard_B1ms"
-  "centralindia:Standard_B2s"
-  "southindia:Standard_D2s_v3"
-  "westindia:Standard_D2s_v3"
-  "centralindia:Standard_D2s_v3"
+  "centralindia:Standard_B1s_v2"
+  "centralindia:Standard_B2s_v2"
+  "centralindia:Standard_B1as_v2"
+  "centralindia:Standard_B2as_v2"
+  "centralindia:Standard_D2s_v4"
+  "centralindia:Standard_D2as_v4"
+  "centralindia:Standard_A2_v2"
+  "centralindia:Standard_A1_v2"
 )
 
 # 3. Generate a unique DNS label to prevent naming collision
@@ -84,7 +80,6 @@ for candidate in "${CANDIDATES[@]}"; do
       --public-ip-address-dns-name "${DNS_LABEL}" \
       --os-disk-size-gb 30 \
       --storage-sku StandardSSD_LRS \
-      --security-type Standard \
       --output json 2>&1)
     VM_STATUS=$?
     set -e
