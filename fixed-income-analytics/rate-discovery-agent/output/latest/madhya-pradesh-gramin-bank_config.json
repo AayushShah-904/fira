@@ -1,0 +1,19 @@
+{
+  "bank_code": "madhya-pradesh-gramin-bank",
+  "bank_name": "madhya-pradesh-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://mpgb.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://mpgb.bank.in/short_term.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:44:22.711Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

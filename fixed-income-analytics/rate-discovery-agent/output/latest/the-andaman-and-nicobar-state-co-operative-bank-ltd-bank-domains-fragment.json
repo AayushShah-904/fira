@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "the-andaman-and-nicobar-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:20:42.752Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "anscbank.in",
+  "rate_pages": {
+    "fd": "/rate-of-interest/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-deposit/",
+    "rd": "/recurring-deposit/"
+  },
+  "scraper_type": "html_js",
+  "notes": "WordPress site. Rate of interest page exists. No bank.in domain yet."
+}

@@ -1,0 +1,26 @@
+{
+  "bank_code": "sirsa-central-co-operative-bank-ltd",
+  "bank_name": "The Sirsa Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://coopbksirsa.com/rate-of-interest-on-fd/",
+  "scraped_at": "2026-05-25T15:54:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    { "tenure_text": "15 days to 45 days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 3.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 4.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "91 days to 179 days", "tenure_min_days": 91, "tenure_max_days": 179, "rate_general_pct": 5.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "6 months but less than 1 year", "tenure_min_days": 180, "tenure_max_days": 364, "rate_general_pct": 5.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "1 year", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 6.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "Above 1 year to 2 years", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 7.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "Above 2 years to 10 years", "tenure_min_days": 731, "tenure_max_days": 3650, "rate_general_pct": 7.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_15l" }
+  ],
+  "warnings": [
+    "Rates taken from the 'Revised Rates (%)' column of the bank's FD rate table on the live WordPress site (coopbksirsa.com); the .bank.in mirror sirsadccb.bank.in is currently account-suspended.",
+    "Table lists general-public rates only. Bank publicly states senior citizens get an additional 0.50% p.a., but per-slab senior numbers are not tabulated on the page, so rate_senior_pct left null (not fabricated).",
+    "No w.e.f / effective date shown on the page.",
+    "Savings Bank Deposit (3.00%) and Savings Bank P.F. (7.00%) rows excluded as they are not FD term slabs."
+  ],
+  "tier2_method": "playwright_tables"
+}

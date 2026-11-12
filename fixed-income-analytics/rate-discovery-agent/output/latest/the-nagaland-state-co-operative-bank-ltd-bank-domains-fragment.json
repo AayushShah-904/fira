@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "bank_code": "the-nagaland-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:35:05.735Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "nscb.bank.in",
+  "rate_pages": {
+    "fd": "/nstcb-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/nstcb-deposit/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "nscb-multi-segmented-regular-special",
+    "template_hash": "sha1:c5ae4e89194dc660558dc2c037e5930752c3c119",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "rate_general_pct",
+            "4": "ignore",
+            "5": "rate_senior_pct",
+            "6": "ignore",
+            "7": "ignore",
+            "8": "ignore",
+            "9": "ignore"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 9,
+      "cluster_reused": false
+    }
+  }
+}

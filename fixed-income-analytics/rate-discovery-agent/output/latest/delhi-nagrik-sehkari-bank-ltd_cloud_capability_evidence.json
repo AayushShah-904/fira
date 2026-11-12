@@ -1,0 +1,17 @@
+{
+  "bank_code": "delhi-nagrik-sehkari-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:41:51.329Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T17:24:31.904Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

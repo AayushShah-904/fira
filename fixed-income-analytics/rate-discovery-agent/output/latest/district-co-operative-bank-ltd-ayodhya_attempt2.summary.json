@@ -1,0 +1,132 @@
+{
+  "bank_code": "district-co-operative-bank-ltd-ayodhya",
+  "bank_name": "district-co-operative-bank-ltd-ayodhya",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16031,
+  "duration_ms": 16031,
+  "duration_api_ms": 15500,
+  "num_turns": 13,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.19422,
+  "input_tokens": 92102,
+  "output_tokens": 1252,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"District Co-operative Bank Ltd Ayodhya\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbayodhya.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dccbayodhya.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"District Co-operative Bank Ltd Ayodhya official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"District Co-operative Bank Ltd Ayodhya interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"District Co-operative Bank Ltd Ayodhya ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbayodhya.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dccbayodhya.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"District Co-operative Bank Ltd Ayodhya recruitment\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 169,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ayodhyadccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 156,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.ayodhyadccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"District Central Cooperative Bank Ayodhya official website\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 41,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcooperativebank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.upcooperativebank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcb.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 9,
+    "domain_was_known": false
+  }
+}

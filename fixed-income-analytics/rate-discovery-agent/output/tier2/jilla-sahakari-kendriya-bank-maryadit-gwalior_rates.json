@@ -1,0 +1,22 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-gwalior",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Gwalior",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T15:54:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No working official website. Registry hint yappe.in is a third-party directory. dccbgwalior.in (from the bank email jskbgwl.mp@dccbgwalior.in) is a parked domain that redirects to a '/lander' for-sale page (confirmed: 114-byte JS redirect). No .bank.in / .com variant resolves; MP Apex Bank portal unreachable from here. Other districts' DCC banks (Dewas, Rajnandgaon, Bilaspur) have sites, but Gwalior has none."
+  },
+  "warnings": [
+    "Registry hint domain (yappe.in) is a third-party directory, not the bank.",
+    "Search results dominated by aggregators (codeforbanks, bankbazaar) — banned as sources. No bank-owned rate page exists. Likely manual / offline-only bank."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "bank_code": "au-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "bombay-mercantile-co-operative-bank-limited",
+    "category": "Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "tamilnad-mercantile-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Tamil Nadu"
+  }
+]

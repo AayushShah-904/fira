@@ -1,0 +1,50 @@
+{
+  "bank_code": "dausa-central-co-operative-bank-ltd",
+  "bank_name": "dausa-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9450,
+  "duration_ms": 9450,
+  "duration_api_ms": 9124,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008557200000000001,
+  "input_tokens": 18821,
+  "output_tokens": 643,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"dausa central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dausacentralco-operativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dausacentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 84,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dausacentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 170,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dausacentralcooperativebank.com\"}"
+    }
+  ]
+}

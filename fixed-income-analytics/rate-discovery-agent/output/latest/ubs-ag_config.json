@@ -1,0 +1,33 @@
+{
+  "bank_code": "ubs-ag",
+  "bank_name": "ubs-ag",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://ubs.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/ch/en/services/investments/products/fixed-term-deposit.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/ch/en/services/accounts-and-cards/interest-rates-privates.html",
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "UBS AG India is wholesale/investment banking only. No retail deposit rate page.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:58:03.067Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

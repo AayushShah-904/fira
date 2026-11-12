@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "guntur-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-05T18:29:55.034Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "gunturdccb.bank.in",
+  "rate_pages": {
+    "fd": "/term-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "notes": "WordPress. gunturdccb.com redirects to the",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site gunturdccb.com 301-redirects to gunturdccb.bank.in (live WordPress). Has dedicated product pages (/term-deposit/, /saving-deposits/, /recurring-deposit/) but the Term Deposit page only states 'Interest will be paid on the deposits at the rates in force as per the Reserve Bank's directive from time to time' with NO rate table, no tenure slabs, no rate values. WP media library has 100 PDFs but none are interest-rate/ROI/deposit-rate cards. No FD rate data published anywhere on the site."
+  }
+}

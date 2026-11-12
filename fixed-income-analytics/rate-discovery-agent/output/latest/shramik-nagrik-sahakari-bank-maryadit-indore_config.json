@@ -1,0 +1,19 @@
+{
+  "bank_code": "shramik-nagrik-sahakari-bank-maryadit-indore",
+  "bank_name": "shramik-nagrik-sahakari-bank-maryadit-indore",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://shramiknagrik.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://shramiknagrik.bank.in/Interest_rate_DEP.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:17:57.001Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

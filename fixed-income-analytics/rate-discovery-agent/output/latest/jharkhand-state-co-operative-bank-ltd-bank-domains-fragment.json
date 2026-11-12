@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "jharkhand-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:30:01.851Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "jscb.gov.in",
+  "notes": "Govt domain (.gov.in). Established 2002. Toll-free: 1800 345 7010.",
+  "rate_pages": {
+    "fd": "https://jscb.gov.in/PageContent.aspx?Id=fJqEkn3hMAk=&Idm=HIpqNguAPgY=",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T16:10:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "https://jscb.gov.in/PageContent.aspx?Id=fJqEkn3hMAk=&Idm=HIpqNguAPgY=",
+    "slab_count": 19,
+    "hints": "jscb.gov.in ASP.NET PageContent; retail <1cr table; senior +0.50% note; eff 2023 (may be stale)",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

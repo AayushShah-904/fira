@@ -1,0 +1,121 @@
+{
+  "bank_code": "indore-paraspar-sahakari-bank-maryadit",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://indoreparaspar.com/web/interest-rates.html",
+  "scraped_at": "2026-06-09T17:17:49.457Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 दिन से 14 दिन तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": 2.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 दिन से 45 दिन तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.2,
+      "rate_senior_pct": 3.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 दिन से 179 दिन तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "180 दिन से 364 दिन तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "12 महीने से 24 महीने से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "24 महीने से 27 महीने तक ***",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.7,
+      "rate_senior_pct": 7.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "27 महीने से अधिक 42 महीने से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "42 महीने से 05 वर्ष से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "05 वर्ष से 07 वर्ष से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "07 वर्ष और उससे ऊपर 10 वर्ष तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T17:17:49.457Z",
+    "manual_verification_needed": false
+  }
+}

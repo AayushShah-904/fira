@@ -1,0 +1,11 @@
+{
+  "cohort": "fcnr-refresh-2026-06-11",
+  "split_at": "2026-06-15T09:19:22.412Z",
+  "cloud_cohort": "fcnr-refresh-2026-06-11-cloud",
+  "local_cohort": "fcnr-refresh-2026-06-11-local",
+  "cloud_run_label": null,
+  "cloud_execution_name": null,
+  "cloud_finished_at": null,
+  "local_run_label": null,
+  "local_finished_at": null
+}

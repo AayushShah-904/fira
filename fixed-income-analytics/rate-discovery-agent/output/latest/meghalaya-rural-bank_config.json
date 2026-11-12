@@ -1,0 +1,19 @@
+{
+  "bank_code": "meghalaya-rural-bank",
+  "bank_name": "meghalaya-rural-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Meghalaya",
+  "website": "https://meghalayaruralbank.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://meghalayaruralbank.bank.in/fd.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:26:39.179Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

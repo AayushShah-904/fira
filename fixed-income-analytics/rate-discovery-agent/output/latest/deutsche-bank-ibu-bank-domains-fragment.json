@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "deutsche-bank-ibu",
+    "extracted_at": "2026-06-05T14:07:07.880Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "deutsche.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": "/ifsc-banking/"
+  },
+  "scraper_type": "manual",
+  "parent_bank_code": "deutsche-bank-ag",
+  "notes": "Deutsche Bank GIFT City IBU. Wholesale/institutional, no public retail rate card.",
+  "status": "wholesale_only",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "GIFT City IBU (launched Jul 2022, country.db.com/india/GIFT-City). Corporate/wholesale only: Trade Finance, Fixed Income & Currencies, credit facilities and cash-pooling/deposit propositions for corporate clients. No public retail FC term-deposit rate card. Re-verified via web search."
+  }
+}

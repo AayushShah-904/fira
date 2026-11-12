@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-06-09T18:49:33.164Z",
+  "prev_pack_slabs": 8990,
+  "staged_pack_slabs": 8641,
+  "total_loss": 421,
+  "regressed_count": 36,
+  "dropped_from_pack": [],
+  "rows": [
+    {
+      "bank_code": "bandhan-bank-limited",
+      "prev": 140,
+      "staged": 77,
+      "delta": 63
+    },
+    {
+      "bank_code": "kotak-mahindra-bank-ibu",
+      "prev": 55,
+      "staged": 7,
+      "delta": 48
+    },
+    {
+      "bank_code": "idfc-first-bank-limited",
+      "prev": 81,
+      "staged": 51,
+      "delta": 30
+    },
+    {
+      "bank_code": "slice-small-finance-bank-limited",
+      "prev": 35,
+      "staged": 10,
+      "delta": 25
+    },
+    {
+      "bank_code": "dbs-bank-india-limited",
+      "prev": 62,
+      "staged": 40,
+      "delta": 22
+    },
+    {
+      "bank_code": "mizuho-bank-ltd",
+      "prev": 68,
+      "staged": 47,
+      "delta": 21
+    },
+    {
+      "bank_code": "union-bank-of-india",
+      "prev": 133,
+      "staged": 112,
+      "delta": 21
+    },
+    {
+      "bank_code": "emirates-nbd-bank-pjsc",
+      "prev": 81,
+      "staged": 64,
+      "delta": 17
+    },
+    {
+      "bank_code": "the-bihar-state-co-operative-bank-ltd",
+      "prev": 27,
+      "staged": 10,
+      "delta": 17
+    },
+    {
+      "bank_code": "citibank-na",
+      "prev": 51,
+      "staged": 35,
+      "delta": 16
+    },
+    {
+      "bank_code": "idfc-first-bank-ibu",
+      "prev": 22,
+      "staged": 6,
+      "delta": 16
+    },
+    {
+      "bank_code": "bank-of-india",
+      "prev": 37,
+      "staged": 23,
+      "delta": 14
+    },
+    {
+      "bank_code": "indian-bank-ibu",
+      "prev": 18,
+      "staged": 7,
+      "delta": 11
+    },
+    {
+      "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+      "prev": 44,
+      "staged": 34,
+      "delta": 10
+    },
+    {
+      "bank_code": "indian-bank",
+      "prev": 110,
+      "staged": 102,
+      "delta": 8
+    },
+    {
+      "bank_code": "punjab-national-bank-ibu",
+      "prev": 10,
+      "staged": 2,
+      "delta": 8
+    },
+    {
+      "bank_code": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd",
+      "prev": 14,
+      "staged": 7,
+      "delta": 7
+    },
+    {
+      "bank_code": "sberbank",
+      "prev": 10,
+      "staged": 4,
+      "delta": 6
+    },
+    {
+      "bank_code": "shamrao-vithal-co-operative-bank-ltd",
+      "prev": 26,
+      "staged": 20,
+      "delta": 6
+    },
+    {
+      "bank_code": "mizoram-rural-bank",
+      "prev": 17,
+      "staged": 12,
+      "delta": 5
+    },
+    {
+      "bank_code": "the-andhra-pradesh-state-co-operative-bank-ltd",
+      "prev": 12,
+      "staged": 7,
+      "delta": 5
+    },
+    {
+      "bank_code": "uco-bank",
+      "prev": 140,
+      "staged": 135,
+      "delta": 5
+    },
+    {
+      "bank_code": "maharashtra-gramin-bank",
+      "prev": 15,
+      "staged": 11,
+      "delta": 4
+    },
+    {
+      "bank_code": "natwest-markets-plc",
+      "prev": 35,
+      "staged": 31,
+      "delta": 4
+    },
+    {
+      "bank_code": "punjab-sind-bank",
+      "prev": 112,
+      "staged": 108,
+      "delta": 4
+    },
+    {
+      "bank_code": "the-goa-state-co-operative-bank-ltd",
+      "prev": 9,
+      "staged": 5,
+      "delta": 4
+    },
+    {
+      "bank_code": "the-washim-urban-co-operative-bank-limited",
+      "prev": 12,
+      "staged": 8,
+      "delta": 4
+    },
+    {
+      "bank_code": "eluru-district-co-operative-central-bank-ltd",
+      "prev": 9,
+      "staged": 6,
+      "delta": 3
+    },
+    {
+      "bank_code": "icici-bank-limited",
+      "prev": 33,
+      "staged": 30,
+      "delta": 3
+    },
+    {
+      "bank_code": "the-assam-co-operative-apex-bank-ltd",
+      "prev": 15,
+      "staged": 12,
+      "delta": 3
+    },
+    {
+      "bank_code": "the-visakhapatnam-co-operative-bank-ltd",
+      "prev": 9,
+      "staged": 6,
+      "delta": 3
+    },
+    {
+      "bank_code": "bank-of-maharashtra",
+      "prev": 45,
+      "staged": 43,
+      "delta": 2
+    },
+    {
+      "bank_code": "central-bank-of-india",
+      "prev": 66,
+      "staged": 64,
+      "delta": 2
+    },
+    {
+      "bank_code": "kalupur-commercial-co-operative-bank-ltd",
+      "prev": 12,
+      "staged": 10,
+      "delta": 2
+    },
+    {
+      "bank_code": "andhra-pradesh-grameena-bank",
+      "prev": 14,
+      "staged": 13,
+      "delta": 1
+    },
+    {
+      "bank_code": "jodhpur-central-co-operative-bank-ltd",
+      "prev": 2,
+      "staged": 1,
+      "delta": 1
+    }
+  ]
+}

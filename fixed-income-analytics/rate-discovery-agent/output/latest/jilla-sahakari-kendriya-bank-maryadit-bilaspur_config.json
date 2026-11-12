@@ -1,0 +1,33 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-bilaspur",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Bilaspur",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website or deposit rate page could be found for this DCCB. Multiple domain and government portal attempts failed. Rates may be published offline or via state co-operative bank circulars.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "web_search + domain probing + government portal lookup",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

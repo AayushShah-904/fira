@@ -1,0 +1,21 @@
+{
+  "bank_code": "bombay-mercantile-co-operative-bank-limited",
+  "bank_name": "bombay-mercantile-co-operative-bank-limited",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://bmcbankltd.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://bmcbankltd.com/deporates.php",
+    "fd_nre": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:33:20.744Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

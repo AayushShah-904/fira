@@ -1,0 +1,19 @@
+{
+  "bank_code": "utkarsh-small-finance-bank-limited",
+  "bank_name": "utkarsh-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "category": "Small Finance Bank",
+  "state": "Uttar Pradesh",
+  "website": "https://utkarsh.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://utkarsh.bank.in/assests/pdf/Annexure_Domestic_Fixed_Deposit_Interest_Rates.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:32:14.456Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

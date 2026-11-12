@@ -1,0 +1,111 @@
+{
+  "bank_code": "godhra-urban-co-op-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://tgucbl.bank.in//deposits/",
+  "scraped_at": "2026-05-22T20:52:19.671Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "365 days to 730 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "731 days to 1095 days",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1096 days to 1825 days",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1826 days and above",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 8.01,
+      "rate_senior_pct": 8.51,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year to 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 year 1 day to 3 year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 year 1 day to 5 year",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 year 1 day and above",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 8.01,
+      "rate_senior_pct": 8.51,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Recurring Deposit",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-22T20:52:19.671Z",
+    "manual_verification_needed": false
+  }
+}

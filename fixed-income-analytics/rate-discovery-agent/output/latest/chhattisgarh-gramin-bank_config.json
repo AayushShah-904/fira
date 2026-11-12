@@ -1,0 +1,33 @@
+{
+  "bank_code": "chhattisgarh-gramin-bank",
+  "bank_name": "chhattisgarh-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "website": "https://cgb.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/Home/Page/InterestRate",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Also known as Chhattisgarh Rajya Gramin Bank. Legacy: cedgerrbmb.in/CRGB",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:21:07.290Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bank_code": "sawai-madhopur-central-co-operative-bank-ltd",
+  "bank_name": "Sawai Madhopur Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16084,
+  "duration_ms": 16084,
+  "duration_api_ms": 15666,
+  "num_turns": 12,
+  "tool_call_count": 14,
+  "total_cost_usd": 0.13891,
+  "input_tokens": 64295,
+  "output_tokens": 1290,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Sawai Madhopur Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 39,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sawaimadhopurcentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Sawai Madhopur Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sawaimadhopurcentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sawaimadhopurcentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Sawai Madhopur Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Sawai Madhopur Central Co-operative Bank Ltd. Rajasthan branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Sawai Madhopur Central Co-operative Bank Ltd. Rajasthan official website\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Sawai Madhopur Central Co-operative Bank Ltd. Rajasthan contact\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Sawai Madhopur Central Co-operative Bank Ltd. Rajasthan rate card\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Sawai Madhopur Central Co-operative Bank Ltd. Rajasthan RTGS NEFT\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 9,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rajsthan.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 290,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rscb.org.in\"}"
+    }
+  ]
+}

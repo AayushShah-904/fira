@@ -1,0 +1,14 @@
+{
+  "bank_code": "chennai-central-co-operative-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T15:15:26.678Z",
+      "evidence_url": "https://ccbankchennai.com/interest-rates",
+      "http_status": 200,
+      "vendor": "unknown_waf",
+      "signal": "thin-body: status=200 size=4431 no-table",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

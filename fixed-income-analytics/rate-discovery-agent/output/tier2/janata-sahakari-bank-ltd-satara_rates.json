@@ -1,0 +1,31 @@
+{
+  "bank_code": "janata-sahakari-bank-ltd-satara",
+  "bank_name": "janata sahakari bank ltd satara",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-05-20",
+  "source_url": "https://jsbsatara.com/pwd_varkaries/2024/05/Deposits-Interest_20240518_0001.pdf",
+  "scraped_at": "2026-05-25T18:15:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "14 days to 29 days", "tenure_min_days": 14, "tenure_max_days": 29, "rate_general_pct": 3.50, "rate_senior_pct": 4.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "30 days to 45 days", "tenure_min_days": 30, "tenure_max_days": 45, "rate_general_pct": 3.75, "rate_senior_pct": 4.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 4.50, "rate_senior_pct": 5.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 5.25, "rate_senior_pct": 5.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to less than 1 year", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.75, "rate_senior_pct": 6.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year to less than 3 years", "tenure_min_days": 365, "tenure_max_days": 1094, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years to less than 5 years", "tenure_min_days": 1095, "tenure_max_days": 1824, "rate_general_pct": 7.25, "rate_senior_pct": 7.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5 years to within 10 years", "tenure_min_days": 1825, "tenure_max_days": 3650, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Cash Certificate - 15 months only", "tenure_min_days": 450, "tenure_max_days": 450, "rate_general_pct": 6.00, "rate_senior_pct": 6.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [
+    { "name": "Recurring Deposit 12 months", "tenure_text": "12 months", "tenure_min_days": 360, "tenure_max_days": 360, "rate_general_pct": 5.25, "rate_senior_pct": 5.75 },
+    { "name": "Recurring Deposit above 24 to 60 months", "tenure_text": "above 24 months to 60 months", "tenure_min_days": 720, "tenure_max_days": 1800, "rate_general_pct": 6.00, "rate_senior_pct": 6.50 }
+  ],
+  "warnings": [
+    "Rate card is a scanned Marathi PDF (image) recovered via vision OCR at 4x render + crop/sharpen. Effective date read as 20/05/2024 (filename/post says 18/05/2024). Devanagari digits transcribed by reader.",
+    "Senior citizen column (ज्येष्ठ नागरिक) explicitly shown, +0.50% throughout. Savings 2.70%, Current nil."
+  ],
+  "errors": [],
+  "tier2_method": "ocr"
+}

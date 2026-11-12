@@ -1,0 +1,10 @@
+[
+  { "bank_code": "indian-overseas-bank", "category": "Public Sector Bank", "state": "Tamil Nadu" },
+  { "bank_code": "axis-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Gujarat" },
+  { "bank_code": "yes-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "yes-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "rbl-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "icici-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "canara-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "bank-of-maharashtra-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" }
+]

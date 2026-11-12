@@ -1,0 +1,74 @@
+{
+  "bank_code": "virudhunagar-district-central-co-operative-bank-ltd",
+  "bank_name": "Virudhunagar District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11254,
+  "duration_ms": 11254,
+  "duration_api_ms": 11115,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.08552,
+  "input_tokens": 38640,
+  "output_tokens": 1030,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Virudhunagar District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 9,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://virudhunagardccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Virudhunagar District Central Co-operative Bank Ltd. official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.vdccbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.virudhunagardccb.com\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Virudhunagar District Central Co-operative Bank Ltd. interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tncooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tnscb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tamilnadudccb.com\"}"
+    }
+  ]
+}

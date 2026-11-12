@@ -1,0 +1,96 @@
+{
+  "bank_code": "karnal-central-co-operative-bank-ltd",
+  "bank_name": "Karnal Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-06",
+  "source_url": "http://www.cbkarnal.com/wp-content/uploads/2023/12/Revision-Rate-of-Interest-01-12-2023_20231214_0001-1.pdf",
+  "scraped_at": "2026-06-06T08:15:38Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "I  7   days   to   14   days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ")  L5   days   to   45 days",
+      "tenure_min_days": 5,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3   46 days   to   90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4   91 days   to   179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5   180   days   270   days",
+      "tenure_min_days": 450,
+      "tenure_max_days": 450,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6   271days to   less   than   1   year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7   I   Year   to   5   Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "8   Above   5   Years   to   10   Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Some tenures could not be parsed due to PDF OCR errors. Please verify the original PDF for tenure boundaries, especially for 1 year to 5 years slab."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 47,
+    "last_scraped_at": "2026-06-06T08:15:38Z",
+    "manual_verification_needed": false
+  }
+}

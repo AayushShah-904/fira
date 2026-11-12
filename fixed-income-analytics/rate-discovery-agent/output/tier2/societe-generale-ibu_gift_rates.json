@@ -1,0 +1,16 @@
+{
+  "bank_code": "societe-generale-ibu",
+  "bank_name": "Societe Generale - GIFT City IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://www.societegenerale.asia/en/india/societe-generales-gift-city/",
+  "scraped_at": "2026-05-25T11:22:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "rates non-public / on request - Societe Generale GIFT City IBU does wholesale/structured finance only (renewable energy, infrastructure, data centres, telecom). No retail deposit products or public rate card.",
+    "Confirmed wholesale_only status from registry plus web search; no GIFT-City foreign-currency term-deposit rate card located."
+  ],
+  "tier2_method": "registry status=wholesale_only verified via WebSearch (no public GIFT rate card found)"
+}

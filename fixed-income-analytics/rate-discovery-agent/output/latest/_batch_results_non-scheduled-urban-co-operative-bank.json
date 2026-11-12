@@ -1,0 +1,670 @@
+{
+  "timestamp": "2026-05-21T03:27:05.326Z",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "succeeded": 132,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "rajgurunagar-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "rajapur-urban-cooperative-bank-ltd-rajapur",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "sharad-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 56
+    },
+    {
+      "name": "arvind-sahakari-bank-ltd-katol",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "lonavla-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 49
+    },
+    {
+      "name": "vita-merchants-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+      "status": "success",
+      "elapsed_sec": 154
+    },
+    {
+      "name": "the-washim-urban-co-operative-bank-limited",
+      "status": "success",
+      "elapsed_sec": 52
+    },
+    {
+      "name": "the-amravati-merchants-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 144
+    },
+    {
+      "name": "the-jalna-peoples-co-operative-bank-ltd-jalna",
+      "status": "success",
+      "elapsed_sec": 148
+    },
+    {
+      "name": "chiplun-urban-coopbank-ltd",
+      "status": "success",
+      "elapsed_sec": 89
+    },
+    {
+      "name": "vasai-janata-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 84
+    },
+    {
+      "name": "navi-mumbai-co-operative-bank-ltd-vashi",
+      "status": "success",
+      "elapsed_sec": 123
+    },
+    {
+      "name": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+      "status": "success",
+      "elapsed_sec": 110
+    },
+    {
+      "name": "sangamner-merchants-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "the-hasti-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 179
+    },
+    {
+      "name": "the-nanded-merchants-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 170
+    },
+    {
+      "name": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+      "status": "success",
+      "elapsed_sec": 292
+    },
+    {
+      "name": "ajara-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 139
+    },
+    {
+      "name": "wai-urban-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 61
+    },
+    {
+      "name": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+      "status": "success",
+      "elapsed_sec": 68
+    },
+    {
+      "name": "gadhinglaj-urban-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 53
+    },
+    {
+      "name": "shahada-peoples-co-operative-bank-ltd-shahada",
+      "status": "success",
+      "elapsed_sec": 54
+    },
+    {
+      "name": "madheshwari-urban-development-co-operative-bank",
+      "status": "success",
+      "elapsed_sec": 152
+    },
+    {
+      "name": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+      "status": "success",
+      "elapsed_sec": 81
+    },
+    {
+      "name": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+      "status": "success",
+      "elapsed_sec": 123
+    },
+    {
+      "name": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+      "status": "success",
+      "elapsed_sec": 126
+    },
+    {
+      "name": "deccan-merchants-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "gandhibag-sahakari-bank-ltd-nagpur",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "jijau-commercial-co-operative-bank-ltd-amravati",
+      "status": "success",
+      "elapsed_sec": 51
+    },
+    {
+      "name": "malegaon-merchants-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 89
+    },
+    {
+      "name": "godavari-urban-co-opbank-ltdnashik",
+      "status": "success",
+      "elapsed_sec": 194
+    },
+    {
+      "name": "samata-sahakari-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 170
+    },
+    {
+      "name": "modern-co-op-bank-ltd-chalisgaon-jalgaon",
+      "status": "success",
+      "elapsed_sec": 128
+    },
+    {
+      "name": "sangola-urban-co-operative-bank-ltd-sangola",
+      "status": "success",
+      "elapsed_sec": 134
+    },
+    {
+      "name": "patan-urban-co-operative-bank-ltd-patan-satara",
+      "status": "success",
+      "elapsed_sec": 142
+    },
+    {
+      "name": "janata-sahakari-bank-ltd-satara",
+      "status": "success",
+      "elapsed_sec": 56
+    },
+    {
+      "name": "kalwan-marchants-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 288
+    },
+    {
+      "name": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+      "status": "success",
+      "elapsed_sec": 115
+    },
+    {
+      "name": "jijamata-mahila-nagri-sahakari-bank-ltd-buldana",
+      "status": "success",
+      "elapsed_sec": 158
+    },
+    {
+      "name": "gautam-sahakari-bank-ltdkolpewadi",
+      "status": "success",
+      "elapsed_sec": 52
+    },
+    {
+      "name": "yadrav-co-operative-bank-ltd-yadrav",
+      "status": "success",
+      "elapsed_sec": 170
+    },
+    {
+      "name": "mahamantralaya-allied-offices-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 98
+    },
+    {
+      "name": "rayat-sevak-co-op-bank-ltd-satara",
+      "status": "success",
+      "elapsed_sec": 106
+    },
+    {
+      "name": "akhand-anand-co-operative-bank-ltd-surat",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "sharad-nagari-sahakari-bank-ltd-solapur",
+      "status": "success",
+      "elapsed_sec": 244
+    },
+    {
+      "name": "pritisangam-sahakari-bank-ltd-karad-satara",
+      "status": "success",
+      "elapsed_sec": 137
+    },
+    {
+      "name": "gandhidham-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "mehsana-nagrik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 56
+    },
+    {
+      "name": "gandhinagar-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 168
+    },
+    {
+      "name": "gandhinagar-nagarik-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 206
+    },
+    {
+      "name": "sardar-vallabhbhai-sahakari-bank-limited",
+      "status": "success",
+      "elapsed_sec": 263
+    },
+    {
+      "name": "kankaria-maninagar-nagarik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 79
+    },
+    {
+      "name": "maninagar-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 81
+    },
+    {
+      "name": "rander-peoples-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 65
+    },
+    {
+      "name": "karnavathi-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 86
+    },
+    {
+      "name": "gondal-nagarik-sahakari-bank-limited",
+      "status": "success",
+      "elapsed_sec": 102
+    },
+    {
+      "name": "bhuj-commercial-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "porbandar-commercial-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 160
+    },
+    {
+      "name": "shri-morbi-nagrik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 66
+    },
+    {
+      "name": "dahod-urban-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 63
+    },
+    {
+      "name": "saraspur-nagarik-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 493
+    },
+    {
+      "name": "godhra-urban-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 113
+    },
+    {
+      "name": "hubli-urban-co-operative-bank-limited-hubli",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "mangalore-co-operative-town-bank-ltd-mangalore",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "udupi-co-operative-town-bank-ltd-udupi",
+      "status": "success",
+      "elapsed_sec": 53
+    },
+    {
+      "name": "bangalore-city-co-operative-bank-ltd-bangalore",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "mysore-merchants-co-operative-bank-ltd-mysore",
+      "status": "success",
+      "elapsed_sec": 50
+    },
+    {
+      "name": "rajkot-commercial-cooperative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 246
+    },
+    {
+      "name": "bharath-co-operative-bank-limited-bangalore",
+      "status": "success",
+      "elapsed_sec": 51
+    },
+    {
+      "name": "malleswaram-co-operative-bank-ltd-bangalore",
+      "status": "success",
+      "elapsed_sec": 80
+    },
+    {
+      "name": "janatha-seva-co-operative-bank-ltd-bangalore",
+      "status": "success",
+      "elapsed_sec": 74
+    },
+    {
+      "name": "sir-mvisvesvaraya-co-operative-bank-ltd-bangalore",
+      "status": "success",
+      "elapsed_sec": 54
+    },
+    {
+      "name": "grain-merchants-co-operative-bank-ltdbangalore",
+      "status": "success",
+      "elapsed_sec": 197
+    },
+    {
+      "name": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+      "status": "success",
+      "elapsed_sec": 47
+    },
+    {
+      "name": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+      "status": "success",
+      "elapsed_sec": 105
+    },
+    {
+      "name": "vysya-co-operative-bank-ltd-tumkur",
+      "status": "success",
+      "elapsed_sec": 94
+    },
+    {
+      "name": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+      "status": "success",
+      "elapsed_sec": 77
+    },
+    {
+      "name": "bagalkot-urban-co-operative-bank-ltd-bagalkot",
+      "status": "success",
+      "elapsed_sec": 174
+    },
+    {
+      "name": "davangere-urban-co-operative-bank-ltd-davangere",
+      "status": "success",
+      "elapsed_sec": 191
+    },
+    {
+      "name": "mahaveer-co-operative-bank-ltd-belgaum",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "the-visakhapatnam-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "the-guntur-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 77
+    },
+    {
+      "name": "haveri-urban-co-operative-bank-limited-haveri",
+      "status": "success",
+      "elapsed_sec": 164
+    },
+    {
+      "name": "tirupati-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 80
+    },
+    {
+      "name": "the-karimnagar-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "eluru-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 81
+    },
+    {
+      "name": "warangal-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 129
+    },
+    {
+      "name": "the-kakinada-co-operative-town-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 73
+    },
+    {
+      "name": "the-nellore-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 116
+    },
+    {
+      "name": "mahanagar-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 86
+    },
+    {
+      "name": "the-anantapur-co-operative-town-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 105
+    },
+    {
+      "name": "the-kannur-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "trivandrum-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 84
+    },
+    {
+      "name": "kottayam-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 43
+    },
+    {
+      "name": "calicut-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 97
+    },
+    {
+      "name": "indore-paraspar-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 52
+    },
+    {
+      "name": "coastal-urban-co-operative-bank-ltdkollam",
+      "status": "success",
+      "elapsed_sec": 63
+    },
+    {
+      "name": "ujjain-nagarik-sahakari-bank-maryadit-ujjain",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "shramik-nagrik-sahakari-bank-maryadit-indore",
+      "status": "success",
+      "elapsed_sec": 64
+    },
+    {
+      "name": "nagarik-sahakari-bank-maryaditgwalior",
+      "status": "success",
+      "elapsed_sec": 51
+    },
+    {
+      "name": "jodhpur-nagarik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 74
+    },
+    {
+      "name": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 142
+    },
+    {
+      "name": "kota-nagarik-sahakari-bank-ltd-kota",
+      "status": "success",
+      "elapsed_sec": 193
+    },
+    {
+      "name": "udaipur-urban-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 136
+    },
+    {
+      "name": "coimbatore-city-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 141
+    },
+    {
+      "name": "tiruchirapalli-city-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 136
+    },
+    {
+      "name": "salem-urban-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 261
+    },
+    {
+      "name": "vellore-coop-town-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 127
+    },
+    {
+      "name": "jamia-co-operative-bank-ltd-new-delhi",
+      "status": "success",
+      "elapsed_sec": 69
+    },
+    {
+      "name": "erode-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 276
+    },
+    {
+      "name": "delhi-nagrik-sehkari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 87
+    },
+    {
+      "name": "alleppey-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "alwaye-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "national-urban-co-operative-bank-ltd-delhi",
+      "status": "success",
+      "elapsed_sec": 53
+    },
+    {
+      "name": "kurmanchal-nagar-sahkari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "almora-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 46
+    },
+    {
+      "name": "the-midnapore-peoples-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 109
+    },
+    {
+      "name": "the-santragachi-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 151
+    },
+    {
+      "name": "the-shibpur-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 125
+    },
+    {
+      "name": "commercial-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 50
+    },
+    {
+      "name": "the-panihati-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 209
+    },
+    {
+      "name": "gujarat-mercantile-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 44
+    },
+    {
+      "name": "navabharat-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "model-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "ramanagaram-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 90
+    },
+    {
+      "name": "the-bapatla-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 138
+    },
+    {
+      "name": "nagrik-sahakari-bank-maryadit-vidisha",
+      "status": "success",
+      "elapsed_sec": 176
+    },
+    {
+      "name": "the-bhandara-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 53
+    },
+    {
+      "name": "sterling-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 165
+    },
+    {
+      "name": "amreli-nagrik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 155
+    }
+  ]
+}

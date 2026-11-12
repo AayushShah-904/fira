@@ -1,0 +1,42 @@
+{
+  "bank_code": "rajasthan-gramin-bank",
+  "bank_name": "rajasthan-gramin-bank",
+  "category": "Regional Rural Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "regional-rural-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 129963,
+  "duration_ms": 129963,
+  "duration_api_ms": 9376,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.064334,
+  "llm_cost_usd": 0.064334,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 28879,
+  "output_tokens": 822,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30009,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajasthan.bank.in/chargerate\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60554,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajasthan.bank.in/chargerate\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30024,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajasthan.bank.in/\"}"
+    }
+  ]
+}

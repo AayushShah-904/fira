@@ -1,0 +1,42 @@
+{
+  "bank_code": "tripura-state-co-operative-bank-ltd",
+  "bank_name": "tripura-state-co-operative-bank-ltd",
+  "category": "Scheduled State Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-state-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 29379,
+  "duration_ms": 29379,
+  "duration_api_ms": 7991,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.064238,
+  "llm_cost_usd": 0.064238,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 28739,
+  "output_tokens": 845,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 6010,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tscb.bank.in/page/54\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6008,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tscb.bank.in/page/54\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 9370,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tscb.bank.in/\"}"
+    }
+  ]
+}

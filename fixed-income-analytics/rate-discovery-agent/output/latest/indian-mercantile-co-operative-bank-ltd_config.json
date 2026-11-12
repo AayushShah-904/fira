@@ -1,0 +1,33 @@
+{
+  "bank_code": "indian-mercantile-co-operative-bank-ltd",
+  "bank_name": "indian-mercantile-co-operative-bank-ltd",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "website": "https://imcbankltd.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/term-deposit-rate-of-intt/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account/",
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "WordPress site with placeholder/empty content. No rate data published.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:42:09.725Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

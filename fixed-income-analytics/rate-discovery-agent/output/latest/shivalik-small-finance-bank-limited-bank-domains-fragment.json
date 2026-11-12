@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "bank_code": "shivalik-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:55:31.881Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "shivalik.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rate",
+    "savings": "/interest-rate",
+    "rd": "/interest-rate",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML",
+  "template": {
+    "template_id": "shivalik-sfb-3col-tenure-general-senior-premature-noncallable-rd",
+    "template_hash": "sha1:44b1a137cae3f6f46a8b4489803540e149147bab",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 3,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 36,
+      "cluster_reused": false
+    }
+  }
+}

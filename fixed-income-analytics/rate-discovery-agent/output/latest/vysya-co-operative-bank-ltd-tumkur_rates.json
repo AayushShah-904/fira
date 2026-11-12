@@ -1,0 +1,28 @@
+{
+  "bank_code": "vysya-co-operative-bank-ltd-tumkur",
+  "bank_name": "Vysya Co-operative Bank Ltd, Tumkur",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": null,
+  "scraped_at": "2026-05-27T18:20:23.244Z",
+  "effective_date": "2026-05-27",
+  "extraction_method": "manual_data_entry",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 fix: removed data wrongly mapped from tumkur-veerashaiva's domain (tvcbltd.bank.in). This is a distinct bank (IFSC UTIB0SVCBL1, Axis-sponsored) with no own website / public FD rate page."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "sourced_at": "2026-05-27T18:20:23.244Z",
+    "source_url": null,
+    "discovery_status": "no_website"
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 57,
+    "last_scraped_at": "2026-05-27T18:20:23.244Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "bank_code": "dbs-bank-india-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://www.dbs.bank.in/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates",
+  "scraped_at": "2026-06-15T13:09:41.895Z",
+  "effective_date": "2026-01-23",
+  "extraction_method": "manual_data_entry",
+  "extraction_confidence": "high",
+  "scraper_type": "html_js",
+  "rate_slabs": [
+    {
+      "tenure_text": "1Y to <2Y",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2Y to <3Y",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3Y to <4Y",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "4Y to <5Y",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "5Y",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    }
+  ],
+  "warnings": [
+    "Operator-pasted 2026-06-15. DBS Bank India FCNR page is Cloudflare-hard-blocked from our scrape (403 deny, not a JS challenge — our IP categorically refused). Direct paste was the only path.",
+    "USD only. DBS has not refreshed FCNR rates since 23 January 2026 — long-tenure rates (3-5y) are at token 0.01%, suggesting the product is on paper but not actively marketed for long tenures.",
+    "No published rates for GBP/EUR/AUD/CAD/JPY on this product page."
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 181,
+    "last_scraped_at": "2026-06-15T13:09:41.895Z",
+    "manual_verification_needed": true
+  }
+}

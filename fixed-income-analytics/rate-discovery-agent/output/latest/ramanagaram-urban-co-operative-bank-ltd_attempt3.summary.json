@@ -1,0 +1,60 @@
+{
+  "bank_code": "ramanagaram-urban-co-operative-bank-ltd",
+  "bank_name": "ramanagaram-urban-co-operative-bank-ltd",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10622,
+  "duration_ms": 10622,
+  "duration_api_ms": 9904,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.109868,
+  "llm_cost_usd": 0.109868,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 51746,
+  "output_tokens": 797,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 216,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rucbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 247,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rucbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"ramanagaram urban co-operative bank interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ramanagaramurbanbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 47,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ramanagaramurbanbank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 168,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ramanagaramurbanbank.com/\"}"
+    }
+  ]
+}

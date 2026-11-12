@@ -1,0 +1,162 @@
+{
+  "bank_code": "united-overseas-bank-limited",
+  "bank_name": "united-overseas-bank-limited",
+  "category": "Foreign Bank",
+  "mode": "rates-only",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 40153,
+  "duration_ms": 40153,
+  "duration_api_ms": 2059,
+  "num_turns": 0,
+  "tool_call_count": 19,
+  "total_cost_usd": 0,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 10042,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 27,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 2772,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd",
+      "duration_ms": 12896,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 1312,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nre",
+      "duration_ms": 2901,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nre",
+      "duration_ms": 163,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 1634,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nro",
+      "duration_ms": 2386,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nro",
+      "duration_ms": 104,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 1388,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_fcnr",
+      "duration_ms": 2378,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_fcnr",
+      "duration_ms": 81,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "agent_error",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "pdf",
+    "notes": "",
+    "website_url": "https://uob.bank.in",
+    "rate_url_fd": "https://uob.bank.in/assets/web-resources/in/pdf/useful/interest-rates/interest-rate.pdf",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": false,
+    "initial_tier": 1,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "bank_code": "agra-zilla-sahakari-bank-ltd",
+  "bank_name": "Agra Zilla Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-02-20",
+  "source_url": "https://www.dcbagra.org/intrest.php?id=4",
+  "scraped_at": "2026-06-05T18:26:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "For 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 1 year to 2 year",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 2 year to 3 year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 3 year but less than 5 year",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 5 year to 10 year",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1249,
+    "last_scraped_at": "2026-06-05T18:26:00Z",
+    "manual_verification_needed": true
+  }
+}

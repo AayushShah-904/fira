@@ -1,0 +1,56 @@
+{
+  "bank_code": "zilla-sahakari-bank-ltd-unnao",
+  "bank_name": "Zilla Sahakari Bank Ltd., Unnao",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 8847,
+  "duration_ms": 8847,
+  "duration_api_ms": 8771,
+  "num_turns": 4,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.045308,
+  "input_tokens": 18450,
+  "output_tokens": 1051,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Zilla Sahakari Bank Ltd., Unnao\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Zilla Sahakari Bank Ltd., Unnao\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Zilla Sahakari Bank Ltd., Unnao\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://zilladahakariunao.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://zillasahakaribankunnao.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://zillasahakaribankunnao.co.in\"}"
+    }
+  ]
+}

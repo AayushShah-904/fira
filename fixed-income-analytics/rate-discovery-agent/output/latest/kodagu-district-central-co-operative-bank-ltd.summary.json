@@ -1,0 +1,44 @@
+{
+  "bank_code": "kodagu-district-central-co-operative-bank-ltd",
+  "bank_name": "kodagu-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11003,
+  "duration_ms": 11003,
+  "duration_api_ms": 10912,
+  "num_turns": 5,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.0137276,
+  "input_tokens": 31855,
+  "output_tokens": 616,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Kodagu District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kodagu-district-central-co-operative-bank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kodagudccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kodagudccb.co.in/\"}"
+    }
+  ]
+}

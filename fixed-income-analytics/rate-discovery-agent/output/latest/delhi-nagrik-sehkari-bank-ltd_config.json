@@ -1,0 +1,19 @@
+{
+  "bank_code": "delhi-nagrik-sehkari-bank-ltd",
+  "bank_name": "delhi-nagrik-sehkari-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Delhi",
+  "website": "https://dnsbltd.com",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://dnsbltd.com/wp-content/uploads/2026/03/Rate-of-Interest-Deposit.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:24:31.707Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_pdf"
+}

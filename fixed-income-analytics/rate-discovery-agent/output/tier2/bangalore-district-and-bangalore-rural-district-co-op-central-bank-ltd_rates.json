@@ -1,0 +1,22 @@
+{
+  "bank_code": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+  "bank_name": "Bangalore District and Bangalore Rural District Co-op. Central Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "bengalurudcc.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Bank's own site is bengalurudcc.bank.in (the older bengalurudccbank.com 301-redirects to it). Both refused all connections from here (curl HTTP 000 / WebFetch ECONNREFUSED / Playwright ERR_CONNECTION_REFUSED) across multiple attempts. Search shows the site has a /fixed-deposite/ FD page, so rates likely exist but the host is unreachable from this network right now (may work later)."
+  },
+  "warnings": [
+    "bengalurudcc.bank.in refuses connections (HTTP 000 / ECONNREFUSED) — DNS resolves but no response.",
+    "Known FD page path /fixed-deposite/ could not be retrieved."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

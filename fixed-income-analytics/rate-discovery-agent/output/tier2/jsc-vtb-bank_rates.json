@@ -1,0 +1,21 @@
+{
+  "bank_code": "jsc-vtb-bank",
+  "bank_name": "JSC VTB Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "vtb.bank.in",
+    "found_via": "websearch",
+    "notes": "VTB Bank (PJSC) India operates a single New Delhi branch focused on corporate/business/forex banking for two-way Russia/CIS-India trade (term loans, trade finance, guarantees). The official site vtb.bank.in lists corporate, business and forex banking only; no retail deposit products or FD interest-rate table are published. Foreign wholesale bank with no retail FD."
+  },
+  "warnings": [
+    "Aggregator sites (codeforbanks) claim generic FD features but show no real published rate table; not used as a source."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

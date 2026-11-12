@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-katihar-district-central-co-operative-bank-ltd-katihar",
+  "bank_name": "The Katihar District Central Co-operative Bank Ltd., Katihar",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11366,
+  "duration_ms": 11366,
+  "duration_api_ms": 11150,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.084516,
+  "input_tokens": 38638,
+  "output_tokens": 905,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Katihar District Central Co-operative Bank Ltd., Katihar\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://katiharbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Katihar District Central Co-operative Bank Ltd., Katihar\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 10,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://katihardccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://katihardccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Katihar District Central Co-operative Bank\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.biharcooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 53,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharcooperativebank.bih.nic.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 76,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bihar.gov.in\"}"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+  "bank_name": "The Hongkong and Shanghai Banking Corporation Limited (HSBC)",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": null,
+  "source_url": "https://www.hsbc.co.in/nri/products/fcnr-deposit/",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 0.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "CORRECTED Tier-2 re-extraction. The prior output/latest file (42 slabs all stamped currency USD) was WRONG: the extractor collapsed all six per-currency sections (USD/GBP/EUR/JPY/AUD/CAD), each published in two equivalent simple+cumulative table layouts, into a single USD column. Recommend QUARANTINE/replacement of the old 42-slab file.",
+    "Live source (https://www.hsbc.co.in/nri/products/fcnr-deposit/) publishes 6 currencies. Simple and cumulative interest rates are identical for every tenure, so only one slab per (currency, tenure) is emitted.",
+    "Only tenures 1y-<2y, 2y-<3y, and 3y are published. The '3 years' rate exists only for USD (2.75%) and GBP (0.50%); EUR/JPY/AUD/CAD show '-' (NA) at 3 years, so no slab is emitted for those (no fabrication).",
+    "No effective/w.e.f. date is shown on the FCNR rate page; effective_date left null. Page contains an unrelated '31 March 2025' reference (GST/disclosure), not a rate effective date.",
+    "FCNR has no senior-citizen premium; rate_senior_pct is null for all slabs."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_static_html",
+  "discovery_metadata": {
+    "run_method": "tier-2-recheck",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  }
+}

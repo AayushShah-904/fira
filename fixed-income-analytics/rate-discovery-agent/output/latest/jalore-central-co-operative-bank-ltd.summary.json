@@ -1,0 +1,50 @@
+{
+  "bank_code": "jalore-central-co-operative-bank-ltd",
+  "bank_name": "jalore-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9291,
+  "duration_ms": 9291,
+  "duration_api_ms": 9156,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008578800000000001,
+  "input_tokens": 18811,
+  "output_tokens": 659,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jalore central co-operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalorecentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalorecentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalorecentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalorecentralcooperativebankltd.co.in\"}"
+    }
+  ]
+}

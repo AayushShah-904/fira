@@ -1,0 +1,22 @@
+{
+  "bank_code": "the-district-co-operative-central-bank-ltd-vizianagaram",
+  "bank_name": "the district co operative central bank ltd vizianagaram",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "vizianagaramdccb.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Site is live (homepage HTTP 200, 66KB) and has a /deposits page, but that page only shows scheme-promo banners/images (DCCB Monsoon Digital Scheme, Navarathri Locker Mela, DCCB Digital) and decorative photos — no interest-rate table, no rate PDF, and no rate-card image. It's a website-builder site that publishes scheme marketing but not an FD rate schedule."
+  },
+  "warnings": [
+    "/deposits page has 0 rate tables, 0 percent values, and only promo/decorative images (no rate-card image or PDF).",
+    "Bank publishes no FD interest-rate page."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

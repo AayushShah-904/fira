@@ -1,0 +1,180 @@
+{
+  "bank_code": "indian-bank-ibu",
+  "variant": "gift",
+  "effective_date": "2026-03-02",
+  "source_url": "https://indianbank.bank.in/wp-content/uploads/2024/03/Deposit-rates-IBU-March_2026.pdf",
+  "warnings": [
+    "Only USD rates available — no EUR, GBP, or other currency deposits offered",
+    "Savings bank account rate (2.50%) not included in slabs — it is not a term deposit"
+  ],
+  "rate_slabs": [
+    {
+      "slab_no": 1,
+      "tenure_text": "7 Days - 14 Days",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.4,
+      "tenure_min_days": 7,
+      "tenure_max_days": 14
+    },
+    {
+      "slab_no": 2,
+      "tenure_text": "15 Days - 30 Days",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.4,
+      "tenure_min_days": 15,
+      "tenure_max_days": 30
+    },
+    {
+      "slab_no": 3,
+      "tenure_text": "31 Days - < 2 months",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.5,
+      "tenure_min_days": 31,
+      "tenure_max_days": 59
+    },
+    {
+      "slab_no": 4,
+      "tenure_text": "2 months < 3 months",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.8,
+      "tenure_min_days": 60,
+      "tenure_max_days": 89
+    },
+    {
+      "slab_no": 5,
+      "tenure_text": "3 Months < 6 months",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 4,
+      "tenure_min_days": 90,
+      "tenure_max_days": 179
+    },
+    {
+      "slab_no": 6,
+      "tenure_text": "6 Months < 9 months",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.95,
+      "tenure_min_days": 180,
+      "tenure_max_days": 269
+    },
+    {
+      "slab_no": 7,
+      "tenure_text": "9 Months to 12 months",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 4,
+      "tenure_min_days": 270,
+      "tenure_max_days": 365
+    },
+    {
+      "slab_no": 8,
+      "tenure_text": "Above 12 months to 2 Years",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.72,
+      "tenure_min_days": 366,
+      "tenure_max_days": 730
+    },
+    {
+      "slab_no": 9,
+      "tenure_text": "Above 2 Years to 3 Years",
+      "currency": "USD",
+      "deposit_range": "below_500k_usd",
+      "rate_general_pct": 3.72,
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095
+    },
+    {
+      "slab_no": 10,
+      "tenure_text": "7 Days - 14 Days",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 3.5,
+      "tenure_min_days": 7,
+      "tenure_max_days": 14
+    },
+    {
+      "slab_no": 11,
+      "tenure_text": "15 Days - 30 Days",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 3.5,
+      "tenure_min_days": 15,
+      "tenure_max_days": 30
+    },
+    {
+      "slab_no": 12,
+      "tenure_text": "31 Days - < 2 months",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 3.6,
+      "tenure_min_days": 31,
+      "tenure_max_days": 59
+    },
+    {
+      "slab_no": 13,
+      "tenure_text": "2 months < 3 months",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 3.9,
+      "tenure_min_days": 60,
+      "tenure_max_days": 89
+    },
+    {
+      "slab_no": 14,
+      "tenure_text": "3 Months < 6 months",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 4.1,
+      "tenure_min_days": 90,
+      "tenure_max_days": 179
+    },
+    {
+      "slab_no": 15,
+      "tenure_text": "6 Months < 9 months",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 4.05,
+      "tenure_min_days": 180,
+      "tenure_max_days": 269
+    },
+    {
+      "slab_no": 16,
+      "tenure_text": "9 Months to 12 months",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 4.1,
+      "tenure_min_days": 270,
+      "tenure_max_days": 365
+    },
+    {
+      "slab_no": 17,
+      "tenure_text": "Above 12 months to 2 Years",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 3.82,
+      "tenure_min_days": 366,
+      "tenure_max_days": 730
+    },
+    {
+      "slab_no": 18,
+      "tenure_text": "Above 2 Years to 3 Years",
+      "currency": "USD",
+      "deposit_range": "above_500k_usd",
+      "rate_general_pct": 3.82,
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 143,
+    "last_scraped_at": "2026-07-23T14:01:43.486Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "bank_code": "the-bhavnagar-district-co-operative-bank-ltd",
+  "bank_name": "the-bhavnagar-district-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 7802,
+  "duration_ms": 7802,
+  "duration_api_ms": 7614,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.050386,
+  "llm_cost_usd": 0.050386,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21553,
+  "output_tokens": 910,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 45,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhavnagar.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 43,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhavnagar.bank.in/n/fixed-deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 50,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bhavnagar.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 50,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bhavnagar.bank.in/n/fixed-deposit\"}"
+    }
+  ]
+}

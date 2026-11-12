@@ -1,0 +1,108 @@
+{
+  "bank_code": "mehsana-urban-co-op-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-16",
+  "source_url": "https://mucb.bank.in/mucb/interestrate",
+  "scraped_at": "2026-06-09T13:36:17.846Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days To 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days To 29 Days 3.00"
+    },
+    {
+      "tenure_text": "30 Days To 90 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "30 Days To 90 Days 4.00"
+    },
+    {
+      "tenure_text": "91 Days To 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "91 Days To 180 Days 4.50"
+    },
+    {
+      "tenure_text": "181 Days To 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "181 Days To 364 Days 5.50"
+    },
+    {
+      "tenure_text": "For 1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "For 1 Year 6.60"
+    },
+    {
+      "tenure_text": "Above 1 Year to 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  Above 1 Year to 2 Years 6.65"
+    },
+    {
+      "tenure_text": "Above 2 Years to 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  Above 2 Years to 3 Years 6.70"
+    },
+    {
+      "tenure_text": "Above 36 Months to 60 Months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  Above 36 Months to 60 Months 6.50"
+    },
+    {
+      "tenure_text": "Above 60 Months to 120 Months",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  Above 60 Months to 120 Months 6.50"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 6 tables on page (6 rate-bearing by score)",
+    "multi_table_filter: dropped table[1] (only 0/3 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[5] (only 0/2 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[2] (only 0/1 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 34"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 219,
+    "last_scraped_at": "2026-06-09T13:36:17.846Z",
+    "manual_verification_needed": true
+  }
+}

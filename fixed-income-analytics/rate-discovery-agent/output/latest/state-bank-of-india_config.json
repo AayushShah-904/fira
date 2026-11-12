@@ -1,0 +1,22 @@
+{
+  "bank_code": "state-bank-of-india",
+  "bank_name": "state-bank-of-india",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "state": "Maharashtra",
+  "website": "https://sbi.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+    "fd_nre": "https://sbi.bank.in/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-nre-fixed-deposit-interest-rate",
+    "fd_nro": "https://sbi.bank.in/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-nro-fixed-deposit-interest-rate",
+    "fd_fcnr": "https://sbi.bank.in/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-fcnr-deposit-interest-rate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:04:30.846Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

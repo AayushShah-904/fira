@@ -1,0 +1,25 @@
+{
+  "bank_code": "qatar-national-bank-qpsc-ibu",
+  "bank_name": "qatar-national-bank-qpsc-ibu",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-06-05",
+  "source_url": "https://qnb.com/sites/qnb/qnbindia/page/en/enifscbankingunit.html",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Could not access rate page: Playwright timed out (cloud env restriction), fetch_url returned HTTP 403 (bot protection). Manual extraction required."
+  ],
+  "errors": [
+    "No rate data extracted due to access restrictions (bot protection and Playwright timeout)."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

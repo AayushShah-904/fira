@@ -1,0 +1,96 @@
+{
+  "bank_code": "sharad-sahakari-bank-ltd",
+  "bank_name": "Sharad Sahakari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-10-01",
+  "source_url": "https://sharadbank.bank.in/regularfixeddeposit",
+  "scraped_at": "2026-05-26T07:04:03Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Up to 30 Days",
+      "tenure_min_days": 1,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.00,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31 Days to 90 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": 5.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days to 365 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 12 to 18 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 540,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 18 to 36 Months",
+      "tenure_min_days": 541,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7.50,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 36 to 60 Months",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 60 to 120 Months",
+      "tenure_min_days": 1801,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 8.10,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "FD columns: Individuals | Senior & Staff | Bulk(15L+). Mapped Individuals -> general, Senior & Staff -> senior (prior run had these SWAPPED; corrected).",
+    "Savings A/C (3.00%) and Pigmy Deposit (2.00%) rows above the FIXED DEPOSIT section excluded — not FD slabs.",
+    "Bulk(15L+) column is a deposit tier (single deposits >=15 lakh / co-op societies), NOT super-senior — not emitted in retail re-extraction.",
+    "Effective date shown as October 2025; normalized to 2025-10-01."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T07:04:03Z"
+  }
+}

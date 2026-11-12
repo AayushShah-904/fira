@@ -1,0 +1,13 @@
+{
+  "bank_code": "jana-small-finance-bank-limited",
+  "bank_name": "jana-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "state": "Karnataka",
+  "website": "https://jana.bank.in",
+  "rate_page_url": "https://jana.bank.in/interest-rates/",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 22,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

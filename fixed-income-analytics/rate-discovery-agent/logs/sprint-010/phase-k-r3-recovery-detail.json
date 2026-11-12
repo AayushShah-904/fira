@@ -1,0 +1,341 @@
+{
+  "stats": {
+    "restored": 48,
+    "skipped_already": 0,
+    "skipped_no_head": 0,
+    "slabs_recovered": 729
+  },
+  "restored": [
+    {
+      "file": "hdfc-bank-ibu_gift_rates.json",
+      "current_slabs": 3,
+      "head_slabs": 34,
+      "delta": 31,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "kotak-mahindra-bank-ibu_gift_rates.json",
+      "current_slabs": 7,
+      "head_slabs": 55,
+      "delta": 48,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "idfc-first-bank-ibu_gift_rates.json",
+      "current_slabs": 6,
+      "head_slabs": 22,
+      "delta": 16
+    },
+    {
+      "file": "indian-bank-ibu_gift_rates.json",
+      "current_slabs": 7,
+      "head_slabs": 18,
+      "delta": 11
+    },
+    {
+      "file": "punjab-national-bank-ibu_gift_rates.json",
+      "current_slabs": 2,
+      "head_slabs": 10,
+      "delta": 8,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "indusind-bank-ibu_gift_rates.json",
+      "current_slabs": 72,
+      "head_slabs": 166,
+      "delta": 94,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "idfc-first-bank-limited_fcnr_rates.json",
+      "current_slabs": 20,
+      "head_slabs": 54,
+      "delta": 34,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "union-bank-of-india_fcnr_rates.json",
+      "current_slabs": 35,
+      "head_slabs": 69,
+      "delta": 34,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "hong-kong-and-shanghai-banking-corporation-limited-hsbc_fcnr_rates.json",
+      "current_slabs": 8,
+      "head_slabs": 23,
+      "delta": 15,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "indian-bank_fcnr_rates.json",
+      "current_slabs": 25,
+      "head_slabs": 40,
+      "delta": 15,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "barclays-bank-plc_fcnr_rates.json",
+      "current_slabs": 5,
+      "head_slabs": 15,
+      "delta": 10,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "bandhan-bank-limited_rates.json",
+      "current_slabs": 24,
+      "head_slabs": 66,
+      "delta": 42,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "bandhan-bank-limited_nro_rates.json",
+      "current_slabs": 12,
+      "head_slabs": 42,
+      "delta": 30,
+      "method": "automatic_text_pattern"
+    },
+    {
+      "file": "bandhan-bank-limited_nre_rates.json",
+      "current_slabs": 20,
+      "head_slabs": 26,
+      "delta": 6,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "citibank-na_nro_rates.json",
+      "current_slabs": 1,
+      "head_slabs": 34,
+      "delta": 33,
+      "method": "automatic_pdf"
+    },
+    {
+      "file": "barclays-bank-plc_rates.json",
+      "current_slabs": 5,
+      "head_slabs": 26,
+      "delta": 21,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "dbs-bank-india-limited_rates.json",
+      "current_slabs": 2,
+      "head_slabs": 24,
+      "delta": 22
+    },
+    {
+      "file": "slice-small-finance-bank-limited_rates.json",
+      "current_slabs": 10,
+      "head_slabs": 37,
+      "delta": 27,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "mizuho-bank-ltd_nre_rates.json",
+      "current_slabs": 1,
+      "head_slabs": 22,
+      "delta": 21
+    },
+    {
+      "file": "the-bihar-state-co-operative-bank-ltd_rates.json",
+      "current_slabs": 10,
+      "head_slabs": 27,
+      "delta": 17,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "emirates-nbd-bank-pjsc_nre_rates.json",
+      "current_slabs": 16,
+      "head_slabs": 32,
+      "delta": 16,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "bank-of-india_rates.json",
+      "current_slabs": 16,
+      "head_slabs": 30,
+      "delta": 14
+    },
+    {
+      "file": "mahamantralaya-allied-offices-coop-bank-ltd_rates.json",
+      "current_slabs": 7,
+      "head_slabs": 20,
+      "delta": 13,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "ghaziabad-district-central-co-operative-bank-ltd_rates.json",
+      "current_slabs": 11,
+      "head_slabs": 22,
+      "delta": 11,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "saraswat-co-operative-bank-ltd_rates.json",
+      "current_slabs": 6,
+      "head_slabs": 17,
+      "delta": 11,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "raigad-district-central-co-operative-bank-ltd_rates.json",
+      "current_slabs": 10,
+      "head_slabs": 20,
+      "delta": 10,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "telangana-grameena-bank_rates.json",
+      "current_slabs": 10,
+      "head_slabs": 20,
+      "delta": 10,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "bank-of-bahrain-and-kuwait-bsc_nre_rates.json",
+      "current_slabs": 9,
+      "head_slabs": 18,
+      "delta": 9,
+      "method": "automatic_pdf"
+    },
+    {
+      "file": "bank-of-bahrain-and-kuwait-bsc_rates.json",
+      "current_slabs": 10,
+      "head_slabs": 18,
+      "delta": 8,
+      "method": "automatic_pdf"
+    },
+    {
+      "file": "bank-of-bahrain-and-kuwait-bsc_nro_rates.json",
+      "current_slabs": 10,
+      "head_slabs": 18,
+      "delta": 8,
+      "method": "automatic_pdf"
+    },
+    {
+      "file": "jana-small-finance-bank-limited_rates.json",
+      "current_slabs": 14,
+      "head_slabs": 22,
+      "delta": 8,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd_rates.json",
+      "current_slabs": 7,
+      "head_slabs": 14,
+      "delta": 7,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "bank-of-nova-scotia_rates.json",
+      "current_slabs": 1,
+      "head_slabs": 7,
+      "delta": 6,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "idfc-first-bank-limited_nre_rates.json",
+      "current_slabs": 7,
+      "head_slabs": 13,
+      "delta": 6,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "sberbank_rates.json",
+      "current_slabs": 4,
+      "head_slabs": 10,
+      "delta": 6,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "the-nagaland-state-co-operative-bank-ltd_rates.json",
+      "current_slabs": 12,
+      "head_slabs": 18,
+      "delta": 6,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "balageria-central-co-operative-bank-ltd_rates.json",
+      "current_slabs": 9,
+      "head_slabs": 14,
+      "delta": 5,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "mizoram-rural-bank_rates.json",
+      "current_slabs": 12,
+      "head_slabs": 17,
+      "delta": 5,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "the-andhra-pradesh-state-co-operative-bank-ltd_rates.json",
+      "current_slabs": 7,
+      "head_slabs": 12,
+      "delta": 5,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "cosmos-co-operative-bank-ltd_rates.json",
+      "current_slabs": 16,
+      "head_slabs": 20,
+      "delta": 4,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "maharashtra-gramin-bank_rates.json",
+      "current_slabs": 11,
+      "head_slabs": 15,
+      "delta": 4,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "the-goa-state-co-operative-bank-ltd_rates.json",
+      "current_slabs": 5,
+      "head_slabs": 9,
+      "delta": 4,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "the-visakhapatnam-co-operative-bank-ltd_rates.json",
+      "current_slabs": 6,
+      "head_slabs": 10,
+      "delta": 4,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "the-washim-urban-co-operative-bank-limited_rates.json",
+      "current_slabs": 8,
+      "head_slabs": 12,
+      "delta": 4,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "eluru-district-co-operative-central-bank-ltd_rates.json",
+      "current_slabs": 6,
+      "head_slabs": 9,
+      "delta": 3,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "icici-bank-limited_nre_rates.json",
+      "current_slabs": 6,
+      "head_slabs": 9,
+      "delta": 3,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "the-assam-co-operative-apex-bank-ltd_rates.json",
+      "current_slabs": 12,
+      "head_slabs": 15,
+      "delta": 3,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "jodhpur-central-co-operative-bank-ltd_rates.json",
+      "current_slabs": 1,
+      "head_slabs": 2,
+      "delta": 1,
+      "method": "llm_inline_extraction"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "bank_code": "jalaun-district-co-operative-bank-ltd",
+  "bank_name": "jalaun-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9090,
+  "duration_ms": 9090,
+  "duration_api_ms": 8958,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008668,
+  "input_tokens": 18830,
+  "output_tokens": 710,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jalaun district co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalaun-district-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalaundccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalaun-dccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalaundccb.bank.in/\"}"
+    }
+  ]
+}

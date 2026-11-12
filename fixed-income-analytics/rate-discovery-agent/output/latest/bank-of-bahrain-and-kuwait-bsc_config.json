@@ -1,0 +1,22 @@
+{
+  "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+  "bank_name": "bank-of-bahrain-and-kuwait-bsc",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Bahrain",
+  "website": "https://bbkindia.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_nre": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_nro": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_fcnr": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:27:49.512Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

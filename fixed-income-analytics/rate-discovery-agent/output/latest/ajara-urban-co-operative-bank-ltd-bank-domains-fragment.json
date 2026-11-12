@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "bank_code": "ajara-urban-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T09:10:30.801Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "aucb.bank.in",
+  "rate_pages": {
+    "fd": "/Deposit-Interest-Rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "ajara-urban-3col-tenure-general-senior",
+    "template_hash": "sha1:1855be3c750c09a6ac7570dfe4fa2029b6e78cb8",
+    "fingerprinted_at": "2026-05-24",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\ajara-urban-co-operative-bank-ltd.html",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "column_map": {
+        "0": "tenure_text",
+        "1": "rate_general_pct",
+        "2": "ignore",
+        "3": "rate_senior_pct"
+      },
+      "table_index": 1,
+      "header_row": 6,
+      "header_span_rows": 1
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    }
+  }
+}

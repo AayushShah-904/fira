@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-kerala-state-co-operative-bank-ltd",
+  "bank_name": "the-kerala-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Kerala",
+  "website": "https://kerala.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://kerala.bank.in/rate.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:09:04.953Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

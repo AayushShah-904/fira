@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "bank_code": "dbs-bank-ibu",
+    "extracted_at": "2026-06-05T14:07:05.590Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "dbs.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "gift": null,
+    "fd_gift": null
+  },
+  "scraper_type": "manual",
+  "parent_bank_code": "dbs-bank-india-limited",
+  "notes": "DBS GIFT City IBU. No public retail deposit rate page found.",
+  "status": "wholesale_only",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "DBS Bank's GIFT City IFSC Banking Unit (inaugurated 2023-07-16) focuses on corporate banking: foreign-currency-denominated loans, External Commercial Borrowings (ECB) and trade finance. No IBU retail/term-deposit rate card published. dbs.bank.in publishes only domestic India FD rates, not IBU rates. Wholesale-only IBU."
+  }
+}

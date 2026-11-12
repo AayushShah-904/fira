@@ -1,0 +1,13 @@
+{
+  "bank_code": "union-bank-of-india",
+  "bank_name": "union-bank-of-india",
+  "bank_type": "PSB",
+  "state": "Maharashtra",
+  "website": "https://unionbankofindia.bank.in",
+  "rate_page_url": "https://unionbankofindia.bank.in/en/details/rate-of-interest",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 27,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

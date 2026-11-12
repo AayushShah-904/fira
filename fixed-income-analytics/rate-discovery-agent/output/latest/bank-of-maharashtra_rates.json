@@ -1,0 +1,285 @@
+{
+  "bank_code": "bank-of-maharashtra",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-09-14",
+  "source_url": "https://bankofmaharashtra.bank.in/domestic-term-deposits",
+  "scraped_at": "2026-10-01T21:33:47.442Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Bank of Maharashtra Domestic Term Deposits rate table w.e.f. 18.06.2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 2.6,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "7 - 30 days | 2.60%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "31 - 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "31 - 45 days | 2.75%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "46 - 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "46 - 90 days | 3.75%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "91 - 119 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 119,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "91 - 119 days | 4.00%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "120 - 180 days",
+      "tenure_min_days": 120,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "120 - 180 days | 4.75%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "181 - 270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "181 - 270 days | 5.00%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "271 - 364 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "271 - 364 days | 5.25%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "365 days/ One Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "365 days/ One Year | 6.40%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 1 year to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "Above 1 year to 2 years | 6.15%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "Above 2 years to 3 years | 5.25%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "Above 3 years to 5 years | 5.00%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "Above 5 years | 5.00%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "400 days",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "400 days Special Scheme | 6.65%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "1777 days (Green Deposit)",
+      "tenure_min_days": 1777,
+      "tenure_max_days": 1777,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr_callable",
+      "source_row_text": "1777 days Green Deposit | 6.05%",
+      "effective_date": "2026-09-14"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "400 days Special Scheme",
+      "tenure_text": "400 days",
+      "rate_general_pct": 6.65
+    },
+    {
+      "scheme_name": "1777 days Green Deposit",
+      "tenure_text": "1777 days",
+      "rate_general_pct": 6.05
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 35,
+    "last_scraped_at": "2026-07-22T18:11:13.543Z",
+    "manual_verification_needed": false
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-09-24T08:33:32.588Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-09-30T13:47:57.295Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-09-30T13:48:54.373Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-09-30T13:50:55.588Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-09-30T13:52:34.882Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-10-01T20:22:19.422Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-10-01T21:31:05.802Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.543Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-11-11T13:19:11.087Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-10-01T21:33:47.442Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-11-11T13:43:52.591Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-10-01T21:33:47.442Z",
+      "retained_slab_count": 14
+    },
+    {
+      "attempted_at": "2026-11-12T09:42:15.663Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-10-01T21:33:47.442Z",
+      "retained_slab_count": 14
+    }
+  ]
+}

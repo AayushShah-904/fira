@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "bank_code": "au-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:52:12.689Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "au.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates/fixed-deposit-interest-rates",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/interest-rates/fixed-deposit-interest-rates",
+    "fd_nro": "/interest-rates/fixed-deposit-interest-rates",
+    "fd_fcnr": "/interest-rates/au-fcnr",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_js",
+  "notes": "JS-rendered (403 on direct fetch, works with Playwright), WAF / anti-bot (blocks default HTTP clients, Playwright with anti-detection works)",
+  "template": {
+    "template_id": "au-sfb-regular-3col-general-senior-monthly",
+    "template_hash": "sha1:9e55361346058893331e0fd5de3dda6ff41c666d",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_senior_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 3,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "1cr_to_3cr"
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 27,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "au-sfb-fcnr-currency-amount-bucket",
+    "template_hash": "sha1:7dee482edc6ce0e82ba3d7aee57cb347612759e9",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_500k#USD",
+            "2": "rate_general_pct@above_500k#USD",
+            "3": "rate_general_pct#GBP",
+            "4": "rate_general_pct#EUR",
+            "5": "rate_general_pct#CAD"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 25,
+      "cluster_reused": false
+    }
+  }
+}

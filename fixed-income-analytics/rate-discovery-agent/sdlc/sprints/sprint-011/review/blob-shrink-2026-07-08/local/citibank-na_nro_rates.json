@@ -1,0 +1,453 @@
+{
+  "bank_code": "citibank-na",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "16-Dec-25",
+  "source_url": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+  "scraped_at": "2026-05-23T09:28:34.751Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-10 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 10,
+      "rate_general_pct": 1.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "11-14 Days",
+      "tenure_min_days": 11,
+      "tenure_max_days": 14,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15-25 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 25,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "26-35 Days",
+      "tenure_min_days": 26,
+      "tenure_max_days": 35,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "36-45 Days",
+      "tenure_min_days": 36,
+      "tenure_max_days": 45,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46-60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "61-90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91-120 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121-150 Days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "151-180 Days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181-270 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271-364 Days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "365-400 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 400,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "401-540 Days",
+      "tenure_min_days": 401,
+      "tenure_max_days": 540,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "541-731 Days",
+      "tenure_min_days": 541,
+      "tenure_max_days": 731,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "732 - 1095 Days",
+      "tenure_min_days": 732,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": ">=1096 Days",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "7-10 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 10,
+      "rate_general_pct": 1.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "11-14 Days",
+      "tenure_min_days": 11,
+      "tenure_max_days": 14,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15-25 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 25,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "26-35 Days",
+      "tenure_min_days": 26,
+      "tenure_max_days": 35,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "36-45 Days",
+      "tenure_min_days": 36,
+      "tenure_max_days": 45,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46-60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "61-90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91-120 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121-150 Days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "151-180 Days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181-270 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271-364 Days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "365-400 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 400,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "401-540 Days",
+      "tenure_min_days": 401,
+      "tenure_max_days": 540,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "541-731 Days",
+      "tenure_min_days": 541,
+      "tenure_max_days": 731,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "732 - 1095 Days",
+      "tenure_min_days": 732,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": ">=1096 Days",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "validation": {
+    "passed": true,
+    "warning_count": 32,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (7-10 Days): nro rate 1.8% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (11-14 Days): nro rate 1.85% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (15-25 Days): nro rate 1.85% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (26-35 Days): nro rate 1.85% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (36-45 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (61-90 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 8 (91-120 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 9 (121-150 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 10 (151-180 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 11 (181-270 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 12 (271-364 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 13 (365-400 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 14 (401-540 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 15 (541-731 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 16 (732 - 1095 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 17 (>=1096 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 18 (7-10 Days): nro rate 1.8% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 19 (11-14 Days): nro rate 1.85% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 20 (15-25 Days): nro rate 1.85% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 21 (26-35 Days): nro rate 1.85% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 22 (36-45 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 24 (61-90 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 25 (91-120 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 26 (121-150 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 27 (151-180 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 28 (181-270 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 29 (271-364 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 30 (365-400 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 31 (401-540 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 32 (541-731 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 33 (732 - 1095 Days): nro rate 1.75% below floor (2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 34 (>=1096 Days): nro rate 1.75% below floor (2%)"
+      }
+    ]
+  }
+}

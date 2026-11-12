@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "emirates-nbd-bank-pjsc",
+    "extracted_at": "2026-06-05T11:38:50.921Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "emiratesnbd.bank.in",
+  "rate_pages": {
+    "fd": "/en/interest-rates",
+    "savings": "/en/interest-rates",
+    "rd": null,
+    "fd_nre": "/en/interest-rates",
+    "fd_nro": "/en/interest-rates",
+    "fd_fcnr": "/en/interest-rates",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML with accordion-style collapsible sections, None observed",
+  "template": {
+    "template_id": "emirates-nbd-2col-regular",
+    "template_hash": "sha1:325dcb28ad69a27515ffa319eb299acc8c0a3706",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.502Z",
+      "gates_passed": "PASS",
+      "slab_count": 23,
+      "cluster_reused": false
+    }
+  }
+}

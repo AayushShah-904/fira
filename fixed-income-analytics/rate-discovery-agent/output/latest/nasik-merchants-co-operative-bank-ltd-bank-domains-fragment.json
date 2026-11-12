@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "bank_code": "nasik-merchants-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:33:48.203Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "namcobank.in",
+  "rate_pages": {
+    "fd": "/sublink/3/Deposite-Interest-Rate-Summary",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/sublink/3/Deposite-Interest-Rate-Summary",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "HTML tables with rate data visible in raw HTML. 2 tables",
+  "template": {
+    "template_id": "namco-regular-3col-tenure-general-senior-plus-kalpavruksha",
+    "template_hash": "sha1:11fd0c7f38705e7d8ad68d083817b06d36f6979e",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

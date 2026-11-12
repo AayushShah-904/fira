@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "united-overseas-bank-limited",
+    "extracted_at": "2026-06-05T12:20:21.677Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "uob.bank.in",
+  "rate_pages": {
+    "fd": "/assets/web-resources/in/pdf/useful/interest-rates/interest-rate.pdf",
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": "/fcnr-deposits",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf"
+}

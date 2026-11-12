@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "bank_code": "haryana-gramin-bank",
+    "extracted_at": "2026-06-05T12:44:41.845Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "hgb.bank.in",
+  "notes": "Officially Sarva Haryana Gramin Bank. Largest RRB in Haryana, PNB-sponsored.",
+  "rate_pages": {
+    "fd": "/deposit-interest-rates"
+  },
+  "scraper_type": "html_static"
+}

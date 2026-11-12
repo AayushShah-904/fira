@@ -1,0 +1,12 @@
+{
+  "bank_code": "kotak-mahindra-bank-ibu",
+  "bank_name": "Kotak Mahindra Bank IBU",
+  "bank_type": "IBU",
+  "website": "https://kotak.bank.in",
+  "rate_page_url": "https://kotak.bank.in/en/personal-banking/gift/deposit-rates-gift-City.html",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 55,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

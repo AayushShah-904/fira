@@ -1,0 +1,66 @@
+{
+  "bank_code": "uco-bank",
+  "bank_name": "uco-bank",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 44736,
+  "duration_ms": 44736,
+  "duration_api_ms": 40876,
+  "num_turns": 3,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.186012,
+  "llm_cost_usd": 0.186012,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 54898,
+  "output_tokens": 9527,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 2179,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://uco.bank.in/en/web/guest/interest-rates-on-deposit-schemes\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1679,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://uco.bank.in/nri-scheme\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/uco-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"uco-bank\\\",\\n  \\\"bank_name\\\": \\\"UCO Bank\\\",\\n  \\\"bank_type\\\": \\\"PSB\\\",\\n  \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/uco-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"uco-bank\\\",\\n  \\\"bank_name\\\": \\\"UCO Bank\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\n  "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/uco-bank_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"uco-bank\\\",\\n  \\\"bank_name\\\": \\\"UCO Bank\\\",\\n  \\\"product_type\\\": \\\"FD\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/uco-bank_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"uco-bank\\\",\\n  \\\"bank_name\\\": \\\"UCO Bank\\\",\\n  \\\"product_type\\\": \\\"FD\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/uco-bank_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"uco-bank\\\",\\n  \\\"bank_name\\\": \\\"UCO Bank\\\",\\n  \\\"product_type\\\": \\\"FD\\\""
+    }
+  ]
+}

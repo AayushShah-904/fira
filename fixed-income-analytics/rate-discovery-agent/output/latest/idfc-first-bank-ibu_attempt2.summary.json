@@ -1,0 +1,66 @@
+{
+  "bank_code": "idfc-first-bank-ibu",
+  "bank_name": "idfc-first-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12812,
+  "duration_ms": 12812,
+  "duration_api_ms": 12463,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.07626,
+  "llm_cost_usd": 0.07626,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 30094,
+  "output_tokens": 2009,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 348,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://idfcfirst.bank.in/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/idfc-first-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"idfc-first-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IDFC First Bank "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/idfc-first-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"idfc-first-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IDFC First Bank I"
+    }
+  ],
+  "failure_class": "unclassified",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "pdf",
+    "notes": "IFSC Banking Unit in GIFT City. USD and EUR deposits. PDF rate card with date-stamped URL pattern. Parent bank: IDFC First Bank Limited.",
+    "website_url": "https://idfcfirst.bank.in",
+    "rate_url_fd": "https://idfcfirst.bank.in/gift-city/non-resident-banking/fixed-deposit-account",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

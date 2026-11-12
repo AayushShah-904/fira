@@ -1,0 +1,43 @@
+{
+  "bank_code": "vidyasagar-central-co-operative-bank-ltd",
+  "bank_name": "Vidyasagar Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://vidyasagarccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "http://vidyasagarccb.bank.in/deposit-interest-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "http://vidyasagarccb.bank.in/deposit-interest-rates/",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table",
+    "rows": "tbody tr",
+    "effective_date": "main .container .row .col-md-9 p strong u"
+  },
+  "column_mapping": {
+    "0": "tenure_text",
+    "1": "rate_general_pct",
+    "2": "rate_senior_pct"
+  },
+  "expected_slab_count": 9,
+  "notes": "Senior citizen rates only apply for term deposits above 364 days (except RD). Additional 1% for employees, 0.3% for PACS and affiliated co-ops, see page for details.",
+  "scraper_notes": {
+    "framework": "WordPress (Beaver Builder)",
+    "bot_protection": null,
+    "data_format": "HTML tables",
+    "rate_tables_on_page": 2,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "bank.in domain fetch + homepage link scan",
+    "confidence": "high"
+  }
+}

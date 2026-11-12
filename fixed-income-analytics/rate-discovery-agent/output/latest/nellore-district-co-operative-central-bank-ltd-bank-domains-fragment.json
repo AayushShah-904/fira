@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "nellore-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-05T18:37:47.748Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "nelloredccb.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rate/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general",
+    "template_hash": "sha1:6b4e663856d4c608eb5c6e79e963ab5e13d730ce",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

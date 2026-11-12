@@ -1,0 +1,105 @@
+{
+  "bank_code": "hassan-district-central-co-operative-bank-ltd",
+  "bank_name": "Hassan District Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-02-20",
+  "source_url": "https://hassandccbank.com/interest_rates.html",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "30 ದಿನಗಳಿಂದ 45 ದಿನಗಳವರೆಗೆ",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 ದಿನಗಳಿಂದ 90 ದಿನಗಳವರೆಗೆ",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 ದಿನಗಳಿಂದ 180 ದಿನಗಳವರೆಗೆ",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 ದಿನಗಳಿಂದ 365 ದಿನಗಳವರೆಗೆ",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "366 ದಿನಗಳಿಂದ 500 ದಿನಗಳವರೆಗೆ",
+      "tenure_min_days": 366,
+      "tenure_max_days": 500,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "501 ದಿನಗಳಿಂದ 2 ವರ್ಷಗಳವರೆಗೆ",
+      "tenure_min_days": 501,
+      "tenure_max_days": 730,
+      "rate_general_pct": 8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 ವರ್ಷ ಮೇಲ್ಪಟ್ಟು 3 ವರ್ಷಗಳವರೆಗೆ",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 ವರ್ಷ ಮೇಲ್ಪಟ್ಟು 5 ವರ್ಷಗಳವರೆಗೆ",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 ವರ್ಷ ಮೇಲ್ಪಟ್ಟು 10 ವರ್ಷಗಳವರೆಗೆ",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior citizen rates column present but no distinct senior rates found; assumed general rates only."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 884,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": true
+  }
+}

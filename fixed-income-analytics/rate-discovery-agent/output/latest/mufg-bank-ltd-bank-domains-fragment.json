@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "mufg-bank-ltd",
+    "extracted_at": "2026-06-05T11:52:26.336Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "www.bk.mufg.jp",
+  "domain_source": "manual",
+  "status": "rates_not_published",
+  "rate_pages": {
+    "fd": "https://www.bk.mufg.jp/report/indiarate/fd_cards_rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "notes": "MUFG Bank India (Mumbai branch is main hub). Website exists but deposit rates are not publicly displayed. May offer retail deposits — rates available on inquiry only.",
+  "domain_prev": "bk.mufg.bank.in",
+  "scraper_type": "pdf",
+  "extraction_method": "manual_pdf_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T16:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "pdf",
+    "source_url": "https://www.bk.mufg.jp/report/indiarate/fd_cards_rates.pdf",
+    "slab_count": 15,
+    "hints": "INR term-deposit PDF card on bk.mufg.jp/report/indiarate/fd_cards_rates.pdf; <30 Mio tier; no senior premium; date in-doc",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

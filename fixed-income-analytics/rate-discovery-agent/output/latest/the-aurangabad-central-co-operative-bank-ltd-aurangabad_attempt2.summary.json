@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-aurangabad-central-co-operative-bank-ltd-aurangabad",
+  "bank_name": "The Aurangabad Central Co-operative Bank Ltd., Aurangabad",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11964,
+  "duration_ms": 11964,
+  "duration_api_ms": 11259,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.086522,
+  "input_tokens": 38737,
+  "output_tokens": 1131,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Aurangabad Central Co-operative Bank Ltd., Aurangabad\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aurangabadcentralbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Aurangabad Central Co-operative Bank Ltd., Aurangabad\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 148,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://www.aurangabadcentralbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://www.aurangabadcentralbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Aurangabad Central Co-operative Bank Ltd., Aurangabad\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 267,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bihar.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 93,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bihar.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 146,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.biharcooperativebank.com\"}"
+    }
+  ]
+}

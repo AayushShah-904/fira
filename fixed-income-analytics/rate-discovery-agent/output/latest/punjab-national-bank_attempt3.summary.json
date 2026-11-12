@@ -1,0 +1,60 @@
+{
+  "bank_code": "punjab-national-bank",
+  "bank_name": "punjab-national-bank",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 38059,
+  "duration_ms": 38059,
+  "duration_api_ms": 37171,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.212822,
+  "llm_cost_usd": 0.212822,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 71831,
+  "output_tokens": 8645,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 886,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://pnb.bank.in/Interest-Rates-Deposit.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/punjab-national-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"punjab-national-bank\\\",\\n  \\\"bank_name\\\": \\\"Punjab National Ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/punjab-national-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"punjab-national-bank\\\",\\n  \\\"bank_name\\\": \\\"Punjab National Bank"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/punjab-national-bank_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"punjab-national-bank\\\",\\n  \\\"bank_name\\\": \\\"Punjab National "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/punjab-national-bank_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"punjab-national-bank\\\",\\n  \\\"bank_name\\\": \\\"Punjab National "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/punjab-national-bank_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"punjab-national-bank\\\",\\n  \\\"bank_name\\\": \\\"Punjab National"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "bank_code": "bank-of-baroda",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "1995-07-01",
+  "source_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/foreign-currency-non-resident-bank-deposits",
+  "scraped_at": "2026-07-07T06:32:17.976Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "One Year and above but less than Two Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr",
+      "source_row_text": "One Year and above but less than Two Years 5.00 (5.00) 5.00 (5.00) 5.00 (5.00) 4.25 (4.25) 2.75 (2.75) 3.75 (3.75) 3.25 (3.25)"
+    },
+    {
+      "tenure_text": "One Year and above but less than Two Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "One Year and above but less than Two Years 5.00 (5.00) 5.00 (5.00) 5.00 (5.00) 4.25 (4.25) 2.75 (2.75) 3.75 (3.75) 3.25 (3.25)"
+    },
+    {
+      "tenure_text": "One Year and above but less than Two Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "One Year and above but less than Two Years 5.00 (5.00) 5.00 (5.00) 5.00 (5.00) 4.25 (4.25) 2.75 (2.75) 3.75 (3.75) 3.25 (3.25)"
+    },
+    {
+      "tenure_text": "One Year and above but less than Two Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "One Year and above but less than Two Years 5.00 (5.00) 5.00 (5.00) 5.00 (5.00) 4.25 (4.25) 2.75 (2.75) 3.75 (3.75) 3.25 (3.25)"
+    },
+    {
+      "tenure_text": "One Year and above but less than Two Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "One Year and above but less than Two Years 5.00 (5.00) 5.00 (5.00) 5.00 (5.00) 4.25 (4.25) 2.75 (2.75) 3.75 (3.75) 3.25 (3.25)"
+    },
+    {
+      "tenure_text": "Two Years and above but less than Three years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr",
+      "source_row_text": "Two Years and above but less than Three years 3.55 (3.95) 3.55 (3.95) 3.55 (3.95) 2.35 (2.35) 1.50 (1.50) 3.50 (3.50) 3.00 (3.00)"
+    },
+    {
+      "tenure_text": "Two Years and above but less than Three years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "Two Years and above but less than Three years 3.55 (3.95) 3.55 (3.95) 3.55 (3.95) 2.35 (2.35) 1.50 (1.50) 3.50 (3.50) 3.00 (3.00)"
+    },
+    {
+      "tenure_text": "Two Years and above but less than Three years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "Two Years and above but less than Three years 3.55 (3.95) 3.55 (3.95) 3.55 (3.95) 2.35 (2.35) 1.50 (1.50) 3.50 (3.50) 3.00 (3.00)"
+    },
+    {
+      "tenure_text": "Two Years and above but less than Three years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "Two Years and above but less than Three years 3.55 (3.95) 3.55 (3.95) 3.55 (3.95) 2.35 (2.35) 1.50 (1.50) 3.50 (3.50) 3.00 (3.00)"
+    },
+    {
+      "tenure_text": "Two Years and above but less than Three years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "Two Years and above but less than Three years 3.55 (3.95) 3.55 (3.95) 3.55 (3.95) 2.35 (2.35) 1.50 (1.50) 3.50 (3.50) 3.00 (3.00)"
+    },
+    {
+      "tenure_text": "Three Years and above but less than Four Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 3.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr",
+      "source_row_text": "Three Years and above but less than Four Years 3.35 (3.80) 3.35 (3.80) 3.35 (3.80) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.75 (2.75)"
+    },
+    {
+      "tenure_text": "Three Years and above but less than Four Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 2.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "Three Years and above but less than Four Years 3.35 (3.80) 3.35 (3.80) 3.35 (3.80) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.75 (2.75)"
+    },
+    {
+      "tenure_text": "Three Years and above but less than Four Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "Three Years and above but less than Four Years 3.35 (3.80) 3.35 (3.80) 3.35 (3.80) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.75 (2.75)"
+    },
+    {
+      "tenure_text": "Three Years and above but less than Four Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "Three Years and above but less than Four Years 3.35 (3.80) 3.35 (3.80) 3.35 (3.80) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.75 (2.75)"
+    },
+    {
+      "tenure_text": "Three Years and above but less than Four Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "Three Years and above but less than Four Years 3.35 (3.80) 3.35 (3.80) 3.35 (3.80) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.75 (2.75)"
+    },
+    {
+      "tenure_text": "Four Years and above but less than Five Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr",
+      "source_row_text": "Four Years and above but less than Five Years 2.95 (3.85) 2.95 (3.85) 2.95 (3.85) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.80 (2.80)"
+    },
+    {
+      "tenure_text": "Four Years and above but less than Five Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "Four Years and above but less than Five Years 2.95 (3.85) 2.95 (3.85) 2.95 (3.85) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.80 (2.80)"
+    },
+    {
+      "tenure_text": "Four Years and above but less than Five Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "Four Years and above but less than Five Years 2.95 (3.85) 2.95 (3.85) 2.95 (3.85) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.80 (2.80)"
+    },
+    {
+      "tenure_text": "Four Years and above but less than Five Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "Four Years and above but less than Five Years 2.95 (3.85) 2.95 (3.85) 2.95 (3.85) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.80 (2.80)"
+    },
+    {
+      "tenure_text": "Four Years and above but less than Five Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "Four Years and above but less than Five Years 2.95 (3.85) 2.95 (3.85) 2.95 (3.85) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.80 (2.80)"
+    },
+    {
+      "tenure_text": "5 Years Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr",
+      "source_row_text": "5 Years Only 3.05 (3.90) 3.05 (3.90) 3.05 (3.90) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.85 (2.85)"
+    },
+    {
+      "tenure_text": "5 Years Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "5 Years Only 3.05 (3.90) 3.05 (3.90) 3.05 (3.90) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.85 (2.85)"
+    },
+    {
+      "tenure_text": "5 Years Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "5 Years Only 3.05 (3.90) 3.05 (3.90) 3.05 (3.90) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.85 (2.85)"
+    },
+    {
+      "tenure_text": "5 Years Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "5 Years Only 3.05 (3.90) 3.05 (3.90) 3.05 (3.90) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.85 (2.85)"
+    },
+    {
+      "tenure_text": "5 Years Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "5 Years Only 3.05 (3.90) 3.05 (3.90) 3.05 (3.90) 2.45 (2.45) 1.50 (1.50) 3.00 (3.00) 2.85 (2.85)"
+    },
+    {
+      "tenure_text": "3 Years and above but less than 4 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "3 Years and above but less than 4 Years 6.00 (5.50) 4.60 (4.60) 3.50 (3.50) 4.60 (4.60) 5.00 (5.00)"
+    },
+    {
+      "tenure_text": "3 Years and above but less than 4 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "3 Years and above but less than 4 Years 6.00 (5.50) 4.60 (4.60) 3.50 (3.50) 4.60 (4.60) 5.00 (5.00)"
+    },
+    {
+      "tenure_text": "3 Years and above but less than 4 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "3 Years and above but less than 4 Years 6.00 (5.50) 4.60 (4.60) 3.50 (3.50) 4.60 (4.60) 5.00 (5.00)"
+    },
+    {
+      "tenure_text": "3 Years and above but less than 4 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "3 Years and above but less than 4 Years 6.00 (5.50) 4.60 (4.60) 3.50 (3.50) 4.60 (4.60) 5.00 (5.00)"
+    },
+    {
+      "tenure_text": "3 Years and above but less than 4 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "3 Years and above but less than 4 Years 6.00 (5.50) 4.60 (4.60) 3.50 (3.50) 4.60 (4.60) 5.00 (5.00)"
+    },
+    {
+      "tenure_text": "4 Years and above but less than 5 Years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "4 Years and above but less than 5 Years 6.10 (5.75) 4.65 4.65 3.65 (3.65) 4.65 (4.65) 5.10 (5.10)"
+    },
+    {
+      "tenure_text": "4 Years and above but less than 5 Years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "4 Years and above but less than 5 Years 6.10 (5.75) 4.65 4.65 3.65 (3.65) 4.65 (4.65) 5.10 (5.10)"
+    },
+    {
+      "tenure_text": "4 Years and above but less than 5 Years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "4 Years and above but less than 5 Years 6.10 (5.75) 4.65 4.65 3.65 (3.65) 4.65 (4.65) 5.10 (5.10)"
+    },
+    {
+      "tenure_text": "4 Years and above but less than 5 Years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "4 Years and above but less than 5 Years 6.10 (5.75) 4.65 4.65 3.65 (3.65) 4.65 (4.65) 5.10 (5.10)"
+    },
+    {
+      "tenure_text": "4 Years and above but less than 5 Years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "4 Years and above but less than 5 Years 6.10 (5.75) 4.65 4.65 3.65 (3.65) 4.65 (4.65) 5.10 (5.10)"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "rates-qc: effective_date \"1st July 1995\" parses to 1995-07-01 (year 1995 < 2024) — likely page legalese, not a rate date; set to null",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 11345,
+    "last_scraped_at": "2026-07-07T06:32:17.976Z",
+    "manual_verification_needed": true
+  }
+}

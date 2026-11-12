@@ -1,0 +1,286 @@
+{
+  "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+  "bank_name": "The Khamgaon Urban Co-operative Bank Ltd Khamgaon",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-01-05",
+  "source_url": "https://khamgaonurban.bank.in/interest-rate/interest-rate-on-deposits.html",
+  "scraped_at": "2026-05-25T11:19:14.109Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 दिवस ते 45 दिवस",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "15 दिवस ते 45 दिवस",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "46 दिवस ते 90 दिवस",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46 दिवस ते 90 दिवस",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "91 दिवस ते 180 दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91 दिवस ते 180 दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "181 दिवस ते 270 दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "181 दिवस ते 270 दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "271 दिवस ते 364 दिवस",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "271 दिवस ते 364 दिवस",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "12 महिने किंवा एक वर्ष",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "12 महिने किंवा एक वर्ष",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "1 वर्षाच्यावर ते 15 महिनेच्या आत",
+      "tenure_min_days": 30,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 वर्षाच्यावर ते 15 महिनेच्या आत",
+      "tenure_min_days": 30,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "15 महिनेच्यावर ते 18 महिनेच्या आत",
+      "tenure_min_days": 450,
+      "tenure_max_days": 540,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "15 महिनेच्यावर ते 18 महिनेच्या आत",
+      "tenure_min_days": 450,
+      "tenure_max_days": 540,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "फक्त 18 महिने",
+      "tenure_min_days": 540,
+      "tenure_max_days": 540,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "फक्त 18 महिने",
+      "tenure_min_days": 540,
+      "tenure_max_days": 540,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "18 महिनेच्यावर ते 2 वर्षांपर्यंत",
+      "tenure_min_days": 540,
+      "tenure_max_days": 60,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "18 महिनेच्यावर ते 2 वर्षांपर्यंत",
+      "tenure_min_days": 540,
+      "tenure_max_days": 60,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "2 वर्षाच्यावर ते 3 वर्षांच्या आत",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "2 वर्षाच्यावर ते 3 वर्षांच्या आत",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "फक्त 3 वर्ष",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "फक्त 3 वर्ष",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "3 वर्षाच्यावर ते 5 वर्षांपर्यंत",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "3 वर्षाच्यावर ते 5 वर्षांपर्यंत",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "5 वर्षाच्यावर ते 10 वर्षांपर्यंत",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "5 वर्षाच्यावर ते 10 वर्षांपर्यंत",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "Tax Saving Fixed Deposit Scheme (5 years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Tax Saving Fixed Deposit Scheme (5 years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    }
+  ],
+  "warnings": [
+    "Source in Marathi with Devanagari numerals; transliterated. Two columns = deposit amount tiers (up to 1cr / above 1cr). Page also lists an older 03/11/2025 table which was ignored. No senior-citizen column published."
+  ],
+  "tier2_method": "playwright_html_table_parse (Marathi/Devanagari)"
+}

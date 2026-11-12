@@ -1,0 +1,60 @@
+{
+  "bank_code": "united-overseas-bank-limited",
+  "bank_name": "united-overseas-bank-limited",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 34684,
+  "duration_ms": 34684,
+  "duration_api_ms": 15502,
+  "num_turns": 4,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.256442,
+  "llm_cost_usd": 0.256442,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 124101,
+  "output_tokens": 1030,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 5153,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://uob.bank.in/assets/web-resources/in/pdf/useful/interest-rates/interest-rate.pdf\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 7578,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://uob.bank.in/nre-deposits\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 5146,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://uob.bank.in/nro-deposits\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1304,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://uob.bank.in/fcnr-deposits\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/united-overseas-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"united-overseas-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"United Ov"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/united-overseas-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"united-overseas-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"United Ove"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "bank_code": "csb-bank-limited",
+  "bank_name": "csb-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 88657,
+  "duration_ms": 88657,
+  "duration_api_ms": 14058,
+  "num_turns": 3,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.216556,
+  "llm_cost_usd": 0.216556,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 100714,
+  "output_tokens": 1891,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 18727,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/interest-rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 18550,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/nre-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 18808,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/nro-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 18512,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/fcnrb-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limited\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limited\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limited"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limited"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limite"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "All rate pages are protected by Radware Bot Manager (hCaptcha) and cannot be scraped automatically. Playwright and browser automation are blocked by the WAF. Manual operator entry required. NRO rates are same as domestic retail, but bulk NRE/NRO/FCNR rates are in PDFs behind the same protection.",
+    "website_url": "https://csb.bank.in",
+    "rate_url_fd": "https://csb.bank.in/interest-rates",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

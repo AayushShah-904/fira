@@ -1,0 +1,6 @@
+{
+  "bank_code": "industrial-and-commercial-bank-of-china-limited",
+  "reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T23:34:18.819Z",
+  "attempts": 3
+}

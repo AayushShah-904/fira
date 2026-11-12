@@ -1,0 +1,25 @@
+{
+  "bank_code": "qatar-national-bank-qpsc",
+  "bank_name": "Qatar National Bank QPSC",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://qnb.com/en/india",
+  "scraped_at": "2026-06-05T11:57:40Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No India-specific FD or NRI rate page is accessible. The main qnb.com domain is protected by Cloudflare and blocks all automated and browser-based access from the cloud. Operator review required."
+  ],
+  "errors": [
+    "HTTP 403 and Cloudflare JS challenge block all access to qnb.com and /en/india. No rate data could be extracted."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T11:57:40Z",
+    "manual_verification_needed": false
+  }
+}

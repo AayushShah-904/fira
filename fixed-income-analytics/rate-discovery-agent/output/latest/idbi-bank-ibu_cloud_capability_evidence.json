@@ -1,0 +1,17 @@
+{
+  "bank_code": "idbi-bank-ibu",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:39:54.718Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T14:19:57.475Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

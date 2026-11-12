@@ -1,0 +1,18 @@
+{
+  "bank_code": "doha-bank-qpsc",
+  "bank_name": "doha-bank-qpsc",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://in.dohabank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://in.dohabank.bank.in/personal-banking/deposit-interest-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:39:45.174Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

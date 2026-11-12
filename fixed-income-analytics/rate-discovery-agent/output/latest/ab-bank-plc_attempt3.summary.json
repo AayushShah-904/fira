@@ -1,0 +1,48 @@
+{
+  "bank_code": "ab-bank-plc",
+  "bank_name": "ab-bank-plc",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10324,
+  "duration_ms": 10324,
+  "duration_api_ms": 8988,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.172458,
+  "llm_cost_usd": 0.172458,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 82333,
+  "output_tokens": 974,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1005,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://abbl.com/rates-and-charge/fixed-deposit-rates/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 329,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://abbl.com/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/foreign-bank/ab-bank-plc_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ab-bank-plc\\\",\\n  \\\"bank_name\\\": \\\"AB Bank PLC\\\",\\n  \\\"bank_type\\\": \\\"FB\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/foreign-bank/ab-bank-plc_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ab-bank-plc\\\",\\n  \\\"bank_name\\\": \\\"AB Bank PLC\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\"
+    }
+  ]
+}

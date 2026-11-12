@@ -1,0 +1,1765 @@
+{
+  "timestamp": "2026-05-08T22:41:54.804Z",
+  "category": "District Central Co-operative Bank",
+  "succeeded": 351,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "The Adilabad District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "The Anantapur District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Chittoor District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Cuddapah District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "Eluru District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 11
+    },
+    {
+      "name": "Guntur District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "The Hyderabad District Cooperative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Kakinada Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 42
+    },
+    {
+      "name": "The District Co-operative Central Bank Ltd., Khammam",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Krishna District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "The Kurnool District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "The District Co-operative Central Bank Ltd., Mahabubnagar",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Medak District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 60
+    },
+    {
+      "name": "The Nalgonda District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Nellore District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "Nizamabad District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Prakasam District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 42
+    },
+    {
+      "name": "The District Co-operative Central Bank Ltd., Srikakulam",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Vishakapatnam District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "The District Co-operative Central Bank Ltd., Vizianagaram",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "The Warangal District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Central Co-operative Bank Ltd., Ara",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "The Aurangabad Central Co-operative Bank Ltd., Aurangabad",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "The Begusarai Central Co-operative Bank Ltd., Begusarai",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "The National Central Co-operative Bank Ltd., Bettiah",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "The Bhagalpur Central Co-operative Bank Ltd., Bhagalpur",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "The Gopalganj Central Co-operative Bank Ltd., Gopalganj",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "The Katihar District Central Co-operative Bank Ltd., Katihar",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "The Khagaria District Central Co-operative Bank Ltd., Khagaria",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "The Vaishali District Central Co-operative Bank Ltd., Vaishali",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "The Magadh Central Co-operative Bank Ltd., Gaya",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "The Motihari Central Co-operative Bank Ltd., Motihari",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "The Monghyr-Jamui Central Co-operative Bank Ltd., Munger",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "The Muzaffarpur Central Co-operative Bank Ltd., Muzaffarpur",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "The Nawada Central Co-operative Bank Ltd., Nawada",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "The Nalanda Central Co-operative Bank Ltd., Nalanda",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "The Patliputra Central Co-operative Bank Ltd., Patna",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "The Rohika Central Co-operative Bank Ltd., Madhubani",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "The Samastipur District Central Co-operative Bank Ltd., Samastipur",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "The Purnea District Central Co-operative Bank Ltd., Purnea",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "The Siwan Central Co-operative Bank Ltd., Siwan",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "The Sasaram Bhabhua Central Co-operative Bank Ltd., Sasaram",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "District Central Co-operative Bank Ltd, Supaul",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Ambikapur",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Bilaspur",
+      "status": "success",
+      "elapsed_sec": 72
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Rajanandgaon",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Raipur",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Durg",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Jagdalpur",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "The Ahmedabad District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "The Amreli Jilla Madhyasth Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "The Banaskantha District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "The Baroda Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "The Bhavnagar District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "The Bharuch District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "The Jamnagar District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "The Junagadh Jilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 43
+    },
+    {
+      "name": "The Kachchh District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "The Kheda District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "The Kodinar Taluka Co-operative Banking Union Ltd.",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "The Mehsana District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 44
+    },
+    {
+      "name": "The Panchmahal District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "The Sabarkantha District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "The Rajkot District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "The Surat District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "The Surendranagar District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "The Valsad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Ambala Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Bhiwani Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Faridabad Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Fatehabad Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "Gurgaon Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Hissar District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 56
+    },
+    {
+      "name": "Jind Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Jhajjar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Kaithal Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "Karnal Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Kurukshetra Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Mahendragarh Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Panchkula Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Panipat Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "Rewari Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Rohtak Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Sirsa Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Sonepat Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Yamuna Nagar Central Co-opertive Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Jogindra Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "Kangra Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Anantnag Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Baramulla Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Jammu Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Dhanbad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "Bagalkot Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Belgaum District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Bellary District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Bidar District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Vijayapura District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Chikmagalur District Central Co-operative Bank Ltd. DCC Bank Building",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "Chitradurg District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Davanagere Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Gulbarga District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Hassan District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Kanara District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Karnataka Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "Kodagu District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Kolar District Central Co-opertive Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Mandya District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Mysore District central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Raichur District Central co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "Shimoga District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "South Canara District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Tumkur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 58
+    },
+    {
+      "name": "Malappuram District Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Bhopal District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Guna District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Indore Premier Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Balaghat",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Betul",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Bhind",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit Ujjain",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Chhatarpur",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Chhindwara",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Damoh",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Datia",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Dewas",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Dhar",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Jhabua",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Gwalior",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Hoshangabad",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Jabalpur",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Khandwa",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Khargone",
+      "status": "success",
+      "elapsed_sec": 50
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Mandla",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Mandsaur",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Morena",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Narsinghpur",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Panna",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Tikamgarh",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Raisen",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Sidhi",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Rajgarh",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Ratlam",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Rewa",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Sagar",
+      "status": "success",
+      "elapsed_sec": 57
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Satna",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Sehore",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Seoni",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Shahdol",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Shajapur",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Shivpuri,",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Jilla Sahakari Kendriya Bank Maryadit, Vidisha",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Ahmednagar District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Akola District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Amravati District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Aurangabad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 43
+    },
+    {
+      "name": "Beed District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Bhandara District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 87
+    },
+    {
+      "name": "Buldhana District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "Chandrapur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "Dhule & Nandurbar District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Solapur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 149
+    },
+    {
+      "name": "Gadchiroli District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Jalna District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Jalgaon District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Kolhapur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "Latur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Mumbai District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 90
+    },
+    {
+      "name": "Nagpur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Nanded District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Nasik District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Osmanabad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Parbhani District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Pune District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "Raigad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Ratnagiri District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Sangli District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "Satara District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Sindhudurg District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Gondia District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 165
+    },
+    {
+      "name": "The Thane-Palghar District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Wardha District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 51
+    },
+    {
+      "name": "Yavatmal District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Angul United Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Aska Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Bolangir District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Balasore Bhadrak District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Banki District Central Co-operative Bank Ltd., Banki CCB Building",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Behrampore District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Bhawanipatna Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "The Boudh Co-operative Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Cuttack Central Co-Operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Keonjhar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Khurda Central Co-opertive Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Koraput Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 44
+    },
+    {
+      "name": "Mayurbhanj Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 47
+    },
+    {
+      "name": "Nayagarh Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Sambalpur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Sundargarh District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "United Puri Nimpara Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Amritsar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "Bhatinda Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 67
+    },
+    {
+      "name": "Faridcot Central Co-operative Bank Ltd",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Fatehgarh Sahib Central Co-operative Bank Ltd., Sirhind",
+      "status": "success",
+      "elapsed_sec": 60
+    },
+    {
+      "name": "Fazilka Central Co-operative Bank Ltd",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Ferozepur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "Gurdaspur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Hoshiarpur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Jalandhar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Kapurthala Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Ludhiana Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "Mansa Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Moga Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Muktsar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 82
+    },
+    {
+      "name": "Nawanshahr Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Patiala Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Ropar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Sangrur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Tarn Taran Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "S.A.S.Nagar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Ajmer Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Alwar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Banswara Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 52
+    },
+    {
+      "name": "Baran Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Barmer Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 46
+    },
+    {
+      "name": "Bharatpur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Bhilwara Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Bikaner Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "Bundi Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Chittorgarh Kendriya Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 79
+    },
+    {
+      "name": "Churu Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 48
+    },
+    {
+      "name": "Dungarpur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Dausa Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Ganganagar Kendriya Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Hanumangarh Kendriya Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 46
+    },
+    {
+      "name": "Jaipur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Jaisalmer Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Jalore Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Jhalawar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "Jhunjhunu Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Jodhpur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "Kota Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Nagaur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 59
+    },
+    {
+      "name": "Pali Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Sawai Madhopur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Sikar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 46
+    },
+    {
+      "name": "Sirohi Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Tonk Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Udaipur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Chennai Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Thoothukudi Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Coimbatore District Central Co-opertive Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Cuddalore District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 46
+    },
+    {
+      "name": "Dharampuri District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Dindigul Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 55
+    },
+    {
+      "name": "The Erode District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 43
+    },
+    {
+      "name": "The Kancheepuram Central co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "Kanyakumari District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Kumbakonam Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Madurai District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 43
+    },
+    {
+      "name": "Nilgiris Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Vellore District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Padukkottai Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Ramanathapuram District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Salem District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Sivagangai District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Thanjavur Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Tiruvannamalai District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Tiruchirapalli District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Tirunelveli Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Villupuram District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Virudhunagar District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Agra Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Aligarh Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 49
+    },
+    {
+      "name": "Allahabad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Varanasi District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Azamgarh District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "Bahraich District central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Ballia District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Banda District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Barabanki District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Bareilly Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Basti District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Bijnor Jilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Budaun Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Zilla Sahakari Bank Ltd., Lucknow",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Deoria Kasia District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "District Central Co-operative Bank Ltd., Bulandshahar",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Zilla Sahakari  Bank Ltd., Sitapur",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Etah District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Etawah Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "District Co-operative Bank Ltd., Ayodhya",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Farrukhabad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Fathehpur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Firozabad  District  Central  Cooperative  Bank  Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Ghaziabad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Ghazipur District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "Gorakhpur Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Hamirpur District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Hardoi District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Jalaun District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Jaunpur Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Kanpur Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Lakhimpur-Kheri District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Lalitpur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Mainpuri District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Mathura Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "Meerut District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Mirzapur Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Moradabad Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Zilla Sahakari  Bank Ltd., Muzaffarnagar",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Zilla Sahakari Bank Ltd., Jhansi",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Pilibhit District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "Zilla Sahakari Bank Ltd., Mau",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Pratapgarh Jilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "Rae Bareli District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Rampur District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Saharanpur District Co-operative Bank Ltd.,",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Shahjahanpur District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "Siddarthnagar District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Sultanpur District Cooperative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "Zilla Sahakari Bank Ltd., Unnao",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Almora Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "Chamoli Zilla Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Dehradun District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Tehri Zila Shakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Uttarkashi Zila Sahkari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Zila Sahkari Bank Ltd. Garhwal (Kotdwar)",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "Nainital District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Pithoragarh Zila Sahakari Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Zilla Sahakari Bank Ltd., Haridwar",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "Udham Singh Nagar District Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 58
+    },
+    {
+      "name": "Balageria Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Dakshin Dinajpur District Central Co-op. Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 116
+    },
+    {
+      "name": "Bankura District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "Birbhum District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "Burdwan Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "Darjeeling District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "Hoogly District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "Howrah District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "The Jalpaiguri Central Co-operative Bank Ltd.,",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Malda District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 49
+    },
+    {
+      "name": "Mugberia Central co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "Nadia District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "Purulia Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "Raiganj Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "Tamluk-Ghatal Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 41
+    },
+    {
+      "name": "Vidyasagar Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "Bangalore District and Bangalore Rural District Co-op. Central Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "Cuddalore District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 42
+    },
+    {
+      "name": "Murshidabad District Central Co-operative Bank Ltd.",
+      "status": "success",
+      "elapsed_sec": 40
+    }
+  ]
+}

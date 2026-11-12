@@ -1,0 +1,95 @@
+{
+  "bank_code": "united-overseas-bank-limited",
+  "variant": "regular",
+  "slab_count": 8,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15-28 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 28,
+      "rate_general_pct": 4.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "29-45 days",
+      "tenure_min_days": 29,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46-60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61-90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91-180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181-365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 year up to 3 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [],
+  "key_rates": {
+    "1y": {
+      "general": 4.95,
+      "senior": null
+    },
+    "2y": {
+      "general": 5.05,
+      "senior": null
+    },
+    "3y": {
+      "general": 5.05,
+      "senior": null
+    }
+  }
+}

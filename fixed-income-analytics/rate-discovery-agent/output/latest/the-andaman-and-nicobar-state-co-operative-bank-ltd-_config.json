@@ -1,0 +1,37 @@
+{
+  "bank_code": "the-andaman-and-nicobar-state-co-operative-bank-ltd-",
+  "bank_name": "The Andaman and Nicobar State Co-operative Bank Ltd.",
+  "bank_type": "NSSCB",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "website": "https://anscbank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://anscbank.in/rate-of-interest/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": null,
+  "notes": "FD rates are published as a PDF. No NRI/FCNR products for co-operative banks. PDF link: https://www.anscbank.in/wp-content/uploads/2023/01/roi-1122022.pdf",
+  "scraper_notes": {
+    "framework": "WordPress",
+    "bot_protection": null,
+    "data_format": "PDF download",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false,
+    "pdf_url": "https://www.anscbank.in/wp-content/uploads/2023/01/roi-1122022.pdf",
+    "pdf_effective_date": "2022-12-01"
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-04-15T04:52:00Z",
+    "discovery_method": "pre-lookup + page fetch",
+    "confidence": "high"
+  }
+}

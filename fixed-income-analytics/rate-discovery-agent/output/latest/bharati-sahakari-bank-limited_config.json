@@ -1,0 +1,19 @@
+{
+  "bank_code": "bharati-sahakari-bank-limited",
+  "bank_name": "bharati-sahakari-bank-limited",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://bharatibankpune.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://bharatibankpune.com/interest-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:49:57.035Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

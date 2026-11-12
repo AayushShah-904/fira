@@ -1,0 +1,33 @@
+{
+  "bank_code": "natixis-ibu",
+  "bank_name": "natixis-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "website": "https://apac.cib.natixis.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Natixis GIFT City IBU. No public deposit rate page found.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:25:59.486Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

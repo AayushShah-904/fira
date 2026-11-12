@@ -1,0 +1,19 @@
+{
+  "bank_code": "uttar-pradesh-gramin-bank",
+  "bank_name": "uttar-pradesh-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Uttar Pradesh",
+  "website": "https://upgb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://upgb.bank.in/fixed-deposit.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:33:49.764Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

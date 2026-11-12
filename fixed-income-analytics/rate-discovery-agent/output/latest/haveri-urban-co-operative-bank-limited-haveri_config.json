@@ -1,0 +1,19 @@
+{
+  "bank_code": "haveri-urban-co-operative-bank-limited-haveri",
+  "bank_name": "haveri-urban-co-operative-bank-limited-haveri",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://prokerala.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://prokerala.com/#home-forex"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:58:15.499Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

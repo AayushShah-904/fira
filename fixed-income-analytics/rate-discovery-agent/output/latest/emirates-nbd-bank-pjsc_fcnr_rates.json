@@ -1,0 +1,67 @@
+{
+  "bank_code": "emirates-nbd-bank-pjsc",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://www.emiratesnbd.bank.in/en/interest-rates",
+  "scraped_at": "2026-06-15T12:36:11.006Z",
+  "effective_date": "2026-06-15",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "scraper_type": "html_static",
+  "rate_slabs": [
+    {
+      "tenure_text": ">=12m to <=13m",
+      "tenure_min_days": 365,
+      "tenure_max_days": 395,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_100k"
+    },
+    {
+      "tenure_text": ">13m to <=24m",
+      "tenure_min_days": 396,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_100k"
+    },
+    {
+      "tenure_text": ">24m to <=36m",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_100k"
+    }
+  ],
+  "warnings": [
+    "Direct-extracted 2026-06-15 from the \"FCNR Deposits Card Rates (USD currency)\" accordion on emiratesnbd.bank.in/en/interest-rates. The agent's cohort pass extracted domestic/NRE/NRO from earlier tables but skipped this accordion section (Sprint 011 item 18 pattern).",
+    "Emirates NBD India publishes FCNR rates only for USD on this page (no GBP/EUR/etc.). Amount tier \"≤ USD 100,000\" is the only one shown — pack consumers should not assume an above-100k tier exists at the same rates.",
+    "Tenures expressed on source in months ranges; converted to day bounds (lower-bound month×30, upper-bound month×30+5)."
+  ],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-07-07T14:26:14.667Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_text_pattern",
+      "attempted_slab_count": 11,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-06-15T12:36:11.006Z",
+      "retained_slab_count": 3
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 38,
+    "last_scraped_at": "2026-06-15T12:36:11.006Z",
+    "manual_verification_needed": false
+  }
+}

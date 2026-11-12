@@ -1,0 +1,215 @@
+{
+  "bank_code": "nainital-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2021-09-16",
+  "source_url": "https://www.nainitalbank.bank.in/english/interest_rate.aspx",
+  "scraped_at": "2026-07-07T06:54:27.427Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "a. With cheque book facility",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.65,
+      "rate_senior_pct": 2.65,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "b. Without cheque book facility",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.65,
+      "rate_senior_pct": 2.65,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "c. Basic Savings Bank Deposit Account",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.65,
+      "rate_senior_pct": 2.65,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "7-14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15-30days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31-45days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46-90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91-179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "180 days and above but less than 270 days",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": 4.95,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "270 days and above but less than -1- year",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "-1- year and above but less than or equal to 18 months",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 18 months but less than or equal to -2- years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above -2 -years but less than or equal to -3- years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above -3- years but less than or equal to 5- years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above-5- years but less than or equal to upto 10 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.35,
+      "rate_senior_pct": 5.35,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Naini Tax Saver Scheme*",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[1] (16 slabs) from 4 table(s); signals={\"pctRows\":18,\"tenureRows\":12,\"bothRows\":11,\"dataRows\":19,\"noisy\":true,\"colCount\":6}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[1]: no fixed deposit INR rate table found; provided table is MCLR rates, not FD rates; chunk[2]: no fixed deposit rate table found in input)",
+    "llm_validation: chunk[0] dropped slab; neither source_row_text (\"Naini Tax Saver Scheme* 5.75% 5.75%\") nor tenure_text (\"Naini Tax Saver Scheme*\") found in chunk text",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-16\" parses to 2021-09-16 (year 2021 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 2,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 11 (-1- year and above but less than or equal to 18 months): senior rate (6.3%) < general rate (6.4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 12 (Above 18 months but less than or equal to -2- years): senior rate (6.5%) < general rate (6.6%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1771,
+    "last_scraped_at": "2026-07-07T06:54:27.427Z",
+    "manual_verification_needed": true
+  }
+}

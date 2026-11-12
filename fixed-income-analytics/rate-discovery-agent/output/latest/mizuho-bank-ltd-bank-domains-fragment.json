@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "mizuho-bank-ltd",
+    "extracted_at": "2026-06-05T11:52:24.020Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "mizuhogroup.com",
+  "rate_pages": {
+    "fd": "/asia-pacific/india/products-and-rates/rates",
+    "fd_pdf": "/67cb23eaf0c6c4d4080e059a/6933592acbfc1f5eaff8a6a5_58789e2af171f1c6164c489ee2fe6464_rate1101.pdf",
+    "fd_bulk_pdf": "/67cb23eaf0c6c4d4080e059a/69c62e68952924081f630055_27032026BulkDeposit030Mandabove.pdf",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_bulk": null
+  },
+  "scraper_type": "pdf",
+  "notes": "Webflow CMS (cdn.prod.website-files.com)"
+}

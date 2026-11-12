@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "bank_code": "tamil-nadu-grama-bank",
+    "extracted_at": "2026-06-05T13:03:06.046Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "tngb.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "fd_image_ocr": "/public/downloads/interest-rates/Deposit-interest-rate-060526.jpeg"
+  },
+  "extraction": {
+    "fd_image_ocr": {
+      "type": "image_ocr",
+      "fulfills_product": [
+        "fd"
+      ],
+      "_authored": "2026-05-23 (Fix #7) — TNGB /interest-rates page opens the rate card as an image popup; deterministic OCR path uses the underlying JPEG. Prior fd path /deposits/regular/stda was a product-description page with zero rates. Image filename is date-stamped (060526 = 6 May 2026) — re-discovery needed on each rate revision since TNGB rotates the filename."
+    }
+  },
+  "scraper_type": "image_ocr",
+  "notes": "Deposit rates shown via popup on /interest-rates, sourced from a dated JPEG. OCR hint routes fd through the image; landing page stays canonical for re-discovery. Loans use a separate PNG file."
+}

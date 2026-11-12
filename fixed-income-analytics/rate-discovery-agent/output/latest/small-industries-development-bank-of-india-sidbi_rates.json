@@ -1,0 +1,70 @@
+{
+  "bank_code": "small-industries-development-bank-of-india-sidbi",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://sidbi.in/fixed-scheme",
+  "scraped_at": "2026-06-09T13:34:49.292Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "24 months Effective annual yield upto",
+      "tenure_min_days": 720,
+      "tenure_max_days": 720,
+      "rate_general_pct": 6.61,
+      "rate_senior_pct": 6.45,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "36 months Effective annual yield upto",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 6.71,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "60 months Effective annual yield upto",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 6.77,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/3 slabs had parseable tenures — likely textual content)",
+    "llm_fallback_no_result: deterministic returned 0 slabs; LLM produced no usable slabs (trigger: zero=true suspect=true prefer=false)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 3 slab(s) from page text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "validation": {
+    "passed": true,
+    "warning_count": 3,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (24 months Effective annual yield upto): senior rate (6.45%) < general rate (6.61%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (36 months Effective annual yield upto): senior rate (6.55%) < general rate (6.71%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (60 months Effective annual yield upto): senior rate (6.6%) < general rate (6.77%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T13:34:49.292Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "andhra-pradesh-mahesh-co-op-urban-bank-ltd",
+    "extracted_at": "2026-06-05T13:17:24.807Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "apmahesh.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates-on-deposits.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "notes": "ASP.NET site unreachable. Domain apmahesh.bank.in exists but returns errors.",
+  "status": "site_unreachable",
+  "template": {
+    "template_id": "mahesh-coop-urban-5col-tenure-general-senior-super",
+    "template_hash": "sha1:4656582be17b068f8ae4540861a1fcc647322318",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct",
+            "4": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

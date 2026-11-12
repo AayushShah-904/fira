@@ -1,0 +1,26 @@
+{
+  "bank_code": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.446598Z",
+  "overall_passed": true,
+  "metrics": {
+    "schema_completeness": {
+      "score": 96,
+      "passed": true,
+      "reason": "1 missing field values across 7 slabs",
+      "missing_breakdown": {
+        "tenure_max_days": 1
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 7 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

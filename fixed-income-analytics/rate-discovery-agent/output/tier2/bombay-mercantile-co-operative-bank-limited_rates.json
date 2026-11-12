@@ -1,0 +1,15 @@
+{
+  "bank_code": "bombay-mercantile-co-operative-bank-limited",
+  "bank_name": "Bombay Mercantile Co-operative Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://www.bmcbankltd.com/deporates.php",
+  "scraped_at": "2026-05-25T11:22:14.168Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "Server returns HTTP 403 Forbidden to both headless Chromium and WebFetch (bot protection) on bmcbankltd.com and www.bmcbankltd.com. Site documents senior-citizen +0.50%, staff +1.00%, non-callable +25bps policies but the rate table itself is not retrievable without a real browser session. Requires manual entry or authenticated browser scrape."
+  ],
+  "tier2_method": "playwright+webfetch (403 Forbidden)"
+}

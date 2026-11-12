@@ -1,0 +1,17 @@
+{
+  "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:33:03.921Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T17:15:27.550Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

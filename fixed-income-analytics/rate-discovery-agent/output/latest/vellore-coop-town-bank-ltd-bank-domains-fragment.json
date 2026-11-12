@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "vellore-coop-town-bank-ltd",
+    "extracted_at": "2026-06-06T10:55:47.263Z",
+    "source": "bank-domains.json",
+    "source_sha": "d2f23613f2832a7ebcc59d6990089a7a026cb571c958a21a679f24a3e2b44dbc"
+  },
+  "domain": "vccbank.in",
+  "rate_pages": {
+    "fd": "/deposit-rate.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/savings-account.php",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "tn-coop-5col-general-senior-staff",
+    "template_hash": "sha1:261ada53cf630d95bb8187db33002578bf2ee175",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

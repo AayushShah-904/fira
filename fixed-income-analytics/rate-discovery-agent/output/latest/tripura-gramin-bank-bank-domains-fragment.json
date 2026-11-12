@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "tripura-gramin-bank",
+    "extracted_at": "2026-06-05T13:04:04.996Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "www.tripuragraminbank.org",
+  "rate_pages": {
+    "fd": "https://www.tripuragraminbank.org/pdf/depositIntt.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/tgb/16/child_menu/fixed-deposit",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "domain_prev": "tripuragramin.bank.in",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:05:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://www.tripuragraminbank.org/pdf/depositIntt.pdf",
+    "slab_count": 13,
+    "hints": "REAL domain tripuragraminbank.org (.org, not .bank.in); scanned PDF depositIntt.pdf → OCR; general+senior",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

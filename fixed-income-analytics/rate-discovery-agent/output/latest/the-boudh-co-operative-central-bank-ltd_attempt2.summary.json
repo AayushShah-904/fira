@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-boudh-co-operative-central-bank-ltd",
+  "bank_name": "The Boudh Co-operative Central Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14902,
+  "duration_ms": 14902,
+  "duration_api_ms": 14671,
+  "num_turns": 6,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.185084,
+  "input_tokens": 84090,
+  "output_tokens": 2113,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Boudh Co-operative Central Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 184,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://boudhccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Boudh Co-operative Central Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 47,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://boudhccb.bank.in/interest.php\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-boudh-co-operative-central-bank-ltd-config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-boudh-co-operative-central-b"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-boudh-co-operative-central-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-boudh-co-operative-central-ba"
+    }
+  ]
+}

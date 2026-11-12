@@ -1,0 +1,6 @@
+{
+  "bank_code": "central-bank-of-india",
+  "reason": "slab drift on nro: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T18:26:09.791Z",
+  "attempts": 3
+}

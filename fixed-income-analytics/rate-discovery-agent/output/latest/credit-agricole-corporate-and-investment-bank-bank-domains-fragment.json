@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "credit-agricole-corporate-and-investment-bank",
+    "extracted_at": "2026-06-05T11:30:17.904Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "ca-cib.com",
+  "rate_pages": {
+    "fd": "/en/our-network-india",
+    "savings": "/en/our-network-india",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "scraper_type": "mixed",
+  "notes": "Next.js (React SSR), None observed"
+}

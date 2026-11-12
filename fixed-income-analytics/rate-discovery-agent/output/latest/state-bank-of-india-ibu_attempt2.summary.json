@@ -1,0 +1,66 @@
+{
+  "bank_code": "state-bank-of-india-ibu",
+  "bank_name": "state-bank-of-india-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 18000,
+  "duration_ms": 18000,
+  "duration_api_ms": 17611,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.139608,
+  "llm_cost_usd": 0.139608,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 58504,
+  "output_tokens": 2825,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 388,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ifsc.statebank/interest-rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/state-bank-of-india-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"state-bank-of-india-ibu\\\",\\n  \\\"bank_name\\\": \\\"State Ba"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/state-bank-of-india-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"state-bank-of-india-ibu\\\",\\n  \\\"bank_name\\\": \\\"State Ban"
+    }
+  ],
+  "failure_class": "unclassified",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "html_static",
+    "notes": "SBI GIFT City IBU. USD term deposit rates only. No INR deposits. No DICGC insurance. Savings account rates also shown on same page.",
+    "website_url": "https://ifsc.statebank",
+    "rate_url_fd": "https://ifsc.statebank/interest-rates",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

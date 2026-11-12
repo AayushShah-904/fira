@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "sonali-bank-plc",
+    "extracted_at": "2026-06-05T12:14:44.432Z",
+    "source": "bank-domains.json",
+    "source_sha": "175eeef65925e1b4befecd11a331ede1d3ba7a8a575395bd24642b497f0959c2"
+  },
+  "domain": "sonalibank.in",
+  "scraper_type": "manual",
+  "notes": "Source is a Bangladesh BDT rate PDF (New_Interest_Rate); rates are non-INR and the parse is mangled noise. Excluded from the INR pack.",
+  "status": "rates_not_published",
+  "domain_source": "manual",
+  "rate_pages": {
+    "fd": "/wp-content/uploads/2024/12/New_Interest_Rate_01012025.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "discovery_status": "foreign_currency_not_inr"
+}

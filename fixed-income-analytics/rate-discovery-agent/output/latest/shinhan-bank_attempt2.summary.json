@@ -1,0 +1,102 @@
+{
+  "bank_code": "shinhan-bank",
+  "bank_name": "shinhan-bank",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 21625,
+  "duration_ms": 21625,
+  "duration_api_ms": 20496,
+  "num_turns": 4,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.140204,
+  "llm_cost_usd": 0.140204,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 54666,
+  "output_tokens": 3859,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 104,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://shinhanbankindia.bank.in/fixed-deposit.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://shinhanbankindia.bank.in/nre-deposits\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://shinhanbankindia.bank.in/nro-deposits\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 39,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://shinhanbankindia.bank.in/fcnr-deposits\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 908,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://shinhanbankindia.bank.in/assets/pdf/Fixed_Deposit_Rates.pdf\",\"referer\":\"https://shinhanbankindia.bank.in/fixed-deposit.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/shinhan-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"shinhan-bank\\\",\\n  \\\"bank_name\\\": \\\"Shinhan Bank\\\",\\n  \\\"bank_type\\\": \\\"FB\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/shinhan-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"shinhan-bank\\\",\\n  \\\"bank_name\\\": \\\"Shinhan Bank\\\",\\n  \\\"product_type\\\": \\\"FD\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/shinhan-bank_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"shinhan-bank\\\",\\n  \\\"bank_name\\\": \\\"Shinhan Bank\\\",\\n  \\\"product_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/shinhan-bank_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"shinhan-bank\\\",\\n  \\\"bank_name\\\": \\\"Shinhan Bank\\\",\\n  \\\"product_type\\\": \\"
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "Rates are published in a downloadable PDF. The same rates apply to NRE/NRO as per PDF note. No FCNR rates found.",
+    "website_url": "https://shinhanbankindia.bank.in",
+    "rate_url_fd": "https://shinhanbankindia.bank.in/fixed-deposit.html",
+    "slab_count": 26,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 4,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on fcnr: 0 < 0.8 * 1 (expected)",
+    "domain_was_known": true
+  }
+}

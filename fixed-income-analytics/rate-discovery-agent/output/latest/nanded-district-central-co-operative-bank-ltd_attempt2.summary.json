@@ -1,0 +1,96 @@
+{
+  "bank_code": "nanded-district-central-co-operative-bank-ltd",
+  "bank_name": "nanded-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10477,
+  "duration_ms": 10477,
+  "duration_api_ms": 9733,
+  "num_turns": 7,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.102524,
+  "input_tokens": 46834,
+  "output_tokens": 1107,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Nanded District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nandeddccbank.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Nanded District Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 184,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.nandeddccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 173,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nandeddccbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Nanded District Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 166,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.nandedbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 171,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nandedbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.nandedbank.co.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 6,
+    "domain_was_known": false
+  }
+}

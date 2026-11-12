@@ -1,0 +1,115 @@
+{
+  "bank_code": "deccan-merchants-co-op-bank-ltd",
+  "bank_name": "Deccan Merchants Co-op Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-06-01",
+  "source_url": "https://deccan.bank.in/Fixed-deposit.html",
+  "scraped_at": "2026-06-06T07:14:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": 3.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 179 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.3,
+      "rate_senior_pct": 5.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 days to 210 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 210,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "211 days to below 1 year",
+      "tenure_min_days": 211,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to below 2 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 year to below 3 year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 year to below 5 year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 year to 10 year",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "444 days (Amrit Kalash)",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": 7.3,
+      "deposit_range": "below_2cr"
+    },
+    {
+      "tenure_text": "400 days (Amrit Vrishti)",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": 7.45,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    "Amrit Kalash (444 days)",
+    "Amrit Vrishti (400 days)"
+  ],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 782,
+    "last_scraped_at": "2026-06-06T07:14:00Z",
+    "manual_verification_needed": true
+  }
+}

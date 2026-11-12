@@ -1,0 +1,19 @@
+{
+  "bank_code": "rander-peoples-co-op-bank-ltd",
+  "bank_name": "rander-peoples-co-op-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://rpcbl.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://rpcbl.in/deposits/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:49:48.278Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,17 @@
+{
+  "bank_code": "hubli-urban-co-operative-bank-limited-hubli",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:09:46.208Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T16:52:15.839Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

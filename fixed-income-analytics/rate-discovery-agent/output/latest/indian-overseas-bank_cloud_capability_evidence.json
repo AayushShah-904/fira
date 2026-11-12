@@ -1,0 +1,17 @@
+{
+  "bank_code": "indian-overseas-bank",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:46:27.265Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T11:18:07.991Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

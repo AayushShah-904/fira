@@ -1,0 +1,19 @@
+{
+  "bank_code": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+  "bank_name": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://shriveershaiv.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://shriveershaiv.bank.in/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:21:50.785Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

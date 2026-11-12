@@ -1,0 +1,201 @@
+{
+  "bank_code": "haryana-gramin-bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-16",
+  "source_url": "https://hgb.bank.in/deposit-interest-rates",
+  "scraped_at": "2026-05-26T07:16:40.632Z",
+  "extraction_confidence": "high",
+  "special_schemes": [
+    {
+      "name": "Tax Saver Fixed Deposit Scheme",
+      "tenure_text": "5 Years",
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.9,
+      "effective_date": "2025-07-25"
+    }
+  ],
+  "warnings": [
+    "Rates from official PDF rate card linked off the deposit-interest-rates page (rendered HTML had no rate rows). PDF: cdn.shgb.bank.in/webdocuments/f3db8c01eda08b35f57bbc26bfd88cdc.pdf",
+    "Extracted the 'Less than Rs.2.00 Crore (Callable)' table: General -> rate_general_pct, Senior Citizens -> rate_senior_pct, Super Senior Citizens -> rate_super_senior_pct. The separate 'Rs.2.00 Crore to Rs.10.00 Crore' columns (bulk tier) were not emitted.",
+    "Full re-extraction via Tier-2 2026-05-26: corrected the prior senior-column mismap; complete tenure ladder restored."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T07:16:40.632Z",
+    "note": "agent re-extracted full correct table (sprint-007 senior-col bug fix); clobber-protected. Durable template column_map fix is a follow-up for HTML-static banks."
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 to 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 to 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": 5.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": 5.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 91,
+      "rate_general_pct": 5.55,
+      "rate_senior_pct": 6.05,
+      "rate_super_senior_pct": 6.2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "92 to 179 days",
+      "tenure_min_days": 92,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": 5.65,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 to 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.4,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 to 332 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 332,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.4,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "333 days",
+      "tenure_min_days": 333,
+      "tenure_max_days": 333,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": 7,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "334 days to < 1 Yr",
+      "tenure_min_days": 334,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.4,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": 6.75,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">1 year to 449 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.9,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "450 days",
+      "tenure_min_days": 450,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": 7.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "451 days to 2 yrs",
+      "tenure_min_days": 451,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.9,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">2 yrs to 3 yrs",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.9,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">3 yrs to 5 yrs",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.9,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">5 yrs to 10 yrs",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": 6.65,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 68,
+    "last_scraped_at": "2026-05-26T07:16:40.632Z",
+    "manual_verification_needed": false
+  }
+}

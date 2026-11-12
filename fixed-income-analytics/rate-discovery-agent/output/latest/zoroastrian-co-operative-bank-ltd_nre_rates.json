@@ -1,0 +1,100 @@
+{
+  "bank_code": "zoroastrian-co-operative-bank-ltd",
+  "bank_name": "Zoroastrian Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-21",
+  "source_url": "https://zoroastrianbank.bank.in/download/InterestRates-Deposits.pdf",
+  "scraped_at": "2026-05-21T00:17:04.455Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to less than a year",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year upto 15 months",
+      "tenure_min_days": 815,
+      "tenure_max_days": 815,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 15 months up to 2 years",
+      "tenure_min_days": 450,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 2 years up to 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 3 years up to 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 5 years up to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Some tenures could not be parsed into min/max days due to ambiguous text. No senior citizen rates found. See PDF for details.",
+    "Could not parse tenure: '181 days to less than a year'",
+    "Could not parse tenure: 'Over 15 Months upto 2 Years'",
+    "Could not parse tenure: 'Over 3 Years upto 5 Years'",
+    "Could not parse tenure: 'Over 5 Years upto 10 Years'"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-05-21T00:17:04.455Z",
+    "manual_verification_needed": false
+  }
+}

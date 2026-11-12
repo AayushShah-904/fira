@@ -1,0 +1,31 @@
+{
+  "bank_code": "citibank-na",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-29",
+  "source_url": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+  "scraped_at": "2026-06-28T10:21:11.676Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "No rate slabs to validate"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 55,
+    "last_scraped_at": "2026-06-28T10:21:11.676Z",
+    "manual_verification_needed": false
+  }
+}

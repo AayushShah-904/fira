@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "fino-payments-bank-limited",
+    "extracted_at": "2026-06-05T11:14:16.821Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "fino.bank.in",
+  "rate_pages": {
+    "savings": "/personal/products/savings-accounts/",
+    "fd": "/more/fixed-deposit",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "fino.bank.in redirects to docs.fino.bank.in for product pages"
+}

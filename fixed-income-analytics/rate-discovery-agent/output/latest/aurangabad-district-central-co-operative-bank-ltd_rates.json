@@ -1,0 +1,86 @@
+{
+  "bank_code": "aurangabad-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://aurangabaddccb.bank.in/page/25",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "extraction_method": null,
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 years to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": []
+}

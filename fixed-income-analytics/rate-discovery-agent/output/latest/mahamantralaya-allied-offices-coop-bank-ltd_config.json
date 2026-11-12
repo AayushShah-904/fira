@@ -1,0 +1,19 @@
+{
+  "bank_code": "mahamantralaya-allied-offices-coop-bank-ltd",
+  "bank_name": "mahamantralaya-allied-offices-coop-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://macobank.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://macobank.com/#tab_three"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:42:36.394Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

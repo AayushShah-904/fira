@@ -1,0 +1,19 @@
+{
+  "bank_code": "woori-bank",
+  "bank_name": "Woori Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "go.wooribank.com",
+    "found_via": "registry_hint",
+    "notes": "Woori Bank operates as a foreign-bank branch in India (Chennai/Gurgaon) and reports to RBI; per third-party listings it offers NRE/NRO/FCNR deposits. Its only web presence is the Korean parent global portal (go.wooribank.com, HTTP 200) and the netbanking login (spib.wooribank.com) — neither publishes a public India FD interest-rate page. in.wooribank.com does not resolve (HTTP 000). The only rate listings found are aggregators (codeforbanks), which are banned as a source."
+  },
+  "warnings": ["No bank-owned public FD rate page for India operations; only aggregator listings exist."],
+  "tier2_method": "websearch+webfetch"
+}

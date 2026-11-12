@@ -1,0 +1,29 @@
+{
+  "bank_code": "mumbai-district-central-co-operative-bank-ltd",
+  "bank_name": "Mumbai District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-03-25",
+  "source_url": "https://www.mdccbank.com/deposits/",
+  "scraped_at": "2026-05-25T17:45:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 days to 29 days", "tenure_min_days": 7, "tenure_max_days": 29, "rate_general_pct": 3.50, "rate_senior_pct": 3.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "30 days to 45 days", "tenure_min_days": 30, "tenure_max_days": 45, "rate_general_pct": 4.00, "rate_senior_pct": 4.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 4.25, "rate_senior_pct": 4.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 5.25, "rate_senior_pct": 5.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to 270 days", "tenure_min_days": 181, "tenure_max_days": 270, "rate_general_pct": 5.50, "rate_senior_pct": 5.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "271 days to 364 days", "tenure_min_days": 271, "tenure_max_days": 364, "rate_general_pct": 5.50, "rate_senior_pct": 5.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year to less than 13 months", "tenure_min_days": 365, "tenure_max_days": 395, "rate_general_pct": 6.65, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "13 months", "tenure_min_days": 396, "tenure_max_days": 396, "rate_general_pct": 6.85, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "more than 13 months to 15 months", "tenure_min_days": 397, "tenure_max_days": 450, "rate_general_pct": 6.65, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "more than 15 months to 2 years", "tenure_min_days": 451, "tenure_max_days": 730, "rate_general_pct": 6.75, "rate_senior_pct": 6.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "above 2 years and upto 3 years", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 6.75, "rate_senior_pct": 6.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "above 3 years and upto 5 years", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 6.50, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "above 5 years and upto 10 years", "tenure_min_days": 1826, "tenure_max_days": 3650, "rate_general_pct": 6.25, "rate_senior_pct": 6.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": ["Senior column is 'Senior Citizen (Age 60 & above)'; a separate 'Staff/Ex-Staff' column (identical to senior here) and a 'Bulk Rs.1cr & above' column also exist on the page but are not captured. The site's TLS cert is expired (fetched via curl -k).", "Bulk/quarterly-payout scheme rates of 6.70/6.80/7.00% noted on page not included."],
+  "errors": [],
+  "tier2_method": "webfetch"
+}

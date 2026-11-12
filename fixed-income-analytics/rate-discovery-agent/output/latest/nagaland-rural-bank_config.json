@@ -1,0 +1,19 @@
+{
+  "bank_code": "nagaland-rural-bank",
+  "bank_name": "nagaland-rural-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Nagaland",
+  "website": "https://nrb.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:32:22.833Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

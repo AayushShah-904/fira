@@ -1,0 +1,24 @@
+{
+  "bank_code": "the-karimnagar-co-operative-urban-bank-ltd",
+  "bank_name": "The Karimnagar Co-Operative Urban Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "http://kcubltd.com/depositintrates.html",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "15 days to 45 days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 6.00, "rate_senior_pct": 6.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to 364 days", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 1 year", "tenure_min_days": 365, "tenure_max_days": null, "rate_general_pct": 7.75, "rate_senior_pct": 8.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Site served over HTTP (no HTTPS); rate page kcubltd.com/depositintrates.html.",
+    "Senior citizen rates computed as general + 0.50% per inline note ('senior citizens @0.50% extra').",
+    "Savings Bank rows on the same table excluded (product_type FD). No explicit w.e.f. date on the page."
+  ],
+  "tier2_method": "webfetch"
+}

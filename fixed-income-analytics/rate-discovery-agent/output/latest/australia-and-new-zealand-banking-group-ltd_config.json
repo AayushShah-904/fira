@@ -1,0 +1,33 @@
+{
+  "bank_code": "australia-and-new-zealand-banking-group-ltd",
+  "bank_name": "australia-and-new-zealand-banking-group-ltd",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://anz.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/personal/credit-cards/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "ANZ India is wholesale/institutional banking only. No retail deposit products in India.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:32:54.628Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

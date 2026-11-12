@@ -1,0 +1,116 @@
+{
+  "bank_code": "vidyasagar-central-co-operative-bank-ltd",
+  "bank_name": "Vidyasagar Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-10-07",
+  "source_url": "http://vidyasagarccb.bank.in/deposit-interest-rates/",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": 4.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "365 Days / 12 Months / 1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 1 year to less than 3 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3 Years to 5 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 5 Years to 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1111 Days",
+      "tenure_min_days": 1111,
+      "tenure_max_days": 1111,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "Monthly Income Scheme (MIS) - Fixed Deposit",
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "warnings": [
+    "Senior citizen rates only apply for term deposits above 364 days (except RD). Additional 1% for employees, 0.3% for PACS and affiliated co-ops, see page for details. No NRE/FCNR products offered."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 289,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,7 @@
+[
+  { "bank_code": "state-bank-of-india", "category": "Public Sector Bank", "state": "Maharashtra" },
+  { "bank_code": "hdfc-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "punjab-national-bank", "category": "Public Sector Bank", "state": "Delhi" },
+  { "bank_code": "au-small-finance-bank-limited", "category": "Small Finance Bank", "state": "Rajasthan" },
+  { "bank_code": "bank-of-india-ibu", "category": "IFSC Banking Unit", "state": "Gujarat" }
+]

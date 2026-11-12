@@ -1,0 +1,14 @@
+{
+  "bank_code": "amreli-nagrik-sahakari-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T17:31:58.853Z",
+      "evidence_url": "https://amrelibank.com/deposit-interest-rate.php",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: <title>Attention Required! | Cloudflare",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

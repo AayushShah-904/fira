@@ -1,0 +1,528 @@
+{
+  "bank_code": "indusind-bank-limited",
+  "bank_name": "IndusInd Bank Limited",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-05-05",
+  "source_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
+  "scraped_at": "2026-06-05T10:01:54Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 1.7,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 1.7,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.8,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 1.9,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.8,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 1.9,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "61 days to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.8,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "61 days to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 1.9,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "61 days to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "91 days to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 3.95,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "91 days to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 2.3,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "91 days to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "121 days to 150 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 3.95,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "121 days to 150 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 2.3,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "121 days to 150 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "151 days to 180 days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.95,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "151 days to 180 days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 2.3,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "151 days to 180 days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "181 days to 210 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 210,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "181 days to 210 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 210,
+      "rate_general_pct": 2.5,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "181 days to 210 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 210,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "211 days to 240 days",
+      "tenure_min_days": 211,
+      "tenure_max_days": 240,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "211 days to 240 days",
+      "tenure_min_days": 211,
+      "tenure_max_days": 240,
+      "rate_general_pct": 2.5,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "211 days to 240 days",
+      "tenure_min_days": 211,
+      "tenure_max_days": 240,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "241 days to 269 days",
+      "tenure_min_days": 241,
+      "tenure_max_days": 269,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "241 days to 269 days",
+      "tenure_min_days": 241,
+      "tenure_max_days": 269,
+      "rate_general_pct": 2.5,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "241 days to 269 days",
+      "tenure_min_days": 241,
+      "tenure_max_days": 269,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "270 days to 330 days",
+      "tenure_min_days": 270,
+      "tenure_max_days": 330,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "270 days to 330 days",
+      "tenure_min_days": 270,
+      "tenure_max_days": 330,
+      "rate_general_pct": 2.6,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "270 days to 330 days",
+      "tenure_min_days": 270,
+      "tenure_max_days": 330,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "331 days to 343 days",
+      "tenure_min_days": 331,
+      "tenure_max_days": 343,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "331 days to 343 days",
+      "tenure_min_days": 331,
+      "tenure_max_days": 343,
+      "rate_general_pct": 2.6,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "331 days to 343 days",
+      "tenure_min_days": 331,
+      "tenure_max_days": 343,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "344 days to 354 days",
+      "tenure_min_days": 344,
+      "tenure_max_days": 354,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "344 days to 354 days",
+      "tenure_min_days": 344,
+      "tenure_max_days": 354,
+      "rate_general_pct": 2.6,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "344 days to 354 days",
+      "tenure_min_days": 344,
+      "tenure_max_days": 354,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "355 days to 364 days",
+      "tenure_min_days": 355,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "355 days to 364 days",
+      "tenure_min_days": 355,
+      "tenure_max_days": 364,
+      "rate_general_pct": 2.6,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "355 days to 364 days",
+      "tenure_min_days": 355,
+      "tenure_max_days": 364,
+      "rate_general_pct": 3.75,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "365 days to Below 1 Year 3 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 4.3,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "365 days to Below 1 Year 3 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 2.7,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "365 days to Below 1 Year 3 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 4.2,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "1 Year 3 Months to Below 1 Year 4 Months",
+      "tenure_min_days": 456,
+      "tenure_max_days": 486,
+      "rate_general_pct": 4.3,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Year 3 Months to Below 1 Year 4 Months",
+      "tenure_min_days": 456,
+      "tenure_max_days": 486,
+      "rate_general_pct": 2.7,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "1 Year 3 Months to Below 1 Year 4 Months",
+      "tenure_min_days": 456,
+      "tenure_max_days": 486,
+      "rate_general_pct": 4.2,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "1 Year 4 Months to Below 1 Year 6 Months",
+      "tenure_min_days": 487,
+      "tenure_max_days": 547,
+      "rate_general_pct": 4.3,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Year 4 Months to Below 1 Year 6 Months",
+      "tenure_min_days": 487,
+      "tenure_max_days": 547,
+      "rate_general_pct": 2.7,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "1 Year 4 Months to Below 1 Year 6 Months",
+      "tenure_min_days": 487,
+      "tenure_max_days": 547,
+      "rate_general_pct": 4.2,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "1 Year 6 Months upto 2 Year",
+      "tenure_min_days": 548,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.7,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Year 6 Months upto 2 Year",
+      "tenure_min_days": 548,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.01,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "1 Year 6 Months upto 2 Year",
+      "tenure_min_days": 548,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.2,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "Above 2 Year to Below 2 Year 6 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 912,
+      "rate_general_pct": 3.7,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "Above 2 Year to Below 2 Year 6 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 912,
+      "rate_general_pct": 0.01,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "Above 2 Year to Below 2 Year 6 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 912,
+      "rate_general_pct": 4.2,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "2 Year 6 Months to Below 2 Year 7 Months",
+      "tenure_min_days": 913,
+      "tenure_max_days": 943,
+      "rate_general_pct": 3.7,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 Year 6 Months to Below 2 Year 7 Months",
+      "tenure_min_days": 913,
+      "tenure_max_days": 943,
+      "rate_general_pct": 0.01,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "2 Year 6 Months to Below 2 Year 7 Months",
+      "tenure_min_days": 913,
+      "tenure_max_days": 943,
+      "rate_general_pct": 4.2,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "2 Year 7 Months to 3 Year 3 Months",
+      "tenure_min_days": 944,
+      "tenure_max_days": 1193,
+      "rate_general_pct": 3.5,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 Year 7 Months to 3 Year 3 Months",
+      "tenure_min_days": 944,
+      "tenure_max_days": 1193,
+      "rate_general_pct": 0.01,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "2 Year 7 Months to 3 Year 3 Months",
+      "tenure_min_days": 944,
+      "tenure_max_days": 1193,
+      "rate_general_pct": 4.1,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "Above 3 Year 3 Months to Below 61 Months",
+      "tenure_min_days": 1194,
+      "tenure_max_days": 1859,
+      "rate_general_pct": 3.5,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "Above 3 Year 3 Months to Below 61 Months",
+      "tenure_min_days": 1194,
+      "tenure_max_days": 1859,
+      "rate_general_pct": 0.01,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "Above 3 Year 3 Months to Below 61 Months",
+      "tenure_min_days": 1194,
+      "tenure_max_days": 1859,
+      "rate_general_pct": 4.1,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "61 Months and above upto 10 Years",
+      "tenure_min_days": 1860,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 3.5,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "61 Months and above upto 10 Years",
+      "tenure_min_days": 1860,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 0.01,
+      "currency": "EURO"
+    },
+    {
+      "tenure_text": "61 Months and above upto 10 Years",
+      "tenure_min_days": 1860,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 4.1,
+      "currency": "GBP"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Some EURO slabs show 0.01% indicating product not offered for that tenure/currency."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 79,
+    "last_scraped_at": "2026-06-05T10:01:54Z",
+    "manual_verification_needed": false
+  }
+}

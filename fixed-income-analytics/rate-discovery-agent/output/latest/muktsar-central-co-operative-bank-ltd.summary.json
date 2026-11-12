@@ -1,0 +1,56 @@
+{
+  "bank_code": "muktsar-central-co-operative-bank-ltd",
+  "bank_name": "muktsar-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10781,
+  "duration_ms": 10781,
+  "duration_api_ms": 10637,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.008623200000000001,
+  "input_tokens": 18894,
+  "output_tokens": 666,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Muktsar Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://muktsarcentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://muktsarcentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://muktsarcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://muktsarcentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://muktsarcentralcooperativebankltd.co.in\"}"
+    }
+  ]
+}

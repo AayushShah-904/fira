@@ -1,0 +1,443 @@
+{
+  "bank_code": "churu-central-co-operative-bank-ltd",
+  "bank_name": "Churu Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-01-30",
+  "source_url": "https://rscb.bank.in",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "7 to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "7 to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "15 to 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "15 to 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "15 to 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "30 to 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": 4.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "30 to 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": 4.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "30 to 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": 5.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "46 to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "46 to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "46 to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.4,
+      "rate_senior_pct": 5.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "91 to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "91 to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "91 to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "180 to 270 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "180 to 270 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "180 to 270 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "271 days to less than 1yr",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "271 days to less than 1yr",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "271 days to less than 1yr",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "Above 1year to less than 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "Above 1year to less than 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "Above 1year to less than 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "399 Days",
+      "tenure_min_days": 399,
+      "tenure_max_days": 399,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "399 Days",
+      "tenure_min_days": 399,
+      "tenure_max_days": 399,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "399 Days",
+      "tenure_min_days": 399,
+      "tenure_max_days": 399,
+      "rate_general_pct": 0,
+      "rate_senior_pct": 0.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "715 Days",
+      "tenure_min_days": 715,
+      "tenure_max_days": 715,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "715 Days",
+      "tenure_min_days": 715,
+      "tenure_max_days": 715,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "715 Days",
+      "tenure_min_days": 715,
+      "tenure_max_days": 715,
+      "rate_general_pct": 0,
+      "rate_senior_pct": 0.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    },
+    {
+      "tenure_text": "Sahakar Kar Bachat Yojana 2006 (Above 5 years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_25l"
+    },
+    {
+      "tenure_text": "Sahakar Kar Bachat Yojana 2006 (Above 5 years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25l_to_2cr"
+    },
+    {
+      "tenure_text": "Sahakar Kar Bachat Yojana 2006 (Above 5 years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_2cr"
+    }
+  ],
+  "special_schemes": [
+    "Sahakar Kar Bachat Yojana 2006"
+  ],
+  "warnings": [
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-30\" parses to 2023-01-30 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1270,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "bank_code": "sterling-urban-co-operative-bank-ltd",
+  "bank_name": "Sterling Urban Co-Operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No own-domain website found for Sterling Urban Co-operative Bank Ltd. (Jaipur, Rajasthan). Searches return only IFSC/directory and aggregator pages (bankbazaar, india.com) confirming the bank exists (IFSC HDFC0CSTUCB, sponsor HDFC). Registry hint 'prokerala.com' is a directory, not the bank. No official site and no retrievable rate page."
+  },
+  "warnings": [
+    "Only aggregator/IFSC-directory results; bank has no discoverable own website."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

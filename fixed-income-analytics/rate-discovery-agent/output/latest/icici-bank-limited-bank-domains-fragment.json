@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "bank_code": "icici-bank-limited",
+    "extracted_at": "2026-06-05T09:53:42.367Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "icici.bank.in",
+  "rate_pages": {
+    "fd": "/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+    "fd_nre": "/nri-banking/deposits/fixed-deposit/fd-interest-rates",
+    "fd_nro": "/nri-banking/deposits/fixed-deposit/fd-interest-rates",
+    "fd_fcnr": "/nri-banking/deposits/fcnr-rfc/fcnr-rfc-interest-rates",
+    "fd_nri_combined": "/nri-banking/deposits/fixed-deposit/fd-interest-rates",
+    "rd": "/personal-banking/deposits/recurring-deposits/rd-interest-rates",
+    "savings": null
+  },
+  "extraction": {
+    "fd_nri_combined": {
+      "type": "html",
+      "fulfills_product": [
+        "fd_nre",
+        "fd_nro"
+      ]
+    }
+  },
+  "scraper_type": "html_js",
+  "notes": "JS-rendered SPA with tab-based navigation, None observed (no WAF blocking). NRE/NRO published on a combined NRI page (/nri-banking/deposits/fixed-deposit/fd-interest-rates) — Orch-2 fulfills_product hint routes both iterations to that one URL. Old domain icicibank.com 301 redirects to icici.bank.in.",
+  "playwright_timeout_ms": 120000,
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "template": {
+    "fetch": {
+      "expand_accordions": true,
+      "click_to_reveal": [
+        "button:has-text(\"Less than ₹3 Cr\")"
+      ],
+      "wait_for_network_idle": true
+    },
+    "template_id": "icici-3col-tenure-general-senior",
+    "template_hash": "sha1:de2b3e544e46d5f57cae51f70c426aa4a9e9269d",
+    "fingerprinted_at": "2026-05-24",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\icici-bank-limited.html",
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    }
+  },
+  "template_fcnr": {
+    "template_id": "icici-fcnr-currency-table",
+    "template_hash": "sha1:f1b5e8cf9fb2a7ef7879e260367ce225cd30f89a",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "click_to_reveal": [
+        "button:has-text(\"Less than ₹3 Cr\")"
+      ],
+      "wait_for_network_idle": true
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#GBP"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 9,
+      "cluster_reused": false
+    }
+  }
+}

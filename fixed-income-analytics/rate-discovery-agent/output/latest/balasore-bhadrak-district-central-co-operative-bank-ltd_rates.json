@@ -1,0 +1,179 @@
+{
+  "bank_code": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-06-01",
+  "source_url": "https://bbccb.bank.in/deposit.php",
+  "scraped_at": "2026-06-09T16:04:31.227Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 7 to 14 days 4.00 4.00 4.00 4.00"
+    },
+    {
+      "tenure_text": "15 to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 15 to 45 days 4.00 4.00 4.00 4.00"
+    },
+    {
+      "tenure_text": "46 to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 46 to 60 days 4.50 4.50 4.50 4.50"
+    },
+    {
+      "tenure_text": "61 to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 61 to 90 days 4.50 4.50 4.50 4.50"
+    },
+    {
+      "tenure_text": "91 to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 91 to 120 days 4.75 4.75 4.75 4.75"
+    },
+    {
+      "tenure_text": "121 to 180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 121 to 180 days 5.00 5.00 5.00 5.00"
+    },
+    {
+      "tenure_text": "181 to less then 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 181 to less then 1 year 5.75 5.75 6.00 6.00"
+    },
+    {
+      "tenure_text": "1 Yr to less then 2 yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8 1 Yr to less then 2 yrs 7.00 7.00 7.25 7.25"
+    },
+    {
+      "tenure_text": "2 Yrs to less then 3 yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9 2 Yrs to less then 3 yrs 7.00 7.00 7.00 7.00"
+    },
+    {
+      "tenure_text": "3 to 5 yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10 3 to 5 yrs 6.75 6.75 7.00 7.00"
+    },
+    {
+      "tenure_text": "5 to less then 8 Yrs.",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2919,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "11 5 to less then 8 Yrs. 6.50 0.00 6.50 0.00"
+    },
+    {
+      "tenure_text": "8.yrs to less then 10 yrs",
+      "tenure_min_days": 2920,
+      "tenure_max_days": 3649,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 8.yrs to less then 10 yrs 6.50 0.00 6.50 0.00"
+    },
+    {
+      "tenure_text": "Up to 3 lakh.",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "1 Up to 3 lakh. 3.50% 3.50%"
+    },
+    {
+      "tenure_text": "Above 3 lakhs and below 5 lakhs",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "2 Above 3 lakhs and below 5 lakhs 3.50% 4.00%"
+    },
+    {
+      "tenure_text": "Above 5 lakhs",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr",
+      "source_row_text": "3 Above 5 lakhs 3.50% 4.50%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[1] (12 slabs) from 2 table(s); signals={\"pctRows\":13,\"tenureRows\":7,\"bothRows\":7,\"dataRows\":13,\"noisy\":true,\"colCount\":6}",
+    "llm_fallback: deterministic returned 12 slabs (suspect: multi_table=true too_few=false); LLM extracted 15 — using LLM",
+    "chunk[0]: rate_senior_pct and rate_super_senior_pct columns not explicitly present; senior citizen additional interest mentioned only in context",
+    "chunk[0]: multiple rate columns for CCB and PCS levels; only Revised Indicative Rate of Interest at CCB level used for rate_general_pct",
+    "chunk[0]: some zero rates at PCS level likely indicating no rates for that category",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-06-01\" parses to 2023-06-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1148,
+    "last_scraped_at": "2026-06-09T16:04:31.227Z",
+    "manual_verification_needed": true
+  }
+}

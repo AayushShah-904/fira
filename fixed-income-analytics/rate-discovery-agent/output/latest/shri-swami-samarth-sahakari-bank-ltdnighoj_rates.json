@@ -1,0 +1,23 @@
+{
+  "bank_code": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+  "bank_name": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "/index.html#rates",
+  "scraped_at": "2026-06-09T16:42:09.273Z",
+  "extraction_method": "registry_skip",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Bank skipped at discovery time: discovery_status=website_known_no_rate_page. Website known but no usable rate page. Re-run with --rates-only mode after a rate page URL is added to the registry."
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T16:42:09.273Z",
+    "manual_verification_needed": false
+  }
+}

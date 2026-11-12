@@ -1,0 +1,74 @@
+{
+  "bank_code": "shahjahanpur-district-central-co-operative-bank-ltd",
+  "bank_name": "Shahjahanpur District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10928,
+  "duration_ms": 10928,
+  "duration_api_ms": 10645,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.08524999999999999,
+  "input_tokens": 38713,
+  "output_tokens": 978,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Shahjahanpur District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://shahjahanpurdccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Shahjahanpur District Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sdccbshahjahanpur.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sdccbshahjahanpur.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Shahjahanpur District Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 112,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.upcooperativebank.org\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcooperativebank.org\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 48,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.shahjahanpur.nic.in\"}"
+    }
+  ]
+}

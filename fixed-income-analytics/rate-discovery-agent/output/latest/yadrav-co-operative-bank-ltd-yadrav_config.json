@@ -1,0 +1,33 @@
+{
+  "bank_code": "yadrav-co-operative-bank-ltd-yadrav",
+  "bank_name": "yadrav-co-operative-bank-ltd-yadrav",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "website": "https://yadravbank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/fixed-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Operator-classified: website known but no rate page available.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:42:11.543Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

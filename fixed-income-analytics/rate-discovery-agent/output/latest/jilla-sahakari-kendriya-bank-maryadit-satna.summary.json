@@ -1,0 +1,74 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-satna",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-satna",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13772,
+  "duration_ms": 13772,
+  "duration_api_ms": 13316,
+  "num_turns": 3,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.0091044,
+  "input_tokens": 19217,
+  "output_tokens": 886,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit satna\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabanksatna.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabanksatna.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 168,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabanksatna.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabanksatna.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 8,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 164,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.in/\"}"
+    }
+  ]
+}

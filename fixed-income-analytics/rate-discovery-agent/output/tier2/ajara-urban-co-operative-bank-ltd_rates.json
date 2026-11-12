@@ -1,0 +1,118 @@
+{
+  "bank_code": "ajara-urban-co-operative-bank-ltd",
+  "bank_name": "Ajara Urban Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://aucb.bank.in/Deposit-Interest-Rates",
+  "scraped_at": "2026-05-26T07:04:03Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "8 to 45 Days",
+      "tenure_min_days": 8,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days to 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 Month to 24 Month",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "25 Month to 60 Month",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 Month to 120 Month",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "Dhan Varsha",
+      "tenure_text": "24 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "scheme_name": "Amrutumbh (Quarterly)",
+      "tenure_text": "12-24 Month",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "scheme_name": "Amrutumbh (Quarterly)",
+      "tenure_text": "24-36 Month",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Source table has 3 rate columns (General | Institution | Sr.Citizen); Institution column intentionally ignored per guidance.",
+    "Savings/Janata Deposit row (2.50%) excluded — not an FD slab.",
+    "Bulk Deposit >=15 lakh special (15 months 7.50% / 24 months 7.50%) is a deposit-tier scheme, not super-senior — recorded as note only.",
+    "No effective/w.e.f. date shown on the page."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T07:04:03Z"
+  }
+}

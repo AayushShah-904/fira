@@ -1,0 +1,111 @@
+{
+  "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+  "variant": "regular",
+  "slab_count": 8,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year & above to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 year & above to less than 5 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years and above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 99999,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Special deposit for 555 days",
+      "tenure_min_days": 555,
+      "tenure_max_days": 555,
+      "rate_general_pct": 8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Term deposit for 365 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": 8.5,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [
+    "Senior citizen and ex-servicemen get an additional 0.5% interest, physically disabled persons get 1% extra on 365-day term deposits."
+  ],
+  "key_rates": {
+    "1y": {
+      "general": 7.5,
+      "senior": null
+    },
+    "2y": {
+      "general": 7,
+      "senior": null
+    },
+    "3y": {
+      "general": 7,
+      "senior": null
+    },
+    "5y": {
+      "general": 7,
+      "senior": null
+    }
+  }
+}

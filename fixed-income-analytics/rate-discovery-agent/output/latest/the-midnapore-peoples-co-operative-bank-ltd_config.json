@@ -1,0 +1,33 @@
+{
+  "bank_code": "the-midnapore-peoples-co-operative-bank-ltd",
+  "bank_name": "the-midnapore-peoples-co-operative-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "website": "https://mpcbmid.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No .bank.in domain found. Official site mpcbmid.com. Interest Rate section visible in menu but no direct FD page identifiable in search results ([mpcbmid.com](https://mpcbmid.com/))",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:25:48.272Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

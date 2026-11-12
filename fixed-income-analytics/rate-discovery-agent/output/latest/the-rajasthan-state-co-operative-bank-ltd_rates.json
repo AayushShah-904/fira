@@ -1,0 +1,180 @@
+{
+  "bank_code": "the-rajasthan-state-co-operative-bank-ltd",
+  "bank_name": "The Rajasthan State Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "https://rscb.bank.in/deposit-Rates/interest-rates",
+  "scraped_at": "2026-05-25T11:20:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 to 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 to 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 to 270 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 days to less than 1 yr",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 year to less than 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "399 Days",
+      "tenure_min_days": 399,
+      "tenure_max_days": 399,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "715 Days",
+      "tenure_min_days": 715,
+      "tenure_max_days": 715,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Sahakar Kar Bachat Yojana 2006 (Above 5 years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "rate_general_pct uses the 'Below 25 Lac' retail column; page also publishes '25 Lac to Below 2 Crore' (mostly identical) and '2 Crore & above' bulk columns",
+    "Table columns are amount tiers, not age tiers; no senior-citizen rate column on this page",
+    "No effective date published on the page"
+  ],
+  "tier2_method": "playwright --scroll --tabs --intercept on rscb.bank.in/deposit-Rates/interest-rates -> manual HTML table parse of deposit-rate table (table 0)",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "playwright --scroll --tabs --intercept on rscb.bank.in/deposit-Rates/interest-rates -> manual HTML table parse of deposit-rate table (table 0)",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T11:20:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:52.575Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:20:00Z",
+      "retained_slab_count": 15
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-05-25T11:20:00Z",
+    "manual_verification_needed": false
+  }
+}

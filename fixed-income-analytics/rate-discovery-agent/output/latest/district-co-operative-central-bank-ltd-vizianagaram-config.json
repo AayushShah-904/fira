@@ -1,0 +1,27 @@
+{
+  "bank_code": "district-co-operative-central-bank-ltd-vizianagaram",
+  "bank_name": "The District Co-operative Central Bank Ltd., Vizianagaram",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://vizianagaramdccb.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "/deposits",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No deposit interest rate data found on the official website. Bank website is WordPress/SitePad with no visible rate tables. Manual data entry required.",
+  "scraper_notes": {},
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "known domain + page fetch",
+    "confidence": "none"
+  }
+}

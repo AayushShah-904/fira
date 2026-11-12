@@ -1,0 +1,33 @@
+{
+  "bank_code": "jio-payments-bank-limited",
+  "bank_name": "jio-payments-bank-limited",
+  "bank_type": "PB",
+  "category": "Payments Bank",
+  "website": "https://jiopayments.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest-rates-and-service-charges/",
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "React SPA on .bank.in domain, JS-rendered page, likely WAF",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:32:36.385Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

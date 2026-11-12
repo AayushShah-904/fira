@@ -1,0 +1,510 @@
+{
+  "generated_at": "2026-05-23T19:47:54.169Z",
+  "sprint": "005",
+  "phase": "0.4",
+  "top50_count": 50,
+  "regression_count": 35,
+  "top50": [
+    {
+      "bank": "axis-bank-limited",
+      "slabs": 324,
+      "type": "PVB"
+    },
+    {
+      "bank": "rbl-bank-ibu",
+      "slabs": 60,
+      "type": "IBU"
+    },
+    {
+      "bank": "kotak-mahindra-bank-ibu",
+      "slabs": 55,
+      "type": "IBU"
+    },
+    {
+      "bank": "emirates-nbd-bank-pjsc",
+      "slabs": 53,
+      "type": "FB"
+    },
+    {
+      "bank": "idbi-bank-ibu",
+      "slabs": 48,
+      "type": "IBU"
+    },
+    {
+      "bank": "dcb-bank-limited",
+      "slabs": 47,
+      "type": "PVB"
+    },
+    {
+      "bank": "shivalik-small-finance-bank-limited",
+      "slabs": 46,
+      "type": "SFB"
+    },
+    {
+      "bank": "bank-of-baroda-ibu",
+      "slabs": 45,
+      "type": "IBU"
+    },
+    {
+      "bank": "bharat-co-operative-bank-mumbai-ltd",
+      "slabs": 40,
+      "type": "SUCB"
+    },
+    {
+      "bank": "city-union-bank-limited",
+      "slabs": 40,
+      "type": "PVB"
+    },
+    {
+      "bank": "slice-small-finance-bank-limited",
+      "slabs": 38,
+      "type": "SFB"
+    },
+    {
+      "bank": "hsbc-bank-ibu",
+      "slabs": 36,
+      "type": "IBU"
+    },
+    {
+      "bank": "sbm-bank-india-limited",
+      "slabs": 35,
+      "type": "FB"
+    },
+    {
+      "bank": "citibank-na",
+      "slabs": 34,
+      "type": "FB"
+    },
+    {
+      "bank": "coastal-local-area-bank-ltd",
+      "slabs": 34,
+      "type": "LAB"
+    },
+    {
+      "bank": "hdfc-bank-limited",
+      "slabs": 34,
+      "type": "PVB"
+    },
+    {
+      "bank": "banswara-central-co-operative-bank-ltd",
+      "slabs": 33,
+      "type": "DCCB"
+    },
+    {
+      "bank": "canara-bank-ibu",
+      "slabs": 32,
+      "type": "IBU"
+    },
+    {
+      "bank": "central-bank-of-india",
+      "slabs": 31,
+      "type": "PSB"
+    },
+    {
+      "bank": "uco-bank",
+      "slabs": 31,
+      "type": "PSB"
+    },
+    {
+      "bank": "punjab-sind-bank",
+      "slabs": 30,
+      "type": "PSB"
+    },
+    {
+      "bank": "the-haryana-state-co-operative-apex-bank-ltd",
+      "slabs": 30,
+      "type": "SSCB"
+    },
+    {
+      "bank": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+      "slabs": 30,
+      "type": "SUCB"
+    },
+    {
+      "bank": "esaf-small-finance-bank-limited",
+      "slabs": 29,
+      "type": "SFB"
+    },
+    {
+      "bank": "south-indian-bank-limited",
+      "slabs": 29,
+      "type": "PVB"
+    },
+    {
+      "bank": "bank-of-baroda",
+      "slabs": 28,
+      "type": "PSB"
+    },
+    {
+      "bank": "the-bihar-state-co-operative-bank-ltd",
+      "slabs": 27,
+      "type": "SSCB"
+    },
+    {
+      "bank": "union-bank-of-india",
+      "slabs": 27,
+      "type": "PSB"
+    },
+    {
+      "bank": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "slabs": 26,
+      "type": "FB"
+    },
+    {
+      "bank": "shinhan-bank",
+      "slabs": 26,
+      "type": "FB"
+    },
+    {
+      "bank": "dbs-bank-india-limited",
+      "slabs": 24,
+      "type": "FB"
+    },
+    {
+      "bank": "janata-sahakari-bank-ltd-pune",
+      "slabs": 24,
+      "type": "SUCB"
+    },
+    {
+      "bank": "manipur-rural-bank",
+      "slabs": 24,
+      "type": "RRB"
+    },
+    {
+      "bank": "equitas-small-finance-bank-limited",
+      "slabs": 23,
+      "type": "SFB"
+    },
+    {
+      "bank": "rbl-bank-limited",
+      "slabs": 23,
+      "type": "PVB"
+    },
+    {
+      "bank": "capital-small-finance-bank-limited",
+      "slabs": 22,
+      "type": "SFB"
+    },
+    {
+      "bank": "jalgaon-janata-sahakari-bank-ltd",
+      "slabs": 22,
+      "type": "SUCB"
+    },
+    {
+      "bank": "jana-small-finance-bank-limited",
+      "slabs": 22,
+      "type": "SFB"
+    },
+    {
+      "bank": "karad-urban-co-operative-bank-ltd",
+      "slabs": 22,
+      "type": "SUCB"
+    },
+    {
+      "bank": "mizuho-bank-ltd",
+      "slabs": 22,
+      "type": "FB"
+    },
+    {
+      "bank": "ghaziabad-district-central-co-operative-bank-ltd",
+      "slabs": 21,
+      "type": "DCCB"
+    },
+    {
+      "bank": "rajapur-urban-cooperative-bank-ltd-rajapur",
+      "slabs": 21,
+      "type": "NSUCB"
+    },
+    {
+      "bank": "standard-chartered-bank",
+      "slabs": 20,
+      "type": "FB"
+    },
+    {
+      "bank": "unity-small-finance-bank-limited",
+      "slabs": 20,
+      "type": "SFB"
+    },
+    {
+      "bank": "the-kerala-state-co-operative-bank-ltd",
+      "slabs": 19,
+      "type": "SSCB"
+    },
+    {
+      "bank": "bank-of-bahrain-and-kuwait-bsc",
+      "slabs": 18,
+      "type": "FB"
+    },
+    {
+      "bank": "deutsche-bank-ag",
+      "slabs": 18,
+      "type": "FB"
+    },
+    {
+      "bank": "doha-bank-qpsc",
+      "slabs": 18,
+      "type": "FB"
+    },
+    {
+      "bank": "karnataka-grameena-bank",
+      "slabs": 18,
+      "type": "RRB"
+    },
+    {
+      "bank": "yes-bank-limited",
+      "slabs": 18,
+      "type": "PVB"
+    }
+  ],
+  "regressions": [
+    {
+      "bank": "ahmedabad-mercantile-co-op-bank-ltd",
+      "variant": "nre",
+      "baseline": 3,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "akola-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "baseline": 10,
+      "actual": 8,
+      "dropPct": -20
+    },
+    {
+      "bank": "bandhan-bank-limited",
+      "variant": "fcnr",
+      "baseline": 24,
+      "actual": 19,
+      "dropPct": -21
+    },
+    {
+      "bank": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+      "variant": "regular",
+      "baseline": 6,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "bank-of-india",
+      "variant": "nre",
+      "baseline": 11,
+      "actual": 7,
+      "dropPct": -36
+    },
+    {
+      "bank": "bank-of-india",
+      "variant": "nro",
+      "baseline": 11,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "bank-of-india-ibu",
+      "variant": "regular",
+      "baseline": 8,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "bank-of-nova-scotia",
+      "variant": "regular",
+      "baseline": 7,
+      "actual": 1,
+      "dropPct": -86
+    },
+    {
+      "bank": "barclays-bank-plc",
+      "variant": "regular",
+      "baseline": 26,
+      "actual": 5,
+      "dropPct": -81
+    },
+    {
+      "bank": "bhatinda-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "baseline": 12,
+      "actual": 1,
+      "dropPct": -92
+    },
+    {
+      "bank": "chennai-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "baseline": 11,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+      "variant": "regular",
+      "baseline": 10,
+      "actual": 8,
+      "dropPct": -20
+    },
+    {
+      "bank": "cosmos-co-operative-bank-ltd",
+      "variant": "nre",
+      "baseline": 8,
+      "actual": 6,
+      "dropPct": -25
+    },
+    {
+      "bank": "fino-payments-bank-limited",
+      "variant": "regular",
+      "baseline": 1,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "g-p-parsik-janata-sahakari-bank-ltd-thane",
+      "variant": "regular",
+      "baseline": 17,
+      "actual": 10,
+      "dropPct": -41
+    },
+    {
+      "bank": "hdfc-bank-ibu",
+      "variant": "gift",
+      "baseline": 35,
+      "actual": 8,
+      "dropPct": -77
+    },
+    {
+      "bank": "hoogly-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "baseline": 13,
+      "actual": 8,
+      "dropPct": -38
+    },
+    {
+      "bank": "indian-bank",
+      "variant": "fcnr",
+      "baseline": 40,
+      "actual": 25,
+      "dropPct": -37
+    },
+    {
+      "bank": "indusind-bank-ibu",
+      "variant": "gift",
+      "baseline": 24,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "jammu-kashmir-bank-limited",
+      "variant": "fcnr",
+      "baseline": 30,
+      "actual": 22,
+      "dropPct": -27
+    },
+    {
+      "bank": "karur-vysya-bank-limited",
+      "variant": "nre",
+      "baseline": 10,
+      "actual": 7,
+      "dropPct": -30
+    },
+    {
+      "bank": "kotak-mahindra-bank-limited",
+      "variant": "regular",
+      "baseline": 18,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "kotak-mahindra-bank-limited",
+      "variant": "nre",
+      "baseline": 7,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "national-bank-for-agriculture-and-rural-development-nabard",
+      "variant": "regular",
+      "baseline": 5,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "punjab-national-bank",
+      "variant": "fcnr",
+      "baseline": 30,
+      "actual": 21,
+      "dropPct": -30
+    },
+    {
+      "bank": "sbpp-co-operative-bank-ltd-killa-pardi",
+      "variant": "regular",
+      "baseline": 13,
+      "actual": 8,
+      "dropPct": -38
+    },
+    {
+      "bank": "shikshak-sahakari-bank-ltd-nagpur",
+      "variant": "regular",
+      "baseline": 16,
+      "actual": 8,
+      "dropPct": -50
+    },
+    {
+      "bank": "societe-generale",
+      "variant": "regular",
+      "baseline": 6,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "the-karnataka-state-co-operative-apex-bank-ltd",
+      "variant": "regular",
+      "baseline": 7,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "ujjivan-small-finance-bank-limited",
+      "variant": "fcnr",
+      "baseline": 5,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "united-overseas-bank-limited",
+      "variant": "regular",
+      "baseline": 10,
+      "actual": 8,
+      "dropPct": -20
+    },
+    {
+      "bank": "dhule-and-nandurbar-jilha-sarkari-nokaranchi-sahakari-bank-ltd-dhule",
+      "variant": "regular",
+      "baseline": 0,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "shri-kadasiddeshwar-pattan-sahakari-bank-niyamit-banhatti",
+      "variant": "regular",
+      "baseline": 0,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "sri-lakshminarayana-co-operative-bank-ltd-bangalore",
+      "variant": "regular",
+      "baseline": 6,
+      "actual": 0,
+      "dropPct": -100
+    },
+    {
+      "bank": "sriramnagar-pattana-sahakar-bank-niyamit-sriramnagar",
+      "variant": "regular",
+      "baseline": 0,
+      "actual": 0,
+      "dropPct": -100
+    }
+  ],
+  "notes": [
+    "HTML capture deferred to Phase A — running Playwright across 80+ live pages now would pull in dependencies and risk WAF triggers; the hardened fetch_html.js in Phase B is the right tool for that capture pass.",
+    "The expected.json + expected.meta.json pair is sufficient for the immediate Phase D3 golden-test framework design; the test runner will skip pairs without a matching .html file until Phase A backfills them."
+  ]
+}

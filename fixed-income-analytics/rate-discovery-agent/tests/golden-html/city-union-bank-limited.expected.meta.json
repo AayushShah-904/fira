@@ -1,0 +1,13 @@
+{
+  "bank_code": "city-union-bank-limited",
+  "bank_name": "City Union Bank Limited",
+  "bank_type": "PVB",
+  "state": "Tamil Nadu",
+  "website": "https://cityunionbank.bank.in",
+  "rate_page_url": "https://cityunionbank.bank.in/deposit-interest-rate",
+  "scraper_type": "html_static",
+  "extraction_method": "automatic_html_static",
+  "slab_count": 40,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

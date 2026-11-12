@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "bank_code": "national-urban-co-operative-bank-ltd-delhi",
+    "extracted_at": "2026-06-06T10:57:36.576Z",
+    "source": "bank-domains.json",
+    "source_sha": "d2f23613f2832a7ebcc59d6990089a7a026cb571c958a21a679f24a3e2b44dbc"
+  },
+  "domain": "nationalbankltd.in",
+  "rate_pages": {
+    "fd": "/interest.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest.html",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "nuccb-delhi-main-plus-bulk-noncallable",
+    "template_hash": "sha1:ebe71d24463e54171abbb5d1ef60560b22cd801e",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": "below_1cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "1cr_to_2cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

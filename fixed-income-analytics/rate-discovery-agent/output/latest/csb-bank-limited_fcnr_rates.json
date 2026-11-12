@@ -1,0 +1,375 @@
+{
+  "bank_code": "csb-bank-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://www.csb.bank.in/interest-rates",
+  "scraped_at": "2026-06-15T15:06:31.430Z",
+  "effective_date": "2026-06-10",
+  "extraction_method": "manual_data_entry",
+  "extraction_confidence": "high",
+  "scraper_type": "html_static",
+  "verified_against_source": true,
+  "verified_at": "2026-06-15T15:06:31.430Z",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_350k"
+    },
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "350k_and_above"
+    },
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY"
+    },
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.14,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "12 months to less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.09,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_350k"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "350k_and_above"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.86,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.36,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "24 months to less than 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.57,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_350k",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "350k_and_above",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.98,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 0.51,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 0.69,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 2.42,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "36 months to less than 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.93,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_350k",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "350k_and_above",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 1.99,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 0.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 0.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 2.48,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "48 months to less than 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 2.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_350k",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "350k_and_above",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.86,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.57,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.39,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "lock_in_1_year": true
+    },
+    {
+      "tenure_text": "60 months only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.22,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "lock_in_1_year": true
+    }
+  ],
+  "warnings": [
+    "Operator-pasted 2026-06-15. Effective 10-06-2026. 5 tenures × 7 columns (USD has 2 amount tiers at the 350k USD threshold + GBP, EUR, JPY, CAD, AUD) = 35 slabs.",
+    "USD 3-5y at 6.95% / 7.00% / 7.05% — consistent with the post-Jun-11 special-window pricing. USD rates identical at < 350k and >= 350k for all tenures shown — same rate, two amount buckets.",
+    "Bank-published terms: 1) Revised rates apply for fresh deposits as well as renewals of existing deposits. 2) Interest rates on RFC SB deposits fixed at 0.05% p.a. across all currencies (separate product). 3) No premature withdrawal before 1 year for FCNR(B) deposits with tenures of 3 to 5 years — tagged lock_in_1_year: true on 3-5y slabs.",
+    "JPY normalised from source label \"YEN\".",
+    "Source page also publishes annualised Yield table — informational, not stored as slabs (ROI is the offered rate).",
+    "Source-fetch cross-verification deferred (csb.bank.in returns variable response sizes to our scraper — sometimes full page, sometimes throttled stub)."
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 43,
+    "last_scraped_at": "2026-06-15T15:06:31.430Z",
+    "manual_verification_needed": false
+  }
+}

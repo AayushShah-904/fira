@@ -1,0 +1,101 @@
+{
+  "bank_code": "shri-morbi-nagrik-sahakari-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://morbinagarikbank.in/interest_rate",
+  "scraped_at": "2026-06-09T16:51:46.062Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 DAYS TO 45 DAYS",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 DAYS TO 180 DAYS",
+      "tenure_min_days": 46,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 DAYS TO 365 DAYS",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "12 MONTHS AND ABOVE UPTO 36 MONTHS",
+      "tenure_min_days": 360,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "36 MONTHS AND ABOVE UPTO 60 MONTHS",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "61 MONTHS AND ABOVE UPTO 116 MONTHS",
+      "tenure_min_days": 1830,
+      "tenure_max_days": 3480,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "SAVING DEPOSIT",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "DAILY DEPOSIT",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T16:51:46.062Z",
+    "manual_verification_needed": false
+  }
+}

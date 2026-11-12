@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "bank_code": "ajmer-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:39:37.474Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "ajmerccb.bank.in",
+  "rate_pages": {
+    "fd": "/Fixed_Deposit.htm",
+    "fd_image_ocr": "https://www.ajmerccb.bank.in/Intreast%20Rates.jpg",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "extraction": {
+    "fd_image_ocr": {
+      "type": "image_ocr",
+      "fulfills_product": [
+        "fd"
+      ]
+    }
+  },
+  "scraper_type": "manual",
+  "extraction_method": "pending_vision",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "rate_pdfs": [
+    {
+      "url": "https://www.ajmerccb.bank.in/Intreast%20Rates.jpg",
+      "kind": "rate_card_scanned_letter",
+      "notes": "Scanned bank-letterhead circular with Hindi descriptions. URL filename has \"Intreast\" typo (sic). 1 image, awaiting Vision-API extraction or operator transcription. Pattern: L9 (image-only) crossed with L8 (multilingual Hindi)."
+    }
+  ],
+  "notes": "Sprint 002 v2 classifier mis-routed this bank to no_rates_expected because agent's notes contained \"No FD slab details available\" — same false positive as bankura (see L14). Correct classification is pending_vision: rate page exists at /Fixed_Deposit.htm and embeds /Intreast%20Rates.jpg, a scanned circular with Hindi rate descriptions. Agent had originally found the legacy old-host image at http://www.ajmerccb.com/Intreast%20Rates.jpg (HTTP, no www); the .bank.in surface has the same file via HTTPS. Filename retains \"Intreast\" misspelling (sic) — also seen at agra-zilla-sahakari-bank-ltd (/intrest.php?id=4). Verified 2026-05-12.",
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.052Z",
+    "manual_verification_needed": false
+  }
+}

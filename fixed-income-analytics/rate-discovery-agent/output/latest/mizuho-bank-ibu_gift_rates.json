@@ -1,0 +1,146 @@
+{
+  "bank_code": "mizuho-bank-ibu",
+  "bank_name": "Mizuho Bank – IBU",
+  "variant": "gift",
+  "effective_date": "2025-09-10",
+  "source_url": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/68dd816514ae9148580a1e23_term-deposit-interest-rates.pdf",
+  "deposit_range": "0.5mn_to_5mn",
+  "warnings": [
+    "Rates effective from 10 Sep 2025 — may be outdated",
+    "USD only — no other currencies offered",
+    "For deposits above USD 5 Mio, rates are negotiable (contact branch)"
+  ],
+  "rate_slabs": [
+    {
+      "tenure_text": "O/N",
+      "rate_general_pct": 3.33,
+      "currency": "USD",
+      "tenure_min_days": 1,
+      "tenure_max_days": 1
+    },
+    {
+      "tenure_text": "1 WEEK",
+      "rate_general_pct": 3.38,
+      "currency": "USD",
+      "tenure_min_days": 7,
+      "tenure_max_days": 7
+    },
+    {
+      "tenure_text": "2 WEEKS",
+      "rate_general_pct": 3.23,
+      "currency": "USD",
+      "tenure_min_days": 14,
+      "tenure_max_days": 14
+    },
+    {
+      "tenure_text": "3 WEEKS",
+      "rate_general_pct": 3.23,
+      "currency": "USD",
+      "tenure_min_days": 21,
+      "tenure_max_days": 21
+    },
+    {
+      "tenure_text": "1 MONTH",
+      "rate_general_pct": 3.23,
+      "currency": "USD",
+      "tenure_min_days": 30,
+      "tenure_max_days": 30
+    },
+    {
+      "tenure_text": "2 MONTHS",
+      "rate_general_pct": 3.2,
+      "currency": "USD",
+      "tenure_min_days": 60,
+      "tenure_max_days": 60
+    },
+    {
+      "tenure_text": "3 MONTHS",
+      "rate_general_pct": 3.19,
+      "currency": "USD",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90
+    },
+    {
+      "tenure_text": "4 MONTHS",
+      "rate_general_pct": 3.14,
+      "currency": "USD",
+      "tenure_min_days": 120,
+      "tenure_max_days": 120
+    },
+    {
+      "tenure_text": "5 MONTHS",
+      "rate_general_pct": 3.07,
+      "currency": "USD",
+      "tenure_min_days": 150,
+      "tenure_max_days": 150
+    },
+    {
+      "tenure_text": "6 MONTHS",
+      "rate_general_pct": 3.03,
+      "currency": "USD",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180
+    },
+    {
+      "tenure_text": "7 MONTHS",
+      "rate_general_pct": 3.01,
+      "currency": "USD",
+      "tenure_min_days": 210,
+      "tenure_max_days": 210
+    },
+    {
+      "tenure_text": "8 MONTHS",
+      "rate_general_pct": 3,
+      "currency": "USD",
+      "tenure_min_days": 240,
+      "tenure_max_days": 240
+    },
+    {
+      "tenure_text": "9 MONTHS",
+      "rate_general_pct": 2.98,
+      "currency": "USD",
+      "tenure_min_days": 270,
+      "tenure_max_days": 270
+    },
+    {
+      "tenure_text": "10 MONTHS",
+      "rate_general_pct": 2.94,
+      "currency": "USD",
+      "tenure_min_days": 300,
+      "tenure_max_days": 300
+    },
+    {
+      "tenure_text": "11 MONTHS",
+      "rate_general_pct": 2.9,
+      "currency": "USD",
+      "tenure_min_days": 330,
+      "tenure_max_days": 330
+    },
+    {
+      "tenure_text": "12 MONTHS",
+      "rate_general_pct": 2.86,
+      "currency": "USD",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365
+    }
+  ],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:44:49.227Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": null,
+      "retained_slab_count": 16
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 316,
+    "last_scraped_at": "2026-07-23T14:01:43.704Z",
+    "manual_verification_needed": true
+  }
+}

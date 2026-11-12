@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "the-assam-co-operative-apex-bank-ltd",
+    "extracted_at": "2026-06-05T12:23:12.010Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "acab.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving.php",
+    "rd": "/recurring-deposit.php"
+  },
+  "scraper_type": "pdf"
+}

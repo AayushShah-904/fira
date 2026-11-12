@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NRI Deposit Rates — 11-Bank Quality Report</title>
+<style>
+  :root{
+    --paper:#F5F6F8; --surface:#FFFFFF; --ink:#182029; --muted:#58626E; --faint:#8A929C;
+    --accent:#0E6E78; --line:#E3E6EA;
+    --ok:#1B7A54; --ok-bg:#E7F3EC; --warn:#9A6A00; --warn-bg:#F6EEDD; --bad:#B23A2E; --bad-bg:#F7E6E3; --na:#8A929C; --na-bg:#EEF0F2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:960px;margin:0 auto;padding:40px 24px 72px}
+  .num{font-variant-numeric:tabular-nums}
+
+  /* masthead */
+  .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 10px}
+  h1{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:34px;line-height:1.12;margin:0 0 12px;text-wrap:balance;letter-spacing:-.01em}
+  .lede{color:var(--muted);font-size:16px;max-width:64ch;margin:0}
+  .meta-row{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:18px;font-size:13px;color:var(--muted)}
+  .meta-row b{color:var(--ink);font-weight:600}
+  .rule{height:2px;background:var(--accent);margin:26px 0 0;width:56px;border:0}
+
+  /* summary band */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:34px 0 8px}
+  .stat{background:var(--surface);padding:16px 18px}
+  .stat .v{font-family:Georgia,serif;font-size:26px;font-weight:700;line-height:1}
+  .stat .l{font-size:12px;color:var(--muted);margin-top:6px}
+  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+
+  /* legend */
+  .legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0 8px;font-size:13px;color:var(--muted)}
+  .chip{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:11px;height:11px;border-radius:3px;flex:none}
+  .d-ok{background:var(--ok)} .d-warn{background:var(--warn)} .d-bad{background:var(--bad)} .d-na{background:var(--na)}
+
+  h2{font-family:Georgia,serif;font-size:21px;margin:44px 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px;max-width:66ch}
+
+  /* matrix */
+  .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+  table{border-collapse:collapse;width:100%;min-width:720px}
+  thead th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;
+    text-align:left;padding:12px 12px;border-bottom:1px solid var(--line);background:#FBFCFD}
+  thead th.v{text-align:center;width:150px}
+  tbody th{text-align:left;padding:12px;font-weight:600;font-size:14px;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:top}
+  tbody th small{display:block;font-weight:400;color:var(--faint);font-size:11px;margin-top:2px}
+  td{padding:9px 12px;border-bottom:1px solid var(--line);border-left:1px solid var(--line);vertical-align:top}
+  .cell{border-left:3px solid transparent;border-radius:5px;padding:7px 9px;min-height:52px}
+  .cell.ok{background:var(--ok-bg);border-left-color:var(--ok)}
+  .cell.warn{background:var(--warn-bg);border-left-color:var(--warn)}
+  .cell.bad{background:var(--bad-bg);border-left-color:var(--bad)}
+  .cell.na{background:var(--na-bg);border-left-color:var(--na);color:var(--faint)}
+  .cell .n{font-weight:700;font-size:16px;line-height:1}
+  .cell .n span{font-weight:400;font-size:11px;color:var(--muted)}
+  .cell .m{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.3}
+  .cell.na .m{color:var(--faint)}
+
+  /* callouts */
+  .call{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;background:var(--surface);padding:16px 18px;margin:14px 0}
+  .call.ok{border-left-color:var(--ok)} .call.warn{border-left-color:var(--warn)} .call.bad{border-left-color:var(--bad)}
+  .call h3{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:9px}
+  .call h3 .tag{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#fff;padding:2px 8px;border-radius:20px;font-weight:700}
+  .tag.ok{background:var(--ok)} .tag.warn{background:var(--warn)} .tag.bad{background:var(--bad)}
+  .call ul{margin:0;padding-left:0;list-style:none}
+  .call li{padding:7px 0;border-top:1px dashed var(--line);font-size:14px}
+  .call li:first-child{border-top:0}
+  .call li b{font-weight:600}
+  .call li .why{color:var(--muted);font-size:13px}
+
+  .note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:44px;padding-top:18px}
+  .note b{color:var(--ink)}
+  code{font-family:"SF Mono",ui-monospace,Consolas,monospace;font-size:12px;background:#EEF1F3;padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <p class="eyebrow">Fixed-Income Yield Advisor · Data Quality Report</p>
+  <h1>NRI Deposit Rates — the 11-bank gold pack</h1>
+  <p class="lede">What each bank publishes for NRE, NRO, FCNR and GIFT-City deposits, how fresh it is, and exactly where to trust it — so citations can be made with eyes open.</p>
+  <div class="meta-row">
+    <span>As of <b>9 July 2026</b></span>
+    <span>Pack <b>rates-pack-gold11-2026-07-09</b></span>
+    <span><b>18</b> entities · <b>1,188</b> rate slabs</span>
+    <span>Quality gate <b>PASS</b> (1 documented exception)</span>
+  </div>
+  <hr class="rule">
+
+  <div class="stats">
+    <div class="stat"><div class="v num">11</div><div class="l">Banks (+ 7 GIFT-City IBUs)</div></div>
+    <div class="stat"><div class="v num">15</div><div class="l">Bank·variant blocks safe to cite</div></div>
+    <div class="stat"><div class="v num">13</div><div class="l">Usable, with a caveat</div></div>
+    <div class="stat"><div class="v num">9</div><div class="l">Should be doubted / verified</div></div>
+  </div>
+
+  <div class="legend">
+    <span class="chip"><span class="dot d-ok"></span> Current &amp; dated — cite</span>
+    <span class="chip"><span class="dot d-warn"></span> Usable, caveat (undated / thin / aging)</span>
+    <span class="chip"><span class="dot d-bad"></span> Doubt — stale date or under-extracted</span>
+    <span class="chip"><span class="dot d-na"></span> Missing / not offered</span>
+  </div>
+
+  <h2>Coverage matrix</h2>
+  <p class="sub">Each cell shows slab count, currencies (FCNR/GIFT only — NRE/NRO are rupee accounts), and the bank-published effective date. Colour is confidence, not count.</p>
+  <div class="scroll">
+    <table>
+      <thead>
+        <tr><th>Bank</th><th class="v">NRE</th><th class="v">NRO</th><th class="v">FCNR</th><th class="v">GIFT (IBU)</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Yes Bank<small>yes-bank-limited</small></th>
+          <td><div class="cell bad"><div class="n num">21</div><div class="m">eff 2019 · fresh scrape</div></div></td>
+          <td><div class="cell warn"><div class="n num">18</div><div class="m">eff Mar-26 · 84d old</div></div></td>
+          <td><div class="cell bad"><div class="n num">25</div><div class="m">eff 2019 · fresh scrape</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">IBU exists, no rate table</div></div></td>
+        </tr>
+        <tr>
+          <th>Axis Bank<small>axis-bank-limited</small></th>
+          <td><div class="cell warn"><div class="n num">72</div><div class="m">undated · 49d</div></div></td>
+          <td><div class="cell warn"><div class="n num">162</div><div class="m">undated · 49d</div></div></td>
+          <td><div class="cell ok"><div class="n num">38</div><div class="m">6 ccy · eff 13-Jun · lock-in flags</div></div></td>
+          <td><div class="cell bad"><div class="n num">12</div><div class="m">was 24 · thin extract</div></div></td>
+        </tr>
+        <tr>
+          <th>AU Small Finance<small>au-small-finance-bank-limited</small></th>
+          <td><div class="cell warn"><div class="n num">8</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell warn"><div class="n num">12</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell ok"><div class="n num">25</div><div class="m">4 ccy · eff 10-Jun</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">No GIFT-City unit</div></div></td>
+        </tr>
+        <tr>
+          <th>ICICI Bank<small>icici-bank-limited</small></th>
+          <td><div class="cell warn"><div class="n num">6</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell warn"><div class="n num">9</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell ok"><div class="n num">13</div><div class="m">USD+GBP · eff 11-Jun · thin page</div></div></td>
+          <td><div class="cell ok"><div class="n num">24</div><div class="m">8 ccy · eff 07-Apr</div></div></td>
+        </tr>
+        <tr>
+          <th>RBL Bank<small>rbl-bank-limited</small></th>
+          <td><div class="cell warn"><div class="n num">12</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell warn"><div class="n num">20</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell ok"><div class="n num">30</div><div class="m">6 ccy · eff 12-Jun</div></div></td>
+          <td><div class="cell warn"><div class="n num">84</div><div class="m">6 ccy · undated</div></div></td>
+        </tr>
+        <tr>
+          <th>IDFC First Bank<small>idfc-first-bank-limited</small></th>
+          <td><div class="cell ok"><div class="n num">7</div><div class="m">eff 10-Jun · fresh</div></div></td>
+          <td><div class="cell ok"><div class="n num">13</div><div class="m">eff 10-Jun · fresh</div></div></td>
+          <td><div class="cell ok"><div class="n num">30</div><div class="m">5 ccy · eff 16-Jun</div></div></td>
+          <td><div class="cell bad"><div class="n num">9</div><div class="m">was 22 · stale PDF</div></div></td>
+        </tr>
+        <tr>
+          <th>Canara Bank<small>canara-bank</small></th>
+          <td><div class="cell bad"><div class="n num">36</div><div class="m">eff Jul-2025 (1yr old)</div></div></td>
+          <td><div class="cell bad"><div class="n num">37</div><div class="m">eff Jul-2025 (1yr old)</div></div></td>
+          <td><div class="cell bad"><div class="n num">68</div><div class="m">5 ccy · eff Jul-2025 (1yr old)</div></div></td>
+          <td><div class="cell ok"><div class="n num">32</div><div class="m">3 ccy · eff 11-Jun</div></div></td>
+        </tr>
+        <tr>
+          <th>Indian Overseas Bank<small>indian-overseas-bank</small></th>
+          <td><div class="cell ok"><div class="n num">9</div><div class="m">eff 15-May · fresh</div></div></td>
+          <td><div class="cell ok"><div class="n num">27</div><div class="m">eff 15-May · fresh</div></div></td>
+          <td><div class="cell warn"><div class="n num">45</div><div class="m">9 ccy · undated</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">No GIFT-City unit</div></div></td>
+        </tr>
+        <tr>
+          <th>Bank of Maharashtra<small>bank-of-maharashtra</small></th>
+          <td><div class="cell warn"><div class="n num">6</div><div class="m">undated · fresh</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">Not published separately</div></div></td>
+          <td><div class="cell ok"><div class="n num">21</div><div class="m">5 ccy · eff 26-Jun</div></div></td>
+          <td><div class="cell warn"><div class="n num">7</div><div class="m">USD only · eff 26-Feb</div></div></td>
+        </tr>
+        <tr>
+          <th>Saraswat Co-op<small>saraswat-co-operative-bank-ltd</small></th>
+          <td><div class="cell bad"><div class="n num">9</div><div class="m">eff Mar-2025 · 88d old</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">Not published separately</div></div></td>
+          <td><div class="cell ok"><div class="n num">10</div><div class="m">USD only · eff 15-Jun</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">No GIFT-City unit</div></div></td>
+        </tr>
+        <tr>
+          <th>Cosmos Co-op<small>cosmos-co-operative-bank-ltd</small></th>
+          <td><div class="cell bad"><div class="n num">8</div><div class="m">eff 2020 · stale</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">Not published separately</div></div></td>
+          <td><div class="cell ok"><div class="n num">24</div><div class="m">4 ccy · eff 01-Jun</div></div></td>
+          <td><div class="cell na"><div class="n">—</div><div class="m">No GIFT-City unit</div></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>How to cite this pack</h2>
+  <p class="sub">The same three tiers, read as actions.</p>
+
+  <div class="call ok">
+    <h3><span class="tag ok">Cite</span> Current &amp; dated — safe to quote today</h3>
+    <ul>
+      <li><b>FCNR is the strongest variant.</b> <span class="why">Axis (38, 6 ccy, with RBI lock-in flags), RBL (30), IDFC (30), Bank of Maharashtra (21), AU (25), ICICI (13, thin), Saraswat &amp; Cosmos (USD-led) — all carry a June 2026 effective date.</span></li>
+      <li><b>Indian Overseas &amp; IDFC NRE/NRO</b> <span class="why">— freshly scraped and bank-dated (May/June 2026).</span></li>
+      <li><b>GIFT-City: ICICI (24, 8 ccy) and Canara (32, 3 ccy)</b> <span class="why">— dated and multi-currency.</span></li>
+    </ul>
+  </div>
+
+  <div class="call warn">
+    <h3><span class="tag warn">Caveat</span> Usable, but flag the caveat when quoting</h3>
+    <ul>
+      <li><b>Undated ladders</b> <span class="why">— Axis, AU, ICICI, RBL, BoM NRE/NRO carry no bank-published effective date. Scraped fresh, but the bank didn't stamp a date, so treat the "as-of" as the scrape date, not an official one.</span></li>
+      <li><b>RBL GIFT (84 slabs)</b> <span class="why">— the largest GIFT ladder, but undated. Rich, cite the count with the "as-of scrape" caveat.</span></li>
+      <li><b>IOB FCNR (45, 9 currencies)</b> <span class="why">— broadest FCNR currency set, but undated.</span></li>
+      <li><b>BoM GIFT (7, USD only) &amp; Yes NRO (84 days old)</b> <span class="why">— thin / aging; fine as directional.</span></li>
+    </ul>
+  </div>
+
+  <div class="call bad">
+    <h3><span class="tag bad">Doubt</span> Verify before citing — stale dates or under-extraction</h3>
+    <ul>
+      <li><b>Yes Bank NRE &amp; FCNR</b> <span class="why">— the source PDF stamps an effective date of <b>2019</b>. Either a misprint on a current card or a stale archive; do not quote until the PDF is confirmed current.</span></li>
+      <li><b>Canara Bank NRE / NRO / FCNR</b> <span class="why">— all three carry an effective date of <b>1 July 2025</b> (a year old). The site is JS/WAF-protected, so the pipeline may be reading an old cached card.</span></li>
+      <li><b>Cosmos NRE (eff 2020) &amp; Saraswat NRE (eff Mar-2025)</b> <span class="why">— clearly stale rupee-deposit rates for these co-ops.</span></li>
+      <li><b>IDFC GIFT (9, was 22) &amp; Axis GIFT (12, was 24)</b> <span class="why">— both are under-extracted from dated GIFT-City PDFs that have since rolled; the fuller ladders are known and being recovered. This is the one documented quality-gate exception in the pack.</span></li>
+    </ul>
+  </div>
+
+  <h2>What is genuinely missing</h2>
+  <div class="call">
+    <ul>
+      <li><b>Yes Bank GIFT</b> <span class="why">— Yes operates a GIFT-City IBU, but its page carries no static rate table (FX-market-linked), so no slabs.</span></li>
+      <li><b>NRO for BoM, Saraswat, Cosmos</b> <span class="why">— not published as a separate schedule; for these banks NRO is typically priced at the domestic term-deposit rate.</span></li>
+      <li><b>GIFT for AU, IOB, Saraswat, Cosmos</b> <span class="why">— these institutions do not operate a GIFT-City IBU, so GIFT is not applicable (not a gap).</span></li>
+    </ul>
+  </div>
+
+  <p class="note"><b>Method &amp; provenance.</b> Rates are extracted from each bank's own website / rate-card PDF (never aggregators), collected via an automated cloud run on 8–9 July 2026 and assembled into this pack. NRE and NRO are rupee-denominated (no currency column); FCNR and GIFT are foreign-currency. "Effective date" is the date the bank printed on the card; "fresh" means scraped within the last day. A quality gate blocks any bank that loses &gt;50% of its rates versus a fixed baseline — one exception (IDFC GIFT) was accepted and is documented above. Counts are slab-level (one bank · currency · tenure = one slab).</p>
+</div>
+
+</body>
+</html>

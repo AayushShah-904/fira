@@ -1,0 +1,104 @@
+{
+  "bank_code": "ab-bank-plc",
+  "scraped_at": "2026-04-14T21:17:00Z",
+  "source_url": "https://abbl.com/rates-and-charge/fixed-deposit-rates/",
+  "effective_date": "2024-10-24",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "1 month",
+      "tenure_min_days": 30,
+      "tenure_max_days": 30,
+      "rate_general_pct": 8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90,
+      "rate_general_pct": 12,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 12,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 12,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 12,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Profit First - 3 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90,
+      "rate_general_pct": 11.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Profit First - 6 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 11.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Profit First - 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 11,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "AB Nishchinto",
+      "rate_general_pct": 5,
+      "effective_date": "2025-06-17"
+    }
+  ],
+  "warnings": [],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-04-16",
+    "rule": "fill_empty",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 637,
+    "last_scraped_at": "2026-04-14T21:17:00Z",
+    "manual_verification_needed": true
+  }
+}

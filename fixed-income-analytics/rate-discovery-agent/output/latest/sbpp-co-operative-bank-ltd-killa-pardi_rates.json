@@ -1,0 +1,162 @@
+{
+  "bank_code": "sbpp-co-operative-bank-ltd-killa-pardi",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-15",
+  "source_url": "https://sbpp.bank.in/pages/fixed-deposit-interest-rates/",
+  "scraped_at": "2026-05-26T13:06:24.847Z",
+  "extraction_confidence": "high",
+  "special_schemes": [],
+  "warnings": [
+    "Senior-citizen premium recovered (sprint-007 review): +0.5% for senior citizens (page note, previously left null). rate_senior_pct = general + 0.5 for covered tenures; dropped 0 non-FD note row(s)."
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "discovery_metadata": {
+    "run_method": "template-replay-fix",
+    "fixed_at": "2026-05-26T04:08:34.615Z",
+    "note": "output/latest re-extracted/corrected (sprint-007 solidify — leaky-bank fix)"
+  },
+  "rate_slabs": [
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "7 days to 90 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "91 days to upto 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "181 days to 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "1 year to 2 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "2 year to 3 year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "3 year to 5 year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "5 year to 10 year",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "444 days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "555 DAYS",
+      "tenure_min_days": 555,
+      "tenure_max_days": 555,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "999 DAYS",
+      "tenure_min_days": 999,
+      "tenure_max_days": 999,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "min_deposit": null,
+      "compounding_freq": null,
+      "tenure_text": "1999 DAYS (DEPOSIT AMOUNT 50 LAKH AND ABOVE)",
+      "tenure_min_days": 1999,
+      "tenure_max_days": 1999,
+      "rate_general_pct": 7.26,
+      "rate_senior_pct": 7.76,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:18.877Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 14,
+      "attempted_verdict": "garbage",
+      "rejected_reason": "garbage_overwrite_blocked",
+      "retained_extraction_method": "automatic_html_static",
+      "retained_scraped_at": "2026-05-26T13:06:24.847Z",
+      "retained_slab_count": 11
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 373,
+    "last_scraped_at": "2026-05-26T13:06:24.847Z",
+    "manual_verification_needed": true
+  }
+}

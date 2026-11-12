@@ -1,0 +1,101 @@
+{
+  "bank_code": "sangamner-merchants-co-op-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://smbank.bank.in/innerpages/17/Interest-Rate",
+  "scraped_at": "2026-06-09T16:30:03.020Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 15 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 15,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "16 days to 45 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "12 Months 23 Months",
+      "tenure_min_days": 1050,
+      "tenure_max_days": 1050,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "24 Months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "24 Months and ABOVE",
+      "tenure_min_days": 720,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T16:30:03.020Z",
+    "manual_verification_needed": false
+  }
+}

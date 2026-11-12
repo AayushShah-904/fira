@@ -1,0 +1,185 @@
+{
+  "bank_code": "bank-of-baroda",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "1995-07-01",
+  "source_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+  "scraped_at": "2026-07-07T06:29:59.406Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.75,
+      "source_row_text": "1 year 6.25 6.75* 6.75*"
+    },
+    {
+      "tenure_text": "Above 1 year to 400 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.85,
+      "source_row_text": "Above 1 year to 400 days 6.25 6.75* 6.85 $"
+    },
+    {
+      "tenure_text": "Above 400 days and upto 2 Years (except 444 and 555 Days)",
+      "tenure_min_days": 401,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.85,
+      "source_row_text": "Above 400 days and upto 2 Years (except 444 and 555 Days) 6.25 6.75* 6.85 $"
+    },
+    {
+      "tenure_text": "Above 2 Years and upto 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.85,
+      "source_row_text": "Above 2 Years and upto 3 Years 6.25 6.75* 6.85 $"
+    },
+    {
+      "tenure_text": "Above 3 Years and upto 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": 7,
+      "source_row_text": "Above 3 Years and upto 5 Years 6.30 6.90 # 7.00 $"
+    },
+    {
+      "tenure_text": "Above 5 Years and upto 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": 7,
+      "source_row_text": "Above 5 Years and upto 10 Years 6.00 7.00** 7.00**"
+    },
+    {
+      "tenure_text": "bob Square Drive Deposit Scheme (444 Days)",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": 7.05,
+      "source_row_text": "bob Square Drive Deposit Scheme (444 Days) 6.45 6.95* 7.05$"
+    },
+    {
+      "tenure_text": "bob Golden Goal deposit Scheme (555 Days)",
+      "tenure_min_days": 555,
+      "tenure_max_days": 555,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.35,
+      "source_row_text": "bob Golden Goal deposit Scheme (555 Days) 6.75 7.25* 7.35$"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "1 Year 6.10 6.10 6.10 6.10 6.10 6.10 6.10"
+    },
+    {
+      "tenure_text": "Above 1Y to 15M",
+      "tenure_min_days": 366,
+      "tenure_max_days": 455,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 1Y to 15M 7.25 7.25 7.25 6.00 7.25 6.00 7.25"
+    },
+    {
+      "tenure_text": "Above 1Y to 15M",
+      "tenure_min_days": 366,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr_to_10cr",
+      "source_row_text": "Above 1Y to 15M 7.25 7.25 7.25 6.00 7.25 6.00 7.25"
+    },
+    {
+      "tenure_text": "Above 15M to 2Y",
+      "tenure_min_days": 456,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 15M to 2Y 6.00 6.00 6.00 6.00 6.00 6.00 6.00"
+    },
+    {
+      "tenure_text": "Above 2Y to 3Y",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 2Y to 3Y 5.50 5.50 5.50 5.50 5.50 5.50 5.50"
+    },
+    {
+      "tenure_text": "Above 3Y to 5Y",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 3Y to 5Y 5.00 5.00 5.00 5.00 5.00 5.00 5.00"
+    },
+    {
+      "tenure_text": "Above 5Y and upto 10Y",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 5Y and upto 10Y 4.50 4.50 4.50 4.50 4.50 4.50 4.50"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (16 slabs) from 6 table(s); signals={\"pctRows\":16,\"tenureRows\":16,\"bothRows\":16,\"dataRows\":16,\"noisy\":false,\"colCount\":4}",
+    "llm_fallback: deterministic returned 16 slabs (suspect: multi_table=true too_few=false); LLM extracted 70 — using LLM",
+    "chunk[4]: multi-column tenure ranges with overlapping deposit sub-ranges",
+    "chunk[4]: no senior or super senior citizen rates shown",
+    "chunk[4]: rates vary by deposit sub-range within the 3cr to 10cr tier",
+    "rates-qc: effective_date \"1st July 1995\" parses to 1995-07-01 (year 1995 < 2024) — likely page legalese, not a rate date; set to null",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"1995-07-01\" parses to 1995-07-01 (year 1995 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 11345,
+    "last_scraped_at": "2026-07-07T06:29:59.406Z",
+    "manual_verification_needed": true
+  }
+}

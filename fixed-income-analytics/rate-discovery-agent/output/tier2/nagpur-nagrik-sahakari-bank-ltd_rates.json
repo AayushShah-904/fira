@@ -1,0 +1,79 @@
+{
+  "bank_code": "nagpur-nagrik-sahakari-bank-ltd",
+  "bank_name": "Nagpur Nagrik Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://nns.bank.in/termdeposits.php",
+  "scraped_at": "2026-05-25T11:21:34.664Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 Days to 90 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 181,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "182 Days to 364 Days",
+      "tenure_min_days": 182,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "13 to 36 Months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "37 to 60 Months",
+      "tenure_min_days": 1110,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Configured domain nnsbank.co.in returned HTTP 509 Bandwidth Limit Exceeded; used mirror nns.bank.in. Regular Term Deposits table only. Senior-citizen premium (+0.50% for 1yr+) noted on site but not tabulated per-slab. Separate co-op-society/trust table (15L+ lump-sum) on page not included as it is an institutional category, not retail FD. Effective date not shown."
+  ],
+  "tier2_method": "playwright_html_table_parse (alt domain nns.bank.in)"
+}

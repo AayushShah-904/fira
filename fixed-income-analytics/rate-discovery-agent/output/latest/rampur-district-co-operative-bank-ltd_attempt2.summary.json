@@ -1,0 +1,110 @@
+{
+  "bank_code": "rampur-district-co-operative-bank-ltd",
+  "bank_name": "Rampur District Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 19973,
+  "duration_ms": 19973,
+  "duration_api_ms": 17144,
+  "num_turns": 12,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.26153,
+  "input_tokens": 125889,
+  "output_tokens": 1219,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Rampur District Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rampurdccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Rampur District Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rampurdccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rampurcoopbank.com\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Rampur District Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rampurdccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rampurdccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Rampur District Co-operative Bank Ltd.\\\" Uttar Pradesh\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 46,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rampur.nic.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 112,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.upcooperativebank.org\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2435,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.nabard.org\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 93,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.nabard.org/Hindi/interestrate.aspx?cid=502&id=24\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/rampur-district-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"rampur-district-co-operative-bank-"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/rampur-district-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"rampur-district-co-operative-bank-l"
+    }
+  ]
+}

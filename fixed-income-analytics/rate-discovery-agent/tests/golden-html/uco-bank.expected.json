@@ -1,0 +1,27 @@
+{
+  "bank_code": "uco-bank",
+  "variant": "regular",
+  "slab_count": 31,
+  "key_rates": {
+    "1y": {
+      "general": 6.1,
+      "senior": null
+    },
+    "2y": {
+      "general": 6.1,
+      "senior": null
+    },
+    "3y": {
+      "general": 6,
+      "senior": null
+    },
+    "5y": {
+      "general": 6,
+      "senior": null
+    }
+  },
+  "effective_date": "23-06-2025",
+  "source_url": "https://uco.bank.in/en/web/guest/interest-rates-on-deposit-schemes",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.007Z"
+}

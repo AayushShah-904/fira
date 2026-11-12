@@ -1,0 +1,136 @@
+{
+  "bank_code": "prakasam-district-co-operative-central-bank-ltd-",
+  "bank_name": "Prakasam District Co-operative Central Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2022-10-27",
+  "source_url": "https://prakasamdccb.bank.in/deposits-roi/",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 To 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "15 To 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "30 To 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.85,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 To 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 Days To 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "180 Days To 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "271 Days To 364 Dayes",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 Years To 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "2 Years To 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3 Years To 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "5 Years To 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Effective date is 27-10-2022; rates may be outdated. No bulk deposit or special scheme slabs found. No NRI/FCNR products for DCCB.",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-10-27\" parses to 2022-10-27 (year 2022 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1365,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bank_code": "pratapgarh-jilla-sahakari-bank-ltd",
+  "bank_name": "Pratapgarh Jilla Sahakari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-09",
+  "source_url": null,
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No official website or deposit rate page found for Pratapgarh Jilla Sahakari Bank Ltd. Rates may be published via Uttar Pradesh State Co-operative Bank or RBI database. Manual entry required."
+  ],
+  "errors": [
+    "No rate data available. Manual extraction required."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 75,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": false
+  }
+}

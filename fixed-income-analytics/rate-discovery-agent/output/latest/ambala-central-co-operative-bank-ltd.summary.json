@@ -1,0 +1,56 @@
+{
+  "bank_code": "ambala-central-co-operative-bank-ltd",
+  "bank_name": "ambala-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11708,
+  "duration_ms": 11708,
+  "duration_api_ms": 11606,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.014362800000000002,
+  "input_tokens": 33287,
+  "output_tokens": 655,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"ambala central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"ambala central co-operative bank ltd\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"ambala central co-operative bank ltd\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ambalacentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ambalacentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ambalacentralcooperativebank.bank.in\"}"
+    }
+  ]
+}

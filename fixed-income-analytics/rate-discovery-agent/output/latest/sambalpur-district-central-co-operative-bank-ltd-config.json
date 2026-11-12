@@ -1,0 +1,43 @@
+{
+  "bank_code": "sambalpur-district-central-co-operative-bank-ltd",
+  "bank_name": "Sambalpur District Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://sambalpurdccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://sambalpurdccb.bank.in/Interestrates.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": "#MainContent_gv_branch",
+    "rows": "tr",
+    "effective_date": "select[name='ctl00$MainContent$dd_dist'] option[selected]"
+  },
+  "column_mapping": {
+    "1": "tenure_text",
+    "3": "rate_general_pct",
+    "5": "rate_senior_pct"
+  },
+  "expected_slab_count": 11,
+  "notes": "Bulk deposit rates above 1 crore are available on request. PACS/LAMCS get 0.25% extra. Verify rates in printed certificates.",
+  "scraper_notes": {
+    "framework": "ASP.NET WebForms",
+    "bot_protection": null,
+    "data_format": "HTML table",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": true,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "homepage fetch + link discovery",
+    "confidence": "high"
+  }
+}

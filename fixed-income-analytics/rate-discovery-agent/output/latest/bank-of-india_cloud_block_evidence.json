@@ -1,0 +1,32 @@
+{
+  "bank_code": "bank-of-india",
+  "observations": [
+    {
+      "ts": "2026-06-09T10:59:46.753Z",
+      "evidence_url": "https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: Just a moment...",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    },
+    {
+      "ts": "2026-06-09T10:59:47.777Z",
+      "evidence_url": "https://bankofindia.bank.in/interest-rates-on-deposit",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: Just a moment...",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    },
+    {
+      "ts": "2026-06-09T10:59:48.817Z",
+      "evidence_url": "https://bankofindia.bank.in/nri-rate-of-interest-fcnr-b-deposit-details",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: Just a moment...",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

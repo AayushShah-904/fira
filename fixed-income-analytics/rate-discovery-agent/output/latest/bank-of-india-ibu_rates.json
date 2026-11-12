@@ -1,0 +1,114 @@
+{
+  "bank_code": "bank-of-india-ibu",
+  "scraped_at": "2026-05-13T18:06:28.359Z",
+  "source_url": "https://bankofindia.bank.in/ibu_interest_rate",
+  "effective_date": "2026-04-23",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": 1.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31 days to 90 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": 1.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": 1.95,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": 1.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 1.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.8,
+      "rate_senior_pct": 1.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": 1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 0.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "fill_empty",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 91,
+    "last_scraped_at": "2026-05-13T18:06:28.359Z",
+    "manual_verification_needed": true
+  }
+}

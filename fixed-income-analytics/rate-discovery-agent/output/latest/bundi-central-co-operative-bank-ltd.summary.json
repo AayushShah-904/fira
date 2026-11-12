@@ -1,0 +1,50 @@
+{
+  "bank_code": "bundi-central-co-operative-bank-ltd",
+  "bank_name": "bundi-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10499,
+  "duration_ms": 10499,
+  "duration_api_ms": 10406,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.014069200000000002,
+  "input_tokens": 32621,
+  "output_tokens": 638,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Bundi Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Bundi Central Co-operative Bank Ltd\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bundi-central-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bundicentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bundicentral.bank.in/\"}"
+    }
+  ]
+}

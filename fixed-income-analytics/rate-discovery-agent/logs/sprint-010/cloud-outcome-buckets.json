@@ -1,0 +1,2173 @@
+{
+  "matched_or_exceeded": [
+    {
+      "slug": "federal-bank-limited",
+      "baseSlabs": 19,
+      "cloud": 38
+    },
+    {
+      "slug": "indusind-bank-limited",
+      "baseSlabs": 59,
+      "cloud": 81
+    },
+    {
+      "slug": "karur-vysya-bank-limited",
+      "baseSlabs": 73,
+      "cloud": 79
+    },
+    {
+      "slug": "coastal-local-area-bank-ltd",
+      "baseSlabs": 30,
+      "cloud": 38
+    },
+    {
+      "slug": "fino-payments-bank-limited",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "india-post-payments-bank-limited",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "nsdl-payments-bank-limited",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "ab-bank-plc",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "bank-of-china-limited",
+      "baseSlabs": 9,
+      "cloud": 18
+    },
+    {
+      "slug": "bnp-paribas",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "citibank-na",
+      "baseSlabs": 51,
+      "cloud": 96
+    },
+    {
+      "slug": "ctbc-bank-co-limited",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "first-abu-dhabi-bank-pjsc",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "baseSlabs": 89,
+      "cloud": 89
+    },
+    {
+      "slug": "industrial-and-commercial-bank-of-china-limited",
+      "baseSlabs": 13,
+      "cloud": 98
+    },
+    {
+      "slug": "mashreqbank-psc",
+      "baseSlabs": 2,
+      "cloud": 2
+    },
+    {
+      "slug": "the-andaman-and-nicobar-state-co-operative-bank-ltd",
+      "baseSlabs": 2,
+      "cloud": 2
+    },
+    {
+      "slug": "the-arunachal-pradesh-state-co-operative-apex-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "gujarat-state-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 11
+    },
+    {
+      "slug": "the-jammu-and-kashmir-state-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "the-karnataka-state-co-operative-apex-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 7
+    },
+    {
+      "slug": "the-kerala-state-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 7
+    },
+    {
+      "slug": "the-manipur-state-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "the-meghalaya-co-operative-apex-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "the-mizoram-co-operative-apex-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 10
+    },
+    {
+      "slug": "the-punjab-state-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 26
+    },
+    {
+      "slug": "andhra-pradesh-grameena-bank",
+      "baseSlabs": 13,
+      "cloud": 14
+    },
+    {
+      "slug": "arunachal-pradesh-rural-bank",
+      "baseSlabs": 10,
+      "cloud": 10
+    },
+    {
+      "slug": "bihar-gramin-bank",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "himachal-pradesh-gramin-bank",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "jammu-and-kashmir-grameen-bank",
+      "baseSlabs": 14,
+      "cloud": 26
+    },
+    {
+      "slug": "karnataka-grameena-bank",
+      "baseSlabs": 18,
+      "cloud": 38
+    },
+    {
+      "slug": "maharashtra-gramin-bank",
+      "baseSlabs": 15,
+      "cloud": 15
+    },
+    {
+      "slug": "punjab-gramin-bank",
+      "baseSlabs": 15,
+      "cloud": 15
+    },
+    {
+      "slug": "telangana-grameena-bank",
+      "baseSlabs": 20,
+      "cloud": 20
+    },
+    {
+      "slug": "west-bengal-gramin-bank",
+      "baseSlabs": 13,
+      "cloud": 13
+    },
+    {
+      "slug": "kalupur-commercial-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 16
+    },
+    {
+      "slug": "mehsana-urban-co-op-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "surat-peoples-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 15
+    },
+    {
+      "slug": "amanath-co-operative-bank-ltd-bangalore",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "abhyudaya-co-operative-bank-ltd-mumbai",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "apna-sahakari-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "bassein-catholic-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "citizen-credit-co-operative-bank-ltd-mumbai",
+      "baseSlabs": 17,
+      "cloud": 18
+    },
+    {
+      "slug": "g-p-parsik-janata-sahakari-bank-ltd-thane",
+      "baseSlabs": 9,
+      "cloud": 13
+    },
+    {
+      "slug": "greater-bombay-co-operative-bank-limited",
+      "baseSlabs": 15,
+      "cloud": 15
+    },
+    {
+      "slug": "gs-mahanagar-co-operative-bank-ltd-mumbai",
+      "baseSlabs": 13,
+      "cloud": 24
+    },
+    {
+      "slug": "jalgaon-peoples-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 17
+    },
+    {
+      "slug": "janalaxmi-co-operative-bank-ltd-nashik",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 14
+    },
+    {
+      "slug": "kalyan-janata-sahakari-bank-ltd-kalyan",
+      "baseSlabs": 13,
+      "cloud": 13
+    },
+    {
+      "slug": "nkgsb-co-operative-bank-ltd-mumbai",
+      "baseSlabs": 0,
+      "cloud": 11
+    },
+    {
+      "slug": "shamrao-vithal-co-operative-bank-ltd",
+      "baseSlabs": 17,
+      "cloud": 17
+    },
+    {
+      "slug": "solapur-janata-sahakari-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 18
+    },
+    {
+      "slug": "thane-bharat-sahakari-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "tjsb-sahakari-bank",
+      "baseSlabs": 8,
+      "cloud": 16
+    },
+    {
+      "slug": "nagpur-nagrik-sahakari-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 7
+    },
+    {
+      "slug": "shikshak-sahakari-bank-ltd-nagpur",
+      "baseSlabs": 8,
+      "cloud": 16
+    },
+    {
+      "slug": "the-akola-urban-co-operative-bank-ltd-akola",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "deogiri-nagari-sahakari-bank-ltd-chhatrapati-sambhajinagar",
+      "baseSlabs": 7,
+      "cloud": 7
+    },
+    {
+      "slug": "goa-urban-co-operative-bank-limited",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "australia-and-new-zealand-banking-group-limited-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "bank-of-maharashtra-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "barclays-bank-plc-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "bnp-paribas-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "citi-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "credit-agricole-corporate-investment-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "ctbc-bank-co-ltd-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "dbs-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "deutsche-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "first-abu-dhabi-bank-pjsc-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "jpmorgan-securities-plc-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "jp-morgan-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "mashreqbank-psc-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "mufg-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "natixis-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "qatar-national-bank-qpsc-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "societe-generale-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "standard-chartered-bank-ibu",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "state-bank-of-india-ibu",
+      "baseSlabs": 16,
+      "cloud": 16
+    },
+    {
+      "slug": "sumitomo-mitsui-banking-corporation-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "yes-bank-ibu",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "pune-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "ahmednagar-district-central-co-operative-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 8
+    },
+    {
+      "slug": "raigad-district-central-co-operative-bank-ltd",
+      "baseSlabs": 20,
+      "cloud": 20
+    },
+    {
+      "slug": "nasik-district-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 8
+    },
+    {
+      "slug": "jalgaon-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "the-ahmedabad-district-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 18
+    },
+    {
+      "slug": "the-baroda-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 20
+    },
+    {
+      "slug": "the-jamnagar-district-co-operative-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "the-sabarkantha-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "mysore-district-central-co-operative-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "tumkur-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "hassan-district-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "mandya-district-central-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 7
+    },
+    {
+      "slug": "davanagere-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 11
+    },
+    {
+      "slug": "bhatinda-central-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 11
+    },
+    {
+      "slug": "kota-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 11
+    },
+    {
+      "slug": "udaipur-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 11
+    },
+    {
+      "slug": "bikaner-central-co-operative-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "alwar-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "tiruchirapalli-district-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 10
+    },
+    {
+      "slug": "coimbatore-district-central-co-opertive-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "madurai-district-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "chennai-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "the-erode-district-central-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 7
+    },
+    {
+      "slug": "indore-premier-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 24
+    },
+    {
+      "slug": "jilla-sahakari-kendriya-bank-maryadit-gwalior",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "jilla-sahakari-kendriya-bank-maryadit-dewas",
+      "baseSlabs": 9,
+      "cloud": 10
+    },
+    {
+      "slug": "jilla-sahakari-kendriya-bank-maryadit-rewa",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "krishna-district-co-operative-central-bank-ltd",
+      "baseSlabs": 4,
+      "cloud": 4
+    },
+    {
+      "slug": "guntur-district-co-operative-central-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "the-hyderabad-district-cooperative-central-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "the-warangal-district-co-operative-central-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "nellore-district-co-operative-central-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 11
+    },
+    {
+      "slug": "vishakapatnam-district-co-operative-central-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 7
+    },
+    {
+      "slug": "chittoor-district-co-operative-central-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 10
+    },
+    {
+      "slug": "rohtak-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 30
+    },
+    {
+      "slug": "sambalpur-district-central-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 11
+    },
+    {
+      "slug": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "nadia-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "hoogly-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "dehradun-district-central-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 12
+    },
+    {
+      "slug": "akola-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "amravati-district-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "anantnag-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "azamgarh-district-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "bagalkot-central-co-operative-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "balageria-central-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 14
+    },
+    {
+      "slug": "bankura-district-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "banswara-central-co-operative-bank-ltd",
+      "baseSlabs": 33,
+      "cloud": 45
+    },
+    {
+      "slug": "beed-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "chitradurg-district-central-co-operative-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "dhanbad-district-central-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "guna-district-central-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 12
+    },
+    {
+      "slug": "howrah-district-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 13
+    },
+    {
+      "slug": "prakasam-district-co-operative-central-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 11
+    },
+    {
+      "slug": "tamluk-ghatal-central-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 22
+    },
+    {
+      "slug": "the-adilabad-district-co-operative-central-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "the-district-co-operative-central-bank-ltd-vizianagaram",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "rajgurunagar-sahakari-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "sharad-sahakari-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 16
+    },
+    {
+      "slug": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "lonavla-sahakari-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 7
+    },
+    {
+      "slug": "the-amravati-merchants-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "navi-mumbai-co-operative-bank-ltd-vashi",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "vasai-janata-sahakari-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 10
+    },
+    {
+      "slug": "sangamner-merchants-co-op-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "ajara-urban-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 10
+    },
+    {
+      "slug": "gadhinglaj-urban-co-op-bank-limited",
+      "baseSlabs": 8,
+      "cloud": 14
+    },
+    {
+      "slug": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+      "baseSlabs": 4,
+      "cloud": 4
+    },
+    {
+      "slug": "malegaon-merchants-co-op-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "gautam-sahakari-bank-ltdkolpewadi",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "mahamantralaya-allied-offices-coop-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 20
+    },
+    {
+      "slug": "mehsana-nagrik-sahakari-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "kankaria-maninagar-nagarik-sahakari-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "maninagar-co-op-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "gondal-nagarik-sahakari-bank-limited",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "shri-morbi-nagrik-sahakari-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "dahod-urban-co-op-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 9
+    },
+    {
+      "slug": "mangalore-co-operative-town-bank-ltd-mangalore",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "vysya-co-operative-bank-ltd-tumkur",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "bagalkot-urban-co-operative-bank-ltd-bagalkot",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "davangere-urban-co-operative-bank-ltd-davangere",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "mahaveer-co-operative-bank-ltd-belgaum",
+      "baseSlabs": 10,
+      "cloud": 10
+    },
+    {
+      "slug": "the-guntur-co-operative-urban-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "eluru-co-operative-urban-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "the-kakinada-co-operative-town-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "mahanagar-co-operative-urban-bank-ltd",
+      "baseSlabs": 13,
+      "cloud": 14
+    },
+    {
+      "slug": "coastal-urban-co-operative-bank-ltdkollam",
+      "baseSlabs": 6,
+      "cloud": 6
+    },
+    {
+      "slug": "indore-paraspar-sahakari-bank-maryadit",
+      "baseSlabs": 10,
+      "cloud": 10
+    },
+    {
+      "slug": "shramik-nagrik-sahakari-bank-maryadit-indore",
+      "baseSlabs": 4,
+      "cloud": 4
+    },
+    {
+      "slug": "nagarik-sahakari-bank-maryaditgwalior",
+      "baseSlabs": 8,
+      "cloud": 10
+    },
+    {
+      "slug": "erode-co-operative-urban-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    },
+    {
+      "slug": "vellore-coop-town-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 7
+    },
+    {
+      "slug": "jamia-co-operative-bank-ltd-new-delhi",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "national-urban-co-operative-bank-ltd-delhi",
+      "baseSlabs": 2,
+      "cloud": 10
+    },
+    {
+      "slug": "alleppey-urban-co-operative-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 5
+    },
+    {
+      "slug": "almora-urban-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 11
+    },
+    {
+      "slug": "kurmanchal-nagar-sahkari-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "commercial-co-operative-bank-ltd",
+      "baseSlabs": 4,
+      "cloud": 5
+    },
+    {
+      "slug": "gujarat-mercantile-co-operative-bank-ltd",
+      "baseSlabs": 4,
+      "cloud": 4
+    },
+    {
+      "slug": "navabharat-co-operative-urban-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 8
+    },
+    {
+      "slug": "model-co-operative-urban-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 7
+    },
+    {
+      "slug": "ramanagaram-urban-co-operative-bank-ltd",
+      "baseSlabs": 0,
+      "cloud": 0
+    }
+  ],
+  "partial_regressed": [
+    {
+      "slug": "axis-bank-limited",
+      "baseSlabs": 449,
+      "cloud": 16,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "bandhan-bank-limited",
+      "baseSlabs": 140,
+      "cloud": 12,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "indian-bank",
+      "baseSlabs": 101,
+      "cloud": 17,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "rbl-bank-limited",
+      "baseSlabs": 96,
+      "cloud": 12,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "union-bank-of-india",
+      "baseSlabs": 133,
+      "cloud": 50,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "punjab-sind-bank",
+      "baseSlabs": 107,
+      "cloud": 30,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "punjab-national-bank",
+      "baseSlabs": 85,
+      "cloud": 23,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "city-union-bank-limited",
+      "baseSlabs": 121,
+      "cloud": 65,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "jammu-kashmir-bank-limited",
+      "baseSlabs": 81,
+      "cloud": 26,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "csb-bank-limited",
+      "baseSlabs": 73,
+      "cloud": 19,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "bank-of-baroda",
+      "baseSlabs": 98,
+      "cloud": 45,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "central-bank-of-india",
+      "baseSlabs": 69,
+      "cloud": 18,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "au-small-finance-bank-limited",
+      "baseSlabs": 61,
+      "cloud": 12,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "emirates-nbd-bank-pjsc",
+      "baseSlabs": 81,
+      "cloud": 33,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "mizuho-bank-ltd",
+      "baseSlabs": 66,
+      "cloud": 25,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "kotak-mahindra-bank-limited",
+      "baseSlabs": 57,
+      "cloud": 18,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "dbs-bank-india-limited",
+      "baseSlabs": 62,
+      "cloud": 26,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "bharat-co-operative-bank-mumbai-ltd",
+      "baseSlabs": 56,
+      "cloud": 20,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "uco-bank",
+      "baseSlabs": 61,
+      "cloud": 26,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "jana-small-finance-bank-limited",
+      "baseSlabs": 46,
+      "cloud": 11,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "bank-of-maharashtra",
+      "baseSlabs": 46,
+      "cloud": 12,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "cosmos-co-operative-bank-ltd",
+      "baseSlabs": 46,
+      "cloud": 13,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "canara-bank",
+      "baseSlabs": 90,
+      "cloud": 59,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "icici-bank-limited",
+      "baseSlabs": 32,
+      "cloud": 2,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "natwest-markets-plc",
+      "baseSlabs": 35,
+      "cloud": 5,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "indian-overseas-bank",
+      "baseSlabs": 78,
+      "cloud": 49,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "shivalik-small-finance-bank-limited",
+      "baseSlabs": 41,
+      "cloud": 15,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "slice-small-finance-bank-limited",
+      "baseSlabs": 35,
+      "cloud": 10,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "rbl-bank-ibu",
+      "baseSlabs": 84,
+      "cloud": 60,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "dhanlaxmi-bank-limited",
+      "baseSlabs": 47,
+      "cloud": 26,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "doha-bank-qpsc",
+      "baseSlabs": 52,
+      "cloud": 32,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "the-bihar-state-co-operative-bank-ltd",
+      "baseSlabs": 27,
+      "cloud": 10,
+      "category": "Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "bank-of-india",
+      "baseSlabs": 37,
+      "cloud": 23,
+      "category": "Public Sector Bank"
+    },
+    {
+      "slug": "esaf-small-finance-bank-limited",
+      "baseSlabs": 49,
+      "cloud": 35,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "idfc-first-bank-ibu",
+      "baseSlabs": 22,
+      "cloud": 8,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "ujjivan-small-finance-bank-limited",
+      "baseSlabs": 43,
+      "cloud": 31,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "karad-urban-co-operative-bank-ltd",
+      "baseSlabs": 22,
+      "cloud": 10,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "utkarsh-small-finance-bank-limited",
+      "baseSlabs": 22,
+      "cloud": 11,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "manipur-rural-bank",
+      "baseSlabs": 24,
+      "cloud": 13,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "rajapur-urban-cooperative-bank-ltd-rajapur",
+      "baseSlabs": 21,
+      "cloud": 12,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-nagaland-state-co-operative-bank-ltd",
+      "baseSlabs": 18,
+      "cloud": 10,
+      "category": "Non-Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "saraswat-co-operative-bank-ltd",
+      "baseSlabs": 30,
+      "cloud": 22,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "zoroastrian-co-operative-bank-ltd",
+      "baseSlabs": 20,
+      "cloud": 12,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "gandhinagar-urban-co-operative-bank-ltd",
+      "baseSlabs": 15,
+      "cloud": 7,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "kangra-central-co-operative-bank-ltd",
+      "baseSlabs": 15,
+      "cloud": 8,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "calicut-co-operative-urban-bank-ltd",
+      "baseSlabs": 15,
+      "cloud": 8,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "bank-of-nova-scotia",
+      "baseSlabs": 7,
+      "cloud": 1,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "south-canara-district-central-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 8,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "akhand-anand-co-operative-bank-ltd-surat",
+      "baseSlabs": 15,
+      "cloud": 9,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "gujarat-gramin-bank",
+      "baseSlabs": 18,
+      "cloud": 13,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "mizoram-rural-bank",
+      "baseSlabs": 17,
+      "cloud": 12,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "nasik-merchants-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 9,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-goa-state-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 5,
+      "category": "Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "kerala-grameena-bank",
+      "baseSlabs": 17,
+      "cloud": 13,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "sbpp-co-operative-bank-ltd-killa-pardi",
+      "baseSlabs": 11,
+      "cloud": 7,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-washim-urban-co-operative-bank-limited",
+      "baseSlabs": 12,
+      "cloud": 8,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-visakhapatnam-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 5,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "ahmedabad-mercantile-co-op-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 11,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-junagadh-jilla-sahakari-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 7,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "eluru-district-co-operative-central-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 6,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "kakinada-co-operative-central-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 7,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "jodhpur-central-co-operative-bank-ltd",
+      "baseSlabs": 2,
+      "cloud": 1,
+      "category": "District Central Co-operative Bank"
+    }
+  ],
+  "cloud_zero": [
+    {
+      "slug": "indusind-bank-ibu",
+      "baseSlabs": 166,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "hdfc-bank-limited",
+      "baseSlabs": 110,
+      "cloud": 0,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "karnataka-bank-limited",
+      "baseSlabs": 73,
+      "cloud": 0,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "tamilnad-mercantile-bank-limited",
+      "baseSlabs": 67,
+      "cloud": 0,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "bank-of-india-ibu",
+      "baseSlabs": 64,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "federal-bank-ibu",
+      "baseSlabs": 55,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "kotak-mahindra-bank-ibu",
+      "baseSlabs": 55,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "idbi-bank-ibu",
+      "baseSlabs": 48,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "yes-bank-limited",
+      "baseSlabs": 46,
+      "cloud": 0,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "bank-of-baroda-ibu",
+      "baseSlabs": 45,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "hsbc-bank-ibu",
+      "baseSlabs": 36,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "hdfc-bank-ibu",
+      "baseSlabs": 34,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "canara-bank-ibu",
+      "baseSlabs": 32,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "axis-bank-ibu",
+      "baseSlabs": 24,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "icici-bank-ibu",
+      "baseSlabs": 24,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "ghaziabad-district-central-co-operative-bank-ltd",
+      "baseSlabs": 22,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "standard-chartered-bank",
+      "baseSlabs": 20,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "haryana-gramin-bank",
+      "baseSlabs": 18,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "indian-bank-ibu",
+      "baseSlabs": 18,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "odisha-grameen-bank",
+      "baseSlabs": 17,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "sangli-urban-co-operative-bank-ltd-sangli",
+      "baseSlabs": 17,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "kalwan-marchants-co-op-bank-ltd",
+      "baseSlabs": 17,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "cooperatieve-rabobank-ua",
+      "baseSlabs": 16,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "qatar-national-bank-qpsc",
+      "baseSlabs": 16,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "nagaland-rural-bank",
+      "baseSlabs": 16,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "mizuho-bank-ibu",
+      "baseSlabs": 16,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "panipat-central-co-operative-bank-ltd",
+      "baseSlabs": 16,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "nagrik-sahakari-bank-maryadit-vidisha",
+      "baseSlabs": 16,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-banaskantha-district-central-co-operative-bank-ltd",
+      "baseSlabs": 15,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "kookmin-bank",
+      "baseSlabs": 14,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "bombay-mercantile-co-operative-bank-limited",
+      "baseSlabs": 14,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-surat-district-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "the-kheda-district-central-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "amritsar-central-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "ajmer-central-co-operative-bank-ltd",
+      "baseSlabs": 14,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "the-telangana-state-cooperative-apex-bank-ltd",
+      "baseSlabs": 13,
+      "cloud": 0,
+      "category": "Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "uttar-pradesh-gramin-bank",
+      "baseSlabs": 13,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+      "baseSlabs": 13,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "mumbai-district-central-co-operative-bank-ltd",
+      "baseSlabs": 13,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "the-panchmahal-district-co-operative-bank-ltd",
+      "baseSlabs": 13,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "paytm-payments-bank-limited",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "Payments Bank"
+    },
+    {
+      "slug": "sumitomo-mitsui-banking-corporation",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "kolhapur-district-central-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "sikar-central-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "nizamabad-district-co-operative-central-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "cuttack-central-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "angul-united-central-co-operative-bank-ltd",
+      "baseSlabs": 12,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "bank-of-ceylon",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "tripura-state-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "vasai-vikas-sahakari-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-thane-palghar-district-central-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "patiala-central-co-operative-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "shahada-peoples-co-operative-bank-ltd-shahada",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "delhi-nagrik-sehkari-bank-ltd",
+      "baseSlabs": 11,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "sberbank",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "rajkot-nagrik-sahakari-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "andhra-pradesh-mahesh-co-op-urban-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "pravara-sahakari-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "punjab-national-bank-ibu",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "IFSC Banking Unit (IFSCA)"
+    },
+    {
+      "slug": "the-amreli-jilla-madhyasth-sahakari-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "hoshiarpur-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "the-anantapur-district-co-operative-central-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "hissar-district-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "jammu-central-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "the-hasti-co-operative-bank-ltd",
+      "baseSlabs": 10,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "bank-of-america",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "the-chandigarh-state-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Non-Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "janakalyan-sahakari-bank-ltd-mumbai",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "sangli-district-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "solapur-district-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "ludhiana-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "sangrur-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "meerut-district-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "varanasi-district-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "agra-zilla-sahakari-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "gorakhpur-zilla-sahakari-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "allahabad-district-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "barmer-central-co-operative-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "vita-merchants-coop-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "rayat-sevak-co-op-bank-ltd-satara",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "rander-peoples-co-op-bank-ltd",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "godhra-urban-co-op-bank-limited",
+      "baseSlabs": 9,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "united-overseas-bank-limited",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "the-daman-and-diu-state-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Non-Scheduled State Co-operative Bank"
+    },
+    {
+      "slug": "jharkhand-gramin-bank",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "ahmednagar-merchants-co-operative-bank-ltd-ahmednagar",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "aurangabad-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "shimoga-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "ganganagar-kendriya-sahakari-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "salem-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "bhopal-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "kanpur-zilla-sahakari-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "karnal-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "central-co-operative-bank-ltd-ara",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "gondia-district-central-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "arvind-sahakari-bank-ltd-katol",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "deccan-merchants-co-op-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "bangalore-city-co-operative-bank-ltd-bangalore",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "tiruchirapalli-city-co-op-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "alwaye-urban-co-operative-bank-ltd",
+      "baseSlabs": 8,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "meghalaya-rural-bank",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "rajasthan-gramin-bank",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "Regional Rural Bank"
+    },
+    {
+      "slug": "the-bhavnagar-district-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "nawanshahr-central-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "vellore-district-central-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "the-kancheepuram-central-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "sirsa-central-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "wai-urban-coop-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "sangola-urban-co-operative-bank-ltd-sangola",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-bhandara-urban-co-operative-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "amreli-nagrik-sahakari-bank-ltd",
+      "baseSlabs": 7,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "credit-agricole-corporate-and-investment-bank",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "the-rajkot-district-co-operative-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "gandhibag-sahakari-bank-ltd-nagpur",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "samata-sahakari-bank-ltd-mumbai",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "gandhinagar-nagarik-co-op-bank-limited",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "saraspur-nagarik-co-op-bank-limited",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "hubli-urban-co-operative-bank-limited-hubli",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "malleswaram-co-operative-bank-ltd-bangalore",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "sir-mvisvesvaraya-co-operative-bank-ltd-bangalore",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "kottayam-co-operative-urban-bank-ltd",
+      "baseSlabs": 6,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "the-mehsana-district-central-co-operative-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "zilla-sahakari-bank-ltd-lucknow",
+      "baseSlabs": 5,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    },
+    {
+      "slug": "bhuj-commercial-co-op-bank-ltd",
+      "baseSlabs": 5,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "udupi-co-operative-town-bank-ltd-udupi",
+      "baseSlabs": 5,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "mysore-merchants-co-operative-bank-ltd-mysore",
+      "baseSlabs": 5,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "export-import-bank-of-india-exim-bank",
+      "baseSlabs": 4,
+      "cloud": 0,
+      "category": "Financial Institution"
+    },
+    {
+      "slug": "ujjain-nagarik-sahakari-bank-maryadit-ujjain",
+      "baseSlabs": 4,
+      "cloud": 0,
+      "category": "Non-Scheduled Urban Co-operative Bank"
+    },
+    {
+      "slug": "small-industries-development-bank-of-india-sidbi",
+      "baseSlabs": 3,
+      "cloud": 0,
+      "category": "Financial Institution"
+    },
+    {
+      "slug": "thanjavur-central-co-operative-bank-ltd",
+      "baseSlabs": 1,
+      "cloud": 0,
+      "category": "District Central Co-operative Bank"
+    }
+  ],
+  "no_data": [
+    {
+      "slug": "idbi-bank-limited",
+      "baseSlabs": 80,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "idfc-first-bank-limited",
+      "baseSlabs": 81,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "south-indian-bank-limited",
+      "baseSlabs": 101,
+      "category": "Private Sector Bank (Indian)"
+    },
+    {
+      "slug": "unity-small-finance-bank-limited",
+      "baseSlabs": 20,
+      "category": "Small Finance Bank"
+    },
+    {
+      "slug": "bank-of-bahrain-and-kuwait-bsc",
+      "baseSlabs": 45,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "sbm-bank-india-limited",
+      "baseSlabs": 61,
+      "category": "Foreign Bank"
+    },
+    {
+      "slug": "tamil-nadu-grama-bank",
+      "baseSlabs": 13,
+      "category": "Regional Rural Bank"
+    }
+  ]
+}

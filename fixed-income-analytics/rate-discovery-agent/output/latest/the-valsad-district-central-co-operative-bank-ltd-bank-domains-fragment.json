@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "the-valsad-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:21:08.072Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "vdc.bank.in",
+  "rate_pages": {
+    "fd": "/intrest-rate/deposits-investment-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/contact/deposits/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

@@ -1,0 +1,173 @@
+{
+  "bank_code": "canara-bank",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "01.07.2025",
+  "source_url": "https://canarabank.bank.in/pages/deposit-interest-rates",
+  "scraped_at": "2026-06-15T10:52:46.158Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 Days to 30 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31 Days to 45 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 Days to 120 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "121 Days to 179 Days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "180 Days to 269 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "270 Days to less than 1 Year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year Only",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 1 Year to 1 Year 3 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 1 Year 3 Months to less than 2 Years",
+      "tenure_min_days": 456,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.05,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 Years & above to less than 3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 Years & above to less than 5 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 Years & above to 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[2] (14 slabs) from 9 table(s); signals={\"pctRows\":15,\"tenureRows\":14,\"bothRows\":14,\"dataRows\":15,\"noisy\":true,\"colCount\":11}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[5]: No INR fixed deposit rate table found for NRO variant in the input; only FCNR foreign currency rates table present.)",
+    "llm_chunk[0]: no result (API error or non-JSON)",
+    "llm_chunk[2]: no result (API error or non-JSON)",
+    "chunk[5]: The provided table lists FCNR deposit rates in foreign currencies (USD, GBP, EUR, CAD, AUD) with no INR fixed deposit rates for NRO accounts. The context states NRO rates are same as domestic term deposits, but no INR slab table was provided."
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 11 (Above 1 Year 3 Months to less than 2 Years): senior rate (6.05%) < general rate (6.2%)"
+      }
+    ]
+  }
+}

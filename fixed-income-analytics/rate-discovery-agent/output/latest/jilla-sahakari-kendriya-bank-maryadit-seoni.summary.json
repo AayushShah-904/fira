@@ -1,0 +1,44 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-seoni",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-seoni",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9847,
+  "duration_ms": 9847,
+  "duration_api_ms": 9627,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.0088016,
+  "input_tokens": 18932,
+  "output_tokens": 768,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit seoni\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditseoni.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditseoni.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 166,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditseoni.com\"}"
+    }
+  ]
+}

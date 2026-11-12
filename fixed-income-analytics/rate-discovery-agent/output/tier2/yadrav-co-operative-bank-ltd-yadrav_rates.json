@@ -1,0 +1,22 @@
+{
+  "bank_code": "yadrav-co-operative-bank-ltd-yadrav",
+  "bank_name": "yadrav co operative bank ltd yadrav",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "yadravbank.in",
+    "found_via": "registry_hint",
+    "notes": "Site is live (WordPress, HTTP 200) with /fixed-deposit/, /deposits/ and /interest-rates/ pages. However /interest-rates/ only describes LOAN products ('affordable interest rates on Home/Mortgage/business/agri loans...') and /fixed-deposit/ describes the FD product features but neither shows a deposit rate table. No rate-card image or deposit-rate PDF among uploads (only forms, annual reports, KYC docs). Bank publishes no FD interest-rate schedule online; directs customers to nearest branch."
+  },
+  "warnings": [
+    "/interest-rates/ page covers loan rates only; no deposit rate table.",
+    "No FD rate-card image or deposit-rate PDF found in wp-content uploads."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "punjab-national-bank-ibu",
+    "extracted_at": "2026-06-05T14:22:40.584Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "pnb.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": "/pnb-giftcity-InterestRate.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "parent_bank_code": "punjab-national-bank",
+  "notes": "IFSC Banking Unit in GIFT City. Rates page has USD and EUR term deposits (5 slabs, max 12 months). Uses parent PNB domain.",
+  "template": {
+    "template_id": "ibu-gift-currency-2col",
+    "template_hash": "sha1:266eac270a60d3b09629e7f4d82ec5de468cbb61",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#EUR"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:50:50.980Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  }
+}

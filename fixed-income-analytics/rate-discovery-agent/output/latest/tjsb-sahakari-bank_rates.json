@@ -1,0 +1,101 @@
+{
+  "bank_code": "tjsb-sahakari-bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://tjsb.bank.in/Interest-Rates",
+  "scraped_at": "2026-06-09T14:10:32.585Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 15,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "16 days to 90 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 days to less than 12 months",
+      "tenure_min_days": 181,
+      "tenure_max_days": 359,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "From 12 months to 24 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 721,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 6.95,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 36 months to 120 months",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T14:10:32.585Z",
+    "manual_verification_needed": false
+  }
+}

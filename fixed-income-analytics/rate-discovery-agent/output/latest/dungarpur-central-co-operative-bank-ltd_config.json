@@ -1,0 +1,33 @@
+{
+  "bank_code": "dungarpur-central-co-operative-bank-ltd",
+  "bank_name": "Dungarpur Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://dungarpurccb.bank.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://dungarpurccb.bank.in/pdf/interestrate.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Rate card is published as PDF, but fetch_pdf returned no extractable text. The PDF is likely a scanned image. Operator transcription required.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": "PDF (scanned image, not machine-readable)",
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:52:14Z",
+    "discovery_method": "web_search + homepage fetch + PDF fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

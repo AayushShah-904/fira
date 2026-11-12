@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+    "extracted_at": "2026-06-06T09:07:45.066Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "smcbl.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://smcbl.bank.in/pdf/Revised%20FD%20Rates.pdf",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T23:10:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://smcbl.bank.in/pdf/Revised%20FD%20Rates.pdf",
+    "slab_count": 7,
+    "hints": "Marathi/Devanagari scanned-PDF rate card; transcribed via vision OCR of the rendered page (DI Layout parser failed on Devanagari tenures, yielding 1 garbage slab). Senior-citizen column applies to age 60+ per the circular note.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

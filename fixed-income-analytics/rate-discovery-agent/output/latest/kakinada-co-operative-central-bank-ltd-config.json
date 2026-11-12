@@ -1,0 +1,40 @@
+{
+  "bank_code": "kakinada-co-operative-central-bank-ltd",
+  "bank_name": "Kakinada Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://kakinadadccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://kakinadadccb.bank.in/Deposit-Schemes.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://kakinadadccb.bank.in/Deposit-Schemes.html",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table.interest-rates-table",
+    "rows": "tbody tr",
+    "effective_date": "div.pb-3.pt-3 h4"
+  },
+  "column_mapping": {
+    "1": "tenure_text",
+    "2": "rate_general_pct",
+    "3": "rate_senior_pct"
+  },
+  "expected_slab_count": 7,
+  "notes": "HTML table with tenure, general rate, senior citizen rate columns. Effective date in heading. Savings rates also present in table.",
+  "scraper_notes": {
+    "framework": "Bootstrap static HTML",
+    "bot_protection": null,
+    "data_format": "Single table, columns for tenure, general, senior rates",
+    "rate_tables_on_page": 1
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "pre-lookup + direct fetch",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "bank_code": "mashreqbank-psc-ibu",
+  "bank_name": "Mashreqbank PSC - GIFT City IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://www.mashreq.com/en/india/giftcity/",
+  "scraped_at": "2026-05-25T11:22:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "rates non-public / on request - Mashreqbank GIFT City IBU is wholesale-oriented. No public deposit rate page found for the IBU; rates not published.",
+    "Confirmed wholesale_only status from registry plus web search; no GIFT-City foreign-currency term-deposit rate card located."
+  ],
+  "tier2_method": "registry status=wholesale_only verified via WebSearch (no public GIFT rate card found)"
+}

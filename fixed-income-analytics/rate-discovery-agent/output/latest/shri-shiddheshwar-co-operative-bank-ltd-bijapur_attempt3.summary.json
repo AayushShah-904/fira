@@ -1,0 +1,48 @@
+{
+  "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "bank_name": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 70294,
+  "duration_ms": 70294,
+  "duration_api_ms": 9713,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.056686,
+  "llm_cost_usd": 0.056686,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 23251,
+  "output_tokens": 1273,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30008,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://shiddeshwarbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30573,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://shiddeshwarbank.com/index.aspx?Cmd=Menu&Comp=Cms&Action=ArtById&MenuId=202&ArtId=37&PublicFile=INTEREST_RATES\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/shri-shiddheshwar-co-operative-bank-ltd-bijapur_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"shri-shiddheshwar"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/shri-shiddheshwar-co-operative-bank-ltd-bijapur_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"shri-shiddheshwar-"
+    }
+  ]
+}

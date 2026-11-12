@@ -1,0 +1,78 @@
+{
+  "bank_code": "canara-bank-ibu",
+  "bank_name": "canara-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 32174,
+  "duration_ms": 32174,
+  "duration_api_ms": 16820,
+  "num_turns": 6,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.32839799999999997,
+  "llm_cost_usd": 0.32839799999999997,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 158487,
+  "output_tokens": 1428,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 15058,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://canarabank.bank.in/pages/ifsc-banking-unit\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 295,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://canarabank.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Canara Bank IFSC Banking Unit GIFT City deposit interest rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/canara-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"canara-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Canara Bank IBU\\\",\\n  \\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/canara-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"canara-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Canara Bank IBU\\\",\\n  \\\"p"
+    }
+  ],
+  "failure_class": "unclassified",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "html_js",
+    "notes": "No IFSC Banking Unit (GIFT City) deposit rates are published at the expected URL or on the homepage. The official IBU page returns a 404 error. No alternate rate card or PDF found in navigation or homepage. Operator review required.",
+    "website_url": "https://canarabank.bank.in",
+    "rate_url_fd": "https://canarabank.bank.in/pages/ifsc-banking-unit",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

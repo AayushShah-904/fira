@@ -1,0 +1,32 @@
+{
+  "bank_code": "sangli-district-central-co-operative-bank-ltd",
+  "bank_name": "Sangli District Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://www.sanglidccbank.com",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No interest rate page or downloadable rate card could be found on the official website. The site appears to be a basic Google Sites deployment with no product or rate information. Manual data entry required.",
+  "scraper_notes": {
+    "framework": "Google Sites",
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "web_search + homepage fetch",
+    "confidence": "none"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "bank_code": "dcb-bank-limited",
+  "bank_name": "DCB Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-02",
+  "source_url": "https://www.dcb.bank.in/rates/fixed-deposit-interest-rates",
+  "scraped_at": "2026-05-25T11:24:41.646Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": 4.75,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to less than 6 months",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": 5,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months to less than 10 months",
+      "tenure_min_days": 181,
+      "tenure_max_days": 303,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "10 months to less than 12 months",
+      "tenure_min_days": 304,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.75,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 months to less than 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 months to less than 16 months",
+      "tenure_min_days": 456,
+      "tenure_max_days": 485,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 7.5,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "16 months to less than 24 months",
+      "tenure_min_days": 486,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "24 months to less than 25 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 759,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.85,
+      "rate_super_senior_pct": 7.95,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "25 months to less than 27 months",
+      "tenure_min_days": 760,
+      "tenure_max_days": 820,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "27 months to less than 34 months",
+      "tenure_min_days": 821,
+      "tenure_max_days": 1034,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "34 months to less than 35 months",
+      "tenure_min_days": 1035,
+      "tenure_max_days": 1064,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.85,
+      "rate_super_senior_pct": 7.95,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "35 months to less than 37 months",
+      "tenure_min_days": 1065,
+      "tenure_max_days": 1125,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "37 months to 38 months",
+      "tenure_min_days": 1126,
+      "tenure_max_days": 1155,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": 7.65,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 38 months to less than 60 months",
+      "tenure_min_days": 1156,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 months to 61 months",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 1855,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.85,
+      "rate_super_senior_pct": 7.95,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 61 months to 120 months",
+      "tenure_min_days": 1856,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.25,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Rates fetched from the site JSON API (POST /api/api-interceptor -> /rates?id=resident-fixed-deposit-interest-rates); the Next.js page renders these client-side.",
+    "rate_super_senior_pct holds DCB Senior Citizens Plus (age 70+); rate_senior_pct is Senior Citizens (60 to <70). Effective-annualized-yield columns were dropped.",
+    "Tenure day bounds for month-based slabs are approximate (30.4 days/month)."
+  ],
+  "tier2_method": "playwright_xhr"
+}

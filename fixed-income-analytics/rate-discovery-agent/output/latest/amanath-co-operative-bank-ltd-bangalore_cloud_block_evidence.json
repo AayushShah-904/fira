@@ -1,0 +1,14 @@
+{
+  "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+  "observations": [
+    {
+      "ts": "2026-06-09T13:41:35.325Z",
+      "evidence_url": "https://amanath-bank.com/intrestrates.html",
+      "http_status": 200,
+      "vendor": "unknown_waf",
+      "signal": "thin-body: status=200 size=39 no-table",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

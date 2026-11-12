@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-maharashtra",
+    "extracted_at": "2026-06-05T09:21:24.221Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "bankofmaharashtra.bank.in",
+  "rate_pages": {
+    "fd": "/domestic-term-deposits",
+    "fd_nre": "/nre-deposits",
+    "fd_nro": null,
+    "fd_fcnr": "/fcnr-deposits",
+    "savings": "/interest-rates",
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Static HTML tables. NRO rates same as domestic. Senior citizen +0.50% for 91+ days up to Rs.5cr. Legacy domain bankofmaharashtra.in redirects to .bank.in NRO rates not listed separately — likely same as domestic FD rates.",
+  "template": {
+    "template_id": "bom-multi-bucket-callable-noncallable",
+    "template_hash": "sha1:f339aaa2b614726070c5220d5db2a810b615651e",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "ignore",
+            "3": "rate_general_pct@3cr_to_10cr",
+            "4": "ignore"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "ignore",
+            "3": "rate_general_pct@3cr_to_10cr",
+            "4": "ignore"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@10cr_to_100cr",
+            "2": "ignore",
+            "3": "rate_general_pct@100cr_to_400cr",
+            "4": "ignore",
+            "5": "rate_general_pct@above_400cr",
+            "6": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.135Z",
+      "gates_passed": "PASS",
+      "slab_count": 31,
+      "cluster_reused": false
+    }
+  }
+}

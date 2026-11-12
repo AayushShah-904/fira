@@ -1,0 +1,50 @@
+{
+  "bank_code": "bhiwani-central-co-operative-bank-ltd",
+  "bank_name": "bhiwani-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10623,
+  "duration_ms": 10623,
+  "duration_api_ms": 10504,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.014054400000000002,
+  "input_tokens": 32628,
+  "output_tokens": 627,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"bhiwani central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"bhiwani central co-operative bank ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhiwanicentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhiwanicentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 46,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhiwanicentralcooperativebank.bank.in\"}"
+    }
+  ]
+}

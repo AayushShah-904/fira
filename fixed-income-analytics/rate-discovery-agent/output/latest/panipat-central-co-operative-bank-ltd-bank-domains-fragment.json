@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "bank_code": "panipat-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T18:51:33.454Z",
+    "source": "bank-domains.json",
+    "source_sha": "cedc199f88a31158f58ab3cc2faacee37e3534061ee8e40ddcce12fdde42ddeb"
+  },
+  "domain": "dnb.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  }
+}

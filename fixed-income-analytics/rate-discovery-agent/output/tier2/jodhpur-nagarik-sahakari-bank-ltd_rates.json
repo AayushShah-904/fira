@@ -1,0 +1,22 @@
+{
+  "bank_code": "jodhpur-nagarik-sahakari-bank-ltd",
+  "bank_name": "Jodhpur Nagarik Sahakari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-02-01",
+  "source_url": "https://jnsbju.bank.in/services/interest-rates/",
+  "scraped_at": "2026-05-25T17:48:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "07 Days to 45 Days", "tenure_min_days": 7, "tenure_max_days": 45, "rate_general_pct": 3.50, "rate_senior_pct": 3.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 Days to 180 Days", "tenure_min_days": 46, "tenure_max_days": 180, "rate_general_pct": 4.75, "rate_senior_pct": 4.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 Days to Less than one year", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.75, "rate_senior_pct": 5.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "One Year & Above to 3 Years", "tenure_min_days": 365, "tenure_max_days": 1095, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Years & Above to 5 Years", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 7.25, "rate_senior_pct": 7.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "More than 5 years and up to 10 years", "tenure_min_days": 1826, "tenure_max_days": 3650, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": ["Effective date 01-02-2024 is stale; bank has not updated the page. Fetched via curl -k (site reachable, WebFetch had served a 404 on a cached path)."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

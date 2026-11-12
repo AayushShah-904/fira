@@ -1,0 +1,132 @@
+{
+  "bank_code": "jogindra-central-co-operative-bank-ltd",
+  "bank_name": "jogindra-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 22554,
+  "duration_ms": 22554,
+  "duration_api_ms": 20496,
+  "num_turns": 14,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.45755799999999996,
+  "input_tokens": 223815,
+  "output_tokens": 1241,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Jogindra Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jogindracentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 166,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jogindracentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jogindra Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 167,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.jogindracentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jogindracentralcoopbank.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jogindra Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jogindra Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jogindra Central Co-operative Bank Ltd branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jogindra Central Co-operative Bank Ltd recruitment\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 611,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://himachal.nic.in/en-IN/jogindra-central-co-operative-bank.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 227,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://himachal.nic.in/en-IN/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 480,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hpsirmaur.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 182,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hpsirmaur.nic.in/public-utility-category/banks/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 190,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hpsirmaur.nic.in/public-utility-category/banks/page/2/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 5,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

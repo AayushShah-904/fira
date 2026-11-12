@@ -1,0 +1,22 @@
+{
+  "bank_code": "pt-bank-maybank-indonesia-tbk",
+  "bank_name": "pt-bank-maybank-indonesia-tbk",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Indonesia",
+  "website": "https://www.maybank.co.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://www.maybank.co.in/downloads_pdf/Deposit%20rates_01052026.pdf",
+    "fd_nre": "https://www.maybank.co.in/nri_dep.html",
+    "fd_nro": null,
+    "fd_fcnr": "https://www.maybank.co.in/fcnr.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:54:54.153Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

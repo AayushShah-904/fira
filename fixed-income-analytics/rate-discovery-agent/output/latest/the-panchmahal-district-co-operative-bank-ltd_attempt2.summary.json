@@ -1,0 +1,72 @@
+{
+  "bank_code": "the-panchmahal-district-co-operative-bank-ltd",
+  "bank_name": "the-panchmahal-district-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 128287,
+  "duration_ms": 128287,
+  "duration_api_ms": 8133,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.049644,
+  "llm_cost_usd": 0.049644,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21422,
+  "output_tokens": 850,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30045,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pdc.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30010,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pdc.bank.in/page/1\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30069,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.pdc.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30030,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.pdc.bank.in/page/1\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 4,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

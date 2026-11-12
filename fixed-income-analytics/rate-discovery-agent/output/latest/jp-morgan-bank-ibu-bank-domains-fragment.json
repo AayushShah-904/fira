@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "bank_code": "jp-morgan-bank-ibu",
+    "extracted_at": "2026-06-05T14:19:56.395Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "jpmorgan.com",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "parent_bank_code": "jp-morgan-chase-bank-na",
+  "notes": "IFSC Banking Unit in GIFT City",
+  "status": "wholesale_only",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "JPMorgan Chase Bank N.A. GIFT City branch (jpmorgan.com/IN/en/about-us/gift-city) is explicitly wholesale/institutional only - serves overseas subsidiaries of Indian companies, non-resident MNEs, financial institutions and multilateral agencies. Product set is Markets (FX/IRS/debt) and Lending; no deposit/FD product with published public rates. IBU deposits are not DICGC-insured."
+  }
+}

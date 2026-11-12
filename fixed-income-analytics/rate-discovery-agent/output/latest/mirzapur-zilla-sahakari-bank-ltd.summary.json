@@ -1,0 +1,44 @@
+{
+  "bank_code": "mirzapur-zilla-sahakari-bank-ltd",
+  "bank_name": "mirzapur-zilla-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10801,
+  "duration_ms": 10801,
+  "duration_api_ms": 10572,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008564,
+  "input_tokens": 18842,
+  "output_tokens": 642,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"mirzapur zilla sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mirzapur-zilla-sahakari-bank-ltd.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mirzapurzillasahakaribank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 171,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mirzapurzillasahakaribank.com\"}"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "bank_code": "chiplun-urban-coopbank-ltd",
+  "bank_name": "Chiplun Urban Coop.Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-11-01",
+  "source_url": "https://chiplunurbanbank.bank.in/%e0%a4%a0%e0%a5%87%e0%a4%b5%e0%a5%80%e0%a4%82%e0%a4%b5%e0%a4%b0%e0%a5%80%e0%a4%b2-%e0%a4%b5%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%9c%e0%a4%a6%e0%a4%b0/",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "15-30 days", "tenure_min_days": 15, "tenure_max_days": 30, "rate_general_pct": 3.00, "rate_senior_pct": 3.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "31-90 days", "tenure_min_days": 31, "tenure_max_days": 90, "rate_general_pct": 4.00, "rate_senior_pct": 4.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "91-180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 5.00, "rate_senior_pct": 5.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "181 days-1 year", "tenure_min_days": 181, "tenure_max_days": 365, "rate_general_pct": 6.50, "rate_senior_pct": 6.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "1 year 1 day-2 years", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 7.00, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "2 years 1 day-3 years", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 7.25, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "3 years 1 day-5 years", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 7.00, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "5 years 1 day-10 years", "tenure_min_days": 1826, "tenure_max_days": 3650, "rate_general_pct": 7.00, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_15l" }
+  ],
+  "special_schemes": [
+    { "name": "Dhanlakshmi Deposit (25 months, simple interest)", "tenure_text": "25 months", "rate_general_pct": 7.50, "rate_senior_pct": 7.75 }
+  ],
+  "warnings": ["Senior premium +0.25% on 1-10yr tenures per page note. Bank retirees +1.00%, senior retirees +1.25% (not modelled). Savings account 3.00% excluded from FD slabs."],
+  "tier2_method": "websearch+webfetch"
+}

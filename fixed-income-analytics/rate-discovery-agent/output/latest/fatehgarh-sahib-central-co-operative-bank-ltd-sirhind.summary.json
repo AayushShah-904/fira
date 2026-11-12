@@ -1,0 +1,50 @@
+{
+  "bank_code": "fatehgarh-sahib-central-co-operative-bank-ltd-sirhind",
+  "bank_name": "fatehgarh-sahib-central-co-operative-bank-ltd-sirhind",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11023,
+  "duration_ms": 11023,
+  "duration_api_ms": 10895,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008800800000000001,
+  "input_tokens": 18974,
+  "output_tokens": 757,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"fatehgarh sahib central co operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fatehgarh-sahib-central-co-operative-bank-ltd-sirhind.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.fatehgarh-sahib-central-co-operative-bank-ltd-sirhind.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fatehgarhsahibcentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.fatehgarhsahibcentralcooperativebank.co.in\"}"
+    }
+  ]
+}

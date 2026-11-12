@@ -1,0 +1,78 @@
+{
+  "bank_code": "yes-bank-limited",
+  "bank_name": "yes-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17724,
+  "duration_ms": 17724,
+  "duration_api_ms": 16329,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.102682,
+  "llm_cost_usd": 0.102682,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 40213,
+  "output_tokens": 2782,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 1034,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://yes.bank.in/sites/web/content/published/api/v1.1/assets/CONT13C66A7E18434B48BC40248F6202F4A4/native/allratesandcharges_pdf.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 359,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://yes.bank.in/pdf?name=nri_interest_rates_pdf.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/yes-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"yes-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Yes Bank Limited\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/yes-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"yes-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Yes Bank Limited\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/yes-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"yes-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Yes Bank Limite"
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "Akamai Bot Manager blocks all programmatic access (fetch_url, Playwright headless). ERR_HTTP2_PROTOCOL_ERROR on all pages. Domestic+NRO rates on /rates-and-charges, NRI PDF at /pdf?name=nri_interest_rates_pdf.pdf — both inaccessible to automated tools. Requires manual data entry.",
+    "website_url": "https://yes.bank.in",
+    "rate_url_fd": "https://yes.bank.in/rates-and-charges",
+    "slab_count": 17,
+    "extraction_confidence": "medium",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+    "domain_was_known": true
+  }
+}

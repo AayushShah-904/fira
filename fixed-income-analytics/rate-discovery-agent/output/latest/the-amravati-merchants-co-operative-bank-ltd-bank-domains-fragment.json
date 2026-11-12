@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "bank_code": "the-amravati-merchants-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T09:06:07.402Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": null,
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  },
+  "scraper_type": "manual",
+  "discovery_status": "no_website",
+  "last_discovered_at": "2026-05-27T18:13:56.859Z",
+  "notes": "No official website (IFSC YESB0AMBL01 — sponsor-bank model, no own infra). Only the forbidden codeforbanks aggregator listed rates."
+}

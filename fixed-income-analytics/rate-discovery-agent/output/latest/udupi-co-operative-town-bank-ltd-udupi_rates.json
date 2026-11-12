@@ -1,0 +1,83 @@
+{
+  "bank_code": "udupi-co-operative-town-bank-ltd-udupi",
+  "bank_name": "Udupi Co-operative Town Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-08-01",
+  "source_url": "https://udupitown.bank.in/resources/assets/upload/file/168_20260105130157.pdf",
+  "scraped_at": "2026-05-21T02:49:59Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Above 15 days upto 30 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 15 days upto 30 days 4.00% 4.50%"
+    },
+    {
+      "tenure_text": "Above 31 days upto 180 days",
+      "tenure_min_days": 32,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 31 days upto 180 days 5.00% 5.50%"
+    },
+    {
+      "tenure_text": "Above 181 days upto 364 days",
+      "tenure_min_days": 182,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 181 days upto 364 days 6.50% 7.00%"
+    },
+    {
+      "tenure_text": "For 365 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "For 365 days 8.00% 8.50%"
+    },
+    {
+      "tenure_text": "366 days & above",
+      "tenure_min_days": 366,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": 7.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "366 days & above 7.30% 7.80%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 fix: re-extracted FD-only (dropped vehicle-loan + RD rows)."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery_status": "recovered"
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 721,
+    "last_scraped_at": "2026-05-21T02:49:59Z",
+    "manual_verification_needed": true
+  }
+}

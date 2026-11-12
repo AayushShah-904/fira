@@ -1,0 +1,32 @@
+{
+  "bank_code": "patan-urban-co-operative-bank-ltd-patan-satara",
+  "bank_name": "patan urban co operative bank ltd patan satara",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-11-22",
+  "source_url": "https://patanurbanbank.co.in/Upload/DepositInterest.pdf",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    { "tenure_text": "15 days to 29 days", "tenure_min_days": 15, "tenure_max_days": 29, "rate_general_pct": 4.00, "rate_senior_pct": 4.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "30 days to 90 days", "tenure_min_days": 30, "tenure_max_days": 90, "rate_general_pct": 5.75, "rate_senior_pct": 6.25, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "181 days to 364 days", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "1 year to 15 months", "tenure_min_days": 365, "tenure_max_days": 456, "rate_general_pct": 8.00, "rate_senior_pct": 8.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" }
+  ],
+  "special_schemes": [
+    { "name": "Somnathi Mudat Thev (special term deposit)", "slabs": [
+      { "tenure_text": "91 days to 180 days", "rate_general_pct": 7.00 },
+      { "tenure_text": "181 days to 364 days", "rate_general_pct": 7.50 },
+      { "tenure_text": "1 year to 15 months", "rate_general_pct": 8.00 },
+      { "tenure_text": "above 15 months", "rate_general_pct": 8.50 }
+    ] }
+  ],
+  "warnings": [
+    "Source is a scanned Marathi circular (PDF, no text layer) read via vision; effective 22/11/2023 — latest published on the bank site.",
+    "Senior citizen rate computed as general + 0.50% per the circular's footer note (no separate senior column printed).",
+    "Doubling-scheme deposits (Damduppat / Damdidpat) listed by maturity term only, not as standard tenure/rate slabs — omitted.",
+    "Deposit insurance up to Rs 5 lakh per circular footer."
+  ],
+  "tier2_method": "ocr"
+}

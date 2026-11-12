@@ -1,0 +1,19 @@
+{
+  "bank_code": "mysore-merchants-co-operative-bank-ltd-mysore",
+  "bank_name": "mysore-merchants-co-operative-bank-ltd-mysore",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://mysurumerchantsbank.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://mysurumerchantsbank.com/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:59:18.595Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,227 @@
+{
+  "bank_code": "axis-bank-ibu",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-11-02",
+  "source_url": "https://axis.bank.in/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf",
+  "scraped_at": "2026-11-12T09:23:01.380Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15 days to less than 1 Month",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 month to less than 2 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 59,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "2 months to less than 3 months",
+      "tenure_min_days": 60,
+      "tenure_max_days": 89,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 months to less than 6months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "6 months to less t\than 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "9 months to less than 1 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 year to less than 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 449,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15 months to less than 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "18 months to less than 2 Years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "2 Years to less than 30 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 899,
+      "rate_general_pct": 4.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "30 months to less than 3 Years",
+      "tenure_min_days": 900,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 Years to less than 4 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 4.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "4 Years to less than 5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 4.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "5 Years to up to 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "validation": {
+    "passed": true,
+    "warning_count": 16,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (7 days to 14 days): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (15 days to less than 1 Month): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (1 month to less than 2 months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (2 months to less than 3 months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (3 months to less than 6months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (6 months to less t\than 9 months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (9 months to less than 1 year): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 8 (1 year to less than 15 months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 9 (15 months to less than 18 months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 10 (18 months to less than 2 Years): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 11 (2 Years to less than 30 months): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 12 (30 months to less than 3 Years): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 13 (3 Years to less than 4 Years): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 14 (4 Years to less than 5 Years): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 15 (5 Years to up to 10 Years): gift tenure 3650d above maximum (1825d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 15 (5 Years to up to 10 Years): gift slab missing currency field"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 10,
+    "last_scraped_at": "2026-11-12T09:23:01.380Z",
+    "manual_verification_needed": false
+  }
+}

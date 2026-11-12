@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "bank_code": "gondia-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:43:23.362Z",
+    "source": "bank-domains.json",
+    "source_sha": "d1f283b965600284ae2a2831e8eda7eb2310f96cc9d57c3c195db01f2cc75fb6"
+  },
+  "domain": "www.gdccbank.bank.in",
+  "scraper_type": "html_js",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "notes": "Operator-flagged 2026-05-12: gondiadccb.co.in displays only recruitment content with no banking products visible. Possibly a scam/lookalike impersonating the bank (a known fraud pattern in India — fake co-op-bank sites that publish job ads to collect application fees). Treat as unverified; do not commit as the bank's site. No legitimate bank-operated website confirmed. Suspicious domain noted here so future discovery runs do not waste budget re-discovering it.",
+  "domain_prev": null,
+  "rate_pages": {
+    "fd_prev": null,
+    "fd": "https://www.gdccbank.bank.in/interest-rates-deposit/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:58:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_tables",
+    "source_url": "https://www.gdccbank.bank.in/interest-rates-deposit/",
+    "slab_count": 8,
+    "hints": "Page (auto-translated from Marathi) lists a 'For Senior Citizens' column showing '1%' for every slab, i.e. +1.00% additional over general rate; rate_senior_pct = general + 1.00. No effective date shown. Tenure phrasings were machine-translated and normalized.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.410Z",
+    "manual_verification_needed": false
+  }
+}

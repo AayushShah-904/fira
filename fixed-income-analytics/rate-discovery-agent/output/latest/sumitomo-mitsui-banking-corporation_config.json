@@ -1,0 +1,22 @@
+{
+  "bank_code": "sumitomo-mitsui-banking-corporation",
+  "bank_name": "sumitomo-mitsui-banking-corporation",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Japan",
+  "website": "https://smbc.co.jp",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://smbc.co.jp/global/india/interest_rates/fd_rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:58:00.718Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_pdf"
+}

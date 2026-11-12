@@ -1,0 +1,45 @@
+{
+  "generated": "2026-05-26",
+  "pack_version": "1.0.0",
+  "banks_listed": 517,
+  "banks_with_variant": 435,
+  "variants_total": 586,
+  "slabs_total": 8591,
+  "slabs_senior": 3621,
+  "slabs_super_senior": 249,
+  "stale_variants": 43,
+  "fcnr_gift_currencies": [
+    "AED",
+    "AUD",
+    "CAD",
+    "CHF",
+    "DKK",
+    "EUR",
+    "GBP",
+    "HKD",
+    "JPY",
+    "NZD",
+    "SEK",
+    "SGD",
+    "USD"
+  ],
+  "variants_by_product": {
+    "regular": 428,
+    "nre": 58,
+    "nro": 43,
+    "fcnr": 42,
+    "gift": 15
+  },
+  "quarantined": [
+    "bank-of-ceylon nre/nro/fcnr",
+    "nasik-dccb",
+    "akola-urban",
+    "national-housing-bank (scheme discontinued)",
+    "amanath (no live source)"
+  ],
+  "baseline_2026_05_14": {
+    "banks_with_variant": 222,
+    "slabs_total": 4806,
+    "slabs_senior": 2270
+  }
+}

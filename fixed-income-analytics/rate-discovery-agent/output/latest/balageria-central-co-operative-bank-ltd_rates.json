@@ -1,0 +1,181 @@
+{
+  "bank_code": "balageria-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2022-12-05",
+  "source_url": "https://balageriaccb.bank.in/deposit-interest-rates/",
+  "scraped_at": "2026-05-26T07:16:40.632Z",
+  "extraction_confidence": "high",
+  "special_schemes": [
+    {
+      "scheme_name": "Monthly Interest Scheme (3 years)",
+      "tenure_text": "3 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Header is a title row + sub-header row; columns mapped as Tenure | General(<1Cr) | General(1-25Cr) | Senior(<1Cr) | Senior(1-25Cr).",
+    "Retail tier (<1Cr) recorded as deposit_range below_3cr; 1-25Cr tier recorded as 1cr_to_10cr.",
+    "Effective date w.e.f. 05/12/2022 per page.",
+    "Full re-extraction via Tier-2 2026-05-26: corrected the prior senior-column mismap; complete tenure ladder restored."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T07:16:40.632Z",
+    "note": "agent re-extracted full correct table (sprint-007 senior-col bug fix); clobber-protected. Durable template column_map fix is a follow-up for HTML-static banks."
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91-180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181-364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 3 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 Yrs. to 5 Yrs.",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 5 Yrs.",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": 4.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "91-180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.35,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "181-364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 3 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "3 Yrs. to 5 Yrs.",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "More than 5 Yrs.",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    }
+  ],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:11.118Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T07:16:40.632Z",
+      "retained_slab_count": 14
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1326,
+    "last_scraped_at": "2026-05-26T07:16:40.632Z",
+    "manual_verification_needed": true
+  }
+}

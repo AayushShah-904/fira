@@ -1,0 +1,27 @@
+{
+  "bank_code": "bank-of-baroda-ibu",
+  "variant": "regular",
+  "slab_count": 45,
+  "key_rates": {
+    "1y": {
+      "general": 4.25,
+      "senior": null
+    },
+    "2y": {
+      "general": 3.8,
+      "senior": null
+    },
+    "3y": {
+      "general": 3.4,
+      "senior": null
+    },
+    "5y": {
+      "general": 3.4,
+      "senior": null
+    }
+  },
+  "effective_date": "2026-05-19",
+  "source_url": "https://ifsc.bankofbaroda.bank.in/rates-and-charges/interest-rates",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:53.984Z"
+}

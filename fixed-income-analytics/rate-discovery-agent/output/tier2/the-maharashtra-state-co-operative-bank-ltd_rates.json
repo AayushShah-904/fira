@@ -1,0 +1,28 @@
+{
+  "bank_code": "the-maharashtra-state-co-operative-bank-ltd",
+  "bank_name": "The Maharashtra State Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-18",
+  "source_url": "https://msc.bank.in/rate-of-interest-on-savings-and-various-term-deposits",
+  "scraped_at": "2026-05-25T11:45:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 Days to 29 Days", "tenure_min_days": 7, "tenure_max_days": 29, "rate_general_pct": 3.25, "rate_senior_pct": 4.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "30 Days to 60 Days", "tenure_min_days": 30, "tenure_max_days": 60, "rate_general_pct": 4.25, "rate_senior_pct": 5.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "61 Days to 90 Days", "tenure_min_days": 61, "tenure_max_days": 90, "rate_general_pct": 4.75, "rate_senior_pct": 5.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 Days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 4.90, "rate_senior_pct": 5.90, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to 364 Days", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.05, "rate_senior_pct": 6.05, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "365 days", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 6.85, "rate_senior_pct": 7.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "More than 1 Year to below 2 years", "tenure_min_days": 366, "tenure_max_days": 729, "rate_general_pct": 6.90, "rate_senior_pct": 7.90, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 years to below 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 7.00, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years to below 10 years (Maximum 10 years)", "tenure_min_days": 1095, "tenure_max_days": 3650, "rate_general_pct": 5.75, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Tax Benefit Deposit Scheme (2016)", "tenure_min_days": 1825, "tenure_max_days": null, "rate_general_pct": 5.75, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": [
+    "bank-domains.json fd URL (msc.bank.in/int_rate_saving_term.aspx) 404s; legacy mscbank.com .aspx pages also dead. Live rates at new URL msc.bank.in/rate-of-interest-on-savings-and-various-term-deposits (found via mscbank.com homepage links)",
+    "rate_general_pct uses the 'Deposits below Rs.15 Lakhs (Callable)' column; page also has Rs15L+ and non-callable columns",
+    "Senior-citizen rates computed as general + 1.00% per the page note (no separate senior column published)"
+  ],
+  "tier2_method": "playwright on msc.bank.in/rate-of-interest-on-savings-and-various-term-deposits (discovered via mscbank.com homepage after .aspx pages 404'd) -> HTML table parse"
+}

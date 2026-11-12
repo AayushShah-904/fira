@@ -1,0 +1,79 @@
+{
+  "bank_code": "bharati-sahakari-bank-limited",
+  "bank_name": "Bharati Sahakari Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://bharatibankpune.com/interest-rates/",
+  "scraped_at": "2026-05-25T11:18:34.709Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "14 days upto 180 days",
+      "tenure_min_days": 14,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days upto 365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": 4.55,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "13 months to 24 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 720,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "25 months to 36 months",
+      "tenure_min_days": 750,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "37 months to 60 months",
+      "tenure_min_days": 1110,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 months to 120 months",
+      "tenure_min_days": 1830,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Tax Saver FD (min 5 years, u/s 80C)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Effective date not shown on page. Row covering 13-120 months listed combined tenures all at same rate; split into individual slabs."
+  ],
+  "tier2_method": "playwright_html_table_parse"
+}

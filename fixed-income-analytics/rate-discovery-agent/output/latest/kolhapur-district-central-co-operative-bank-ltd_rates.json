@@ -1,0 +1,121 @@
+{
+  "bank_code": "kolhapur-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://kolhapurdccb.bank.in/fixed-deposit/",
+  "scraped_at": "2026-06-09T14:30:08.105Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "30 to 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46 to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91 to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181 to 274 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 274,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "275 to 364 Days",
+      "tenure_min_days": 275,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "365 Days) to 3 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 Years and Above",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "115 Months",
+      "tenure_min_days": 3450,
+      "tenure_max_days": 3450,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "108 Months",
+      "tenure_min_days": 3240,
+      "tenure_max_days": 3240,
+      "rate_general_pct": 7.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "102 Months",
+      "tenure_min_days": 3060,
+      "tenure_max_days": 3060,
+      "rate_general_pct": 8.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "96 Months",
+      "tenure_min_days": 2880,
+      "tenure_max_days": 2880,
+      "rate_general_pct": 8.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 2 tables on page (2 rate-bearing by score)",
+    "llm_fallback_no_result: deterministic returned 0 slabs; LLM produced no usable slabs (trigger: zero=true suspect=true prefer=false)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 12 slab(s) from page text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T14:30:08.105Z",
+    "manual_verification_needed": false
+  }
+}

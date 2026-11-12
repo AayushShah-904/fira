@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "bank_code": "jp-morgan-chase-bank-na",
+    "extracted_at": "2026-06-05T11:44:49.030Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "www.jpmorgan.com",
+  "rate_pages": {
+    "fd": "https://www.jpmorgan.com/content/dam/jpm/global/disclosures/IN/india_deposit_rate.pdf",
+    "fd_index_linked": "/content/dam/jpm/global/disclosures/IN/india_deposit_rate_index.pdf",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_prev": "/content/dam/jpm/global/disclosures/IN/india_deposit_rate.pdf",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "notes": "PDF with amount-slab based rate grid (tenure rows x amount columns). 1 tables",
+  "domain_prev": "jpmorgan.com",
+  "extraction_method": "manual_pdf_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T16:55:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "pdf",
+    "source_url": "https://www.jpmorgan.com/content/dam/jpm/global/disclosures/IN/india_deposit_rate.pdf",
+    "slab_count": 26,
+    "hints": "jpmorgan.com global-disclosures india_deposit_rate.pdf; retail <3cr tier extracted from bulk matrix by x-coord; no senior; eff 2026-05-25",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "bank_code": "jammu-kashmir-bank-limited",
+  "reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T19:29:16.028Z",
+  "attempts": 3
+}

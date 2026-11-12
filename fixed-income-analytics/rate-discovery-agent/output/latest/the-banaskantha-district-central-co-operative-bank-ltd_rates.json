@@ -1,0 +1,145 @@
+{
+  "bank_code": "the-banaskantha-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-03",
+  "source_url": "https://banas.bank.in/page/35",
+  "scraped_at": "2026-05-23T10:30:25.698Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46 days to 89 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 89,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "90 days to 179 days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "180 days to 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271 days to 364 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 year and above to under 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "2 years and above to 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 years and above to 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1440,
+      "tenure_max_days": 1440,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/21 slabs had parseable tenures — likely textual content)",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: input_truncated_mid_table)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 15 slab(s) from page text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 385,
+    "last_scraped_at": "2026-05-23T10:30:25.698Z",
+    "manual_verification_needed": true
+  }
+}

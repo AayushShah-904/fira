@@ -1,0 +1,119 @@
+{
+  "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-06-15",
+  "source_url": "https://hsbc.co.in/nri/products/fcnr-deposit/",
+  "scraped_at": "2026-06-15T11:26:38.950Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "2 years 2 years to less than 3 years 3 years Simple interest",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 2189,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 2.75,
+      "rate_super_senior_pct": 2.75,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 years 2 years to less than 3 years 3 years Simple interest",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 2189,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 0.5,
+      "rate_super_senior_pct": 0.5,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 0.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "validation": {
+    "passed": true,
+    "warning_count": 4,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (2 years 2 years to less than 3 years 3 years Simple interest): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (2 years 2 years to less than 3 years 3 years Simple interest): fcnr tenure 2189d above maximum (1825d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (2 years 2 years to less than 3 years 3 years Simple interest): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (2 years 2 years to less than 3 years 3 years Simple interest): fcnr tenure 2189d above maximum (1825d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 38,
+    "last_scraped_at": "2026-06-15T11:26:38.950Z",
+    "manual_verification_needed": false
+  }
+}

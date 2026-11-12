@@ -1,0 +1,19 @@
+{
+  "bank_code": "jpmorgan-securities-plc-ibu",
+  "bank_name": "J.P.Morgan Securities PLC – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T17:46:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "jpmorgan.com",
+    "found_via": "websearch",
+    "notes": "J.P. Morgan's GIFT IFSC banking unit (jpmorgan.com/IN/en/about-us/gift-city, IFSC GIFT0CHAS01) serves offshore/onshore corporate & institutional clients with fixed income, FX, commodities and debt/capital-market solutions across specified currencies (AUD,CAD,CHF,EUR,GBP,JPY,NOK,NZD,SEK,SGD,USD). No public foreign-currency term-deposit rate card; wholesale only. The 'Securities PLC' entity is a securities dealer, not a retail deposit-taking unit."
+  },
+  "warnings": ["IBU / wholesale institutional; deposits not DICGC-insured; no public retail FD rate table."],
+  "tier2_method": "websearch+webfetch"
+}

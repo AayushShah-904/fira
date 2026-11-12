@@ -1,0 +1,143 @@
+{
+  "bank_code": "au-small-finance-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-09-01",
+  "source_url": "https://au.bank.in/interest-rates/fixed-deposit-interest-rates",
+  "scraped_at": "2026-11-12T09:23:51.718Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 Months 1 Day to 15 Months",
+      "tenure_min_days": 361,
+      "tenure_max_days": 450,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.29,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "12 Months 1 Day to 15 Months 7.10% 7.29%"
+    },
+    {
+      "tenure_text": "15 Months 1 Day to 18 Months",
+      "tenure_min_days": 451,
+      "tenure_max_days": 540,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.19,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "15 Months 1 Day to 18 Months 7.00% 7.19%"
+    },
+    {
+      "tenure_text": "18 months 1 days to 24 months",
+      "tenure_min_days": 541,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.19,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "18 months 1 days to 24 months 7.00% 7.19%"
+    },
+    {
+      "tenure_text": "24 Months 1 Day to 30 Months",
+      "tenure_min_days": 721,
+      "tenure_max_days": 900,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.29,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "24 Months 1 Day to 30 Months 7.10% 7.29%"
+    },
+    {
+      "tenure_text": "30 Months 1 Day to 36 Months",
+      "tenure_min_days": 901,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": 7.61,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "30 Months 1 Day to 36 Months 7.40% 7.61%"
+    },
+    {
+      "tenure_text": "36 Months 1 Day to 45 Months",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 1350,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.19,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "36 Months 1 Day to 45 Months 7.00% 7.19%"
+    },
+    {
+      "tenure_text": "45 Months 1 Day to less than 60 Months",
+      "tenure_min_days": 1351,
+      "tenure_max_days": 1799,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.92,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "45 Months 1 Day to less than 60 Months 6.75% 6.92%"
+    },
+    {
+      "tenure_text": "60 Months to 120 Months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.92,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "60 Months to 120 Months 6.75% 6.92%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "validation": {
+    "passed": true,
+    "warning_count": 4,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (12 Months 1 Day to 15 Months): nre tenure 361d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 9 (12 Months 1 Day to 15 Months): nre tenure 361d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 17 (12 Months 1 Day to 15 Months): nre tenure 361d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 25 (12 Months 1 Day to 15 Months): nre tenure 361d below minimum (365d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-11-12T09:23:51.718Z",
+    "manual_verification_needed": false
+  }
+}

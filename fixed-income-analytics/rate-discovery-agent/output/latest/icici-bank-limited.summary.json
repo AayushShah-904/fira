@@ -1,0 +1,210 @@
+{
+  "bank_code": "icici-bank-limited",
+  "bank_name": "icici-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 67158,
+  "duration_ms": 67158,
+  "duration_api_ms": 2406,
+  "num_turns": 7,
+  "tool_call_count": 27,
+  "total_cost_usd": 0.013548,
+  "llm_cost_usd": 0.013548,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 12050,
+  "output_tokens": 5455,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 4677,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 7,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 3037,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd",
+      "duration_ms": 4082,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd",
+      "duration_ms": 9026,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[1,2]",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 10,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 2916,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nre",
+      "duration_ms": 3976,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nre",
+      "duration_ms": 11093,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nre@pages[1,2]",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nre",
+      "duration_ms": 11,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 2292,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nro",
+      "duration_ms": 9061,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nro@pages[1,2]",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nro",
+      "duration_ms": 10,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 2913,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_fcnr",
+      "duration_ms": 4871,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_fcnr",
+      "duration_ms": 6743,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:fcnr@pages[1]",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_fcnr",
+      "duration_ms": 10,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_js",
+    "notes": "",
+    "website_url": "https://icici.bank.in",
+    "rate_url_fd": "https://icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+    "slab_count": 10,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

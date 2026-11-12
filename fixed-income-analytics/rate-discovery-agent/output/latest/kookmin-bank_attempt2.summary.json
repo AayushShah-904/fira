@@ -1,0 +1,102 @@
+{
+  "bank_code": "kookmin-bank",
+  "bank_name": "kookmin-bank",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 128209,
+  "duration_ms": 128209,
+  "duration_api_ms": 39126,
+  "num_turns": 3,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.362522,
+  "llm_cost_usd": 0.362522,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 173229,
+  "output_tokens": 2008,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 22544,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/depo/product/interestRates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22138,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/nre-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22213,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/nro-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22185,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/fcnr-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_type\\\": \\\"FB\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": \\\"FD\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": "
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_js",
+    "notes": "No fixed deposit or NRI/FCNR interest rates are published on the official website. All tested rate pages (domestic, NRE, NRO, FCNR) are Vue.js SPAs but contain no rate tables or extractable rate data. Only lending rates (MCLR/EBLR) are published. Manual operator review required if rates are published elsewhere or in a non-standard format.",
+    "website_url": "https://kbstar.bank.in",
+    "rate_url_fd": "https://kbstar.bank.in/depo/product/interestRates",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

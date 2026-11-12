@@ -1,0 +1,97 @@
+{
+  "bank_code": "abhyudaya-co-operative-bank-ltd-mumbai",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-08-25",
+  "source_url": "https://abhyudaya.bank.in/english/Deposit-rates.aspx",
+  "scraped_at": "2026-06-28T10:24:05.585Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 45 days(new slab)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 45 days(new slab) 3.75 4.00"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": 4.4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "46 days to 90 days 4.15 4.40"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.4,
+      "rate_senior_pct": 5.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "91 days to 180 days 5.40 5.90"
+    },
+    {
+      "tenure_text": "181 to 12 months",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "source_row_text": "181 to 12 months 6.15 6.65"
+    },
+    {
+      "tenure_text": "Above 12 months to 24 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 12 months to 24 months 6.35 6.75"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 24 months to 36 months 6.55 6.90"
+    },
+    {
+      "tenure_text": "Above 36 months to 60 months (new slab)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 36 months to 60 months (new slab) 6.15 6.65"
+    },
+    {
+      "tenure_text": "Above 60 months and up to & inclusive of 120 months",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": 6.15,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 60 months and up to & inclusive of 120 months 5.90 6.15"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (8 slabs) from 1 table(s); signals={\"pctRows\":9,\"tenureRows\":8,\"bothRows\":8,\"dataRows\":9,\"noisy\":true,\"colCount\":3}",
+    "llm_fallback: deterministic returned 8 slabs (suspect: multi_table=true too_few=false); LLM extracted 8 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 332,
+    "last_scraped_at": "2026-06-28T10:24:05.585Z",
+    "manual_verification_needed": true
+  }
+}

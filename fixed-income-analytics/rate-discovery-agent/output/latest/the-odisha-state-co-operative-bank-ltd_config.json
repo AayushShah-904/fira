@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-odisha-state-co-operative-bank-ltd",
+  "bank_name": "the-odisha-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Odisha",
+  "website": "https://odishascb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://odishascb.bank.in/depositescheme.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:40:55.993Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,195 @@
+{
+  "bank_code": "axis-bank-limited",
+  "bank_name": "Axis Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposits-25-may-26.pdf",
+  "scraped_at": "2026-05-25T11:30:31.407Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 - 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 - 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 - 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days - 87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "88 days - 3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months 25 days < 4 months",
+      "tenure_min_days": 115,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months < 9 months",
+      "tenure_min_days": 181,
+      "tenure_max_days": 273,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "9 months < 1 year",
+      "tenure_min_days": 274,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year - 1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 395,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 396,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 456,
+      "tenure_max_days": 545,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 546,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Authoritative domestic FD rate-card PDF (w.e.f. 25 May 2026). The stored 21-may-26 PDF URL 404s; current dated PDF discovered via WebSearch and downloaded through a Playwright browser context (bypasses anti-bot). The live FD HTML page is JS-rendered and only surfaced 2 tenure rows headless, which matched the PDF (1yr=6.25, 18M=6.45) as cross-validation.",
+    "Used the Less-than-Rs-3-crore columns (retail/below_3cr) for both general and senior. The PDF also has a 3cr-to-5cr column and separate >=5cr bulk pages (not included here).",
+    "Senior premium is +0.50% on most slabs and +0.75% on the 5-10 year slab.",
+    "Month-based tenure day bounds are approximate."
+  ],
+  "tier2_method": "websearch+webfetch",
+  "extraction_method": "manual_pdf_transcription",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "websearch+webfetch",
+    "extraction_method": "manual_pdf_transcription",
+    "sourced_at": "2026-05-25T11:30:31.407Z"
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-05-25T11:30:31.407Z",
+    "manual_verification_needed": false
+  }
+}

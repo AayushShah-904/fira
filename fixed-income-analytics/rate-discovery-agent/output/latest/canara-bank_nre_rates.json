@@ -1,0 +1,334 @@
+{
+  "bank_code": "canara-bank",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-07-13",
+  "source_url": "https://canarabank.bank.in/pages/deposit-interest-rates",
+  "scraped_at": "2026-07-22T17:21:55.586Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Canara Bank rate table w.e.f. 13.07.2026 (NRE Term Deposits Rs 3Cr to <10Cr Callable & Non-Callable).",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year Only",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "1 Year Only | 6.20% Callable | 6.35% Yield"
+    },
+    {
+      "tenure_text": "1 Year Only",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.23,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_non_callable",
+      "source_row_text": "1 Year Only | 6.23% Non-Callable | 6.38% Yield"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "Above 1 Year to less than 2 Years | 6.20% Callable"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.23,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_non_callable",
+      "source_row_text": "Above 1 Year to less than 2 Years | 6.23% Non-Callable"
+    },
+    {
+      "tenure_text": "2 years & above to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "2 years & above to less than 3 years | 5.50% Callable"
+    },
+    {
+      "tenure_text": "2 years & above to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 5.53,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_non_callable",
+      "source_row_text": "2 years & above to less than 3 years | 5.53% Non-Callable"
+    },
+    {
+      "tenure_text": "3 years & above to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "3 years & above to less than 5 years | 5.00% Callable"
+    },
+    {
+      "tenure_text": "3 years & above to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5.03,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_non_callable",
+      "source_row_text": "3 years & above to less than 5 years | 5.03% Non-Callable"
+    },
+    {
+      "tenure_text": "5 years & above to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "5 years & above to 10 years | 5.00% Callable"
+    },
+    {
+      "tenure_text": "5 years & above to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.03,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_non_callable",
+      "source_row_text": "5 years & above to 10 years | 5.03% Non-Callable"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 10,
+    "last_scraped_at": "2026-07-22T17:21:55.586Z",
+    "manual_verification_needed": false
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-09-24T08:31:25.368Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-24T08:33:32.596Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:43:00.417Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:43:19.620Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:45:38.016Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:47:57.308Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:48:54.380Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:50:55.594Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-09-30T13:52:34.891Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-10-01T20:18:03.264Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-10-01T20:20:19.099Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-10-01T20:22:19.428Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-11T13:17:11.759Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-11T13:19:11.096Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-11T13:39:17.706Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-11T13:41:44.313Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-11T13:43:52.598Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-12T09:37:14.871Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-12T09:40:06.478Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    },
+    {
+      "attempted_at": "2026-11-12T09:42:15.672Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 19,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.586Z",
+      "retained_slab_count": 10
+    }
+  ]
+}

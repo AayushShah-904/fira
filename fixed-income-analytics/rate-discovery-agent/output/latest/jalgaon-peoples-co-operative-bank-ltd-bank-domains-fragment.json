@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "jalgaon-peoples-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:28:08.165Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "jpc.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Unknown — page required JS rendering (Playwright needed). SSL certificate issue with WebFetch. Single HTML table with 2 deposit tiers x 2 rate categories (general + senior). 1 tables",
+  "template": {
+    "template_id": "coop-bankin-4col-amount-bucketed-general-senior",
+    "template_hash": "sha1:aa39a33518d05320d28da16202bfc7bb33d0905c",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_senior_pct@below_1cr",
+            "3": "rate_general_pct@above_1cr",
+            "4": "rate_senior_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

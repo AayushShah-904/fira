@@ -1,0 +1,42 @@
+{
+  "bank_code": "hubli-urban-co-operative-bank-limited-hubli",
+  "bank_name": "hubli-urban-co-operative-bank-limited-hubli",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 39015,
+  "duration_ms": 39015,
+  "duration_api_ms": 7824,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.064972,
+  "llm_cost_usd": 0.064972,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 29102,
+  "output_tokens": 846,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 710,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hubliurban.bank.in/Services\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30079,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.hubliurban.bank.in/Services\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 402,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hubliurban.bank.in/\"}"
+    }
+  ]
+}

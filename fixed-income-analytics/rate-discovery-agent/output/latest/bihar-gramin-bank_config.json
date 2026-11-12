@@ -1,0 +1,19 @@
+{
+  "bank_code": "bihar-gramin-bank",
+  "bank_name": "bihar-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Bihar",
+  "website": "https://bgb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://bgb.bank.in/welcome/quickview/2"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:21:04.962Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

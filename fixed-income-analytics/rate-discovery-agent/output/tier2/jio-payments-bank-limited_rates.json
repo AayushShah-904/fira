@@ -1,0 +1,19 @@
+{
+  "bank_code": "jio-payments-bank-limited",
+  "bank_name": "Jio Payments Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_fd_product",
+  "website_metadata": {
+    "domain": "jiopayments.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Payments Bank — legally cannot offer term/fixed deposits (RBI Payments Bank licence). Official 'Rate of Interest w.e.f. 16 January 2026' PDF (jiopayments.bank.in/docs/.../rate-of-interest-wef-16-january-2026.pdf) covers ONLY savings interest: <=Rs.1 lakh 0.50%, >Rs.1 lakh 4.00%. Balances above ~INR 1.95 lakh swept to partner Suryoday SFB. 'Savings Pro' uses overnight funds (not an FD). Aggregator 'FD rates' listings (codeforbanks) are fabricated."
+  },
+  "warnings": ["Re-verified: no FD product exists for this Payments Bank; only savings-account interest published."],
+  "tier2_method": "websearch+webfetch"
+}

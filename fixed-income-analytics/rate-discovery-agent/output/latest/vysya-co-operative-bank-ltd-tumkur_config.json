@@ -1,0 +1,19 @@
+{
+  "bank_code": "vysya-co-operative-bank-ltd-tumkur",
+  "bank_name": "vysya-co-operative-bank-ltd-tumkur",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://tvcbltd.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://tvcbltd.bank.in/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:57:25.037Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

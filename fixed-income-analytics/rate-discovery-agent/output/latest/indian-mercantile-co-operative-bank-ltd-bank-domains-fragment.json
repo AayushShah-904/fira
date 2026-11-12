@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "bank_code": "indian-mercantile-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:17:27.102Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "imcbankltd.in",
+  "rate_pages": {
+    "fd": "/term-deposit-rate-of-intt/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account/",
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "notes": "WordPress site with placeholder/empty content. No rate data published.",
+  "status": "site_unreachable",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Bank's own site exists. Prior reachable visit confirmed /term-deposit-rate-of-intt/ is an empty template (141KB HTML, header+nav only, 0 tables, 0 percent values, no rate image/PDF) via both Playwright and WebFetch; already flagged scraper_type=manual. This re-check found the whole site now returns HTTP 409 to automated clients (transient WAF), but the underlying issue is that the rate page publishes no data — requires manual entry."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "bank_code": "ghaziabad-district-central-co-operative-bank-ltd",
+  "bank_name": "Ghaziabad District Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-11-03",
+  "source_url": "https://zsblghaziabad.bank.in/irc.php",
+  "scraped_at": "2026-06-05T18:26:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "15-45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91-180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "181-364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.42,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "More than 1 year, Till 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.43,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "More than 2 years, Till 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "More than 3 years, Till 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "More than 5 years, Till 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "444 Days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior citizens get 0.50% extra interest on deposits of minimum 1 year after age certificate."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 262,
+    "last_scraped_at": "2026-06-05T18:26:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "bank_code": "sangli-urban-co-operative-bank-ltd-sangli",
+  "bank_name": "Sangli Urban Co-operative Bank Ltd Sangli",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-02",
+  "source_url": "https://sangliurban.bank.in/deposit-int-rate",
+  "scraped_at": "2026-05-21T00:03:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 Days TO 90 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days TO 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year To less than 2 Years [Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year To less than 2 Years [Non-Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Years [Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Years [Non-Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Fixed Deposit 80 C & Samruddhi Deposit 80 C",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Sukanaya Samrudhi Deposit",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Non-Callable 12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "07 Days TO 90 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "91 Days 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "1 Year To Less Than 2 Years [Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "1 Year To Less Than 2 Years [Non-Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Year [Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Year [Non-Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "name": "Amrut Mohotsavi Lakshadheesh Thev Yojana",
+      "tenure_text": "60 Months/5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": null
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:15.890Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-21T00:03:00Z",
+      "retained_slab_count": 17
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 112,
+    "last_scraped_at": "2026-05-21T00:03:00Z",
+    "manual_verification_needed": true
+  }
+}

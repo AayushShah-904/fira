@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "bank_code": "citibank-na",
+    "extracted_at": "2026-06-05T11:28:55.000Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "citigroup.com",
+  "rate_pages": {
+    "fd": "/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "fd_nro": "/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "PDF rate card (Excel-generated), single page, two tables (Residents + NRO/NRE) with identical rates. 2 tables",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:7355d26cebd0c3ca0d16f27f6d3b87f0b515f895",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T08:27:09.183Z",
+      "gates_passed": "PASS",
+      "slab_count": 34,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

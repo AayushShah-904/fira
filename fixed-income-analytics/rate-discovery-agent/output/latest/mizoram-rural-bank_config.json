@@ -1,0 +1,19 @@
+{
+  "bank_code": "mizoram-rural-bank",
+  "bank_name": "mizoram-rural-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Mizoram",
+  "website": "https://mrb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://mrb.bank.in/depositrate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:32:19.519Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

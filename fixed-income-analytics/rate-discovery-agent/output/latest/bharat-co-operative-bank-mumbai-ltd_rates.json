@@ -1,0 +1,346 @@
+{
+  "bank_code": "bharat-co-operative-bank-mumbai-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-06",
+  "source_url": "https://www.bharatbank.bank.in/interest_rates_fd.html",
+  "scraped_at": "2026-06-09T13:49:38.934Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days upto 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "1 7 Days upto 29 Days 5.50 5.50 5.50"
+    },
+    {
+      "tenure_text": "30 Days upto 60 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "2 30 Days upto 60 Days 5.50 5.50 5.50"
+    },
+    {
+      "tenure_text": "61 Days upto 90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "3 61 Days upto 90 Days 5.75 5.75 5.75"
+    },
+    {
+      "tenure_text": "91 Days upto 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "4 91 Days upto 180 Days 6.50 6.50 6.50"
+    },
+    {
+      "tenure_text": "181 Days to less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "5 181 Days to less than 1 year 7.00 7.00 7.00"
+    },
+    {
+      "tenure_text": "1 year to 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "6 1 year to 15 months 7.40 7.50 7.45"
+    },
+    {
+      "tenure_text": "1 year to 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr",
+      "source_row_text": "6 1 year to 15 months 7.40 7.50 7.45"
+    },
+    {
+      "tenure_text": "1 year to 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 7.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_and_above",
+      "source_row_text": "6 1 year to 15 months 7.40 7.50 7.45"
+    },
+    {
+      "tenure_text": "Above 15 months to 2 years ",
+      "tenure_min_days": 456,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "7 Above 15 months to 2 years 7.00 7.00 7.00"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years ",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "8 Above 2 years to 3 years 6.85 6.85 6.85"
+    },
+    {
+      "tenure_text": "Above 3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "9 Above 3 years to 5 years 6.60 6.60 6.60"
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "10 Above 5 years 6.75 6.75 6.75"
+    },
+    {
+      "tenure_text": "7 Days upto 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 7 Days upto 29 Days 4.50 4.50"
+    },
+    {
+      "tenure_text": "30 Days upto 60 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 30 Days upto 60 Days 4.50 4.50"
+    },
+    {
+      "tenure_text": "61 Days upto 90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 61 Days upto 90 Days 4.75 4.75"
+    },
+    {
+      "tenure_text": "91 Days upto 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 91 Days upto 180 Days 5.50 5.50"
+    },
+    {
+      "tenure_text": "181 Days to less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 181 Days to less than 1 year 6.00 6.00"
+    },
+    {
+      "tenure_text": "1 year to 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 1 year to 15 months 6.90 7.40"
+    },
+    {
+      "tenure_text": "Above 15 months to 2 years",
+      "tenure_min_days": 456,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Above 15 months to 2 years 7.00 7.50"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years  ",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8 Above 2 years to 3 years   6.85 7.35"
+    },
+    {
+      "tenure_text": "Above 3 years to 5 years ",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9 Above 3 years to 5 years  6.60 7.10"
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10 Above 5 years 6.75 7.25"
+    },
+    {
+      "tenure_text": "Flexi Fixed Deposit Current Account (FFDCA) 29 days",
+      "tenure_min_days": 29,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "11 Flexi Fixed Deposit Current Account (FFDCA) 29 days 3.50% p.a."
+    },
+    {
+      "tenure_text": "Flexi Fixed Deposit Saving Account (FFDSB) 90 days)",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 Flexi Fixed Deposit Saving Account (FFDSB) 90 days) 4.00% p.a."
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 7.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "1 12 Months 7.35 7.45 7.40"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 7.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr",
+      "source_row_text": "1 12 Months 7.35 7.45 7.40"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_and_above",
+      "source_row_text": "1 12 Months 7.35 7.45 7.40"
+    },
+    {
+      "tenure_text": "Above 12 months upto 24 months",
+      "tenure_min_days": 361,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "2 Above 12 months upto 24 months 7.00 7.00 7.00"
+    },
+    {
+      "tenure_text": "Above 24 months upto 36 months",
+      "tenure_min_days": 721,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "3 Above 24 months upto 36 months 6.85 6.85 6.85"
+    },
+    {
+      "tenure_text": "Above 36 months upto 120 months",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "4 Above 36 months upto 120 months 6.10 6.10 6.10"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 360,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 12 Months 6.80"
+    },
+    {
+      "tenure_text": "Above 12 months upto 24 months",
+      "tenure_min_days": 361,
+      "tenure_max_days": 720,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 Above 12 months upto 24 months 6.85"
+    },
+    {
+      "tenure_text": "Above 36 months upto 120 months",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 Above 36 months upto 120 months 6.25"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[1] (13 slabs) from 4 table(s); signals={\"pctRows\":13,\"tenureRows\":13,\"bothRows\":13,\"dataRows\":13,\"noisy\":true,\"colCount\":5}",
+    "llm_fallback: deterministic returned 13 slabs (suspect: multi_table=true too_few=false); LLM extracted 59 — using LLM",
+    "chunk[0]: No separate senior citizen or super senior citizen rates; senior rates null",
+    "chunk[0]: Special tenure slabs with single rate (FFDCA, FFDSB, Bharat Deposit Tax Benefit Scheme) omitted as no separate rates per deposit range",
+    "chunk[0]: Deposit ranges start from 1 crore, no slabs for below 1 crore in this table",
+    "chunk[2]: No additional rate of interest over and above the card rate shall be applicable to Senior Citizen.",
+    "chunk[3]: No additional rate of interest over and above the card rate shall be applicable to Senior Citizen.",
+    "malformed_slab_filter: dropped 1 slab(s) with tenure_text containing concatenated rate/table fragments (div-table extraction artefact)"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 108,
+    "last_scraped_at": "2026-06-09T13:49:38.934Z",
+    "manual_verification_needed": true
+  }
+}

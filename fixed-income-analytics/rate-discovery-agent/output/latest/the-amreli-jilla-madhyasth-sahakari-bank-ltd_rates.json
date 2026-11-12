@@ -1,0 +1,121 @@
+{
+  "bank_code": "the-amreli-jilla-madhyasth-sahakari-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://ajms.bank.in/page/161",
+  "scraped_at": "2026-05-23T10:30:07.067Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 Days to 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 Days to 89 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 89,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "90 Days to 179 Days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year to Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 Year to Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 Year to Less than 5 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 Year to Less than 8 Year",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2919,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Special Fix Deposit (Double Scheme in 11 Years & 6 Months)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-23T10:30:07.067Z",
+    "manual_verification_needed": false
+  }
+}

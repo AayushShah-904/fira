@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-baroda",
+    "extracted_at": "2026-06-05T09:15:11.851Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "bankofbaroda.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+    "fd_nre": "/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+    "fd_nro": "/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+    "fd_fcnr": "/interest-rate-and-service-charges/deposits-interest-rates/foreign-currency-non-resident-bank-deposits",
+    "savings": "/interest-rate-and-service-charges/deposits-interest-rates/savings-bank-deposits",
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML with some JS hydration. NRE rates on same page as domestic FD. NRO rates same as domestic.",
+  "template": {
+    "template_id": "bob-retail-bulk-multi-tier-regular",
+    "template_hash": "sha1:3ea19c0061687981377d7475ff6dee4492e364b9",
+    "fingerprinted_at": "2026-05-25",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\bank-of-baroda.html",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "rate_super_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_4cr",
+            "2": "rate_general_pct@4cr_to_5cr",
+            "3": "rate_general_pct@5cr_to_6cr",
+            "4": "rate_general_pct@6cr_to_7cr",
+            "5": "rate_general_pct@7cr_to_8cr",
+            "6": "rate_general_pct@8cr_to_9cr",
+            "7": "rate_general_pct@9cr_to_10cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 4,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "rate_super_senior_pct"
+          },
+          "deposit_range": "1cr_to_3cr"
+        }
+      ],
+      "tenure_cap_days": 5475
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.502Z",
+      "gates_passed": "PASS",
+      "slab_count": 31,
+      "cluster_reused": false
+    }
+  }
+}

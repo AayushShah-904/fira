@@ -1,0 +1,60 @@
+{
+  "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+  "bank_name": "nizamabad-district-co-operative-central-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16410,
+  "duration_ms": 16410,
+  "duration_api_ms": 14445,
+  "num_turns": 2,
+  "tool_call_count": 2,
+  "total_cost_usd": 0.12051200000000001,
+  "llm_cost_usd": 0.12051200000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 49880,
+  "output_tokens": 2594,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1208,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nizamabaddccb.bank.in/deposit-schemes/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 757,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nizamabaddccb.bank.in/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

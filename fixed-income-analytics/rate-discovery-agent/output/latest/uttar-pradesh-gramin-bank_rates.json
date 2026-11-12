@@ -1,0 +1,158 @@
+{
+  "bank_code": "uttar-pradesh-gramin-bank",
+  "bank_name": "Uttar Pradesh Gramin Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-01-09",
+  "source_url": "https://upgb.bank.in/rate-of-interest-deposit.php",
+  "scraped_at": "2026-04-14T17:09:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 to 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 to 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 days to 269 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "270 days to less than 01 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "01 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 01 yrs to less than 2 yrs",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "02 yrs to up to 3 yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 03 yrs to less than 05 yrs",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "05 yrs to up to 10 yrs",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "name": "UPGB SPECIAL SAVADHI JAMA SCHEME",
+      "valid_till": "2026-03-31",
+      "rate_below_200_lakh": 6.6,
+      "rate_above_200_lakh": 6.65
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:46:05.586Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-04-14T17:09:00Z",
+      "retained_slab_count": 13
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 195,
+    "last_scraped_at": "2026-04-14T17:09:00Z",
+    "manual_verification_needed": true
+  }
+}

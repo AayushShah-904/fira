@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "andhra-pradesh-grameena-bank",
+    "extracted_at": "2026-06-05T12:41:44.834Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "apgb.bank.in",
+  "rate_pages": {
+    "fd": "/banking-products/deposits/deposit-interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "static HTML. HTML tables embedded in server-rendered page. 2 tables",
+  "template": {
+    "template_id": "apgb-2bucket-regular",
+    "template_hash": "sha1:1175cc8695db6a08191d5056fd64edfdaf355575",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_general_pct@1cr_to_10cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:06:59.463Z",
+      "gates_passed": "PASS",
+      "slab_count": 22,
+      "cluster_reused": false
+    }
+  }
+}

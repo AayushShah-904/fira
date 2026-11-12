@@ -1,0 +1,180 @@
+{
+  "bank_code": "kookmin-bank",
+  "bank_name": "kookmin-bank",
+  "category": "Foreign Bank",
+  "mode": "rates-only",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 41544,
+  "duration_ms": 41544,
+  "duration_api_ms": 2100,
+  "num_turns": 5,
+  "tool_call_count": 22,
+  "total_cost_usd": 0.005446000000000001,
+  "llm_cost_usd": 0.005446000000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 7879,
+  "output_tokens": 1434,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 4585,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 19,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 500,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd",
+      "duration_ms": 2028,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd",
+      "duration_ms": 19527,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[10]",
+      "duration_ms": 15,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 37,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 513,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nre",
+      "duration_ms": 1732,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nre",
+      "duration_ms": 1374,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 512,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nro",
+      "duration_ms": 1753,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nro",
+      "duration_ms": 1070,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 550,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_fcnr",
+      "duration_ms": 1778,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_fcnr",
+      "duration_ms": 3429,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "",
+    "website_url": "https://kbstar.bank.in",
+    "rate_url_fd": "https://kbstar.bank.in/depo/product/interestRates",
+    "slab_count": 17,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

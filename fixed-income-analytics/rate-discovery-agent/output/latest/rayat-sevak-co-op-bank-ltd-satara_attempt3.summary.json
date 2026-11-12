@@ -1,0 +1,66 @@
+{
+  "bank_code": "rayat-sevak-co-op-bank-ltd-satara",
+  "bank_name": "rayat-sevak-co-op-bank-ltd-satara",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16318,
+  "duration_ms": 16318,
+  "duration_api_ms": 15715,
+  "num_turns": 6,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.225754,
+  "llm_cost_usd": 0.225754,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 105505,
+  "output_tokens": 1843,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 494,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://rayatsevak.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 107,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rayatsevak.bank.in/deposit_interest_rate\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Rayat Sevak Co-op Bank Ltd Satara deposit interest rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/rayat-sevak-co-op-bank-ltd-satara_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"rayat-sevak-co-op-bank-ltd-sata"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/rayat-sevak-co-op-bank-ltd-satara_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"rayat-sevak-co-op-bank-ltd-satar"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/rayat-sevak-co-op-bank-ltd-satara_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"rayat-sevak-co-op-bank-ltd-sata"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/rayat-sevak-co-op-bank-ltd-satara_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"rayat-sevak-co-op-bank-ltd-satar"
+    }
+  ]
+}

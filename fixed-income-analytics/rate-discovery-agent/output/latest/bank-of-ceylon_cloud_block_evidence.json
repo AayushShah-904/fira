@@ -1,0 +1,23 @@
+{
+  "bank_code": "bank-of-ceylon",
+  "observations": [
+    {
+      "ts": "2026-06-09T12:33:37.983Z",
+      "evidence_url": "https://boc.lk/international-banking/overseas-branches",
+      "http_status": 403,
+      "vendor": "cloudfront",
+      "signal": "body-match: ERROR: The request could not be satisfied",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    },
+    {
+      "ts": "2026-06-09T12:33:39.452Z",
+      "evidence_url": "https://boc.lk/rates-tariff",
+      "http_status": 403,
+      "vendor": "cloudfront",
+      "signal": "body-match: ERROR: The request could not be satisfied",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

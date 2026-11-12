@@ -1,0 +1,114 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-morena",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-morena",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17155,
+  "duration_ms": 17155,
+  "duration_api_ms": 16354,
+  "num_turns": 12,
+  "tool_call_count": 12,
+  "total_cost_usd": 0.343694,
+  "input_tokens": 167163,
+  "output_tokens": 1171,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Jilla Sahakari Kendriya Bank Maryadit Morena\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillakendriyabankmorena.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jilla-sahakari-kendriya-bank-maryadit-morena.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jilla Sahakari Kendriya Bank Maryadit Morena official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jilla Sahakari Kendriya Bank Maryadit Morena interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"जिला सहकारी केंद्रीय बैंक मर्यादित मुरैना ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mpcobank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 164,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.mpcobank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 416,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://morena.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 160,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://morena.nic.in/public-utility-category/%e0%a4%ac%e0%a5%88%e0%a4%82%e0%a4%95/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-morena_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-morena\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-morena_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-morena\\\",\\n  "
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website found for this DCCB. District Morena government portal lists banks but only branch locations, not deposit products or rates. No FD rate page or PDF found after exhaustive search in Hindi and English. Operator review needed.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

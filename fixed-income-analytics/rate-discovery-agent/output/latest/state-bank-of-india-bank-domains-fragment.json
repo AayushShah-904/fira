@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "bank_code": "state-bank-of-india",
+    "extracted_at": "2026-06-05T09:12:50.624Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "sbi.bank.in",
+  "rate_pages": {
+    "fd": "/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+    "savings": "/web/interest-rates/savings-bank-deposits",
+    "fd_nre": "/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-nre-fixed-deposit-interest-rate",
+    "fd_nro": "/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-nro-fixed-deposit-interest-rate",
+    "fd_fcnr": "/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-fcnr-deposit-interest-rate",
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Liferay Portal / server-rendered with JS hydration, None detected (page rendered successfully with standard Playwright)",
+  "playwright_timeout_ms": 120000,
+  "playwright_stealth": true,
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "template": {
+    "template_id": "sbi-5col-tenure-existing-revised-general-senior",
+    "template_hash": "sha1:7a538e7e73041fb91d21366f596e55101421bc11",
+    "fingerprinted_at": "2026-05-24",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\state-bank-of-india.html",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "column_map": {
+        "0": "tenure_text",
+        "1": "ignore",
+        "2": "rate_general_pct",
+        "3": "ignore",
+        "4": "rate_senior_pct"
+      },
+      "table_index": 0,
+      "header_row": 0,
+      "header_span_rows": 1
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    }
+  },
+  "playwright_disabled": true,
+  "playwright_disabled_reason": "Sprint 009 cloud-validation-3 (2026-06-04): Azure Container Apps -> sbi.bank.in / bankofindia.bank.in network path causes 120s spawnSync ETIMEDOUT on every Playwright launch. Same image on chromium preflight launches in 11s, BoB/PNB Playwright work. Disable Playwright for this bank so LLM picks fetch_url / static HTML / PDF fallback in cloud runs. Local runs can override by removing this flag temporarily."
+}

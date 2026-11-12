@@ -1,0 +1,54 @@
+{
+  "bank_code": "chennai-central-co-operative-bank-ltd",
+  "bank_name": "chennai-central-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11792,
+  "duration_ms": 11792,
+  "duration_api_ms": 11021,
+  "num_turns": 4,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.071908,
+  "llm_cost_usd": 0.071908,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 31174,
+  "output_tokens": 1195,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 392,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ccbankchennai.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 378,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.ccbankchennai.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Chennai Central Co-operative Bank official website interest rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/district-central-co-operative-bank/chennai-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"chennai-central-co-operative-b"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/district-central-co-operative-bank/chennai-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"chennai-central-co-operative-ba"
+    }
+  ]
+}

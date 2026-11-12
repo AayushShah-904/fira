@@ -1,0 +1,240 @@
+{
+  "_meta": {
+    "bank_code": "axis-bank-limited",
+    "extracted_at": "2026-06-05T09:40:41.970Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "axis.bank.in",
+  "rate_pages": {
+    "fd": "/deposits/fixed-deposits/fd-interest-rates",
+    "fd_pdf_domestic": "/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposits-27-august-26.pdf",
+    "fd_pdf_domestic_plus": "/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposits-plus-26-august-26.pdf?sfvrsn=e907bc00_1",
+    "fd_pdf_nri": "/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-27-august-26.pdf",
+    "fd_pdf_nri_plus": "/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-plus-26-august-26.pdf?sfvrsn=167e1e82_1",
+    "fd_pdf_fcnr": "/docs/default-source/default-document-library/interest-rates/fcnr-rfc-deposits-22-august-26.pdf?sfvrsn=9c1472d8_1",
+    "fd_pdf_floating": "/docs/default-source/default-document-library/interest-rates/domestic-floating-rate-deposits.pdf?sfvrsn=5356922c_2",
+    "fd_image_ocr_fcnr": "/docs/default-source/default-document-library/interest-rates/fcnr-rfc-deposits-22-august-26.pdf?sfvrsn=9c1472d8_1",
+    "savings": "/accounts/savings-account/savings-account-interest-rate",
+    "rd": "/deposits/recurring-deposits/interest-rates",
+    "fd_nre": "/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-27-august-26.pdf",
+    "fd_nro": "/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-27-august-26.pdf",
+    "fd_nri_combined": "/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-27-august-26.pdf",
+    "fd_fcnr": "/docs/default-source/default-document-library/interest-rates/fcnr-rfc-deposits-22-august-26.pdf?sfvrsn=9c1472d8_1",
+    "fd_nri_fixed_at": "2026-08-27"
+  },
+  "extraction": {
+    "fd_image_ocr_fcnr": {
+      "type": "image_ocr",
+      "fulfills_product": [
+        "fd_fcnr"
+      ],
+      "_authored": "2026-05-22 (FCNR-1) — Axis FCNR PDF has 3 tables. Table[1] (11 rows × 7 cols) is the main FCNR rate matrix: col 0 = Maturity Period, cols 1-6 = USD/GBP/EUR/AUD/CAD/JPY (header shows EURO; DI Layout normalises to EUR). Legacy PDF text extractor mashes column boundaries — routing through Azure Document Intelligence Layout gives clean per-cell currency tagging via the Pattern B currency-columns layout detector in extract_via_ocr.js."
+    },
+    "fd_pdf_nri": {
+      "type": "pdf",
+      "fulfills_product": [
+        "fd_nre",
+        "fd_nro"
+      ],
+      "_authored": "2026-05-21 (M2.6) — NRI PDF has 2 pages: page 1 = NRE (9 deposit-range columns, all general, no senior premium per Indian banking rules), page 2 = NRO (same 9 columns). variant_inferred from page heading (NRE/NRO keywords). Sample page 1 row '1 year – 1 year 10 days': 6.25 (<3cr) | 6.25 (3-5cr) | 6.65 (5-25cr) | 6.85 (25-50cr) | 7.30 (50-100cr) | 7.30 (100-200cr) | 7.33 (200-500cr) | 6.85 (500-1000cr) | 6.85 (>1000cr).",
+      "pages": [
+        {
+          "page": 1,
+          "columns": [
+            {
+              "age_tier": "general",
+              "deposit_range": "below_3cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "3cr_to_5cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "5cr_to_25cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "25cr_to_50cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "50cr_to_100cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "100cr_to_200cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "200cr_to_500cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "500cr_to_1000cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "above_1000cr"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "columns": [
+            {
+              "age_tier": "general",
+              "deposit_range": "below_3cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "3cr_to_5cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "5cr_to_25cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "25cr_to_50cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "50cr_to_100cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "100cr_to_200cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "200cr_to_500cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "500cr_to_1000cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "above_1000cr"
+            }
+          ]
+        }
+      ]
+    },
+    "fd_pdf_domestic": {
+      "type": "pdf",
+      "fulfills_product": "fd",
+      "_authored": "2026-05-21 (M2.6) — column layout verified against operator-supplied PDF via pdfjs text extraction. Page 1 sample row 7-14 days: 3.00 (gen<3cr) | 3.50 (gen 3-5cr) | 3.50 (sr<3cr) | 4.00 (sr 3-5cr). Pages 2-3 are 7-column bulk-tier layouts. Combined: 18 tenures × 18 columns = ~324 rate cells.",
+      "pages": [
+        {
+          "page": 1,
+          "columns": [
+            {
+              "age_tier": "general",
+              "deposit_range": "below_3cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "3cr_to_5cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "below_3cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "3cr_to_5cr"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "columns": [
+            {
+              "age_tier": "general",
+              "deposit_range": "5cr_to_25cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "25cr_to_50cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "50cr_to_100cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "100cr_to_200cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "200cr_to_500cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "500cr_to_1000cr"
+            },
+            {
+              "age_tier": "general",
+              "deposit_range": "above_1000cr"
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "columns": [
+            {
+              "age_tier": "senior",
+              "deposit_range": "5cr_to_25cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "25cr_to_50cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "50cr_to_100cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "100cr_to_200cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "200cr_to_500cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "500cr_to_1000cr"
+            },
+            {
+              "age_tier": "senior",
+              "deposit_range": "above_1000cr"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scraper_type": "pdf",
+  "notes": "JS-rendered landing page with PDF rate cards. Operator provided fresh dated PDFs 2026-05-21 (21-may-26 for domestic/NRI, 02-march-26 still current for FCNR). Bank rotates dated PDF filenames — re-discovery may be needed quarterly. Multi-column PDF hint on fd_pdf_domestic added 2026-05-21 (M2.6) with fulfills_product='fd' → orchestrator routes to extract_pdf_table → ~324 cells expected.",
+  "extraction_method": "manual_pdf_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:30:31.407Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposits-25-may-26.pdf",
+    "slab_count": 18,
+    "hints": "date-rotating domestic FD PDF on axisbank CDN; discover current dated filename via websearch; bot-wall needs playwright cookie warm-up",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  },
+  "effective_date": "2026-05-21",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-07-23T14:01:43.112Z",
+    "manual_verification_needed": false
+  }
+}

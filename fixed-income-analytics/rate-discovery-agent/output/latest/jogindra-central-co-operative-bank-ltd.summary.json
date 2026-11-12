@@ -1,0 +1,50 @@
+{
+  "bank_code": "jogindra-central-co-operative-bank-ltd",
+  "bank_name": "jogindra-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9093,
+  "duration_ms": 9093,
+  "duration_api_ms": 8989,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0140896,
+  "input_tokens": 32648,
+  "output_tokens": 644,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jogindra central co operative bank\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jogindra central co operative bank official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jogindra-central-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jogindracentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jogindracentralbank.co.in/\"}"
+    }
+  ]
+}

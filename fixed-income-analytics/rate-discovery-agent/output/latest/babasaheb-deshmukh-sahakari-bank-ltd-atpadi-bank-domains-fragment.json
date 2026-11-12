@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+    "extracted_at": "2026-06-06T09:09:16.415Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "bdsbanks.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "http://bdsbanks.in/deposites.php",
+    "fd_prev": "/interest-rates",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "domain_prev": "getbankifsccode.co.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "http://bdsbanks.in/deposites.php",
+    "slab_count": 6,
+    "hints": "Site serves over plain HTTP only (HTTPS handshake fails); rate table read directly from http://bdsbanks.in/deposites.php. | Marathi rate table; main 'Mudat Thev' (term deposit) slabs used. General = व्यक्तीगत ठेव column, senior = जेष्ठ नागरिक ठेव column. | No effective date printed on the page. | Separate columns for co-operative-society deposits and individual >=15 lakh lump-sum exist on the page but match the general/senior rates for these slabs.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

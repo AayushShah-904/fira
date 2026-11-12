@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "bank_code": "the-maharashtra-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:31:40.392Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "msc.bank.in",
+  "rate_pages": {
+    "fd": "https://msc.bank.in/rate-of-interest-on-savings-and-various-term-deposits",
+    "savings": "/int_rate_saving_term.aspx",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_prev": "/int_rate_saving_term.aspx",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "ASP.NET WebForms (.aspx)",
+  "template": {
+    "template_id": "msc-bank-callable-noncallable-amount-tiered",
+    "template_hash": "sha1:e792e511af30278ca6bcf3eba3518d8950b9efbd",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_15l",
+            "3": "ignore",
+            "4": "rate_general_pct@15l_to_1cr",
+            "5": "ignore",
+            "6": "rate_general_pct@above_1cr",
+            "7": "ignore"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T11:42:35.633Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

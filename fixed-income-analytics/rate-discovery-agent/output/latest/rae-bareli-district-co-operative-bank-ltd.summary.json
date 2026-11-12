@@ -1,0 +1,56 @@
+{
+  "bank_code": "rae-bareli-district-co-operative-bank-ltd",
+  "bank_name": "rae-bareli-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10121,
+  "duration_ms": 10121,
+  "duration_api_ms": 9989,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.008734800000000001,
+  "input_tokens": 18917,
+  "output_tokens": 730,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"rae bareli district co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rae-bareli-district-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://raebareli.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://raebarelidccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://raebareli-dccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://raebareli-district-cooperative-bank.co.in/\"}"
+    }
+  ]
+}

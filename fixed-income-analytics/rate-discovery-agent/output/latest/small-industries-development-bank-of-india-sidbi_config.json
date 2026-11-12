@@ -1,0 +1,19 @@
+{
+  "bank_code": "small-industries-development-bank-of-india-sidbi",
+  "bank_name": "small-industries-development-bank-of-india-sidbi",
+  "bank_type": "FI",
+  "category": "Financial Institution",
+  "state": "Uttar Pradesh",
+  "website": "https://sidbi.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://sidbi.in/fixed-scheme"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:34:49.302Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

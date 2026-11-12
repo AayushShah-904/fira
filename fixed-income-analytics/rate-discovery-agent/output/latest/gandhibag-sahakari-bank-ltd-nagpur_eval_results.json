@@ -1,0 +1,26 @@
+{
+  "bank_code": "gandhibag-sahakari-bank-ltd-nagpur",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\gandhibag-sahakari-bank-ltd-nagpur_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.547355Z",
+  "overall_passed": true,
+  "metrics": {
+    "schema_completeness": {
+      "score": 94,
+      "passed": true,
+      "reason": "2 missing field values across 9 slabs",
+      "missing_breakdown": {
+        "tenure_max_days": 2
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 9 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

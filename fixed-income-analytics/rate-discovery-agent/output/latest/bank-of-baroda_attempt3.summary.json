@@ -1,0 +1,66 @@
+{
+  "bank_code": "bank-of-baroda",
+  "bank_name": "bank-of-baroda",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 33112,
+  "duration_ms": 33112,
+  "duration_api_ms": 32212,
+  "num_turns": 3,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.15090399999999998,
+  "llm_cost_usd": 0.15090399999999998,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 46512,
+  "output_tokens": 7235,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 561,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 337,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/foreign-currency-non-resident-bank-deposits\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/bank-of-baroda_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda\\\",\\n  \\\"bank_typ"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/bank-of-baroda_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda\\\",\\n  \\\"product_t"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/bank-of-baroda_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda\\\",\\n  \\\"produ"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/bank-of-baroda_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda\\\",\\n  \\\"produ"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/bank-of-baroda_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda\\\",\\n  \\\"prod"
+    }
+  ]
+}

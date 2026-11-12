@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "bank_code": "bhuj-commercial-co-op-bank-ltd",
+    "extracted_at": "2026-06-06T10:07:04.495Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "bccbbhuj.bank.in",
+  "rate_pages": {
+    "fd": "/deposite_int.php"
+  },
+  "notes": "Official .bank.in domain bccbbhuj.bank.in. Fixed deposit interest rates page identified; other deposit type pages (NRE/NRO/FCNR/savings) not found in results.",
+  "scraper_type": "html_static"
+}

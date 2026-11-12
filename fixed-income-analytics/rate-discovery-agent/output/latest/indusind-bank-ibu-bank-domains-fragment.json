@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "bank_code": "indusind-bank-ibu",
+    "extracted_at": "2026-06-05T14:19:51.773Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "indusind.bank.in",
+  "rate_pages": {
+    "fd": "/in/en/personal/rates.html#gift_city",
+    "fd_gift_landing": null,
+    "fd_gift": "https://www.indusind.bank.in/in/en/personal/rates.html",
+    "fd_gift_prev": null,
+    "fd_gift_fixed_at": "2026-05-25",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "parent_bank_code": "indusind-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City. FDs in USD/GBP/EUR. Rates change daily (forex working day). JS-rendered tab on main rates page. Landing page: bank.indusind.bank.in/pioneer/gift-city.html. For deposits >= USD 1M, contact RM.",
+  "template": {
+    "template_id": "indusind-ibu-gift-currency-3col",
+    "template_hash": "sha1:35359b364bc91d99122c944754b02a05740db895",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 14,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#EUR",
+            "3": "rate_general_pct#GBP"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 15,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#EUR",
+            "3": "rate_general_pct#GBP"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:53:14.478Z",
+      "gates_passed": "PASS",
+      "slab_count": 138,
+      "cluster_reused": false
+    }
+  }
+}

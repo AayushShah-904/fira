@@ -1,0 +1,80 @@
+{
+  "bank_code": "the-nalanda-central-co-operative-bank-ltd-nalanda",
+  "bank_name": "The Nalanda Central Co-operative Bank Ltd., Nalanda",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 21081,
+  "duration_ms": 21081,
+  "duration_api_ms": 12027,
+  "num_turns": 8,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.08812199999999999,
+  "input_tokens": 39545,
+  "output_tokens": 1129,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Nalanda Central Co-operative Bank Ltd., Nalanda\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nalandacentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Nalanda Central Co-operative Bank Ltd., Nalanda\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 140,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.nalandacentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.nalandacentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Nalanda Central Co-operative Bank Ltd., Nalanda\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Nalanda Central Co-operative Bank Bihar interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 4011,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.coopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 320,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.coopbank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 4526,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bihar.gov.in\"}"
+    }
+  ]
+}

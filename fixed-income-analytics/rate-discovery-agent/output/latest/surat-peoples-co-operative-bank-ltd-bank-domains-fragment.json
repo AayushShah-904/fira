@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "surat-peoples-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:15:35.462Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "spcbl.bank.in",
+  "rate_pages": {
+    "fd": "/pages/deposit-interest-rate/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/pages/deposit-interest-rate/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML tables. 2 tables",
+  "template": {
+    "template_id": "coop-bankin-4col-tenure-general-senior-staff",
+    "template_hash": "sha1:9421bf1f44f29096d29caf07ea7345311d022e11",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 12,
+      "cluster_reused": false
+    }
+  }
+}

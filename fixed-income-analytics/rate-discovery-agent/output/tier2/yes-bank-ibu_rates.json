@@ -1,0 +1,19 @@
+{
+  "bank_code": "yes-bank-ibu",
+  "bank_name": "Yes Bank – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T17:47:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "yes.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Official GIFT IBU page https://www.yes.bank.in/gift-ibu is a JavaScript-only SPA. Re-verified: Playwright render fails with net::ERR_HTTP2_PROTOCOL_ERROR and WebFetch times out (>60s). No inline rate table, no rate PDF link, no discoverable XHR rate endpoint. Web search indicates Yes Bank GIFT IBU offers ~4-5% on foreign-currency deposits but no public rate card is published."
+  },
+  "warnings": ["IBU foreign-currency deposits, not DICGC-insured. Page unreachable from here via both Playwright (HTTP2 protocol error) and WebFetch (timeout); may render in a real browser later. No public rate card found."],
+  "tier2_method": "websearch+webfetch"
+}

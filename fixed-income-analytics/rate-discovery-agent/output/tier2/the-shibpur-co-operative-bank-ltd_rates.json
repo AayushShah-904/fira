@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-shibpur-co-operative-bank-ltd",
+  "bank_name": "The Shibpur Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:32:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No official website found. Bank is at 173-174 Shibpur Road, Shibpur, Howrah 711102, West Bengal. IFSC HDFC0CSCB29 shows it is an HDFC Bank sub-member (no independent banking infra), a very small NSUCB. Only third-party directory listings exist (prokerala = registry hint, justdial, sulekha, codeforbanks). No bank-owned domain located. Distinct from the Howrah DCCB (howrahdccb.in) and West Bengal State Co-op Bank."
+  },
+  "warnings": ["Small co-op (HDFC sub-member) with no web presence; no FD rates publishable. Aggregators/directories deliberately not used as source."],
+  "tier2_method": "websearch+webfetch"
+}

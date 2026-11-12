@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "bank_code": "central-bank-of-india",
+    "extracted_at": "2026-06-05T09:25:42.765Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "centralbank.bank.in",
+  "rate_pages": {
+    "fd": "/en/interest-rates-on-deposit",
+    "fd_nre": "/en/NRE-DEPOSIT-INTEREST-RATES",
+    "fd_nro": null,
+    "fd_fcnr": "/en/Intt_Rate",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Static HTML tables. NRO rates same as domestic. Senior citizen +0.50%. Special schemes: 444-day, 555-day, Green 1111-day, Floating Rate. Legacy domain centralbankofindia.co.in redirects to .bank.in NRO rates not listed separately — likely same as domestic FD rates.",
+  "template": {
+    "template_id": "central-bank-of-india-retail-bulk-5col-general-senior",
+    "template_hash": "sha1:5ee6220ad8759f759e1a6633f6f4d529a98a1d25",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "3cr_to_10cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.135Z",
+      "gates_passed": "PASS",
+      "slab_count": 24,
+      "cluster_reused": false
+    }
+  }
+}

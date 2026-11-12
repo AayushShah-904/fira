@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-nellore-co-operative-urban-bank-ltd",
+  "bank_name": "the-nellore-co-operative-urban-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://prokerala.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://prokerala.com/#home-forex"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T11:00:39.691Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_js"
+}

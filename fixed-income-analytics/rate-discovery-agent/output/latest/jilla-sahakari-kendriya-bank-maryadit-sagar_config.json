@@ -1,0 +1,33 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Sagar",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found for this DCCB. Attempts to locate a domain or rate page failed. Rates may be published via the Madhya Pradesh State Co-operative Bank or RBI database.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T20:35:46.197Z",
+    "discovery_method": "web_search + domain probing",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

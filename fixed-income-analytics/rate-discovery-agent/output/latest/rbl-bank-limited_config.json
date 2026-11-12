@@ -1,0 +1,22 @@
+{
+  "bank_code": "rbl-bank-limited",
+  "bank_name": "rbl-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Maharashtra",
+  "website": "https://rbl.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://rbl.bank.in/interest-rates",
+    "fd_nre": "https://rbl.bank.in/interest-rates",
+    "fd_nro": "https://rbl.bank.in/interest-rates",
+    "fd_fcnr": "https://rbl.bank.in/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T09:28:26.262Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

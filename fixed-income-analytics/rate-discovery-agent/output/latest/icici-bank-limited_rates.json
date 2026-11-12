@@ -1,0 +1,141 @@
+{
+  "bank_code": "icici-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-11-12",
+  "source_url": "https://icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+  "scraped_at": "2026-11-12T09:25:19.498Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "7 to 45 Days 2.75% 3.25%"
+    },
+    {
+      "tenure_text": "46 to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "46 to 90 Days 4% 4.5%"
+    },
+    {
+      "tenure_text": "91 to 184 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 184,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "91 to 184 Days 4.5% 5%"
+    },
+    {
+      "tenure_text": "185 Days to < 1 Year",
+      "tenure_min_days": 185,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "185 Days to < 1 Year 5.5% 6%"
+    },
+    {
+      "tenure_text": "1 Year to < 18 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "1 Year to < 18 Months 6.25% 6.75%"
+    },
+    {
+      "tenure_text": "18 Months to 2 Years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "18 Months to 2 Years 6.3% 6.8%"
+    },
+    {
+      "tenure_text": "2 Years 1 Day to 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "2 Years 1 Day to 3 Years 6.55% 7.05%"
+    },
+    {
+      "tenure_text": "3 Years 1 Day to 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "3 Years 1 Day to 5 Years 6.6%HIGHEST 7.2%HIGHEST"
+    },
+    {
+      "tenure_text": "5 Years 1 Day to 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "5 Years 1 Day to 10 Years 6.6%HIGHEST 7.1%"
+    },
+    {
+      "tenure_text": "5Y (Tax Saver FD)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "5Y (Tax Saver FD) 6.6%HIGHEST 7.2%HIGHEST"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 0,
+    "last_scraped_at": "2026-11-12T09:25:19.498Z",
+    "manual_verification_needed": false
+  }
+}

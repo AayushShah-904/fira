@@ -1,0 +1,66 @@
+{
+  "bank_code": "barclays-bank-plc-ibu",
+  "bank_name": "barclays-bank-plc-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 9935,
+  "duration_ms": 9935,
+  "duration_api_ms": 7525,
+  "num_turns": 2,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.04782,
+  "llm_cost_usd": 0.04782,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 18322,
+  "output_tokens": 1397,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 2405,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://barclays.bank.in/gift/giftcity/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/barclays-bank-plc-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"barclays-bank-p"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/barclays-bank-plc-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"barclays-bank-pl"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "manual",
+    "notes": "Barclays GIFT City IBU. Wholesale/corporate banking, no public retail deposit rates. Rate page exists but does not publish any FD rates for public or NRI customers.",
+    "website_url": "https://barclays.bank.in",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

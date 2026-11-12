@@ -1,0 +1,22 @@
+{
+  "bank_code": "the-midnapore-peoples-co-operative-bank-ltd",
+  "bank_name": "The Midnapore People's Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "mpcbmid.com",
+    "found_via": "registry_hint",
+    "notes": "Homepage loads over HTTP (http://www.mpcbmid.com/ - HTTPS has an invalid cert) and links 'Interest Rate on FD' -> Deposit.htm. But Deposit.htm and the other inner .htm pages (Circulars.htm etc.) all return HTTP 404 - the site's inner pages are broken/missing. The FD rate page (http://www.mpcbmid.com/Deposit.htm) is advertised but not retrievable."
+  },
+  "warnings": [
+    "Earlier attempt hit ERR_CERT_COMMON_NAME_INVALID on HTTPS; HTTP homepage works but the linked rate page is dead (404).",
+    "Tried Deposit.htm, deposit.htm, Deposit.html on both www and apex host - all 404."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

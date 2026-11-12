@@ -1,0 +1,19 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-rewa",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-rewa",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://dccbrewa.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://dccbrewa.bank.in/interest.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:21:53.444Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

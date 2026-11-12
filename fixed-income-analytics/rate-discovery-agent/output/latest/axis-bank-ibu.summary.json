@@ -1,0 +1,108 @@
+{
+  "bank_code": "axis-bank-ibu",
+  "bank_name": "axis-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 23836,
+  "duration_ms": 23836,
+  "duration_api_ms": 2655,
+  "num_turns": 0,
+  "tool_call_count": 10,
+  "total_cost_usd": 0,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 5215,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 11,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_gift",
+      "duration_ms": 14980,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_gift",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_gift",
+      "duration_ms": 956,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:gift@pages[1]",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_gift",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_gift",
+      "duration_ms": 7,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "pdf",
+    "notes": "",
+    "website_url": "https://axis.bank.in",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

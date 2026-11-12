@@ -1,0 +1,33 @@
+{
+  "bank_code": "national-bank-for-agriculture-and-rural-development-nabard",
+  "bank_name": "national-bank-for-agriculture-and-rural-development-nabard",
+  "bank_type": "FI",
+  "category": "Financial Institution",
+  "website": "https://nabard.org",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "ASP.NET WebForms. Refinance and lending rate tables only — no deposit rate tables",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:34:31.339Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

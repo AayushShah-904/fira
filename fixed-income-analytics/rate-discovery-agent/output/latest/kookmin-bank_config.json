@@ -1,0 +1,22 @@
+{
+  "bank_code": "kookmin-bank",
+  "bank_name": "kookmin-bank",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "South Korea",
+  "website": "https://kbstar.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://kbstar.bank.in/depo/product/interestRates",
+    "fd_nre": "https://kbstar.bank.in/nre-deposits",
+    "fd_nro": "https://kbstar.bank.in/nro-deposits",
+    "fd_fcnr": "https://kbstar.bank.in/fcnr-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:54:12.420Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

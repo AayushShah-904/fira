@@ -1,0 +1,438 @@
+{
+  "bank_code": "jammu-kashmir-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-11",
+  "source_url": "https://jkb.bank.in/interest-rates",
+  "scraped_at": "2026-07-07T06:50:48.297Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "For MSME's",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "J&K Bank Health Plus Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "PM Street Vendor’s Atma Nirbhar Nidhi (PM SVANidhi)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Rs.15.00 lacs & above",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Housing Loans under CRE",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Home Loan-Top Up Finance Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For a period up to 4 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For a period exceeding 4 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 7.50 lakhs",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For all limits (maximum Finance as per scheme Rs.10.00 lacs)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "All Slabs",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Individual Borrower / Non Individuals",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.502,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "JK Bank Easy WC finance for textile traders of Surat",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For accounts having minimum forced sale value of collateral security at 100% of sanction limit",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For Borrowers Opting for Fixed Rate",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For Borrowers Opting for Floating Rate",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Micro enterprises (as per MSE)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Small enterprises (as per MSE)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Term Loan",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Cash Credit",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Coaching Fee Loan Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "J&K Bank Weavers Mudra Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Loans Against Rental Discounting (LRD)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Loans to land lords for construction of premises for Bank’s use",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Life Insurance policies, Postal securities (NSCs, KVPs) and other permitted Government securities",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Shares/ convertible debentures and other equity linked permitted securities",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Advances under Special Scheme (Mortgage Loan) for Fruit Commission Agents of J&K",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Mortgage loan scheme for Traders of Agricultural Produce",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For loans with tenor upto 04 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "For loans with tenor above 04 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "J&K Bank Saral Finance To Small Businessmen",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Passenger Buses for Schools/Educational Institutions at fixed rate with repayment of the loan",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "JK Bank Dastkaar Finance",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Skill Loan Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "J&K Rural Employment Generation Programme (JKREGP)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Prime Minister’s Employment Generation Program Scheme (PMEGP)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Loans under Government sponsored schemes.",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Commercial Vehicle Finance Under Mumkin Initiative Of Mission Youth",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 31,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Mission Youth; Reimagining and Rediscovering the Paradise Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Mission Youth; Customized Livelihood Generation Scheme for Dental Professionals",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[13] (58 slabs) from 22 table(s); signals={\"pctRows\":66,\"tenureRows\":5,\"bothRows\":5,\"dataRows\":66,\"noisy\":false,\"colCount\":3}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: no fixed deposit rate table found in input; chunk[1]: no fixed deposit rate table found in input)",
+    "non_fd_filter: dropped 12 non-FD slab(s) (savings, deposit-tier indicators, penalty rules)",
+    "malformed_slab_filter: dropped 2 slab(s) with tenure_text containing concatenated rate/table fragments (div-table extraction artefact)"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 38 (Commercial Vehicle Finance Under Mumkin Initiative Of Mission Youth): general rate 31% above ceiling (9.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 42,
+    "last_scraped_at": "2026-07-07T06:50:48.297Z",
+    "manual_verification_needed": false
+  }
+}

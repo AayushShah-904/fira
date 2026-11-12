@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "bank_code": "odisha-grameen-bank",
+    "extracted_at": "2026-06-05T12:55:54.969Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "odishabank.bank.in",
+  "notes": "HQ: Bhubaneswar.",
+  "rate_pages": {
+    "fd": "/fixed-deposit"
+  },
+  "scraper_type": "html_js"
+}

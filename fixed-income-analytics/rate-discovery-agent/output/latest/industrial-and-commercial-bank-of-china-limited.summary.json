@@ -1,0 +1,144 @@
+{
+  "bank_code": "industrial-and-commercial-bank-of-china-limited",
+  "bank_name": "industrial-and-commercial-bank-of-china-limited",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 153448,
+  "duration_ms": 153448,
+  "duration_api_ms": 461,
+  "num_turns": 1,
+  "tool_call_count": 16,
+  "total_cost_usd": 0.0006112,
+  "llm_cost_usd": 0.0006112,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 1340,
+  "output_tokens": 47,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 3379,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 9,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 207,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd",
+      "duration_ms": 955,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd",
+      "duration_ms": 144924,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[6,14]",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 11,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 1397,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_nre",
+      "duration_ms": 9,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 1238,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_nro",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 837,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_fcnr",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "",
+    "website_url": "https://india.icbc.com.cn",
+    "rate_url_fd": "https://india.icbc.com.cn/cn/page/1096826937936109568.html",
+    "slab_count": 18,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "bank_code": "bankura-district-central-co-operative-bank-ltd",
+  "bank_name": "bankura-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://bankuradccb.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Operator-verified 2026-05-12: bankuradccb.bank.in is the official site (Bankura DCCB, West Bengal). The /interest-rate/ page exists but displays \"Coming Soon\". Circulars, notice, and download-forms sections checked; no rate data published anywhere on the site. The bank DOES offer FDs (per branch info); rates are simply not online. The Sprint 002 local diagnostic mis-classified this as no_rates_expected (the regex matched \"No FD\" in the agent's phrase \"No FD ... rates are published online\") — this is the dhanbad pattern, not the payments-bank pattern. See L14.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:07:45.488Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

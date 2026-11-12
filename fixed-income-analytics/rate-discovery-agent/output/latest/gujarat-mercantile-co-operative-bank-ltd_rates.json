@@ -1,0 +1,61 @@
+{
+  "bank_code": "gujarat-mercantile-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://gmcbank.in/deposit-interest-rate.php",
+  "scraped_at": "2026-06-09T17:26:10.904Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 Days to 1 Year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year To 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 Year To 5 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T17:26:10.904Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "bank_code": "the-bapatla-co-operative-urban-bank-ltd",
+  "bank_name": "The Bapatla Co-Operative Urban Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:11:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "Re-verified: searches return only aggregators/directories (codeforbanks, justdial, LEI registries). No registry .bank.in entry; probed bcub.bank.in / bapatlabank.bank.in / bcubbank.bank.in -> all HTTP 000 (no such site). bcub.in is a different bank (Badagara Co-op Urban Bank, Kerala). No own website."
+  },
+  "warnings": ["Confirms prior attempt's finding."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

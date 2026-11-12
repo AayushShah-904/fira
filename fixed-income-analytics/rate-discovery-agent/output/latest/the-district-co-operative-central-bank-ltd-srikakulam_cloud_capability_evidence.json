@@ -1,0 +1,17 @@
+{
+  "bank_code": "the-district-co-operative-central-bank-ltd-srikakulam",
+  "observations": [
+    {
+      "ts": "2026-06-09T01:33:57.401Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T16:15:53.787Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

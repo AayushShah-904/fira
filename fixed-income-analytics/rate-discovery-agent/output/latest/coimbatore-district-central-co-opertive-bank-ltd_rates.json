@@ -1,0 +1,130 @@
+{
+  "bank_code": "coimbatore-district-central-co-opertive-bank-ltd",
+  "bank_name": "Coimbatore District Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-15",
+  "source_url": "https://cdcc.bank.in/interest-rates/deposit/",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 months to 24 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Special Bulk deposit 1 crore to Less than 2 crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr"
+    },
+    {
+      "tenure_text": "Special Bulk deposit 2 crore to Less than 5 crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 8.25,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr"
+    },
+    {
+      "tenure_text": "Special Bulk deposit 5 crore and above",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 8.5,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr"
+    },
+    {
+      "tenure_text": "444 days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 99,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": true
+  }
+}

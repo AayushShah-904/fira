@@ -1,0 +1,72 @@
+{
+  "bank_code": "the-nagaland-state-co-operative-bank-ltd",
+  "bank_name": "the-nagaland-state-co-operative-bank-ltd",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-state-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16050,
+  "duration_ms": 16050,
+  "duration_api_ms": 13607,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.12393199999999999,
+  "llm_cost_usd": 0.12393199999999999,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 53498,
+  "output_tokens": 2117,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 2268,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nscb.bank.in/nstcb-deposit/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 174,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nscb.bank.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/non-scheduled-state-co-operative-bank/the-nagaland-state-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-nagaland-state-co-op"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/non-scheduled-state-co-operative-bank/the-nagaland-state-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-nagaland-state-co-ope"
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "FD and savings rates are published on the same page. Only domestic deposit rates are available; no NRI/FCNR products offered.",
+    "website_url": "https://nscb.bank.in",
+    "rate_url_fd": "https://nscb.bank.in/nstcb-deposit/",
+    "slab_count": 10,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

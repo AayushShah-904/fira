@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "bank_code": "unity-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T11:12:35.351Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "unity.bank.in",
+  "rate_pages": {
+    "fd": "/docs/policies/website-disclosure-effective-27-march-2026.pdf",
+    "savings": "/docs/policies/website-disclosure-effective-27-march-2026.pdf",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "React SPA with builder.io components",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:1e4a05f55718878356b962ae7ad9979d5e44e962",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T08:27:09.183Z",
+      "gates_passed": "PASS",
+      "slab_count": 48,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

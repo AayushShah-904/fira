@@ -1,0 +1,19 @@
+{
+  "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "bank_name": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://shiddeshwarbank.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://shiddeshwarbank.com/index.aspx?Cmd=Menu&Comp=Cms&Action=ArtById&MenuId=202&ArtId=37&PublicFile=INTEREST_RATES"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:15:27.295Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

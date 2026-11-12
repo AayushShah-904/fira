@@ -1,0 +1,13 @@
+{
+  "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+  "bank_name": "the-haryana-state-co-operative-apex-bank-ltd",
+  "bank_type": "SSCB",
+  "state": "Haryana",
+  "website": "https://harco.bank.in",
+  "rate_page_url": "https://harco.bank.in/interest1",
+  "scraper_type": "html_static",
+  "extraction_method": "automatic_html_static",
+  "slab_count": 30,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

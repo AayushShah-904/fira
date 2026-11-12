@@ -1,0 +1,18 @@
+{
+  "bank_code": "punjab-sind-bank",
+  "bank_name": "punjab-sind-bank",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "website": "https://punjabandsind.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://punjabandsind.bank.in/content/interestforex"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:43:23.678Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

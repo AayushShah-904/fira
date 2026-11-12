@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "tiruchirapalli-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:42:31.382Z",
+    "source": "bank-domains.json",
+    "source_sha": "f030030a8260a9de88e2a9c65c8519e12d8c5d8b855f42f69121fd82c7e1e5af"
+  },
+  "domain": "trichydccb.bank.in",
+  "rate_pages": {
+    "fd": "/loaninterest",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/loaninterest",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

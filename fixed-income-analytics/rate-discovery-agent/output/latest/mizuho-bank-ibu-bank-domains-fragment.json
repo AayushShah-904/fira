@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "bank_code": "mizuho-bank-ibu",
+    "extracted_at": "2026-06-05T14:21:55.598Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "mizuhogroup.com",
+  "rate_pages": {
+    "fd": "/asia-pacific/gift-city/products-and-rates/interest",
+    "fd_pdf": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/68dd816514ae9148580a1e23_term-deposit-interest-rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/68dd816514ae9148580a1e23_term-deposit-interest-rates.pdf",
+    "fd_gift_prev": null,
+    "fd_gift_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "parent_bank_code": "mizuho-bank-ltd",
+  "notes": "IFSC Banking Unit in GIFT City. USD-only deposits. Webflow CMS (cdn.prod.website-files.com).",
+  "template": {
+    "template_id": "ibu-static-pdf-quarterly",
+    "template_hash": "pdf:f98b2e45a00e23eacd01c5aab306d9feeebaebb1",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "ibu-static-pdf-quarterly"
+    },
+    "variants": {
+      "gift": {
+        "rate_page_key": "fd_gift"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T11:44:51.267Z",
+      "gates_passed": "PASS",
+      "slab_count": 15,
+      "source": "pdf",
+      "pdf_method": "doc_intelligence"
+    }
+  }
+}

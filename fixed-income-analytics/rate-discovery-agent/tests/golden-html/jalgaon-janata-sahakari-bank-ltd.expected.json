@@ -1,0 +1,27 @@
+{
+  "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+  "variant": "regular",
+  "slab_count": 22,
+  "key_rates": {
+    "1y": {
+      "general": 5.75,
+      "senior": 6.25
+    },
+    "2y": {
+      "general": 6.45,
+      "senior": 6.95
+    },
+    "3y": {
+      "general": 6.45,
+      "senior": 6.95
+    },
+    "5y": {
+      "general": 6.3,
+      "senior": 6.8
+    }
+  },
+  "effective_date": "2026-04-01",
+  "source_url": "https://www.jjsbl.bank.in/fixed-deposit-service",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.035Z"
+}

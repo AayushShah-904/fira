@@ -1,0 +1,48 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "bank_name": "kotak-mahindra-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 205167,
+  "duration_ms": 205167,
+  "duration_api_ms": 16643,
+  "num_turns": 2,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.103228,
+  "llm_cost_usd": 0.103228,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 40146,
+  "output_tokens": 2867,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 6844,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kotak.bank.in/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60566,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kotak.bank.in/en/personal-banking/nri/accounts-deposits/deposits/nre-fixed-deposit/interest-rate.html\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60593,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kotak.bank.in/en/personal-banking/nri/accounts-deposits/deposits/nro-fixed-deposit/interest-rate.html\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60521,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kotak.bank.in/en/personal-banking/nri/accounts-deposits/deposits/fcnr-deposits/interest-rate.html\",\"accordions\":true}"
+    }
+  ]
+}

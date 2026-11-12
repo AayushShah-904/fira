@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "airtel-payments-bank-limited",
+    "extracted_at": "2026-06-05T11:13:26.108Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "airtelpayments.bank.in",
+  "rate_pages": {
+    "savings": "/bank-charges/savings-bank-accounts",
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "React SPA on .bank.in domain, Blocks direct HTTP requests (403 Forbidden); likely WAF or Cloudflare",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_fd_product",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Payments Bank — by RBI licence cannot accept term deposits. The official FD page (https://www.airtelpayments.bank.in/products/fixed-deposit) states the FD is offered 'in partnership with IndusInd Bank' and booked via the Airtel Thanks app; no own-issued rate table is published (deposit capped at the Payments Bank Rs.500-Rs.1,90,000 limit). Any rates shown belong to IndusInd Bank."
+  }
+}

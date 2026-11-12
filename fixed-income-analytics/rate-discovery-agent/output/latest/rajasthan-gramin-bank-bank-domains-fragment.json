@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "rajasthan-gramin-bank",
+    "extracted_at": "2026-06-05T13:03:02.279Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "rajasthan.bank.in",
+  "rate_pages": {
+    "fd": "/chargerate",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-accounts",
+    "rd": "/recurring-deposit"
+  },
+  "scraper_type": "html_static"
+}

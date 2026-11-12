@@ -1,0 +1,48 @@
+{
+  "bank_code": "central-co-operative-bank-ltd-ara",
+  "bank_name": "central-co-operative-bank-ltd-ara",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 128281,
+  "duration_ms": 128281,
+  "duration_api_ms": 7950,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.049848,
+  "llm_cost_usd": 0.049848,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21488,
+  "output_tokens": 859,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30201,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ccbara.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30029,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ccbara.com/OurSchemes.aspx\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30041,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.ccbara.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30060,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.ccbara.com/OurSchemes.aspx\"}"
+    }
+  ]
+}

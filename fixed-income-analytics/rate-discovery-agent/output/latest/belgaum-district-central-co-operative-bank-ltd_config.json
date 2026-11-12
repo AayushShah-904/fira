@@ -1,0 +1,19 @@
+{
+  "bank_code": "belgaum-district-central-co-operative-bank-ltd",
+  "bank_name": "belgaum-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://belagavidccb.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://belagavidccb.com/pages/interest_rate.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:04:01.144Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

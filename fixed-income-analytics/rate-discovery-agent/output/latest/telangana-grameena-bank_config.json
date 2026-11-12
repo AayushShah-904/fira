@@ -1,0 +1,19 @@
+{
+  "bank_code": "telangana-grameena-bank",
+  "bank_name": "telangana-grameena-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Telangana",
+  "website": "https://tgb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://tgb.bank.in/deposit-interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:33:43.296Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

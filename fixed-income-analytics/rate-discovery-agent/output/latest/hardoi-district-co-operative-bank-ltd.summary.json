@@ -1,0 +1,50 @@
+{
+  "bank_code": "hardoi-district-co-operative-bank-ltd",
+  "bank_name": "hardoi-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8840,
+  "duration_ms": 8840,
+  "duration_api_ms": 8709,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0085508,
+  "input_tokens": 18829,
+  "output_tokens": 637,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"hardoi district co-operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hardoidistrictcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hardoi-district-co-operative-bank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hardoi-district-co-operative-bank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hardoi-district-co-operative-bank.in\"}"
+    }
+  ]
+}

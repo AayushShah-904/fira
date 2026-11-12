@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "arunachal-pradesh-rural-bank",
+    "extracted_at": "2026-06-05T12:42:32.182Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "aprb.bank.in",
+  "rate_pages": {
+    "fd": "/interest.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "SSL certificate issue (unable to verify first certificate). HTML table with 6 columns (sl.no, period, old general, revised general, old senior, revised senior). 3 tables. apruralbank.co.in redirects to aprb.bank.in.",
+  "template": {
+    "template_id": "rrb-aprb-6col-existing-revised-general-senior",
+    "template_hash": "sha1:ea75e38146f45f65cc18c548586f0bba33603331",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "rate_general_pct",
+            "4": "ignore",
+            "5": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  },
+  "tls_skip_verify": true,
+  "tls_skip_verify_reason": "Sprint 009 Phase 9.5 (2026-06-05): aprb.bank.in serves rate data behind an expired/invalid TLS cert. Local dev env masks via Norton Safe Web MITM CA; cloud Container Apps strict-rejects. With this flag, fetch_url + Playwright skip cert verification for THIS bank only."
+}

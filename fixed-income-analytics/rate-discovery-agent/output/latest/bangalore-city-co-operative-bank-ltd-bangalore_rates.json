@@ -1,0 +1,94 @@
+{
+  "bank_code": "bangalore-city-co-operative-bank-ltd-bangalore",
+  "bank_name": "Bangalore City Co-operative Bank Ltd Bangalore",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-18",
+  "source_url": "https://bccbl.co.in/interest-rate.php",
+  "scraped_at": "2026-05-21T02:07:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "30 days and above and up to 90 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days and above and up to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days and above and up to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1year and up to 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 2 Years and up to 5 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 5 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days and above and up to 29 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "365 days (1 Year) only societies",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 370,
+    "last_scraped_at": "2026-05-21T02:07:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "commercial-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T11:00:52.689Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "gmcbank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposite.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account.php",
+    "rd": "/recurring-deposit.php"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-4col-tenure-general-senior-super",
+    "template_hash": "sha1:14e65e437a6d3d731bbd0aaf34729039cc77aa9f",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct",
+            "4": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 5,
+      "cluster_reused": false
+    }
+  }
+}

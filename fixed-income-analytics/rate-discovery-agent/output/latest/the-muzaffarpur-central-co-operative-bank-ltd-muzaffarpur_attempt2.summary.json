@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-muzaffarpur-central-co-operative-bank-ltd-muzaffarpur",
+  "bank_name": "The Muzaffarpur Central Co-operative Bank Ltd., Muzaffarpur",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11608,
+  "duration_ms": 11608,
+  "duration_api_ms": 11264,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.088682,
+  "input_tokens": 39705,
+  "output_tokens": 1159,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Muzaffarpur Central Co-operative Bank Ltd., Muzaffarpur\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Muzaffarpur Central Co-operative Bank Ltd., Muzaffarpur\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Muzaffarpur Central Co-operative Bank Ltd., Muzaffarpur\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://muzaffarpurcentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 145,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.muzaffarpurcentralcoopbank.com\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Muzaffarpur Central Co-operative Bank Bihar interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.muzaffarpurcentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 140,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharcooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 7,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.coop\"}"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "bank_code": "the-warangal-district-co-operative-central-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://warangaldccb.bank.in/?page=deposit-schemes",
+  "scraped_at": "2026-06-09T15:22:34.107Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 90 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 6.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 days to below 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year to 3 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 3 Years to 10 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T15:22:34.107Z",
+    "manual_verification_needed": false
+  }
+}

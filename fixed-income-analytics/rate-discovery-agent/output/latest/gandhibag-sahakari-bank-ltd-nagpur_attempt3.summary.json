@@ -1,0 +1,42 @@
+{
+  "bank_code": "gandhibag-sahakari-bank-ltd-nagpur",
+  "bank_name": "gandhibag-sahakari-bank-ltd-nagpur",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 107733,
+  "duration_ms": 107733,
+  "duration_api_ms": 7447,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.064272,
+  "llm_cost_usd": 0.064272,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 28824,
+  "output_tokens": 828,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30037,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gandhibagbank.com/deposits/term-deposits/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30227,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gandhibagbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40022,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.gandhibagbank.com/\"}"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "jsc-vtb-bank",
+    "extracted_at": "2026-06-05T11:44:51.333Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "vtb.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "scraper_type": "manual",
+  "notes": "VTB Bank India. vtb.bank.in exists but minimal site with no deposit rate information.",
+  "status": "site_unreachable",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "VTB Bank (PJSC) India operates a single New Delhi branch focused on corporate/business/forex banking for two-way Russia/CIS-India trade (term loans, trade finance, guarantees). The official site vtb.bank.in lists corporate, business and forex banking only; no retail deposit products or FD interest-rate table are published. Foreign wholesale bank with no retail FD."
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Can Fin Homes Limited",
+    "code": "can-fin-homes",
+    "website_url": "https://www.canfinhomes.com",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Cent Bank Home Finance Limited",
+    "code": "cent-bank-home-finance",
+    "website_url": null,
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "ICICI Home Finance Company Limited",
+    "code": "icici-home-finance",
+    "website_url": "https://www.icicihfc.com",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "LIC Housing Finance Limited",
+    "code": "lic-housing-finance",
+    "website_url": "https://www.lichousing.com",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Manipal Housing Finance Syndicate Limited",
+    "code": "manipal-housing-finance-syndicate",
+    "website_url": null,
+    "state": "Karnataka"
+  },
+  {
+    "name": "PNB Housing Finance Limited",
+    "code": "pnb-housing-finance",
+    "website_url": "https://www.pnbhousing.com",
+    "state": "Delhi"
+  },
+  {
+    "name": "Sundaram Home Finance Limited",
+    "code": "sundaram-home-finance",
+    "website_url": "https://www.sundaramhome.in",
+    "state": "Tamil Nadu"
+  }
+]

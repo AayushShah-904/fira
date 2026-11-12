@@ -1,0 +1,56 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jhabua",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-jhabua",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11161,
+  "duration_ms": 11161,
+  "duration_api_ms": 10852,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.0089252,
+  "input_tokens": 19085,
+  "output_tokens": 807,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit jhabua\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 39,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditjhabua.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditjhabua.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 172,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditjhabua.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 42,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditjhabua.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditjhabua.in/\"}"
+    }
+  ]
+}

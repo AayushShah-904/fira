@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "bank_code": "utkarsh-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T11:13:23.824Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "utkarsh.bank.in",
+  "rate_pages": {
+    "fd": "https://utkarsh.bank.in/assests/pdf/Annexure_Domestic_Fixed_Deposit_Interest_Rates.pdf",
+    "fd_pdf": "/assests/pdf/Annexure_Domestic_Fixed_Deposit_Interest_Rates.pdf",
+    "fd_plus": "/personal/term-deposits/fixed-deposits-plus",
+    "fd_plus_pdf": "/assests/pdf/Annexure_Domestic_Fixed_Deposit_Plus_Interest_Rates.pdf",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/uploads/regulatory/intrest_rate_nri_fd.pdf",
+    "fd_nro": "/uploads/regulatory/intrest_rate_nri_fd.pdf",
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_prev": "/personal/term-deposits/fixed-deposits",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "notes": "Static HTML with PDF rate card",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:1913767443ea79757d065f7ed0257da22a61187b",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T11:42:35.633Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

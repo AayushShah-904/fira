@@ -1,0 +1,17 @@
+{
+  "bank_code": "maharashtra-gramin-bank",
+  "observations": [
+    {
+      "ts": "2026-06-08T22:56:27.394Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:26:03.728Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

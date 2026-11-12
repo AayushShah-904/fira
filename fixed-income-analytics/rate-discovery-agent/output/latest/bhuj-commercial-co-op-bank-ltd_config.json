@@ -1,0 +1,19 @@
+{
+  "bank_code": "bhuj-commercial-co-op-bank-ltd",
+  "bank_name": "bhuj-commercial-co-op-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://bccbbhuj.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://bccbbhuj.bank.in/deposite_int.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:51:32.265Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

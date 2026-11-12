@@ -1,0 +1,19 @@
+{
+  "bank_code": "bnp-paribas-ibu",
+  "bank_name": "BNP Paribas – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T17:48:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "bnpparibas.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Re-verified. GIFT City page https://www.bnpparibas.bank.in/en/gift-city/ — BNP Paribas GIFT IFSC branch (opened 8 Jul 2024) offers only External Commercial Borrowing (ECB) term loans plus upcoming trade-finance / treasury products to corporates. No deposit-taking product, no public foreign-currency term-deposit rate table. Wholesale/corporate only."
+  },
+  "warnings": ["IBU wholesale/corporate only; no deposit product; rates (if any) on request. Matches prior attempt's finding."],
+  "tier2_method": "websearch+webfetch"
+}

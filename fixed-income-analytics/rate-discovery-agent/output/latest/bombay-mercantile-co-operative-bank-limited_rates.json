@@ -1,0 +1,107 @@
+{
+  "bank_code": "bombay-mercantile-co-operative-bank-limited",
+  "bank_name": "Bombay Mercantile Co-operative Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-06-18",
+  "source_url": "https://bmc.bank.in/deporates.php",
+  "scraped_at": "2026-05-21T00:08:13Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 179 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.4,
+      "rate_senior_pct": 4.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 days to 210 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 210,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "211 days to less than 1 year",
+      "tenure_min_days": 211,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year to less than 2 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "1 Year to less than 2 year [sprint-008: general 6.275->6.15, senior 6.775->6.65; prior values were averages of the callable/non-callable slash cell]"
+    },
+    {
+      "tenure_text": "2 Years to less than 3 year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "2 Years to less than 3 year [sprint-008: general 6.475->6.35, senior 6.975->6.85; prior values were averages of the callable/non-callable slash cell]"
+    },
+    {
+      "tenure_text": "3 Years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years and upto to 10 year",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Tax Savings (5 years)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 correctness fix: 1-2y and 2-3y rates were the AVERAGE of the page's \"callable / non-callable\" slash cells; corrected to the general (callable) value."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 400,
+    "last_scraped_at": "2026-05-21T00:08:13Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "bank_code": "zila-sahkari-bank-ltd-garhwal-kotdwar",
+  "bank_name": "Zila Sahkari Bank Ltd. Garhwal (Kotdwar)",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-08-01",
+  "source_url": "https://ukscb.bank.in/interest-rates/",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 दिन से 45 दिन तक",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 दिनों से 180 दिनों तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 दिनों से एवं 01 वर्ष से कम",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "01 वर्ष",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "01 वर्ष से अधिक एवं 03 वर्ष तक",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "03 वर्ष से अधिक एवं 05 वर्ष से कम",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "05 वर्ष से अधिक एवं 10 वर्ष तक",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 356,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": true
+  }
+}

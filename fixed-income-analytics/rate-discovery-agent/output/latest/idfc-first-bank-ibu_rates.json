@@ -1,0 +1,25 @@
+{
+  "bank_code": "idfc-first-bank-ibu",
+  "bank_name": "IDFC First Bank IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-05-21",
+  "source_url": "https://idfcfirst.bank.in/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf",
+  "scraped_at": "2026-05-20T22:15:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "PDF extraction failed due to timeout. No rate slabs could be extracted. Operator should manually review the PDF at the provided URL."
+  ],
+  "errors": [
+    "PDF extraction failed: spawnSync C\\sw\\nodejs\\node.exe ETIMEDOUT"
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-05-20T22:15:00Z",
+    "manual_verification_needed": false
+  }
+}

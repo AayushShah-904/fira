@@ -1,0 +1,65 @@
+{
+  "bank_code": "cooperatieve-rabobank-ua",
+  "bank_name": "Cooperatieve Rabobank U.A.",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2021-10-01",
+  "source_url": "https://media.rabobank.com/m/6a5d11a8d3455a6/original/Rabobank-deposit-rates-20211001.pdf",
+  "scraped_at": "2026-04-12T12:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_2cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_2cr"
+    },
+    {
+      "tenure_text": "3 years to 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_2cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Rates are from October 2021 — bank is winding down India operations and may not accept new NRE deposits",
+    "NRE minimum tenure is 1 year as per RBI regulations",
+    "No senior citizen rates for NRE deposits",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1756,
+    "last_scraped_at": "2026-04-12T12:00:00Z",
+    "manual_verification_needed": true
+  }
+}

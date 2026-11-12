@@ -1,0 +1,12 @@
+{
+  "bank_code": "ujjivan-small-finance-bank-limited",
+  "variant": "fcnr",
+  "slab_count": 0,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [
+    "No extractable FCNR rates found in the official PDF as of fetch date. PDF may be a placeholder or not yet published."
+  ],
+  "key_rates": {}
+}

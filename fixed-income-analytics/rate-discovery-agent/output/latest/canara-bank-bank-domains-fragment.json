@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "bank_code": "canara-bank",
+    "extracted_at": "2026-06-05T09:22:02.811Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "canarabank.bank.in",
+  "rate_pages": {
+    "fd": "/pages/deposit-interest-rates",
+    "fd_nre": "/pages/deposit-interest-rates",
+    "fd_nro": "/pages/deposit-interest-rates",
+    "fd_fcnr": "/pages/deposit-interest-rates",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Liferay CMS + React (Clay UI). All rate tables JS-rendered. NRI rates on same page behind tabs. Senior +0.50%, Super Senior +0.60%. Special schemes: 444 Days, 555 Days.",
+  "template": {
+    "template_id": "canara-multi-tiered-retail-bulk-fcnr",
+    "template_hash": "sha1:a8b8e4dd71ade352cb05c109e10fa71771ef0c34",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 5,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore",
+            "5": "rate_general_pct@1cr_to_10cr",
+            "6": "ignore",
+            "7": "rate_senior_pct@1cr_to_10cr",
+            "8": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 4,
+          "header_span_rows": 4,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct@3cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_25cr",
+            "4": "rate_general_pct@25cr_to_50cr",
+            "5": "rate_general_pct@50cr_to_100cr",
+            "6": "rate_general_pct@100cr_to_150cr",
+            "7": "rate_general_pct@150cr_to_250cr",
+            "8": "rate_general_pct@250cr_to_500cr",
+            "9": "rate_general_pct@500cr_to_1000cr",
+            "10": "rate_general_pct@above_1000cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 3,
+          "header_row": 4,
+          "header_span_rows": 4,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct@3cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_25cr",
+            "4": "rate_general_pct@25cr_to_50cr",
+            "5": "rate_general_pct@50cr_to_100cr",
+            "6": "rate_general_pct@100cr_to_150cr",
+            "7": "rate_general_pct@150cr_to_250cr",
+            "8": "rate_general_pct@250cr_to_500cr",
+            "9": "rate_general_pct@500cr_to_1000cr",
+            "10": "rate_general_pct@above_1000cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 8,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@usd_below_100k",
+            "2": "rate_general_pct@usd_above_100k",
+            "3": "rate_general_pct@gbp",
+            "4": "rate_general_pct@eur",
+            "5": "rate_general_pct@cad",
+            "6": "rate_general_pct@aud"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 6,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@usd_below_100k",
+            "2": "rate_general_pct@usd_above_100k",
+            "3": "rate_general_pct@gbp",
+            "4": "rate_general_pct@eur",
+            "5": "rate_general_pct@cad",
+            "6": "rate_general_pct@aud"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 7,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@usd_below_100k",
+            "2": "ignore",
+            "3": "rate_general_pct@usd_above_100k",
+            "4": "ignore",
+            "5": "rate_general_pct@gbp",
+            "6": "ignore",
+            "7": "rate_general_pct@eur",
+            "8": "ignore",
+            "9": "rate_general_pct@cad",
+            "10": "ignore",
+            "11": "rate_general_pct@aud",
+            "12": "ignore"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 108,
+      "cluster_reused": false
+    }
+  }
+}

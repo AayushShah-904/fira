@@ -1,0 +1,86 @@
+{
+  "bank_code": "the-rohika-central-co-operative-bank-ltd-madhubani",
+  "bank_name": "The Rohika Central Co-operative Bank Ltd., Madhubani",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14057,
+  "duration_ms": 14057,
+  "duration_api_ms": 13584,
+  "num_turns": 10,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.11016000000000001,
+  "input_tokens": 50264,
+  "output_tokens": 1204,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Rohika Central Co-operative Bank Ltd., Madhubani\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rohikabank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Rohika Central Co-operative Bank Ltd., Madhubani\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 148,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rohikabank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rohikabank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Rohika Central Co-operative Bank Ltd., Madhubani\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Rohika Central Co-operative Bank Madhubani Bihar interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"District Central Co-operative Bank Madhubani Bihar official website\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dcbbihar.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 145,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.biharcooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 100,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharcooperativebank.bihar.gov.in\"}"
+    }
+  ]
+}

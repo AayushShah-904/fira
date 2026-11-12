@@ -1,0 +1,91 @@
+{
+  "bank_code": "sharad-nagari-sahakari-bank-ltd-solapur",
+  "bank_name": "Sharad Nagari Sahakari Bank Ltd, Solapur",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "http://sharadbank.in/?page_id=4425",
+  "scraped_at": "2026-05-25T15:54:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "30 days to 90 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 days to 365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "366 days to 3 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "warnings": [
+    "Page renders rates in Devanagari numerals inside <li> price lists; transcribed to Arabic numerals. Tenure labels in Marathi: सर्वसाधारण = general public, जेष्ठ नागरिक = senior citizen.",
+    "The senior-citizen column on the page shows the premium (०.५०% = +0.50% across all slabs); rate_senior_pct recorded as general + 0.50%.",
+    "Source page (sharadbank.in) has an expired TLS certificate; fetched via curl -k.",
+    "No explicit w.e.f / effective date shown on the page."
+  ],
+  "tier2_method": "websearch+webfetch",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "websearch+webfetch",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T15:54:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:19.804Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T15:54:00Z",
+      "retained_slab_count": 5
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-05-25T15:54:00Z",
+    "manual_verification_needed": false
+  }
+}

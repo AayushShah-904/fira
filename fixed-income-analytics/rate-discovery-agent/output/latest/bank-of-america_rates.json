@@ -1,0 +1,93 @@
+{
+  "bank_code": "bank-of-america",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://business.bofa.com/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf",
+  "scraped_at": "2026-06-09T12:32:58.573Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 7,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "8\t-\t14 days",
+      "tenure_min_days": 8,
+      "tenure_max_days": 14,
+      "rate_general_pct": 2.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15\t-\t30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 2.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "31\t-\t45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 2.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46\t-\t60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "61\t-\t90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 2.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91\t-\t120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121\t-\t180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181\t-\t365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T12:32:58.573Z",
+    "manual_verification_needed": false
+  }
+}

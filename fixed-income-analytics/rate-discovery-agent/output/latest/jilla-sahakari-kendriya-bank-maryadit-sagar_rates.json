@@ -1,0 +1,99 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+  "bank_name": "jilla sahakari kendriya bank maryadit sagar",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2022-12-09",
+  "source_url": "https://dccbsagar.bank.in/images/interestrates.pdf",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "180 days to less than 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 year to less than 3 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3 years and above",
+      "tenure_min_days": 1095,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Extracted via vision OCR of scanned Hindi PDF (no text layer). Effective 09-12-2022. Senior citizens get +1% on term deposits per bank services note (matches senior column). Upper bound for '3 years and above' open-ended.",
+    "Registry hint bankbranchin.com was a directory; real site is dccbsagar.bank.in."
+  ],
+  "tier2_method": "ocr",
+  "extraction_method": "manual_image_transcription",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "ocr",
+    "extraction_method": "manual_image_transcription",
+    "sourced_at": "2026-05-25T00:00:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:44:25.186Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-05-25T00:00:00Z",
+      "retained_slab_count": 6
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1322,
+    "last_scraped_at": "2026-05-25T00:00:00Z",
+    "manual_verification_needed": true
+  }
+}

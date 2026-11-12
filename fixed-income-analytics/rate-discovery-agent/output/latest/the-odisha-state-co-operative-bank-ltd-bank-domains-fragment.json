@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "the-odisha-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:35:08.045Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "odishascb.bank.in",
+  "rate_pages": {
+    "fd": "https://odishascb.bank.in/depositescheme.php",
+    "fd_pdf": "/data/2026/Deposit%20Rate-%2006-11-2023.pdf",
+    "savings": "/depositescheme.php",
+    "rd": null,
+    "fd_prev": "/depositescheme.php",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "PHP server-rendered",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:20:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright --scroll --tabs --intercept on odishascb.bank.in/depositescheme.php -> manual HTML table parse (auto rate_slabs empty)",
+    "source_url": "https://odishascb.bank.in/depositescheme.php",
+    "slab_count": 12,
+    "hints": "odishascb.bank.in/depositescheme.php; manual HTML table parse (Revised rate column)",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "bank_code": "sumitomo-mitsui-banking-corporation",
+  "scraped_at": "2026-05-13T18:45:24.298Z",
+  "source_url": "https://www.smbc.co.jp/global/india/interest_rates/fd_rates.pdf",
+  "effective_date": "2026-05-13",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.32,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 - 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.32,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31 - 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.62,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 - 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.72,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 - 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.72,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 - 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 4.87,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "121 - 150 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 4.97,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "151 - 183 days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 183,
+      "rate_general_pct": 5.07,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "184 - 270 days",
+      "tenure_min_days": 184,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.17,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 days - 1 year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.17,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1year 1day - 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.17,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above two years",
+      "tenure_min_days": 731,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.17,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Could not parse tenure: \"1\t \t61 - 90 days\" (normalized: \"1\t \t61 - 90 days\")",
+    "Could not parse tenure: \"2\t \t91 - 120 days\" (normalized: \"2\t \t91 - 120 days\")",
+    "Could not parse tenure: \"3\t \t121 - 150 days\" (normalized: \"3\t \t121 - 150 days\")",
+    "Could not parse tenure: \"4\t \t151 - 183 days\" (normalized: \"4\t \t151 - 183 days\")",
+    "Could not parse tenure: \"5\t \t184 - 270 days\" (normalized: \"5\t \t184 - 270 days\")",
+    "Could not parse tenure: \"6\t \t271 days - 1 year\" (normalized: \"6\t \t271 days - 1 year\")",
+    "Could not parse tenure: \"1\t \t7 - 14 days\" (normalized: \"1\t \t7 - 14 days\")",
+    "Could not parse tenure: \"2\t \t15 - 30 days\" (normalized: \"2\t \t15 - 30 days\")",
+    "Could not parse tenure: \"3\t \t31 - 45 days\" (normalized: \"3\t \t31 - 45 days\")",
+    "Could not parse tenure: \"4\t \t46 - 60 days\" (normalized: \"4\t \t46 - 60 days\")",
+    "Could not parse tenure: \"5\t \t61 - 90 days\" (normalized: \"5\t \t61 - 90 days\")",
+    "Could not parse tenure: \"6\t \t91 - 120 days\" (normalized: \"6\t \t91 - 120 days\")",
+    "Could not parse tenure: \"7\t \t121 - 150 days\" (normalized: \"7\t \t121 - 150 days\")",
+    "Could not parse tenure: \"8\t \t151 - 183 days\" (normalized: \"8\t \t151 - 183 days\")",
+    "Could not parse tenure: \"9\t \t184 - 270 days\" (normalized: \"9\t \t184 - 270 days\")",
+    "Could not parse tenure: \"10\t \t271 days - 1 year\" (normalized: \"10\t \t271 days - 1 year\")",
+    "Could not parse tenure: \"11\t \t1year 1day - 2 years\" (normalized: \"11\t \t1 year 1 day - 2 years\")",
+    "Could not parse tenure: \"12\t \tAbove two years\" (normalized: \"12\t \tAbove two years\")",
+    "LLM-verified after sanity-gate flagged deterministic output.",
+    "Rates shown are for deposit amount < 30 million INR tier only.",
+    "Rates are for Rupee Term Deposits with Pre-mature withdrawal option.",
+    "Please contact RM for rates on higher deposit slabs.",
+    "Rates effective from 13 May 2026."
+  ],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "safe_replace",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 71,
+    "last_scraped_at": "2026-05-13T18:45:24.298Z",
+    "manual_verification_needed": false
+  }
+}

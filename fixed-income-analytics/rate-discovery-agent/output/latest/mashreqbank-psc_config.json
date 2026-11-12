@@ -1,0 +1,22 @@
+{
+  "bank_code": "mashreqbank-psc",
+  "bank_name": "mashreqbank-psc",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "UAE",
+  "website": "https://mashreq.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://mashreq.bank.in/-/jssmedia/pdfs/india/public-communication-deposit-rate-effective.ashx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:52:57.244Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

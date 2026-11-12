@@ -1,0 +1,106 @@
+{
+  "bank_code": "slice-small-finance-bank-limited",
+  "bank_name": "Slice Small Finance Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-09-17",
+  "source_url": "https://slice.bank.in/rates-and-pricing/",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 29 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 - 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days - 3 months",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months 1 day - 6 months",
+      "tenure_min_days": 91,
+      "tenure_max_days": 182,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months 1 day - 1 year",
+      "tenure_min_days": 183,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year 1 day - 1.5 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 547,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1.5 years 1 day - 1.5 years 2 days",
+      "tenure_min_days": 548,
+      "tenure_max_days": 549,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1.5 years 3 days - 3 years",
+      "tenure_min_days": 550,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years 1 day - 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years 1 day - 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction"
+}

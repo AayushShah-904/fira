@@ -1,0 +1,213 @@
+{
+  "bank_code": "pt-bank-maybank-indonesia-tbk",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-01",
+  "source_url": "https://www.maybank.co.in/downloads_pdf/Deposit%20rates_01052026.pdf",
+  "scraped_at": "2026-07-07T06:54:48.198Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-15 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 15,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "16-30 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 30,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "31-45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46-70 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 70,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "71-90 days",
+      "tenure_min_days": 71,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91-100 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 100,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "101-120days",
+      "tenure_min_days": 101,
+      "tenure_max_days": 120,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121-180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181-270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271-365 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "366 days -2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": ">2 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "7-15 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 15,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "16-30 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "31-45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46-70 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 70,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "71-90 days",
+      "tenure_min_days": 71,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91-100 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 100,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "101-120days",
+      "tenure_min_days": 101,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121-180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181-270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271-365 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "366 days -2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": ">2 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 83,
+    "last_scraped_at": "2026-07-07T06:54:48.198Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "bank_code": "gondia-district-central-co-operative-bank-ltd",
+  "bank_name": "gondia-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 106907,
+  "duration_ms": 106907,
+  "duration_api_ms": 11424,
+  "num_turns": 9,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.134738,
+  "input_tokens": 63233,
+  "output_tokens": 1034,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Gondia District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30062,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gondiadccb.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Gondia District Central Co-operative Bank Ltd\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30054,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.gondiadccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30449,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gondiadccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 180,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://gondiadccb.co.in/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 4736,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://gondiadccb.co.in/\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/gondia-district-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"gondia-district-central-co-operative-bank-ltd\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/gondia-district-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"gondia-district-central-co-operative-bank-ltd\\\",\\n"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "Homepage and all visible content are dominated by recruitment notifications and exam schedules. No banking product or deposit rate pages found. This domain appears to be used only for recruitment purposes, not for customer banking information. Per Sprint 002 Rule 5, do not commit as authoritative for deposit rates. Operator review required.",
+    "website_url": "https://gondiadccb.co.in/",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 3,
+    "domain_was_known": false
+  }
+}

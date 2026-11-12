@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-karnataka-state-co-operative-apex-bank-ltd",
+  "bank_name": "the-karnataka-state-co-operative-apex-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://karnatakaapex.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://karnatakaapex.bank.in/new/retail-banking/deposit-schemes/term-deposits/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:08:42.796Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

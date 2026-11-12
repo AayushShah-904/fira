@@ -1,0 +1,222 @@
+{
+  "bank_code": "axis-bank-limited",
+  "bank_name": "axis-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 92686,
+  "duration_ms": 92686,
+  "duration_api_ms": 4992,
+  "num_turns": 0,
+  "tool_call_count": 29,
+  "total_cost_usd": 0,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 6029,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 7,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 584,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd",
+      "duration_ms": 827,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[1]",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 7,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 273,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_nre",
+      "duration_ms": 471,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nre@pages[1]",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_nre",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nre",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 201,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_nro",
+      "duration_ms": 383,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nre@pages[1]",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_nro",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nro",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 31161,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_fcnr",
+      "duration_ms": 36227,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 3749,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_fcnr",
+      "duration_ms": 2686,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "variant-coverage:extract_pdf_table:fd_nro",
+      "duration_ms": 5039,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "",
+    "website_url": "https://axis.bank.in",
+    "rate_url_fd": "https://www.axisbank.com/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposit-interest-rates-less-than-3-crores-09-november-26.pdf?sfvrsn=8b6dfa7d_1",
+    "slab_count": 18,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

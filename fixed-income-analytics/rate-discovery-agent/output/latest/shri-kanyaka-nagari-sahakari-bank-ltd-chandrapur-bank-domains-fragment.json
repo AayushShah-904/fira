@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+    "extracted_at": "2026-06-06T09:14:24.545Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "kanyakabank.bank.in",
+  "rate_pages": {
+    "fd": "https://kanyakabank.bank.in/Pages/deposit-rate-of-interest-.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "savings": "Pages/Saving-Account.aspx",
+    "fd_prev": "/Pages/Fixed-Deposit.aspx",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "notes": "Official .bank.in site located; no specific FD or NRE/NRO/FCNR rate pages found via search results.",
+  "scraper_type": "image",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://kanyakabank.bank.in/Pages/deposit-rate-of-interest-.aspx",
+    "slab_count": 7,
+    "hints": "Rate card is a Marathi image (deposite.jpg) transcribed via vision. Used the REVISED column (w.e.f. 01/09/2021, right panel); left panel was the prior 01/08/2021 rates. Senior citizens and registered educational/charitable institutions get +0.50% over the listed rate. Savings deposit (3.00%) excluded as non-FD. Rates are dated 2021 and may be stale, but this is the bank's currently-published card.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

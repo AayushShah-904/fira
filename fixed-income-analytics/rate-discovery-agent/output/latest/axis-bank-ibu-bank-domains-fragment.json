@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "bank_code": "axis-bank-ibu",
+    "extracted_at": "2026-06-05T14:02:25.273Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "axis.bank.in",
+  "rate_pages": {
+    "fd": "/nri/nri-deposits/gift-city-fixed-deposit",
+    "fd_gift_pdf": "/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": "https://www.axisbank.com/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf"
+  },
+  "scraper_type": "pdf",
+  "parent_bank_code": "axis-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City. USD term deposits, PDF rate card. Two amount tiers: < 1 USD Mio, >= 1 USD Mio. W.e.f. 2026-02-23.",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs+currency",
+    "template_hash": "pdf:643c2988cbb776b29cda08b4f9124875f7ad0bf3",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs+currency"
+    },
+    "variants": {
+      "gift": {
+        "rate_page_key": "fd_gift"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T09:06:45.139Z",
+      "gates_passed": "PASS",
+      "slab_count": 12,
+      "source": "pdf",
+      "pdf_method": "doc_intelligence"
+    }
+  },
+  "effective_date": "2026-02-23",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 150,
+    "last_scraped_at": "2026-07-23T14:01:43.109Z",
+    "manual_verification_needed": true
+  }
+}

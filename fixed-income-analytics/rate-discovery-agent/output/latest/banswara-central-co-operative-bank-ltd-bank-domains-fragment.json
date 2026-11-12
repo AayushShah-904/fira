@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "bank_code": "banswara-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:33:36.992Z",
+    "source": "bank-domains.json",
+    "source_sha": "569e7d836788c0f048aa9a8caece448b6f1a4ea6436d1455a2b7db56b8a96798"
+  },
+  "domain": "www.banswaraccb.com",
+  "rate_pages": {
+    "fd": "/deposit-products/",
+    "fd_image_ocr": "https://www.banswaraccb.com/wp-content/uploads/ccb-downloads/deposit-rates/BANSWARA%20CCB%20FD%20RATES%2011-07-2023.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "extraction": {
+    "fd_image_ocr": {
+      "type": "image_ocr",
+      "fulfills_product": [
+        "fd"
+      ]
+    }
+  },
+  "scraper_type": "pdf",
+  "extraction_method": "pending_vision",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "rate_pdfs": [
+    {
+      "url": "https://www.banswaraccb.com/wp-content/uploads/ccb-downloads/deposit-rates/BANSWARA%20CCB%20FD%20RATES%2011-07-2023.pdf",
+      "latest": true,
+      "effective_dates_in_pdf": [
+        "2021-03-12",
+        "2022-01-17",
+        "2022-07-25",
+        "2022-11-07",
+        "2022-11-20",
+        "2023-01-16",
+        "2023-03-01",
+        "2023-04-05",
+        "2023-07-21"
+      ],
+      "applicable_page": 8,
+      "latest_w_e_f": "2023-07-21"
+    },
+    {
+      "url": "https://www.banswaraccb.com/wp-content/uploads/ccb-downloads/deposit-rates/Deposit%20Rates%20WEF%2012-07-2022.pdf",
+      "latest": false
+    }
+  ],
+  "notes": "Rate page lists two PDFs. The 11-07-2023 PDF is the authoritative one and is 9 pages of CHRONOLOGICALLY APPENDED office orders (each page is a separate circular with its own w.e.f. date). The LATEST circular is on page 8 with w.e.f. 21-07-2023. Earlier pages are superseded. PDF has scanned page images with an OCR text layer over them — pdf-parse returns garbled text (visible artifacts like \"C0-0PERATIVE\"), text is not user-selectable in viewer. Awaiting Vision-API extraction or operator visual transcription of page 8. See L10 (chronological circular PDFs) and L11 (OCR-text-layer PDFs).",
+  "effective_date": "2023-07-21",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1098,
+    "last_scraped_at": "2026-07-23T14:01:43.181Z",
+    "manual_verification_needed": true
+  }
+}

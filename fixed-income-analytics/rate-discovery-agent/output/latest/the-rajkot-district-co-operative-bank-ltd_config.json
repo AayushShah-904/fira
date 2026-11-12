@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-rajkot-district-co-operative-bank-ltd",
+  "bank_name": "the-rajkot-district-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://rajkotdccb.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://rajkotdccb.bank.in/rdc/index.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:29:55.595Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

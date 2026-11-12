@@ -1,0 +1,168 @@
+{
+  "bank_code": "nonghyup-bank",
+  "bank_name": "nonghyup-bank",
+  "category": "Foreign Bank",
+  "mode": "rates-only",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 38813,
+  "duration_ms": 38813,
+  "duration_api_ms": 2115,
+  "num_turns": 0,
+  "tool_call_count": 20,
+  "total_cost_usd": 0,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 7974,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 19,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 8796,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd",
+      "duration_ms": 14380,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd",
+      "duration_ms": 442,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 436,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nre",
+      "duration_ms": 1221,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nre",
+      "duration_ms": 22,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 255,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_nro",
+      "duration_ms": 1196,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_nro",
+      "duration_ms": 8,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 266,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_fcnr",
+      "duration_ms": 1664,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_fcnr",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "agent_error",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "html_js",
+    "notes": "",
+    "website_url": "https://nonghyup.bank.in",
+    "rate_url_fd": "https://nonghyup.bank.in/index.jsp",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": false,
+    "initial_tier": 2,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "generated_at": "2026-06-10T08:26:21.189Z",
+  "total_sub_threshold_banks": 29,
+  "by_class": {
+    "head_full": 22,
+    "head_partial": 2,
+    "head_none": 5
+  },
+  "recoverable_from_head_slabs": 263,
+  "gap_after_head_slabs": 27,
+  "classifications": [
+    {
+      "bank_code": "bandhan-bank-limited",
+      "prev_pack": 140,
+      "current": 77,
+      "current_files_sum": 77,
+      "head_files_sum": 141,
+      "delta_from_prev": 63,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "bandhan-bank-limited_rates.json",
+          "head": 66,
+          "curr": 38
+        },
+        {
+          "file": "bandhan-bank-limited_nre_rates.json",
+          "head": 26,
+          "curr": 20
+        },
+        {
+          "file": "bandhan-bank-limited_nro_rates.json",
+          "head": 42,
+          "curr": 12
+        },
+        {
+          "file": "bandhan-bank-limited_fcnr_rates.json",
+          "head": 7,
+          "curr": 7
+        }
+      ]
+    },
+    {
+      "bank_code": "idfc-first-bank-limited",
+      "prev_pack": 81,
+      "current": 51,
+      "current_files_sum": 51,
+      "head_files_sum": 93,
+      "delta_from_prev": 30,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "idfc-first-bank-limited_rates.json",
+          "head": 13,
+          "curr": 13
+        },
+        {
+          "file": "idfc-first-bank-limited_nre_rates.json",
+          "head": 13,
+          "curr": 7
+        },
+        {
+          "file": "idfc-first-bank-limited_nro_rates.json",
+          "head": 13,
+          "curr": 13
+        },
+        {
+          "file": "idfc-first-bank-limited_fcnr_rates.json",
+          "head": 54,
+          "curr": 18
+        }
+      ]
+    },
+    {
+      "bank_code": "dbs-bank-india-limited",
+      "prev_pack": 62,
+      "current": 40,
+      "current_files_sum": 40,
+      "head_files_sum": 62,
+      "delta_from_prev": 22,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "dbs-bank-india-limited_rates.json",
+          "head": 24,
+          "curr": 2
+        },
+        {
+          "file": "dbs-bank-india-limited_nre_rates.json",
+          "head": 9,
+          "curr": 9
+        },
+        {
+          "file": "dbs-bank-india-limited_nro_rates.json",
+          "head": 24,
+          "curr": 24
+        },
+        {
+          "file": "dbs-bank-india-limited_fcnr_rates.json",
+          "head": 5,
+          "curr": 5
+        }
+      ]
+    },
+    {
+      "bank_code": "mizuho-bank-ltd",
+      "prev_pack": 68,
+      "current": 47,
+      "current_files_sum": 47,
+      "head_files_sum": 66,
+      "delta_from_prev": 21,
+      "classification": "head_partial",
+      "files": [
+        {
+          "file": "mizuho-bank-ltd_rates.json",
+          "head": 22,
+          "curr": 24
+        },
+        {
+          "file": "mizuho-bank-ltd_nre_rates.json",
+          "head": 22,
+          "curr": 1
+        },
+        {
+          "file": "mizuho-bank-ltd_nro_rates.json",
+          "head": 22,
+          "curr": 22
+        },
+        {
+          "file": "mizuho-bank-ltd_fcnr_rates.json",
+          "head": 0,
+          "curr": 0
+        }
+      ]
+    },
+    {
+      "bank_code": "union-bank-of-india",
+      "prev_pack": 133,
+      "current": 112,
+      "current_files_sum": 112,
+      "head_files_sum": 133,
+      "delta_from_prev": 21,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "union-bank-of-india_rates.json",
+          "head": 27,
+          "curr": 27
+        },
+        {
+          "file": "union-bank-of-india_nre_rates.json",
+          "head": 10,
+          "curr": 10
+        },
+        {
+          "file": "union-bank-of-india_nro_rates.json",
+          "head": 27,
+          "curr": 27
+        },
+        {
+          "file": "union-bank-of-india_fcnr_rates.json",
+          "head": 69,
+          "curr": 48
+        }
+      ]
+    },
+    {
+      "bank_code": "emirates-nbd-bank-pjsc",
+      "prev_pack": 81,
+      "current": 64,
+      "current_files_sum": 64,
+      "head_files_sum": 141,
+      "delta_from_prev": 17,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "emirates-nbd-bank-pjsc_rates.json",
+          "head": 53,
+          "curr": 23
+        },
+        {
+          "file": "emirates-nbd-bank-pjsc_nre_rates.json",
+          "head": 32,
+          "curr": 15
+        },
+        {
+          "file": "emirates-nbd-bank-pjsc_nro_rates.json",
+          "head": 53,
+          "curr": 23
+        },
+        {
+          "file": "emirates-nbd-bank-pjsc_fcnr_rates.json",
+          "head": 3,
+          "curr": 3
+        }
+      ]
+    },
+    {
+      "bank_code": "citibank-na",
+      "prev_pack": 51,
+      "current": 35,
+      "current_files_sum": 52,
+      "head_files_sum": 102,
+      "delta_from_prev": 16,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "citibank-na_rates.json",
+          "head": 34,
+          "curr": 17
+        },
+        {
+          "file": "citibank-na_nre_rates.json",
+          "head": 34,
+          "curr": 34
+        },
+        {
+          "file": "citibank-na_nro_rates.json",
+          "head": 34,
+          "curr": 1
+        }
+      ]
+    },
+    {
+      "bank_code": "bank-of-india",
+      "prev_pack": 37,
+      "current": 23,
+      "current_files_sum": 23,
+      "head_files_sum": 37,
+      "delta_from_prev": 14,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "bank-of-india_rates.json",
+          "head": 30,
+          "curr": 16
+        },
+        {
+          "file": "bank-of-india_nre_rates.json",
+          "head": 7,
+          "curr": 7
+        },
+        {
+          "file": "bank-of-india_fcnr_rates.json",
+          "head": 0,
+          "curr": 0
+        }
+      ]
+    },
+    {
+      "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+      "prev_pack": 44,
+      "current": 34,
+      "current_files_sum": 34,
+      "head_files_sum": 60,
+      "delta_from_prev": 10,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "bank-of-bahrain-and-kuwait-bsc_rates.json",
+          "head": 18,
+          "curr": 10
+        },
+        {
+          "file": "bank-of-bahrain-and-kuwait-bsc_nre_rates.json",
+          "head": 18,
+          "curr": 9
+        },
+        {
+          "file": "bank-of-bahrain-and-kuwait-bsc_nro_rates.json",
+          "head": 18,
+          "curr": 10
+        },
+        {
+          "file": "bank-of-bahrain-and-kuwait-bsc_fcnr_rates.json",
+          "head": 6,
+          "curr": 5
+        }
+      ]
+    },
+    {
+      "bank_code": "indian-bank",
+      "prev_pack": 110,
+      "current": 102,
+      "current_files_sum": 102,
+      "head_files_sum": 101,
+      "delta_from_prev": 8,
+      "classification": "head_none",
+      "files": [
+        {
+          "file": "indian-bank_rates.json",
+          "head": 35,
+          "curr": 32
+        },
+        {
+          "file": "indian-bank_nre_rates.json",
+          "head": 9,
+          "curr": 11
+        },
+        {
+          "file": "indian-bank_nro_rates.json",
+          "head": 17,
+          "curr": 19
+        },
+        {
+          "file": "indian-bank_fcnr_rates.json",
+          "head": 40,
+          "curr": 40
+        }
+      ]
+    },
+    {
+      "bank_code": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd",
+      "prev_pack": 14,
+      "current": 7,
+      "current_files_sum": 7,
+      "head_files_sum": 14,
+      "delta_from_prev": 7,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd_rates.json",
+          "head": 14,
+          "curr": 7
+        }
+      ]
+    },
+    {
+      "bank_code": "shamrao-vithal-co-operative-bank-ltd",
+      "prev_pack": 26,
+      "current": 20,
+      "current_files_sum": 20,
+      "head_files_sum": 17,
+      "delta_from_prev": 6,
+      "classification": "head_none",
+      "files": [
+        {
+          "file": "shamrao-vithal-co-operative-bank-ltd_rates.json",
+          "head": 17,
+          "curr": 20
+        }
+      ]
+    },
+    {
+      "bank_code": "mizoram-rural-bank",
+      "prev_pack": 17,
+      "current": 12,
+      "current_files_sum": 12,
+      "head_files_sum": 17,
+      "delta_from_prev": 5,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "mizoram-rural-bank_rates.json",
+          "head": 17,
+          "curr": 12
+        }
+      ]
+    },
+    {
+      "bank_code": "the-andhra-pradesh-state-co-operative-bank-ltd",
+      "prev_pack": 12,
+      "current": 7,
+      "current_files_sum": 7,
+      "head_files_sum": 12,
+      "delta_from_prev": 5,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "the-andhra-pradesh-state-co-operative-bank-ltd_rates.json",
+          "head": 12,
+          "curr": 7
+        }
+      ]
+    },
+    {
+      "bank_code": "uco-bank",
+      "prev_pack": 140,
+      "current": 135,
+      "current_files_sum": 135,
+      "head_files_sum": 61,
+      "delta_from_prev": 5,
+      "classification": "head_none",
+      "files": [
+        {
+          "file": "uco-bank_rates.json",
+          "head": 31,
+          "curr": 37
+        },
+        {
+          "file": "uco-bank_nre_rates.json",
+          "head": 7,
+          "curr": 16
+        },
+        {
+          "file": "uco-bank_nro_rates.json",
+          "head": 16,
+          "curr": 37
+        },
+        {
+          "file": "uco-bank_fcnr_rates.json",
+          "head": 7,
+          "curr": 45
+        }
+      ]
+    },
+    {
+      "bank_code": "maharashtra-gramin-bank",
+      "prev_pack": 15,
+      "current": 11,
+      "current_files_sum": 11,
+      "head_files_sum": 15,
+      "delta_from_prev": 4,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "maharashtra-gramin-bank_rates.json",
+          "head": 15,
+          "curr": 11
+        }
+      ]
+    },
+    {
+      "bank_code": "natwest-markets-plc",
+      "prev_pack": 35,
+      "current": 31,
+      "current_files_sum": 31,
+      "head_files_sum": 35,
+      "delta_from_prev": 4,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "natwest-markets-plc_rates.json",
+          "head": 5,
+          "curr": 1
+        },
+        {
+          "file": "natwest-markets-plc_nre_rates.json",
+          "head": 1,
+          "curr": 1
+        },
+        {
+          "file": "natwest-markets-plc_nro_rates.json",
+          "head": 4,
+          "curr": 4
+        },
+        {
+          "file": "natwest-markets-plc_fcnr_rates.json",
+          "head": 25,
+          "curr": 25
+        }
+      ]
+    },
+    {
+      "bank_code": "punjab-sind-bank",
+      "prev_pack": 112,
+      "current": 108,
+      "current_files_sum": 108,
+      "head_files_sum": 107,
+      "delta_from_prev": 4,
+      "classification": "head_none",
+      "files": [
+        {
+          "file": "punjab-sind-bank_rates.json",
+          "head": 30,
+          "curr": 30
+        },
+        {
+          "file": "punjab-sind-bank_nre_rates.json",
+          "head": 22,
+          "curr": 22
+        },
+        {
+          "file": "punjab-sind-bank_nro_rates.json",
+          "head": 30,
+          "curr": 31
+        },
+        {
+          "file": "punjab-sind-bank_fcnr_rates.json",
+          "head": 25,
+          "curr": 25
+        }
+      ]
+    },
+    {
+      "bank_code": "the-goa-state-co-operative-bank-ltd",
+      "prev_pack": 9,
+      "current": 5,
+      "current_files_sum": 5,
+      "head_files_sum": 9,
+      "delta_from_prev": 4,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "the-goa-state-co-operative-bank-ltd_rates.json",
+          "head": 9,
+          "curr": 5
+        }
+      ]
+    },
+    {
+      "bank_code": "the-washim-urban-co-operative-bank-limited",
+      "prev_pack": 12,
+      "current": 8,
+      "current_files_sum": 8,
+      "head_files_sum": 12,
+      "delta_from_prev": 4,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "the-washim-urban-co-operative-bank-limited_rates.json",
+          "head": 12,
+          "curr": 8
+        }
+      ]
+    },
+    {
+      "bank_code": "eluru-district-co-operative-central-bank-ltd",
+      "prev_pack": 9,
+      "current": 6,
+      "current_files_sum": 6,
+      "head_files_sum": 9,
+      "delta_from_prev": 3,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "eluru-district-co-operative-central-bank-ltd_rates.json",
+          "head": 9,
+          "curr": 6
+        }
+      ]
+    },
+    {
+      "bank_code": "icici-bank-limited",
+      "prev_pack": 33,
+      "current": 30,
+      "current_files_sum": 30,
+      "head_files_sum": 32,
+      "delta_from_prev": 3,
+      "classification": "head_partial",
+      "files": [
+        {
+          "file": "icici-bank-limited_rates.json",
+          "head": 2,
+          "curr": 2
+        },
+        {
+          "file": "icici-bank-limited_nre_rates.json",
+          "head": 9,
+          "curr": 6
+        },
+        {
+          "file": "icici-bank-limited_nro_rates.json",
+          "head": 9,
+          "curr": 9
+        },
+        {
+          "file": "icici-bank-limited_fcnr_rates.json",
+          "head": 12,
+          "curr": 13
+        }
+      ]
+    },
+    {
+      "bank_code": "the-assam-co-operative-apex-bank-ltd",
+      "prev_pack": 15,
+      "current": 12,
+      "current_files_sum": 12,
+      "head_files_sum": 15,
+      "delta_from_prev": 3,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "the-assam-co-operative-apex-bank-ltd_rates.json",
+          "head": 15,
+          "curr": 12
+        }
+      ]
+    },
+    {
+      "bank_code": "the-visakhapatnam-co-operative-bank-ltd",
+      "prev_pack": 9,
+      "current": 6,
+      "current_files_sum": 6,
+      "head_files_sum": 10,
+      "delta_from_prev": 3,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "the-visakhapatnam-co-operative-bank-ltd_rates.json",
+          "head": 10,
+          "curr": 6
+        }
+      ]
+    },
+    {
+      "bank_code": "bank-of-maharashtra",
+      "prev_pack": 45,
+      "current": 43,
+      "current_files_sum": 43,
+      "head_files_sum": 71,
+      "delta_from_prev": 2,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "bank-of-maharashtra_rates.json",
+          "head": 14,
+          "curr": 14
+        },
+        {
+          "file": "bank-of-maharashtra_nre_rates.json",
+          "head": 7,
+          "curr": 6
+        },
+        {
+          "file": "bank-of-maharashtra_fcnr_rates.json",
+          "head": 50,
+          "curr": 23
+        }
+      ]
+    },
+    {
+      "bank_code": "central-bank-of-india",
+      "prev_pack": 66,
+      "current": 64,
+      "current_files_sum": 64,
+      "head_files_sum": 69,
+      "delta_from_prev": 2,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "central-bank-of-india_rates.json",
+          "head": 31,
+          "curr": 29
+        },
+        {
+          "file": "central-bank-of-india_nre_rates.json",
+          "head": 6,
+          "curr": 5
+        },
+        {
+          "file": "central-bank-of-india_fcnr_rates.json",
+          "head": 32,
+          "curr": 30
+        }
+      ]
+    },
+    {
+      "bank_code": "kalupur-commercial-co-operative-bank-ltd",
+      "prev_pack": 12,
+      "current": 10,
+      "current_files_sum": 10,
+      "head_files_sum": 12,
+      "delta_from_prev": 2,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "kalupur-commercial-co-operative-bank-ltd_rates.json",
+          "head": 12,
+          "curr": 10
+        }
+      ]
+    },
+    {
+      "bank_code": "andhra-pradesh-grameena-bank",
+      "prev_pack": 14,
+      "current": 13,
+      "current_files_sum": 13,
+      "head_files_sum": 13,
+      "delta_from_prev": 1,
+      "classification": "head_none",
+      "files": [
+        {
+          "file": "andhra-pradesh-grameena-bank_rates.json",
+          "head": 13,
+          "curr": 13
+        }
+      ]
+    },
+    {
+      "bank_code": "jodhpur-central-co-operative-bank-ltd",
+      "prev_pack": 2,
+      "current": 1,
+      "current_files_sum": 1,
+      "head_files_sum": 2,
+      "delta_from_prev": 1,
+      "classification": "head_full",
+      "files": [
+        {
+          "file": "jodhpur-central-co-operative-bank-ltd_rates.json",
+          "head": 2,
+          "curr": 1
+        }
+      ]
+    }
+  ]
+}

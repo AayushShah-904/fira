@@ -1,0 +1,19 @@
+{
+  "bank_code": "jana-small-finance-bank-limited",
+  "bank_name": "jana-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "category": "Small Finance Bank",
+  "state": "Karnataka",
+  "website": "https://jana.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://jana.bank.in/interest-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:30:03.726Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,22 @@
+{
+  "bank_code": "indian-bank",
+  "bank_name": "indian-bank",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "state": "Tamil Nadu",
+  "website": "https://indianbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://indianbank.bank.in/departments/deposit-rates/",
+    "fd_nre": "https://indianbank.bank.in/departments/deposit-rates/",
+    "fd_nro": "https://indianbank.bank.in/departments/deposit-rates/",
+    "fd_fcnr": "https://indianbank.bank.in/departments/fcnr-b-deposits/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:50:33.606Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

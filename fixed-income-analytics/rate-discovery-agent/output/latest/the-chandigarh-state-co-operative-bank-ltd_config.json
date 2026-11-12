@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-chandigarh-state-co-operative-bank-ltd",
+  "bank_name": "the-chandigarh-state-co-operative-bank-ltd",
+  "bank_type": "NSSCB",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "state": "Chandigarh",
+  "website": "https://cscbapex.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://cscbapex.com/Chandigarh-State-Cooperative-Bank/deposit-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:59:31.999Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

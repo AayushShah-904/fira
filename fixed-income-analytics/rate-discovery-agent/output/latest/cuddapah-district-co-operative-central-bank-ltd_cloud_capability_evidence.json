@@ -1,0 +1,17 @@
+{
+  "bank_code": "cuddapah-district-co-operative-central-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T01:29:41.259Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T16:11:17.705Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

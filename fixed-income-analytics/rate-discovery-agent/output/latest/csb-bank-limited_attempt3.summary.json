@@ -1,0 +1,60 @@
+{
+  "bank_code": "csb-bank-limited",
+  "bank_name": "csb-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 90385,
+  "duration_ms": 90385,
+  "duration_api_ms": 12276,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.208978,
+  "llm_cost_usd": 0.208978,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 99961,
+  "output_tokens": 1132,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 18656,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/interest-rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 18772,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/nre-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22095,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/nro-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 18585,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://csb.bank.in/fcnrb-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limited\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/private-sector-bank-indian/csb-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"csb-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"CSB Bank Limited\\\",\\"
+    }
+  ]
+}

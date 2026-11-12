@@ -1,0 +1,132 @@
+{
+  "bank_code": "the-karnataka-state-co-operative-apex-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://karnatakaapex.bank.in/new/retail-banking/deposit-schemes/term-deposits/",
+  "scraped_at": "2026-06-09T13:08:42.787Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "rate_senior_pct": 1,
+      "tenure_text": "07 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "rate_senior_pct": 2,
+      "tenure_text": "15 Days to 30 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "rate_senior_pct": 3,
+      "tenure_text": "31 Days to 45 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "rate_senior_pct": 4,
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "rate_senior_pct": 5,
+      "tenure_text": "91 Days to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "rate_senior_pct": 6,
+      "tenure_text": "180 Days to less than One Year",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "rate_senior_pct": 7,
+      "tenure_text": "1 Year and Above",
+      "tenure_min_days": 365,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 7,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (07 Days to 14 Days): senior rate 1% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (07 Days to 14 Days): senior rate (1%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (15 Days to 30 Days): senior rate (2%) < general rate (4.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (31 Days to 45 Days): senior rate (3%) < general rate (4.75%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (46 Days to 90 Days): senior rate (4%) < general rate (5.25%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (91 Days to 179 Days): senior rate (5%) < general rate (6%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (180 Days to less than One Year): senior rate (6%) < general rate (6.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T13:08:42.787Z",
+    "manual_verification_needed": false
+  }
+}

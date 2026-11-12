@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "idbi-bank-ibu",
+    "extracted_at": "2026-06-05T14:10:41.036Z",
+    "source": "bank-domains.json",
+    "source_sha": "35179242bd1c38e9e49381a91261b90d7bec8be6c74ca7b43ed6dc133602499f"
+  },
+  "domain": "idbi.bank.in",
+  "rate_pages": {
+    "fd": "/ibu/interest-rates.aspx",
+    "fd_gift": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "parent_bank_code": "idbi-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City",
+  "template": {
+    "template_id": "ibu-static-5col-usd-euro-buckets",
+    "template_hash": "sha1:abd7205f9dded1e67a2b5a605a0799108157255d",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@usd_below_0_5mn",
+            "2": "rate_general_pct@usd_above_0_5mn",
+            "3": "rate_general_pct@usd_non_callable_2mn",
+            "4": "rate_general_pct@euro"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 48,
+      "cluster_reused": false
+    }
+  }
+}

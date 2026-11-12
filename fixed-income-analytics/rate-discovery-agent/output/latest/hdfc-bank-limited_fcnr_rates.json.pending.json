@@ -1,0 +1,23 @@
+{
+  "bank_code": "hdfc-bank-limited",
+  "bank_name": "HDFC Bank Limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-06-04",
+  "source_url": "https://hdfc.bank.in/nri-banking/fixed-deposit-foreign-currency-account/fcnr-deposit/rates",
+  "scraped_at": "2026-06-04T07:50:41Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No FCNR FD rate slabs could be extracted from the official HDFC Bank FCNR rate page. The page is JS-rendered and protected by CloudFront WAF. Playwright extraction yielded no tables or parseable text. Operator review required."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 49,
+    "last_scraped_at": "2026-06-04T07:50:41Z",
+    "manual_verification_needed": false
+  }
+}

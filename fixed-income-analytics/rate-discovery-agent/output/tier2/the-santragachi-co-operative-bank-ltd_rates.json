@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-santragachi-co-operative-bank-ltd",
+  "bank_name": "The Santragachi Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No own-domain website found. Searches (including aggregator-excluded queries) return only IFSC-code directories and aggregators (codeforbanks, bankbazaar, stablemoney, justdial, urbanmoney, fincrif). Registry hint 'coopbank.co.in' is a generic/unrelated domain, not this bank. Small Howrah (WB) urban co-op; no retrievable official rate page. Re-verified prior finding."
+  },
+  "warnings": ["No official website; only third-party directory listings exist."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,42 @@
+{
+  "bank_code": "krishna-district-co-operative-central-bank-ltd",
+  "bank_name": "Krishna District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://krishnadccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://krishnadccb.bank.in/rate-of-interest/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://krishnadccb.bank.in/rate-of-interest/",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table.table-bordered.table-striped",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "1": "tenure_text",
+    "2": "rate_general_pct"
+  },
+  "expected_slab_count": 6,
+  "notes": "Senior citizen and PACS rates are +0.75% extra over general rates. No separate table for senior citizens.",
+  "scraper_notes": {
+    "framework": "WordPress/Elementor",
+    "bot_protection": null,
+    "data_format": "Single HTML table, tenure/rate mapping, senior premium as text row",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "homepage fetch + direct rate page fetch",
+    "confidence": "high"
+  }
+}

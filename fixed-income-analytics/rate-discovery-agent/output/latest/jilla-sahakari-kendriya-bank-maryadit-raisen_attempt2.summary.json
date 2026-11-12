@@ -1,0 +1,114 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-raisen",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-raisen",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14452,
+  "duration_ms": 14452,
+  "duration_api_ms": 14034,
+  "num_turns": 11,
+  "tool_call_count": 12,
+  "total_cost_usd": 0.16614800000000002,
+  "input_tokens": 78006,
+  "output_tokens": 1267,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit raisen\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillakendriyabankraisen.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillakendriyabankraisen.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jilla sahakari kendriya bank maryadit raisen official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jilla sahakari kendriya bank maryadit raisen interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"जिला सहकारी केंद्रीय बैंक मर्यादित रायसेन ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"जिला सहकारी केंद्रीय बैंक मर्यादित रायसेन official website\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 194,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.raisenbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 52,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.raisen.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 118,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.mpcbank.com/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-raisen_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-raisen\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-raisen_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-raisen\\\",\\n  "
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website found after exhaustive search. This DCCB does not appear to publish deposit rates online. Operator should check MP State Cooperative Bank umbrella portals or RBI database for rates.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

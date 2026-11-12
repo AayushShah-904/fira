@@ -1,0 +1,19 @@
+{
+  "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+  "bank_name": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://chikkamagalurudcc.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://chikkamagalurudcc.bank.in/fixed-deposit-accounts/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:11:05.489Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

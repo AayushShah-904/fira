@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "cosmos-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:23:58.706Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "cosmos.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "savings": "/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Custom server-side rendered, None detected",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior",
+    "template_hash": "sha1:095566326bce1c404e67f17968782b629b102469",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

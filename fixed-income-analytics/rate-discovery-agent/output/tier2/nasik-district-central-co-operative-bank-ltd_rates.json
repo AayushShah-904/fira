@@ -1,0 +1,24 @@
+{
+  "bank_code": "nasik-district-central-co-operative-bank-ltd",
+  "bank_name": "Nasik District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://nasikdcc.bank.in/index.php/interest-rate-calculate/",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "none",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Registry domain ndcb.bank.in belongs to NADIA DCCB, not Nasik DCCB (wrong-domain mapping). Nasik's OWN site was located: https://nasikdcc.bank.in (also nashikdccbank.in), deposit rate page at /index.php/interest-rate-calculate/. Did NOT copy Nadia's rates.",
+    "Nasik's own source could not be fetched from this environment: host nasikdcc.bank.in (162.241.191.17) accepts DNS but TCP :443 connection resets/times out via curl (HTTPS+HTTP), Playwright/Chromium (net::ERR_CONNECTION_RESET), and WebFetch (ECONNREFUSED). Alternate domain nashikdccbank.in does not resolve. No rate data extracted; not fabricated.",
+    "Known (per public listing): bank offers 0.50% senior-citizen premium over general rates, but actual per-tenure rate table could not be retrieved."
+  ],
+  "errors": [
+    "Source page unreachable from extraction environment (connection reset/timeout); FD rate table not retrieved."
+  ]
+}

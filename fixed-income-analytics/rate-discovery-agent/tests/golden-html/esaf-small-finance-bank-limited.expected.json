@@ -1,0 +1,27 @@
+{
+  "bank_code": "esaf-small-finance-bank-limited",
+  "variant": "regular",
+  "slab_count": 29,
+  "key_rates": {
+    "1y": {
+      "general": 4.75,
+      "senior": 5.25
+    },
+    "2y": {
+      "general": 7.75,
+      "senior": 8.25
+    },
+    "3y": {
+      "general": 6,
+      "senior": 6.5
+    },
+    "5y": {
+      "general": 5.75,
+      "senior": 6.25
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://esaf.bank.in/interest-rates/",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.013Z"
+}

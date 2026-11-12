@@ -1,0 +1,17 @@
+{
+  "bank_code": "uttar-pradesh-gramin-bank",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:03:33.575Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:33:49.923Z",
+      "signal": "crash",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "bank_code": "gondia-district-central-co-operative-bank-ltd",
+  "bank_name": "Gondia District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "https://www.gdccbank.bank.in/interest-rates-deposit/",
+  "scraped_at": "2026-05-25T17:58:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 to 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 to 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Between 1 year and 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "name": "Dhanvarsha Deposit Scheme (Dam Didpat)",
+      "period_months": 71,
+      "rate_general_pct": 6.6
+    },
+    {
+      "name": "Dhanvardhini Deposit Scheme (Dam Didpatpekshya Jast)",
+      "period_months": 82,
+      "rate_general_pct": 6.6
+    },
+    {
+      "name": "Dhanalakshmi Deposit Scheme (Dam Duppat)",
+      "period_months": 120,
+      "rate_general_pct": 6.6
+    },
+    {
+      "name": "Lakhpati Deposit Scheme",
+      "period_months": 90,
+      "rate_general_pct": 6.6
+    }
+  ],
+  "warnings": [
+    "Page (auto-translated from Marathi) lists a 'For Senior Citizens' column showing '1%' for every slab, i.e. +1.00% additional over general rate; rate_senior_pct = general + 1.00. No effective date shown. Tenure phrasings were machine-translated and normalized."
+  ],
+  "errors": [],
+  "tier2_method": "playwright_tables",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "playwright_tables",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T17:58:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:56.904Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T17:58:00Z",
+      "retained_slab_count": 8
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-05-25T17:58:00Z",
+    "manual_verification_needed": false
+  }
+}

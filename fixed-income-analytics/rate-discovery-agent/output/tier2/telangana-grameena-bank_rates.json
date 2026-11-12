@@ -1,0 +1,216 @@
+{
+  "bank_code": "telangana-grameena-bank",
+  "bank_name": "Telangana Grameena Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-02-10",
+  "source_url": "https://tgb.bank.in/deposit-interest-rates",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31 days to 60 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days to 179 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 days to 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 days to 364 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 year to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 year to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 2.90,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 5.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "31 days to 60 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "61 days to 179 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "180 days to 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "271 days to 364 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "2 year to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "5 year to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "444-DDD",
+      "tenure_text": "444 days",
+      "rate_general_pct": 7.40,
+      "rate_senior_pct": 7.90
+    },
+    {
+      "scheme_name": "TGB-SAHASRA (1000)",
+      "tenure_text": "1000 days",
+      "rate_general_pct": 7.50,
+      "rate_senior_pct": 8.00
+    }
+  ],
+  "warnings": [
+    "Rendered table exposes only the 'Proposed Rates (w.e.f 10.02.2026)' columns for both 'Below 1 Crore' and '1 Crore & Above'; the historical 'Existing' columns are not present in the live page. Below-1-Crore Proposed mapped to below_3cr; 1-Crore-&-Above Proposed mapped to 1cr_to_10cr.",
+    "Table has no senior-citizen column; a separate note states seniors receive +0.50% over card rate (1 year and above only). Not derived/fabricated - rate_senior_pct left null for all card-rate slabs.",
+    "444-day and 1000-day special schemes carry explicit senior rates and are recorded in special_schemes."
+  ],
+  "errors": []
+}

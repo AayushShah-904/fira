@@ -1,0 +1,48 @@
+{
+  "bank_code": "jpmorgan-securities-plc-ibu",
+  "bank_name": "jpmorgan-securities-plc-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 32936,
+  "duration_ms": 32936,
+  "duration_api_ms": 9337,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.175118,
+  "llm_cost_usd": 0.175118,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 82743,
+  "output_tokens": 1204,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 3616,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://jpmorgan.com\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 19981,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:jpmorgan.com IFSC Banking Unit GIFT City deposit rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/jpmorgan-securities-plc-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jpmorgan-"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/jpmorgan-securities-plc-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jpmorgan-s"
+    }
+  ]
+}

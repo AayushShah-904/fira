@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "krishna-bhima-samruddhi-local-area-bank-limited",
+    "extracted_at": "2026-06-05T10:48:34.827Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "www.kbsbank.bank.in",
+  "rate_pages": {
+    "fd": "/interestrates.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interestrates.php",
+    "rd": "/interestrates.php"
+  },
+  "scraper_type": "html_static",
+  "notes": "Single HTML table. 1 tables",
+  "template": {
+    "template_id": "kbs-lab-6col-existing-revised-general-senior",
+    "template_hash": "sha1:2778f97bf4be9f1bab46d96af20918a84136e07c",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "ignore",
+            "4": "rate_general_pct",
+            "5": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 9,
+      "cluster_reused": false
+    }
+  }
+}

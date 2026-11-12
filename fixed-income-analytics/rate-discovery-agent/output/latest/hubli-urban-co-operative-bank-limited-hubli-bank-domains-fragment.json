@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "hubli-urban-co-operative-bank-limited-hubli",
+    "extracted_at": "2026-06-06T10:12:08.077Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "hubliurban.bank.in",
+  "rate_pages": {
+    "fd": "/Services",
+    "savings": "/Services",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "notes": "Official .bank.in site exists; interest rates (deposit/savings) accessible via Services page listing 'Interest rates – Deposit interest rate'. No separate pages for NRE/NRO/FCNR observed.",
+  "scraper_type": "html_static"
+}

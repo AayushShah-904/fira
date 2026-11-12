@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "janata-sahakari-bank-ltd-satara",
+    "extracted_at": "2026-06-06T09:40:54.392Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "jsbsatara.com",
+  "rate_pages": {
+    "fd": "https://jsbsatara.com/pwd_varkaries/2024/05/Deposits-Interest_20240518_0001.pdf",
+    "fd_prev": "/deposits-interest-rates-janata-bank-satara-2",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "notes": "No .bank.in domain found; official Satara bank site used. FD rate PDF page available; no separate NRE/NRO/FCNR/savings/RD pages evident.",
+  "scraper_type": "image",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T18:15:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://jsbsatara.com/pwd_varkaries/2024/05/Deposits-Interest_20240518_0001.pdf",
+    "slab_count": 9,
+    "hints": "Rate card is a scanned Marathi PDF (image) recovered via vision OCR at 4x render + crop/sharpen. Effective date read as 20/05/2024 (filename/post says 18/05/2024). Devanagari digits transcribed by reader. | Senior citizen column (ज्येष्ठ नागरिक) explicitly shown, +0.50% throughout. Savings 2.70%, Current nil.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

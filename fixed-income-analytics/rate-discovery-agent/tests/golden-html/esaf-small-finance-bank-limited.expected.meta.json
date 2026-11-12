@@ -1,0 +1,13 @@
+{
+  "bank_code": "esaf-small-finance-bank-limited",
+  "bank_name": "esaf-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "state": "Kerala",
+  "website": "https://esaf.bank.in",
+  "rate_page_url": "https://esaf.bank.in/interest-rates/",
+  "scraper_type": "html_static",
+  "extraction_method": "automatic_html_static",
+  "slab_count": 29,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

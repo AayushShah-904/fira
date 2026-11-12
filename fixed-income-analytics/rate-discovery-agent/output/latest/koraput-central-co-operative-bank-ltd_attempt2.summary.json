@@ -1,0 +1,132 @@
+{
+  "bank_code": "koraput-central-co-operative-bank-ltd",
+  "bank_name": "koraput-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 39479,
+  "duration_ms": 39479,
+  "duration_api_ms": 19927,
+  "num_turns": 14,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.60336,
+  "input_tokens": 295376,
+  "output_tokens": 1576,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Koraput Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1903,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://koraputccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://koraputcentralcoopbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2126,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://koraputccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1652,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:koraputccb.bank.in interest rate deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 542,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/interest_rate.php\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 273,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/deposit.php\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 279,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 273,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/tender.php\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 2336,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/data/2026/7559%20DATED%2026.03.2026.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 2604,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/data/2026/6964%20Dated-%2027.02.2026.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 2339,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/data/2026/6395%20Dated%2022.01.2026.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 2606,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/data/2026/6393%20Dated%2022.01.2026.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 2593,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.koraputccb.bank.in/data/2026/6391%20Dated%2022.01.2026.pdf\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 5,
+    "fetch_error_count": 3,
+    "domain_was_known": false
+  }
+}

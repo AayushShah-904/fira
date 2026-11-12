@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "nagarik-sahakari-bank-maryaditgwalior",
+    "extracted_at": "2026-06-06T10:52:52.016Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "nsbgwalior.bank.in",
+  "rate_pages": {
+    "fd": "//Encyc/2019/9/6/Deposit-interest-rates.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "//Encyc/2019/9/7/saving-account.html",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

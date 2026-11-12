@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "maharashtra-gramin-bank",
+    "extracted_at": "2026-06-05T12:50:45.908Z",
+    "source": "bank-domains.json",
+    "source_sha": "0619916b6239154a7c4c3ba562d0577776f86e3aefd6ddbcb640c53bbe52c81b"
+  },
+  "domain": "mahagramin.bank.in",
+  "notes": "Amalgamation of erstwhile MGB + Vidarbha Konkan Gramin Bank effective 01.05.2025.",
+  "rate_pages": {
+    "fd": "https://www.mahagramin.bank.in/deposit-interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/savings-account",
+    "rd": "/recurring-deposit",
+    "fd_prev": "/deposit-interest-rates",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "rrb-maharashtra-gramin-3col-regular",
+    "template_hash": "sha1:fe71156f3de59cf9e31111b3df708c78f7f7969c",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": "below_2cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.503Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  }
+}

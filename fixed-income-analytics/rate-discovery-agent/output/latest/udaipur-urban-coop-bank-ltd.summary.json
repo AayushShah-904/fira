@@ -1,0 +1,108 @@
+{
+  "bank_code": "udaipur-urban-coop-bank-ltd",
+  "bank_name": "udaipur-urban-coop-bank-ltd",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 18356,
+  "duration_ms": 18356,
+  "duration_api_ms": 466,
+  "num_turns": 3,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.0027716,
+  "llm_cost_usd": 0.0027716,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 3953,
+  "output_tokens": 744,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 4419,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 11,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 1466,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd",
+      "duration_ms": 2365,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd",
+      "duration_ms": 9617,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[2,3]",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "",
+    "website_url": "https://uucbudaipur.bank.in",
+    "rate_url_fd": "https://uucbudaipur.bank.in/deposits/deposit-interest-rates/",
+    "slab_count": 9,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

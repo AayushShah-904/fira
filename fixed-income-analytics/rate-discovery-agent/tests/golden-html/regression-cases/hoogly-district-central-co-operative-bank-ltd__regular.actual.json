@@ -1,0 +1,108 @@
+{
+  "bank_code": "hoogly-district-central-co-operative-bank-ltd",
+  "variant": "regular",
+  "slab_count": 8,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "30-45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": 4.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46-90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91-180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181-364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year 1 day to less than 3 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 Years to 5 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 Years 1 day to 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": 6.35,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "extraction_method": "automatic_html_static",
+  "warnings": [],
+  "key_rates": {
+    "1y": {
+      "general": 6.55,
+      "senior": 7.05
+    },
+    "2y": {
+      "general": 6.4,
+      "senior": 6.65
+    },
+    "3y": {
+      "general": 6.35,
+      "senior": 6.6
+    },
+    "5y": {
+      "general": 6.35,
+      "senior": 6.6
+    }
+  }
+}

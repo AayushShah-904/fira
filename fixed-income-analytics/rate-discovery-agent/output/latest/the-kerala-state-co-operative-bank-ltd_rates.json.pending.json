@@ -1,0 +1,177 @@
+{
+  "bank_code": "the-kerala-state-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-06-30",
+  "source_url": "https://kerala.bank.in/rate.php",
+  "scraped_at": "2026-06-09T13:09:04.943Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "11.45",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 510,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "12.45",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "10.45",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 252,
+      "rate_senior_pct": 10,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "KB MICRO FINANCE JLG",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 10.95,
+      "rate_senior_pct": 10,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "KB SUVIDHA(MSME) WORKING CAPITAL (CC)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 11.95,
+      "rate_senior_pct": 20,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "11.20",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 510,
+      "rate_senior_pct": 10,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "11.95",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "KB-EDUCATION LOAN (study in Abroad)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 12.7,
+      "rate_senior_pct": 20,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[2] (25 slabs) from 5 table(s); signals={\"pctRows\":87,\"tenureRows\":73,\"bothRows\":70,\"dataRows\":90,\"noisy\":true,\"colCount\":5}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: The provided table does not list fixed deposit (FD) interest rates in INR. It lists loan schemes with their interest rates, amounts, and periods. No domestic INR fixed deposit rate slabs found.)",
+    "non_fd_filter: dropped 15 non-FD slab(s) (savings, deposit-tier indicators, penalty rules)"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 13,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (11.45): general rate 510% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (12.45): general rate 10% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (10.45): general rate 252% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (10.45): senior rate (10%) < general rate (252%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (KB MICRO FINANCE JLG): general rate 10.95% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (KB MICRO FINANCE JLG): senior rate (10%) < general rate (10.95%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (KB SUVIDHA(MSME) WORKING CAPITAL (CC)): general rate 11.95% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (KB SUVIDHA(MSME) WORKING CAPITAL (CC)): senior rate 20% above ceiling (10.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (11.20): general rate 510% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (11.20): senior rate (10%) < general rate (510%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (11.95): senior rate (3%) < general rate (5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 8 (KB-EDUCATION LOAN (study in Abroad)): general rate 12.7% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 8 (KB-EDUCATION LOAN (study in Abroad)): senior rate 20% above ceiling (10.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 388,
+    "last_scraped_at": "2026-06-09T13:09:04.943Z",
+    "manual_verification_needed": true
+  }
+}

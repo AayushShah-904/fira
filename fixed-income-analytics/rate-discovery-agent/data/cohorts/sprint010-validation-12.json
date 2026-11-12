@@ -1,0 +1,14 @@
+[
+  { "bank_code": "state-bank-of-india", "category": "Public Sector Bank", "state": "Maharashtra" },
+  { "bank_code": "bank-of-baroda", "category": "Public Sector Bank", "state": "Gujarat" },
+  { "bank_code": "hdfc-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "bandhan-bank-limited", "category": "Private Sector Bank (Indian)", "state": "West Bengal" },
+  { "bank_code": "au-small-finance-bank-limited", "category": "Small Finance Bank", "state": "Rajasthan" },
+  { "bank_code": "citibank-na", "category": "Foreign Bank", "state": "Maharashtra" },
+  { "bank_code": "indusind-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "hdfc-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "abhyudaya-co-operative-bank-ltd-mumbai", "category": "Scheduled Urban Co-operative Bank", "state": "Maharashtra" },
+  { "bank_code": "banswara-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" },
+  { "bank_code": "wai-urban-coop-bank-ltd", "category": "Non-Scheduled Urban Co-operative Bank", "state": "Maharashtra" },
+  { "bank_code": "haryana-gramin-bank", "category": "Regional Rural Bank", "state": "Haryana" }
+]

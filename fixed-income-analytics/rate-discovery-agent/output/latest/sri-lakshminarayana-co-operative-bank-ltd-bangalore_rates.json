@@ -1,0 +1,88 @@
+{
+  "bank_code": "sri-lakshminarayana-co-operative-bank-ltd-bangalore",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-26",
+  "source_url": "https://slncb.com/deposits.html",
+  "scraped_at": "2026-05-26T06:53:27.870Z",
+  "extraction_confidence": "high",
+  "special_schemes": [],
+  "warnings": [
+    "Corrected via Tier-2 verification 2026-05-26: prior extraction had a column/source error; rates re-read from live source."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2-verify-fold",
+    "sourced_at": "2026-05-26T06:53:27.870Z",
+    "note": "agent-verified correct_data folded; clobber-protected (sprint-007 bug fix)"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "From 30 days to 90 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "From 91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "From 181 days to 365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to 2 Year",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "From 2 Year to 3 Year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 58,
+    "last_scraped_at": "2026-05-26T06:53:27.870Z",
+    "manual_verification_needed": false
+  }
+}

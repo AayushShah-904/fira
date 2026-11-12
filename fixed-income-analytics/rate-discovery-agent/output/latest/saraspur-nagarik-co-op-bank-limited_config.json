@@ -1,0 +1,19 @@
+{
+  "bank_code": "saraspur-nagarik-co-op-bank-limited",
+  "bank_name": "saraspur-nagarik-co-op-bank-limited",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://saraspur.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://saraspur.bank.in/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:49:25.182Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

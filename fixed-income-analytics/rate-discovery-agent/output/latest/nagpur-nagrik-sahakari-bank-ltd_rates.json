@@ -1,0 +1,102 @@
+{
+  "bank_code": "nagpur-nagrik-sahakari-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://nns.bank.in/termdeposits.php",
+  "scraped_at": "2026-06-09T14:14:30.197Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 Days to 90 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 15 Days to 90 Days 3.50 %"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 91 Days to 180 Days 4.00 %"
+    },
+    {
+      "tenure_text": "181 Days ",
+      "tenure_min_days": 181,
+      "tenure_max_days": 181,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 181 Days 7.25 % "
+    },
+    {
+      "tenure_text": "182 Days to 364 Days",
+      "tenure_min_days": 182,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 182 Days to 364 Days 7.00 %"
+    },
+    {
+      "tenure_text": "12 Months ",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 12 Months 7.25 % "
+    },
+    {
+      "tenure_text": "13 to 36 Months ",
+      "tenure_min_days": 396,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 13 to 36 Months 7.00 % "
+    },
+    {
+      "tenure_text": "37 to 60 Months",
+      "tenure_min_days": 1121,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "* 37 to 60 Months 6.75 %"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 6 tables on page (6 rate-bearing by score)",
+    "multi_table_filter: dropped table[0] (only 0/7 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[1] (only 0/7 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[4] (only 0/1 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[5] (only 0/1 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 42",
+    "chunk[2]: senior citizen rate mentioned only as additional 0.5% for 12 months and above, no separate column rates",
+    "chunk[2]: tenure ranges converted to days approximately (months to days)",
+    "chunk[2]: no explicit effective date found",
+    "chunk[3]: senior citizen rates mentioned only as additional 0.5% for 12 months and above in context, no separate columns",
+    "chunk[3]: tenure ranges with months converted approximately to days (30.44 days per month)",
+    "chunk[3]: no explicit effective date found",
+    "chunk[4]: senior citizen rates mentioned only as additional 0.5% for 12 months and above, no separate columns",
+    "chunk[4]: tenure days for months approximated as 30.4 days per month",
+    "chunk[5]: senior citizen rate mentioned only in text, no separate column",
+    "chunk[5]: tenure ranges converted to days approximately (months × 30)",
+    "chunk[5]: no effective date found"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T14:14:30.197Z",
+    "manual_verification_needed": false
+  }
+}

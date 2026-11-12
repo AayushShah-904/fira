@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "salem-urban-co-op-bank-ltd",
+    "extracted_at": "2026-06-06T10:54:21.777Z",
+    "source": "bank-domains.json",
+    "source_sha": "d2f23613f2832a7ebcc59d6990089a7a026cb571c958a21a679f24a3e2b44dbc"
+  },
+  "domain": "dnb.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  },
+  "discovery_status": "no_website_known",
+  "gap_classification": {
+    "reason": "no_website",
+    "discovery_status": "no_website_known",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "none",
+    "notes": "No official own-domain website found for Salem Urban Co-operative Bank Ltd (Tamil Nadu). Searches return only aggregators (codeforbanks) and an unrelated US bank (salemcoop.com, New Hampshire). Note: salemdccb.bank.in is a DIFFERENT bank (Salem District Central Co-operative Bank, a DCCB), not this urban co-op. Registry hint 'dnb.com' is a directory. No retrievable official rate page."
+  }
+}

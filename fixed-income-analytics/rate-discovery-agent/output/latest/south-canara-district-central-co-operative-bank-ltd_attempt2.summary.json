@@ -1,0 +1,102 @@
+{
+  "bank_code": "south-canara-district-central-co-operative-bank-ltd",
+  "bank_name": "south-canara-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 21480,
+  "duration_ms": 21480,
+  "duration_api_ms": 19338,
+  "num_turns": 10,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.432354,
+  "input_tokens": 211285,
+  "output_tokens": 1223,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"South Canara District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://scdccbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1476,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 90,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/fixed_deposit.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 92,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 81,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/statistic.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 87,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/mangala.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 79,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/nithyadhara.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 76,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/recurring_deposit_account.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 131,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scdccbank.com/news.html\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 8,
+    "fetch_error_count": 1,
+    "domain_was_known": false
+  }
+}

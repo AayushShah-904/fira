@@ -1,0 +1,176 @@
+{
+  "bank_code": "punjab-national-bank",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2025-04-10",
+  "source_url": "https://pnb.bank.in/Interest-Rates-Deposit.html",
+  "scraped_at": "2026-07-07T06:56:36.837Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "304 Days to >1 Year",
+      "tenure_min_days": 304,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": ">1 Year to 389 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "390 Days",
+      "tenure_min_days": 390,
+      "tenure_max_days": 390,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "391 Days to 443 Days",
+      "tenure_min_days": 391,
+      "tenure_max_days": 443,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "444 Days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "445 Days to 665 Days",
+      "tenure_min_days": 445,
+      "tenure_max_days": 665,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "666 Days",
+      "tenure_min_days": 666,
+      "tenure_max_days": 666,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "667 Days to 2 Years",
+      "tenure_min_days": 667,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": ">2 to 3 Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": ">3 Years to 1203 Days",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1203,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1204 Days",
+      "tenure_min_days": 1204,
+      "tenure_max_days": 1204,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1205 Days to 5 Years",
+      "tenure_min_days": 1205,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": ">5 Years to 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[17] (23 slabs) from 24 table(s); signals={\"pctRows\":24,\"tenureRows\":23,\"bothRows\":23,\"dataRows\":24,\"noisy\":true,\"colCount\":5}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[5]: requested NRE INR fixed-deposit rate table not found in input)"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (304 Days to >1 Year): nre tenure 304d below minimum (365d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 469,
+    "last_scraped_at": "2026-07-07T06:56:36.837Z",
+    "manual_verification_needed": true
+  }
+}

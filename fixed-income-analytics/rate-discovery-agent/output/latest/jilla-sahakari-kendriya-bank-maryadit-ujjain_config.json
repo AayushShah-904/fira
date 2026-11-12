@@ -1,0 +1,19 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://jskbrjn.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://jskbrjn.bank.in/interest-rates.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:21:05.186Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

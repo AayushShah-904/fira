@@ -1,0 +1,32 @@
+{
+  "bank_code": "the-manipur-state-co-operative-bank-ltd-",
+  "bank_name": "The Manipur State Co-operative Bank Ltd.",
+  "bank_type": "NSSCB",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "website": "http://mscbmanipur.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Official website (mscbmanipur.in) is referenced by government portals but is not accessible online. No published deposit rate schedule found. Rates may be available only at branch or via printed materials.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-04-14T22:07:00Z",
+    "discovery_method": "domain pre-lookup + web search",
+    "confidence": "none"
+  }
+}

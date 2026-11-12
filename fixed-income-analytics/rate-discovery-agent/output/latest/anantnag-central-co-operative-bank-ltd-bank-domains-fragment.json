@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "bank_code": "anantnag-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:31:59.625Z",
+    "source": "bank-domains.json",
+    "source_sha": "569e7d836788c0f048aa9a8caece448b6f1a4ea6436d1455a2b7db56b8a96798"
+  },
+  "domain": "accbank.co.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/#home-forex"
+  },
+  "scraper_type": "html_js",
+  "domain_prev": "prokerala.com",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Bank's own site is accbank.co.in (registry hint 'prokerala.com' was a directory). Homepage loads (HTTP 200) but the 'Interest Rates' nav link is a placeholder (#) and the page shows only loan/financing schemes (Kisan Credit Card, Crop Loan, Farm Mechanization). All candidate rate paths (/interest-rates/, /deposit-rates/, /fixed-deposit/, /deposits/, /rates/) return HTTP 403, and no rate page is search-indexed. Agricultural-financing-focused central co-op; publishes no FD rate page online."
+  }
+}

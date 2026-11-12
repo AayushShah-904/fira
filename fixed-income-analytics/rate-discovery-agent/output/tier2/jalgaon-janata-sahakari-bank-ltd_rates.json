@@ -1,0 +1,214 @@
+{
+  "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+  "bank_name": "Jalgaon Janata Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-01",
+  "source_url": "https://jjsbl.bank.in/fixed-deposit-service",
+  "scraped_at": "2026-05-25T11:19:14.116Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "३० ते ९० दिवस",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "९१ ते १८० दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१८१ ते ३९४ दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 394,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१३ ते १४ महिने",
+      "tenure_min_days": 390,
+      "tenure_max_days": 420,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१५ महिने",
+      "tenure_min_days": 450,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१६ ते १८ महिने",
+      "tenure_min_days": 480,
+      "tenure_max_days": 540,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "४०० दिवस",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१९ ते ३९ महिने",
+      "tenure_min_days": 570,
+      "tenure_max_days": 1170,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "४० ते ६० महिने",
+      "tenure_min_days": 1200,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "६० महिने (MIS)",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "६० महिनेचे वर ते १२० महिने",
+      "tenure_min_days": 1830,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "३० ते ९० दिवस",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "९१ ते १८० दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१८१ ते ३९४ दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 394,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१३ ते १४ महिने",
+      "tenure_min_days": 390,
+      "tenure_max_days": 420,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१५ महिने",
+      "tenure_min_days": 450,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१६ ते १८ महिने",
+      "tenure_min_days": 480,
+      "tenure_max_days": 540,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "४०० दिवस",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१९ ते ३९ महिने",
+      "tenure_min_days": 570,
+      "tenure_max_days": 1170,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "४० ते ६० महिने",
+      "tenure_min_days": 1200,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "६० महिने (MIS)",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "६० महिनेचे वर ते १२० महिने",
+      "tenure_min_days": 1830,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    }
+  ],
+  "warnings": [
+    "Source in Marathi; tenures transliterated. Two deposit amount tiers (up to 1cr / above 1cr) plus separate senior-citizen column."
+  ],
+  "tier2_method": "webfetch_markdown_parse"
+}

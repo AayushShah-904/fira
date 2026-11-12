@@ -1,0 +1,22 @@
+{
+  "bank_code": "sbm-bank-india-limited",
+  "bank_name": "sbm-bank-india-limited",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Mauritius",
+  "website": "https://sbm.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://sbm.bank.in/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rates",
+    "fd_nre": "https://sbm.bank.in/nri-banking/accounts",
+    "fd_nro": "https://sbm.bank.in/nri-banking/accounts",
+    "fd_fcnr": "https://sbm.bank.in/nri-banking/nri-deposit/fcnr-deposit/interest-rate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:04:42.826Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

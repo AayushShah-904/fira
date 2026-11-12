@@ -1,0 +1,19 @@
+{
+  "bank_code": "modern-co-op-bank-ltd-chalisgaon-jalgaon",
+  "bank_name": "modern-co-op-bank-ltd-chalisgaon-jalgaon",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://bankifsccode.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://bankifsccode.com/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:51:28.260Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

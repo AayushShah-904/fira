@@ -1,0 +1,108 @@
+{
+  "bank_code": "medak-district-co-operative-central-bank-ltd",
+  "bank_name": "medak-district-co-operative-central-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 49129,
+  "duration_ms": 49129,
+  "duration_api_ms": 39861,
+  "num_turns": 11,
+  "tool_call_count": 11,
+  "total_cost_usd": 1.383432,
+  "input_tokens": 686628,
+  "output_tokens": 1272,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Medak District Co-operative Central Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 386,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 172,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://medakdccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2756,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/deposits/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1052,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/term-deposit/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 997,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/recuring-deposit/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 935,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/saving-deposits/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1061,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/current-deposit/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1907,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://medakdccb.bank.in/unclimed-deposits/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/medak-district-co-operative-central-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"medak-district-co-operative-central-bank-ltd\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/medak-district-co-operative-central-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"medak-district-co-operative-central-bank-ltd\\\",\\n  "
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No interest rate table or rate card is published on the website. The 'Term Deposit' and 'Recurring Deposit' pages only mention that interest will be paid as per RBI directives, but do not specify any actual rates or slabs. Operator/manual entry required if rates are available elsewhere.",
+    "website_url": "https://medakdccb.bank.in/",
+    "rate_url_fd": "https://medakdccb.bank.in/term-deposit/",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 7,
+    "fetch_error_count": 1,
+    "domain_was_known": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "bank_code": "yes-bank-ibu",
+  "bank_name": "YES Bank — IFSC Banking Unit (GIFT City)",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://www.yes.bank.in/gift-ibu",
+  "scraped_at": "2026-05-25T17:05:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "IFSC Banking Unit (GIFT City), parent YES Bank Limited. Official GIFT IBU page yes.bank.in/gift-ibu is a JavaScript-only SPA ('This site requires JavaScript to be enabled') with no inline rate table, no rate PDF link, and no XHR rate endpoint discoverable; Playwright render failed with net::ERR_HTTP2_PROTOCOL_ERROR. No public USD/foreign-currency term-deposit rate card for the YES Bank GIFT IBU was retrievable (corporate/relationship-priced). No rates fabricated. GIFT deposits are foreign-currency and NOT DICGC-insured."
+  ],
+  "tier2_method": "playwright_tables"
+}

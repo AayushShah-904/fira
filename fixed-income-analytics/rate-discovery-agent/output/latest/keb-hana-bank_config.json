@@ -1,0 +1,22 @@
+{
+  "bank_code": "keb-hana-bank",
+  "bank_name": "keb-hana-bank",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "South Korea",
+  "website": "https://global.1qbank.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://global.1qbank.com/interest-rates",
+    "fd_nre": "https://global.1qbank.com/nre-deposits",
+    "fd_nro": "https://global.1qbank.com/nro-deposits",
+    "fd_fcnr": "https://global.1qbank.com/fcnr-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:53:45.440Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

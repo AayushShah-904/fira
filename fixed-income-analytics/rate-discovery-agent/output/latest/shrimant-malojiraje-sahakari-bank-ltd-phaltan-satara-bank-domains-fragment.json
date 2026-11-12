@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+    "extracted_at": "2026-06-06T09:11:49.274Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "malojiraje.bank.in",
+  "rate_pages": {
+    "fd": "Quick Link: Charges and Interest Rate (from contact page)",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "notes": "Official .bank.in domain found; interest rates accessible via “Charges and Interest Rate” quick link, but no distinct pages for NRE/NRO/FCNR/savings explicitly visible.",
+  "scraper_type": "html_static"
+}

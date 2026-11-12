@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "bank_code": "equitas-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:53:29.314Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "equitas.bank.in",
+  "rate_pages": {
+    "fd": "https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/",
+    "pdf_rate_card": "/strapi-dev/uploads/Overall_Interest_Rates_1_f80c5a50c4.pdf",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": "/nri-banking/save/nri-fixed-deposits/fcnr-nr/",
+    "fd_nri_combined": null,
+    "fd_prev": "/personal-banking/save/fixed-deposits/fixed-deposit/",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "Strapi CMS (strapi-dev URL pattern for assets), Returns 503 to standard HTTP requests; Playwright with anti-detection bypasses",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:20:04.123Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_tables",
+    "source_url": "https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/",
+    "slab_count": 22,
+    "hints": "Gatsby rendered-text tenure→general→senior triples; senior +0.50% (+0.60% on 888-day)",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

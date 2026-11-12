@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-aurangabad-central-co-operative-bank-ltd-aurangabad",
+  "bank_name": "The Aurangabad Central Co-operative Bank Ltd., Aurangabad",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13134,
+  "duration_ms": 13134,
+  "duration_api_ms": 12904,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.01404,
+  "input_tokens": 32376,
+  "output_tokens": 681,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Aurangabad Central Co-operative Bank Ltd., Aurangabad\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aurangabadcentral.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Aurangabad Central Co-operative Bank Ltd., Aurangabad\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 146,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aurangabadcentralbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aurangabadcentralbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aurangabadcentralbank.in\"}"
+    }
+  ]
+}

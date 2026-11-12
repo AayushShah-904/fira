@@ -1,0 +1,219 @@
+{
+  "bank_code": "bank-of-ceylon",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2025-07-01",
+  "source_url": "https://boc.lk/rates-tariff",
+  "scraped_at": "2026-05-22T19:44:43.382Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "USD FD",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1,
+      "rate_senior_pct": 2.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "03 Months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.55,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "06 Months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.79,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "01 Year maturity",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "02 Year maturity",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.16,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "03 Year maturity",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.31,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "04 Year maturity",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.44,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "05 Year maturity",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "GBP FD",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1,
+      "rate_senior_pct": 1.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "EUR FD",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1,
+      "rate_senior_pct": 1.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "AUD FD",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1,
+      "rate_senior_pct": 1.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "currency": "USD"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[10] (32 slabs) from 50 table(s); signals={\"pctRows\":32,\"tenureRows\":32,\"bothRows\":32,\"dataRows\":32,\"noisy\":false,\"colCount\":4}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[1]: no FCNR foreign currency columns found in the provided table; chunk[2]: no FCNR foreign currency deposit rate table found in the input; chunk[3]: no FCNR foreign currency rate table found in input)",
+    "chunk[0]: non-blocking observations — multi-column tenure, footnote-only data, suspected stale rates",
+    "currency_hint: no slab carried a currency; defaulted to \"USD\" from hints.expected_currencies — operator should verify whether the page actually publishes multiple currencies"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 13,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (USD FD): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (03 Months): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (03 Months): fcnr tenure 90d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (06 Months): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (06 Months): fcnr tenure 180d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (01 Year maturity): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (02 Year maturity): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (03 Year maturity): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (04 Year maturity): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 8 (05 Year maturity): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 9 (GBP FD): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 10 (EUR FD): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 11 (AUD FD): fcnr slab has senior rate — FCNR/GIFT should not have senior citizen premium"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 387,
+    "last_scraped_at": "2026-05-22T19:44:43.382Z",
+    "manual_verification_needed": true
+  }
+}

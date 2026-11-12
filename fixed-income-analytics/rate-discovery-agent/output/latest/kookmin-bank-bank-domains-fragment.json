@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "kookmin-bank",
+    "extracted_at": "2026-06-05T11:49:18.718Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "kbstar.bank.in",
+  "rate_pages": {
+    "fd": "/depo/product/interestRates",
+    "savings": "/depo/product/interestRates",
+    "rd": "/depo/product/interestRates",
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": "/fcnr-deposits",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Vue.js SPA, None detected"
+}

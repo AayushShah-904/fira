@@ -1,0 +1,22 @@
+{
+  "bank_code": "the-delhi-state-co-operative-bank-ltd",
+  "bank_name": "The Delhi State Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "dscb.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Re-verified both mirrors (dscb.bank.in and dscb.in). Both homepages link to 'fixed-deposit.html' which returns HTTP 404 (broken link on the bank's own site). No deposit-rate PDF on the homepage; among deposit pages only saving-account.html and fixed-deposit.html exist, and the FD one is dead. The previously recorded dscb.in/pdf/depositRate.pdf is also gone (404). Site is live but publishes no working FD rate page."
+  },
+  "warnings": [
+    "FD page (fixed-deposit.html) is a broken 404 link on both mirrors (dscb.bank.in and dscb.in).",
+    "No PDF rate card found on homepage; dscb.in/pdf/depositRate.pdf also 404s."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

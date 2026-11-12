@@ -1,0 +1,131 @@
+{
+  "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-02-20",
+  "source_url": "https://dcbvaranasi.bank.in/intrest.php?id=4",
+  "scraped_at": "2026-05-22T20:35:17.802Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1.  07 days to 45 days  3.50%  3.50%  3.50%  3.50%"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2.  46 days to 90 days  4.50%  4.50%  4.50%  4.50%"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3.  91 days to 180 days  5.00%  5.00%  5.50%  5.50%"
+    },
+    {
+      "tenure_text": "181 days to less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4.  181 days to less than 1 year  5.50%  5.50%  5.75%  5.75%"
+    },
+    {
+      "tenure_text": "For 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5.  For 1 year    6.40%  6.90%  6.85%  7.35%"
+    },
+    {
+      "tenure_text": "More than 1 year to 2 year",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6. More than 1 year to 2 year  6.40%  6.90%  6.80%  7.30%"
+    },
+    {
+      "tenure_text": "More than 2 year to 3 year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7. More than 2 year to 3 year  6.45%  6.95%  6.75%  7.25%"
+    },
+    {
+      "tenure_text": "More than 3 year but less than 5 year",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8. More than 3 year but less than 5 year  6.50%  7.00%  6.70%  7.20%"
+    },
+    {
+      "tenure_text": "More than 5 year to 10 year",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9. More than 5 year to 10 year  6.55%  7.05%  6.70%  7.20%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/9 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 9",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-02-20\" parses to 2023-02-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:46:06.498Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-22T20:35:17.802Z",
+      "retained_slab_count": 9
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1249,
+    "last_scraped_at": "2026-05-22T20:35:17.802Z",
+    "manual_verification_needed": true
+  }
+}

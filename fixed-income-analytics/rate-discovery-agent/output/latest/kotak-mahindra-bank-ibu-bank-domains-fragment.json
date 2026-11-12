@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "bank_code": "kotak-mahindra-bank-ibu",
+    "extracted_at": "2026-06-05T14:21:13.036Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "kotak.bank.in",
+  "rate_pages": {
+    "fd": "/en/personal-banking/gift/deposit-rates-gift-City.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": "https://www.kotak.bank.in/en/personal-banking/gift/deposit-rates-gift-City.html",
+    "fd_gift_prev": "/gift-ifsc/",
+    "fd_gift_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "parent_bank_code": "kotak-mahindra-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City. Static HTML tables with USD/EUR/GBP rates. Two tables: regular (with premature withdrawal) and non-premature (USD only, 0.5M+). Rates identical across amount tiers.",
+  "template": {
+    "template_id": "ibu-gift-currency-amount-3x3",
+    "template_hash": "sha1:d98fffdda763817aa4c0d81bd3380814b3bf3f1a",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_500k#USD",
+            "2": "rate_general_pct@below_500k#EUR",
+            "3": "rate_general_pct@below_500k#GBP",
+            "4": "rate_general_pct@500k_to_2mio#USD",
+            "5": "rate_general_pct@500k_to_2mio#EUR",
+            "6": "rate_general_pct@500k_to_2mio#GBP",
+            "7": "rate_general_pct@above_2mio#USD",
+            "8": "rate_general_pct@above_2mio#EUR",
+            "9": "rate_general_pct@above_2mio#GBP"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:50:50.980Z",
+      "gates_passed": "PASS",
+      "slab_count": 126,
+      "cluster_reused": false
+    }
+  }
+}

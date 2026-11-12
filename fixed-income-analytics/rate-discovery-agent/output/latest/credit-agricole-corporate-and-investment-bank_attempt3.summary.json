@@ -1,0 +1,42 @@
+{
+  "bank_code": "credit-agricole-corporate-and-investment-bank",
+  "bank_name": "credit-agricole-corporate-and-investment-bank",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 8504,
+  "duration_ms": 8504,
+  "duration_api_ms": 7781,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.052884,
+  "llm_cost_usd": 0.052884,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 22998,
+  "output_tokens": 861,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 51,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ca-cib.com/en/our-network-india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 52,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ca-cib.com/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 620,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ca-cib.com/en/our-network-india\",\"accordions\":true}"
+    }
+  ]
+}

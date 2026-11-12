@@ -1,0 +1,62 @@
+{
+  "bank_code": "the-district-co-operative-central-bank-ltd-mahabubnagar",
+  "bank_name": "The District Co-operative Central Bank Ltd., Mahabubnagar",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 15483,
+  "duration_ms": 15483,
+  "duration_api_ms": 15249,
+  "num_turns": 8,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.0159932,
+  "input_tokens": 37255,
+  "output_tokens": 682,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The District Co-operative Central Bank Ltd., Mahabubnagar\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 11,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://districtcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmahabubnagar.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The District Co-operative Central Bank Ltd., Mahabubnagar\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 147,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmahabubnagar.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmahabubnagar.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmahabubnagar.in\"}"
+    }
+  ]
+}

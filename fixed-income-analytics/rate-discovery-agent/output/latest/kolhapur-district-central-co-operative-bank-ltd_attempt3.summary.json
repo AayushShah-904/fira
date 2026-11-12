@@ -1,0 +1,42 @@
+{
+  "bank_code": "kolhapur-district-central-co-operative-bank-ltd",
+  "bank_name": "kolhapur-district-central-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 130097,
+  "duration_ms": 130097,
+  "duration_api_ms": 9506,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.050388,
+  "llm_cost_usd": 0.050388,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21534,
+  "output_tokens": 915,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30010,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kolhapurdccb.bank.in/fixed-deposit/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30053,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kolhapurdccb.bank.in/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60528,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kolhapurdccb.bank.in/fixed-deposit/\",\"accordions\":true}"
+    }
+  ]
+}

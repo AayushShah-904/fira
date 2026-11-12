@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "bank_code": "bankura-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:33:31.811Z",
+    "source": "bank-domains.json",
+    "source_sha": "569e7d836788c0f048aa9a8caece448b6f1a4ea6436d1455a2b7db56b8a96798"
+  },
+  "domain": "bankuradccb.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "discovery_status": "website_known_no_rate_page",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "notes": "Operator-verified 2026-05-12: bankuradccb.bank.in is the official site (Bankura DCCB, West Bengal). The /interest-rate/ page exists but displays \"Coming Soon\". Circulars, notice, and download-forms sections checked; no rate data published anywhere on the site. The bank DOES offer FDs (per branch info); rates are simply not online. The Sprint 002 local diagnostic mis-classified this as no_rates_expected (the regex matched \"No FD\" in the agent's phrase \"No FD ... rates are published online\") — this is the dhanbad pattern, not the payments-bank pattern. See L14.",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Official site exists (bankuradccb.bank.in) with an FD calculator and a dedicated Interest Rate page at https://bankuradccb.bank.in/interest-rate/, but that page currently displays only 'Coming Soon' — no FD rate table, PDF, or image is published. Homepage shows a generic 'MIS & FD 5.5%' product indicator only."
+  },
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.180Z",
+    "manual_verification_needed": false
+  }
+}

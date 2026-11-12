@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "nkgsb-co-operative-bank-ltd-mumbai",
+    "extracted_at": "2026-06-05T13:34:34.684Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "nkgsb-bank.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/term-deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/savings-deposit.php",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "nkgsb-coop-3col-tenure-general-senior-tax-scheme",
+    "template_hash": "sha1:f0b85b00b421b1b3aa9b6dff3d13b4cf6d23744d",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 3,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false,
+      "template_fixed_at": "2026-05-26T04:08:34.615Z",
+      "template_fixed_note": "header_row 4->3 (was skipping first row); dropped broken special-scheme block (gave sr=0.1)"
+    }
+  }
+}

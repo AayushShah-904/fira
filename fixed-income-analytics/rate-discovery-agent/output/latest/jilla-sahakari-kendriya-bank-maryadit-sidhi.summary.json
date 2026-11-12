@@ -1,0 +1,74 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sidhi",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-sidhi",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 12151,
+  "duration_ms": 12151,
+  "duration_api_ms": 11674,
+  "num_turns": 3,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.0091292,
+  "input_tokens": 19223,
+  "output_tokens": 900,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit sidhi\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 39,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabanksidhi.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 5,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 171,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit-sidhi.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit-sidhi.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 167,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit-sidhi.com/\"}"
+    }
+  ]
+}

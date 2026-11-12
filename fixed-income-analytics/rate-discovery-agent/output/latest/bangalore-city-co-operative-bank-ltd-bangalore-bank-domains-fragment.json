@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "bangalore-city-co-operative-bank-ltd-bangalore",
+    "extracted_at": "2026-06-06T10:26:35.679Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "bccbl.co.in",
+  "rate_pages": {
+    "fd": "/deposits.php",
+    "savings": "/interest-rate.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "notes": "Official website is on bccbl.co.in (not .bank.in). FD rates visible under Deposits page. No separate clearly labeled savings‑rates page found in search results.",
+  "scraper_type": "html_static"
+}

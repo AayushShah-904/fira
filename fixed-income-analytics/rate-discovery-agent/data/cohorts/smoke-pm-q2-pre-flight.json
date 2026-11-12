@@ -1,0 +1,14 @@
+[
+  { "bank_code": "hdfc-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "icici-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "axis-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "kotak-mahindra-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "state-bank-of-india", "category": "Public Sector Bank", "state": "Maharashtra" },
+  { "bank_code": "ajmer-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" },
+  { "bank_code": "banswara-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" },
+  { "bank_code": "barmer-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" },
+  { "bank_code": "bank-of-bahrain-and-kuwait-bsc", "category": "Foreign Bank", "state": "Maharashtra" },
+  { "bank_code": "south-indian-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Kerala" },
+  { "bank_code": "bank-of-baroda", "category": "Public Sector Bank", "state": "Gujarat" },
+  { "bank_code": "punjab-national-bank", "category": "Public Sector Bank", "state": "Delhi" }
+]

@@ -1,0 +1,181 @@
+{
+  "bank_code": "mahamantralaya-allied-offices-coop-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-01",
+  "source_url": "https://macobank.com/#tab_three",
+  "scraped_at": "2026-06-09T16:42:36.381Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Long Loan",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 180,
+      "rate_senior_pct": 11.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Short Loan",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 60,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Housing Loan - Fixed Interest Rate",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 300,
+      "rate_senior_pct": 9.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Housing Loan - Variable Interest Rate",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 300,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Gold Loan",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 12,
+      "rate_senior_pct": 9.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Overdraft Loan",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 60,
+      "rate_senior_pct": 11,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Overdraft Loan Against Salary",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 60,
+      "rate_senior_pct": 9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[2] (6 slabs) from 4 table(s); signals={\"pctRows\":6,\"tenureRows\":0,\"bothRows\":0,\"dataRows\":6,\"noisy\":false,\"colCount\":4}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[1]: no fixed deposit rate table found; provided table is loan rates, not FD rates; chunk[2]: no fixed deposit rate table found in the provided input)"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 16,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (Long Loan): general rate 180% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (Long Loan): senior rate 11.9% above ceiling (10.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (Long Loan): senior rate (11.9%) < general rate (180%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (Short Loan): general rate 60% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (Short Loan): senior rate (8.5%) < general rate (60%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (Housing Loan - Fixed Interest Rate): general rate 300% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (Housing Loan - Fixed Interest Rate): senior rate (9.5%) < general rate (300%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (Housing Loan - Variable Interest Rate): general rate 300% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (Housing Loan - Variable Interest Rate): senior rate (8.5%) < general rate (300%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (Gold Loan): general rate 12% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (Gold Loan): senior rate (9.5%) < general rate (12%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (Overdraft Loan): general rate 60% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (Overdraft Loan): senior rate 11% above ceiling (10.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (Overdraft Loan): senior rate (11%) < general rate (60%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (Overdraft Loan Against Salary): general rate 60% above ceiling (9.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (Overdraft Loan Against Salary): senior rate (9%) < general rate (60%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 52,
+    "last_scraped_at": "2026-06-09T16:42:36.381Z",
+    "manual_verification_needed": false
+  }
+}

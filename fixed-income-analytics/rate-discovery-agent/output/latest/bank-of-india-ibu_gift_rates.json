@@ -1,0 +1,335 @@
+{
+  "bank_code": "bank-of-india-ibu",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-06-28",
+  "source_url": "https://bankofindia.bank.in/ibu_interest_rate",
+  "scraped_at": "2026-06-28T10:23:23.186Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 4.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "271 days to 366 days 4.35% 2.40% 3.90% 0.30%"
+    },
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 2.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "271 days to 366 days 4.35% 2.40% 3.90% 0.30%"
+    },
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "271 days to 366 days 4.35% 2.40% 3.90% 0.30%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.10% 1.40% 2.90% 0.20%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 1.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.10% 1.40% 2.90% 0.20%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.10% 1.40% 2.90% 0.20%"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": ">24 Months to ≤ 36 Months 4.40% 1.20% 2.70% 0.20%"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": ">24 Months to ≤ 36 Months 4.40% 1.20% 2.70% 0.20%"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": ">24 Months to ≤ 36 Months 4.40% 1.20% 2.70% 0.20%"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": ">36 Months to ≤ 5 Years 4.10% 0.90% 2.70% 0.20%"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": ">36 Months to ≤ 5 Years 4.10% 0.90% 2.70% 0.20%"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": ">36 Months to ≤ 5 Years 4.10% 0.90% 2.70% 0.20%"
+    },
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 4.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_1mn",
+      "source_row_text": "271 days to 366 days 4.45% 2.50% 4.00% 0.40%"
+    },
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "above_1mn",
+      "source_row_text": "271 days to 366 days 4.45% 2.50% 4.00% 0.40%"
+    },
+    {
+      "tenure_text": "271 days to 366 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "above_1mn",
+      "source_row_text": "271 days to 366 days 4.45% 2.50% 4.00% 0.40%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.20% 1.50% 3.00% 0.50%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.20% 1.50% 3.00% 0.50%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.20% 1.50% 3.00% 0.50%"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">24 Months to ≤ 36 Months 4.50% 1.30% 2.80% 0.45%"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">24 Months to ≤ 36 Months 4.50% 1.30% 2.80% 0.45%"
+    },
+    {
+      "tenure_text": ">24 Months to ≤ 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">24 Months to ≤ 36 Months 4.50% 1.30% 2.80% 0.45%"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">36 Months to ≤ 5 Years 4.20% 1.00% 2.80% 0.40%"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">36 Months to ≤ 5 Years 4.20% 1.00% 2.80% 0.40%"
+    },
+    {
+      "tenure_text": ">36 Months to ≤ 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "above_1mn",
+      "source_row_text": ">36 Months to ≤ 5 Years 4.20% 1.00% 2.80% 0.40%"
+    },
+    {
+      "tenure_text": ">12 Months to ≤ 24 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 0.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "deposit_range": "above_3cr",
+      "source_row_text": ">12 Months to ≤ 24 Months 4.20% 1.50% 3.00% 0.50%"
+    },
+    {
+      "tenure_text": "12 Months / 271 Days - 366 Days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "Non-callable 3.65 3.95 4.00"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "validation": {
+    "passed": true,
+    "warning_count": 7,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (271 days to 366 days): gift tenure 271d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (271 days to 366 days): gift tenure 271d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (271 days to 366 days): gift tenure 271d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 13 (271 days to 366 days): gift tenure 271d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 14 (271 days to 366 days): gift tenure 271d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 15 (271 days to 366 days): gift tenure 271d below minimum (365d)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 26 (12 Months / 271 Days - 366 Days): gift tenure 271d below minimum (365d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 25,
+    "last_scraped_at": "2026-06-28T10:23:23.186Z",
+    "manual_verification_needed": false
+  }
+}

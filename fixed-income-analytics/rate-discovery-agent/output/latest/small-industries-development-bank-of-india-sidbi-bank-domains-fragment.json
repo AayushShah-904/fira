@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "bank_code": "small-industries-development-bank-of-india-sidbi",
+    "extracted_at": "2026-06-05T13:09:01.696Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "sidbi.in",
+  "scraper_type": "manual",
+  "notes": "SIDBI is apex institution for MSME financing — does not accept retail deposits.",
+  "status": "no_retail_deposits",
+  "rate_pages": {
+    "fd": "/fixed-scheme"
+  }
+}

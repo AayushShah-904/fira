@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "hsbc-bank-ibu",
+    "extracted_at": "2026-06-05T14:09:03.028Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "hsbc.co.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "gift": "/nri/products/gift-city/",
+    "savings": null,
+    "rd": null,
+    "fd_gift": null
+  },
+  "scraper_type": "html_static",
+  "parent_bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+  "notes": "IFSC Banking Unit in GIFT City"
+}

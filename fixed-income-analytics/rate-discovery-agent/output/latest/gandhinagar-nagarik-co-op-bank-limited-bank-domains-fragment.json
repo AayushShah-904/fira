@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "gandhinagar-nagarik-co-op-bank-limited",
+    "extracted_at": "2026-06-06T09:50:39.834Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "gncb.bank.in",
+  "rate_pages": {
+    "fd": "/page/1",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/page/6",
+    "rd": "/page/4"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-2col-tenure-general",
+    "template_hash": "sha1:dffff362f2de0c43de3c775a76ebffa886ee503d",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "bank_code": "central-co-operative-bank-ltd-ara",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\central-co-operative-bank-ltd-ara_savings_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.482917Z",
+  "overall_passed": false,
+  "metrics": {
+    "schema_completeness": {
+      "score": 50,
+      "passed": false,
+      "reason": "2 missing field values across 1 slabs",
+      "missing_breakdown": {
+        "tenure_min_days": 1,
+        "tenure_max_days": 1
+      }
+    },
+    "extraction_confidence": {
+      "score": 40,
+      "passed": false,
+      "reason": "Confidence=high but only 1 slabs found (expected >=5)"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

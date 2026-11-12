@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "gandhinagar-urban-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T09:51:06.632Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "tgucb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-interest-rate/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/deposit-interest-rate/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior",
+    "template_hash": "sha1:ca6a10aa59f4166567de0e3a2221909b412ab7de",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "bank_code": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+    "extracted_at": "2026-06-06T09:15:09.567Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "rajebank.com",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null,
+    "savings": null
+  },
+  "notes": "Seeded by tier-2 gap sweep 2026-05-25; was absent from registry.",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Official domain is rajebank.com (The Kagal Bank); Google has indexed sub-pages (Lockers.aspx, CurrentAccount.aspx) so a real site existed. Re-verified now: the live server returns HTTP 404 'Not Found' for the homepage and every path attempted (browser-UA curl following redirects; prior attempts also via WebFetch and headless Chromium). Domain resolves and responds but serves only 404s — site appears decommissioned/broken; no reachable rate page. Retry when back up."
+  },
+  "effective_date": "2026-05-25",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-07-23T14:01:43.851Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "bank_code": "the-arunachal-pradesh-state-co-operative-apex-bank-ltd",
+    "extracted_at": "2026-06-05T12:21:57.272Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "arunachalapexbank.bank.in",
+  "notes": "bank.in domain found. Established 1977.",
+  "rate_pages": {
+    "fd": "/dep_int.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/dep_int.php",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "apex-arunachal-6col-existing-revised-general-senior",
+    "template_hash": "sha1:40be47515fa4b7e5c967fdd35a69712ef45f7c2c",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 5,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "ignore",
+            "4": "rate_general_pct",
+            "5": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 4,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "rate_general_pct",
+            "4": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 5,
+      "cluster_reused": false
+    }
+  }
+}

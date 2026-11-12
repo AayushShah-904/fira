@@ -1,0 +1,56 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-balaghat",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-balaghat",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10675,
+  "duration_ms": 10675,
+  "duration_api_ms": 10360,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.00909,
+  "input_tokens": 19085,
+  "output_tokens": 910,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit balaghat\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditbalaghat.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditbalaghat.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 172,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditbalaghat.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 42,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditbalaghat.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditbalaghat.in/\"}"
+    }
+  ]
+}

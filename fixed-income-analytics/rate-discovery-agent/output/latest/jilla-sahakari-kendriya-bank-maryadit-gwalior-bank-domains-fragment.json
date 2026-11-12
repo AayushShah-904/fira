@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-gwalior",
+    "extracted_at": "2026-06-05T18:27:01.000Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "yappe.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  },
+  "discovery_status": "no_website_known",
+  "gap_classification": {
+    "reason": "no_website",
+    "discovery_status": "no_website_known",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "none",
+    "notes": "No working official website. Registry hint yappe.in is a third-party directory. dccbgwalior.in (from the bank email jskbgwl.mp@dccbgwalior.in) is a parked domain that redirects to a '/lander' for-sale page (confirmed: 114-byte JS redirect). No .bank.in / .com variant resolves; MP Apex Bank portal unreachable from here. Other districts' DCC banks (Dewas, Rajnandgaon, Bilaspur) have sites, but Gwalior has none."
+  }
+}

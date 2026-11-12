@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "bank_code": "meghalaya-rural-bank",
+    "extracted_at": "2026-06-05T12:52:21.551Z",
+    "source": "bank-domains.json",
+    "source_sha": "0619916b6239154a7c4c3ba562d0577776f86e3aefd6ddbcb640c53bbe52c81b"
+  },
+  "domain": "meghalayaruralbank.bank.in",
+  "rate_pages": {
+    "fd": "/fd.php"
+  }
+}

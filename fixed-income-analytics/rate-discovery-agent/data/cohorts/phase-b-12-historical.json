@@ -1,0 +1,14 @@
+[
+  { "bank_code": "agra-zilla-sahakari-bank-ltd", "category": "District Central Co-operative Bank", "state": "Uttar Pradesh" },
+  { "bank_code": "azamgarh-district-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Uttar Pradesh" },
+  { "bank_code": "bhatinda-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Punjab" },
+  { "bank_code": "dhanbad-district-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Jharkhand" },
+  { "bank_code": "gondia-district-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Maharashtra" },
+  { "bank_code": "indore-premier-co-operative-bank-ltd", "category": "Scheduled Urban Co-operative Bank", "state": "Madhya Pradesh" },
+  { "bank_code": "angul-united-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Odisha" },
+  { "bank_code": "banswara-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" },
+  { "bank_code": "barmer-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" },
+  { "bank_code": "nizamabad-district-co-operative-central-bank-ltd", "category": "District Central Co-operative Bank", "state": "Telangana" },
+  { "bank_code": "bankura-district-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "West Bengal" },
+  { "bank_code": "ajmer-central-co-operative-bank-ltd", "category": "District Central Co-operative Bank", "state": "Rajasthan" }
+]

@@ -1,0 +1,48 @@
+{
+  "bank_code": "bank-of-baroda-ibu",
+  "bank_name": "bank-of-baroda-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 26422,
+  "duration_ms": 26422,
+  "duration_api_ms": 25832,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.281674,
+  "llm_cost_usd": 0.281674,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 120833,
+  "output_tokens": 5001,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 277,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ifsc.bankofbaroda.bank.in/rates-and-charges/interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 311,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bankofbaroda.bank.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/bank-of-baroda-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda-ibu\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda IBU"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/bank-of-baroda-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-baroda-ibu\\\",\\n  \\\"bank_name\\\": \\\"Bank of Baroda IBU\\"
+    }
+  ]
+}

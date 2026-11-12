@@ -1,0 +1,54 @@
+{
+  "bank_code": "canara-bank-ibu",
+  "bank_name": "canara-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 30584,
+  "duration_ms": 30584,
+  "duration_api_ms": 15269,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.25852400000000003,
+  "llm_cost_usd": 0.25852400000000003,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 122786,
+  "output_tokens": 1619,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 15050,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://canarabank.bank.in/pages/ifsc-banking-unit\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 264,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://canarabank.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:canarabank.bank.in GIFT City IFSC Banking Unit deposit rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/canara-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"canara-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Canara Bank IBU\\\",\\n  \\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/canara-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"canara-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Canara Bank IBU\\\",\\n  \\\"p"
+    }
+  ]
+}

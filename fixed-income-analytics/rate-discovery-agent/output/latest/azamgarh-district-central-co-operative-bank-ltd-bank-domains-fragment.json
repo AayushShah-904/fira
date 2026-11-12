@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "azamgarh-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:32:31.612Z",
+    "source": "bank-domains.json",
+    "source_sha": "569e7d836788c0f048aa9a8caece448b6f1a4ea6436d1455a2b7db56b8a96798"
+  },
+  "domain": null,
+  "scraper_type": "manual",
+  "discovery_status": "no_website_known",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "notes": "Operator-verified 2026-05-12: no online presence after searching for the bank name and common slug variants (azamgarhdccb, azamgarh-sahakari, etc.). Rates may be available at branch counters or via the UP State Co-operative Bank umbrella (upcbl.in) but the latter is a separate institution, not this bank.",
+  "gap_classification": {
+    "reason": "no_website",
+    "discovery_status": "no_website_known",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "none",
+    "notes": "No own website found for Zila Sahkari Bank Ltd, Azamgarh (UP DCCB). Other UP district DCCBs use dcb<district>.com/intrest.php or dcb<district>.bank.in patterns, but dcbazamgarh.bank.in and dcbazamgarh.com both ECONNREFUSED (do not exist). Only aggregator/IFSC-directory entries (codeforbanks, fincrif) found. Registry hint was null."
+  },
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.119Z",
+    "manual_verification_needed": false
+  }
+}

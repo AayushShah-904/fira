@@ -1,0 +1,23 @@
+{
+  "bank_code": "haryana-gramin-bank",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:18:57.433Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T1957_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-xdxc51b"
+    },
+    {
+      "ts": "2026-06-08T22:52:42.856Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:21:39.552Z",
+      "signal": "crash",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "bank_code": "the-sikkim-state-co-operative-bank-ltd",
+  "bank_name": "The Sikkim State Co-operative Bank Ltd. (SISCO Bank)",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://sisco.bank.in/check-rate",
+  "scraped_at": "2026-05-25T17:20:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {"tenure_text": "7 days - 14 days", "tenure_min_days": 7, "tenure_max_days": 14, "rate_general_pct": 3.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "15 days - 29 days", "tenure_min_days": 15, "tenure_max_days": 29, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "30 days - 45 days", "tenure_min_days": 30, "tenure_max_days": 45, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "46 days - 60 days", "tenure_min_days": 46, "tenure_max_days": 60, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "61 days - 90 days", "tenure_min_days": 61, "tenure_max_days": 90, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "90 days - 179 days", "tenure_min_days": 90, "tenure_max_days": 179, "rate_general_pct": 5.55, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "180 days - 270 days", "tenure_min_days": 180, "tenure_max_days": 270, "rate_general_pct": 6.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "271 days to less than 1 year", "tenure_min_days": 271, "tenure_max_days": 364, "rate_general_pct": 6.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "1 year", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 7.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "1 year to less than 15 months", "tenure_min_days": 366, "tenure_max_days": 449, "rate_general_pct": 7.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "15 months to less than 2 years", "tenure_min_days": 450, "tenure_max_days": 729, "rate_general_pct": 7.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "2 years to less than 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 7.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "3 years to less than 10 years", "tenure_min_days": 1095, "tenure_max_days": 3649, "rate_general_pct": 6.80, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"}
+  ],
+  "special_schemes": [
+    {"note": "SISCO publishes two rate columns per tenure for the same amount tier: 'With Premature Closure Facility' (standard breakable FD, captured above as rate_general_pct) and 'Without Premature Closure Facility' (non-callable, higher). Without-premature rates (Less Than 2 Crore tier): 7-14d 3.25, 15-29d 4.00, 30-45d 5.50, 46-60d 6.00, 61-90d 6.25, 90-179d 6.85, 180-270d 6.85, 271d-<1y 7.15, 1y 7.35, 1y-<15m 7.35, 15m-<2y 7.35, 2y-<3y 7.30, 3y-<10y 7.00."}
+  ],
+  "warnings": [
+    "Correct rates page is sisco.bank.in/check-rate (hyphen). Prior pass used /check_rates (underscore) and /products/deposits, which 404'd; this run found the real path.",
+    "Amount tier captured is 'Less Than 2 Crore' (retail) = below_3cr. A separate 'More Than 2 Crore' tab exists but was not captured.",
+    "Rates are behind a JS 'Deposit' tab; extracted via Playwright after clicking the tab. rate_general_pct uses the 'With Premature Closure Facility' (standard callable FD) column.",
+    "No senior-citizen column is published on this page. Effective date not shown (left null)."
+  ],
+  "tier2_method": "playwright_tables"
+}

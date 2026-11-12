@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "bank_code": "agra-zilla-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T18:43:24.904Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "www.dcbagra.org",
+  "rate_pages": {
+    "fd": "/intrest.php?id=4",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "notes": "Rate page /intrest.php?id=4 — note misspelled \"intrest\". Apex dcbagra.org has cert valid only for *.dcbagra.org so must use www subdomain. Static HTML rate table with general + senior-citizen columns; 9 slabs (verified 2026-05-11 via Playwright). Lookalike at zsblagra.bank.in has identical content but TLS cert issues + malware warning — provenance unverified; do not use.",
+  "template": {
+    "template_id": "dcbagra-6col-prev-updated-general-senior",
+    "template_hash": "sha1:7529eb9198610c3ab7e80e1219cd8547e4736b42",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "ignore",
+            "4": "rate_general_pct",
+            "5": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  },
+  "effective_date": "2026-05-11",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 73,
+    "last_scraped_at": "2026-07-23T14:01:43.037Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "jharkhand-gramin-bank",
+    "extracted_at": "2026-06-05T12:47:48.935Z",
+    "source": "bank-domains.json",
+    "source_sha": "8842e64f30b5d7b64a8b7a095dc2723eff679801044bec9e2bb1b0196512a438"
+  },
+  "domain": "jgb.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf"
+}

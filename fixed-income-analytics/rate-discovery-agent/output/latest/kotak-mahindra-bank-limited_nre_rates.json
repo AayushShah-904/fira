@@ -1,0 +1,161 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-14",
+  "source_url": "https://kotak.bank.in/en/personal-banking/nri/accounts-deposits/deposits/nre-fixed-deposit/interest-rate.html",
+  "scraped_at": "2026-05-26T04:09:45.071Z",
+  "extraction_confidence": "high",
+  "special_schemes": [],
+  "warnings": [
+    "Kotak serves a single combined 'Domestic / NRO / NRE' rate card; NRE rates equal the domestic general rates ('Less than Rs.3 Crore' Regular column).",
+    "NRE fixed deposits have a regulatory minimum tenure of 1 year (365 days), so only slabs from '365 Days to less than 15 Months' onward are included. Senior-citizen premium does not apply to NRE (non-resident) deposits, so rate_senior_pct is null for all slabs.",
+    "Rs.3-5 Cr and bulk tiers excluded per task scope (below_3cr retail only)."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "tier2_method": "Playwright (firefox engine, --scroll, --timeout 180000) via scripts/fetch_rates_playwright.js — JS-rendered page; NRE page serves the same combined Domestic/NRO/NRE rate card.",
+    "sourced_at": "2026-05-26T04:09:45.071Z"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "365 Days to less than 15 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 Months - less than 18 Months",
+      "tenure_min_days": 456,
+      "tenure_max_days": 547,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 months - less than 2 years",
+      "tenure_min_days": 548,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years- less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years and above but less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 years and above but less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years and above upto and inclusive of 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:44:38.589Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "manual_transcription_from_rendered_text",
+      "attempted_slab_count": 7,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T04:09:45.071Z",
+      "retained_slab_count": 7
+    },
+    {
+      "attempted_at": "2026-07-07T07:01:01.283Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T04:09:45.071Z",
+      "retained_slab_count": 7
+    },
+    {
+      "attempted_at": "2026-07-07T07:01:07.234Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T04:09:45.071Z",
+      "retained_slab_count": 7
+    },
+    {
+      "attempted_at": "2026-07-07T07:08:14.732Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T04:09:45.071Z",
+      "retained_slab_count": 7
+    },
+    {
+      "attempted_at": "2026-07-07T07:09:52.169Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T04:09:45.071Z",
+      "retained_slab_count": 7
+    },
+    {
+      "attempted_at": "2026-07-07T07:10:35.699Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 14,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T04:09:45.071Z",
+      "retained_slab_count": 7
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 70,
+    "last_scraped_at": "2026-05-26T04:09:45.071Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bank_code": "jammu-central-co-operative-bank-ltd",
+  "bank_name": "Jammu Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2019-12-15",
+  "source_url": "https://www.jammuccb.com/pdf/191213-interest-term-deposits.pdf",
+  "scraped_at": "2026-05-26T13:10:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 days to 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 days to 270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "271 days to less than one year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "One year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Two years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Three years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Five Years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "RE-VERIFIED: The live rate card genuinely publishes NO numeric senior-citizen or super-senior rates. The newest term-deposit PDF (191213-interest-term-deposits.pdf, 'Revised Interest Rate on Deposits w.e.f. 15-12-2019') is a scanned image (0 extractable text; rendered to image and read visually). Its footnote states senior-citizen / staff terms 'shall remain as mentioned in Circular No. Bkg/42-132 Dated 06-04-2009 and Circular No. Bkg/2329-2450 Dated 14-10-2019' — i.e. senior rates exist per separate circulars but are NOT printed on the rate card. rate_senior_pct / rate_super_senior_pct left null (not fabricated).",
+    "Used the 'Revised Rates' column (current) from the w.e.f. 15-12-2019 card. This SUPERSEDES the prior extraction which used an older w.e.f. 01-04-2017 PDF. Newer image PDFs on the site are scanned and the most recent term-deposit PDF is owner-password protected (content still renderable).",
+    "Tenures expressed in 'less than' bounds; tenure_min/max_days inferred to non-overlapping day ranges."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract-senior",
+    "senior_source": "none (deferred to internal circulars; no numeric rates on published card)",
+    "sourced_at": "2026-05-26T13:10:00Z"
+  }
+}

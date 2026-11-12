@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "hissar-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T18:47:29.279Z",
+    "source": "bank-domains.json",
+    "source_sha": "e6896d625b408d392a7d5b85bcefaeae4f472eb27b79389882793c6023b0a6d3"
+  },
+  "domain": "hisardccb.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/service/deposit-schemes/fixed-deposit",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static"
+}

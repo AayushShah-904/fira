@@ -1,0 +1,23 @@
+{
+  "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+  "bank_name": "Rajkot Nagrik Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-12",
+  "source_url": "https://rnsb.bank.in/admin/uploads/banners.JPG",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "FD rate card is published as a JPG image (https://rnsb.bank.in/admin/uploads/banners.JPG). Automated extraction is not possible without Vision OCR. Operator transcription required. No parseable slabs."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 223,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": true
+  }
+}

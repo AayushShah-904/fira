@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "model-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:46:39.128Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "modelbank.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposit",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account",
+    "rd": "/recurring-deposit"
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML table with tr/td elements. 1 tables",
+  "template": {
+    "template_id": "model-coop-5col-existing-revised-general-senior",
+    "template_hash": "sha1:abcd30c0102c20025d82bfb45f36abbeff744f73",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "rate_general_pct",
+            "3": "ignore",
+            "4": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.503Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

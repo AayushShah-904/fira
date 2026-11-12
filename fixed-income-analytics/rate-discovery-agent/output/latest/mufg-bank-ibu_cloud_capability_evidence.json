@@ -1,0 +1,17 @@
+{
+  "bank_code": "mufg-bank-ibu",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:43:44.192Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T14:25:57.294Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

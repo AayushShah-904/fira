@@ -1,0 +1,50 @@
+{
+  "bank_code": "aligarh-zilla-sahakari-bank-ltd",
+  "bank_name": "aligarh-zilla-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8984,
+  "duration_ms": 8984,
+  "duration_api_ms": 8857,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0086396,
+  "input_tokens": 18887,
+  "output_tokens": 678,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"aligarh zilla sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aligarh-zilla-sahakari-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aligarh-zillahsahakaribank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aligarhsahakaribank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://aligarh-zilla-sahakari-bank-ltd.co.in/\"}"
+    }
+  ]
+}

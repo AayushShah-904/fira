@@ -1,0 +1,22 @@
+{
+  "bank_code": "chennai-central-co-operative-bank-ltd",
+  "bank_name": "Chennai Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "ccbankchennai.com",
+    "found_via": "websearch",
+    "notes": "Bank's own site is www.ccbankchennai.com with a deposits page at /deposits.php (indexed in search). The host refused all connections from here: curl HTTP 000, WebFetch ECONNREFUSED, Playwright ERR_CONNECTION_REFUSED. Site appears live (search-indexed) but unreachable from this network right now; the FD rate page exists at https://www.ccbankchennai.com/deposits.php and should be retried later."
+  },
+  "warnings": [
+    "ccbankchennai.com refuses connections (ERR_CONNECTION_REFUSED) from this network.",
+    "Known deposits page https://www.ccbankchennai.com/deposits.php could not be retrieved."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

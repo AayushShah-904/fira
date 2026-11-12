@@ -1,0 +1,60 @@
+{
+  "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+  "bank_name": "the-akola-urban-co-operative-bank-ltd-akola",
+  "category": "Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 191976,
+  "duration_ms": 191976,
+  "duration_api_ms": 10379,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.086288,
+  "llm_cost_usd": 0.086288,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 38868,
+  "output_tokens": 1069,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 707,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 248,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/ql-intrest-rate-chart.php\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60511,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/ql-intrest-rate-chart.php\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120130,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/scheduled-urban-co-operative-bank/the-akola-urban-co-operative-bank-ltd-akola_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-akola-urban-co-operat"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/scheduled-urban-co-operative-bank/the-akola-urban-co-operative-bank-ltd-akola_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-akola-urban-co-operati"
+    }
+  ]
+}

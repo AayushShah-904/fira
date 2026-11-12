@@ -1,0 +1,84 @@
+{
+  "bank_code": "saraspur-nagarik-co-op-bank-limited",
+  "bank_name": "saraspur-nagarik-co-op-bank-limited",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 249944,
+  "duration_ms": 249944,
+  "duration_api_ms": 9688,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.085426,
+  "llm_cost_usd": 0.085426,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 38501,
+  "output_tokens": 1053,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 126,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 19,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/interest-rates\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120055,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120055,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/interest-rates\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/saraspur-nagarik-co-op-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"saraspur-nagarik-co-op-bank-l"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/saraspur-nagarik-co-op-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"saraspur-nagarik-co-op-bank-li"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "Homepage and rate page are both JavaScript-rendered (Angular/Material); both fetch_url and Playwright failed due to network timeout (Playwright ETIMEDOUT). Cannot extract rates automatically. Operator intervention required.",
+    "website_url": "https://saraspur.bank.in",
+    "rate_url_fd": "https://saraspur.bank.in/interest-rates",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-ceylon",
+    "extracted_at": "2026-06-05T11:21:10.671Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "boc.lk",
+  "rate_pages": {
+    "fd": "/international-banking/overseas-branches",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/rates-tariff",
+    "fd_nro": "/rates-tariff",
+    "fd_fcnr": "/rates-tariff",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML on boc.lk",
+  "template": {
+    "template_id": "bank-of-ceylon-amount-tiered-3bucket",
+    "template_hash": "sha1:10b4bdd9e659428421b3813302c8e6658da353ff",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "rate_general_pct@3cr_to_5cr",
+            "3": "rate_general_pct@above_5cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 16,
+      "cluster_reused": false
+    }
+  }
+}

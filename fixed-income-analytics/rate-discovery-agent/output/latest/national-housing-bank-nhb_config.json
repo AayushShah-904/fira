@@ -1,0 +1,19 @@
+{
+  "bank_code": "national-housing-bank-nhb",
+  "bank_name": "national-housing-bank-nhb",
+  "bank_type": "FI",
+  "category": "Financial Institution",
+  "state": "Delhi",
+  "website": "https://nhb.org.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://nhb.org.in/wp-content/uploads/2026/05/Corrigendum-Eng.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:47:14.371Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

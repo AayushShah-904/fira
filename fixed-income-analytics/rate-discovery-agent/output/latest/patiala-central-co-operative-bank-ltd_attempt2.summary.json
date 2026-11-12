@@ -1,0 +1,108 @@
+{
+  "bank_code": "patiala-central-co-operative-bank-ltd",
+  "bank_name": "patiala-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 20143,
+  "duration_ms": 20143,
+  "duration_api_ms": 13674,
+  "num_turns": 11,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.17246999999999998,
+  "input_tokens": 81939,
+  "output_tokens": 1074,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Patiala Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://patialacentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.patialacentralbank.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Patiala Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Patiala Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Patiala Central Co-operative Bank Ltd\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Patiala Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 3544,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://pbcoopbank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2425,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://punjabcooperation.gov.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 267,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.patiala.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 176,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.patialadccb.com/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 5,
+    "domain_was_known": false
+  }
+}

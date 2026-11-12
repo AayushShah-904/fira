@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "pt-bank-maybank-indonesia-tbk",
+    "extracted_at": "2026-06-05T11:53:14.633Z",
+    "source": "bank-domains.json",
+    "source_sha": "d4c965f8960ae816dbe0af8cf78777c8bae86c6e274ea7bd1bcf21db8a24df79"
+  },
+  "domain": "www.maybank.co.in",
+  "scraper_type": "pdf",
+  "notes": "Maybank India. Website exists with FD/NRI/FCNR pages but none publish actual rate numbers — only product descriptions.",
+  "status": "rates_not_published",
+  "rate_pages": {
+    "fd": "https://www.maybank.co.in/downloads_pdf/Deposit%20rates_01052026.pdf",
+    "fd_nre": "/nri_dep.html",
+    "fd_fcnr": "/fcnr.html",
+    "fd_nro": null,
+    "fd_prev": "/term_dep.html",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_source": "manual",
+  "domain_prev": "maybank.co.in",
+  "extraction_method": "manual_pdf_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:40:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "pdf",
+    "source_url": "https://www.maybank.co.in/downloads_pdf/Deposit%20rates_01052026.pdf",
+    "slab_count": 12,
+    "hints": "Foreign bank (PT Bank Maybank Indonesia TBK, India operations) — no senior citizen premium offered; rate_senior_pct left null. | PDF publishes 4 amount tiers x 2 withdrawal types. Slabs recorded here are the 'below INR 30 Mio (below ~3cr), non-premature withdrawal' table = below_3cr retail tier. A separate higher tier 'INR 30 Mio and above' (non-premature) offers higher rates (e.g. 7-15d 4.75, peak 271-365d 6.55, 366d-2y 6.50). | Premature-withdrawal variant of each tier is 0.05-0.20 pct lower; not recorded separately.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:79f0fb99f58c831d3c099d81be9b64440ed34385",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 24,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

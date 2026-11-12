@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "amreli-nagrik-sahakari-bank-ltd",
+    "extracted_at": "2026-06-06T11:12:03.475Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "amrelibank.com",
+  "rate_pages": {
+    "fd": "/deposit-interest-rate.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Static PHP (server-rendered). HTML table with class 'table table-bordered table-striped table-hover'. 1 tables"
+}

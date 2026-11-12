@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "bank_code": "barmer-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:33:41.636Z",
+    "source": "bank-domains.json",
+    "source_sha": "569e7d836788c0f048aa9a8caece448b6f1a4ea6436d1455a2b7db56b8a96798"
+  },
+  "domain": "ccbbarmer.bank.in",
+  "rate_pages": {
+    "fd": "/PDF/Deposit_interest_rates.pdf",
+    "fd_image_ocr": "https://ccbbarmer.bank.in/PDF/Deposit_interest_rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "extraction": {
+    "fd_image_ocr": {
+      "type": "image_ocr",
+      "fulfills_product": [
+        "fd"
+      ]
+    }
+  },
+  "scraper_type": "pdf",
+  "extraction_method": "pending_vision",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "rate_pdfs": [
+    {
+      "url": "https://ccbbarmer.bank.in/PDF/Deposit_interest_rates.pdf",
+      "latest": true,
+      "kind": "rate_card_scanned_image",
+      "pages": 1,
+      "size_bytes": 288395
+    },
+    {
+      "url": "https://ccbbarmer.bank.in/pdf/Interest_Rate_on_Deposits_Policy.pdf",
+      "latest": false,
+      "kind": "policy_document",
+      "pages": 8,
+      "notes": "Deposit policy doc, not the rate card"
+    }
+  ],
+  "notes": "Working rate-card PDF at /PDF/Deposit_interest_rates.pdf (1-page scanned image, ~288 KB). Pure scanned image — no OCR text layer; pdf-parse extracts 0 text. Awaiting Vision-API extraction or operator transcription. NOTE: the homepage advertises the rate PDF at https://www.ccbbarmer.bank.in/Deposit_interest_rates.pdf (no /PDF/ prefix, with www) — that URL 404s. The working URL is on the apex host without www, with a /PDF/ directory prefix (case matters: /PDF/, not /pdf/). The bank's own homepage link to its rate card is broken — see L12 in agent-learnings.md."
+}

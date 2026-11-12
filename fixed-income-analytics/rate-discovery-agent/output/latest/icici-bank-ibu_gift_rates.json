@@ -1,0 +1,438 @@
+{
+  "bank_code": "icici-bank-ibu",
+  "bank_name": "ICICI Bank - IFSC Banking Unit (GIFT City)",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-04-07",
+  "source_url": "https://www.giftcity.icici.bank.in/personal-banking/fixed-deposit/fd-interest-rates",
+  "scraped_at": "2026-05-25T11:23:00.922Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 1.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 2.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AED",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AED",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AED",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 2.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 2.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 1.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "HKD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 1.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "HKD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 2.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "HKD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "SGD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 1.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "SGD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 1.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "SGD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to < 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to < 3 months",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months to < 6 months",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Rates sourced from the page-backing JSON API (giftcity-fd-interest-rate.json) intercepted via Playwright. Only three tenure bands published per currency (7D-30D, 30D-3M, 3M-6M).",
+    "Effective date \"w.e.f. April 07, 2026\" taken from page text."
+  ],
+  "tier2_method": "fetch_rates_playwright.js --intercept -> direct fetch of giftcity-fd-interest-rate.json API",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "fetch_rates_playwright.js --intercept -> direct fetch of giftcity-fd-interest-rate.json API",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T11:23:00.922Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-07-21T17:03:55.852Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:05:06.005Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:05:14.656Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:06:26.491Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:07:49.109Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:34:01.611Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:35:24.913Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:35:34.320Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:36:44.933Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-07-21T17:37:30.705Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-09-24T08:16:46.362Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-09-24T08:21:25.811Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-09-24T08:22:50.961Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-09-24T08:29:21.154Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    },
+    {
+      "attempted_at": "2026-09-24T08:33:58.215Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T11:23:00.922Z",
+      "retained_slab_count": 24
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 107,
+    "last_scraped_at": "2026-05-25T11:23:00.922Z",
+    "manual_verification_needed": true
+  }
+}

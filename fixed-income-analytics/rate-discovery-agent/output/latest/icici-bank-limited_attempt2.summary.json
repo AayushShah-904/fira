@@ -1,0 +1,102 @@
+{
+  "bank_code": "icici-bank-limited",
+  "bank_name": "icici-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 288145,
+  "duration_ms": 288145,
+  "duration_api_ms": 33511,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 1.0260420000000001,
+  "llm_cost_usd": 1.0260420000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 501997,
+  "output_tokens": 2756,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 8354,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 6023,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/deposits/fixed-deposit/fd-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120126,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/deposits/fcnr-rfc/fcnr-rfc-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120128,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/deposits/fcnr-rfc/fcnr-rfc-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank Limi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank Limit"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank L"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank L"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank "
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_js",
+    "notes": "JS-rendered SPA with tab-based navigation. NRE/NRO rates on combined NRI page. Old domain icicibank.com 301 redirects to icici.bank.in. FCNR page could not be loaded due to Playwright timeout.",
+    "website_url": "https://icici.bank.in",
+    "rate_url_fd": "https://icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+    "slab_count": 2,
+    "extraction_confidence": "medium",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on regular: 2 < 0.8 * 5 (floor)",
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "bank_code": "bank-of-nova-scotia",
+  "bank_name": "bank-of-nova-scotia",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Canada",
+  "website": "https://scotiabank.com",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://scotiabank.com/content/dam/global/india/Interest-Rate-Schedule-of-Charges-Dec-2025.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:34:12.445Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

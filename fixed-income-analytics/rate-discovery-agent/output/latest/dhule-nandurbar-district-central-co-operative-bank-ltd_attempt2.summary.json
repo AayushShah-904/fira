@@ -1,0 +1,126 @@
+{
+  "bank_code": "dhule-nandurbar-district-central-co-operative-bank-ltd",
+  "bank_name": "dhule-nandurbar-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17981,
+  "duration_ms": 17981,
+  "duration_api_ms": 15078,
+  "num_turns": 13,
+  "tool_call_count": 14,
+  "total_cost_usd": 0.20325000000000001,
+  "input_tokens": 96709,
+  "output_tokens": 1229,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Dhule Nandurbar District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dndccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dhule-nandurbar-dccb.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Dhule Nandurbar District Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Dhule Nandurbar District Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"धुले नंदुरबार जिला केंद्रीय सहकारी बैंक ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 173,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dndccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 165,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dhule-nandurbar-dccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Dhule Nandurbar District Central Co-operative Bank Ltd Maharashtra\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 116,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.msccb.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2024,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://mscb.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.maharashtracooperativebank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 171,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://maharashtracooperativebank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 159,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.maharashtradccb.com/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 8,
+    "domain_was_known": false
+  }
+}

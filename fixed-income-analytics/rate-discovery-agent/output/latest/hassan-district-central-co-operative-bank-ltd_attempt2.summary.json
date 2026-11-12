@@ -1,0 +1,126 @@
+{
+  "bank_code": "hassan-district-central-co-operative-bank-ltd",
+  "bank_name": "hassan-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14235,
+  "duration_ms": 14235,
+  "duration_api_ms": 13959,
+  "num_turns": 12,
+  "tool_call_count": 14,
+  "total_cost_usd": 0.18136000000000002,
+  "input_tokens": 85956,
+  "output_tokens": 1181,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Hassan District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hassandccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 42,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hassandccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 170,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.hassandccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.hassandccb.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd Karnataka\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd website Karnataka\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hassan District Central Co-operative Bank Ltd deposit rates site:karnatakaapex.com\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/hassan-district-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hassan-district-central-co-operative-bank-ltd\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/hassan-district-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hassan-district-central-co-operative-bank-ltd\\\",\\n"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website or rate page found after exhaustive domain and umbrella portal search. This DCCB likely does not publish rates online. Operator must check offline or state co-op sources.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

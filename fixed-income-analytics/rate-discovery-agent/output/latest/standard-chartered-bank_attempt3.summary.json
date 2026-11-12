@@ -1,0 +1,54 @@
+{
+  "bank_code": "standard-chartered-bank",
+  "bank_name": "standard-chartered-bank",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 55753,
+  "duration_ms": 55753,
+  "duration_api_ms": 22315,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.532532,
+  "llm_cost_usd": 0.532532,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 254366,
+  "output_tokens": 2975,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 23653,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://sc.com/in/deposits/fixed-deposit/\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 9782,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://sc.com/in/deposits/interest-rates/\",\"accordions\":true}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:sc.com NRE NRO FCNR fixed deposit interest rate\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/standard-chartered-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"standard-chartered-bank\\\",\\n  \\\"bank_name\\\": \\\"Standard Chartered "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/standard-chartered-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"standard-chartered-bank\\\",\\n  \\\"bank_name\\\": \\\"Standard Chartered B"
+    }
+  ]
+}

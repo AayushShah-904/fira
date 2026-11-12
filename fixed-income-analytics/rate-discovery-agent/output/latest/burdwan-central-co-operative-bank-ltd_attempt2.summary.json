@@ -1,0 +1,120 @@
+{
+  "bank_code": "burdwan-central-co-operative-bank-ltd",
+  "bank_name": "burdwan-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 20408,
+  "duration_ms": 20408,
+  "duration_api_ms": 19755,
+  "num_turns": 13,
+  "tool_call_count": 13,
+  "total_cost_usd": 0.460812,
+  "input_tokens": 220522,
+  "output_tokens": 2471,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Burdwan Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://burdwancentralcoopbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://burdwancentralcoopbank.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Burdwan Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Burdwan Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Burdwan Central Co-operative Bank Ltd Bardhaman interest rate\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Burdwan Central Co-operative Bank Ltd Bardhaman ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Burdwan Central Co-operative Bank Ltd Bardhaman website\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 171,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.burdwancentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 245,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.burdwanccb.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 170,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://burdwanccb.bank.in/interest-rates.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/burdwan-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"burdwan-central-co-operative-bank-ltd\\\",\\n  \\\"bank_name\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/burdwan-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"burdwan-central-co-operative-bank-ltd\\\",\\n  \\\"bank_name\\\":"
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "Savings and FD rates are published together. No NRI/FCNR products for DCCB. Effective date: 18.12.2025.",
+    "website_url": "https://burdwanccb.bank.in",
+    "rate_url_fd": "https://burdwanccb.bank.in/interest-rates.html",
+    "slab_count": 11,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 3,
+    "domain_was_known": false
+  }
+}

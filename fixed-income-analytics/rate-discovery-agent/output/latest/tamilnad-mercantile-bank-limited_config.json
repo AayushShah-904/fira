@@ -1,0 +1,22 @@
+{
+  "bank_code": "tamilnad-mercantile-bank-limited",
+  "bank_name": "tamilnad-mercantile-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Tamil Nadu",
+  "website": "https://tmb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://tmb.bank.in/pages/deposit-interest-rates",
+    "fd_nre": "https://tmb.bank.in/pages/NRE-Fixed-Deposit",
+    "fd_nro": "https://tmb.bank.in/pages/Deposit-Interest-Rates",
+    "fd_fcnr": "https://tmb.bank.in/pages/Deposit-Interest-Rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:09:50.944Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

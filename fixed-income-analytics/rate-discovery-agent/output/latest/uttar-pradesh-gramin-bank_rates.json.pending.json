@@ -1,0 +1,25 @@
+{
+  "bank_code": "uttar-pradesh-gramin-bank",
+  "bank_name": "Uttar Pradesh Gramin Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://upgb.bank.in/fixed-deposit.php",
+  "scraped_at": "2026-06-05T13:06:30Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No rate data could be extracted. Both homepage and FD rate page returned HTTP 403 Forbidden, even with Playwright. Site is protected by WAF or IP block. Manual extraction required."
+  ],
+  "errors": [
+    "HTTP 403 Forbidden on all endpoints."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T13:06:30Z",
+    "manual_verification_needed": false
+  }
+}

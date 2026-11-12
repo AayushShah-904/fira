@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "udaipur-urban-coop-bank-ltd",
+    "extracted_at": "2026-06-06T10:53:29.132Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "uucbudaipur.bank.in",
+  "rate_pages": {
+    "fd": "/deposits/deposit-interest-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/deposits/savings-bank-deposit/",
+    "rd": "/deposits/recurring-deposit/"
+  },
+  "scraper_type": "html_js",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-2col-tenure-general",
+    "template_hash": "sha1:fb3384e09898d05ade303ff3a80178e5814bd0ec",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

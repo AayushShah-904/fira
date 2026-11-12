@@ -1,0 +1,19 @@
+{
+  "bank_code": "keb-hana-bank",
+  "bank_name": "KEB Hana Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "global.1qbank.com",
+    "found_via": "registry_hint",
+    "notes": "Foreign bank (Korea) with India branches at Chennai and Gurugram on global.1qbank.com (1Q Bank platform). India personal-bank section (/pb/ma/main?countryCode=IN) only exposes login-gated 'Application for Deposit' / 'Application history' flows and FX rate pages (/lounge/chennai/et/rate/index.html); no public INR domestic FD rate card published. Branch 'lounge' pages are JS-rendered and returned empty to WebFetch."
+  },
+  "warnings": ["FD product exists per aggregator descriptions but bank publishes no public rate table; rates are behind login/application flow."],
+  "tier2_method": "websearch+webfetch"
+}

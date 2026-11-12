@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "bank_code": "ludhiana-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:33:44.971Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "ludhiana.pbcoopbank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/deposit-interest-rates/"
+  },
+  "scraper_type": "manual",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "last_discovered_at": "2026-05-27T18:13:56.859Z",
+  "discovery_status": "recovered",
+  "notes": "Re-discovered own site after codeforbanks aggregator removal (sprint-008)."
+}

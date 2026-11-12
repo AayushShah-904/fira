@@ -1,0 +1,40 @@
+{
+  "_comment": "Operator/triage manifest of (bank_code, variant) pairs to drop from the published pack. Use for variants whose extraction yields garbage that cannot be cleanly fixed for this ship. Each exclude still surfaces as a gate regression (accept it). Added sprint-007 solidify 2026-05-26.",
+  "excludes": [
+    {
+      "bank_code": "bank-of-ceylon",
+      "variant": "nre",
+      "reason": "Registry domain is boc.lk (Sri Lankan parent); shipped its USD FD Rate/AER table mislabeled as Indian NRE. No valid India source found — quarantine until BoC India NRE/NRO/FCNR page is located."
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "variant": "nro",
+      "reason": "Registry domain is boc.lk (Sri Lankan parent); shipped its USD FD Rate/AER table mislabeled as Indian NRO. No valid India source found — quarantine until BoC India NRE/NRO/FCNR page is located."
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "variant": "fcnr",
+      "reason": "Registry domain is boc.lk (Sri Lankan parent); shipped its USD FD Rate/AER table mislabeled as Indian FCNR. No valid India source found — quarantine until BoC India NRE/NRO/FCNR page is located."
+    },
+    {
+      "bank_code": "nasik-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "reason": "Registry domain ndcb.bank.in is Nadia DCCB's (wrong mapping); Nasik's own site nasikdcc.bank.in is unreachable from this network. Prior data was Nadia's — quarantine until Nasik's source is reachable."
+    },
+    {
+      "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+      "variant": "regular",
+      "reason": "Host akolaurban.bank.in unreachable (TCP timeout) from this network; prior extraction had a Bulk-as-super-senior mismap. Quarantine until reachable for a clean re-extraction."
+    },
+    {
+      "bank_code": "national-housing-bank-nhb",
+      "variant": "regular",
+      "reason": "Live source (nhb.org.in) now carries a 2023 'Discontinuation of Term Deposit Schemes' notice — the NHB Sunidhi scheme is closed to new deposits. Data matches the page but the product is defunct; don't ship as an offerable FD. (Re-check 2026-05-26.)"
+    },
+    {
+      "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+      "variant": "regular",
+      "reason": "Live rate page amanath-bank.com/intrestrates.html returns HTTP 200 but EMPTY (0 bytes); homepage shows an OTS/distress notice and the bank has RBI regulatory history. The shipped 2012-06-08 slabs have no current live source and cannot be confirmed. Quarantine until a verified current source exists. (Re-check 2026-05-26.)"
+    }
+  ]
+}

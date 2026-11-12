@@ -1,0 +1,66 @@
+{
+  "bank_code": "union-bank-of-india",
+  "bank_name": "union-bank-of-india",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 35669,
+  "duration_ms": 35669,
+  "duration_api_ms": 34361,
+  "num_turns": 4,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.23235,
+  "llm_cost_usd": 0.23235,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 89603,
+  "output_tokens": 6643,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 607,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://unionbankofindia.bank.in/en/details/rate-of-interest\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 333,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://unionbankofindia.bank.in/en/common/interest-rates-for-nre\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 367,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://unionbankofindia.bank.in/en/common/interest-rates-fcnr-b-rfc\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/union-bank-of-india_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"union-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Union Bank of India\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/union-bank-of-india_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"union-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Union Bank of India\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/union-bank-of-india_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"union-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Union Bank of Indi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/union-bank-of-india_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"union-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Union Bank of Ind"
+    }
+  ]
+}

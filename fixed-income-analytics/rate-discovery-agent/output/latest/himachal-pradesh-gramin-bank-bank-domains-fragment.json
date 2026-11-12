@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "himachal-pradesh-gramin-bank",
+    "extracted_at": "2026-06-05T12:45:36.257Z",
+    "source": "bank-domains.json",
+    "source_sha": "8842e64f30b5d7b64a8b7a095dc2723eff679801044bec9e2bb1b0196512a438"
+  },
+  "domain": "hpgb.bank.in",
+  "rate_pages": {
+    "fd": "/page/rate-of-interest",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "hpgb-7col-existing-revised-general-senior-exservicemen",
+    "template_hash": "sha1:e194d3f8923aafc1e46e9b066f20664f4fb76284",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "rate_general_pct",
+            "3": "ignore",
+            "4": "rate_senior_pct",
+            "5": "ignore",
+            "6": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 12,
+      "cluster_reused": false
+    }
+  }
+}

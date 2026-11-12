@@ -1,0 +1,42 @@
+{
+  "bank_code": "cuddapah-district-co-operative-central-bank-ltd-",
+  "bank_name": "Cuddapah District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://kadapadccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://kadapadccb.bank.in/deposits-roi/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://kadapadccb.bank.in/deposits-roi/",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "0": "s_no",
+    "1": "tenure_text",
+    "2": "rate_existing_pct",
+    "3": "rate_revised_pct"
+  },
+  "expected_slab_count": 11,
+  "notes": "WordPress. Standard HTML table with S.No / Particulars / Existing / Revised ROI columns. Senior citizens and PACS get +0.50% on all slabs.",
+  "scraper_notes": {
+    "framework": "WordPress + Elementor",
+    "bot_protection": null,
+    "data_format": "Standard HTML table",
+    "rate_tables_on_page": 1
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "domain pre-lookup + direct fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

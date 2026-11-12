@@ -1,0 +1,177 @@
+{
+  "bank_code": "kalwan-marchants-co-op-bank-ltd",
+  "bank_name": "Kalwan Marchants Co-op Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-03-02",
+  "source_url": "https://www.svc.bank.in/interest-rates",
+  "scraped_at": "2026-05-21T02:07:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 Days to 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 Days to 89 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 89,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "90 Days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days to 117 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 117,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "118 Days",
+      "tenure_min_days": 118,
+      "tenure_max_days": 118,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "119 Days to 179 Days",
+      "tenure_min_days": 119,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days to 330 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 330,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "331 Days to 364 Days",
+      "tenure_min_days": 331,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.95,
+      "rate_senior_pct": 7.45,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 12 Months to below 14 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 419,
+      "rate_general_pct": 6.95,
+      "rate_senior_pct": 7.45,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "14 Months to below 16 Months",
+      "tenure_min_days": 420,
+      "tenure_max_days": 479,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "16 Months to 24 Months",
+      "tenure_min_days": 480,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 24 Months to 60 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 60 Months to 120 Months",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Tax exemption Scheme (5 Years)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Rates are as per SVC Bank's official FD rate card. Kalwan Marchants Co-op Bank Ltd operates as a branch under SVC Bank; no standalone website or rate page. No NRI/FCNR products for this NSUCB."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 143,
+    "last_scraped_at": "2026-05-21T02:07:00Z",
+    "manual_verification_needed": true
+  }
+}

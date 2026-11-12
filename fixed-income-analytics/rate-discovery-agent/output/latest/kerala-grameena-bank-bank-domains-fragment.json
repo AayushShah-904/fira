@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "bank_code": "kerala-grameena-bank",
+    "extracted_at": "2026-06-05T12:49:52.795Z",
+    "source": "bank-domains.json",
+    "source_sha": "0619916b6239154a7c4c3ba562d0577776f86e3aefd6ddbcb640c53bbe52c81b"
+  },
+  "domain": "kgb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "kgb-regular-3col-main-plus-special",
+    "template_hash": "sha1:384fe25e0ff03fe81caafff9c0758234fc6b7f4f",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 3,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

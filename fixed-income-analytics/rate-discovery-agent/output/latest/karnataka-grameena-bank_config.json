@@ -1,0 +1,19 @@
+{
+  "bank_code": "karnataka-grameena-bank",
+  "bank_name": "karnataka-grameena-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Karnataka",
+  "website": "https://karnatakagb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://karnatakagb.bank.in/banking-proserv/deposit-interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:24:24.609Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

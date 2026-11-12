@@ -1,0 +1,19 @@
+{
+  "bank_code": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+  "bank_name": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://siddagangabank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:09:55.827Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

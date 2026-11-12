@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "bank_code": "the-panchmahal-district-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:27:40.765Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "pdc.bank.in",
+  "rate_pages": {
+    "fd": "/page/1",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-multi-bucket-callable-noncallable",
+    "template_hash": "sha1:51e2fbd87612fc3e012b0684ee48a4af270bb234",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_50l",
+            "3": "rate_general_pct@50l_to_1cr_callable",
+            "4": "rate_general_pct@50l_to_1cr_noncallable",
+            "5": "rate_general_pct@1cr_to_2cr_callable",
+            "6": "rate_general_pct@1cr_to_2cr_noncallable",
+            "7": "rate_general_pct@2cr_to_5cr_callable",
+            "8": "rate_general_pct@2cr_to_5cr_noncallable",
+            "9": "rate_general_pct@5cr_to_10cr_callable",
+            "10": "rate_general_pct@5cr_to_10cr_noncallable",
+            "11": "rate_general_pct@above_10cr_callable",
+            "12": "rate_general_pct@above_10cr_noncallable"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 34,
+      "cluster_reused": false
+    }
+  }
+}

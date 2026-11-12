@@ -1,0 +1,68 @@
+{
+  "bank_code": "yamuna-nagar-central-co-opertive-bank-ltd",
+  "bank_name": "Yamuna Nagar Central Co-opertive Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 19780,
+  "duration_ms": 19780,
+  "duration_api_ms": 19562,
+  "num_turns": 8,
+  "tool_call_count": 8,
+  "total_cost_usd": 0.017100800000000003,
+  "input_tokens": 38736,
+  "output_tokens": 1004,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Yamuna Nagar Central Co-opertive Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 43,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://yamunanagarcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Yamuna Nagar Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 149,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.yamunanagarcentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.yamunanagarcentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Yamuna Nagar Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/yamuna-nagar-central-co-opertive-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"yamuna-nagar-central-co-operti"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/yamuna-nagar-central-co-opertive-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"yamuna-nagar-central-co-opertiv"
+    }
+  ]
+}

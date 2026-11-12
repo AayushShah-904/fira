@@ -1,0 +1,84 @@
+{
+  "bank_code": "mysore-merchants-co-operative-bank-ltd-mysore",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-26",
+  "source_url": "https://mysurumerchantsbank.com/",
+  "scraped_at": "2026-05-26T13:06:24.847Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "30 DAYS TO 92 DAYS",
+      "tenure_min_days": 30,
+      "tenure_max_days": 92,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "93 DAYS TO 184 DAYS",
+      "tenure_min_days": 93,
+      "tenure_max_days": 184,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "185 DAYS TO 1 YEAR",
+      "tenure_min_days": 185,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 YEAR TO 2 YEARS",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "ABOVE 2 YEARS TO 10 YEARS",
+      "tenure_min_days": 731,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior-citizen premium recovered (sprint-007 review): +0.5% for senior citizens, all tenures (source note). rate_senior_pct = general + 0.5 for covered tenures; dropped 1 non-FD note row(s)."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (SENIOR CITIZEN): general rate 0.5% below floor (1.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 58,
+    "last_scraped_at": "2026-05-26T13:06:24.847Z",
+    "manual_verification_needed": false
+  }
+}

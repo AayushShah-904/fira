@@ -1,0 +1,19 @@
+{
+  "bank_code": "amravati-district-central-co-operative-bank-ltd",
+  "bank_name": "Amravati District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "amravatidcc.bank.in",
+    "found_via": "websearch",
+    "notes": "Found own official website on re-attempt (prior attempt incorrectly concluded no website). amravatidccbank.com (live, WordPress.com host) 301-redirects to the canonical RBI domain www.amravatidcc.bank.in, which currently shows only an 'under construction' placeholder with no navigation, no deposit product pages, and no FD rate table. No rate page exists yet."
+  },
+  "warnings": ["Own .bank.in domain exists but is under construction with no published rate page. Re-attempt once the site is live."],
+  "tier2_method": "websearch+webfetch"
+}

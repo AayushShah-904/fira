@@ -1,0 +1,22 @@
+{
+  "bank_code": "au-small-finance-bank-limited",
+  "bank_name": "au-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "category": "Small Finance Bank",
+  "state": "Rajasthan",
+  "website": "https://au.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://au.bank.in/interest-rates/fixed-deposit-interest-rates",
+    "fd_nre": "https://au.bank.in/interest-rates/fixed-deposit-interest-rates",
+    "fd_nro": "https://au.bank.in/interest-rates/fixed-deposit-interest-rates",
+    "fd_fcnr": "https://www.au.bank.in/interest-rates/au-fcnr"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T09:24:53.892Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

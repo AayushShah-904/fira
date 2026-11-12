@@ -1,0 +1,80 @@
+{
+  "bank_code": "the-kannur-co-operative-urban-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://kannururban.bank.in/deposits/fixeddeposit",
+  "scraped_at": "2026-06-09T17:16:58.315Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "15 days to 45 days 3.00% 3.00%"
+    },
+    {
+      "tenure_text": "46 days to 179 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "46 days to 179 days 4.50% 4.50%"
+    },
+    {
+      "tenure_text": "180 days to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "180 days to 364 days 5.25% 5.25%"
+    },
+    {
+      "tenure_text": "12 months to 23 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 699,
+      "rate_general_pct": 8.1,
+      "rate_senior_pct": 8.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 months to 23 months 7.75% 8.1%"
+    },
+    {
+      "tenure_text": "24 months and above",
+      "tenure_min_days": 730,
+      "tenure_max_days": null,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "24 months and above 7.20% 7.00%"
+    },
+    {
+      "tenure_text": "3 Years (FD Special)",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 8.25,
+      "rate_senior_pct": 8.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 Years (FD Special) 8.50% 8.25%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[1] (7 slabs) from 2 table(s); signals={\"pctRows\":7,\"tenureRows\":6,\"bothRows\":6,\"dataRows\":7,\"noisy\":true,\"colCount\":3}",
+    "llm_fallback: deterministic returned 7 slabs (suspect: multi_table=true too_few=false); LLM extracted 11 — using LLM",
+    "chunk[0]: Senior Citizen row is a separate row with extra 0.5% but no direct revised rate; senior rates inferred by adding 0.5% to revised general rates"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T17:16:58.315Z",
+    "manual_verification_needed": false
+  }
+}

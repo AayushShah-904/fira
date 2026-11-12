@@ -1,0 +1,114 @@
+{
+  "bank_code": "erode-co-operative-urban-bank-ltd",
+  "bank_name": "erode-co-operative-urban-bank-ltd",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17167,
+  "duration_ms": 17167,
+  "duration_api_ms": 16665,
+  "num_turns": 14,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.23687,
+  "llm_cost_usd": 0.23687,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 114011,
+  "output_tokens": 1106,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Erode Co-operative Urban Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 186,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://erodecoopurbanbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 48,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://erodecoopurbanbank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 176,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.erodecoopurbanbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.erodecoopurbanbank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd Tamil Nadu\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd வட்டி விகிதம்\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd contact\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd site:tn.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 52,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tncooperation.gov.in/\"}"
+    }
+  ]
+}

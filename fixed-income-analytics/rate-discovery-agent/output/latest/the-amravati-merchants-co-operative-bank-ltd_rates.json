@@ -1,0 +1,31 @@
+{
+  "bank_code": "the-amravati-merchants-co-operative-bank-ltd",
+  "bank_name": "The Amravati Merchants' Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": null,
+  "scraped_at": "2026-05-27T18:13:56.859Z",
+  "effective_date": "2026-05-27",
+  "extraction_method": "manual_data_entry",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 correctness fix: prior data was scraped from forbidden aggregator codeforbanks.com; no official source exists — data removed.",
+    "No official website (IFSC YESB0AMBL01 — sponsor-bank model, no own infra). Only the forbidden codeforbanks aggregator listed rates."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "tier2_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-27T18:13:56.859Z",
+    "source_url": null,
+    "fixed_from": "codeforbanks.com aggregator",
+    "discovery_status": "no_website"
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 57,
+    "last_scraped_at": "2026-05-27T18:13:56.859Z",
+    "manual_verification_needed": false
+  }
+}

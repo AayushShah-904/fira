@@ -1,0 +1,19 @@
+{
+  "bank_code": "khurda-central-co-opertive-bank-ltd",
+  "bank_name": "khurda-central-co-opertive-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Odisha",
+  "website": "https://khordhacc.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://khordhacc.bank.in/interest_rates.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:12:30.394Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

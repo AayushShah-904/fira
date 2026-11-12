@@ -1,0 +1,13 @@
+{
+  "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+  "bank_name": "bank-of-bahrain-and-kuwait-bsc",
+  "bank_type": "FB",
+  "state": "Bahrain",
+  "website": "https://bbkindia.bank.in",
+  "rate_page_url": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+  "scraper_type": "pdf",
+  "extraction_method": "automatic_pdf",
+  "slab_count": 18,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

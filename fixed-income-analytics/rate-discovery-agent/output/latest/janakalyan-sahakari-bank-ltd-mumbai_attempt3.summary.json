@@ -1,0 +1,48 @@
+{
+  "bank_code": "janakalyan-sahakari-bank-ltd-mumbai",
+  "bank_name": "janakalyan-sahakari-bank-ltd-mumbai",
+  "category": "Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11232,
+  "duration_ms": 11232,
+  "duration_api_ms": 8891,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.06571199999999999,
+  "llm_cost_usd": 0.06571199999999999,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 29140,
+  "output_tokens": 929,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 585,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://janakalyan.bank.in/Encyc/2019/5/27/Interest-Rate-Term-Deposits.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 631,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.janakalyan.bank.in/Encyc/2019/5/27/Interest-Rate-Term-Deposits.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 616,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://janakalyan.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 509,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.janakalyan.bank.in/\"}"
+    }
+  ]
+}

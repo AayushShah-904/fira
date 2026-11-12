@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "bank_code": "ujjivan-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:57:33.218Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "ujjivansfb.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "savings": "/interest-rates",
+    "rd": "/interest-rates",
+    "fd_nre": "/interest-rates",
+    "fd_nro": "/interest-rates",
+    "fd_fcnr": "/interest-rates",
+    "fd_nri_combined": "/interest-rates"
+  },
+  "scraper_type": "html_static",
+  "notes": "All variants (regular + NRE + NRO + FCNR) are published on the single canonical page /interest-rates (operator-confirmed 2026-05-21). Older registry pointed at /support-interest-rates which appears to be blocked by the bank's WAF on certain egress IPs.",
+  "template": {
+    "template_id": "ujjivan-sfb-regular-2col-tenure-general",
+    "template_hash": "sha1:2fa23f38d4e444e8e4aa05cd46658eab138b149f",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 24,
+      "cluster_reused": false
+    }
+  },
+  "effective_date": "2026-05-21",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-07-23T14:01:44.169Z",
+    "manual_verification_needed": false
+  }
+}

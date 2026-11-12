@@ -1,0 +1,20 @@
+{
+  "bank_code": "national-bank-for-agriculture-and-rural-development-nabard",
+  "bank_name": "National Bank for Agriculture and Rural Development (NABARD)",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:15:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_fd_product",
+  "website_metadata": {
+    "domain": "nabard.org",
+    "found_via": "registry_hint",
+    "notes": "NABARD is an apex development financial institution (refinances co-operative banks, RRBs and rural development schemes). Its site (nabard.org) is reachable but publishes no retail/public fixed-deposit product or rate card; it does not accept term deposits from the general public. The site's 'Interest Rate' link refers to refinance/lending rates, not retail FD."
+  },
+  "warnings": ["No retail FD product exists for this institution by mandate."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

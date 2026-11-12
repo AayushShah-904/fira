@@ -1,0 +1,145 @@
+{
+  "bank_code": "cosmos-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "2026-07-22",
+  "source_url": "https://cosmos.bank.in/interest-rates",
+  "scraped_at": "2026-07-22T18:23:01.014Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Cosmos Co-op Bank NRO Deposit Interest Rates table w.e.f. 22.07.2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "7 days to 14 days | 2.00%"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "15 days to 30 days | 3.00%"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "31 days to 45 days | 3.50%"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "46 days to 60 days | 3.75%"
+    },
+    {
+      "tenure_text": "61 days to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "61 days to 90 days | 4.25%"
+    },
+    {
+      "tenure_text": "91 days to 181 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 181,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "91 days to 181 days | 6.00%"
+    },
+    {
+      "tenure_text": "182 days to less than 9 months",
+      "tenure_min_days": 182,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "182 days to less than 9 months | 6.00%"
+    },
+    {
+      "tenure_text": "9 months to less than 12 months",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "9 months to less than 12 months | 6.15%"
+    },
+    {
+      "tenure_text": "12 months to less than 16 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 485,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "12 months to less than 16 months | 6.85%"
+    },
+    {
+      "tenure_text": "16 Months",
+      "tenure_min_days": 486,
+      "tenure_max_days": 486,
+      "rate_general_pct": 7.05,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "16 Months | 7.05%"
+    },
+    {
+      "tenure_text": "Above 16 months to 24 months",
+      "tenure_min_days": 487,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "Above 16 months to 24 months | 6.85%"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "Above 24 months to 36 months | 6.65%"
+    },
+    {
+      "tenure_text": "Above 36 months to 10 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "deposit_range": "below_1cr",
+      "source_row_text": "Above 36 months to 10 years | 6.75%"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "16 Months Special Scheme",
+      "tenure_text": "16 Months",
+      "rate_general_pct": 7.05
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 1,
+    "last_scraped_at": "2026-07-22T18:23:01.014Z",
+    "manual_verification_needed": false
+  }
+}

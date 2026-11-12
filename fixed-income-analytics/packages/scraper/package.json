@@ -1,0 +1,34 @@
+{
+  "name": "@bird/scraper",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b --watch",
+    "import": "tsx src/cli/import.ts",
+    "detect": "tsx src/cli/detect.ts",
+    "validate": "tsx src/cli/validate.ts",
+    "pipeline": "tsx src/cli/pipeline.ts",
+    "seed-admin": "tsx src/cli/seed-admin.ts"
+  },
+  "dependencies": {
+    "@bird/shared": "*",
+    "better-sqlite3": "^12.8.0",
+    "drizzle-orm": "^0.39.3",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.21.0"
+  }
+}

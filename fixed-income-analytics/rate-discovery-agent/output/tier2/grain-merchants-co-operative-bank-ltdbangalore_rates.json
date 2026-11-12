@@ -1,0 +1,19 @@
+{
+  "bank_code": "grain-merchants-co-operative-bank-ltdbangalore",
+  "bank_name": "The Grain Merchant's Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-05-01",
+  "source_url": "https://www.gmcbank.net/deposit.php",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "91 Days to 180 Days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 4.50, "rate_senior_pct": 5.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 Days to 1 Year", "tenure_min_days": 181, "tenure_max_days": 365, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Year to 2 Years", "tenure_min_days": 365, "tenure_max_days": 730, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 Year to 3 Years", "tenure_min_days": 730, "tenure_max_days": 1095, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Years & above", "tenure_min_days": 1095, "tenure_max_days": null, "rate_general_pct": 8.00, "rate_senior_pct": 8.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": ["Rates published as an image (images/dri.jpg) on the deposit page; effective date 01.05.2023."],
+  "tier2_method": "ocr"
+}

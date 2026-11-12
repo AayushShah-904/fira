@@ -1,0 +1,148 @@
+Sum aBanks: 8369 (vs counts: 8369 )
+Sum bBanks: 6390 (vs counts: 6390 )
+
+DROPS: 198  sum: -2618
+GAINS: 55  sum: 475
+ADDED bank slabs: 164
+Net (gains+adds+drops): -1979  expected: -1979
+
+Top 30 drops:
+  axis-bank-limited                                 449 ->  287 (-162)  conf:high->high  cat:Private Sector Bank (Indian)
+  bandhan-bank-limited                              140 ->   31 (-109)  conf:high->high  cat:Private Sector Bank (Indian)
+  indusind-bank-ibu                                 166 ->   72 (-94)  conf:none->high  cat:IFSC Banking Unit (IFSCA)
+  bank-of-baroda                                     98 ->   25 (-73)  conf:high->high  cat:Public Sector Bank
+  union-bank-of-india                               133 ->   63 (-70)  conf:high->high  cat:Public Sector Bank
+  au-small-finance-bank-limited                      61 ->    0 (-61)  conf:high->high  cat:Small Finance Bank
+  city-union-bank-limited                           121 ->   62 (-59)  conf:high->high  cat:Private Sector Bank (Indian)
+  dcb-bank-limited                                   65 ->   18 (-47)  conf:high->high  cat:Private Sector Bank (Indian)
+  jammu-kashmir-bank-limited                         81 ->   34 (-47)  conf:high->high  cat:Private Sector Bank (Indian)
+  barclays-bank-plc                                  75 ->   31 (-44)  conf:high->high  cat:Foreign Bank
+  mizuho-bank-ltd                                    66 ->   25 (-41)  conf:high->high  cat:Foreign Bank
+  rbl-bank-limited                                   96 ->   62 (-34)  conf:high->high  cat:Private Sector Bank (Indian)
+  canara-bank-ibu                                    32 ->    0 (-32)  conf:high->none  cat:IFSC Banking Unit (IFSCA)
+  icici-bank-limited                                 32 ->    0 (-32)  conf:high->high  cat:Private Sector Bank (Indian)
+  canara-bank                                        90 ->   59 (-31)  conf:high->high  cat:Public Sector Bank
+  idfc-first-bank-limited                            81 ->   51 (-30)  conf:high->high  cat:Private Sector Bank (Indian)
+  the-haryana-state-co-operative-apex-bank-ltd       30 ->    0 (-30)  conf:high->high  cat:Scheduled State Co-operative Bank
+  central-bank-of-india                              69 ->   40 (-29)  conf:high->high  cat:Public Sector Bank
+  yes-bank-limited                                   46 ->   17 (-29)  conf:high->medium  cat:Private Sector Bank (Indian)
+  the-khamgaon-urban-co-operative-bank-ltd-khamgaon   28 ->    0 (-28)  conf:high->high  cat:Scheduled Urban Co-operative Bank
+  hdfc-bank-limited                                 110 ->   83 (-27)  conf:high->high  cat:Private Sector Bank (Indian)
+  jp-morgan-chase-bank-na                            26 ->    0 (-26)  conf:high->high  cat:Foreign Bank
+  emirates-nbd-bank-pjsc                             81 ->   56 (-25)  conf:high->high  cat:Foreign Bank
+  hdfc-bank-ibu                                      34 ->    9 (-25)  conf:high->medium  cat:IFSC Banking Unit (IFSCA)
+  shivalik-small-finance-bank-limited                41 ->   16 (-25)  conf:high->high  cat:Small Finance Bank
+  slice-small-finance-bank-limited                   35 ->   10 (-25)  conf:high->high  cat:Small Finance Bank
+  axis-bank-ibu                                      24 ->    0 (-24)  conf:high->none  cat:IFSC Banking Unit (IFSCA)
+  equitas-small-finance-bank-limited                 23 ->    0 (-23)  conf:high->medium  cat:Small Finance Bank
+  jalgaon-janata-sahakari-bank-ltd                   22 ->    0 (-22)  conf:high->high  cat:Scheduled Urban Co-operative Bank
+  bharat-co-operative-bank-mumbai-ltd                56 ->   36 (-20)  conf:medium->high  cat:Scheduled Urban Co-operative Bank
+
+Drops where confidence went HIGH/MED -> none:
+  au-small-finance-bank-limited                    lost all 61 slabs  cat:Small Finance Bank
+  canara-bank-ibu                                  lost all 32 slabs  cat:IFSC Banking Unit (IFSCA)
+  icici-bank-limited                               lost all 32 slabs  cat:Private Sector Bank (Indian)
+  the-haryana-state-co-operative-apex-bank-ltd     lost all 30 slabs  cat:Scheduled State Co-operative Bank
+  the-khamgaon-urban-co-operative-bank-ltd-khamgaon lost all 28 slabs  cat:Scheduled Urban Co-operative Bank
+  jp-morgan-chase-bank-na                          lost all 26 slabs  cat:Foreign Bank
+  axis-bank-ibu                                    lost all 24 slabs  cat:IFSC Banking Unit (IFSCA)
+  equitas-small-finance-bank-limited               lost all 23 slabs  cat:Small Finance Bank
+  jalgaon-janata-sahakari-bank-ltd                 lost all 22 slabs  cat:Scheduled Urban Co-operative Bank
+  jharkhand-state-co-operative-bank-ltd            lost all 19 slabs  cat:Non-Scheduled State Co-operative Bank
+  sangli-urban-co-operative-bank-ltd-sangli        lost all 17 slabs  cat:Scheduled Urban Co-operative Bank
+  suryoday-small-finance-bank-limited              lost all 17 slabs  cat:Small Finance Bank
+  mizuho-bank-ibu                                  lost all 16 slabs  cat:IFSC Banking Unit (IFSCA)
+  nainital-bank-limited                            lost all 16 slabs  cat:Private Sector Bank (Indian)
+  panipat-central-co-operative-bank-ltd            lost all 16 slabs  cat:District Central Co-operative Bank
+  qatar-national-bank-qpsc                         lost all 16 slabs  cat:Foreign Bank
+  rajarambapu-sahakari-bank-ltd                    lost all 16 slabs  cat:Scheduled Urban Co-operative Bank
+  mufg-bank-ltd                                    lost all 15 slabs  cat:Foreign Bank
+  the-rajasthan-state-co-operative-bank-ltd        lost all 15 slabs  cat:Scheduled State Co-operative Bank
+  ajmer-central-co-operative-bank-ltd              lost all 14 slabs  cat:District Central Co-operative Bank
+  amritsar-central-co-operative-bank-ltd           lost all 14 slabs  cat:District Central Co-operative Bank
+  kookmin-bank                                     lost all 14 slabs  cat:Foreign Bank
+  societe-generale                                 lost all 14 slabs  cat:Foreign Bank
+  the-kheda-district-central-co-operative-bank-ltd lost all 14 slabs  cat:District Central Co-operative Bank
+  the-uttarakhand-state-co-operative-bank-ltd      lost all 14 slabs  cat:Scheduled State Co-operative Bank
+  madhya-pradesh-gramin-bank                       lost all 13 slabs  cat:Regional Rural Bank
+  mumbai-district-central-co-operative-bank-ltd    lost all 13 slabs  cat:District Central Co-operative Bank
+  the-sikkim-state-co-operative-bank-ltd           lost all 13 slabs  cat:Scheduled State Co-operative Bank
+  the-tamil-nadu-state-apex-co-operative-bank-ltd  lost all 13 slabs  cat:Scheduled State Co-operative Bank
+  tripura-gramin-bank                              lost all 13 slabs  cat:Regional Rural Bank
+  uttar-pradesh-gramin-bank                        lost all 13 slabs  cat:Regional Rural Bank
+  angul-united-central-co-operative-bank-ltd       lost all 12 slabs  cat:null
+  cuttack-central-co-operative-bank-ltd            lost all 12 slabs  cat:District Central Co-operative Bank
+  nizamabad-district-co-operative-central-bank-ltd lost all 12 slabs  cat:District Central Co-operative Bank
+  paytm-payments-bank-limited                      lost all 12 slabs  cat:Payments Bank
+  pt-bank-maybank-indonesia-tbk                    lost all 12 slabs  cat:Foreign Bank
+  sikar-central-co-operative-bank-ltd              lost all 12 slabs  cat:District Central Co-operative Bank
+  the-odisha-state-co-operative-bank-ltd           lost all 12 slabs  cat:Scheduled State Co-operative Bank
+  bank-of-ceylon                                   lost all 11 slabs  cat:Foreign Bank
+  patiala-central-co-operative-bank-ltd            lost all 11 slabs  cat:District Central Co-operative Bank
+  the-madhya-pradesh-rajya-sahakari-bank-maryadit  lost all 11 slabs  cat:Scheduled State Co-operative Bank
+  the-thane-palghar-district-central-co-operative-bank-ltd lost all 11 slabs  cat:District Central Co-operative Bank
+  vasai-vikas-sahakari-bank-ltd                    lost all 11 slabs  cat:Scheduled Urban Co-operative Bank
+  assam-gramin-bank                                lost all 10 slabs  cat:Regional Rural Bank
+  hoshiarpur-central-co-operative-bank-ltd         lost all 10 slabs  cat:District Central Co-operative Bank
+  jilla-sahakari-kendriya-bank-maryadit-ujjain     lost all 10 slabs  cat:District Central Co-operative Bank
+  rajkot-nagrik-sahakari-bank-ltd                  lost all 10 slabs  cat:Scheduled Urban Co-operative Bank
+  sberbank                                         lost all 10 slabs  cat:Foreign Bank
+  the-anantapur-district-co-operative-central-bank-ltd lost all 10 slabs  cat:District Central Co-operative Bank
+  the-junagadh-jilla-sahakari-bank-ltd             lost all 10 slabs  cat:District Central Co-operative Bank
+  janata-sahakari-bank-ltd-satara                  lost all 9 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  kakinada-co-operative-central-bank-ltd           lost all 9 slabs  cat:District Central Co-operative Bank
+  ludhiana-central-co-operative-bank-ltd           lost all 9 slabs  cat:District Central Co-operative Bank
+  meerut-district-co-operative-bank-ltd            lost all 9 slabs  cat:District Central Co-operative Bank
+  rander-peoples-co-op-bank-ltd                    lost all 9 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  rayat-sevak-co-op-bank-ltd-satara                lost all 9 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  sangli-district-central-co-operative-bank-ltd    lost all 9 slabs  cat:District Central Co-operative Bank
+  sangrur-central-co-operative-bank-ltd            lost all 9 slabs  cat:District Central Co-operative Bank
+  the-nanded-merchants-co-operative-bank-ltd       lost all 9 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  uttar-pradesh-state-co-operative-bank-limited    lost all 9 slabs  cat:Scheduled State Co-operative Bank
+  varanasi-district-central-co-operative-bank-ltd  lost all 9 slabs  cat:District Central Co-operative Bank
+  bharati-sahakari-bank-limited                    lost all 8 slabs  cat:Scheduled Urban Co-operative Bank
+  chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building lost all 8 slabs  cat:District Central Co-operative Bank
+  chiplun-urban-coopbank-ltd                       lost all 8 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  ganganagar-kendriya-sahakari-bank-ltd            lost all 8 slabs  cat:District Central Co-operative Bank
+  gondia-district-central-co-operative-bank-ltd    lost all 8 slabs  cat:null
+  jilla-sahakari-kendriya-bank-maryadit-jabalpur   lost all 8 slabs  cat:District Central Co-operative Bank
+  karnavathi-co-operative-bank-ltd                 lost all 8 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  shimoga-district-central-co-operative-bank-ltd   lost all 8 slabs  cat:District Central Co-operative Bank
+  the-anantapur-co-operative-town-bank-ltd         lost all 8 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  the-chhattisgarh-rajya-sahakari-bank-maryadit    lost all 8 slabs  cat:Scheduled State Co-operative Bank
+  the-yavatmal-urban-co-operative-bank-ltd-yavatmal lost all 8 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  tiruchirapalli-city-co-op-bank-ltd               lost all 8 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  united-overseas-bank-limited                     lost all 8 slabs  cat:Foreign Bank
+  warangal-urban-co-operative-bank-ltd             lost all 8 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  jijau-commercial-co-operative-bank-ltd-amravati  lost all 7 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  kota-nagarik-sahakari-bank-ltd-kota              lost all 7 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  meghalaya-rural-bank                             lost all 7 slabs  cat:Regional Rural Bank
+  nawanshahr-central-co-operative-bank-ltd         lost all 7 slabs  cat:District Central Co-operative Bank
+  sardar-vallabhbhai-sahakari-bank-limited         lost all 7 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur lost all 7 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  shri-mahalaxmi-coop-bank-ltdkolhapur             lost all 7 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  sirsa-central-co-operative-bank-ltd              lost all 7 slabs  cat:District Central Co-operative Bank
+  wai-urban-coop-bank-ltd                          lost all 7 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  babasaheb-deshmukh-sahakari-bank-ltd-atpadi      lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  bharath-co-operative-bank-limited-bangalore      lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  janatha-seva-co-operative-bank-ltd-bangalore     lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  jilla-sahakari-kendriya-bank-maryadit-sagar      lost all 6 slabs  cat:District Central Co-operative Bank
+  jodhpur-nagarik-sahakari-bank-ltd                lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  karimnagar-district-co-operative-central-bank-ltd lost all 6 slabs  cat:District Central Co-operative Bank
+  samata-sahakari-bank-ltd-mumbai                  lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  saraspur-nagarik-co-op-bank-limited              lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  shri-shiddheshwar-co-operative-bank-ltd-bijapur  lost all 6 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  the-rajkot-district-co-operative-bank-ltd        lost all 6 slabs  cat:District Central Co-operative Bank
+  godavari-urban-co-opbank-ltdnashik               lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  grain-merchants-co-operative-bank-ltdbangalore   lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  patan-urban-co-operative-bank-ltd-patan-satara   lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  sharad-nagari-sahakari-bank-ltd-solapur          lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  the-karimnagar-co-operative-urban-bank-ltd       lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  the-mehsana-district-central-co-operative-bank-ltd lost all 5 slabs  cat:District Central Co-operative Bank
+  tirupati-co-operative-bank-ltd                   lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  tumkur-veerashaiva-co-operative-bank-ltd-tumkur  lost all 5 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  export-import-bank-of-india-exim-bank            lost all 4 slabs  cat:Financial Institution
+  jabalpur-mahila-nagarik-sahakari-bank-maryadit   lost all 4 slabs  cat:Non-Scheduled Urban Co-operative Bank
+  krishna-district-co-operative-central-bank-ltd   lost all 4 slabs  cat:District Central Co-operative Bank
+  small-industries-development-bank-of-india-sidbi lost all 3 slabs  cat:Financial Institution
+  thanjavur-central-co-operative-bank-ltd          lost all 1 slabs  cat:District Central Co-operative Bank

@@ -1,0 +1,78 @@
+{
+  "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+  "bank_name": "shri kanyaka nagari sahakari bank ltd chandrapur",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2021-09-01",
+  "source_url": "https://kanyakabank.bank.in/Pages/deposit-rate-of-interest-.aspx",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.00,
+      "rate_senior_pct": 4.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 days to 180 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": 5.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.00,
+      "rate_senior_pct": 5.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": 6.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 1 year to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": 6.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 2 years to 5 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": 6.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": ["Rate card is a Marathi image (deposite.jpg) transcribed via vision. Used the REVISED column (w.e.f. 01/09/2021, right panel); left panel was the prior 01/08/2021 rates. Senior citizens and registered educational/charitable institutions get +0.50% over the listed rate. Savings deposit (3.00%) excluded as non-FD. Rates are dated 2021 and may be stale, but this is the bank's currently-published card."],
+  "tier2_method": "ocr"
+}

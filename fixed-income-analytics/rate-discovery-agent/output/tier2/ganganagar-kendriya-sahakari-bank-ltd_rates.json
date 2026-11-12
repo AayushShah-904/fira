@@ -1,0 +1,24 @@
+{
+  "bank_code": "ganganagar-kendriya-sahakari-bank-ltd",
+  "bank_name": "Ganganagar Kendriya Sahakari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://gksbsgnr.com/interest-rates/deposit-scheme-interest-rates/",
+  "scraped_at": "2026-05-25T18:02:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "30 days to 45 days", "tenure_min_days": 30, "tenure_max_days": 45, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to less than 1 year", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year to less than 2 year", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 6.65, "rate_senior_pct": 7.15, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 year to less than 3 year", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 year to less than 5 year", "tenure_min_days": 1095, "tenure_max_days": 1824, "rate_general_pct": 6.40, "rate_senior_pct": 6.90, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5 year and more", "tenure_min_days": 1825, "tenure_max_days": null, "rate_general_pct": 6.40, "rate_senior_pct": 6.90, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": ["Working site is gksbsgnr.com; the registry .bank.in domain (gksbsgnr.bank.in) resolves but the server returns an empty reply (unreachable). Page also lists higher Staff and Ex-Staff Senior columns (not captured). No effective date shown."],
+  "errors": [],
+  "tier2_method": "playwright_tables"
+}

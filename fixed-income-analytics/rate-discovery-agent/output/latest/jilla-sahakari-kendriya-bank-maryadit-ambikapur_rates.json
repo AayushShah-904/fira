@@ -1,0 +1,25 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ambikapur",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Ambikapur",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-08",
+  "source_url": "https://jskbambikapur.bank.in",
+  "scraped_at": "2026-05-08T19:11:00+05:30",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No FD rate slabs found. The bank does not publish deposit rates online. Rates may be available only at branches or via offline notice boards."
+  ],
+  "errors": [
+    "No interest rate or FD rate page found after exhaustive homepage and section exploration."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 76,
+    "last_scraped_at": "2026-05-08T19:11:00+05:30",
+    "manual_verification_needed": false
+  }
+}

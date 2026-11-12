@@ -1,0 +1,48 @@
+{
+  "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+  "bank_name": "amanath-co-operative-bank-ltd-bangalore",
+  "category": "Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10606,
+  "duration_ms": 10606,
+  "duration_api_ms": 10445,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.128262,
+  "llm_cost_usd": 0.128262,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 60015,
+  "output_tokens": 1029,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 100,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://amanath-bank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 20,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://amanath-bank.com/intrestrates.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 20,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://amanath-bank.com/intrestrates.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 21,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://amanath-bank.com/intrestrates.html\"}"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "bank_code": "salem-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:49:13.094Z",
+    "source": "bank-domains.json",
+    "source_sha": "f030030a8260a9de88e2a9c65c8519e12d8c5d8b855f42f69121fd82c7e1e5af"
+  },
+  "domain": "salemdccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-rate.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": "/Recurring_deposit.php"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "dccb-4col-general-senior-staff",
+    "template_hash": "sha1:6d4d32e58110c6fce62ee731196e4491603ec64b",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "ignore",
+            "4": "rate_senior_pct",
+            "5": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bank_code": "idfc-first-bank-ibu",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://idfcfirst.bank.in/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf",
+  "scraped_at": "2026-06-09T14:20:03.503Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "46\t \t–\t \t90 days\t \t4.\t00\t%",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 Year\t \t4.\t50\t%",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 1 year to < 2 years\t \t4.\t50\t%",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "2 years to < 3 years\t \t4.\t50\t%",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 years to < 4 years\t \t4.\t50\t%",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "4 years to 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "validation": {
+    "passed": true,
+    "warning_count": 6,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (46\t \t–\t \t90 days\t \t4.\t00\t%): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (1 Year\t \t4.\t50\t%): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (Above 1 year to < 2 years\t \t4.\t50\t%): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (2 years to < 3 years\t \t4.\t50\t%): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (3 years to < 4 years\t \t4.\t50\t%): gift slab missing currency field"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (4 years to 5 years): gift slab missing currency field"
+      }
+    ]
+  }
+}

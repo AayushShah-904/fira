@@ -1,0 +1,41 @@
+{
+  "pack_version": "1.0.0",
+  "checked_at": "2026-07-08T20:37:21.674Z",
+  "pass": false,
+  "operator_override": "idfc-first-bank-ibu GIFT: registry PDF stale-dated (16012026) extracts 9 vs baseline 22; genuine current data, dated-PDF-roll fix queued (#32). All other gold-11 fixes landed (IOB NRO 27, Yes FCNR 27 net-new, BoM-ibu 7, slice restored 37).",
+  "effective_pass": true,
+  "baseline_file": "C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\pack\\baseline\\baseline-pack-2026-05-28.json",
+  "baseline_summary": {
+    "total_slabs": 8369,
+    "banks_total": 517
+  },
+  "current_summary": {
+    "total_slabs": 9095,
+    "banks_total": 578
+  },
+  "thresholds": {
+    "global_slab_drop": 0.1,
+    "high_confidence_bank_slab_drop": 0.5
+  },
+  "checks": {
+    "global": {
+      "baseline_slabs": 8369,
+      "current_slabs": 9095,
+      "delta": 726,
+      "delta_pct": 0.08674871549766998,
+      "block": false,
+      "reason": null
+    },
+    "high_confidence_regressions": [
+      {
+        "bank_code": "idfc-first-bank-ibu",
+        "baseline_slabs": 22,
+        "current_slabs": 9,
+        "delta_pct": -0.5909090909090909
+      }
+    ]
+  },
+  "block_reasons": [
+    "high_confidence_bank_regression"
+  ]
+}

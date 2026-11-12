@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "manipur-rural-bank",
+    "extracted_at": "2026-06-05T12:51:33.569Z",
+    "source": "bank-domains.json",
+    "source_sha": "0619916b6239154a7c4c3ba562d0577776f86e3aefd6ddbcb640c53bbe52c81b"
+  },
+  "domain": "manipurrural.bank.in",
+  "rate_pages": {
+    "fd": "/rate-of-interest/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/rate-of-interest/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "rrb-4col-tenure-general-senior",
+    "template_hash": "sha1:eaac5e645a19f55eb0e96e743f88aa82db06918f",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 3,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.503Z",
+      "gates_passed": "PASS",
+      "slab_count": 12,
+      "cluster_reused": false
+    }
+  }
+}

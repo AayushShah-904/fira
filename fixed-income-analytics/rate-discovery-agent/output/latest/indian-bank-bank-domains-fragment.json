@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "bank_code": "indian-bank",
+    "extracted_at": "2026-06-05T09:27:24.763Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "indianbank.bank.in",
+  "rate_pages": {
+    "fd": "/departments/deposit-rates/",
+    "fd_nre": "/departments/deposit-rates/",
+    "fd_nro": "/departments/deposit-rates/",
+    "fd_fcnr": "/departments/fcnr-b-deposits/",
+    "fd_nri_combined": null,
+    "savings": "/departments/deposit-rates/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Static HTML tables. NRE/NRO rates same as domestic (stated on page). Senior citizen +0.50% all tenures, +0.75% for >5yr. Super senior +0.75% all tenures. Special products: IND Supreme 2.0 (300d), IND Secure (444d), IND Green (555d).",
+  "template": {
+    "template_id": "indian-bank-retail-plus-bulk-plus-special-products",
+    "template_hash": "sha1:47196ee149d30bd2d616d40714fb70b0405f60fd",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 4,
+          "header_row": 0,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": "3cr_to_5cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 3,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 28,
+      "cluster_reused": false
+    }
+  }
+}

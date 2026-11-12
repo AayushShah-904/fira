@@ -1,0 +1,22 @@
+{
+  "bank_code": "bank-of-china-limited",
+  "bank_name": "bank-of-china-limited",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "China",
+  "website": "https://bankofchina.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://www.bankofchina.com/in/en/bocinfo/bi4/202601/t20260121_25647869.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:33:55.354Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

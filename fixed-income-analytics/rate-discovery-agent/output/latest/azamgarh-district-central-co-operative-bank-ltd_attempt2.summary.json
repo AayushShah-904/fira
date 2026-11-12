@@ -1,0 +1,66 @@
+{
+  "bank_code": "azamgarh-district-central-co-operative-bank-ltd",
+  "bank_name": "azamgarh-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 8532,
+  "duration_ms": 8532,
+  "duration_api_ms": 8347,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.045314,
+  "input_tokens": 18789,
+  "output_tokens": 967,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Azamgarh District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://azamgarhbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 123,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://azamgarhdccb.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://azamgarhbank.co.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 3,
+    "domain_was_known": false
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "bank_code": "sbm-bank-india-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-07-07",
+  "source_url": "https://sbm.bank.in/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rates",
+  "scraped_at": "2026-07-07T07:03:50.020Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15-30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31-45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46-60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "61-90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91-120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": 5.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "121-180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181-210 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 210,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "211-269 days",
+      "tenure_min_days": 211,
+      "tenure_max_days": 269,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "270 below 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year and 1 year 1 day",
+      "tenure_min_days": 731,
+      "tenure_max_days": 731,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year 2 days",
+      "tenure_min_days": 367,
+      "tenure_max_days": 367,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 1 year 2 days to 389 days",
+      "tenure_min_days": 367,
+      "tenure_max_days": 389,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "390 days",
+      "tenure_min_days": 390,
+      "tenure_max_days": 390,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "391 days to 15 months",
+      "tenure_min_days": 391,
+      "tenure_max_days": 450,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 15 months to 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 540,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 18 months to < 2 years 3 days",
+      "tenure_min_days": 540,
+      "tenure_max_days": 732,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 years 3 days",
+      "tenure_min_days": 733,
+      "tenure_max_days": 733,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 2 years 3 days up to < 3 years 2 days",
+      "tenure_min_days": 733,
+      "tenure_max_days": 1096,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 years 2 days",
+      "tenure_min_days": 1097,
+      "tenure_max_days": 1097,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 3 years 2 days up to < 5 years",
+      "tenure_min_days": 1097,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 5 years up to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> 3 years 2 days up to 5 years",
+      "tenure_min_days": 1097,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 16,
+    "last_scraped_at": "2026-07-07T07:03:50.020Z",
+    "manual_verification_needed": false
+  }
+}

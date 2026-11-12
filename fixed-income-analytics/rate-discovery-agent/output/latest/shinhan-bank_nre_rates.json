@@ -1,0 +1,55 @@
+{
+  "bank_code": "shinhan-bank",
+  "bank_name": "Shinhan Bank",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2023-07-10",
+  "source_url": "https://shinhanbankindia.bank.in/assets/pdf/Fixed_Deposit_Rates.pdf",
+  "scraped_at": "2026-06-05T12:14:19Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "(1096 ~ 1825 days)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "(1826 ~ 3650 days)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Tenure min/max days could not be parsed from PDF for all slabs; see tenure_text for details. Rates apply to NRE FDs as per PDF note. No senior citizen rates published.",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-10\" parses to 2023-07-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1109,
+    "last_scraped_at": "2026-06-05T12:14:19Z",
+    "manual_verification_needed": true
+  }
+}

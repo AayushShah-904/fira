@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-manipur-state-co-operative-bank-ltd",
+  "bank_name": "The Manipur State Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "mscbmanipur.in",
+    "found_via": "registry_hint",
+    "notes": "Official site mscbmanipur.in re-verified ECONNREFUSED from this environment (homepage and /mscb-deposits-scheme/). Site lists deposit schemes but no numeric FD rate table is retrievable while host is unreachable. No .bank.in domain. Retry when reachable."
+  },
+  "warnings": ["Confirms prior_reason: host down/unreachable from here; domain recorded for later retry."],
+  "tier2_method": "websearch+webfetch"
+}

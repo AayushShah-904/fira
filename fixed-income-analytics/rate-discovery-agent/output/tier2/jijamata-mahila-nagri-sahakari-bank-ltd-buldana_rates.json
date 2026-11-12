@@ -1,0 +1,20 @@
+{
+  "bank_code": "jijamata-mahila-nagri-sahakari-bank-ltd-buldana",
+  "bank_name": "jijamata mahila nagri sahakari bank ltd buldana",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:06:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "websearch",
+    "notes": "Re-verified: jijamatamahilabank.com returns HTTP 403 (parked/blocked, no content). jijamatabank.com redirects to jijamatapune.bank.in which is a DIFFERENT bank (Jijamata Mahila Sahakari Bank Ltd., Pune). Registry hint jijamatamahilabank.co.in is also a different bank (Belgaum). No own working website found for the Buldana bank."
+  },
+  "warnings": ["Confirms prior attempt's dead-end finding."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

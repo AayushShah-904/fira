@@ -1,0 +1,94 @@
+{
+  "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-02-01",
+  "source_url": "https://akolaurban.bank.in/ql-intrest-rate-chart.php",
+  "scraped_at": "2026-06-09T14:15:00.609Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days (Simple Interest)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46 days to 180 days (Simple Interest)",
+      "tenure_min_days": 46,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181 days to less than 1 Year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 Year to below 3 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": 6.65
+    },
+    {
+      "tenure_text": "3 Year to less than 5 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "5 Years to 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 6.5
+    },
+    {
+      "tenure_text": "5 years & collateral security 100%.",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 9.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 2 tables on page (2 rate-bearing by score)",
+    "multi_table_filter: dropped table[1] (only 0/13 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[0] (only 0/7 slabs had parseable tenures — likely textual content)",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: input_truncated_mid_table)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 8 slab(s) from page text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (5 years & collateral security 100%.): general rate 9.65% above ceiling (9.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 172,
+    "last_scraped_at": "2026-06-09T14:15:00.609Z",
+    "manual_verification_needed": true
+  }
+}

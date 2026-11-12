@@ -1,0 +1,19 @@
+{
+  "bank_code": "alwar-central-co-operative-bank-ltd",
+  "bank_name": "alwar-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Rajasthan",
+  "website": "https://dccbalwar.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://dccbalwar.bank.in/fixed-deposit.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:14:34.861Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

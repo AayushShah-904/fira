@@ -1,0 +1,86 @@
+{
+  "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+  "bank_name": "The Kheda District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16842,
+  "duration_ms": 16842,
+  "duration_api_ms": 15911,
+  "num_turns": 11,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.18151799999999998,
+  "input_tokens": 86351,
+  "output_tokens": 1102,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Kheda District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 380,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://khedadccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Kheda District Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 43,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.khedadccb.org\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Kheda District Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khedadistrictcentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khedadccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 254,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://khedadccb.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 92,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khedadccb.in/interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 52,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khedadccb.in/deposit-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 49,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khedadccb.in/fixed-deposit-rates\"}"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "tamil-nadu-grama-bank",
+  "bank_name": "tamil-nadu-grama-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Tamil Nadu",
+  "website": "https://tngb.bank.in",
+  "scraper_type": "image",
+  "rate_page_urls": {
+    "fd": "https://tngb.bank.in/public/downloads/interest-rates/Deposit-interest-rate-060526.jpeg"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:32:56.387Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "pending_vision"
+}

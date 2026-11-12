@@ -1,0 +1,57 @@
+[
+  {
+    "bank_code": "state-bank-of-india",
+    "category": "Public Sector Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "hdfc-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "axis-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "kotak-mahindra-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "equitas-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "dcb-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "csb-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "ab-bank-plc",
+    "category": "Foreign Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "arunachal-pradesh-rural-bank",
+    "category": "Regional Rural Bank",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "bank_code": "ahmedabad-mercantile-co-op-bank-ltd",
+    "category": "Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "bank-of-india-ibu",
+    "category": "IFSC Banking Unit",
+    "state": "Gujarat"
+  }
+]

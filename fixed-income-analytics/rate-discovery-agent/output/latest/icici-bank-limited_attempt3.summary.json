@@ -1,0 +1,78 @@
+{
+  "bank_code": "icici-bank-limited",
+  "bank_name": "icici-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 287672,
+  "duration_ms": 287672,
+  "duration_api_ms": 32686,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 1.032418,
+  "llm_cost_usd": 1.032418,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 504417,
+  "output_tokens": 2948,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 8676,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 6040,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/deposits/fixed-deposit/fd-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120131,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/deposits/fcnr-rfc/fcnr-rfc-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120136,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/deposits/fcnr-rfc/fcnr-rfc-interest-rates\",\"accordions\":true,\"tabs\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank Limi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank Limit"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank L"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank L"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/icici-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"icici-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"ICICI Bank "
+    }
+  ]
+}

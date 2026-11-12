@@ -1,0 +1,23 @@
+{
+  "bank_code": "madurai-district-central-co-operative-bank-ltd",
+  "bank_name": "Madurai District Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-13",
+  "source_url": "https://maduraidccb.bank.in/",
+  "scraped_at": "2026-05-13T06:09:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Rate card is published as image — needs Vision OCR or operator transcription."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 71,
+    "last_scraped_at": "2026-05-13T06:09:00Z",
+    "manual_verification_needed": false
+  }
+}

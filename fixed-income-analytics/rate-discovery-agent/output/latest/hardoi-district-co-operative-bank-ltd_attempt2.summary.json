@@ -1,0 +1,126 @@
+{
+  "bank_code": "hardoi-district-co-operative-bank-ltd",
+  "bank_name": "hardoi-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17220,
+  "duration_ms": 17220,
+  "duration_api_ms": 16204,
+  "num_turns": 14,
+  "tool_call_count": 14,
+  "total_cost_usd": 0.46333,
+  "input_tokens": 227253,
+  "output_tokens": 1103,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Hardoi District Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hardoi.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://hardoidccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hardoi District Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hardoi District Central Cooperative Bank interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hardoi District Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Hardoi District Co-operative Bank Ltd branch list\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 42,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcooperativebank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 114,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.upcooperativebank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 419,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hardoi.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 166,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hardoi.nic.in/public-utility-category/banks/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 209,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hardoi.nic.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/hardoi-district-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hardoi-district-co-operative-bank-ltd\\\",\\n  \\\"bank_name\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/hardoi-district-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hardoi-district-co-operative-bank-ltd\\\",\\n  \\\"bank_name\\\":"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website or rate page found for Hardoi District Co-operative Bank Ltd. The district portal (hardoi.nic.in) lists banks but does not provide product/rate information. No evidence of a dedicated DCCB site or FD rate publication. Manual operator transcription required if rates are published locally.",
+    "website_url": "https://hardoi.nic.in/",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 3,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

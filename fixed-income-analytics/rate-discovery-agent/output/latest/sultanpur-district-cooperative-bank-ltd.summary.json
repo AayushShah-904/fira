@@ -1,0 +1,56 @@
+{
+  "bank_code": "sultanpur-district-cooperative-bank-ltd",
+  "bank_name": "Sultanpur District Cooperative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13657,
+  "duration_ms": 13657,
+  "duration_api_ms": 13553,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.013898,
+  "input_tokens": 32281,
+  "output_tokens": 616,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Sultanpur District Cooperative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sultanpurdistrictcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Sultanpur District Cooperative Bank Ltd. official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sultanpur-dccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sultanpurdccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sultanpur-dccb.in\"}"
+    }
+  ]
+}

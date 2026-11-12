@@ -1,0 +1,22 @@
+{
+  "bank_code": "union-bank-of-india",
+  "bank_name": "union-bank-of-india",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "state": "Maharashtra",
+  "website": "https://unionbankofindia.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://unionbankofindia.bank.in/en/details/rate-of-interest",
+    "fd_nre": "https://unionbankofindia.bank.in/en/common/interest-rates-for-nre",
+    "fd_nro": "https://unionbankofindia.bank.in/en/details/rate-of-interest",
+    "fd_fcnr": "https://unionbankofindia.bank.in/en/common/interest-rates-fcnr-b-rfc"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:11:44.794Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

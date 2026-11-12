@@ -1,0 +1,60 @@
+{
+  "bank_code": "bandhan-bank-limited",
+  "bank_name": "bandhan-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 24026,
+  "duration_ms": 24026,
+  "duration_api_ms": 23646,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.164738,
+  "llm_cost_usd": 0.164738,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 62829,
+  "output_tokens": 4885,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 378,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bandhan.bank.in/rates-charges\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan Ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan Bank"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan"
+    }
+  ]
+}

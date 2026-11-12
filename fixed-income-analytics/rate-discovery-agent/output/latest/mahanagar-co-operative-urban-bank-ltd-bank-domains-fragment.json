@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "bank_code": "mahanagar-co-operative-urban-bank-ltd",
+    "extracted_at": "2026-06-06T10:43:51.793Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "gsmahanagar.bank.in",
+  "rate_pages": {
+    "fd": "/Deposit-Interest-Rates",
+    "savings": "/interest-rate",
+    "rd": "/Recurring-Deposit",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "notes": "Official .bank.in site with deposit interest, fixed deposit, savings and recurring deposit pages visible.",
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "mahanagar-cub-4bucket-general-senior",
+    "template_hash": "sha1:49f2478843de358c988d5f852ebe74b04683a0a0",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_1cr",
+            "3": "rate_general_pct@above_1cr",
+            "4": "rate_senior_pct@below_1cr",
+            "5": "rate_senior_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

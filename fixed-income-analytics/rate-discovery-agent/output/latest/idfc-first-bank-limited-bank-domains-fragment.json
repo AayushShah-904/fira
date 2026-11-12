@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "bank_code": "idfc-first-bank-limited",
+    "extracted_at": "2026-06-05T10:01:41.849Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "idfcfirst.bank.in",
+  "rate_pages": {
+    "fd": "/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+    "savings": "/personal-banking/accounts/savings-account/interest-rate",
+    "rd": "/personal-banking/deposits/recurring-deposit/rd-interest-rates",
+    "fd_nre": "/nri-banking/nri-fixed-deposit/nre-fixed-deposit",
+    "fd_nro": "/nri-banking/nri-fixed-deposit/nro-fixed-deposit",
+    "fd_fcnr": "/nri-banking/nri-fixed-deposit/fcnr-deposit/interest-rates",
+    "fd_nri_combined": null
+  },
+  "extraction": {
+    "fd": {
+      "type": "html",
+      "fulfills_product": [
+        "fd",
+        "fd_nre",
+        "fd_nro"
+      ],
+      "_authored": "2026-05-23 (Fix #6) — fd-interest-rates page table[0] header reads 'Interest Rates for Domestic / NRO / NRE Fixed Deposits of less than ₹3 Crore w.e.f. 18th April 2026'. Single combined table — NRO/NRE rates equal General column; senior premium does not apply to NRI per page note. Dedicated /nri-banking/nri-fixed-deposit/{nre,nro}-fixed-deposit subpages are marketing-only (Playwright found 0 tables 2026-05-23) — Orch-2 routes fd_nre/fd_nro to the main fd URL instead."
+    }
+  },
+  "scraper_type": "html_js",
+  "notes": "JS-rendered SPA with AEM/CMS backend, None observed — Playwright extraction succeeded without issues",
+  "template": {
+    "template_id": "idfc-first-bank-regular-plus-tax-saver-green",
+    "template_hash": "sha1:7d1abee42779a882256396d5230b717d3d941123",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.135Z",
+      "gates_passed": "PASS",
+      "slab_count": 15,
+      "cluster_reused": false
+    }
+  }
+}

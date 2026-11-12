@@ -1,0 +1,18 @@
+{
+  "bank_code": "idbi-bank-limited",
+  "bank_name": "idbi-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "website": "https://idbi.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://idbi.bank.in/nri-interest-rates.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:40:46.153Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

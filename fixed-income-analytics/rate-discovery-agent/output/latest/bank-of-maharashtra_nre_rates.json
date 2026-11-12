@@ -1,0 +1,200 @@
+{
+  "bank_code": "bank-of-maharashtra",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-09-14",
+  "source_url": "https://bankofmaharashtra.bank.in/nre-deposits",
+  "scraped_at": "2026-10-01T21:34:29.097Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Bank of Maharashtra NRE Deposits rate table w.e.f. 18.06.2026 (< Rs 3.00 Crore).",
+  "rate_slabs": [
+    {
+      "tenure_text": "365 Days/ 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "365 Days/ 1 year | 6.40%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 1 year to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 1 year to 2 years | 6.15%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 2 years to 3 years | 5.25%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 3 Years to 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 3 Years to 5 Years | 5.00%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 5 years | 5.00%",
+      "effective_date": "2026-09-14"
+    },
+    {
+      "tenure_text": "400 days",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "400 days Special Scheme | 6.65%",
+      "effective_date": "2026-09-14"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "400 days Special Scheme",
+      "tenure_text": "400 days",
+      "rate_general_pct": 6.65
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 35,
+    "last_scraped_at": "2026-07-22T18:11:13.546Z",
+    "manual_verification_needed": false
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-09-24T08:33:32.584Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-09-30T13:47:57.293Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-09-30T13:48:54.371Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-09-30T13:50:55.586Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-09-30T13:52:34.880Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-10-01T20:22:19.420Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-10-01T21:31:05.799Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:11:13.546Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-11-11T13:19:11.081Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": "diff_engine_reject",
+      "rejected_reason": "stale_regression: incoming=2026-06-18 is older than existing=2026-09-14",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-10-01T21:34:29.097Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-11-11T13:43:52.586Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": "diff_engine_reject",
+      "rejected_reason": "stale_regression: incoming=2026-06-18 is older than existing=2026-09-14",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-10-01T21:34:29.097Z",
+      "retained_slab_count": 6
+    },
+    {
+      "attempted_at": "2026-11-12T09:42:15.660Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 6,
+      "attempted_verdict": "diff_engine_reject",
+      "rejected_reason": "stale_regression: incoming=2026-06-18 is older than existing=2026-09-14",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-10-01T21:34:29.097Z",
+      "retained_slab_count": 6
+    }
+  ]
+}

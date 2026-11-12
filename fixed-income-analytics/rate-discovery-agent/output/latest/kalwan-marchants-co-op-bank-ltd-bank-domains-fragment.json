@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "bank_code": "kalwan-marchants-co-op-bank-ltd",
+    "extracted_at": "2026-06-06T09:33:45.638Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "dnb.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  }
+}

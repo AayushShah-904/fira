@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "bank_code": "india-post-payments-bank-limited",
+    "extracted_at": "2026-06-05T11:15:09.769Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "ippbonline.bank.in",
+  "rate_pages": {
+    "savings": "/web/ippb/rates-and-charges",
+    "fd": "/web/ippb/bank-notices",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Payments bank — no FD product; savings-only (sprint-008).",
+  "discovery_status": "no_fd_product",
+  "last_discovered_at": "2026-05-27T18:20:23.244Z"
+}

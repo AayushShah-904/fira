@@ -1,0 +1,22 @@
+{
+  "bank_code": "fino-payments-bank-limited",
+  "variant": "regular",
+  "slab_count": 0,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "60 Years)Rate",
+      "tenure_min_days": 21900,
+      "tenure_max_days": 21900,
+      "rate_general_pct": 7.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "extraction_method": "automatic_text_pattern",
+  "warnings": [
+    "llm_fallback_no_result: deterministic returned 0 slabs; LLM produced no usable slabs (trigger: zero=true suspect=false prefer=false)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 3 slab(s) from page text"
+  ],
+  "key_rates": {}
+}

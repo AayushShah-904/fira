@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "kanpur-zilla-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T18:39:47.024Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "dcbkanpur.com",
+  "rate_pages": {
+    "fd": "/intrest.php?id=1",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/scheme.php?id=8",
+    "rd": "/scheme.php?id=11"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "dcbkanpur-2band-regular-senior",
+    "template_hash": "sha1:aa86ac28c708afb2dbff79fd12efd6874d0abdd9",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

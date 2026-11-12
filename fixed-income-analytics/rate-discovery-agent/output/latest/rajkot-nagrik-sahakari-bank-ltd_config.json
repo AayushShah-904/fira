@@ -1,0 +1,32 @@
+{
+  "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+  "bank_name": "rajkot-nagrik-sahakari-bank-ltd",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://rnsb.bank.in",
+  "scraper_type": "image",
+  "rate_page_urls": {
+    "fd": "https://rnsb.bank.in/admin/uploads/banners.JPG"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-08T23:07:56.147Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "pending_vision",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:10.523Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "pending_vision",
+      "attempted_slab_count": null,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:pending_vision",
+      "retained_extraction_method": "pending_vision",
+      "retained_scraped_at": null,
+      "retained_slab_count": null
+    }
+  ]
+}

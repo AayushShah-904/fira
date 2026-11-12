@@ -1,0 +1,66 @@
+{
+  "bank_code": "bank-of-america",
+  "bank_name": "bank-of-america",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 9495,
+  "duration_ms": 9495,
+  "duration_api_ms": 8394,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.069656,
+  "llm_cost_usd": 0.069656,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 30992,
+  "output_tokens": 959,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 381,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://business.bofa.com/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 584,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://business.bofa.com/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 136,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://business.bofa.com/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf\",\"referer\":\"https://business.bofa.com/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "no_candidates",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

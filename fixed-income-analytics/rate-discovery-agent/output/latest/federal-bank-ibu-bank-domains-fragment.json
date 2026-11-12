@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "federal-bank-ibu",
+    "extracted_at": "2026-06-05T14:07:10.178Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "federal.bank.in",
+  "rate_pages": {
+    "fd": "/ibu-gift-city-deposit-rates",
+    "fd_gift_pdf": "/documents/d/guest/ibu-retail-deposits-rates-w-e-f-16-05-2025-1-",
+    "fd_gift": "https://www.federal.bank.in/documents/d/guest/ibu-retail-deposits-rates-w-e-f-16-05-2025-1-",
+    "fd_gift_prev": "https://www.federal.bank.in/ibu-gift-city-deposit-rates",
+    "fd_gift_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "parent_bank_code": "federal-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City",
+  "extraction_method": "manual_pdf_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:15:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "extract_rates_pdf.mjs + manual currency-matrix parse of raw PDF text (multi-currency layout)",
+    "source_url": "https://www.federal.bank.in/documents/d/guest/ibu-retail-deposits-rates-w-e-f-16-05-2025-1-",
+    "slab_count": 55,
+    "hints": "multi-currency dual-tenure-column GIFT PDF (/documents/d/guest/...); USD has separate tenure bands; parse per (tenure×currency)",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

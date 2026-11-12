@@ -1,0 +1,23 @@
+{
+  "bank_code": "the-district-co-operative-central-bank-ltd-vizianagaram",
+  "bank_name": "the-district-co-operative-central-bank-ltd-vizianagaram",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": null,
+  "scraped_at": "2026-06-09T16:15:55.972Z",
+  "extraction_method": "registry_skip",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Bank skipped at discovery time: discovery_status=website_known_no_rate_page. Website known but no usable rate page. Re-run with --rates-only mode after a rate page URL is added to the registry."
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T16:15:55.972Z",
+    "manual_verification_needed": false
+  }
+}

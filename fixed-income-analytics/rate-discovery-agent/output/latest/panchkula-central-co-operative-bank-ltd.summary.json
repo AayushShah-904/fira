@@ -1,0 +1,56 @@
+{
+  "bank_code": "panchkula-central-co-operative-bank-ltd",
+  "bank_name": "panchkula-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11779,
+  "duration_ms": 11779,
+  "duration_api_ms": 11696,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.014410800000000001,
+  "input_tokens": 33347,
+  "output_tokens": 670,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Panchkula Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Panchkula Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Panchkula Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://panchkulacentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://panchkulacentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://panchkulacentralcooperativebank.bank.in\"}"
+    }
+  ]
+}

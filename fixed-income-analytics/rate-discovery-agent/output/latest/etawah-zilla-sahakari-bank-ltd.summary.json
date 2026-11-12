@@ -1,0 +1,50 @@
+{
+  "bank_code": "etawah-zilla-sahakari-bank-ltd",
+  "bank_name": "etawah-zilla-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9627,
+  "duration_ms": 9627,
+  "duration_api_ms": 9369,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0086292,
+  "input_tokens": 18877,
+  "output_tokens": 674,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"etawah zilla sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etawah-zilla-sahakari-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etawahzillasahakaribank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 170,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etawahzillasahakaribank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etawahzillasahakaribank.in/\"}"
+    }
+  ]
+}

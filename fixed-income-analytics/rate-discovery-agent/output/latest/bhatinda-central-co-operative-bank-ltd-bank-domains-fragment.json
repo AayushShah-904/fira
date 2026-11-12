@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "bhatinda-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:36:30.716Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "bathindaccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-interest-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "notes": "Slug spelling discrepancy: RBI master list says \"Bhatinda\" (slug uses that); the bank uses \"Bathinda\" (current city spelling) in its domain bathindaccb.bank.in. Rate page /deposit-interest-rates/ verified 2026-05-12 via Playwright — 12 slabs incl. a 400-day special @ 6.80%. A mirror at bathinda.pbcoopbank.in (Punjab State Co-op Bank umbrella) hosts identical content but operator flagged it as not the official surface — do not use.",
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.207Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "bank_code": "the-bapatla-co-operative-urban-bank-ltd",
+    "extracted_at": "2026-06-06T11:02:17.824Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": null,
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null,
+    "savings": null
+  },
+  "notes": "Seeded by tier-2 gap sweep 2026-05-25; was absent from registry.",
+  "discovery_status": "no_website_known",
+  "gap_classification": {
+    "reason": "no_website",
+    "discovery_status": "no_website_known",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "none",
+    "notes": "Re-verified: searches return only aggregators/directories (codeforbanks, justdial, LEI registries). No registry .bank.in entry; probed bcub.bank.in / bapatlabank.bank.in / bcubbank.bank.in -> all HTTP 000 (no such site). bcub.in is a different bank (Badagara Co-op Urban Bank, Kerala). No own website."
+  },
+  "effective_date": "2026-05-25",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-07-23T14:01:44.022Z",
+    "manual_verification_needed": false
+  }
+}

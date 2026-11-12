@@ -1,0 +1,29 @@
+{
+  "bank_code": "the-odisha-state-co-operative-bank-ltd",
+  "bank_name": "The Odisha State Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://odishascb.bank.in/depositescheme.php",
+  "scraped_at": "2026-05-25T11:20:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 to 14 days", "tenure_min_days": 7, "tenure_max_days": 14, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "15 to 45 days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 to 60 days", "tenure_min_days": 46, "tenure_max_days": 60, "rate_general_pct": 4.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "61 to 90 days", "tenure_min_days": 61, "tenure_max_days": 90, "rate_general_pct": 4.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 to 120 days", "tenure_min_days": 91, "tenure_max_days": 120, "rate_general_pct": 4.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "121 to 180 days", "tenure_min_days": 121, "tenure_max_days": 180, "rate_general_pct": 5.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to less than 1 yr", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 yr to less than 2 yrs", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 5.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 yrs to less than 3 yrs", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 6.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 yrs to less than 5 yrs", "tenure_min_days": 1095, "tenure_max_days": 1824, "rate_general_pct": 6.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5 yrs to less than 8 yrs", "tenure_min_days": 1825, "tenure_max_days": 2919, "rate_general_pct": 6.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "8 yrs to 10 yrs", "tenure_min_days": 2920, "tenure_max_days": 3650, "rate_general_pct": 6.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": [
+    "Used the 'Revised rate of interest' column from the deposit-scheme table; no effective date published on the page",
+    "No senior-citizen rate column published on this page"
+  ],
+  "tier2_method": "playwright --scroll --tabs --intercept on odishascb.bank.in/depositescheme.php -> manual HTML table parse (auto rate_slabs empty)"
+}

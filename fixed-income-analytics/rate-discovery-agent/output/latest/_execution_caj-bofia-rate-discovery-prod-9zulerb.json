@@ -1,0 +1,20 @@
+{
+  "execution_name": "caj-bofia-rate-discovery-prod-9zulerb",
+  "job_name": "caj-bofia-rate-discovery-prod",
+  "trigger_request_id": null,
+  "run_label": "2026-06-06T0714_all",
+  "source": "cohort:pm-refresh-2026-q2-resume",
+  "phase": "failed",
+  "outcome": "partial_failure",
+  "summary": {
+    "total_banks": 198,
+    "succeeded": 182,
+    "failed": 16,
+    "rate_limited": 0,
+    "skipped": 0
+  },
+  "started_at": "2026-06-06T07:14:43.197Z",
+  "updated_at": "2026-06-06T11:12:03.490Z",
+  "completed_at": "2026-06-06T11:12:03.490Z",
+  "results_file": "runs/2026-06-06T0714_all/_batch_results.json"
+}

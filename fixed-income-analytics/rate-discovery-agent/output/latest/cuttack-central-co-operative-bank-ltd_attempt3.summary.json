@@ -1,0 +1,84 @@
+{
+  "bank_code": "cuttack-central-co-operative-bank-ltd",
+  "bank_name": "cuttack-central-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 18446,
+  "duration_ms": 18446,
+  "duration_api_ms": 15356,
+  "num_turns": 8,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.339536,
+  "llm_cost_usd": 0.339536,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 164628,
+  "output_tokens": 1285,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1387,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 275,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/saving_bank_account\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 139,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/recurring_deposite_account\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 439,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:cuttackccb.bank.in interest rate fixed deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 287,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/fixed_deposit_account\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 288,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 275,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cuttackccb.bank.in/tender\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/cuttack-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"cuttack-central-co-operative-b"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/cuttack-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"cuttack-central-co-operative-ba"
+    }
+  ]
+}

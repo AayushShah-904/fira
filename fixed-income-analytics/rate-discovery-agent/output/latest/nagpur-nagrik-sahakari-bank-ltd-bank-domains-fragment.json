@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "nagpur-nagrik-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T13:48:51.762Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "nnsbank.co.in",
+  "rate_pages": {
+    "fd": "https://nns.bank.in/termdeposits.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/termdeposits.php",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "Simple HTML table with tenure, general rate, senior citizen rate columns. 1 tables",
+  "template": {
+    "template_id": "coop-bankin-3col-regular-plus-senior-note",
+    "template_hash": "sha1:0aaf2770bcb7c5d7ac03746e0c4c94cdaf368310",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T11:42:35.633Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

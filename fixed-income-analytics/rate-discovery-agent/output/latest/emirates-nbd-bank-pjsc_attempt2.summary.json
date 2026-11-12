@@ -1,0 +1,90 @@
+{
+  "bank_code": "emirates-nbd-bank-pjsc",
+  "bank_name": "emirates-nbd-bank-pjsc",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 31605,
+  "duration_ms": 31605,
+  "duration_api_ms": 30171,
+  "num_turns": 3,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.262536,
+  "llm_cost_usd": 0.262536,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 106764,
+  "output_tokens": 6126,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 561,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://emiratesnbd.bank.in/en/interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 872,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://emiratesnbd.bank.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/emirates-nbd-bank-pjsc_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"emirates-nbd-bank-pjsc\\\",\\n  \\\"bank_name\\\": \\\"Emirates NBD Bank PJS"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/emirates-nbd-bank-pjsc_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"emirates-nbd-bank-pjsc\\\",\\n  \\\"bank_name\\\": \\\"Emirates NBD Bank PJSC"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/emirates-nbd-bank-pjsc_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"emirates-nbd-bank-pjsc\\\",\\n  \\\"bank_name\\\": \\\"Emirates NBD Bank "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/emirates-nbd-bank-pjsc_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"emirates-nbd-bank-pjsc\\\",\\n  \\\"bank_name\\\": \\\"Emirates NBD Bank "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/emirates-nbd-bank-pjsc_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"emirates-nbd-bank-pjsc\\\",\\n  \\\"bank_name\\\": \\\"Emirates NBD Bank"
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "FD, NRE, NRO, and FCNR rates are all published on the same interest rates page in separate accordion sections. No senior citizen rates or bulk deposit rates published online. FCNR rates only for USD. Savings rates also present on this page.",
+    "website_url": "https://emiratesnbd.bank.in",
+    "rate_url_fd": "https://emiratesnbd.bank.in/en/interest-rates",
+    "slab_count": 23,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

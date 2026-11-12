@@ -1,0 +1,72 @@
+{
+  "bank_code": "bank-of-china-limited",
+  "bank_name": "bank-of-china-limited",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 19675,
+  "duration_ms": 19675,
+  "duration_api_ms": 18178,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.16262,
+  "llm_cost_usd": 0.16262,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 70030,
+  "output_tokens": 2820,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 956,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.bankofchina.com/in/en/bocinfo/bi4/202601/t20260121_25647869.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 540,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.bankofchina.com/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bank-of-china-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-china-limited\\\",\\n  \\\"bank_name\\\": \\\"Bank of China Limited\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bank-of-china-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-china-limited\\\",\\n  \\\"bank_name\\\": \\\"Bank of China Limited\\\","
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "Rates are for corporate customers in India. No NRE/NRO/FCNR rates found on the India subsite. No senior citizen rates offered. Bulk deposit rates (INR 3 crore and above) are in a separate column.",
+    "website_url": "https://www.bankofchina.com",
+    "rate_url_fd": "https://www.bankofchina.com/in/en/bocinfo/bi4/202601/t20260121_25647869.html",
+    "slab_count": 18,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+    "domain_was_known": true
+  }
+}

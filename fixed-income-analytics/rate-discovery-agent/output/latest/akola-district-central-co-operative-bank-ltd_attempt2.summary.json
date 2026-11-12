@@ -1,0 +1,96 @@
+{
+  "bank_code": "akola-district-central-co-operative-bank-ltd",
+  "bank_name": "akola-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17433,
+  "duration_ms": 17433,
+  "duration_api_ms": 15767,
+  "num_turns": 9,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.134216,
+  "input_tokens": 62248,
+  "output_tokens": 1215,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Akola District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akoladccbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 645,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akoladccbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Akola District Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 695,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.akoladccbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Akola District Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akoladccbank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 115,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akoladccbank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 170,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akola-dccbank.com/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 6,
+    "domain_was_known": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "bank_code": "banswara-central-co-operative-bank-ltd",
+  "bank_name": "banswara-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "state": "Rajasthan",
+  "website": "https://www.banswaraccb.com",
+  "rate_page_url": "https://www.banswaraccb.com/wp-content/uploads/ccb-downloads/deposit-rates/BANSWARA%20CCB%20FD%20RATES%2011-07-2023.pdf",
+  "scraper_type": "pdf",
+  "extraction_method": "automatic_ocr",
+  "slab_count": 33,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

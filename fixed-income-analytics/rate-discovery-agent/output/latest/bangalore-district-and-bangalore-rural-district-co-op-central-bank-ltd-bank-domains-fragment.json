@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+    "extracted_at": "2026-06-05T15:29:29.944Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "bengalurudcc.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposite/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/fixed-deposite/",
+    "rd": "/fixed-deposite/"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Bank's own site is bengalurudcc.bank.in (the older bengalurudccbank.com 301-redirects to it). Both refused all connections from here (curl HTTP 000 / WebFetch ECONNREFUSED / Playwright ERR_CONNECTION_REFUSED) across multiple attempts. Search shows the site has a /fixed-deposite/ FD page, so rates likely exist but the host is unreachable from this network right now (may work later)."
+  }
+}

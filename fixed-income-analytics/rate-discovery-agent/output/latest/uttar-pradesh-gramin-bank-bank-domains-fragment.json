@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "uttar-pradesh-gramin-bank",
+    "extracted_at": "2026-06-05T13:06:29.526Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "upgb.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static"
+}

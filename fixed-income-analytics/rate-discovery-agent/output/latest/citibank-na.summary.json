@@ -1,0 +1,192 @@
+{
+  "bank_code": "citibank-na",
+  "bank_name": "citibank-na",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 94450,
+  "duration_ms": 94450,
+  "duration_api_ms": 8090,
+  "num_turns": 0,
+  "tool_call_count": 24,
+  "total_cost_usd": 0,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 36108,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 17,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 2709,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd",
+      "duration_ms": 4580,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[1]",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd",
+      "duration_ms": 7,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 9,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 2613,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_nre",
+      "duration_ms": 1669,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nre@pages[1]",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_nre",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nre",
+      "duration_ms": 9,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 1727,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_nro",
+      "duration_ms": 1757,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nro@pages[1]",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_nro",
+      "duration_ms": 9,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nro",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 35111,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_fcnr",
+      "duration_ms": 8,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "",
+    "website_url": "https://citigroup.com",
+    "rate_url_fd": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "slab_count": 17,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

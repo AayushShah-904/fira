@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "esaf-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:54:09.910Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "esaf.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates/",
+    "savings": "/interest-rates/",
+    "rd": "/interest-rates/",
+    "fd_nre": "/interest-rates/",
+    "fd_nro": "/interest-rates/",
+    "fd_fcnr": "/interest-rates/",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Static HTML with collapsible accordion sections",
+  "template": {
+    "template_id": "sfb-3col-tenure-general-senior",
+    "template_hash": "sha1:7cc85078f20de5e3e6292eef3923a01619488a1d",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.502Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  }
+}

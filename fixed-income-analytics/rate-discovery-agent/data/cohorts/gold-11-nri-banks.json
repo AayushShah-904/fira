@@ -1,0 +1,20 @@
+[
+  { "bank_code": "yes-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "yes-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "axis-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Gujarat" },
+  { "bank_code": "axis-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "au-small-finance-bank-limited", "category": "Small Finance Bank", "state": "Rajasthan" },
+  { "bank_code": "icici-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Gujarat" },
+  { "bank_code": "icici-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "rbl-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "rbl-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "idfc-first-bank-limited", "category": "Private Sector Bank (Indian)", "state": "Maharashtra" },
+  { "bank_code": "idfc-first-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "canara-bank", "category": "Public Sector Bank", "state": "Karnataka" },
+  { "bank_code": "canara-bank-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "indian-overseas-bank", "category": "Public Sector Bank", "state": "Tamil Nadu" },
+  { "bank_code": "bank-of-maharashtra", "category": "Public Sector Bank", "state": "Maharashtra" },
+  { "bank_code": "bank-of-maharashtra-ibu", "category": "IFSC Banking Unit (IFSCA)", "state": "Gujarat" },
+  { "bank_code": "saraswat-co-operative-bank-ltd", "category": "Scheduled Urban Co-operative Bank", "state": "Maharashtra" },
+  { "bank_code": "cosmos-co-operative-bank-ltd", "category": "Scheduled Urban Co-operative Bank", "state": "Maharashtra" }
+]

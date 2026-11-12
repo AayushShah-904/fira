@@ -1,0 +1,109 @@
+{
+  "bank_code": "sirsa-central-co-operative-bank-ltd",
+  "bank_name": "The Sirsa Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-26",
+  "source_url": "https://coopbksirsa.com/rate-of-interest-on-fd/",
+  "scraped_at": "2026-05-26T13:06:24.847Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "6 months but less than 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 1 year to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.05,
+      "rate_senior_pct": 7.55,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 2 years to 10 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "warnings": [
+    "Rates taken from the 'Revised Rates (%)' column of the bank's FD rate table on the live WordPress site (coopbksirsa.com); the .bank.in mirror sirsadccb.bank.in is currently account-suspended.",
+    "No w.e.f / effective date shown on the page.",
+    "Savings Bank Deposit (3.00%) and Savings Bank P.F. (7.00%) rows excluded as they are not FD term slabs.",
+    "Senior-citizen premium recovered (sprint-007 review): +0.50% p.a. for senior citizens (bank-stated, previously left null). rate_senior_pct = general + 0.5 for covered tenures; dropped 0 non-FD note row(s)."
+  ],
+  "tier2_method": "playwright_tables",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "playwright_tables",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T15:54:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:25.249Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T13:06:24.847Z",
+      "retained_slab_count": 7
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 58,
+    "last_scraped_at": "2026-05-26T13:06:24.847Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jagdalpur",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-jagdalpur",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11137,
+  "duration_ms": 11137,
+  "duration_api_ms": 10902,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008860400000000001,
+  "input_tokens": 19011,
+  "output_tokens": 785,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit jagdalpur\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadrit.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 11,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadrit.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadrit.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 173,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadrit.com/\"}"
+    }
+  ]
+}

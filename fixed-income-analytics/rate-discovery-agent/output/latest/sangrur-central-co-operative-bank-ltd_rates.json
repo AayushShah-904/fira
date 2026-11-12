@@ -1,0 +1,144 @@
+{
+  "bank_code": "sangrur-central-co-operative-bank-ltd",
+  "bank_name": "Sangrur Central Cooperative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": "https://sangrur.pbcoopbank.in/deposit-interest-rates/",
+  "scraped_at": "2026-05-27T18:13:56.859Z",
+  "effective_date": "2025-11-06",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "31-45 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "31-45 Days | 3.50% | 3.50%"
+    },
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "46-90 Days | 4.75% | 4.75%"
+    },
+    {
+      "tenure_text": "91-179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "91- 179 Days | 5.00% | 5.00%"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "180 Days to less than 1 Year | 6.60% | 6.60%"
+    },
+    {
+      "tenure_text": "1 Year to 399 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 399,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "1 Year to 399 Days | 6.70% | 7.10%"
+    },
+    {
+      "tenure_text": "400 days",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "400 days | 6.90% | 7.30%"
+    },
+    {
+      "tenure_text": "401 Days to less than 2 Years",
+      "tenure_min_days": 401,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "401 Days to less than 2 Years | 6.60% | 7.00%"
+    },
+    {
+      "tenure_text": "2 Years and above but less than 5 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "2 Years and above but less than 5 years | 6.50% | 6.95%"
+    },
+    {
+      "tenure_text": "5 Years and above but less than 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3649,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.45,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "5 Years and above but less than 10 years | 6.00% | 6.45%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 correctness fix: prior data was scraped from forbidden aggregator codeforbanks.com; re-extracted from the bank's own official source.",
+    "Dropped a \"Provident Fund\" row (not a tenure-based FD slab)."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "tier2_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-27T18:13:56.859Z",
+    "source_url": "https://sangrur.pbcoopbank.in/deposit-interest-rates/",
+    "fixed_from": "codeforbanks.com aggregator",
+    "discovery_status": "recovered"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:16.508Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-27T18:13:56.859Z",
+      "retained_slab_count": 9
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 259,
+    "last_scraped_at": "2026-05-27T18:13:56.859Z",
+    "manual_verification_needed": true
+  }
+}

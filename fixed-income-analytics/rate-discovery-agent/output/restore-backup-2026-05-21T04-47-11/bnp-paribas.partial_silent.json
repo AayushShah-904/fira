@@ -1,0 +1,6 @@
+{
+  "bank_code": "bnp-paribas",
+  "reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T23:18:16.177Z",
+  "attempts": 3
+}

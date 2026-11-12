@@ -1,0 +1,21 @@
+{
+  "bank_code": "kota-nagarik-sahakari-bank-ltd-kota",
+  "bank_name": "Kota Nagrik Sahkari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://kotanagrikbank.com/interest-rates/",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "15 Days to 45 Days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 3.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days upto 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days upto 181 days", "tenure_min_days": 91, "tenure_max_days": 181, "rate_general_pct": 4.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "182 days and less than 1 year", "tenure_min_days": 182, "tenure_max_days": 364, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Year to below 2 Years", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 Years upto 3 Years", "tenure_min_days": 730, "tenure_max_days": 1095, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 3 years", "tenure_min_days": 1096, "tenure_max_days": null, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": ["Senior citizen rates not listed for slabs under 182 days. No effective date shown."],
+  "tier2_method": "playwright_tables"
+}

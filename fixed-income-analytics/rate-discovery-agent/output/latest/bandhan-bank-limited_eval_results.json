@@ -1,0 +1,27 @@
+{
+  "bank_code": "bandhan-bank-limited",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\bandhan-bank-limited_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.442987Z",
+  "overall_passed": true,
+  "metrics": {
+    "schema_completeness": {
+      "score": 91,
+      "passed": true,
+      "reason": "14 missing field values across 38 slabs",
+      "missing_breakdown": {
+        "tenure_min_days": 7,
+        "tenure_max_days": 7
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 38 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

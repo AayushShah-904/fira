@@ -1,0 +1,56 @@
+{
+  "bank_code": "pithoragarh-zila-sahakari-bank-ltd",
+  "bank_name": "pithoragarh-zila-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11600,
+  "duration_ms": 11600,
+  "duration_api_ms": 11454,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.008845200000000001,
+  "input_tokens": 19017,
+  "output_tokens": 774,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"pithoragarh zila sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pithoragarh-zila-sahakari-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pithoragarhzilasahakaribankltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pithoragarh-zilasahakaribankltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pithoragarh-zilasahakari-bank-ltd.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pithoragarh-zilasahakaribankltd.co.in/\"}"
+    }
+  ]
+}

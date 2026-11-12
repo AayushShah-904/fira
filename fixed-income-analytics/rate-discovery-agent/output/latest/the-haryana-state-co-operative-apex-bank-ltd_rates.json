@@ -1,0 +1,380 @@
+{
+  "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-28",
+  "source_url": "https://www.harcobank.org.in/interest1",
+  "scraped_at": "2026-03-28T12:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": 4,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.25,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.25,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": 5.25,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": 5.5,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "6 months to 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.5,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": 7.35,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 7,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 7,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 7,
+      "min_deposit": null,
+      "max_deposit_category": "up_to_2cr",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "7 days to 14 days (above 2 Cr callable)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 days to 30 days (above 2 Cr callable)",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31 days to 45 days (above 2 Cr callable)",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 days to 90 days (above 2 Cr callable)",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 179 days (above 2 Cr callable)",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "6 months to 1 year (above 2 Cr callable)",
+      "tenure_min_days": 180,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year to 2 years (above 2 Cr callable)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 years to 3 years (above 2 Cr callable)",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 years to 5 years (above 2 Cr callable)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 years to 10 years (above 2 Cr callable)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_callable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "7 days to 14 days (above 2 Cr non-callable)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 days to 30 days (above 2 Cr non-callable)",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31 days to 45 days (above 2 Cr non-callable)",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 days to 90 days (above 2 Cr non-callable)",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 179 days (above 2 Cr non-callable)",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "6 months to 1 year (above 2 Cr non-callable)",
+      "tenure_min_days": 180,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year to 2 years (above 2 Cr non-callable)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 years to 3 years (above 2 Cr non-callable)",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 years to 5 years (above 2 Cr non-callable)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 years to 10 years (above 2 Cr non-callable)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": 20000000,
+      "max_deposit_category": "above_2cr_noncallable",
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "Nari Sashakti Yojana - Term Deposit (366 days)",
+      "tenure_days": 366,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "eligibility": "Women depositors only",
+      "expiry_date": null
+    },
+    {
+      "scheme_name": "Nari Sashakti Yojana - Term Deposit (666 days)",
+      "tenure_days": 666,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "eligibility": "Women depositors only",
+      "expiry_date": null
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:42.191Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-03-28T12:00:00Z",
+      "retained_slab_count": 30
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 360,
+    "last_scraped_at": "2026-03-28T12:00:00Z",
+    "manual_verification_needed": true
+  }
+}

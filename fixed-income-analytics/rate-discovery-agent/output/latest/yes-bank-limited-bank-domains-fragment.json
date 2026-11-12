@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "bank_code": "yes-bank-limited",
+    "extracted_at": "2026-06-05T10:46:26.649Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "yes.bank.in",
+  "rate_pages": {
+    "fd": "/sites/web/content/published/api/v1.1/assets/CONT13C66A7E18434B48BC40248F6202F4A4/native/allratesandcharges_pdf.pdf",
+    "savings": "/personal-banking/yes-individual/deposits/savings-account",
+    "rd": "/personal-banking/yes-individual/deposits/recurring-deposit",
+    "rate_card_pdf": "/sites/web/content/published/api/v1.1/assets/CONT13C66A7E18434B48BC40248F6202F4A4/native/allratesandcharges_pdf.pdf",
+    "fd_nre": "/sites/web/content/published/api/v1.1/assets/CONT4232E91A699245729D4F725A28ECFEA2/native/nri_interest_rates_pdf.pdf",
+    "fd_nro": "/sites/web/content/published/api/v1.1/assets/CONT4232E91A699245729D4F725A28ECFEA2/native/nri_interest_rates_pdf.pdf",
+    "fd_fcnr": "/sites/web/content/published/api/v1.1/assets/CONT4232E91A699245729D4F725A28ECFEA2/native/nri_interest_rates_pdf.pdf",
+    "fd_nri_combined": "/sites/web/content/published/api/v1.1/assets/CONT4232E91A699245729D4F725A28ECFEA2/native/nri_interest_rates_pdf.pdf",
+    "fd_nri_fixed_at": "2026-07-08"
+  },
+  "scraper_type": "pdf",
+  "notes": "Akamai Bot Manager blocks all programmatic access (fetch_url, Playwright headless). ERR_HTTP2_PROTOCOL_ERROR on all pages. Domestic+NRO rates on /rates-and-charges, NRI PDF at /pdf?name=nri_interest_rates_pdf.pdf — both inaccessible to automated tools. Requires manual data entry.",
+  "status": "site_unreachable",
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "playwright_timeout_ms": 180000,
+  "playwright_browser": "firefox",
+  "template": {
+    "template_id": "yes-bank-regular-fd-plus-rd-accordion",
+    "template_hash": "sha1:3f0ef4d4a9a5847f66812b60192ba631a63cfb9b",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:10:52.290Z",
+      "gates_passed": "PASS",
+      "slab_count": 27,
+      "cluster_reused": false
+    }
+  }
+}

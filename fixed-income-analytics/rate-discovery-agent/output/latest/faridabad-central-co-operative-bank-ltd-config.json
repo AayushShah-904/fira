@@ -1,0 +1,44 @@
+{
+  "bank_code": "faridabad-central-co-operative-bank-ltd",
+  "bank_name": "Faridabad Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://harco.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://harco.bank.in/accounts/fd",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://harco.bank.in/accounts/saving",
+    "rd": "https://harco.bank.in/accounts/rd"
+  },
+  "selectors": {
+    "table": "table.interest-rates-table",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "0": "tenure_text",
+    "1": "rate_general_pct",
+    "2": "rate_senior_pct",
+    "3": "rate_super_senior_pct"
+  },
+  "expected_slab_count": 7,
+  "notes": "Super senior citizen rates are offered. Effective date not specified; rates are marked as indicative. Contact branch for latest.",
+  "scraper_notes": {
+    "framework": "Custom PHP/Bootstrap",
+    "bot_protection": null,
+    "data_format": "HTML table with three rate columns",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "homepage fetch + rate page fetch",
+    "confidence": "high"
+  }
+}

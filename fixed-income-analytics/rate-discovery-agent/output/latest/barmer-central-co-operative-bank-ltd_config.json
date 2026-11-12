@@ -1,0 +1,19 @@
+{
+  "bank_code": "barmer-central-co-operative-bank-ltd",
+  "bank_name": "barmer-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Rajasthan",
+  "website": "https://ccbbarmer.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://ccbbarmer.bank.in/PDF/Deposit_interest_rates.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:08:15.183Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_pdf"
+}

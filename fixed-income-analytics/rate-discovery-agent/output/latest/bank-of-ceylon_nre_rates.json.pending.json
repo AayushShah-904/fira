@@ -1,0 +1,96 @@
+{
+  "bank_code": "bank-of-ceylon",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-29",
+  "source_url": "https://boc.lk/rates-tariff",
+  "scraped_at": "2026-07-07T06:29:36.793Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "01 Year maturity",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "02 Year maturity",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.16,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "03 Year maturity",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.31,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "04 Year maturity",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.44,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "05 Year maturity",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[10] (32 slabs) from 50 table(s); signals={\"pctRows\":32,\"tenureRows\":32,\"bothRows\":32,\"dataRows\":32,\"noisy\":false,\"colCount\":4}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: no NRE INR fixed deposit table found in input; chunk[2]: no NRE INR fixed deposit rate table found in the provided input; chunk[3]: no NRE INR fixed deposit rate table found in the input)"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 3,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (02 Year maturity): senior rate (4.16%) < general rate (4.25%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (03 Year maturity): senior rate (4.31%) < general rate (4.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (04 Year maturity): senior rate (4.44%) < general rate (4.75%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 55,
+    "last_scraped_at": "2026-07-07T06:29:36.793Z",
+    "manual_verification_needed": false
+  }
+}

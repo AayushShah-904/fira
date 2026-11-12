@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:37:47.265Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "tnsc.bank.in",
+  "rate_pages": {
+    "fd": "https://www.tnsc.bank.in/jb-content/uploads/2026/03/INTEREST_page-0001.jpg",
+    "savings": null,
+    "rd": null,
+    "fd_prev": "https://www.tnsc.bank.in/interest-rates/",
+    "fd_fixed_at": "2026-05-25",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "notes": "Unknown — site inaccessible during discovery, Possible — .bank.in TLD blocked automated access",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:30:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright (rates are JPG images) -> downloaded INTEREST_page-0001.jpg -> vision OCR of rate table",
+    "source_url": "https://www.tnsc.bank.in/interest-rates/",
+    "slab_count": 13,
+    "hints": "rates published as JPG image → vision OCR (INTEREST_page-0001.jpg)",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

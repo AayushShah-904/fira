@@ -1,0 +1,19 @@
+{
+  "bank_code": "chiplun-urban-coopbank-ltd",
+  "bank_name": "chiplun-urban-coopbank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://cuc.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://cuc.bank.in/in/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:48:30.928Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

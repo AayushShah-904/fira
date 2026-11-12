@@ -1,0 +1,44 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-panna",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-panna",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10141,
+  "duration_ms": 10141,
+  "duration_api_ms": 9917,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008728,
+  "input_tokens": 18936,
+  "output_tokens": 721,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit panna\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditpanna.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditpanna.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 169,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditpanna.com\"}"
+    }
+  ]
+}

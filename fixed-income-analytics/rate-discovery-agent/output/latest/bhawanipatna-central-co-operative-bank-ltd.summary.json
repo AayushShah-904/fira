@@ -1,0 +1,50 @@
+{
+  "bank_code": "bhawanipatna-central-co-operative-bank-ltd",
+  "bank_name": "bhawanipatna-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8906,
+  "duration_ms": 8906,
+  "duration_api_ms": 8779,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008719600000000001,
+  "input_tokens": 18867,
+  "output_tokens": 733,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"bhawanipatna central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatna-central-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatna-central-co-operative-bank-ltd.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatnacentralbank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatnacentralbank.bank.in/\"}"
+    }
+  ]
+}

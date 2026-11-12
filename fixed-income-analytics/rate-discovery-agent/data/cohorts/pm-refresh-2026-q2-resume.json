@@ -1,0 +1,992 @@
+[
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-gwalior",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-dewas",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-rewa",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "krishna-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "guntur-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-hyderabad-district-cooperative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-warangal-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "nellore-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "vishakapatnam-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "chittoor-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-anantapur-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "kanpur-zilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "zilla-sahakari-bank-ltd-lucknow",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "meerut-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "agra-zilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "ghaziabad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "gorakhpur-zilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "allahabad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "karnal-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "hissar-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "rohtak-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "sirsa-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "panipat-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "cuttack-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "sambalpur-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "nadia-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "burdwan-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "hoogly-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "dehradun-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttarakhand"
+  },
+  {
+    "bank_code": "kangra-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "bank_code": "jammu-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "bank_code": "akola-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "amravati-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "anantnag-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "bank_code": "angul-united-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "aska-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "azamgarh-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "bagalkot-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "balageria-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "bankura-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "banswara-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "barmer-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "beed-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "central-co-operative-bank-ltd-ara",
+    "category": "District Central Co-operative Bank",
+    "state": "Bihar"
+  },
+  {
+    "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "chitradurg-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "cuddapah-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "dhanbad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Jharkhand"
+  },
+  {
+    "bank_code": "eluru-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "gondia-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "guna-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "howrah-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "kakinada-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "khurda-central-co-opertive-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "prakasam-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "tamluk-ghatal-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "the-adilabad-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-district-co-operative-central-bank-ltd-srikakulam",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-district-co-operative-central-bank-ltd-vizianagaram",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "rajapur-urban-cooperative-bank-ltd-rajapur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "rajgurunagar-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "sharad-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "arvind-sahakari-bank-ltd-katol",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "lonavla-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "vita-merchants-coop-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-amravati-merchants-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-jalna-peoples-co-operative-bank-ltd-jalna",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-washim-urban-co-operative-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "navi-mumbai-co-operative-bank-ltd-vashi",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "chiplun-urban-coopbank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "vasai-janata-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-hasti-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "sangamner-merchants-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-nanded-merchants-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "ajara-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "madheshwari-urban-development-co-operative-bank",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "wai-urban-coop-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "gadhinglaj-urban-co-op-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "shahada-peoples-co-operative-bank-ltd-shahada",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "gandhibag-sahakari-bank-ltd-nagpur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "deccan-merchants-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "jijau-commercial-co-operative-bank-ltd-amravati",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "godavari-urban-co-opbank-ltdnashik",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "samata-sahakari-bank-ltd-mumbai",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "malegaon-merchants-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "modern-co-op-bank-ltd-chalisgaon-jalgaon",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "kalwan-marchants-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "sangola-urban-co-operative-bank-ltd-sangola",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "patan-urban-co-operative-bank-ltd-patan-satara",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "janata-sahakari-bank-ltd-satara",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "jijamata-mahila-nagri-sahakari-bank-ltd-buldana",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "yadrav-co-operative-bank-ltd-yadrav",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "gautam-sahakari-bank-ltdkolpewadi",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "sharad-nagari-sahakari-bank-ltd-solapur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "mahamantralaya-allied-offices-coop-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "rayat-sevak-co-op-bank-ltd-satara",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "pritisangam-sahakari-bank-ltd-karad-satara",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "akhand-anand-co-operative-bank-ltd-surat",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "mehsana-nagrik-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "sardar-vallabhbhai-sahakari-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "gandhidham-co-op-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "gandhinagar-nagarik-co-op-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "gandhinagar-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "saraspur-nagarik-co-op-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "kankaria-maninagar-nagarik-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "maninagar-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "karnavathi-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "rander-peoples-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "porbandar-commercial-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "gondal-nagarik-sahakari-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "bhuj-commercial-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "shri-morbi-nagrik-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "dahod-urban-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "godhra-urban-co-op-bank-limited",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "rajkot-commercial-cooperative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "hubli-urban-co-operative-bank-limited-hubli",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "mangalore-co-operative-town-bank-ltd-mangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "udupi-co-operative-town-bank-ltd-udupi",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "mysore-merchants-co-operative-bank-ltd-mysore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "bangalore-city-co-operative-bank-ltd-bangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "bharath-co-operative-bank-limited-bangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "grain-merchants-co-operative-bank-ltdbangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "malleswaram-co-operative-bank-ltd-bangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "janatha-seva-co-operative-bank-ltd-bangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "sir-mvisvesvaraya-co-operative-bank-ltd-bangalore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "vysya-co-operative-bank-ltd-tumkur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "bagalkot-urban-co-operative-bank-ltd-bagalkot",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "davangere-urban-co-operative-bank-ltd-davangere",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "haveri-urban-co-operative-bank-limited-haveri",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "mahaveer-co-operative-bank-ltd-belgaum",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "the-visakhapatnam-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-guntur-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "tirupati-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "warangal-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Telangana"
+  },
+  {
+    "bank_code": "the-karimnagar-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Telangana"
+  },
+  {
+    "bank_code": "eluru-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-kakinada-co-operative-town-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-nellore-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-anantapur-co-operative-town-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "mahanagar-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Telangana"
+  },
+  {
+    "bank_code": "trivandrum-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "the-kannur-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "calicut-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "kottayam-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "coastal-urban-co-operative-bank-ltdkollam",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "indore-paraspar-sahakari-bank-maryadit",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "shramik-nagrik-sahakari-bank-maryadit-indore",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "ujjain-nagarik-sahakari-bank-maryadit-ujjain",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "nagarik-sahakari-bank-maryaditgwalior",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jodhpur-nagarik-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "kota-nagarik-sahakari-bank-ltd-kota",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "udaipur-urban-coop-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "coimbatore-city-coop-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "tiruchirapalli-city-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "salem-urban-co-op-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "erode-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "vellore-coop-town-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "delhi-nagrik-sehkari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "jamia-co-operative-bank-ltd-new-delhi",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "national-urban-co-operative-bank-ltd-delhi",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "alleppey-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "alwaye-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "almora-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Uttarakhand"
+  },
+  {
+    "bank_code": "kurmanchal-nagar-sahkari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Uttarakhand"
+  },
+  {
+    "bank_code": "the-midnapore-peoples-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "the-panihati-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "the-santragachi-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "the-shibpur-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "commercial-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "gujarat-mercantile-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "navabharat-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Telangana"
+  },
+  {
+    "bank_code": "model-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Telangana"
+  },
+  {
+    "bank_code": "the-bapatla-co-operative-urban-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "ramanagaram-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "nagrik-sahakari-bank-maryadit-vidisha",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "sterling-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "the-bhandara-urban-co-operative-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "amreli-nagrik-sahakari-bank-ltd",
+    "category": "Non-Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "bank_name": "Kotak Mahindra Bank Limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-14",
+  "source_url": "https://kotak.bank.in/en/personal-banking/nri/accounts-deposits/deposits/nre-fixed-deposit/interest-rate.html",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "tier2_method": "Playwright (firefox engine, --scroll, --timeout 180000) via scripts/fetch_rates_playwright.js — JS-rendered page; NRE page serves the same combined Domestic/NRO/NRE rate card.",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [
+    { "tenure_text": "365 Days to less than 15 Months", "tenure_min_days": 365, "tenure_max_days": 455, "rate_general_pct": 6.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "15 Months - less than 18 Months", "tenure_min_days": 456, "tenure_max_days": 547, "rate_general_pct": 6.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "18 months - less than 2 years", "tenure_min_days": 548, "tenure_max_days": 729, "rate_general_pct": 6.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 years- less than 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 6.80, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years and above but less than 4 years", "tenure_min_days": 1095, "tenure_max_days": 1459, "rate_general_pct": 6.40, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "4 years and above but less than 5 years", "tenure_min_days": 1460, "tenure_max_days": 1824, "rate_general_pct": 6.40, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5 years and above upto and inclusive of 10 years", "tenure_min_days": 1825, "tenure_max_days": 3650, "rate_general_pct": 6.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Kotak serves a single combined 'Domestic / NRO / NRE' rate card; NRE rates equal the domestic general rates ('Less than Rs.3 Crore' Regular column).",
+    "NRE fixed deposits have a regulatory minimum tenure of 1 year (365 days), so only slabs from '365 Days to less than 15 Months' onward are included. Senior-citizen premium does not apply to NRE (non-resident) deposits, so rate_senior_pct is null for all slabs.",
+    "Rs.3-5 Cr and bulk tiers excluded per task scope (below_3cr retail only)."
+  ],
+  "errors": []
+}

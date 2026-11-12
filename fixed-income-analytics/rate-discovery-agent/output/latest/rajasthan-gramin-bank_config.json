@@ -1,0 +1,19 @@
+{
+  "bank_code": "rajasthan-gramin-bank",
+  "bank_name": "rajasthan-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Rajasthan",
+  "website": "https://rajasthan.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://rajasthan.bank.in/chargerate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:32:46.840Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

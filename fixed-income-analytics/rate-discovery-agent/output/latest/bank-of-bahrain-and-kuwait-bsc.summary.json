@@ -1,0 +1,222 @@
+{
+  "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+  "bank_name": "bank-of-bahrain-and-kuwait-bsc",
+  "category": "Foreign Bank",
+  "mode": "rates-only",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 27618,
+  "duration_ms": 27618,
+  "duration_api_ms": 2296,
+  "num_turns": 0,
+  "tool_call_count": 29,
+  "total_cost_usd": 0.1,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0.1,
+  "ocr_pages": 10,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 3047,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 23,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 429,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd",
+      "duration_ms": 1739,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:regular@pages[1,2,3,4,5]",
+      "duration_ms": 14,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd",
+      "duration_ms": 25,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd",
+      "duration_ms": 13,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 53,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nre",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_nre",
+      "duration_ms": 1566,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nre@pages[1,2,3,4,5]",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_nre",
+      "duration_ms": 16,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nre",
+      "duration_ms": 15,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 43,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_nro",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd_nro",
+      "duration_ms": 1454,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nro@pages[1,2,3,4,5]",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:pdf_structure:fd_nro",
+      "duration_ms": 21,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_nro",
+      "duration_ms": 11,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 44,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_via_ocr:fd_fcnr",
+      "duration_ms": 11313,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nro@pages[4]",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:nre@pages[6,7]",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_fcnr",
+      "duration_ms": 12,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "variant-coverage:extract_via_ocr:fd_fcnr",
+      "duration_ms": 5457,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "",
+    "website_url": "https://bbkindia.bank.in",
+    "rate_url_fd": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+    "slab_count": 8,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "bank_code": "the-rajkot-district-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T14:52:13.016Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "rajkotdccb.bank.in",
+  "rate_pages": {
+    "fd": "/rdc/Account_And_Deposits.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/rdc/Account_And_Deposits.php",
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "domain_source": "discovered",
+  "last_discovered_at": "2026-05-27T18:20:23.244Z",
+  "discovery_status": "recovered",
+  "notes": "Full ladder re-extracted sprint-008.",
+  "extraction_method": "manual_transcription_from_rendered_text"
+}

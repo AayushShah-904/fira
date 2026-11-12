@@ -1,0 +1,25 @@
+{
+  "bank_code": "murshidabad-district-central-co-operative-bank-ltd",
+  "bank_name": "Murshidabad District Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-13",
+  "source_url": null,
+  "scraped_at": "2026-05-13T06:09:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No official website or FD rate page found. Operator should check state co-operative bank umbrella portals or RBI database for rates."
+  ],
+  "errors": [
+    "All domain and search attempts failed; no rate information available."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 71,
+    "last_scraped_at": "2026-05-13T06:09:00Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "bank_code": "kotak-mahindra-bank-limited",
+    "extracted_at": "2026-06-05T10:22:07.204Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "kotak.bank.in",
+  "rate_pages": {
+    "fd": "/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/en/personal-banking/nri/accounts-deposits/deposits/nre-fixed-deposit/interest-rate.html",
+    "fd_nro": "/en/personal-banking/nri/accounts-deposits/deposits/nro-fixed-deposit/interest-rate.html",
+    "fd_fcnr": "/en/personal-banking/nri/accounts-deposits/deposits/fcnr-deposits/interest-rate.html",
+    "fd_nri_combined": null
+  },
+  "selectors": {
+    "table": "table.table.table-bordered:not(:has(td:contains('Tax Rate'))):not(:has(td:contains('Penalty')))",
+    "rows": "tbody tr"
+  },
+  "scraper_type": "html_js",
+  "notes": "JS-rendered. The static HTML contains ONLY non-rate tables (3× penalty schedules + 1 TDS table). Real FD rate table is injected by client-side JS — requires Playwright with full network-idle. Cohort #3 picker grabbed a penalty table by mistake (5 duplicate slabs at 0.5-1% — Phase C1 floor filter correctly dropped them, leaving 0 slabs). The :not(:has(...)) selector hint below excludes the penalty/TDS tables when (a) Playwright successfully renders the page AND (b) the picker finds rate-shaped tables there. From this dev env, Playwright times out (Norton TLS MITM suspected per memory). Regression accepted for now; needs cloud-runner re-extraction.",
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "playwright_timeout_ms": 180000,
+  "playwright_browser": "firefox",
+  "template": {
+    "template_id": "kotak-mahindra-multi-bucket-premature-allowed-not-allowed",
+    "template_hash": "sha1:89d007f96f48da92b19c64796837e1f17644f55b",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "rate_general_pct@3cr_to_5cr",
+            "3": "rate_senior_pct@below_3cr",
+            "4": "rate_senior_pct@3cr_to_5cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@5cr_to_10cr",
+            "2": "rate_general_pct@10cr_to_25cr",
+            "3": "rate_general_pct@25cr_to_100cr",
+            "4": "rate_general_pct@100cr_to_300cr",
+            "5": "rate_general_pct@above_300cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_5cr",
+            "2": "rate_general_pct@5cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_25cr",
+            "4": "rate_general_pct@25cr_to_100cr",
+            "5": "rate_general_pct@100cr_to_300cr",
+            "6": "rate_general_pct@above_300cr"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 78,
+      "cluster_reused": false
+    }
+  },
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-26T04:09:45.071Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright-firefox JS-render",
+    "source_url": "https://kotak.bank.in/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
+    "slab_count": 18,
+    "hints": "Domestic FD + NRE are JS-rendered (client-side tables). fetch_rates_playwright.js with --browser firefox --scroll (chromium times out under Norton TLS MITM in dev). Retail = \"Less than Rs.3 Crore\" cols on \"Premature Withdrawal Allowed\" table. NRE on combined card, 1yr+ only, senior null.",
+    "note": "Existing registry template extracts 0 (broken JS path); CURATED method protects this data from clobber on refresh."
+  }
+}

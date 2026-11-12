@@ -1,0 +1,48 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10351,
+  "duration_ms": 10351,
+  "duration_api_ms": 9905,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.055936,
+  "llm_cost_usd": 0.055936,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 23088,
+  "output_tokens": 1220,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 208,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jskbrjn.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 237,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jskbrjn.bank.in/interest-rates.php\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/jilla-sahakari-kendriya-bank-maryadit-ujjain_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/jilla-sahakari-kendriya-bank-maryadit-ujjain_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-"
+    }
+  ]
+}

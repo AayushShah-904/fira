@@ -1,0 +1,42 @@
+{
+  "bank_code": "bank-of-nova-scotia",
+  "bank_name": "bank-of-nova-scotia",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 8698,
+  "duration_ms": 8698,
+  "duration_api_ms": 8351,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.058692,
+  "llm_cost_usd": 0.058692,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 25154,
+  "output_tokens": 1048,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 347,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://scotiabank.com/content/dam/global/india/Interest-Rate-Schedule-of-Charges-Dec-2025.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bank-of-nova-scotia_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-nova-scotia\\\",\\n  \\\"bank_name\\\": \\\"Bank of Nova Scotia\\\",\\n  \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bank-of-nova-scotia_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-nova-scotia\\\",\\n  \\\"bank_name\\\": \\\"Bank of Nova Scotia\\\",\\n  \\\""
+    }
+  ]
+}

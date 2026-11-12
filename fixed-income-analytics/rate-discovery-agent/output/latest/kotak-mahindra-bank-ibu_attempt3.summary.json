@@ -1,0 +1,42 @@
+{
+  "bank_code": "kotak-mahindra-bank-ibu",
+  "bank_name": "kotak-mahindra-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 26796,
+  "duration_ms": 26796,
+  "duration_api_ms": 26658,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.140876,
+  "llm_cost_usd": 0.140876,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 50190,
+  "output_tokens": 5062,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 137,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.kotak.bank.in/en/personal-banking/gift/deposit-rates-gift-City.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/kotak-mahindra-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kotak-mahindra-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Kotak Ma"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/kotak-mahindra-bank-ibu_gift_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kotak-mahindra-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Kota"
+    }
+  ]
+}

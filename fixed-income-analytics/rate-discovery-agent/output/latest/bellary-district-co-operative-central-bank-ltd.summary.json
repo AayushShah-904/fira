@@ -1,0 +1,50 @@
+{
+  "bank_code": "bellary-district-co-operative-central-bank-ltd",
+  "bank_name": "bellary-district-co-operative-central-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9438,
+  "duration_ms": 9438,
+  "duration_api_ms": 9288,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008658,
+  "input_tokens": 18845,
+  "output_tokens": 700,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"bellary district co-operative central bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bellarydistrictcooperativecentralbank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bellarydistrictcooperativecentralbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 49,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bellarydistrictcooperativecentralbankltd.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bellarydccb.co.in\"}"
+    }
+  ]
+}

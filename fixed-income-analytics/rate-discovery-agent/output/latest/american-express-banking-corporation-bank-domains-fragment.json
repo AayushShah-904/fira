@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "american-express-banking-corporation",
+    "extracted_at": "2026-06-05T11:18:40.142Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "americanexpress.com",
+  "rate_pages": {
+    "fd": "/content/dam/amex/in/legal/notice-board/Ratecard/RateCard_Jan..pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf",
+  "notes": "Cloudflare/Akamai blocks default HTTP clients on PDF asset endpoints (WebFetch returns 403); curl with browser User-Agent succeeds. PDF rate card, single page, two parallel tables. 2 tables",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "American Express Banking Corp India publishes only an INSTITUTIONAL term-deposit rate card (min deposit Rs 15 Lakh; accepts deposits only from Companies, Partnerships, Trusts, Associations, Societies, Clubs, NGOs; explicitly NOT individuals or HUFs). No retail FD product. Institutional rate-card PDF at americanexpress.com/content/dam/amex/in/legal/notice-board/Ratecard/RateCard_Jan..pdf (w.e.f. 30 Jan 2020) is a T&C sheet whose per-tenure grid is image-rendered / absent in text; WebFetch returns HTTP 403. Re-verified: web search returns only US AmEx CD products and aggregators."
+  }
+}

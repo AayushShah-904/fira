@@ -1,0 +1,140 @@
+{
+  "bank_code": "rohtak-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2021-06-26",
+  "source_url": "https://rccbrohtak.in/irates.html",
+  "scraped_at": "2026-06-09T16:03:23.852Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1-14 days",
+      "tenure_min_days": 1,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "i) 1-14 days 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "ii) 15 days to 30 days 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "iii) 31 days to 45 days 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "iv) 46 days to 90 days 4.00 4.00 4.00"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "v) 91 days to 180 days 4.00 4.00 4.00"
+    },
+    {
+      "tenure_text": "181 days to 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "vi) 181 days to 1 year 4.60 4.60 4.60"
+    },
+    {
+      "tenure_text": "Over 1 year to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "vii) Over 1 year to 2 years 5.50 5.50 5.50"
+    },
+    {
+      "tenure_text": "Over 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "viii) Over 2 years to 3 years 5.50 5.50 5.50"
+    },
+    {
+      "tenure_text": "Over 3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "ix) Over 3 years to 5 years 5.50 5.50 5.50"
+    },
+    {
+      "tenure_text": "Above 5 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "x) Above 5 Years 5.50 5.50 5.50"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/10 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 30",
+    "chunk[0]: senior citizen rate mentioned as +0.5% in context but no separate column in table",
+    "chunk[0]: special scheme for 500 days commented out, no rates given",
+    "chunk[0]: bulk deposit tiers present as deposit_range",
+    "rates-qc: effective_date \"26.06.2021\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-06-26\" parses to 2021-06-26 (year 2021 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1853,
+    "last_scraped_at": "2026-06-09T16:03:23.852Z",
+    "manual_verification_needed": true
+  }
+}

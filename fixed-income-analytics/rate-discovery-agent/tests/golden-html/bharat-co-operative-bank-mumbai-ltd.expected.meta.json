@@ -1,0 +1,13 @@
+{
+  "bank_code": "bharat-co-operative-bank-mumbai-ltd",
+  "bank_name": "bharat-co-operative-bank-mumbai-ltd",
+  "bank_type": "SUCB",
+  "state": "Maharashtra",
+  "website": "https://bharatbank.bank.in",
+  "rate_page_url": "https://bharatbank.bank.in/interest_rates_fd.html",
+  "scraper_type": "html_static",
+  "extraction_method": "automatic_html_static",
+  "slab_count": 40,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

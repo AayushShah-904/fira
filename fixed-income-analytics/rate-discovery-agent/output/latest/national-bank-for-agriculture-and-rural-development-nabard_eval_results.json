@@ -1,0 +1,27 @@
+{
+  "bank_code": "national-bank-for-agriculture-and-rural-development-nabard",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\national-bank-for-agriculture-and-rural-development-nabard_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.660290Z",
+  "overall_passed": false,
+  "metrics": {
+    "schema_completeness": {
+      "score": 50,
+      "passed": false,
+      "reason": "10 missing field values across 5 slabs",
+      "missing_breakdown": {
+        "tenure_min_days": 5,
+        "tenure_max_days": 5
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 5 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

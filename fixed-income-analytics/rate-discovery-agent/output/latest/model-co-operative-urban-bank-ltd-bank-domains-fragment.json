@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "model-co-operative-urban-bank-ltd",
+    "extracted_at": "2026-06-06T11:02:15.506Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "modelbankhyd.in",
+  "rate_pages": {
+    "fd": "/deposit.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/deposit.html",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-4col-tenure-general-senior-bulk",
+    "template_hash": "sha1:f47605d9f4b0ae7bb8572d7602e448c1cc683b8c",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

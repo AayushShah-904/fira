@@ -1,0 +1,252 @@
+{
+  "bank_code": "idfc-first-bank-ibu",
+  "scraped_at": "2026-05-13T18:41:44.146Z",
+  "source_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf",
+  "effective_date": "2026-01-16",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7 – 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "15 – 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "30 – 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "46 – 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "91 – 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "181 days - & less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "Above 1 year to < 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 years to < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3 years to < 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "4 years to 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "7 – 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "15 – 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "30 – 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "46 – 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "91 – 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 2.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "181 days - & less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 2.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "Above 1 year to < 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "2 years to < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "3 years to < 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "4 years to 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 1.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "EUR"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Could not parse tenure: \"1 Year\t \t4.\t50\t%\" (normalized: \"1 Year\t \t4.\t50\t%\")",
+    "Could not parse tenure: \"Above 1 year to < 2 years\t \t4.\t50\t%\" (normalized: \"Above 1 year to < 2 years\t \t4.\t50\t%\")",
+    "Could not parse tenure: \"2 years to < 3 years\t \t4.\t50\t%\" (normalized: \"2 years to < 3 years\t \t4.\t50\t%\")",
+    "general rate 1.25% below floor (1.5%)",
+    "Could not parse tenure: \"3 years to < 4 years\t \t4.\t50\t%\" (normalized: \"3 years to < 4 years\t \t4.\t50\t%\")",
+    "LLM-verified after sanity-gate flagged deterministic output.",
+    "No additional interest on senior citizen deposits for GIFT City Fixed Deposits.",
+    "Deposits opened and maintained with the Gift City IBU are not covered under any deposit insurance scheme.",
+    "Interest rates are compounded at intervals of 180 days.",
+    "Minimum tenure is 7 days and maximum tenure is 5 years.",
+    "Calendar year is taken as 360 days for interest calculation."
+  ],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "safe_replace",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  }
+}

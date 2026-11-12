@@ -1,0 +1,19 @@
+{
+  "bank_code": "zilla-sahakari-bank-ltd-lucknow",
+  "bank_name": "zilla-sahakari-bank-ltd-lucknow",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Uttar Pradesh",
+  "website": "https://dcblucknow.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://dcblucknow.bank.in/intrest.php?id=4"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:29:42.591Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

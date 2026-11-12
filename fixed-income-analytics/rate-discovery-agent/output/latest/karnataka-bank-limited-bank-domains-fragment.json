@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "bank_code": "karnataka-bank-limited",
+    "extracted_at": "2026-06-05T10:16:53.717Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "karnatakabank.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-interest-rates",
+    "savings": "/deposit-interest-rates",
+    "rd": null,
+    "fd_nre": "/deposit-interest-rates",
+    "fd_nro": "/deposit-interest-rates",
+    "fd_fcnr": "/deposit-interest-rates",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Drupal CMS with JS rendering, WAF (returns 403 on direct fetch, requires Playwright with anti-detection)",
+  "template": {
+    "template_id": "karnataka-bank-multi-tier-retail-bulk",
+    "template_hash": "sha1:689133e03bd198902cf0c391452c512e63e0b336",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "rate_general_pct@3cr_to_10cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 3,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "rate_general_pct@3cr_to_5cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 28,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "karnataka-fcnr-multicurrency",
+    "template_hash": "sha1:689133e03bd198902cf0c391452c512e63e0b336",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 8,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#GBP",
+            "3": "rate_general_pct#EUR",
+            "4": "rate_general_pct#CAD",
+            "5": "rate_general_pct#AUD",
+            "6": "rate_general_pct#JPY",
+            "7": "rate_general_pct#CHF",
+            "8": "rate_general_pct#SEK",
+            "9": "rate_general_pct#HKD",
+            "10": "rate_general_pct#SGD"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 1825
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 42,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "the-anantapur-co-operative-town-bank-ltd",
+    "extracted_at": "2026-06-06T10:43:20.959Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "atpcub.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://atpcub.in/deposit/fixed-deposit/",
+    "fd_prev": "/interest-rates",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "domain_prev": "asklaila.com",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "https://atpcub.in/deposit/fixed-deposit/",
+    "slab_count": 8,
+    "hints": "Bank trades as 'The Anantapuramu Cooperative Urban Bank Limited' on its own site atpcub.in (contact email anantapurcooptownbank@yahoo.co.in confirms identity match with registry name 'The Anantapur Co-Operative Town Bank Ltd.'). | No effective date printed on the rate page. Senior citizens get +0.50% per page note; minimum deposit Rs 5,000.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

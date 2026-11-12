@@ -1,0 +1,78 @@
+{
+  "bank_code": "bandhan-bank-limited",
+  "bank_name": "bandhan-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 38589,
+  "duration_ms": 38589,
+  "duration_api_ms": 38317,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.18118800000000002,
+  "llm_cost_usd": 0.18118800000000002,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 64486,
+  "output_tokens": 6527,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 272,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bandhan.bank.in/rates-charges\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan Ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan Bank"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/bandhan-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bandhan-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Bandhan"
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "Server-rendered static HTML. All rate types (domestic, NRO, NRE, FCNR, bulk) on single /rates-charges page. NRO rates identical to domestic. FCNR available in USD and GBP only.",
+    "website_url": "https://bandhan.bank.in",
+    "rate_url_fd": "https://bandhan.bank.in/rates-charges",
+    "slab_count": 12,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on nre: 6 < 0.8 * 11 (prior)",
+    "domain_was_known": true
+  }
+}

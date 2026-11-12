@@ -1,0 +1,66 @@
+{
+  "bank_code": "hsbc-bank-ibu",
+  "bank_name": "hsbc-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 21844,
+  "duration_ms": 21844,
+  "duration_api_ms": 21232,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.13717600000000002,
+  "llm_cost_usd": 0.13717600000000002,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 52748,
+  "output_tokens": 3960,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 611,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hsbc.co.in/nri/products/gift-city/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/hsbc-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hsbc-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"HSBC Bank IBU\\\",\\n  \\\"bank_t"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/hsbc-bank-ibu_gift_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hsbc-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"HSBC Bank IBU\\\",\\n  \\\"pr"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "html_static",
+    "notes": "Rates for GIFT City IBU term deposits in USD, GBP, EUR. No DICGC insurance. No senior citizen premium. Minimum deposit: USD 1,000 / GBP 500 / EUR 750. Rates as per https://hsbc.co.in/nri/products/gift-city/.",
+    "website_url": "https://hsbc.co.in",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

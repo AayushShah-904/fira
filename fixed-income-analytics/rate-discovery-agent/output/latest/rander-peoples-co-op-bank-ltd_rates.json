@@ -1,0 +1,124 @@
+{
+  "bank_code": "rander-peoples-co-op-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://rpcbl.in/deposits/",
+  "scraped_at": "2026-05-23T10:54:17.000Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 દિવસ થી 45 દિવસ",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 દિવસ થી 270 દિવસ",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "271 દિવસ થી 365 દિવસ",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 વર્ષ થી 2 વર્ષ સુધી",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 વર્ષ થી 3 વર્ષ સુધી",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 વર્ષ થી 4 વર્ષ સુધી",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "4 વર્ષ થી 5 વર્ષ સુધી",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 વર્ષ થી 8 વર્ષ સુધી",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "8 વર્ષ થી 10 વર્ષ સુધી",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:11.661Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-23T10:54:17.000Z",
+      "retained_slab_count": 9
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-23T10:54:17.000Z",
+    "manual_verification_needed": false
+  }
+}

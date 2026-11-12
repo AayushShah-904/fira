@@ -1,0 +1,44 @@
+{
+  "bank_code": "gurdaspur-central-co-operative-bank-ltd",
+  "bank_name": "gurdaspur-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9625,
+  "duration_ms": 9625,
+  "duration_api_ms": 9534,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008522400000000001,
+  "input_tokens": 18814,
+  "output_tokens": 623,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"gurdaspur central co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gurdaspurcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gurdaspurcentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gurdaspurcentralcooperativebankltd.co.in\"}"
+    }
+  ]
+}

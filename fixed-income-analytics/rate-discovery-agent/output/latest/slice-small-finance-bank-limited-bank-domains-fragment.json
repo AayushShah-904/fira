@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "bank_code": "slice-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:56:12.455Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "slice.bank.in",
+  "rate_pages": {
+    "fd": "/rates-and-pricing/",
+    "savings": "/rates-and-pricing/",
+    "rd": "/rates-and-pricing/",
+    "pdf": "/documents/imp/interest-rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML",
+  "template": {
+    "template_id": "sfb-2table-3col-tenure-general-senior",
+    "template_hash": "sha1:64c4b29220addf56c88ff43da888711f7bf9ef72",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 5,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 6,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.502Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  }
+}

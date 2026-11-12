@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "bank_code": "indian-overseas-bank",
+    "extracted_at": "2026-06-05T09:30:31.003Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "iob.bank.in",
+  "rate_pages": {
+    "fd": "https://www.iob.bank.in/en/domestic-nro-nre-retail-term-deposit-rates",
+    "fd_nre": "/en/retail-deposit-interest-rates-domestic-nro-and-nre",
+    "fd_nro": "/en/retail-deposit-interest-rates-domestic-nro-and-nre",
+    "fd_fcnr": "/en/fcnr-rates",
+    "fd_nri_combined": "/en/retail-deposit-interest-rates-domestic-nro-and-nre",
+    "savings": "/en/savings-interest-rates",
+    "rd": null,
+    "fd_url_fixed_at": "2026-05-25",
+    "fd_prev": "/en/retail-deposit-interest-rates-domestic-nro-and-nre"
+  },
+  "scraper_type": "html_static",
+  "notes": "Migrated from iob.in to iob.bank.in (301 redirect). Single combined page for Domestic+NRO+NRE rates. NRO follows domestic rates. NRE available 1yr+ only. Senior citizen +0.50%, super senior +0.75%. Special: 444 Days product. 4 rate tables (retail, NRE, bulk callable, bulk non-callable).",
+  "template": {
+    "template_id": "iob-retail-plus-bulk-existing-revised-noncallable",
+    "template_hash": "sha1:ca62ae0aebd8517fdf922909abd283d882b01db9",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "rate_general_pct",
+            "3": "rate_general_pct",
+            "4": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "3cr_to_5cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T05:44:26.896Z",
+      "gates_passed": "PASS",
+      "slab_count": 25,
+      "cluster_reused": false
+    }
+  }
+}

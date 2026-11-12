@@ -1,0 +1,100 @@
+{
+  "bank_code": "model-co-operative-urban-bank-ltd",
+  "bank_name": "Model Co-operative Urban Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-05-20",
+  "source_url": "https://modelbankhyd.in/deposit.html",
+  "scraped_at": "2026-06-06T07:14:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Savings Deposits (On Daily Products)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "45 Days to 180 Days",
+      "tenure_min_days": 45,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days to 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year to Upto 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 2 Years to Upto 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 8.5,
+      "rate_senior_pct": 9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 2 Years upto 3 Years Bulk Deposit Rs.10.00 Lakhs And Above",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 9.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior citizen rate is same as general rate for some slabs.",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-05-20\" parses to 2023-05-20 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1160,
+    "last_scraped_at": "2026-06-06T07:14:00Z",
+    "manual_verification_needed": true
+  }
+}

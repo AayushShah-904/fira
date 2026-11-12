@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+    "extracted_at": "2026-06-05T12:24:52.425Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "cgapexbank.com",
+  "rate_pages": {
+    "fd": "https://cgapexbank.com/ri_deposit.php",
+    "savings": "/saving_account.php",
+    "rd": "/deposit_rd.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_prev": "/ri_deposit.php",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "PHP server-rendered",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:35:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright networkidle timed out -> node https GET of cgapexbank.com/ri_deposit.php -> manual HTML table parse (domestic table, revised column)",
+    "source_url": "https://cgapexbank.com/ri_deposit.php",
+    "slab_count": 8,
+    "hints": "cgapexbank.com/ri_deposit.php via node https GET (playwright networkidle times out); Hindi domestic table",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

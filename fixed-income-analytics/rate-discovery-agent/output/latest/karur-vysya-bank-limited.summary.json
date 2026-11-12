@@ -1,0 +1,108 @@
+{
+  "bank_code": "karur-vysya-bank-limited",
+  "bank_name": "karur-vysya-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "rates-only",
+  "agent_path": "orchestrator",
+  "run_label": "2026-07-07T0841_karur-vysya-bank-limited",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 50905,
+  "duration_ms": 50905,
+  "duration_api_ms": 1973,
+  "num_turns": 4,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.029410000000000002,
+  "llm_cost_usd": 0.029410000000000002,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 7729,
+  "output_tokens": 16449,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 1916,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 21,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 1794,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd_fcnr",
+      "duration_ms": 2998,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd_fcnr",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_html_table:fd_fcnr",
+      "duration_ms": 42162,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_rates:fcnr@pages[1]",
+      "duration_ms": 13,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page:fd_fcnr",
+      "duration_ms": 23,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "html_static",
+    "notes": "",
+    "website_url": "https://kvb.bank.in",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

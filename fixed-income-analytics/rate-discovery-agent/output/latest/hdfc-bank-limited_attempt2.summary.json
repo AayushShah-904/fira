@@ -1,0 +1,102 @@
+{
+  "bank_code": "hdfc-bank-limited",
+  "bank_name": "hdfc-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 182742,
+  "duration_ms": 182742,
+  "duration_api_ms": 32117,
+  "num_turns": 3,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.8738440000000001,
+  "llm_cost_usd": 0.8738440000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 428530,
+  "output_tokens": 2098,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 38407,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/fixed-deposit/fd-interest-rate\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 39005,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/nri-banking/fixed-deposit-rupee-account/nre-fixed-deposit/rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 37360,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/nri-banking/fixed-deposit-rupee-account/nro-fixed-deposit/rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 35851,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/nri-banking/fixed-deposit-foreign-currency-account/fcnr-deposit/rates\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limited"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limited\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Lim"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_js",
+    "notes": "No rate slabs could be extracted from any of the official HDFC Bank rate pages (FD, NRE, NRO, FCNR) as of 2026-06-04. The pages are JS-rendered (AEM/server-rendered with JS hydration) and protected by CloudFront WAF. Playwright extraction with accordions/tabs/scroll/selects did not yield any rate tables or parseable slabs. This may indicate a site redesign, temporary outage, or additional anti-bot measures. Operator review required.",
+    "website_url": "https://hdfc.bank.in",
+    "rate_url_fd": "https://hdfc.bank.in/fixed-deposit/fd-interest-rate",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

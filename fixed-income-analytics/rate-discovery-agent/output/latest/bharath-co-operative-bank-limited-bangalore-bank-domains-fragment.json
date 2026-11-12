@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "bharath-co-operative-bank-limited-bangalore",
+    "extracted_at": "2026-06-06T10:26:37.973Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "bcbbank.in",
+  "notes": "Official site found (bcbbank.in), but no explicit FD or savings rate pages visible in search results.",
+  "rate_pages": {
+    "fd": "https://bcbbank.in/static-v1.1.1/files/deposits-schemes-2026.pdf",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T23:10:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://bcbbank.in/static-v1.1.1/files/deposits-schemes-2026.pdf",
+    "slab_count": 6,
+    "hints": "Scanned-PDF rate card (English); DI server-side fetch failed (TLS altname mismatch on bcbbank.in). Transcribed via vision OCR of the rendered page. Effective date 2023-04-01 (likely stale).",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

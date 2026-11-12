@@ -1,0 +1,13 @@
+{
+  "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+  "bank_name": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+  "bank_type": "FB",
+  "state": "UK/Hong Kong",
+  "website": "https://hsbc.co.in",
+  "rate_page_url": "https://hsbc.co.in/accounts/products/fixed-deposits/",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 26,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

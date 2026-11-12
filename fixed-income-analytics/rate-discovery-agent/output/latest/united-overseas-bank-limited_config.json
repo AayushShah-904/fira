@@ -1,0 +1,22 @@
+{
+  "bank_code": "united-overseas-bank-limited",
+  "bank_name": "united-overseas-bank-limited",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Singapore",
+  "website": "https://uob.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://uob.bank.in/assets/web-resources/in/pdf/useful/interest-rates/interest-rate.pdf",
+    "fd_nre": "https://uob.bank.in/nre-deposits",
+    "fd_nro": "https://uob.bank.in/nro-deposits",
+    "fd_fcnr": "https://uob.bank.in/fcnr-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:10:34.410Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

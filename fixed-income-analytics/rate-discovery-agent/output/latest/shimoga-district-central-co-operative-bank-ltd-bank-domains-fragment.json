@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "bank_code": "shimoga-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:32:55.422Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "shimogadccbank.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://shimogadccbank.com/interest-on-deposit/",
+    "fd_prev": "/fixed-deposit/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "domain_prev": "shimogadcc.bank.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "https://shimogadccbank.com/interest-on-deposit/",
+    "slab_count": 8,
+    "hints": "General-rate table does not publish a separate 2-3 Years slab (senior table shows 2-3 Years at 7.50%); recorded slabs as published. | Above Rs. 2 Cr tier is ~0.10% higher; only below_3cr (retail) tier captured here. | No explicit w.e.f. date for the regular table; special-deposit window noted 01.07.2025-30.09.2025.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "dccb-2bucket-retail-bulk",
+    "template_hash": "sha1:a2759c0b8016d11c375bc1a39a25457edbe7a05f",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_2cr",
+            "2": "rate_general_pct@above_2cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 15,
+      "cluster_reused": false
+    }
+  }
+}

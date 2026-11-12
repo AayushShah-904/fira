@@ -1,0 +1,140 @@
+{
+  "bank_code": "andhra-pradesh-grameena-bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-15",
+  "source_url": "https://apgb.bank.in/banking-products/deposits/deposit-interest-rates",
+  "scraped_at": "2026-06-05T05:38:00Z",
+  "extraction_confidence": "high",
+  "extraction_method": "llm_inline_extraction",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.25,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": 3.9,
+      "rate_super_senior_pct": 4.15,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.15,
+      "rate_senior_pct": 5.65,
+      "rate_super_senior_pct": 5.9,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": 5.4,
+      "rate_super_senior_pct": 5.65,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.5,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.55,
+      "rate_senior_pct": 6.05,
+      "rate_super_senior_pct": 6.3,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "180 days to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "180 days to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": 6.9,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 7.75,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": 7.6,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "2 years and above",
+      "tenure_min_days": 730,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": 7.4,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "2 years and above",
+      "tenure_min_days": 730,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "AKSHAYA Term Deposit Scheme (Non-Callable)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "AKSHAYA Term Deposit Scheme (Non-Callable)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 7.75,
+      "deposit_range": "1cr_and_above"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": []
+}

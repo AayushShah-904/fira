@@ -1,0 +1,18 @@
+{
+  "bank_code": "city-union-bank-limited",
+  "bank_name": "city-union-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "website": "https://cityunionbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://cityunionbank.bank.in/deposit-interest-rate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:38:10.996Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "janata-sahakari-bank-ltd-satara",
+  "bank_name": "janata-sahakari-bank-ltd-satara",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://jsbsatara.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://jsbsatara.com/deposits-interest-rates-janata-bank-satara-2"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:51:45.414Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

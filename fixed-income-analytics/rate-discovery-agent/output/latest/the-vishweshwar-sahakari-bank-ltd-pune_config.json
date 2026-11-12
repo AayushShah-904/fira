@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-vishweshwar-sahakari-bank-ltd-pune",
+  "bank_name": "the-vishweshwar-sahakari-bank-ltd-pune",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://vishweshwar.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://vishweshwar.bank.in/Encyc/2022/3/5/Interest-Rate-Term-Deposits.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:13:05.563Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

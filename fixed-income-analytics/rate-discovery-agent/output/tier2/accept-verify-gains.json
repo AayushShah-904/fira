@@ -1,0 +1,111 @@
+[
+  {
+    "idx": 2,
+    "bank_code": "axis-bank-limited",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Shipped file has 162 slabs = 18 distinct tenures x 9 deposit-amount tiers (below_3cr, 3cr_to_5cr, 5cr_to_25cr, 25cr_to_50cr, 50cr_to_100cr, 100cr_to_200cr, 200cr_to_500cr, 500cr_to_1000cr, above_1000cr), 0 exact-duplicate rows, general+senior pairs present. Live Axis FD page (axis.bank.in/deposits/fixed-deposits/fd-interest-rates) + web search confirm Axis genuinely publishes multiple deposit-amount tiers (retail below 3cr, 3cr-5cr, and FD-Plus bulk brackets >=3cr). The 18x9 grid is real published structure, not duplication. Date-stamped source PDF (domestic-fixed-deposits-21-may-26.pdf) now 404s (filename rotated to a newer date) but the structure is sound."
+  },
+  {
+    "idx": 3,
+    "bank_code": "axis-bank-limited",
+    "variant": "nre",
+    "verdict": "VERIFIED",
+    "evidence": "72 slabs = 8 distinct tenures x 9 deposit tiers. All 8 NRE tenures have tenure_min_days >= 365 (1 year to 10 years) - correct, since NRE minimum tenure is 1 year and Axis only offers >=1yr NRE buckets. No senior-citizen rates (correct: NRIs get no senior premium). Genuine published NRI structure, not inflated."
+  },
+  {
+    "idx": 4,
+    "bank_code": "axis-bank-limited",
+    "variant": "nro",
+    "verdict": "VERIFIED",
+    "evidence": "162 slabs = 18 tenures x 9 deposit tiers; tenure set is identical to the domestic regular FD tenure set (NRO mirrors domestic tenures including sub-year buckets, which is correct). 0 exact-dup rows, no senior rates (correct for NRI). Same source PDF as NRE (nri-fixed-deposits). Real published data."
+  },
+  {
+    "idx": 17,
+    "bank_code": "emirates-nbd-bank-pjsc",
+    "variant": "fcnr",
+    "verdict": "BUG",
+    "evidence": "Live page emiratesnbd.bank.in/en/interest-rates publishes FCNR Card Rates (USD only): exactly 3 tenure rows - '>=12m to <=13m: 3.75%', '>13m to <=24m: 3.70%', '>24m to <=36m: 3.65%' (eff 16 Mar 2026). Baseline of 3 was CORRECT. The shipped FCNR file has 23 slabs with short tenures (7-10 days, 11-14 days ... up to 3 years) at 2.75%-6.75% - these are the bank's INR/domestic term-deposit rates mislabeled as currency=USD FCNR. FCNR minimum tenure is 1 year, so sub-year USD rows cannot be FCNR.",
+    "issue_if_bug": "Over-extraction: the entire domestic/INR term-deposit rate card (23 rows) was scraped into the FCNR file and stamped currency=USD. Genuine FCNR has only 3 USD long-tenure rows. The 3->23 'gain' is wrong data. Should ship the 3 real USD rows, not 23."
+  },
+  {
+    "idx": 30,
+    "bank_code": "rbl-bank-limited",
+    "variant": "nre",
+    "verdict": "BUG",
+    "evidence": "Live page rbl.bank.in/interest-rates: NRE rates appear ONLY as a column in the combined table for tenures >=12 months (12-17m=7.00, 18-36m=7.20, 37-59m=7.00, 60-120m=6.70; page explicitly states 'Minimum tenor for NRE Deposit is 1 Year' and 'Senior Citizen Rates do not apply to NRIs'). Shipped NRE file has 28 slabs that are the concatenated DOMESTIC FD tables plus savings-account amount tiers ('7 days to 14 days'=3.5, 'Upto INR 1 lakh'=3, 'Above INR 7.5 Crore...'=5.5) - none of these are NRE rates, all have currency=none.",
+    "issue_if_bug": "Over-extraction: domestic FD + savings tables dumped into the NRE file with no NRE filtering and no currency. Sub-year and savings rows cannot be NRE (NRE min 1 year). Baseline 4 was approximately the genuine NRE row count; 28 is inflated garbage."
+  },
+  {
+    "idx": 5,
+    "bank_code": "bandhan-bank-limited",
+    "variant": "fcnr",
+    "verdict": "BUG",
+    "evidence": "Live page bandhan.bank.in/rates-charges FCNR tables: USD has 6 rows (1 Year only=4.84 down to 5 Years=2.14); GBP/EUR table has GBP '1 Year to <2 Years'=3.48 and the rest NA. Shipped FCNR file has 19 slabs ALL labeled currency=USD: rows 1-12 are short sub-year tenures (7 days to 14 days=2.95, etc.) that are NOT FCNR, and the trailing rows include the real USD FCNR values AND the GBP value (3.48) mislabeled as USD. EUR not represented as a distinct currency.",
+    "issue_if_bug": "Mixed over-extraction + currency mislabeling: ~12 non-FCNR sub-year rows folded in, and the GBP 3.48 row stamped currency=USD. Real Bandhan FCNR is ~7 USD rows + 1 GBP row. The 24->19 was not a clean dedup; the file contains wrong rows and a misassigned currency."
+  },
+  {
+    "idx": 21,
+    "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+    "variant": "fcnr",
+    "verdict": "UNREACHABLE",
+    "evidence": "Could not fetch live HSBC FCNR source (hsbc.co.in / hsbc.bank.in) from this environment - WebFetch and curl both refused/timed out for HSBC hosts (only DNS resolved for .bank.in hosts; HSBC sources not retrievable). The accept-input current_data sample (n=42) for this record shows blatant exact-duplicate USD rows ('1 year to less than 2 years'=3.25, '2 years'=2.75, '3 years'=2.75 repeated 2-3 times verbatim), which is consistent with the registry's stated post-dedup target of 11. The shipped fcnr file exists. Without a live fetch I cannot confirm the 11 post-dedup slabs still cover all currencies/tenures HSBC publishes (HSBC FCNR typically spans USD/GBP/EUR/CAD/AUD), so I am not signing off the count as VERIFIED.",
+    "issue_if_bug": "Cannot confirm; flag for a re-check with a reachable source. Risk: if dedup collapsed multiple currencies whose USD-equivalent rows looked identical, real currencies (GBP/EUR/CAD/AUD) may have been lost - the input sample only shows USD."
+  },
+  {
+    "idx": 23,
+    "bank_code": "indian-bank",
+    "variant": "fcnr",
+    "verdict": "BUG",
+    "evidence": "Live page indianbank.bank.in/departments/fcnr-b-deposits/ publishes FCNR(B) for 8 currencies x 5 tenure buckets (1yr-<2 / 2-<3 / 3-<4 / 4-<5 / exactly 5yr): USD, GBP, EUR, JPY, CAD, AUD, CHF, SGD = 40 rows (matches baseline 40). Shipped file has 25 = only 5 currencies x 5 (USD, GBP, EUR, CAD, AUD). JPY, CHF, SGD are entirely MISSING. The kept USD/GBP/EUR/CAD/AUD values match the source exactly, but JPY(0.10/0.13/0.12/0.13/0.14), CHF(0.01...), SGD(3.00/0.40/...) are distinct real rates, not duplicates.",
+    "issue_if_bug": "Lost currencies: the 40->25 drop removed 3 genuine FCNR currencies (JPY, CHF, SGD = 15 real rows), not duplicate rows. Dedup over-removed. Should retain all 8 currencies."
+  },
+  {
+    "idx": 25,
+    "bank_code": "jammu-kashmir-bank-limited",
+    "variant": "fcnr",
+    "verdict": "VERIFIED",
+    "evidence": "Live PDF jkb.bank.in 'Rates at Quick Glance' FCNR(B) section publishes 6 currencies (USD, GBP, EUR, JPY, CAD, AUD) x 5 tenure buckets (>1yr to 5yr), with explicit note 'Deposits in JPY, CAD & AUD accepted for max 3 years only'. Shipped file has 22 slabs covering ALL 6 currencies: USD=5, GBP=5, EUR=5, JPY=3, CAD=2, AUD=2. The 30->22 drop is explained by the legitimate <=3yr tenure cap on JPY/CAD/AUD (those longer-tenure rows don't exist), not by dropping a currency. No real currency lost.",
+    "issue_if_bug": "Minor caveat (not a bug): the live PDF I fetched shows slightly higher values (USD 1yr=4.60, GBP=4.25) vs shipped (USD=4.5, GBP=4.15, eff 2025-12-10) - a stale-but-valid effective-date snapshot, expected for a rotating PDF. Currency/tenure coverage is correct and complete."
+  },
+  {
+    "idx": 29,
+    "bank_code": "punjab-national-bank",
+    "variant": "fcnr",
+    "verdict": "BUG",
+    "evidence": "Live page pnb.bank.in/Interest-Rates-Deposit.html publishes FCNR (w.e.f. 01.05.2026) as table[23]: 6 currencies (USD, GBP, EUR, JPY, CAD, AUD) x 5 annual tenures (1,2,3,4,5 yrs) = 30 rows (matches baseline 30). Shipped FCNR file has 21 slabs that are the INR DOMESTIC FD table (table[19]): tenures '7 days to 14 days'=4.5, '155 days'=5/5.55 with senior-citizen premiums, up to '>5 Years to 10 Years', all defaulted to currency=USD. The shipped file's own warnings confirm this: 'input table is INR domestic fixed deposit rates, not FCNR', 'table is for NRE Term Deposit, not FCNR', 'currency_hint: defaulted to USD ... operator should verify'.",
+    "issue_if_bug": "Wrong-table over-extraction: deterministic picker selected the INR domestic FD table and stamped currency=USD; FCNR has no senior premium yet shipped rows have rate_senior_pct. All 6 real FCNR currencies are absent. The 30->21 is not dedup - it is the wrong table entirely. The bank's own LLM-error warnings flagged this at extraction time."
+  },
+  {
+    "idx": 7,
+    "bank_code": "bank-of-baroda-ibu",
+    "variant": "gift",
+    "verdict": "VERIFIED",
+    "evidence": "Live page ifsc.bankofbaroda.bank.in/rates-and-charges/interest-rates publishes IBU/GIFT deposits for 5 currencies (USD, EUR, GBP, AUD, AED): Table0 (with premature withdrawal) = 10 tenure rows x 5 currencies = 50; Table1 (no-premature, non-individuals) = 4 tenures x 5 that overlap/duplicate Table0 values for the longer tenures; and the up_to_5mn and >5mn amount columns are identical. Shipped file has 65 = 10 distinct tenures x 5 ccy, but 3 long tenures carry duplicate currency rows (each ccy appears twice from the no-premature overlap) = 7x5 + 3x10 = 65. The proposed dedup to 50 collapses those true-duplicate rows to 10 tenures x 5 currencies. All 5 currencies retained.",
+    "issue_if_bug": "Caveat (not a bug): shipped values are an older snapshot (eff 2026-03-16) - e.g. EUR 7-30d shipped=1.0 vs current source 1.75, AED=3.9 vs 3.35 - because the source page updated since extraction. The 65->50 dedup itself is correct (removes genuine duplicate rows; no currency lost). Values should be refreshed but the dedup count of 50 is valid."
+  },
+  {
+    "idx": 10,
+    "bank_code": "bank-of-india-ibu",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "BoI-IBU correctly ships a gift_rates.json (64 slabs = 4 currencies USD/EUR/GBP/JPY x 8 tenures x 2 deposit ranges below_1m/above_1m, eff 2026-02-13, conf high, src bankofindia.bank.in/ibu_interest_rate) and NO regular (_rates.json) file. Config is bank_type=IBU, deposit_insurance=false, scraper_type=html_js. An IFSC Banking Unit offers only foreign-currency GIFT deposits, never an INR retail/regular product, so the 'regular variant 8->0' is a correct reclassification: the formerly-mislabeled 'regular' rows are now properly the gift variant. Gift file is well-formed.",
+    "issue_if_bug": "Live source (bankofindia.bank.in/ibu_interest_rate) returned 403 on my one fetch attempt, so I could not re-validate the 64 gift values against source; but the reclassification regular->gift (the subject of this record) is correct on its face for an IBU."
+  },
+  {
+    "idx": 20,
+    "bank_code": "hdfc-bank-ibu",
+    "variant": "gift",
+    "verdict": "BUG",
+    "evidence": "Live PDF hdfcgiftcity.bank.in/.../offshore-deposit-interest-rates.pdf (valid from 26 May 2026) publishes an Offshore Deposit table with ~12 tenure rows and columns for USD (with-premature), USD (without-premature), EUR, and GBP. That is 3 currencies x ~12 tenures (~30+ rates). Shipped gift file has only 8 slabs, USD only, and its own warning admits 'PDF extraction returned only one currency column (likely USD); other currencies may be present'. Worse, the 8 shipped USD values (2-3m=4, 6-9m=2, 12-18m=4, 18m-2y=2, 2-3y=4, 3-4y=3.1, 4-5y=3.15, 5y=3.1) do NOT match the PDF USD column (2-3m=3.85, 6-9m=4.10, 12-18m=4.30, 18m-2y=4.40, 2-3y=4.05, 3-4y=4.00) - they are misaligned/garbled column reads.",
+    "issue_if_bug": "Lost currencies (EUR, GBP entirely dropped) AND garbled USD values from a misaligned PDF parse. The 35->8 drop discarded real published data and what remains is wrong. Should re-extract all 3 currencies x ~12 tenures with correct column alignment."
+  },
+  {
+    "idx": 24,
+    "bank_code": "indusind-bank-ibu",
+    "variant": "gift",
+    "verdict": "BUG",
+    "evidence": "Live page indusind.bank.in/in/en/personal/rates.html GIFT-City section DOES publish extensive IBU rates in the raw HTML: Table13 (5 tenures x 9 USD-tier/GBP/EUR/JPY/CAD/AUD columns), Table15 (24 tenures x USD/EUR/GBP callable), Table16 (24 tenures x USD/EUR/GBP non-callable), plus Global Savings tables. However the shipped output ships ZERO gift slabs (no gift_rates.json) with config scraper_type=manual, confidence=none, notes 'No official published deposit rates ... available'. The discovery summaries show run_playwright timed out twice (120s each) and the agent concluded the rates don't exist.",
+    "issue_if_bug": "False negative / data loss: the agent's Playwright timed out so it declared no published rates, but the IBU/GIFT rates are present in the page's raw HTML (I retrieved them via plain HTTPS) - multiple currencies x many tenures. Baseline 24 was real. Dropping to 0 is not a legitimate reclassification or dedup; it is missed extraction. Should re-scrape the GIFT tables (USD/EUR/GBP/JPY/CAD/AUD)."
+  }
+]

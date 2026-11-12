@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "ahmednagar-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T14:45:25.738Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "adccbanknagar.bank.in",
+  "rate_pages": {
+    "fd": "/Individual-Depositors.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/Individual-Depositors.html",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

@@ -1,0 +1,23 @@
+{
+  "bank_code": "idbi-bank-ibu",
+  "bank_name": "IDBI Bank IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-05-21",
+  "source_url": "https://idbi.bank.in/ibu/interest-rates.aspx",
+  "scraped_at": "2026-05-20T22:15:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 IBU sweep: GIFT data was mislabeled in the bare _rates.json (pack slotted it as the regular/domestic variant). Emptied; canonical GIFT data is in the _gift variant."
+  ],
+  "errors": [],
+  "extraction_method": "manual_data_entry",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-05-20T22:15:00Z",
+    "manual_verification_needed": false
+  }
+}

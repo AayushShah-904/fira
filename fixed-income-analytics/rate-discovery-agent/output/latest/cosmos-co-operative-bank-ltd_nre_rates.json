@@ -1,0 +1,113 @@
+{
+  "bank_code": "cosmos-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-09-15",
+  "source_url": "https://cosmos.bank.in/interest-rates",
+  "scraped_at": "2026-10-01T21:51:27.669Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Only 1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 12 Months to 443 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 443,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "444 days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "445 days to less than 16 months",
+      "tenure_min_days": 445,
+      "tenure_max_days": 479,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "16 months",
+      "tenure_min_days": 480,
+      "tenure_max_days": 480,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 16 months to 24 months",
+      "tenure_min_days": 481,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 36 months to 10 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "INR",
+      "deposit_range": "below_1cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Slab 1 (Rs. 1.00 Crore to Rs. 3.00 Crore): nre rate 0.3% below floor (2%)",
+    "Slab 1 (Rs. 1.00 Crore to Rs. 3.00 Crore): senior rate 0.5% below floor (1.5%)",
+    "Slab 2 (7 days to 14 days): nre tenure 7d below minimum (365d)",
+    "Slab 3 (15 days to 30 days): nre tenure 15d below minimum (365d)",
+    "Slab 4 (31 days to 45 days): nre tenure 31d below minimum (365d)",
+    "Slab 5 (46 days to 60 days): nre tenure 46d below minimum (365d)",
+    "Slab 6 (61 days to 90 days): nre tenure 61d below minimum (365d)",
+    "Slab 7 (91 days to 181 days): nre tenure 91d below minimum (365d)",
+    "Slab 8 (182 days to less than 9 months): nre tenure 182d below minimum (365d)",
+    "Slab 9 (9 months to less than 12 months): nre tenure 270d below minimum (365d)",
+    "Slab 10 (12 months to less than 16 months): nre tenure 360d below minimum (365d)",
+    "TYPE-2 fix applied 2026-07-23: Dropped \"Rs. 1.00 Crore to Rs. 3.00 Crore\" bulk deposit header row (null tenure, rate_general=0.3)."
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 9,
+    "last_scraped_at": "2026-07-22T16:46:52.106Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "bank_code": "indian-bank-ibu",
+  "reason": "slab drift on gift: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T22:30:22.637Z",
+  "attempts": 3
+}

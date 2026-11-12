@@ -1,0 +1,71 @@
+{
+  "bank_code": "bhuj-commercial-co-op-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://bccbbhuj.bank.in/deposite_int.php",
+  "scraped_at": "2026-05-23T10:54:26.822Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "46 DAYS TO 90 DAYS",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 DAYS TO 180 DAYS",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 DAYS TO 1 YEAR",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 YEAR TO 2 YEARS",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 YEARS TO 3 YEARS",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-23T10:54:26.822Z",
+    "manual_verification_needed": false
+  }
+}

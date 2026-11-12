@@ -1,0 +1,94 @@
+{
+  "bank_code": "bandhan-bank-limited",
+  "bank_name": "Bandhan Bank Limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-05-01",
+  "source_url": "https://bandhan.bank.in/rates-charges",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year only",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.84,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year 1 day to < 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.74,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years to < 3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.14,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 Years to < 4 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.14,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 Years to < 5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.14,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.14,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year to < 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.48,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "VERIFIED Tier-2 recheck (2026-05-26) against the live source: the current output/latest file (7 slabs: USD x6 + GBP x1) is CORRECT and COMPLETE. No currencies or tenures were missed.",
+    "Live FCNR(B) chart 'for the month of May 2026' publishes a USD column (6 tenure rows) plus a GBP/EUR column. GBP has exactly ONE published rate (1 Year to < 2 Years = 3.48%); all other GBP tenures are NA. EUR is listed but every tenure is NA, so no EUR slab is emitted (no fabrication).",
+    "No JPY/CAD/AUD columns exist on Bandhan's FCNR chart. FCNR minimum tenure is 1 year; no sub-year rows. FCNR has no senior-citizen premium (rate_senior_pct null). Interest compounded half-yearly per source note."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_static_html",
+  "discovery_metadata": {
+    "run_method": "tier-2-recheck",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  }
+}

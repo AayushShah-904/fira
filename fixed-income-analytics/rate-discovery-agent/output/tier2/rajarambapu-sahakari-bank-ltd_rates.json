@@ -1,0 +1,304 @@
+{
+  "bank_code": "rajarambapu-sahakari-bank-ltd",
+  "bank_name": "Rajarambapu Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-01",
+  "source_url": "https://rajarambapu.bank.in/interest-rate",
+  "scraped_at": "2026-05-25T11:18:34.694Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 ते 29 दिवस",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "07 ते 29 दिवस",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "30 ते 45 दिवस",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "30 ते 45 दिवस",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "46 ते 90 दिवस",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46 ते 90 दिवस",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "91 ते 120 दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91 ते 120 दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "121 ते 180 दिवस",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "121 ते 180 दिवस",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "181 ते 270 दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "181 ते 270 दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "271 ते 364 दिवस",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "271 ते 364 दिवस",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१२ महिने ते १५ महिने",
+      "tenure_min_days": 360,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१२ महिने ते १५ महिने",
+      "tenure_min_days": 360,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१५ महिने १ दिवस ते १८ महिने",
+      "tenure_min_days": 15,
+      "tenure_max_days": 1,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१५ महिने १ दिवस ते १८ महिने",
+      "tenure_min_days": 15,
+      "tenure_max_days": 1,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "१८ महिने १ दिवस ते २१ महिने",
+      "tenure_min_days": 18,
+      "tenure_max_days": 1,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "१८ महिने १ दिवस ते २१ महिने",
+      "tenure_min_days": 18,
+      "tenure_max_days": 1,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "२१ महिने १ दिवस ते २४ महिने",
+      "tenure_min_days": 21,
+      "tenure_max_days": 1,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "२१ महिने १ दिवस ते २४ महिने",
+      "tenure_min_days": 21,
+      "tenure_max_days": 1,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "२४ महिने १ दिवस ते ३० महिने",
+      "tenure_min_days": 24,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "२४ महिने १ दिवस ते ३० महिने",
+      "tenure_min_days": 24,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "३० महिने १ दिवस ते ३६ महिने",
+      "tenure_min_days": 30,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "३० महिने १ दिवस ते ३६ महिने",
+      "tenure_min_days": 30,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "३६ महिने १ दिवस ते ४२ महिने",
+      "tenure_min_days": 36,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "३६ महिने १ दिवस ते ४२ महिने",
+      "tenure_min_days": 36,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "४२ महिने १ दिवस ते ४८ महिने",
+      "tenure_min_days": 42,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "४२ महिने १ दिवस ते ४८ महिने",
+      "tenure_min_days": 42,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "४८ महिने १ दिवस ते १२० महिने",
+      "tenure_min_days": 48,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "४८ महिने १ दिवस ते १२० महिने",
+      "tenure_min_days": 48,
+      "tenure_max_days": 1,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    }
+  ],
+  "warnings": [
+    "Source table in Marathi; tenures/rates transliterated. Two columns = deposit amount tiers (below 1cr / above 1cr), not general/senior. No senior-citizen column published on page."
+  ],
+  "tier2_method": "playwright_html_table_parse (Marathi)"
+}

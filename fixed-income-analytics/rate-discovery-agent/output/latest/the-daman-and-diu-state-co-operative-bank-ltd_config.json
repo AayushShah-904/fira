@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-daman-and-diu-state-co-operative-bank-ltd",
+  "bank_name": "the-daman-and-diu-state-co-operative-bank-ltd",
+  "bank_type": "NSSCB",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "state": "Daman and Diu",
+  "website": "https://ddscbl.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://ddscbl.bank.in/Deposits.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:01:13.404Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,60 @@
+{
+  "bank_code": "jpmorgan-securities-plc-ibu",
+  "bank_name": "jpmorgan-securities-plc-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 5631,
+  "duration_ms": 5631,
+  "duration_api_ms": 5626,
+  "num_turns": 2,
+  "tool_call_count": 2,
+  "total_cost_usd": 0.03855,
+  "llm_cost_usd": 0.03855,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 15779,
+  "output_tokens": 874,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "write_file",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/jpmorgan-securities-plc-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jpmorgan-"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/jpmorgan-securities-plc-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jpmorgan-s"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "manual",
+    "notes": "No deposit rate information for JPMorgan's IFSC Banking Unit (IBU) at GIFT City is published on the official website or in public documents. Rates are provided only to institutional clients via direct relationship manager contact. Peer banks at GIFT City (Axis, SBI, HDFC, HSBC) publish rates in the range of 3.0%-4.3% p.a. for USD deposits, but JPMorgan's rates are not disclosed.",
+    "website_url": "https://jpmorgan.com",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "bank_code": "the-nanded-merchants-co-operative-bank-ltd",
+  "bank_name": "The Nanded Merchants Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://www.nmcb.in/Financial_Condition/Interest_Rates/",
+  "scraped_at": "2026-05-25T15:54:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "30 days to 45 days", "tenure_min_days": 30, "tenure_max_days": 45, "rate_general_pct": 4.25, "rate_senior_pct": 4.75, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 5.00, "rate_senior_pct": 5.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "181 days to 210 days", "tenure_min_days": 181, "tenure_max_days": 210, "rate_general_pct": 6.25, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "211 days to 270 days", "tenure_min_days": 211, "tenure_max_days": 270, "rate_general_pct": 6.70, "rate_senior_pct": 7.20, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "271 days to 365 days", "tenure_min_days": 271, "tenure_max_days": 365, "rate_general_pct": 7.25, "rate_senior_pct": 7.75, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "1 year to 2 years", "tenure_min_days": 365, "tenure_max_days": 730, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "2 years to 5 years", "tenure_min_days": 731, "tenure_max_days": 1825, "rate_general_pct": 7.60, "rate_senior_pct": 8.10, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "5 years to 10 years", "tenure_min_days": 1826, "tenure_max_days": 3650, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_15l" }
+  ],
+  "warnings": [
+    "Source page (nmcb.in) has an expired TLS certificate; fetched via curl -k. Table read from the bank's own 'Deposit Interest Rates' HTML table.",
+    "Original row label '211 months to 270 days' is a typo on the page for '211 days to 270 days' (sequence 181-210, 211-270, 271-365 confirms days); recorded as days.",
+    "Senior column is the absolute senior-citizen rate (general + 0.50%). Bank also notes 0.15% extra for super-senior (80+); no per-slab super-senior table given, so rate_super_senior_pct left null.",
+    "A 'Damduppat' (money-doubling) scheme row (118 months general / 116 months senior) is a maturity-period scheme, not a tenure rate slab, so excluded.",
+    "No explicit w.e.f / effective date shown on the page."
+  ],
+  "tier2_method": "webfetch"
+}

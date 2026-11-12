@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+    "extracted_at": "2026-06-06T10:41:03.822Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "shiddeshwarbank.com",
+  "notes": "Official site exists; interest rate pages not found via search results.",
+  "rate_pages": {
+    "fd": "/index.aspx?Cmd=Menu&Comp=Cms&Action=ArtById&MenuId=202&ArtId=37&PublicFile=INTEREST_RATES",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static"
+}

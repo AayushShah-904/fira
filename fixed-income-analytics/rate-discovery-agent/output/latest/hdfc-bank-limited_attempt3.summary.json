@@ -1,0 +1,78 @@
+{
+  "bank_code": "hdfc-bank-limited",
+  "bank_name": "hdfc-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 193713,
+  "duration_ms": 193713,
+  "duration_api_ms": 39277,
+  "num_turns": 3,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.875854,
+  "llm_cost_usd": 0.875854,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 428643,
+  "output_tokens": 2321,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 38690,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/fixed-deposit/fd-interest-rate\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 39316,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/nri-banking/fixed-deposit-rupee-account/nre-fixed-deposit/rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 38685,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/nri-banking/fixed-deposit-rupee-account/nro-fixed-deposit/rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 37743,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://hdfc.bank.in/nri-banking/fixed-deposit-foreign-currency-account/fcnr-deposit/rates\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limited"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limited\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Limi"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/private-sector-bank-indian/hdfc-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"hdfc-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"HDFC Bank Lim"
+    }
+  ]
+}

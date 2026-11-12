@@ -1,0 +1,75 @@
+{
+  "bank_code": "utkarsh-small-finance-bank-limited",
+  "bank_name": "Utkarsh Small Finance Bank Limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2025-12-01",
+  "source_url": "https://www.utkarsh.bank.in/uploads/regulatory/intrest_rate_nri_fd.pdf",
+  "scraped_at": "2026-04-15T06:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year (365 days) to 370 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 370,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "371 days to less than 2 years (729 days)",
+      "tenure_min_days": 371,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years (730 days) to 3 years (1095 days)",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 years to less than 4 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 years (1461 days) to 5 years (1826 days)",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1826,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1827,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 234,
+    "last_scraped_at": "2026-04-15T06:00:00Z",
+    "manual_verification_needed": true
+  }
+}

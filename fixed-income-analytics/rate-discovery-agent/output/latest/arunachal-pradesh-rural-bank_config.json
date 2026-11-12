@@ -1,0 +1,19 @@
+{
+  "bank_code": "arunachal-pradesh-rural-bank",
+  "bank_name": "arunachal-pradesh-rural-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Arunachal Pradesh",
+  "website": "https://aprb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://aprb.bank.in/interest.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:20:53.650Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

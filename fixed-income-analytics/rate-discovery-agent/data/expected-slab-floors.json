@@ -1,0 +1,18 @@
+{
+  "_comment": "Operator-curated minimum slab counts per bank/variant for the drift-detection retry path (lib/tier-router.js#checkQuality, run-discovery.js).  Image-baked configuration: ships in the container, never round-trips through blob storage.  See data/bank-domains.json for runtime-mutated per-bank state (that file is cloud-synced; this one is not).  Threshold (0.8) is applied at check time by tier-router; values here are raw expected counts from operator-validated runs.",
+  "_seed_source": "sdlc/sprints/sprint-004/implementation/cohort-smoke-12-local-2026-05-19.md",
+  "_seeded_at": "2026-05-20",
+  "banks": {
+    "state-bank-of-india":                    { "regular": 10, "nre": 5,  "nro": 10, "fcnr": 36 },
+    "bank-of-baroda":                         { "regular": 30, "nre": 28, "nro": 30, "fcnr": 25 },
+    "punjab-national-bank":                   { "regular": 21, "nre": 21, "nro": 21, "fcnr": 21 },
+    "hdfc-bank-limited":                      { "regular": 19 },
+    "icici-bank-limited":                     { "regular": 5,  "nre": 13, "nro": 13, "fcnr": 14 },
+    "axis-bank-limited":                      { "regular": 2,                        "fcnr": 12 },
+    "kotak-mahindra-bank-limited":            { "regular": 19, "nre": 19, "nro": 19, "fcnr": 30 },
+    "au-small-finance-bank-limited":          { "regular": 22, "nre": 22, "nro": 22 },
+    "citibank-na":                            { "regular": 17, "nre": 17, "nro": 17 },
+    "bank-of-india-ibu":                      { "gift": 63 },
+    "abhyudaya-co-operative-bank-ltd-mumbai": { "regular": 8 }
+  }
+}

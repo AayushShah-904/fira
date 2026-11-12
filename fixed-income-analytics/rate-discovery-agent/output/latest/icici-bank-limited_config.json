@@ -1,0 +1,22 @@
+{
+  "bank_code": "icici-bank-limited",
+  "bank_name": "icici-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Gujarat",
+  "website": "https://icici.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+    "fd_nre": "https://icici.bank.in/nri-banking/deposits/fixed-deposit/fd-interest-rates",
+    "fd_nro": "https://icici.bank.in/nri-banking/deposits/fixed-deposit/fd-interest-rates",
+    "fd_fcnr": "https://icici.bank.in/nri-banking/deposits/fcnr-rfc/fcnr-rfc-interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T09:26:03.419Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

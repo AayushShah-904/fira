@@ -1,0 +1,27 @@
+{
+  "bank_code": "axis-bank-limited",
+  "variant": "regular",
+  "slab_count": 324,
+  "key_rates": {
+    "1y": {
+      "general": 6.25,
+      "senior": null
+    },
+    "2y": {
+      "general": 6.45,
+      "senior": null
+    },
+    "3y": {
+      "general": 6.45,
+      "senior": null
+    },
+    "5y": {
+      "general": 6.45,
+      "senior": null
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://axis.bank.in/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposits-21-may-26.pdf",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:53.969Z"
+}

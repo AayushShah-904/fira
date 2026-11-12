@@ -1,0 +1,29 @@
+{
+  "bank_code": "shimoga-district-central-co-operative-bank-ltd",
+  "bank_name": "Shimoga District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://shimogadccbank.com/interest-on-deposit/",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "15-45 Days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 4.50, "rate_senior_pct": 5.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46-90 Days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 5.35, "rate_senior_pct": 5.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91-179 Days", "tenure_min_days": 91, "tenure_max_days": 179, "rate_general_pct": 5.90, "rate_senior_pct": 6.40, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "180-269 Days", "tenure_min_days": 180, "tenure_max_days": 269, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "270-364 Days", "tenure_min_days": 270, "tenure_max_days": 364, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1-2 Years", "tenure_min_days": 365, "tenure_max_days": 730, "rate_general_pct": 7.10, "rate_senior_pct": 7.60, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3-5 Years", "tenure_min_days": 1095, "tenure_max_days": 1825, "rate_general_pct": 6.80, "rate_senior_pct": 7.30, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5-10 Years", "tenure_min_days": 1826, "tenure_max_days": 3650, "rate_general_pct": 6.70, "rate_senior_pct": 7.20, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [
+    { "name": "Special Deposit 1-2 Years (01.07.2025 to 30.09.2025)", "tenure_text": "1-2 Years", "rate_general_pct": 7.85, "rate_senior_pct": 8.35 }
+  ],
+  "warnings": [
+    "General-rate table does not publish a separate 2-3 Years slab (senior table shows 2-3 Years at 7.50%); recorded slabs as published.",
+    "Above Rs. 2 Cr tier is ~0.10% higher; only below_3cr (retail) tier captured here.",
+    "No explicit w.e.f. date for the regular table; special-deposit window noted 01.07.2025-30.09.2025."
+  ],
+  "tier2_method": "webfetch"
+}

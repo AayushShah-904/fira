@@ -1,0 +1,26 @@
+{
+  "bank_code": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+  "bank_name": "The Chhattisgarh Rajya Sahakari Bank Maryadit",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-06-10",
+  "source_url": "https://cgapexbank.com/ri_deposit.php",
+  "scraped_at": "2026-05-25T11:35:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 days to 14 days", "tenure_min_days": 7, "tenure_max_days": 14, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "15 days to 45 days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 5.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 5.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to less than 1 year", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year and above but less than 2 years", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 years and above but less than 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years and above", "tenure_min_days": 1095, "tenure_max_days": null, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": [
+    "Source page is in Hindi; used the 'घरेलु जमा' (domestic deposits) table, 'संशोधित' (revised w.e.f. 10-06-2025) column",
+    "Page also has a separate co-operative-institutions deposit table (different rates), not included",
+    "No senior-citizen rate column published for the domestic deposit table"
+  ],
+  "tier2_method": "playwright networkidle timed out -> node https GET of cgapexbank.com/ri_deposit.php -> manual HTML table parse (domestic table, revised column)"
+}

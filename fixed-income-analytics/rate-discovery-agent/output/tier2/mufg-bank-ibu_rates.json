@@ -1,0 +1,19 @@
+{
+  "bank_code": "mufg-bank-ibu",
+  "bank_name": "MUFG Bank – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "bk.mufg.jp",
+    "found_via": "websearch",
+    "notes": "MUFG Bank IFSC Banking Unit (GIFT City, Gandhinagar) opened 2022 as MUFG's sixth Indian branch, serving Japanese and global CORPORATE clients only. The MUFG GIFT City page (bk.mufg.jp/global/globalnetwork/asiaoceania/giftcity.html) shows a 'website has moved to .bank.in' notice and no retail deposit rate table. Wholesale/corporate IBU; no retail FD rate card published."
+  },
+  "warnings": ["Corporate/wholesale IBU; no retail term-deposit rate card found on MUFG global site or GIFT City page."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,58 @@
+{
+  "bank_code": "ahmedabad-mercantile-co-op-bank-ltd",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-01-01",
+  "source_url": "https://amco.bank.in/n/deposit-interest-rate",
+  "scraped_at": "2026-05-26T06:53:27.870Z",
+  "extraction_confidence": "high",
+  "special_schemes": [],
+  "warnings": [
+    "Corrected via Tier-2 verification 2026-05-26: prior extraction had a column/source error; rates re-read from live source."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2-verify-fold",
+    "sourced_at": "2026-05-26T06:53:27.870Z",
+    "note": "agent-verified correct_data folded; clobber-protected (sprint-007 bug fix)"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 1 Years to 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 2 Years to 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 203,
+    "last_scraped_at": "2026-05-26T06:53:27.870Z",
+    "manual_verification_needed": true
+  }
+}

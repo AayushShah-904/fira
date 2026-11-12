@@ -1,0 +1,33 @@
+{
+  "bank_code": "bnp-paribas-ibu",
+  "bank_name": "bnp-paribas-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "website": "https://bnpparibas.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "BNP Paribas GIFT City IBU. Wholesale/corporate banking, no public retail deposit rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:19:02.228Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

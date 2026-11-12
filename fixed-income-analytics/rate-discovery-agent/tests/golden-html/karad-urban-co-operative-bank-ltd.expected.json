@@ -1,0 +1,27 @@
+{
+  "bank_code": "karad-urban-co-operative-bank-ltd",
+  "variant": "regular",
+  "slab_count": 22,
+  "key_rates": {
+    "1y": {
+      "general": 7,
+      "senior": 6.75
+    },
+    "2y": {
+      "general": 6.75,
+      "senior": 6.5
+    },
+    "3y": {
+      "general": 6.75,
+      "senior": 6.5
+    },
+    "5y": {
+      "general": 6.75,
+      "senior": 6.5
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://karadurban.bank.in/interest-rates",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.038Z"
+}

@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-begusarai-central-co-operative-bank-ltd-begusarai",
+  "bank_name": "The Begusarai Central Co-operative Bank Ltd., Begusarai",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 19997,
+  "duration_ms": 19997,
+  "duration_api_ms": 13926,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.0139904,
+  "input_tokens": 32364,
+  "output_tokens": 653,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Begusarai Central Co-operative Bank Ltd., Begusarai\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://begusarai.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Begusarai Central Co-operative Bank Ltd., Begusarai\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 159,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://begusarai.centralbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 5497,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://begusarai.centralbank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 389,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://begusarai.centralbank.com\"}"
+    }
+  ]
+}

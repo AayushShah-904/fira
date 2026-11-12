@@ -1,0 +1,89 @@
+{
+  "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-06-15",
+  "source_url": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+  "scraped_at": "2026-07-07T06:27:44.037Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year Only",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year and above but less than 2 Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Year and above but less than 2 Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "2 Year and above but less than 3 Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3 Years and above but less than 4 Years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD",
+      "regulatory_flag_keys": [
+        "*"
+      ]
+    },
+    {
+      "tenure_text": "4 Years and above and upto 5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD",
+      "regulatory_flag_keys": [
+        "*"
+      ]
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "regulatory_constraints": [
+    "*In accordance with the applicable RBI regulatory guidelines, rates are applicable only for FCNR (B) deposits opened or renewed on maturity during the period from 15th June 2026 to 30th September 2026, with a minimum contractual tenor of three years and a maximum tenor of five years. The same shall be subject to a mandatory lock-in period of one year from the date of opening or renewal, as the case may be."
+  ],
+  "extraction_method": "automatic_ocr",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 38,
+    "last_scraped_at": "2026-07-07T06:27:44.037Z",
+    "manual_verification_needed": false
+  }
+}

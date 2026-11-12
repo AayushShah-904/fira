@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "the-vishweshwar-sahakari-bank-ltd-pune",
+    "extracted_at": "2026-06-05T13:47:40.375Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "vishweshwar.bank.in",
+  "rate_pages": {
+    "fd": "/Encyc/2022/3/5/Interest-Rate-Term-Deposits.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "HTML tables with standard tr/td structure. 3 tables. vishweshwarbank.com redirects to vishweshwar.bank.in.",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior-bulk",
+    "template_hash": "sha1:4e23f2e3d8b816587d003d17d2d01379eec6a776",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct",
+            "4": "rate_general_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 16,
+      "cluster_reused": false
+    }
+  }
+}

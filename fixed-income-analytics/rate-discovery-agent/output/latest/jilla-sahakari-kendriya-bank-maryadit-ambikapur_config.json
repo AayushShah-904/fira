@@ -1,0 +1,33 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ambikapur",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Ambikapur",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://jskbambikapur.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No interest rate page or FD rate information found anywhere on the official website. Likely rates are published offline or via branch notice boards. Annual Reports and Tender sections do not contain deposit rates.",
+  "scraper_notes": {
+    "framework": "PHP static site",
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "homepage fetch + section exploration",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

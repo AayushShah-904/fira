@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "doha-bank-qpsc",
+    "extracted_at": "2026-06-05T11:37:24.622Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "in.dohabank.bank.in",
+  "rate_pages": {
+    "fd": "/personal-banking/deposit-interest-rates/",
+    "savings": "/personal-banking/deposit-interest-rates/",
+    "rd": null,
+    "fd_nre": "/personal-banking/deposit-interest-rates/",
+    "fd_nro": "/personal-banking/deposit-interest-rates/",
+    "fd_fcnr": "/personal-banking/deposit-interest-rates/",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML",
+  "template": {
+    "template_id": "doha-fcnr-3currency-amount-bucket",
+    "template_hash": "sha1:1a573db7a83f608abfbe6797e8f6736f97e7d0a9",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_500k",
+            "2": "rate_general_pct@500k_to_1mio",
+            "3": "rate_general_pct@above_1mio"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 18,
+      "cluster_reused": false
+    }
+  }
+}

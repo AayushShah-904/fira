@@ -1,0 +1,182 @@
+{
+  "bank_code": "state-bank-of-india-ibu",
+  "bank_name": "State Bank of India IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-05-20",
+  "source_url": "https://ifsc.statebank/interest-rates",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7d to 1m",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "7d to 1m",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1m1d to 2m",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1m1d to 2m",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2m 1d to 3m",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2m 1d to 3m",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3m 1d to 6m",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3m 1d to 6m",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "6m 1d to 9m",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "6m 1d to 9m",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "9m 1d to 12m",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "9m 1d to 12m",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Yr 1d to 3 Yrs",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Yr 1d to 3 Yrs",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3Yrs 1d to 5 Yrs",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1m_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3Yrs 1d to 5 Yrs",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1m_usd",
+      "currency": "USD"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 64,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

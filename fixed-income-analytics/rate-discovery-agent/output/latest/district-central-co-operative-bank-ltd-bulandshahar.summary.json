@@ -1,0 +1,44 @@
+{
+  "bank_code": "district-central-co-operative-bank-ltd-bulandshahar",
+  "bank_name": "district-central-co-operative-bank-ltd-bulandshahar",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9482,
+  "duration_ms": 9482,
+  "duration_api_ms": 9393,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008512800000000001,
+  "input_tokens": 18802,
+  "output_tokens": 620,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"district central co operative bank bulandshahar\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://districtcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://districtcentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://districtcentralcooperativebank.in\"}"
+    }
+  ]
+}

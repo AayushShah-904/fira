@@ -1,0 +1,22 @@
+{
+  "bank_code": "bank-of-america",
+  "bank_name": "bank-of-america",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "USA",
+  "website": "https://business.bofa.com",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://business.bofa.com/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:33:16.898Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

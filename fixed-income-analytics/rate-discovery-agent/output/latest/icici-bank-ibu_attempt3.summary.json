@@ -1,0 +1,72 @@
+{
+  "bank_code": "icici-bank-ibu",
+  "bank_name": "icici-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 276220,
+  "duration_ms": 276220,
+  "duration_api_ms": 23259,
+  "num_turns": 5,
+  "tool_call_count": 8,
+  "total_cost_usd": 0.222892,
+  "llm_cost_usd": 0.222892,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 96974,
+  "output_tokens": 3618,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 231,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/personal-banking/fixed-deposit/fd-interest-rates\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 11851,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:icici.bank.in GIFT City IFSC Banking Unit deposit rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 249,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.giftcity.icici.bank.in/personal-banking/fixed-deposit/fd-interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 226,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.giftcity.icici.bank.in/nri-banking/fixed-deposit/fd-interest-rates\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120021,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.giftcity.icici.bank.in/personal-banking/fixed-deposit/fd-interest-rates\",\"tabs\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120035,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.giftcity.icici.bank.in/nri-banking/fixed-deposit/fd-interest-rates\",\"tabs\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 218,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/personal-banking/fixed-deposit/fd-interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 130,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://icici.bank.in/nri-banking/fixed-deposit/fd-interest-rates\"}"
+    }
+  ]
+}

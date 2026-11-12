@@ -1,0 +1,252 @@
+[
+  {
+    "bank_code": "state-bank-of-india",
+    "category": "Public Sector Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "bank-of-baroda",
+    "category": "Public Sector Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "punjab-national-bank",
+    "category": "Public Sector Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "hdfc-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "icici-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "axis-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "kotak-mahindra-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "au-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "equitas-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "citibank-na",
+    "category": "Foreign Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "bank-of-india-ibu",
+    "category": "IFSC Banking Unit",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "abhyudaya-co-operative-bank-ltd-mumbai",
+    "category": "Scheduled Urban Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "bank-of-india",
+    "category": "Public Sector Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "bank-of-maharashtra",
+    "category": "Public Sector Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "canara-bank",
+    "category": "Public Sector Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "central-bank-of-india",
+    "category": "Public Sector Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "indian-bank",
+    "category": "Public Sector Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "indian-overseas-bank",
+    "category": "Public Sector Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "union-bank-of-india",
+    "category": "Public Sector Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "punjab-sind-bank",
+    "category": "Public Sector Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "uco-bank",
+    "category": "Public Sector Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "bandhan-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "csb-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "city-union-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "dcb-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "dhanlaxmi-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "federal-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "capital-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "esaf-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Kerala"
+  },
+  {
+    "bank_code": "jana-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "shivalik-small-finance-bank-limited",
+    "category": "Small Finance Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "airtel-payments-bank-limited",
+    "category": "Payments Bank",
+    "state": "Delhi"
+  },
+  {
+    "bank_code": "fino-payments-bank-limited",
+    "category": "Payments Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "ab-bank-plc",
+    "category": "Foreign Bank",
+    "state": "Bangladesh"
+  },
+  {
+    "bank_code": "american-express-banking-corporation",
+    "category": "Foreign Bank",
+    "state": "USA"
+  },
+  {
+    "bank_code": "australia-and-new-zealand-banking-group-ltd",
+    "category": "Foreign Bank",
+    "state": "Australia"
+  },
+  {
+    "bank_code": "bank-of-america",
+    "category": "Foreign Bank",
+    "state": "USA"
+  },
+  {
+    "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+    "category": "Foreign Bank",
+    "state": "Bahrain"
+  },
+  {
+    "bank_code": "andhra-pradesh-grameena-bank",
+    "category": "Regional Rural Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "arunachal-pradesh-rural-bank",
+    "category": "Regional Rural Bank",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "bank_code": "ahmedabad-mercantile-co-op-bank-ltd",
+    "category": "Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "kalupur-commercial-co-operative-bank-ltd",
+    "category": "Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "mehsana-urban-co-op-bank-ltd",
+    "category": "Scheduled Urban Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "australia-and-new-zealand-banking-group-limited-ibu",
+    "category": "IFSC Banking Unit (IFSCA)",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "axis-bank-ibu",
+    "category": "IFSC Banking Unit (IFSCA)",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "bank-of-baroda-ibu",
+    "category": "IFSC Banking Unit (IFSCA)",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "bank-of-maharashtra-ibu",
+    "category": "IFSC Banking Unit (IFSCA)",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "barclays-bank-plc-ibu",
+    "category": "IFSC Banking Unit (IFSCA)",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "pune-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "satara-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "bank_code": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+  "bank_name": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14184,
+  "duration_ms": 14184,
+  "duration_api_ms": 10692,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.110316,
+  "llm_cost_usd": 0.110316,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 51730,
+  "output_tokens": 857,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1302,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajebank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1376,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rajebank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"raje vikramsinh ghatge co op bank ltd kagal interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 58,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.rajebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 724,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajebank.com/interest-rate\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 5,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

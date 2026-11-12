@@ -1,0 +1,98 @@
+{
+  "bank_code": "the-arunachal-pradesh-state-co-operative-apex-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2020-06-01",
+  "source_url": "https://arunachalapexbank.bank.in/dep_int.php",
+  "scraped_at": "2026-06-09T12:59:04.120Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 - 180 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 days < 1 Year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year < 3 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3 Year < 5 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 Years And Above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[5] (6 slabs) from 6 table(s); signals={\"pctRows\":6,\"tenureRows\":6,\"bothRows\":6,\"dataRows\":6,\"noisy\":true,\"colCount\":6}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[1]: why; chunk[2]: no fixed-deposit rate table found in input; chunk[3]: why)",
+    "rates-qc: effective_date \"1st June 2020\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-06-01\" parses to 2020-06-01 (year 2020 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 2243,
+    "last_scraped_at": "2026-06-09T12:59:04.120Z",
+    "manual_verification_needed": true
+  }
+}

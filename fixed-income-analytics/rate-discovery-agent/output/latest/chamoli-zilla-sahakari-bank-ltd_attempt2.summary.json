@@ -1,0 +1,86 @@
+{
+  "bank_code": "chamoli-zilla-sahakari-bank-ltd",
+  "bank_name": "Chamoli Zilla Sahakari Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 20971,
+  "duration_ms": 20971,
+  "duration_api_ms": 16107,
+  "num_turns": 10,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.196268,
+  "input_tokens": 90558,
+  "output_tokens": 1894,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Chamoli Zilla Sahakari Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://chamoli-zilla-sahakari-bank-ltd.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Chamoli Zilla Sahakari Bank Ltd. official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://chamolizillabank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://chamolizillabank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Chamoli Zilla Sahakari Bank Ltd. interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 292,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://uttarakhandcooperative.uk.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 4352,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.ukstcbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 140,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ukscb.bank.in/interest-rates/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/chamoli-zilla-sahakari-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"chamoli-zilla-sahakari-bank-ltd\\\",\\n  \\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/chamoli-zilla-sahakari-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"chamoli-zilla-sahakari-bank-ltd\\\",\\n  \\\"b"
+    }
+  ]
+}

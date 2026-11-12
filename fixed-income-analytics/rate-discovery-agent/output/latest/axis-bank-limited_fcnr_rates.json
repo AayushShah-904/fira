@@ -1,0 +1,291 @@
+{
+  "bank_code": "axis-bank-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-09-04",
+  "source_url": "https://axis.bank.in/docs/default-source/default-document-library/interest-rates/fcnr-rfc-deposits-22-august-26.pdf?sfvrsn=9c1472d8_1",
+  "scraped_at": "2026-08-29T19:46:59.170Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.8,
+      "currency": "USD",
+      "variant": "fcnr_usd",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.8,
+      "currency": "GBP",
+      "variant": "fcnr_gbp",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.65,
+      "currency": "EUR",
+      "variant": "fcnr_eur",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.75,
+      "currency": "AUD",
+      "variant": "fcnr_aud",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.25,
+      "currency": "CAD",
+      "variant": "fcnr_cad",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.01,
+      "currency": "JPY",
+      "variant": "fcnr_jpy",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.55,
+      "currency": "USD",
+      "variant": "fcnr_usd",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.65,
+      "currency": "GBP",
+      "variant": "fcnr_gbp",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.01,
+      "currency": "EUR",
+      "variant": "fcnr_eur",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.6,
+      "currency": "AUD",
+      "variant": "fcnr_aud",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.2,
+      "currency": "CAD",
+      "variant": "fcnr_cad",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.01,
+      "currency": "JPY",
+      "variant": "fcnr_jpy",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.5,
+      "currency": "USD",
+      "variant": "fcnr_usd",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 0.01,
+      "currency": "GBP",
+      "variant": "fcnr_gbp",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 0.01,
+      "currency": "EUR",
+      "variant": "fcnr_eur",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.15,
+      "currency": "AUD",
+      "variant": "fcnr_aud",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 2,
+      "currency": "CAD",
+      "variant": "fcnr_cad",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 0.01,
+      "currency": "JPY",
+      "variant": "fcnr_jpy",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.25,
+      "currency": "USD",
+      "variant": "fcnr_usd",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 0.01,
+      "currency": "GBP",
+      "variant": "fcnr_gbp",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 0.01,
+      "currency": "EUR",
+      "variant": "fcnr_eur",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.15,
+      "currency": "AUD",
+      "variant": "fcnr_aud",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 1.95,
+      "currency": "CAD",
+      "variant": "fcnr_cad",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 0.01,
+      "currency": "JPY",
+      "variant": "fcnr_jpy",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.25,
+      "currency": "USD",
+      "variant": "fcnr_usd",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.01,
+      "currency": "GBP",
+      "variant": "fcnr_gbp",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.01,
+      "currency": "EUR",
+      "variant": "fcnr_eur",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.5,
+      "currency": "AUD",
+      "variant": "fcnr_aud",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.75,
+      "currency": "CAD",
+      "variant": "fcnr_cad",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    },
+    {
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.01,
+      "currency": "JPY",
+      "variant": "fcnr_jpy",
+      "deposit_range": "below_1m_usd",
+      "effective_date": "2026-09-04"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 7,
+    "last_scraped_at": "2026-08-29T19:46:59.170Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "bank_code": "janalaxmi-co-operative-bank-ltd-nashik",
+  "bank_name": "Janalaxmi Co-operative Bank Ltd Nashik",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://janalaxmi.bank.in/interest-rate",
+  "scraped_at": "2026-05-25T11:22:47.044Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "Bank migrated website: janalaxmibank.in now only shows a migration notice; current site is janalaxmi.bank.in. The /interest-rate page renders FD rates only as JPG images (gallery_247.jpg, gallery_248.jpg) with no HTML table or text. The old janalaxmibank.com domain is defunct (Akamai Access Denied, redirects off-site). Requires OCR of the rate images or manual entry. NOTE: bank-domains.json fd URL (janalaxmibank.in/interest-rate) is stale; live page is janalaxmi.bank.in/interest-rate."
+  ],
+  "tier2_method": "webfetch (rates are images)"
+}

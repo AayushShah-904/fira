@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "bank_code": "state-bank-of-india-ibu",
+    "extracted_at": "2026-06-05T14:31:07.785Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "ifsc.statebank",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest-rates",
+    "rd": null,
+    "fd_gift": "https://ifsc.statebank/interest-rates",
+    "fd_gift_prev": null,
+    "fd_gift_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "parent_bank_code": "state-bank-of-india",
+  "notes": "SBI GIFT City IBU. Interest rates page at ifsc.statebank/interest-rates.",
+  "template": {
+    "template_id": "sbi-ibu-gift-usd-2bucket",
+    "template_hash": "sha1:a6352bab6ef2bddf8ee5662f720c766ca18785c5",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_1m#USD",
+            "3": "rate_general_pct@above_1m#USD"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:53:14.478Z",
+      "gates_passed": "PASS",
+      "slab_count": 16,
+      "cluster_reused": false
+    }
+  }
+}

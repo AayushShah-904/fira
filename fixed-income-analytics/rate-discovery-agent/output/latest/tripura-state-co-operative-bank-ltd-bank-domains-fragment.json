@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "tripura-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:39:54.644Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "tscb.bank.in",
+  "rate_pages": {
+    "fd": "/page/54",
+    "savings": "/page/54",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered (bank.in platform)",
+  "template": {
+    "template_id": "coop-bankin-4col-existing-revised-general-senior",
+    "template_hash": "sha1:c0b87b7fa060965330e1750b2e88ae93383a7093",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "ignore",
+            "3": "rate_general_pct",
+            "4": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

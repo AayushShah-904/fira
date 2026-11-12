@@ -1,0 +1,19 @@
+{
+  "bank_code": "deogiri-nagari-sahakari-bank-ltd-chhatrapati-sambhajinagar",
+  "bank_name": "deogiri-nagari-sahakari-bank-ltd-chhatrapati-sambhajinagar",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://deogiri.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://deogiri.bank.in/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:15:28.957Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

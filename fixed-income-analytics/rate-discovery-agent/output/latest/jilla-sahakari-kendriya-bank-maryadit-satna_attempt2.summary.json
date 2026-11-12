@@ -1,0 +1,138 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-satna",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-satna",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 25974,
+  "duration_ms": 25974,
+  "duration_api_ms": 22025,
+  "num_turns": 15,
+  "tool_call_count": 16,
+  "total_cost_usd": 0.518188,
+  "input_tokens": 251058,
+  "output_tokens": 2009,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit satna\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 7,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillakendriyabank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 44,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jilla-sahakari-kendriya-bank-maryadit-satna.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jilla sahakari kendriya bank maryadit satna official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jilla sahakari kendriya bank maryadit satna interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"जिला सहकारी केंद्रीय बैंक मर्यादित सतना ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 193,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://satnadccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://satnadccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 461,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://satna.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 197,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://satna.nic.in/public-utility-category/%e0%a4%ac%e0%a5%88%e0%a4%82%e0%a4%95/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 694,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://satna.nic.in/%e0%a4%a8%e0%a4%bf%e0%a4%a6%e0%a5%87%e0%a4%b6%e0%a4%bf%e0%a4%95%e0%a4%be/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1323,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://satna.nic.in/notice/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 182,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://satna.nic.in/notice/%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%9c%e0%a4%bf%e0%a4%b2%e0%a4%be-%e0%a4%aa%e0%a4%82%e0%a4%9c%e0%a5%80%e0%a4%af%e0%a4%95"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 819,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cdn.s3waas.gov.in/s38e6b42f1644ecb1327dc03ab345e618b/uploads/2026/04/17754663213935.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-satna_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-satna\\\",\\n  \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-satna_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-satna\\\",\\n  \\\""
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official bank website found. District portal hosts a rate card PDF, but PDF returns no extractable text (likely scanned image). Needs manual transcription or Vision OCR.",
+    "website_url": null,
+    "rate_url_fd": "https://satna.nic.in/notice/%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%9c%e0%a4%bf%e0%a4%b2%e0%a4%be-%e0%a4%aa%e0%a4%82%e0%a4%9c%e0%a5%80%e0%a4%af%e0%a4%95-%e0%a4%b8%e0%a4%a4%e0%a4%a8-3/",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 4,
+    "fetch_error_count": 5,
+    "domain_was_known": false
+  }
+}

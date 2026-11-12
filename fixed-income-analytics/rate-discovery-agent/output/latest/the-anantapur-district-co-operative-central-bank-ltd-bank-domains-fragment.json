@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "the-anantapur-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-05T18:39:06.056Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "anantapurdccb.bank.in",
+  "rate_pages": {
+    "fd": "https://anantapurdccb.bank.in/products/deposits/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/rate-of-interest/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "React SPA (imports: React, ReactDOM, Lucide React, Google GenAI, Express, MySQL2). Unknown — page requires JS rendering to determine table structure",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:55:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_tables",
+    "source_url": "https://anantapurdccb.bank.in/products/deposits/interest-rates",
+    "slab_count": 10,
+    "hints": "No effective date shown on page. The 365-days special slab (7.60%) overlaps the '1 year to 5 years' slab (7.00%) - both preserved as published.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

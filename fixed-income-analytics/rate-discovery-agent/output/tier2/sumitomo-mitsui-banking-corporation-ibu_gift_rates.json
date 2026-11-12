@@ -1,0 +1,17 @@
+{
+  "bank_code": "sumitomo-mitsui-banking-corporation-ibu",
+  "bank_name": "Sumitomo Mitsui Banking Corporation - GIFT City IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://www.smbc.co.jp/global/india/interest_rates/fd_rates.pdf",
+  "scraped_at": "2026-05-25T11:16:41Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "SMBC's only public India FD rate card (fd_rates.pdf) contains domestic INR term-deposit rates (amounts in INR millions, '<30 mio' to '>=1000 mio', rates ~4.3%-6.4%) plus a 4% INR savings rate - these are NOT GIFT-City foreign-currency deposits.",
+    "SMBC has an operational GIFT City branch but publishes no separate IBU foreign-currency term-deposit rate card; GIFT/IBU rates are not public (quote on request).",
+    "No USD/GBP/EUR GIFT-City rate table found on the SMBC India site."
+  ],
+  "tier2_method": "extract_rates_pdf.mjs of fd_rates.pdf (confirmed INR-only domestic rates, no GIFT FX table) -> rates non-public / on request"
+}

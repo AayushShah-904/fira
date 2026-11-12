@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+    "extracted_at": "2026-06-05T11:19:30.474Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "bbkindia.bank.in",
+  "rate_pages": {
+    "fd": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "savings": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "rd": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_nre": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_nro": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_fcnr": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_image_ocr_fcnr": "/wp-content/uploads/2024/11/interest-rate.pdf",
+    "fd_nri_combined": "/wp-content/uploads/2024/11/interest-rate.pdf"
+  },
+  "extraction": {
+    "fd_image_ocr_fcnr": {
+      "type": "image_ocr",
+      "fulfills_product": [
+        "fd_fcnr"
+      ],
+      "_authored": "2026-05-22 (FCNR-4b) — interest-rate.pdf has 8 tables across 5 pages. Table[6] is the FCNR matrix: TENOR | USD | GBP | JPY (4 cols, Pattern B currency-cols × tenure-rows). 4 tenure rows (1-5 years). Routing through extract_via_ocr ensures clean per-currency tagging; legacy pdf-text path mashed columns."
+    }
+  },
+  "scraper_type": "pdf",
+  "notes": "WordPress"
+}

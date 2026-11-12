@@ -1,0 +1,18 @@
+{
+  "bank_code": "bandhan-bank-limited",
+  "bank_name": "bandhan-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "website": "https://bandhan.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://bandhan.bank.in/rates-charges"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:36:15.823Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

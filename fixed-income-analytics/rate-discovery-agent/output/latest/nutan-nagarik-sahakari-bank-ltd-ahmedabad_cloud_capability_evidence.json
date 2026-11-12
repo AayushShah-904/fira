@@ -1,0 +1,17 @@
+{
+  "bank_code": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:07:45.675Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:40:31.228Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

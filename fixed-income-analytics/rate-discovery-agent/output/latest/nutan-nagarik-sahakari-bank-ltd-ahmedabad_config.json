@@ -1,0 +1,19 @@
+{
+  "bank_code": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+  "bank_name": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://nutan.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://nutan.bank.in/page/97"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:40:31.039Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

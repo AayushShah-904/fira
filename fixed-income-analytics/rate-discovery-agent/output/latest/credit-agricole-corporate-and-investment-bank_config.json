@@ -1,0 +1,22 @@
+{
+  "bank_code": "credit-agricole-corporate-and-investment-bank",
+  "bank_name": "credit-agricole-corporate-and-investment-bank",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "France",
+  "website": "https://ca-cib.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://ca-cib.com/en/our-network-india",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:35:33.536Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

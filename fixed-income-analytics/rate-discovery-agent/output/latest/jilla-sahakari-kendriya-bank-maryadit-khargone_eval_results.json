@@ -1,0 +1,23 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-khargone",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\jilla-sahakari-kendriya-bank-maryadit-khargone_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.605884Z",
+  "overall_passed": false,
+  "metrics": {
+    "schema_completeness": {
+      "score": 0,
+      "passed": false,
+      "reason": "No rate_slabs found"
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=none consistent with 0 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

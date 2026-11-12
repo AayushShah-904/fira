@@ -1,0 +1,19 @@
+{
+  "bank_code": "shivalik-small-finance-bank-limited",
+  "bank_name": "shivalik-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "category": "Small Finance Bank",
+  "state": "Delhi",
+  "website": "https://shivalik.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://shivalik.bank.in/interest-rate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:30:36.338Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

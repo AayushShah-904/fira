@@ -1,0 +1,196 @@
+{
+  "bank_code": "slice-small-finance-bank-limited",
+  "bank_name": "slice-small-finance-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-28",
+  "source_url": "https://slice.bank.in/documents/imp/interest-rates.pdf",
+  "scraped_at": "2026-05-20T22:07:44Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 - 45 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 Days to 3 months",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months 1 Day to 6 months",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months 1 Day to 12 months",
+      "tenure_min_days": 181,
+      "tenure_max_days": 360,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 months 1 Day to 18 months",
+      "tenure_min_days": 361,
+      "tenure_max_days": 540,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 months 1 Day to 18 months 2 day",
+      "tenure_min_days": 541,
+      "tenure_max_days": 542,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 months 3 Day to 36 months",
+      "tenure_min_days": 543,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "36 months 1 Day to 60 months",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 months 1 Day to 120 months",
+      "tenure_min_days": 1801,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 months 1 Day to 36 months",
+      "tenure_min_days": 541,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "0 Month 7 days - 9 Months 0 days",
+      "tenure_min_days": 277,
+      "tenure_max_days": 277,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "9 Months 1 days - 12 Months 0 days",
+      "tenure_min_days": 631,
+      "tenure_max_days": 631,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 Months 1 days - 24 Months 0 days",
+      "tenure_min_days": 1081,
+      "tenure_max_days": 1081,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "24 Months 1 days - 36 Months 0 days",
+      "tenure_min_days": 1801,
+      "tenure_max_days": 1801,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "36 Months 1 days - 48 Months 0 days",
+      "tenure_min_days": 2521,
+      "tenure_max_days": 2521,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "48 Months 1 days - 60 Months 0 days",
+      "tenure_min_days": 3241,
+      "tenure_max_days": 3241,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 Months 1 days - 72 Months 0 days",
+      "tenure_min_days": 3961,
+      "tenure_max_days": 3961,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "72 Months 1 days - 120 Months 0 days",
+      "tenure_min_days": 5761,
+      "tenure_max_days": 5761,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Some slabs have rates above regulatory ceiling (see 13.78% for 1 year). No senior citizen rates found in PDF; web page shows senior rates but PDF is authoritative.",
+    "Sprint-008 fix: dropped a bogus \"1 Year\" 13.78% slab (PDF-parse artifact); the real 1-year rate is the ~7.25-7.5% \"12 months 1 Day to 18 months\" rows. Full PDF re-extract recommended (duplicate 12m1d rows remain)."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 86,
+    "last_scraped_at": "2026-05-20T22:07:44Z",
+    "manual_verification_needed": false
+  }
+}

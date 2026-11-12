@@ -1,0 +1,14 @@
+{
+  "bank_code": "nsdl-payments-bank-limited",
+  "observations": [
+    {
+      "ts": "2026-06-09T12:32:40.970Z",
+      "evidence_url": "https://nsdlpayments.bank.in/rates-and-charges.php",
+      "http_status": 200,
+      "vendor": "unknown_waf",
+      "signal": "thin-body: status=200 size=66 no-table",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "bank_code": "jijau-commercial-co-operative-bank-ltd-amravati",
+    "extracted_at": "2026-06-06T09:22:26.430Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "www.jijaubank.bank.in",
+  "notes": "Official .bank.in domain exists; branch locator pages available but no clear FD or savings rates pages in search results.",
+  "rate_pages": {
+    "fd": "https://www.jijaubank.bank.in/deposit-schemes",
+    "fd_prev": "/notifications",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "domain_prev": "jijaubank.bank.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "https://www.jijaubank.bank.in/deposit-schemes",
+    "slab_count": 7,
+    "hints": "Senior citizen rates computed as general + 0.50% per page note ('Senior Citizen: +0.50%'). Bank Employee +1% and Bulk (>15 Lac) +0.50% not applied to slabs. | Recurring Deposit rows on the same page were excluded (product_type FD). | No explicit w.e.f. date shown on the deposit-schemes page.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general",
+    "template_hash": "sha1:e5e18e05382f92dbedf4e62a2093464d97e045f5",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 9,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bank_code": "bharati-sahakari-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://bharatibankpune.com/interest-rates/",
+  "scraped_at": "2026-05-23T09:49:56.984Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "14 days upto 180 days",
+      "tenure_min_days": 194,
+      "tenure_max_days": 194,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 days upto 365 days",
+      "tenure_min_days": 546,
+      "tenure_max_days": 546,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": 4.55,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "13 months to 24 months 25 months to 36 months 37 months to 60 months 61 months to 120 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 10890,
+      "rate_general_pct": 6.506,
+      "rate_senior_pct": 6.756,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Income Tax Act, 1961, u/s 80C period minimum 5 years not enhanceable before maturity and no loan facility against FDR",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Saving Deposit",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": 2.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 12 months and upto 24 months",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 24 months and above",
+      "tenure_min_days": 721,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:21.621Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-23T09:49:56.984Z",
+      "retained_slab_count": 9
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-23T09:49:56.984Z",
+    "manual_verification_needed": false
+  }
+}

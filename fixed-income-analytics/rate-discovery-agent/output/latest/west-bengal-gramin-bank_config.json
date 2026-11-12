@@ -1,0 +1,19 @@
+{
+  "bank_code": "west-bengal-gramin-bank",
+  "bank_name": "west-bengal-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "West Bengal",
+  "website": "https://wbgb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://wbgb.bank.in/Deposit-rate.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:34:28.993Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

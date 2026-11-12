@@ -1,0 +1,54 @@
+{
+  "bank_code": "mizuho-bank-ibu",
+  "bank_name": "mizuho-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17542,
+  "duration_ms": 17542,
+  "duration_api_ms": 15853,
+  "num_turns": 6,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.295036,
+  "llm_cost_usd": 0.295036,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 142898,
+  "output_tokens": 1155,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 289,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/68dd816514ae9148580a1e23_term-deposit-interest-rates.pdf\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 947,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mizuhogroup.com/asia-pacific/gift-city/products-and-rates/interest\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 452,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://mizuhogroup.com/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/mizuho-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"mizuho-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Mizuho Bank IBU\\\",\\n  \\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/mizuho-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"mizuho-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Mizuho Bank IBU\\\",\\n  \\\"p"
+    }
+  ]
+}

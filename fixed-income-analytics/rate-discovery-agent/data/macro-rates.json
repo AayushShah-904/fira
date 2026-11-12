@@ -1,0 +1,62 @@
+{
+  "repo_rate": 5.25,
+  "effective_date": "2026-04-08",
+  "source_url": "https://www.rbi.org.in/scripts/annualpolicy.aspx",
+  "approved_by": "Samir Joshi",
+  "approved_at": "2026-05-28T04:54:56.141Z",
+  "_spreads_note": "Widened high-side per operator direction 2026-05-28: repo cut to 5.25% but Indian FD rates lag, so the original tight bands false-flagged normal rates (PSB 6.5%, SFB/co-op 8-9%). Bands = [repo-low, repo+high].",
+  "spreads_by_bank_type": {
+    "PSB": {
+      "low": 1.5,
+      "high": 2.0
+    },
+    "PVB": {
+      "low": 2.0,
+      "high": 2.5
+    },
+    "SFB": {
+      "low": 2.5,
+      "high": 3.5
+    },
+    "SUCB": {
+      "low": 2.5,
+      "high": 4.0
+    },
+    "NSUCB": {
+      "low": 2.5,
+      "high": 4.0
+    },
+    "SSCB": {
+      "low": 2.5,
+      "high": 4.0
+    },
+    "NSSCB": {
+      "low": 2.5,
+      "high": 4.0
+    },
+    "DCCB": {
+      "low": 2.5,
+      "high": 4.0
+    },
+    "RRB": {
+      "low": 2.0,
+      "high": 3.0
+    },
+    "FB": {
+      "low": 4.0,
+      "high": 4.0
+    },
+    "LAB": {
+      "low": 2.5,
+      "high": 3.5
+    },
+    "PB": {
+      "low": 4,
+      "high": 1
+    },
+    "default": {
+      "low": 2.5,
+      "high": 3.5
+    }
+  }
+}

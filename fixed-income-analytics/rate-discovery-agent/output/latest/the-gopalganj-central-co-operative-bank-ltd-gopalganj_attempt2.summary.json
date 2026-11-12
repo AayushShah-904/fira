@@ -1,0 +1,80 @@
+{
+  "bank_code": "the-gopalganj-central-co-operative-bank-ltd-gopalganj",
+  "bank_name": "The Gopalganj Central Co-operative Bank Ltd., Gopalganj",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 13877,
+  "duration_ms": 13877,
+  "duration_api_ms": 13694,
+  "num_turns": 9,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.10052,
+  "input_tokens": 45460,
+  "output_tokens": 1200,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Gopalganj Central Co-operative Bank Ltd., Gopalganj\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Gopalganj Central Co-operative Bank Ltd., Gopalganj\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Gopalganj Central Co-operative Bank Ltd., Gopalganj\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gopalganjcentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gopalganjcentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"The Gopalganj Central Co-operative Bank Ltd., Gopalganj Bihar interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Bihar State Co-operative Bank interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.coop\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 76,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bihar.gov.in\"}"
+    }
+  ]
+}

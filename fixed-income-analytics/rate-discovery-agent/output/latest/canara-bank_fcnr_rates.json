@@ -1,0 +1,482 @@
+{
+  "bank_code": "canara-bank",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-06-11",
+  "source_url": "https://canarabank.bank.in/pages/deposit-interest-rates",
+  "scraped_at": "2026-07-22T17:21:55.593Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Canara Bank FCNR(B) rate table w.e.f. 11.06.2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.95,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.2,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.7,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.2,
+      "currency": "CAD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.7,
+      "currency": "AUD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.9,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.9,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.25,
+      "currency": "CAD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.5,
+      "currency": "AUD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.5,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.5,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 5.25,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 5,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3,
+      "currency": "CAD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3,
+      "currency": "AUD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5.5,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3,
+      "currency": "CAD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3,
+      "currency": "AUD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.5,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "currency": "CAD",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "currency": "AUD",
+      "deposit_range": "standard"
+    }
+  ],
+  "warnings": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 42,
+    "last_scraped_at": "2026-07-22T17:21:55.593Z",
+    "manual_verification_needed": false
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-08-30T13:12:40.792Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-24T08:28:22.441Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-24T08:31:25.364Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-24T08:33:32.593Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:43:00.415Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:43:19.618Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:45:38.014Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:47:57.303Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:48:54.378Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:50:55.591Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-09-30T13:52:34.888Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-10-01T20:18:03.262Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-10-01T20:20:19.097Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-10-01T20:22:19.426Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 67,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-11-11T13:39:17.704Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 69,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-11-11T13:41:44.310Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 69,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-11-11T13:43:52.596Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 69,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-11-12T09:37:14.867Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 69,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-11-12T09:40:06.473Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 69,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    },
+    {
+      "attempted_at": "2026-11-12T09:42:15.669Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 69,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.593Z",
+      "retained_slab_count": 30
+    }
+  ]
+}

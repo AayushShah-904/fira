@@ -1,0 +1,27 @@
+{
+  "bank_code": "manipur-rural-bank",
+  "variant": "regular",
+  "slab_count": 24,
+  "key_rates": {
+    "1y": {
+      "general": 5.75,
+      "senior": 6.25
+    },
+    "2y": {
+      "general": 6,
+      "senior": 6.5
+    },
+    "3y": {
+      "general": 6,
+      "senior": 6.5
+    },
+    "5y": {
+      "general": 6,
+      "senior": 6.5
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://manipurrural.bank.in/rate-of-interest/",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.028Z"
+}

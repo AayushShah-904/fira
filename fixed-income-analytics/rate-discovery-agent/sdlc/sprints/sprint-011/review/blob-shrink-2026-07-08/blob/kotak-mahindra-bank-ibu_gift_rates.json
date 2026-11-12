@@ -1,0 +1,92 @@
+{
+  "bank_code": "kotak-mahindra-bank-ibu",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-04-24",
+  "source_url": "https://www.kotak.bank.in/en/personal-banking/gift/deposit-rates-gift-City.html",
+  "scraped_at": "2026-06-09T14:25:47.664Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "12months - less than 15months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 449,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "12months - less than 15months 4.10% 4.10%"
+    },
+    {
+      "tenure_text": "15months - less than 18months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "15months - less than 18months 4.25% 4.25%"
+    },
+    {
+      "tenure_text": "18months - less than 24months",
+      "tenure_min_days": 540,
+      "tenure_max_days": 719,
+      "rate_general_pct": 4.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "18months - less than 24months 4.05% 4.05%"
+    },
+    {
+      "tenure_text": "24months - less than 36months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 1079,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "24months - less than 36months 3.50% 3.50%"
+    },
+    {
+      "tenure_text": "36months - less than 48months",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1439,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "36months - less than 48months 3.30% 3.30%"
+    },
+    {
+      "tenure_text": "48months - Less than 60months",
+      "tenure_min_days": 1440,
+      "tenure_max_days": 1799,
+      "rate_general_pct": 3.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "48months - Less than 60months 3.20% 3.20%"
+    },
+    {
+      "tenure_text": "60 Months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio_above_but_below_2_mio",
+      "source_row_text": "60 Months 2.90% 2.90%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction"
+}

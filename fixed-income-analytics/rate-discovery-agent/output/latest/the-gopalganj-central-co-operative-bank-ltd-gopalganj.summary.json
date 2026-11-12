@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-gopalganj-central-co-operative-bank-ltd-gopalganj",
+  "bank_name": "The Gopalganj Central Co-operative Bank Ltd., Gopalganj",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 16368,
+  "duration_ms": 16368,
+  "duration_api_ms": 16140,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.0141344,
+  "input_tokens": 32404,
+  "output_tokens": 733,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Gopalganj Central Co-operative Bank Ltd., Gopalganj\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gopalganj.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Gopalganj Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gopalganjcentralbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 148,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gopalganjcentralbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://gopalganjcentralbank.in\"}"
+    }
+  ]
+}

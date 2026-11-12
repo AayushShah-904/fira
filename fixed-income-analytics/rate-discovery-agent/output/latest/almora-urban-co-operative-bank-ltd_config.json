@@ -1,0 +1,19 @@
+{
+  "bank_code": "almora-urban-co-operative-bank-ltd",
+  "bank_name": "almora-urban-co-operative-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Uttarakhand",
+  "website": "https://almoraurban.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://almoraurban.bank.in/FixedDeposit.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:25:40.477Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

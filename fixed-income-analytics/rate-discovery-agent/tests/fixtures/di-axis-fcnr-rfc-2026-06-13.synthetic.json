@@ -1,0 +1,869 @@
+{
+  "_comment": "SYNTHETIC test fixture — Sprint 011 A2 / item 19 (2026-07-06). No captured AnalyzeResult from the 2026-06-15 Axis session survived, so this is a structurally faithful reconstruction of Azure Document Intelligence prebuilt-layout output for axis.bank.in fcnr-rfc-deposits-13-june-26.pdf: three tables on one page (FCNR(B) 35 slabs incl. JPY / RFC Term 36 slabs no JPY / RFC Savings 0 rows), section-heading paragraphs above each table, and the RBI lock-in footnote (# marker on 3-5y FCNR tenures). Rate NUMBERS are plausible placeholders, NOT shipped data; the footnote text is the real regulatory wording quoted in sprint-011-scope.md.",
+  "apiVersion": "2023-07-31",
+  "modelId": "prebuilt-layout",
+  "content": "",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "width": 8.5,
+      "height": 11,
+      "unit": "inch"
+    }
+  ],
+  "paragraphs": [
+    {
+      "content": "AXIS BANK | FCNR (B) & RFC Deposits | Effective 13th June 2026",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            0.5,
+            8,
+            0.5,
+            8,
+            0.8,
+            0.5,
+            0.8
+          ]
+        }
+      ],
+      "role": "title",
+      "spans": []
+    },
+    {
+      "content": "FCNR (B) Deposits",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            1,
+            8,
+            1,
+            8,
+            1.2,
+            0.5,
+            1.2
+          ]
+        }
+      ],
+      "role": "sectionHeading",
+      "spans": []
+    },
+    {
+      "content": "RFC Term Deposits",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            3.7,
+            8,
+            3.7,
+            8,
+            3.9,
+            0.5,
+            3.9
+          ]
+        }
+      ],
+      "role": "sectionHeading",
+      "spans": []
+    },
+    {
+      "content": "RFC Savings Deposits",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            6.6,
+            8,
+            6.6,
+            8,
+            6.8,
+            0.5,
+            6.8
+          ]
+        }
+      ],
+      "role": "sectionHeading",
+      "spans": []
+    },
+    {
+      "content": "# In accordance with the applicable RBI regulatory guidelines, FCNR (B) deposits opened or renewed on maturity during the period from 8th June 2026 to 30th September 2026, with a minimum contractual tenor of three years and a maximum tenor of five years, shall be subject to a mandatory lock-in period of one year from the date of opening or renewal, as the case may be.",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            8,
+            8,
+            8,
+            8,
+            8.5,
+            0.5,
+            8.5
+          ]
+        }
+      ],
+      "role": "footnote",
+      "spans": []
+    }
+  ],
+  "tables": [
+    {
+      "rowCount": 8,
+      "columnCount": 8,
+      "cells": [
+        {
+          "rowIndex": 0,
+          "columnIndex": 0,
+          "content": "FCNR (B) DEPOSITS Interest Rates | w.e.f. 13th June 2026",
+          "kind": "content",
+          "columnSpan": 8
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 0,
+          "content": "Maturity Period",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 1,
+          "content": "USD",
+          "kind": "content",
+          "columnSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 3,
+          "content": "GBP",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 4,
+          "content": "EURO",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 5,
+          "content": "JPY",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 6,
+          "content": "AUD",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 7,
+          "content": "CAD",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 1,
+          "content": "Below 1 million",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 2,
+          "content": "1 million & above",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 0,
+          "content": "1 year < 2 years",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 1,
+          "content": "4.65",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 2,
+          "content": "4.70",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 3,
+          "content": "4.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 4,
+          "content": "1.85",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 5,
+          "content": "0.45",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 6,
+          "content": "3.95",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 7,
+          "content": "3.80",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 0,
+          "content": "2 years < 3 years",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 1,
+          "content": "3.90",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 2,
+          "content": "3.95",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 3,
+          "content": "4.25",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 4,
+          "content": "1.75",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 5,
+          "content": "0.40",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 6,
+          "content": "3.85",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 7,
+          "content": "3.60",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 0,
+          "content": "3 years < 4 years#",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 1,
+          "content": "3.70",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 2,
+          "content": "3.75",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 3,
+          "content": "4.10",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 4,
+          "content": "1.65",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 5,
+          "content": "0.35",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 6,
+          "content": "3.80",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 7,
+          "content": "3.50",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 0,
+          "content": "4 years < 5 years#",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 1,
+          "content": "3.65",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 2,
+          "content": "3.70",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 3,
+          "content": "4.05",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 4,
+          "content": "1.60",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 5,
+          "content": "0.30",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 6,
+          "content": "3.75",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 7,
+          "content": "3.45",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 0,
+          "content": "5 years#",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 1,
+          "content": "3.60",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 2,
+          "content": "3.65",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 3,
+          "content": "4.00",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 4,
+          "content": "1.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 5,
+          "content": "0.25",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 6,
+          "content": "3.70",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 7,
+          "content": "3.40",
+          "kind": "content"
+        }
+      ],
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            1.4,
+            8,
+            1.4,
+            8,
+            3.6,
+            0.5,
+            3.6
+          ]
+        }
+      ]
+    },
+    {
+      "rowCount": 9,
+      "columnCount": 7,
+      "cells": [
+        {
+          "rowIndex": 0,
+          "columnIndex": 0,
+          "content": "RFC TERM DEPOSITS Interest Rates | w.e.f. 13th June 2026",
+          "kind": "content",
+          "columnSpan": 7
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 0,
+          "content": "Maturity Period",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 1,
+          "content": "USD",
+          "kind": "content",
+          "columnSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 3,
+          "content": "GBP",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 4,
+          "content": "EURO",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 5,
+          "content": "AUD",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 6,
+          "content": "CAD",
+          "kind": "content",
+          "rowSpan": 2
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 1,
+          "content": "Below 1 million",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 2,
+          "content": "1 million & above",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 0,
+          "content": "30 days to 45 days",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 1,
+          "content": "2.50",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 2,
+          "content": "2.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 3,
+          "content": "2.10",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 4,
+          "content": "0.15",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 5,
+          "content": "2.05",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 3,
+          "columnIndex": 6,
+          "content": "1.95",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 0,
+          "content": "46 days to 90 days",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 1,
+          "content": "2.75",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 2,
+          "content": "2.80",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 3,
+          "content": "2.30",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 4,
+          "content": "0.20",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 5,
+          "content": "2.25",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 4,
+          "columnIndex": 6,
+          "content": "2.10",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 0,
+          "content": "91 days to 180 days",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 1,
+          "content": "3.10",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 2,
+          "content": "3.15",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 3,
+          "content": "2.60",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 4,
+          "content": "0.35",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 5,
+          "content": "2.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 5,
+          "columnIndex": 6,
+          "content": "2.40",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 0,
+          "content": "181 days to less than 1 year",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 1,
+          "content": "3.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 2,
+          "content": "3.60",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 3,
+          "content": "3.05",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 4,
+          "content": "0.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 5,
+          "content": "3.00",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 6,
+          "columnIndex": 6,
+          "content": "2.85",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 0,
+          "content": "1 year to less than 2 years",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 1,
+          "content": "4.35",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 2,
+          "content": "4.40",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 3,
+          "content": "4.15",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 4,
+          "content": "1.35",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 5,
+          "content": "3.55",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 7,
+          "columnIndex": 6,
+          "content": "3.30",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 0,
+          "content": "2 years to less than 3 years",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 1,
+          "content": "3.80",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 2,
+          "content": "3.85",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 3,
+          "content": "3.95",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 4,
+          "content": "1.25",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 5,
+          "content": "3.45",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 8,
+          "columnIndex": 6,
+          "content": "3.20",
+          "kind": "content"
+        }
+      ],
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            4,
+            8,
+            4,
+            8,
+            6.5,
+            0.5,
+            6.5
+          ]
+        }
+      ]
+    },
+    {
+      "rowCount": 3,
+      "columnCount": 5,
+      "cells": [
+        {
+          "rowIndex": 0,
+          "columnIndex": 0,
+          "content": "RFC SAVINGS BANK ACCOUNT",
+          "kind": "content",
+          "columnSpan": 5
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 0,
+          "content": "USD",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 1,
+          "content": "GBP",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 2,
+          "content": "EUR",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 3,
+          "content": "AUD",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 1,
+          "columnIndex": 4,
+          "content": "CAD",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 0,
+          "content": "0.15%",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 1,
+          "content": "0.15%",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 2,
+          "content": "0.01%",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 3,
+          "content": "0.30%",
+          "kind": "content"
+        },
+        {
+          "rowIndex": 2,
+          "columnIndex": 4,
+          "content": "0.35%",
+          "kind": "content"
+        }
+      ],
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            0.5,
+            6.9,
+            8,
+            6.9,
+            8,
+            7.6,
+            0.5,
+            7.6
+          ]
+        }
+      ]
+    }
+  ]
+}

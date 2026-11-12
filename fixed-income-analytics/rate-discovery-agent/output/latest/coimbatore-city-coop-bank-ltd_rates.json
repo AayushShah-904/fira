@@ -1,0 +1,23 @@
+{
+  "bank_code": "coimbatore-city-coop-bank-ltd",
+  "bank_name": "coimbatore-city-coop-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": null,
+  "scraped_at": "2026-06-09T17:23:43.208Z",
+  "extraction_method": "registry_skip",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Bank skipped at discovery time: discovery_status=no_website_known. No website confirmed by operator. Re-run with --force or remove discovery_status to retry discovery."
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T17:23:43.208Z",
+    "manual_verification_needed": false
+  }
+}

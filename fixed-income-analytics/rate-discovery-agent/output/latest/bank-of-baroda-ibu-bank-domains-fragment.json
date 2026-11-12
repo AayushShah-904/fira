@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-baroda-ibu",
+    "extracted_at": "2026-06-05T14:04:07.784Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "bankofbaroda.bank.in",
+  "rate_pages": {
+    "fd": "/rates-and-charges/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/rates-and-charges/interest-rates",
+    "rd": null,
+    "fd_gift": "https://ifsc.bankofbaroda.bank.in/rates-and-charges/interest-rates",
+    "fd_gift_prev": null,
+    "fd_gift_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "parent_bank_code": "bank-of-baroda",
+  "notes": "IFSC Banking Unit at GIFT City. Dedicated site at ifsc.bankofbaroda.bank.in. Static HTML rate tables with 5 currencies (USD, EUR, GBP, AUD, AED).",
+  "template": {
+    "template_id": "ibu-gift-currency-amount-2bucket",
+    "template_hash": "sha1:88a9c67545eec743b21ab35f599bc18682643e27",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_5m#USD",
+            "2": "rate_general_pct@below_5m#EUR",
+            "3": "rate_general_pct@below_5m#GBP",
+            "4": "rate_general_pct@below_5m#AUD",
+            "5": "rate_general_pct@below_5m#AED",
+            "6": "rate_general_pct@above_5m#USD",
+            "7": "rate_general_pct@above_5m#EUR",
+            "8": "rate_general_pct@above_5m#GBP",
+            "9": "rate_general_pct@above_5m#AUD",
+            "10": "rate_general_pct@above_5m#AED"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_5m#USD",
+            "2": "rate_general_pct@below_5m#EUR",
+            "3": "rate_general_pct@below_5m#GBP",
+            "4": "rate_general_pct@below_5m#AUD",
+            "5": "rate_general_pct@below_5m#AED",
+            "6": "rate_general_pct@above_5m#USD",
+            "7": "rate_general_pct@above_5m#EUR",
+            "8": "rate_general_pct@above_5m#GBP",
+            "9": "rate_general_pct@above_5m#AUD",
+            "10": "rate_general_pct@above_5m#AED"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:53:14.478Z",
+      "gates_passed": "PASS",
+      "slab_count": 90,
+      "cluster_reused": false
+    }
+  }
+}

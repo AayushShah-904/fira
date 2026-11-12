@@ -1,0 +1,18 @@
+{
+  "bank_code": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+  "bank_name": "Jabalpur Mahila Nagarik Sahakari Bank Maryadit",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2017-01-01",
+  "source_url": "https://jmnsbm.bank.in/interest.html",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    { "tenure_text": "91 days to 179 days", "tenure_min_days": 91, "tenure_max_days": 179, "rate_general_pct": 6.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "180 days to less than 1 year", "tenure_min_days": 180, "tenure_max_days": 364, "rate_general_pct": 6.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year to less than 3 years", "tenure_min_days": 365, "tenure_max_days": 1094, "rate_general_pct": 7.50, "rate_senior_pct": 8.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years and above", "tenure_min_days": 1095, "tenure_max_days": null, "rate_general_pct": 7.50, "rate_senior_pct": 8.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": ["Effective date on the official site is 01.01.2017 — rates may be stale.", "Senior citizen rates tabulated only for 1yr+ tenures; page notes seniors get +0.75% over standard rates."],
+  "tier2_method": "webfetch"
+}

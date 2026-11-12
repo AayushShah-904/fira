@@ -1,0 +1,22 @@
+{
+  "bank_code": "csb-bank-limited",
+  "bank_name": "csb-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Kerala",
+  "website": "https://csb.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://csb.bank.in/interest-rates",
+    "fd_nre": "https://csb.bank.in/nre-deposits",
+    "fd_nro": "https://csb.bank.in/nro-deposits",
+    "fd_fcnr": "https://csb.bank.in/fcnrb-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:35:59.499Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

@@ -1,0 +1,36 @@
+{
+  "bank_code": "federal-bank-ibu",
+  "bank_name": "Federal Bank IBU",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "website": "https://federal.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://federal.bank.in/ibu-gift-city-deposit-rates",
+    "fd_gift_pdf": "https://federal.bank.in/documents/d/guest/ibu-retail-deposits-rates-w-e-f-16-05-2025-1-",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Both the HTML and PDF rate card for GIFT City IBU returned HTTP 500 errors. No rate slabs could be extracted. Operator should retry when the PDF is available.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": "PDF (server error)",
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:01:00Z",
+    "discovery_method": "pre-lookup + direct fetch",
+    "confidence": "none"
+  },
+  "deposit_insurance": false,
+  "update_frequency": "monthly",
+  "extraction_method": "llm_inline_extraction"
+}

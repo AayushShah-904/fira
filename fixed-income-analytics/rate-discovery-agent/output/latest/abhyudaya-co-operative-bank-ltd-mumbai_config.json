@@ -1,0 +1,19 @@
+{
+  "bank_code": "abhyudaya-co-operative-bank-ltd-mumbai",
+  "bank_name": "abhyudaya-co-operative-bank-ltd-mumbai",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://abhyudaya.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://abhyudaya.bank.in/english/Deposit-rates.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-28T10:24:05.594Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

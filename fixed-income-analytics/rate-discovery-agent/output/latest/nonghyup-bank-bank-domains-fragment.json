@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "nonghyup-bank",
+    "extracted_at": "2026-06-05T11:53:12.296Z",
+    "source": "bank-domains.json",
+    "source_sha": "d4c965f8960ae816dbe0af8cf78777c8bae86c6e274ea7bd1bcf21db8a24df79"
+  },
+  "domain": "nonghyup.bank.in",
+  "domain_source": "manual",
+  "rate_pages": {
+    "fd": "/index.jsp",
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": "/fcnr-deposits",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "JSP app with complex interaction: (1) dismiss initial lightbox popup, (2) navigate Rates→Deposit Rate, (3) wait for loading overlay to clear, (4) select Classification=FIXED DEPOSIT, (5) select sub-type dropdown (NRE/FCNR/Senior Citizen), (6) click Inquiry button to populate rates table. Requires custom Playwright script with form interaction.",
+  "scraper_notes": {
+    "framework": "JSP (Java Server Pages)",
+    "bot_protection": "Lightbox popup + loading overlay on page transitions",
+    "data_format": "HTML table populated after form submit",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": true,
+    "has_lazy_loading": true,
+    "interaction_steps": [
+      "dismiss lightbox/popup on initial load",
+      "click Rates menu → Deposit Rate",
+      "wait for loading overlay to clear (~3s)",
+      "select Classification dropdown → FIXED DEPOSIT",
+      "select sub-type dropdown (iterate: Fixed Deposit, NRE, FCNR, Senior Citizen)",
+      "click Inquiry button",
+      "wait for rate table to populate",
+      "extract table data"
+    ],
+    "deposit_types_in_dropdown": [
+      "Fixed Deposit",
+      "NRE Fixed Deposits",
+      "FCNR Fixed Deposits (Non Resident)(Non-Callable)",
+      "Senior Citizen"
+    ]
+  },
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Wholesale/corporate foreign bank. NongHyup Bank (South Korea) operates a single India branch (Noida) serving Korean corporate clients; no retail INR fixed-deposit product and no retail FD rate card. Registry hint host nonghyup.bank.in did not resolve / serve a rate page. Only third-party IFSC-code directories reference the branch. Re-verified."
+  }
+}

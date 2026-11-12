@@ -1,0 +1,776 @@
+{
+  "bank_code": "axis-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://axis.bank.in/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposits-13-june-26.pdf",
+  "scraped_at": "2026-06-15T11:15:45.881Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7\t \t–\t \t14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15\t \t–\t \t29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30\t \t–\t \t45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46\t \t–\t \t60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61\t \tdays\t \t-\t \t87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "88 days\t \t–\t \t3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months 25 days < 4 months",
+      "tenure_min_days": 115,
+      "tenure_max_days": 119,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months < 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "9 months < 1 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1\t \tyear\t \t–\t \t1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 1,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7\t \t–\t \t14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15\t \t–\t \t29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30\t \t–\t \t45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46\t \t–\t \t60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days\t \t-\t \t87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 5.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "88 days\t \t–\t \t3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months 25 days < 4 months",
+      "tenure_min_days": 115,
+      "tenure_max_days": 119,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months < 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "9 months < 1 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year\t \t–\t \t1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15\t \tmonths < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 2,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7\t \t–\t \t14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15\t \t–\t \t29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30\t \t–\t \t45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46\t \t–\t \t60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days\t \t-\t \t87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "88 days\t \t–\t \t3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 months 25\t \tdays < 4 months",
+      "tenure_min_days": 115,
+      "tenure_max_days": 119,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 months < 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "9 months < 1 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year\t \t–\t \t1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 7.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "_page": 3,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-07-07T06:33:14.701Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:36:00.311Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:36:49.859Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:40:31.454Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:42:34.735Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:43:36.892Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:44:54.909Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:46:38.690Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:48:57.760Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:49:07.593Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:50:11.236Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:50:57.175Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:53:28.115Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:53:35.429Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T06:54:32.355Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T07:01:01.021Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T07:01:06.857Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T07:08:14.295Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T07:09:51.954Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    },
+    {
+      "attempted_at": "2026-07-07T07:10:35.484Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 2,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-06-15T11:15:45.881Z",
+      "retained_slab_count": 54
+    }
+  ]
+}

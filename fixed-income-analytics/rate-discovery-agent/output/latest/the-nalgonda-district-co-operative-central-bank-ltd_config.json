@@ -1,0 +1,43 @@
+{
+  "bank_code": "the-nalgonda-district-co-operative-central-bank-ltd",
+  "bank_name": "The Nalgonda District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://nalgondadccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://nalgondadccb.bank.in/fixed-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": "table.wpdtSimpleTable",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "1": "tenure_text",
+    "2": "rate_general_pct"
+  },
+  "expected_slab_count": 7,
+  "notes": "Senior citizen premium is 0.50% for deposits 1 year and above as per extra interest table.",
+  "scraper_notes": {
+    "framework": "WordPress Elementor",
+    "bot_protection": null,
+    "data_format": "HTML tables",
+    "rate_tables_on_page": 2,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "direct URL fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

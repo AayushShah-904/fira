@@ -1,0 +1,25 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jhabua",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Jhabua",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-09",
+  "source_url": null,
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No official website or FD rate page found. No rate slabs available. Manual entry required if rates are published elsewhere (e.g., RBI or state co-op portal)."
+  ],
+  "errors": [
+    "Exhaustive search failed: no domain, no district portal listing, no rate card found."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 75,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "industrial-bank-of-korea",
+  "bank_name": "Industrial Bank of Korea",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "global.ibk.co.kr",
+    "found_via": "websearch",
+    "notes": "IBK has a New Delhi branch (foreign bank presence per IFSC directories) but operates as a wholesale/corporate foreign bank. The global IBK site (global.ibk.co.kr) lists country operations (USA, China, Japan, Vietnam, Indonesia, Thailand, Russia, Nepal) but no India-specific retail deposit page exists. No retail FD product / India rate card published."
+  },
+  "warnings": ["Foreign wholesale bank; no India retail FD rate page found."],
+  "tier2_method": "websearch+webfetch"
+}

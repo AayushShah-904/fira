@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "mashreqbank-psc",
+    "extracted_at": "2026-06-05T11:50:28.768Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "mashreq.bank.in",
+  "rate_pages": {
+    "fd": "/-/jssmedia/pdfs/india/public-communication-deposit-rate-effective.ashx",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "PDF rate card linked from regulatory page. 1 tables"
+}

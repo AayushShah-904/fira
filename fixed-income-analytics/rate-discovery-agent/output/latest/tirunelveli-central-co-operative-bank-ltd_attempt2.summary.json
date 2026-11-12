@@ -1,0 +1,98 @@
+{
+  "bank_code": "tirunelveli-central-co-operative-bank-ltd",
+  "bank_name": "Tirunelveli Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17711,
+  "duration_ms": 17711,
+  "duration_api_ms": 17181,
+  "num_turns": 12,
+  "tool_call_count": 13,
+  "total_cost_usd": 0.208356,
+  "input_tokens": 99402,
+  "output_tokens": 1194,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Tirunelveli Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tirunelvelicentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Tirunelveli Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tirunelvelicentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tirunelvelicentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Tirunelveli Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tirunelveli Central Co-operative Bank Ltd. Tamil Nadu district central co-operative bank interest rates\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tirunelveli Central Co-operative Bank Ltd. Tamil Nadu\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 8,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tncooperative.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 308,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.tn.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 50,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tncooperation.tn.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 44,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tn.gov.in/departments/cooperation.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 43,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tn.gov.in/dept_cooperation\"}"
+    }
+  ]
+}

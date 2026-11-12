@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-05-21T03:30:42.178Z",
+  "category": "Financial Institution",
+  "succeeded": 4,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "national-housing-bank-nhb",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "export-import-bank-of-india-exim-bank",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "national-bank-for-agriculture-and-rural-development-nabard",
+      "status": "success",
+      "elapsed_sec": 46
+    },
+    {
+      "name": "small-industries-development-bank-of-india-sidbi",
+      "status": "success",
+      "elapsed_sec": 60
+    }
+  ]
+}

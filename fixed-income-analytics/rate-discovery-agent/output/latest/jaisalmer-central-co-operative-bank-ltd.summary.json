@@ -1,0 +1,50 @@
+{
+  "bank_code": "jaisalmer-central-co-operative-bank-ltd",
+  "bank_name": "jaisalmer-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8877,
+  "duration_ms": 8877,
+  "duration_api_ms": 8748,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.00861,
+  "input_tokens": 18877,
+  "output_tokens": 662,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jaisalmer central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaisalmercentralco-operativebankltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaisalmercentralcooperativebankltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaisalmercentralcooperativebankltd.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaisalmercentralcooperativebankltd.com/\"}"
+    }
+  ]
+}

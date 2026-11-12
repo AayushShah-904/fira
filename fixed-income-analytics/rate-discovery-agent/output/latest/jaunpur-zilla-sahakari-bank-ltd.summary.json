@@ -1,0 +1,50 @@
+{
+  "bank_code": "jaunpur-zilla-sahakari-bank-ltd",
+  "bank_name": "jaunpur-zilla-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10405,
+  "duration_ms": 10405,
+  "duration_api_ms": 10281,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0087088,
+  "input_tokens": 18892,
+  "output_tokens": 720,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jaunpur zilla sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaunpur-zilla-sahakari-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaunpurzillasahakaribank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaunpurzillasahakaribank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jaunpurzillasahakaribank.in/\"}"
+    }
+  ]
+}

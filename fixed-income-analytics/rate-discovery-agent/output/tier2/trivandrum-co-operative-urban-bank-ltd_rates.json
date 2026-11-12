@@ -1,0 +1,19 @@
+{
+  "bank_code": "trivandrum-co-operative-urban-bank-ltd",
+  "bank_name": "Trivandrum Co-operative Urban Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:20:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "tcubltd.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Old site tcubltd.in now just redirects to tcubltd.bank.in (live WordPress, construction theme). Site has a 'Deposits and Loans' menu but it is an empty/non-functional JS dropdown (href=#). No interest-rate page exists in WP pages (only template/demo pages), and the WP media library has 10 PDFs - locker policy, service charges, DICGC, grievance, claim/customer-service forms - but NO fixed-deposit interest-rate PDF. Homepage (one-page) shows no FD rate numbers. ANNEX customer-service PDF yields no parseable rate slabs."
+  },
+  "warnings": ["Site live but publishes no FD/term-deposit rate page or rate PDF. Aggregator data (codeforbanks) deliberately not used."],
+  "tier2_method": "websearch+webfetch"
+}

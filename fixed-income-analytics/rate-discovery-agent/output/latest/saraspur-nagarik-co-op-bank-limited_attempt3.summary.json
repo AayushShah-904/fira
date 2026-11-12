@@ -1,0 +1,60 @@
+{
+  "bank_code": "saraspur-nagarik-co-op-bank-limited",
+  "bank_name": "saraspur-nagarik-co-op-bank-limited",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 253967,
+  "duration_ms": 253967,
+  "duration_api_ms": 10000,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.085748,
+  "llm_cost_usd": 0.085748,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 38542,
+  "output_tokens": 1083,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 3832,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 20,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/interest-rates\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120059,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120055,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://saraspur.bank.in/interest-rates\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/saraspur-nagarik-co-op-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"saraspur-nagarik-co-op-bank-l"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/saraspur-nagarik-co-op-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"saraspur-nagarik-co-op-bank-li"
+    }
+  ]
+}

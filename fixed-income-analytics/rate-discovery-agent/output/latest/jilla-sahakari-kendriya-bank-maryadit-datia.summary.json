@@ -1,0 +1,44 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-datia",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-datia",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10189,
+  "duration_ms": 10189,
+  "duration_api_ms": 10095,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.0087384,
+  "input_tokens": 18926,
+  "output_tokens": 730,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit datia\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryadit.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditdatia.bank.in\"}"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "bank_code": "wardha-district-central-co-operative-bank-ltd",
+  "bank_name": "Wardha District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 17439,
+  "duration_ms": 17439,
+  "duration_api_ms": 16230,
+  "num_turns": 7,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.466138,
+  "input_tokens": 225709,
+  "output_tokens": 1840,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Wardha District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 341,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Wardha District Central Co-operative Bank Ltd. official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 621,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C%E0%A4%A6%E0%A4%B0/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 246,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/wardha-district-central-co-operative-bank-ltd-config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"wardha-district-central-co"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/wardha-district-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"wardha-district-central-co-"
+    }
+  ]
+}

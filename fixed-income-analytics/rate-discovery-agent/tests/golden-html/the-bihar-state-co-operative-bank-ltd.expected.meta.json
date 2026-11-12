@@ -1,0 +1,13 @@
+{
+  "bank_code": "the-bihar-state-co-operative-bank-ltd",
+  "bank_name": "the-bihar-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "state": "Bihar",
+  "website": "https://biharscb.co.in",
+  "rate_page_url": "https://biharscb.co.in/term-deposit-interest-rate/",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 27,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

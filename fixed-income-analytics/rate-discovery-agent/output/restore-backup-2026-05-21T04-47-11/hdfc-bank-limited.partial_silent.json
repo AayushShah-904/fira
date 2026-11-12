@@ -1,0 +1,6 @@
+{
+  "bank_code": "hdfc-bank-limited",
+  "reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T21:50:54.098Z",
+  "attempts": 3
+}

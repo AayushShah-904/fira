@@ -1,0 +1,22 @@
+{
+  "bank_code": "warangal-urban-co-operative-bank-ltd",
+  "bank_name": "Warangal Urban Co-Operative Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://wucbank.com/roi/",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "15-45 Days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 6.25, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46-90 Days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91-180 Days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 Days to 1 Year", "tenure_min_days": 181, "tenure_max_days": 365, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 1-2 Years", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 8.00, "rate_senior_pct": 8.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 2-3 Years", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 8.25, "rate_senior_pct": 8.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 3-5 Years", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 8.75, "rate_senior_pct": 9.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 5-10 Years", "tenure_min_days": 1826, "tenure_max_days": 3650, "rate_general_pct": 8.25, "rate_senior_pct": 8.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": ["No effective date ('w.e.f.') shown for the deposit rate table on the ROI page."],
+  "tier2_method": "websearch+webfetch"
+}

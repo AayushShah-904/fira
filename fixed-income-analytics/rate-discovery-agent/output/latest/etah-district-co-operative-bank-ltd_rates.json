@@ -1,0 +1,23 @@
+{
+  "bank_code": "etah-district-co-operative-bank-ltd",
+  "bank_name": "Etah District Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-13",
+  "source_url": "https://etah.nic.in/",
+  "scraped_at": "2026-05-13T06:09:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No deposit rate information found for Etah District Co-operative Bank Ltd. The district portal does not list any banking products or FD rates. Operator must check UP State Cooperative Bank or RBI for rates."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 71,
+    "last_scraped_at": "2026-05-13T06:09:00Z",
+    "manual_verification_needed": false
+  }
+}

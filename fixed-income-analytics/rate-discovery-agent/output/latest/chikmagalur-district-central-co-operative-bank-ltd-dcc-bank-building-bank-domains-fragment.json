@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+    "extracted_at": "2026-06-06T08:42:04.943Z",
+    "source": "bank-domains.json",
+    "source_sha": "d1f283b965600284ae2a2831e8eda7eb2310f96cc9d57c3c195db01f2cc75fb6"
+  },
+  "domain": "chikkamagalurudcc.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposit-accounts/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/savings-bank-account/",
+    "rd": "/recurring-deposits/"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

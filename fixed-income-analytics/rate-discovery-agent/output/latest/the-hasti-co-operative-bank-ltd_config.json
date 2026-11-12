@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-hasti-co-operative-bank-ltd",
+  "bank_name": "the-hasti-co-operative-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://hasti.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://hasti.bank.in/page/223"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:29:41.670Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

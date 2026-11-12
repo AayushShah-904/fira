@@ -1,0 +1,17 @@
+{
+  "bank_code": "jamia-co-operative-bank-ltd-new-delhi",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:42:08.653Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T17:24:53.768Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "bank_code": "the-bhandara-urban-co-operative-bank-ltd",
+  "bank_name": "the-bhandara-urban-co-operative-bank-ltd",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 126687,
+  "duration_ms": 126687,
+  "duration_api_ms": 6434,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.049715999999999996,
+  "llm_cost_usd": 0.049715999999999996,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21446,
+  "output_tokens": 853,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30047,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bucbl.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30031,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bucbl.com/deposit-interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30040,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bucbl.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30135,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bucbl.com/deposit-interest-rates\"}"
+    }
+  ]
+}

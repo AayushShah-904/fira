@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "dcb-bank-limited",
+    "extracted_at": "2026-06-05T09:45:12.317Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "dcb.bank.in",
+  "rate_pages": {
+    "fd": "https://www.dcb.bank.in/rates/fixed-deposit-interest-rates",
+    "fd_nre": "/rates/nri-interest-rates",
+    "fd_nro": "/rates/nri-interest-rates",
+    "fd_fcnr": "/rates/nri-interest-rates",
+    "fd_nri_combined": "/rates/nri-interest-rates",
+    "savings": "/rates/deposit-rates",
+    "rd": null,
+    "fd_prev": "/rates/fixed-deposit-interest-rate",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "Next.js / React (server-rendered with JS hydration), None detected. NRI rates on combined page. Old domain dcbbank.com 301→dcb.bank.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:24:41.646Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_xhr",
+    "source_url": "https://www.dcb.bank.in/rates/fixed-deposit-interest-rates",
+    "slab_count": 17,
+    "hints": "XHR JSON API: POST /api/api-interceptor → /rates?id=resident-fixed-deposit-interest-rates (Next.js); super_senior = Sr Citizen Plus 70+",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

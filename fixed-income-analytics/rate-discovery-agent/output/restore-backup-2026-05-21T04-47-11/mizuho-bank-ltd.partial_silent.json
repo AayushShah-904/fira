@@ -1,0 +1,6 @@
+{
+  "bank_code": "mizuho-bank-ltd",
+  "reason": "slab drift on fcnr: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T23:39:36.230Z",
+  "attempts": 3
+}

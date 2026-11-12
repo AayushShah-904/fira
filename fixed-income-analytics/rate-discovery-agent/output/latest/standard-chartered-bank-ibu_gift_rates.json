@@ -1,0 +1,104 @@
+{
+  "bank_code": "standard-chartered-bank-ibu",
+  "bank_name": "Standard Chartered Bank IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-06-05",
+  "source_url": "https://sc.com/in/commercial/cms-fixed-deposits/",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Overnight",
+      "tenure_min_days": 1,
+      "tenure_max_days": 1,
+      "rate_general_pct": 2.77,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "7-13 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 13,
+      "rate_general_pct": 2.77,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "14-29 Days",
+      "tenure_min_days": 14,
+      "tenure_max_days": 29,
+      "rate_general_pct": 2.78,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 Month",
+      "tenure_min_days": 30,
+      "tenure_max_days": 30,
+      "rate_general_pct": 2.83,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3 Month",
+      "tenure_min_days": 90,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.08,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "6 Month",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.27,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "9 Month",
+      "tenure_min_days": 270,
+      "tenure_max_days": 270,
+      "rate_general_pct": 3.39,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "12 Month",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 3.51,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "No effective date published on the rate page. Only USD currency rates are available; no EUR/GBP/other currencies listed. No senior citizen rates for IBU deposits."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

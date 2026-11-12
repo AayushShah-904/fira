@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "the-jammu-and-kashmir-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:29:59.537Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "jkscbank.com",
+  "scraper_type": "manual",
+  "notes": "No dedicated website found. Not to be confused with J&K Bank (jkb.bank.in) which is a PVB. Contact: jkscb21000@yahoo.com via Budgam district portal.",
+  "status": "website_not_found",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  },
+  "domain_prev": "coopbank.co.in",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "The bank's own site jkscbank.com (titled 'J&K STATE COOPERATIVE Bank') appears in search results but is unreachable from here (HTTP 000 / connection timeout on https, http, and www variants). Registry hint domain coopbank.co.in is a third-party banking portal, not the bank. No FD rate page could be retrieved; may work later."
+  }
+}

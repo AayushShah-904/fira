@@ -1,0 +1,30 @@
+{
+  "bank_code": "nadia-district-central-co-operative-bank-ltd",
+  "bank_name": "Nadia District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-03-06",
+  "source_url": "https://ndcb.bank.in/interest-rate/",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [
+    { "tenure_text": "15 days to 45 days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 3.50, "rate_senior_pct": 4.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to 90 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 4.50, "rate_senior_pct": 5.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 4.75, "rate_senior_pct": 5.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to less than 1 year", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.75, "rate_senior_pct": 6.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year to 2 years", "tenure_min_days": 365, "tenure_max_days": 730, "rate_general_pct": 6.90, "rate_senior_pct": 7.40, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 2 years to 3 years", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 3 years to 5 years", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 5 years", "tenure_min_days": 1826, "tenure_max_days": null, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Source is a Hindi-language table. Columns: सामान्य (General) -> rate_general_pct, वरि0नाग0 (Senior) -> rate_senior_pct. Third column बैंकर्स जमा (Bankers Deposit) is an institutional/bankers tier, NOT super-senior, and was intentionally ignored.",
+    "Effective date 06-03-2023 from header (दि0 06-03-2023 से प्रभावी); rate card appears stale but is the only published rate set."
+  ],
+  "errors": []
+}

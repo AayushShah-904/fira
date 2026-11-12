@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-assam-co-operative-apex-bank-ltd",
+  "bank_name": "the-assam-co-operative-apex-bank-ltd",
+  "bank_type": "NSSCB",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "state": "Assam",
+  "website": "https://acab.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://acab.bank.in/fixed-deposit.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:59:10.376Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

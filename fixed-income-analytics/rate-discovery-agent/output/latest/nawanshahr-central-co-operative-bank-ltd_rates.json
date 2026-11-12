@@ -1,0 +1,106 @@
+{
+  "bank_code": "nawanshahr-central-co-operative-bank-ltd",
+  "bank_name": "The Nawanshahr Central Cooperative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-10-30",
+  "source_url": "https://nawanshahr.pbcoopbank.in/deposit-interest-rates/",
+  "scraped_at": "2026-05-25T16:20:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 - 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 - 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 - 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "One Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above One Year",
+      "tenure_min_days": 366,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Source table shows identical rates for 'below 1 crore' and 'above 1.00 crore' columns (recorded once as general). '7-45 Days' row shows nil (no interest); upper bound set to 14 days since the next row starts at 15 days. Senior-citizen premium is NOT a separate column: per page note 'Extra 0.50% interest will be admissible to senior citizen on single deposit of Rs 20000/- or above (applicable only for S.No 6 & 8)'. Only the 'One Year' row (S.No 6) clearly maps, so senior rate set to 6.60+0.50=7.10 there; other rows left null because the conditional +0.50% does not apply or row mapping is ambiguous. Effective date present on page but not cleanly captured (Saving rate w.e.f. 30-10-2025; TD effective date column blank in extraction)."
+  ],
+  "tier2_method": "websearch+webfetch",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "websearch+webfetch",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T16:20:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:44:58.071Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T16:20:00Z",
+      "retained_slab_count": 7
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 266,
+    "last_scraped_at": "2026-05-25T16:20:00Z",
+    "manual_verification_needed": true
+  }
+}

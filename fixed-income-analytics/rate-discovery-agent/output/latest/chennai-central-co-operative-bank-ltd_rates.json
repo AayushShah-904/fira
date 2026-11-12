@@ -1,0 +1,23 @@
+{
+  "bank_code": "chennai-central-co-operative-bank-ltd",
+  "bank_name": "Chennai Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://ccbankchennai.com",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Official website ccbankchennai.com is unreachable (TLS/SSL error: SSL alert number 112) as of 2026-06-05. No FD rate page could be accessed. Manual extraction required."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

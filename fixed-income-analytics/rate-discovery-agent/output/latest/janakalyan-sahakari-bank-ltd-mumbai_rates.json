@@ -1,0 +1,111 @@
+{
+  "bank_code": "janakalyan-sahakari-bank-ltd-mumbai",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://janakalyan.bank.in/Encyc/2019/5/27/Interest-Rate-Term-Deposits.html",
+  "scraped_at": "2026-06-09T13:55:57.879Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 29 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "30 days to 90 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 270 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "271 days to 365 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "More than 12 months to 18 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 540,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "More than 18 months to 30 months",
+      "tenure_min_days": 540,
+      "tenure_max_days": 900,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "More than 30 months to 60 months",
+      "tenure_min_days": 900,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "More than 60 months to 120 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Jankar Bachat Yojana (TAX Benefit 60 Months)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T13:55:57.879Z",
+    "manual_verification_needed": false
+  }
+}

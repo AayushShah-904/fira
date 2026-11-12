@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "hassan-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:32:17.572Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "hassandccbank.com",
+  "rate_pages": {
+    "fd": "/interest_rates.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving_bank.html",
+    "rd": "/recurring_deposit.html"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

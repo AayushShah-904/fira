@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-05-20T22:13:17.206Z",
+  "category": "Small Finance Bank",
+  "succeeded": 11,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "capital-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 72
+    },
+    {
+      "name": "esaf-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 81
+    },
+    {
+      "name": "au-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 203
+    },
+    {
+      "name": "jana-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 93
+    },
+    {
+      "name": "shivalik-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 51
+    },
+    {
+      "name": "slice-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 78
+    },
+    {
+      "name": "suryoday-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 239
+    },
+    {
+      "name": "ujjivan-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 169
+    },
+    {
+      "name": "equitas-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 528
+    },
+    {
+      "name": "utkarsh-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 70
+    },
+    {
+      "name": "unity-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 116
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bank_code": "citibank-na",
+  "bank_name": "citibank-na",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 25640,
+  "duration_ms": 25640,
+  "duration_api_ms": 22829,
+  "num_turns": 3,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.153942,
+  "llm_cost_usd": 0.153942,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 55963,
+  "output_tokens": 5252,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 969,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 916,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 925,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"bank_type\\\": \\\"FB\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"product_type\\\": \\\"FD"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"product_type\\\": \\\"FD"
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "PDF rate card (Excel-generated), single page, two tables (Residents + NRO/NRE) with identical rates. No senior citizen rates. Rates for domestic, NRE, and NRO FDs are the same.",
+    "website_url": "https://citigroup.com",
+    "rate_url_fd": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "slab_count": 17,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on fcnr: 0 < 0.8 * 1 (expected)",
+    "domain_was_known": true
+  }
+}

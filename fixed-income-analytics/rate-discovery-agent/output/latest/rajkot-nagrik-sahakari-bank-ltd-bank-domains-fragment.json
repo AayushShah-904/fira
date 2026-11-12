@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T13:14:03.589Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "rnsb.bank.in",
+  "rate_pages": {
+    "fd": "https://rnsb.bank.in/admin/uploads/banners.JPG",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/RNSB/fixed-term-deposit.php",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "notes": "PHP with jQuery. HTML table with 5 columns. 1 tables. rnsbindia.com redirects to rnsb.bank.in."
+}

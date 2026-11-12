@@ -1,0 +1,19 @@
+{
+  "bank_code": "bank-of-baroda-ibu",
+  "bank_name": "bank-of-baroda-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "state": "Gujarat",
+  "website": "https://bankofbaroda.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_gift": "https://ifsc.bankofbaroda.bank.in/rates-and-charges/interest-rates"
+  },
+  "deposit_insurance": false,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:18:49.083Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

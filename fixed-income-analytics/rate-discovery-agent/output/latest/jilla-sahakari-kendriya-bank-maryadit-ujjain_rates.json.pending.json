@@ -1,0 +1,25 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-06",
+  "source_url": "https://jskbrjn.bank.in/interest-rates.php",
+  "scraped_at": "2026-06-06T07:14:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Domain jskbrjn.bank.in could not be reached (DNS resolution failure: getaddrinfo EAI_AGAIN). No rate data extracted."
+  ],
+  "errors": [
+    "Fetch failed for both homepage and interest rate page due to DNS error."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 47,
+    "last_scraped_at": "2026-06-06T07:14:00Z",
+    "manual_verification_needed": false
+  }
+}

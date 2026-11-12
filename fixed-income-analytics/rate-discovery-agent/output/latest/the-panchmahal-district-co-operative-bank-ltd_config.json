@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-panchmahal-district-co-operative-bank-ltd",
+  "bank_name": "the-panchmahal-district-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://pdc.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://pdc.bank.in/page/1"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:01:49.375Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

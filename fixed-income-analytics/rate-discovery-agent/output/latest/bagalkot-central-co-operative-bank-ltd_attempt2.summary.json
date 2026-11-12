@@ -1,0 +1,90 @@
+{
+  "bank_code": "bagalkot-central-co-operative-bank-ltd",
+  "bank_name": "bagalkot-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10264,
+  "duration_ms": 10264,
+  "duration_api_ms": 9731,
+  "num_turns": 5,
+  "tool_call_count": 8,
+  "total_cost_usd": 0.073074,
+  "input_tokens": 32401,
+  "output_tokens": 1034,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Bagalkot Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bagalkotcentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 169,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bagalkotcentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Bagalkot Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 208,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bagalkotdccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 67,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bagalkotdccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bagalkotcentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bagalkotcentralcoopbank.co.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 6,
+    "domain_was_known": false
+  }
+}

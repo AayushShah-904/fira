@@ -1,0 +1,158 @@
+{
+  "bank_code": "ujjivan-small-finance-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-07-07",
+  "source_url": "https://ujjivansfb.bank.in/interest-rates",
+  "scraped_at": "2026-07-07T07:09:00.259Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year to < 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Year 1 day - 3 Year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 Year 1 Day – 3 year 6 months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1275,
+      "rate_general_pct": 7.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">3 Year 6 months- 5 Years",
+      "tenure_min_days": 1275,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years 1 day",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 1826,
+      "rate_general_pct": 7.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years 2 Days",
+      "tenure_min_days": 1827,
+      "tenure_max_days": 1827,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Up to ₹ 3 lakh",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> ₹3 lakh to ₹5 lakhs",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> ₹5 lakhs to ₹25 lakhs",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> ₹25 lakh to ₹25 Crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "> ₹25 Crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 16,
+    "last_scraped_at": "2026-07-07T07:09:00.259Z",
+    "manual_verification_needed": false
+  }
+}

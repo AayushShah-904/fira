@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "natwest-markets-plc",
+    "extracted_at": "2026-06-05T11:53:09.973Z",
+    "source": "bank-domains.json",
+    "source_sha": "d4c965f8960ae816dbe0af8cf78777c8bae86c6e274ea7bd1bcf21db8a24df79"
+  },
+  "domain": "natwestmarkets.bank.in",
+  "rate_pages": {
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd": "/help-you/base-rate.html",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static"
+}

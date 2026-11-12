@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-guntur-co-operative-urban-bank-ltd",
+  "bank_name": "the-guntur-co-operative-urban-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://guntururban.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://guntururban.bank.in/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:16:05.298Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

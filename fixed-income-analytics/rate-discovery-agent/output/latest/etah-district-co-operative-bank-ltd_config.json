@@ -1,0 +1,33 @@
+{
+  "bank_code": "etah-district-co-operative-bank-ltd",
+  "bank_name": "Etah District Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://etah.nic.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website or rate page found for Etah District Co-operative Bank Ltd. District portal (etah.nic.in) lists public utilities but does not provide any banking product or deposit rate information. All domain and Hindi search attempts failed. This DCCB likely does not have a web presence; operator must check with UP State Cooperative Bank or RBI for rates.",
+  "scraper_notes": {
+    "framework": "WordPress (district portal)",
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "web_search + district portal fetch",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

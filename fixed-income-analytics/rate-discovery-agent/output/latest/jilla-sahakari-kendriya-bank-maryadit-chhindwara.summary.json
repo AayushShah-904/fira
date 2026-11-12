@@ -1,0 +1,44 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-chhindwara",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-chhindwara",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10190,
+  "duration_ms": 10190,
+  "duration_api_ms": 10100,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008694,
+  "input_tokens": 18955,
+  "output_tokens": 695,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit chhindwara\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditchhindwara.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditchhindwara.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditchhindwara.com/\"}"
+    }
+  ]
+}

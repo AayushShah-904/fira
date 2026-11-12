@@ -1,0 +1,25 @@
+{
+  "bank_code": "karnavathi-co-operative-bank-ltd",
+  "bank_name": "Karnavathi Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-06-09",
+  "source_url": "https://karnavati.bank.in/deposit/10",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7-30 days", "tenure_min_days": 7, "tenure_max_days": 30, "rate_general_pct": 3.50, "rate_senior_pct": 4.00, "rate_super_senior_pct": 4.25, "deposit_range": "below_15l" },
+    { "tenure_text": "31-90 days", "tenure_min_days": 31, "tenure_max_days": 90, "rate_general_pct": 3.75, "rate_senior_pct": 4.25, "rate_super_senior_pct": 4.50, "deposit_range": "below_15l" },
+    { "tenure_text": "91-180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 4.75, "rate_senior_pct": 5.25, "rate_super_senior_pct": 5.50, "deposit_range": "below_15l" },
+    { "tenure_text": "181-364 days", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 5.75, "rate_senior_pct": 6.25, "rate_super_senior_pct": 6.50, "deposit_range": "below_15l" },
+    { "tenure_text": "1-2 years", "tenure_min_days": 365, "tenure_max_days": 730, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": 7.75, "deposit_range": "below_15l" },
+    { "tenure_text": "2-3 years", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 7.15, "rate_senior_pct": 7.65, "rate_super_senior_pct": 7.90, "deposit_range": "below_15l" },
+    { "tenure_text": "3-5 years", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": 7.50, "deposit_range": "below_15l" },
+    { "tenure_text": "555 days (Simple Interest, special)", "tenure_min_days": 555, "tenure_max_days": 555, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": 8.25, "deposit_range": "below_15l" }
+  ],
+  "special_schemes": [
+    { "name": "555 days Simple Interest", "tenure_text": "555 days", "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": 8.25 }
+  ],
+  "warnings": ["Senior +0.50% (60+), Super-senior +0.75% (75+). Deposits >= Rs.15,00,000 get +0.50% bonus (not modelled; only one benefit applies per account). Bank migrated karnavatibank.com -> karnavati.bank.in."],
+  "tier2_method": "websearch+webfetch"
+}

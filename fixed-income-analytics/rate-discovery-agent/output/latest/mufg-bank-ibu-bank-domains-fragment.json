@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "mufg-bank-ibu",
+    "extracted_at": "2026-06-05T14:21:57.899Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "bk.mufg.jp",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": null
+  },
+  "scraper_type": "manual",
+  "parent_bank_code": "mufg-bank-ltd",
+  "notes": "IFSC Banking Unit in GIFT City. Opened 2022. Corporate-focused, no public rate card. GIFT City page: /global/globalnetwork/asiaoceania/giftcity.html. Parent INR FD rates at /report/indiarate/fd_cards_rates.pdf (Indian branches only).",
+  "status": "wholesale_only",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "MUFG Bank IFSC Banking Unit (GIFT City, Gandhinagar) opened 2022 as MUFG's sixth Indian branch, serving Japanese and global CORPORATE clients only. The MUFG GIFT City page (bk.mufg.jp/global/globalnetwork/asiaoceania/giftcity.html) shows a 'website has moved to .bank.in' notice and no retail deposit rate table. Wholesale/corporate IBU; no retail FD rate card published."
+  }
+}

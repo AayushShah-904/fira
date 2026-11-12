@@ -1,0 +1,72 @@
+{
+  "bank_code": "ab-bank-plc",
+  "bank_name": "ab-bank-plc",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10703,
+  "duration_ms": 10703,
+  "duration_api_ms": 9403,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.172234,
+  "llm_cost_usd": 0.172234,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 82341,
+  "output_tokens": 944,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 974,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://abbl.com/rates-and-charge/fixed-deposit-rates/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 325,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://abbl.com/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/foreign-bank/ab-bank-plc_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ab-bank-plc\\\",\\n  \\\"bank_name\\\": \\\"AB Bank PLC\\\",\\n  \\\"bank_type\\\": \\\"FB\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0538_all/foreign-bank/ab-bank-plc_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ab-bank-plc\\\",\\n  \\\"bank_name\\\": \\\"AB Bank PLC\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "AB Bank PLC is a Bangladeshi bank; abbl.com publishes BDT fixed-deposit rates (8-12%), not Indian INR FD. Excluded from the INR pack. AB Bank India-branch INR rates, if published, would need separate sourcing.",
+    "website_url": "https://abbl.com",
+    "rate_url_fd": "https://abbl.com/rates-and-charge/fixed-deposit-rates/",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

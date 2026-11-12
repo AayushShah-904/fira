@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "bank_code": "sbpp-co-operative-bank-ltd-killa-pardi",
+    "extracted_at": "2026-06-05T13:14:41.189Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "sbpp.bank.in",
+  "rate_pages": {
+    "fd": "/pages/fixed-deposit-interest-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML tables. 2 tables",
+  "template": {
+    "template_id": "sbpp-coop-3col-tenure-single-rate-plus-special",
+    "template_hash": "sha1:478ae69a2c818aed313d6b64fd89cf428b38f521",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

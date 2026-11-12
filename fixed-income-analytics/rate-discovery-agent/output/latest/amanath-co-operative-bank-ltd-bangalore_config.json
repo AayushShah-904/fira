@@ -1,0 +1,19 @@
+{
+  "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+  "bank_name": "amanath-co-operative-bank-ltd-bangalore",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://amanath-bank.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://amanath-bank.com/intrestrates.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:41:35.335Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "janata-sahakari-bank-ltd-pune",
+    "extracted_at": "2026-06-05T13:30:58.511Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "jsblpune.bank.in",
+  "rate_pages": {
+    "fd": "/Encyc/2016/5/2/Deposit-Interest-Rate.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML table with tenure, general rate, senior citizen rate columns. 1 tables",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior",
+    "template_hash": "sha1:b2f49d7b00e4650ffc3e14b06d9dd82e55757176",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 20,
+      "cluster_reused": false
+    }
+  }
+}

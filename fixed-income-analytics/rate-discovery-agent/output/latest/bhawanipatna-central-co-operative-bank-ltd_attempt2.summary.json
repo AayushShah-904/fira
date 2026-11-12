@@ -1,0 +1,84 @@
+{
+  "bank_code": "bhawanipatna-central-co-operative-bank-ltd",
+  "bank_name": "bhawanipatna-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 9864,
+  "duration_ms": 9864,
+  "duration_api_ms": 9434,
+  "num_turns": 4,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.059016,
+  "input_tokens": 25804,
+  "output_tokens": 926,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Bhawanipatna Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatnacentralcoopbank.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Bhawanipatna Central Co-operative Bank Ltd\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 172,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatnaccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhawanipatnaccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bhawanipatnaccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 169,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bhawanipatnaccb.com/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 5,
+    "domain_was_known": false
+  }
+}

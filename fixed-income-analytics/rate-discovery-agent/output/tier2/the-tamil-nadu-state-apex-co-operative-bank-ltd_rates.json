@@ -1,0 +1,31 @@
+{
+  "bank_code": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+  "bank_name": "The Tamil Nadu State Apex Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://www.tnsc.bank.in/interest-rates/",
+  "scraped_at": "2026-05-25T11:30:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 days to less than 15 days", "tenure_min_days": 7, "tenure_max_days": 14, "rate_general_pct": 3.60, "rate_senior_pct": 3.60, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "15 days to less than 30 days", "tenure_min_days": 15, "tenure_max_days": 29, "rate_general_pct": 4.10, "rate_senior_pct": 4.10, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "30 days to less than 46 days", "tenure_min_days": 30, "tenure_max_days": 45, "rate_general_pct": 4.60, "rate_senior_pct": 4.60, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 days to less than 91 days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 5.60, "rate_senior_pct": 5.60, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 days to less than 121 days", "tenure_min_days": 91, "tenure_max_days": 120, "rate_general_pct": 5.85, "rate_senior_pct": 5.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "121 days to less than 181 days", "tenure_min_days": 121, "tenure_max_days": 180, "rate_general_pct": 6.10, "rate_senior_pct": 6.10, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 days to less than 271 days", "tenure_min_days": 181, "tenure_max_days": 270, "rate_general_pct": 6.60, "rate_senior_pct": 6.60, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "271 days to less than 365 days", "tenure_min_days": 271, "tenure_max_days": 364, "rate_general_pct": 6.85, "rate_senior_pct": 6.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "12 months to less than 24 months", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 7.35, "rate_senior_pct": 7.60, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "24 months to less than 36 months", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 7.10, "rate_senior_pct": 7.35, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": ">36 Months", "tenure_min_days": 1095, "tenure_max_days": null, "rate_general_pct": 6.85, "rate_senior_pct": 7.10, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Tax Benefit Deposits", "tenure_min_days": 1825, "tenure_max_days": null, "rate_general_pct": 7.10, "rate_senior_pct": 7.35, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "444 Days (for Individuals)", "tenure_min_days": 444, "tenure_max_days": 444, "rate_general_pct": 7.60, "rate_senior_pct": 7.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": [
+    "Rates published only as an image (INTEREST_page-0001.jpg, uploaded 2026/03); extracted via vision OCR of the rate card",
+    "Effective date not printed on the rate card image; current image uploaded March 2026",
+    "Bulk deposits get an additional rate (Rs2-5cr +0.15%, Rs5-20cr +0.30%, Rs20-50cr +0.40%, >50cr +0.50%) per a separate panel; not applied to these below_3cr retail slabs"
+  ],
+  "tier2_method": "playwright (rates are JPG images) -> downloaded INTEREST_page-0001.jpg -> vision OCR of rate table"
+}

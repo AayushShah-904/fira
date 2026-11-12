@@ -1,0 +1,74 @@
+{
+  "bank_code": "satara-district-central-co-operative-bank-ltd",
+  "bank_name": "Satara District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12010,
+  "duration_ms": 12010,
+  "duration_api_ms": 11664,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.08526,
+  "input_tokens": 38526,
+  "output_tokens": 1026,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Satara District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sataradccbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Satara District Central Co-operative Bank Ltd. official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sataradccbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://sataradccbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Satara District Central Co-operative Bank Ltd. interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 252,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sataradccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 7,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sataradccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 5,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.maharashtradccb.com\"}"
+    }
+  ]
+}

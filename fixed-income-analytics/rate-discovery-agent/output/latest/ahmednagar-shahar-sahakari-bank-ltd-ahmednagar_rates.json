@@ -1,0 +1,61 @@
+{
+  "bank_code": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://shaharbank.bank.in/DepositsRates.html",
+  "scraped_at": "2026-06-09T16:32:26.423Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 To 100 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 100,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "101 To 180 Days",
+      "tenure_min_days": 101,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 To 365 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "366 Days & Above",
+      "tenure_min_days": 366,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T16:32:26.423Z",
+    "manual_verification_needed": false
+  }
+}

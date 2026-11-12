@@ -1,0 +1,44 @@
+{
+  "bank_code": "fatehabad-central-co-operative-bank-ltd",
+  "bank_name": "fatehabad-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8897,
+  "duration_ms": 8897,
+  "duration_api_ms": 8799,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008500800000000001,
+  "input_tokens": 18796,
+  "output_tokens": 614,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Fatehabad Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fatehabadcentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fatehabadcentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fatehabadcentralcooperativebank.bank.in\"}"
+    }
+  ]
+}

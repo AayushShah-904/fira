@@ -1,0 +1,22 @@
+{
+  "bank_code": "mufg-bank-ltd",
+  "bank_name": "mufg-bank-ltd",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Japan",
+  "website": "https://bk.mufg.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:34:15.632Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

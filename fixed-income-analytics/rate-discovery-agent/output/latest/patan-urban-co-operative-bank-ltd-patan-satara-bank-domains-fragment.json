@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "patan-urban-co-operative-bank-ltd-patan-satara",
+    "extracted_at": "2026-06-06T09:40:52.101Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "patanurbanbank.co.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://patanurbanbank.co.in/Upload/DepositInterest.pdf",
+    "fd_prev": "/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://patanurbanbank.co.in/Upload/DepositInterest.pdf",
+    "slab_count": 5,
+    "hints": "Source is a scanned Marathi circular (PDF, no text layer) read via vision; effective 22/11/2023 — latest published on the bank site. | Senior citizen rate computed as general + 0.50% per the circular's footer note (no separate senior column printed). | Doubling-scheme deposits (Damduppat / Damdidpat) listed by maturity term only, not as standard tenure/rate slabs — omitted. | Deposit insurance up to Rs 5 lakh per circular footer.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "natixis-ibu",
+    "extracted_at": "2026-06-05T14:22:00.205Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "apac.cib.natixis.com",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": null
+  },
+  "parent_bank_code": null,
+  "scraper_type": "manual",
+  "notes": "Natixis GIFT City IBU. No public deposit rate page found.",
+  "status": "wholesale_only",
+  "domain_source": "discovered",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Natixis CIB opened its GIFT City IBU branch on 2026-05-01. It offers foreign-currency-denominated structured products and finance (energy & commodities, infrastructure, aviation, export financing, ECB) to corporate and institutional clients only. No deposit product and no published rate table. Wholesale-only IBU."
+  }
+}

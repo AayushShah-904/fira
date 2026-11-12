@@ -1,0 +1,100 @@
+{
+  "bank_code": "nasik-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-03-06",
+  "source_url": "https://ndcb.bank.in/interest-rate/",
+  "scraped_at": "2026-06-09T14:36:03.483Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 दिन से 45 दिन तक",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "15 दिन से 45 दिन तक 3.50 4.00  –"
+    },
+    {
+      "tenure_text": "46 दिन से 90 दिन तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "46 दिन से 90 दिन तक 4.50 5.00  –"
+    },
+    {
+      "tenure_text": "91 दिन से 180 दिन तक",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "91 दिन से 180 दिन तक 4.75 5.25  –"
+    },
+    {
+      "tenure_text": "181 दिन तथा एक वर्ष से कम",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 5.75,
+      "source_row_text": "181 दिन तथा एक वर्ष से कम 5.75 6.25  5.75"
+    },
+    {
+      "tenure_text": "एक वर्ष तथा उससे अधिक तथा दो वर्ष तक",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": 6.9,
+      "source_row_text": "एक वर्ष तथा उससे अधिक तथा दो वर्ष तक 6.90 7.40  6.90"
+    },
+    {
+      "tenure_text": "दो वर्ष से अधिक तथा तीन वर्ष तक",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 7,
+      "source_row_text": "दो वर्ष से अधिक तथा तीन वर्ष तक 7.00 7.50  7.00"
+    },
+    {
+      "tenure_text": "तीन वर्ष से अधिक 5 वर्ष तक",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 6.75,
+      "source_row_text": "तीन वर्ष से अधिक 5 वर्ष तक 6.75 7.25  6.75"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/8 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 8",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-03-06\" parses to 2023-03-06 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1235,
+    "last_scraped_at": "2026-06-09T14:36:03.483Z",
+    "manual_verification_needed": true
+  }
+}

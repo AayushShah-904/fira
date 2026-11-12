@@ -1,0 +1,14 @@
+{
+  "bank_code": "uttar-pradesh-gramin-bank",
+  "observations": [
+    {
+      "ts": "2026-06-09T13:33:49.754Z",
+      "evidence_url": "https://upgb.bank.in/fixed-deposit.php",
+      "http_status": 403,
+      "vendor": "unknown_waf",
+      "signal": "http-403",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

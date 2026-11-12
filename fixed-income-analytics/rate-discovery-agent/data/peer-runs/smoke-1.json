@@ -1,0 +1,11 @@
+{
+  "cohort": "smoke-1",
+  "split_at": "2026-06-03T20:11:04.885Z",
+  "cloud_cohort": "smoke-1-cloud",
+  "local_cohort": "smoke-1-local",
+  "cloud_run_label": null,
+  "cloud_execution_name": null,
+  "cloud_finished_at": null,
+  "local_run_label": null,
+  "local_finished_at": null
+}

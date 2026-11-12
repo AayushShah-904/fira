@@ -1,0 +1,76 @@
+{
+  "bank_code": "saraswat-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://saraswat.bank.in/content.aspx?id=Interest-Rates",
+  "scraped_at": "2026-10-01T21:44:18.037Z",
+  "effective_date": "2026-09-04",
+  "extraction_method": "manual_data_entry",
+  "extraction_confidence": "high",
+  "scraper_type": "html_static",
+  "verified_against_source": true,
+  "verified_at": "2026-06-15T14:58:14.015Z",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": null
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": null
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": null
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": null
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": null
+    }
+  ],
+  "warnings": [
+    "Operator-pasted 2026-06-15 from /content.aspx?id=Interest-Rates (\"Interest Rates on FCNR/RFC Deposits from 15.06.2026\").",
+    "USD only on Saraswat's FCNR page — 2 amount tiers (less than 1 million, more than 1 million). 5 tenures × 2 tiers = 10 slabs. USD >1M earns +1.00% (7.00% vs 6.00%) at 3-5y tenures.",
+    "3-5 year tenures carry a \"*\" footnote marker on the source page — likely the RBI Jun-8 to Sep-30 1-year lock-in clause seen across PSB/PVB peers. Tagged as lock_in_starred: true on those slabs."
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 38,
+    "last_scraped_at": "2026-06-15T14:58:14.015Z",
+    "manual_verification_needed": false
+  }
+}

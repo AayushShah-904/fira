@@ -1,0 +1,39 @@
+{
+  "bank_code": "nadia-district-central-co-operative-bank-ltd",
+  "bank_name": "Nadia District Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://www.nadiadccb.com",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://www.nadiadccb.com/Rate-of-interest.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": null,
+    "rows": null,
+    "effective_date": null
+  },
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "FD rate page exists but does not display any rate data in HTML. Linked PDF rate card is blocked (HTTP 403). No parseable rate slabs.",
+  "scraper_notes": {
+    "framework": "ASP.NET Web Forms",
+    "bot_protection": null,
+    "data_format": "No rate tables in HTML; PDF rate card inaccessible (403)",
+    "rate_tables_on_page": 0,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "web_search + homepage fetch + PDF fetch",
+    "confidence": "none"
+  }
+}

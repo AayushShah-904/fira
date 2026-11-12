@@ -1,0 +1,90 @@
+{
+  "bank_code": "federal-bank-limited",
+  "bank_name": "federal-bank-limited",
+  "category": "Private Sector Bank (Indian)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "private-sector-bank-indian",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 30233,
+  "duration_ms": 30233,
+  "duration_api_ms": 25090,
+  "num_turns": 5,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.312282,
+  "llm_cost_usd": 0.312282,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 140317,
+  "output_tokens": 3956,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1983,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.federal.bank.in/deposit-rate\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1051,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.federal.bank.in/nre-fixed-deposits\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 795,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.federal.bank.in/fcnr-b-deposits\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 544,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.federal.bank.in/documents/10180/124103/Interest+Rates+FCNR+%28B%29+Deposits+for+Web+wef+18+02+2026.pdf/4c0c6e49-7e00-13ba-fe15-2ed9faffc0ef?t=1771411565572\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 767,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.federal.bank.in/documents/10180/124103/HVD-+Web+Interest+03.06.2026.pdf/6b20c6ed-5035-f793-b1b8-eba8583aad15?version=1.0&t=1780488232049\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/federal-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"federal-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Federal Ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/federal-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"federal-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Federal Bank"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/federal-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"federal-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Federal "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/federal-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"federal-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"Federal"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/federal-bank-limited_bulk_rates.pdf.txt\",\"content\":\"PDF source: https://www.federal.bank.in/documents/10180/124103/HVD-+We"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/private-sector-bank-indian/federal-bank-limited_fcnr_rates.pdf.txt\",\"content\":\"PDF source: https://www.federal.bank.in/documents/10180/124103/Interes"
+    }
+  ]
+}

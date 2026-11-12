@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "bank_code": "cuddapah-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-06T08:43:00.764Z",
+    "source": "bank-domains.json",
+    "source_sha": "d1f283b965600284ae2a2831e8eda7eb2310f96cc9d57c3c195db01f2cc75fb6"
+  },
+  "domain": "kadapadccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposits-roi/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/deposits-roi/",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "WordPress. Standard HTML table with S.No / Particulars / Existing / Revised ROI columns. 1 tables",
+  "template": {
+    "template_id": "coop-cuddapah-4col-tenure-general",
+    "template_hash": "sha1:452d3745470b9eec18bdd62a7b36623d6944bbc6",
+    "fingerprinted_at": "2026-05-24",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\cuddapah-district-co-operative-central-bank-ltd.html",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "column_map": {
+        "0": "ignore",
+        "1": "tenure_text",
+        "2": "ignore",
+        "3": "rate_general_pct"
+      },
+      "table_index": 0,
+      "header_row": 0,
+      "header_span_rows": 1
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    }
+  }
+}

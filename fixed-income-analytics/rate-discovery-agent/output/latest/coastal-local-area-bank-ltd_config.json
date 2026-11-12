@@ -1,0 +1,19 @@
+{
+  "bank_code": "coastal-local-area-bank-ltd",
+  "bank_name": "coastal-local-area-bank-ltd",
+  "bank_type": "LAB",
+  "category": "Local Area Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://coastal.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://coastal.bank.in/public/images/pdf/Int%20rates%20from%2001-06-2025%20web%20site%201.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:26:43.442Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

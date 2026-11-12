@@ -1,0 +1,24 @@
+{
+  "bank_code": "national-urban-co-operative-bank-ltd-delhi",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\national-urban-co-operative-bank-ltd-delhi_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.665073Z",
+  "overall_passed": false,
+  "metrics": {
+    "schema_completeness": {
+      "score": 100,
+      "passed": true,
+      "reason": "All required fields present",
+      "missing_breakdown": {}
+    },
+    "extraction_confidence": {
+      "score": 40,
+      "passed": false,
+      "reason": "Confidence=high but only 2 slabs found (expected >=5)"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

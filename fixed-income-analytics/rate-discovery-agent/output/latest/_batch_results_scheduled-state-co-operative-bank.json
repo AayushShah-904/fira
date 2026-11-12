@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-05-20T22:01:21.549Z",
+  "category": "Scheduled State Co-operative Bank",
+  "succeeded": 24,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 27
+    },
+    {
+      "name": "the-bihar-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 32
+    },
+    {
+      "name": "the-andhra-pradesh-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "the-goa-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "gujarat-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "the-delhi-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 65
+    },
+    {
+      "name": "the-haryana-state-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "the-himachal-pradesh-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "the-karnataka-state-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "the-kerala-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "the-maharashtra-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 44
+    },
+    {
+      "name": "the-meghalaya-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 53
+    },
+    {
+      "name": "the-odisha-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 50
+    },
+    {
+      "name": "the-madhya-pradesh-rajya-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 127
+    },
+    {
+      "name": "the-puducherry-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 56
+    },
+    {
+      "name": "the-punjab-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 85
+    },
+    {
+      "name": "the-sikkim-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 107
+    },
+    {
+      "name": "the-telangana-state-cooperative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 33
+    },
+    {
+      "name": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 106
+    },
+    {
+      "name": "the-rajasthan-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 192
+    },
+    {
+      "name": "tripura-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 49
+    },
+    {
+      "name": "uttar-pradesh-state-co-operative-bank-limited",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "the-uttarakhand-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "the-west-bengal-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 31
+    }
+  ]
+}

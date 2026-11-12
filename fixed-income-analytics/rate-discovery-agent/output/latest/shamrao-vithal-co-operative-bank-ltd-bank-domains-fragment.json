@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "shamrao-vithal-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:41:02.877Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "svc.bank.in",
+  "rate_pages": {
+    "fd": "https://www.svc.bank.in/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest-rates",
+    "rd": null,
+    "fd_prev": "/interest-rates",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "JS-rendered (requires Playwright). HTML tables, 15 tables on page covering deposits + loans + forex. 2 tables",
+  "template": {
+    "template_id": "svc-3col-tenure-general-senior",
+    "template_hash": "sha1:f81b6d2561777129ab0d69f6062f64c5188d48e4",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:08:01.274Z",
+      "gates_passed": "PASS",
+      "slab_count": 16,
+      "cluster_reused": false
+    }
+  }
+}

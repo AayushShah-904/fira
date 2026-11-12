@@ -1,0 +1,17 @@
+{
+  "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-08T22:40:42.004Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:07:22.773Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

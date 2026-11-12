@@ -1,0 +1,33 @@
+{
+  "bank_code": "nilgiris-central-co-operative-bank-ltd",
+  "bank_name": "Nilgiris Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://nilgirisccb.bank.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No FD rate page, table, or PDF found on the official website. Only generic mention of deposit products. Rates likely published offline or via branch notice boards. Operator intervention required.",
+  "scraper_notes": {
+    "framework": "WordPress/Divi",
+    "bot_protection": null,
+    "data_format": "No rate tables or downloadable PDFs visible",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "homepage fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

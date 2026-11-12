@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "pritisangam-sahakari-bank-ltd-karad-satara",
+    "extracted_at": "2026-06-06T09:43:45.523Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "prokerala.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/#home-forex"
+  },
+  "scraper_type": "html_js",
+  "discovery_status": "no_website_known",
+  "gap_classification": {
+    "reason": "no_website",
+    "discovery_status": "no_website_known",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "none",
+    "notes": "No official website found. Registry hint domain prokerala.com is a third-party banking directory, not the bank. All search hits are IFSC directories / aggregators (its IFSC IBKL0470PSB is an IDBI-sponsored code). Bank is a small NSUCB at 56 Shaniwar Peth, Karad, Satara 415110; contact 9527077605. No FD rate page exists online."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "bank_code": "bihar-gramin-bank",
+    "extracted_at": "2026-06-05T12:43:18.731Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "bgb.bank.in",
+  "rate_pages": {
+    "fd": "/welcome/quickview/2",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/welcome/quickview/2",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "rrb-3col-tenure-general",
+    "template_hash": "sha1:df45f18f179fd5f71298bb1d9890a952b7504624",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": "below_1cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 12,
+      "cluster_reused": false
+    }
+  }
+}

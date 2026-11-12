@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-andaman-and-nicobar-state-co-operative-bank-ltd",
+  "bank_name": "The Andaman and Nicobar State Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2022-12-01",
+  "source_url": "https://www.anscbank.in/wp-content/uploads/2023/01/roi-1122022.pdf",
+  "scraped_at": "2026-06-05T12:20:33Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "5 years to less than 8 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2919,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "8 to 10 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Could not parse tenure for one slab: '8 to 10 years'. Please verify PDF for exact tenure days.",
+    "Effective date inferred from PDF filename (roi-1122022.pdf) as 01/12/2022; not explicitly stated in document.",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2022-12-01\" parses to 2022-12-01 (year 2022 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1330,
+    "last_scraped_at": "2026-06-05T12:20:33Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "bank_code": "woori-bank",
+  "bank_name": "woori-bank",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://go.wooribank.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/in/hs/os/HSOS113_01C.do",
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Woori Bank India. Interactive JSP page, Korean by default (must switch to English). Term deposit page only shows a single range (3.75%-6.75% for 7d-10yr) — no granular slab-wise rates published.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:58:25.414Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

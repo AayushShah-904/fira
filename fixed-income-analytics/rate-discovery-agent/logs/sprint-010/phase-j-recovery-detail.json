@@ -1,0 +1,820 @@
+{
+  "stats": {
+    "examined": 153,
+    "restored": 102,
+    "skipped_current_has_slabs": 0,
+    "skipped_head_empty": 0,
+    "skipped_no_head": 0,
+    "skipped_r3_partial": 51,
+    "slabs_recovered": 1373,
+    "banks_touched": 101
+  },
+  "restored": [
+    {
+      "file": "amritsar-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "amritsar-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 14,
+      "baseline": 14,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "angul-united-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "angul-united-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 12,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "assam-gramin-bank_rates.json",
+      "bank_code": "assam-gramin-bank",
+      "variant": "regular",
+      "slabs_recovered": 10,
+      "baseline": 10,
+      "method": "manual_pdf_transcription"
+    },
+    {
+      "file": "au-small-finance-bank-limited_fcnr_rates.json",
+      "bank_code": "au-small-finance-bank-limited",
+      "variant": "fcnr",
+      "slabs_recovered": 25,
+      "baseline": 25,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "axis-bank-ibu_gift_rates.json",
+      "bank_code": "axis-bank-ibu",
+      "variant": "gift",
+      "slabs_recovered": 24,
+      "baseline": 24
+    },
+    {
+      "file": "axis-bank-limited_rates.json",
+      "bank_code": "axis-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 162,
+      "baseline": 162,
+      "method": "automatic_pdf"
+    },
+    {
+      "file": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi_rates.json",
+      "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "bank-of-ceylon_rates.json",
+      "bank_code": "bank-of-ceylon",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 11,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "bharath-co-operative-bank-limited-bangalore_rates.json",
+      "bank_code": "bharath-co-operative-bank-limited-bangalore",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "bharati-sahakari-bank-limited_rates.json",
+      "bank_code": "bharati-sahakari-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 8,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "canara-bank-ibu_gift_rates.json",
+      "bank_code": "canara-bank-ibu",
+      "variant": "gift",
+      "slabs_recovered": 32,
+      "baseline": 32,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building_rates.json",
+      "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 8,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "chiplun-urban-coopbank-ltd_rates.json",
+      "bank_code": "chiplun-urban-coopbank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "citibank-na_nre_rates.json",
+      "bank_code": "citibank-na",
+      "variant": "nre",
+      "slabs_recovered": 34,
+      "baseline": 17,
+      "method": "automatic_pdf"
+    },
+    {
+      "file": "csb-bank-limited_rates.json",
+      "bank_code": "csb-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 17,
+      "baseline": 17,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "cuttack-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "cuttack-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 12,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "dcb-bank-limited_rates.json",
+      "bank_code": "dcb-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 47,
+      "baseline": 47,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "equitas-small-finance-bank-limited_rates.json",
+      "bank_code": "equitas-small-finance-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 23,
+      "baseline": 23,
+      "method": "automatic_text_pattern"
+    },
+    {
+      "file": "ganganagar-kendriya-sahakari-bank-ltd_rates.json",
+      "bank_code": "ganganagar-kendriya-sahakari-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "godavari-urban-co-opbank-ltdnashik_rates.json",
+      "bank_code": "godavari-urban-co-opbank-ltdnashik",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "gondia-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "gondia-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "grain-merchants-co-operative-bank-ltdbangalore_rates.json",
+      "bank_code": "grain-merchants-co-operative-bank-ltdbangalore",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "hdfc-bank-limited_fcnr_rates.json",
+      "bank_code": "hdfc-bank-limited",
+      "variant": "fcnr",
+      "slabs_recovered": 24,
+      "baseline": 24
+    },
+    {
+      "file": "hoshiarpur-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "hoshiarpur-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 10,
+      "baseline": 10,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jabalpur-mahila-nagarik-sahakari-bank-maryadit_rates.json",
+      "bank_code": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+      "variant": "regular",
+      "slabs_recovered": 4,
+      "baseline": 4,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jalgaon-janata-sahakari-bank-ltd_rates.json",
+      "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 22,
+      "baseline": 22,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jammu-kashmir-bank-limited_nre_rates.json",
+      "bank_code": "jammu-kashmir-bank-limited",
+      "variant": "nre",
+      "slabs_recovered": 7,
+      "baseline": 7
+    },
+    {
+      "file": "jammu-kashmir-bank-limited_nro_rates.json",
+      "bank_code": "jammu-kashmir-bank-limited",
+      "variant": "nro",
+      "slabs_recovered": 13,
+      "baseline": 13
+    },
+    {
+      "file": "janata-sahakari-bank-ltd-satara_rates.json",
+      "bank_code": "janata-sahakari-bank-ltd-satara",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "janatha-seva-co-operative-bank-ltd-bangalore_rates.json",
+      "bank_code": "janatha-seva-co-operative-bank-ltd-bangalore",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jharkhand-state-co-operative-bank-ltd_rates.json",
+      "bank_code": "jharkhand-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 19,
+      "baseline": 19,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jijau-commercial-co-operative-bank-ltd-amravati_rates.json",
+      "bank_code": "jijau-commercial-co-operative-bank-ltd-amravati",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jilla-sahakari-kendriya-bank-maryadit-jabalpur_rates.json",
+      "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "jilla-sahakari-kendriya-bank-maryadit-sagar_rates.json",
+      "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "jilla-sahakari-kendriya-bank-maryadit-ujjain_rates.json",
+      "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+      "variant": "regular",
+      "slabs_recovered": 11,
+      "baseline": 10,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "jodhpur-nagarik-sahakari-bank-ltd_rates.json",
+      "bank_code": "jodhpur-nagarik-sahakari-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "jp-morgan-chase-bank-na_rates.json",
+      "bank_code": "jp-morgan-chase-bank-na",
+      "variant": "regular",
+      "slabs_recovered": 26,
+      "baseline": 26,
+      "method": "manual_pdf_transcription"
+    },
+    {
+      "file": "karimnagar-district-co-operative-central-bank-ltd_rates.json",
+      "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "karnavathi-co-operative-bank-ltd_rates.json",
+      "bank_code": "karnavathi-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "kota-nagarik-sahakari-bank-ltd-kota_rates.json",
+      "bank_code": "kota-nagarik-sahakari-bank-ltd-kota",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "kotak-mahindra-bank-limited_rates.json",
+      "bank_code": "kotak-mahindra-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 18,
+      "baseline": 18,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "ludhiana-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "ludhiana-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "madhya-pradesh-gramin-bank_rates.json",
+      "bank_code": "madhya-pradesh-gramin-bank",
+      "variant": "regular",
+      "slabs_recovered": 13,
+      "baseline": 13,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "meerut-district-co-operative-bank-ltd_rates.json",
+      "bank_code": "meerut-district-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "meghalaya-rural-bank_rates.json",
+      "bank_code": "meghalaya-rural-bank",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7
+    },
+    {
+      "file": "mizuho-bank-ibu_gift_rates.json",
+      "bank_code": "mizuho-bank-ibu",
+      "variant": "gift",
+      "slabs_recovered": 16,
+      "baseline": 16
+    },
+    {
+      "file": "mufg-bank-ltd_rates.json",
+      "bank_code": "mufg-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 15,
+      "baseline": 15,
+      "method": "manual_pdf_transcription"
+    },
+    {
+      "file": "mumbai-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "mumbai-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 13,
+      "baseline": 13,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "nainital-bank-limited_rates.json",
+      "bank_code": "nainital-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 16,
+      "baseline": 16,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "natwest-markets-plc_rates.json",
+      "bank_code": "natwest-markets-plc",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "nawanshahr-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "nawanshahr-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "panipat-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "panipat-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 16,
+      "baseline": 16,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "patan-urban-co-operative-bank-ltd-patan-satara_rates.json",
+      "bank_code": "patan-urban-co-operative-bank-ltd-patan-satara",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "patiala-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "patiala-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 11,
+      "baseline": 11,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "paytm-payments-bank-limited_rates.json",
+      "bank_code": "paytm-payments-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 12,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "pt-bank-maybank-indonesia-tbk_rates.json",
+      "bank_code": "pt-bank-maybank-indonesia-tbk",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 12,
+      "method": "manual_pdf_transcription"
+    },
+    {
+      "file": "qatar-national-bank-qpsc_rates.json",
+      "bank_code": "qatar-national-bank-qpsc",
+      "variant": "regular",
+      "slabs_recovered": 16,
+      "baseline": 16,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "rajarambapu-sahakari-bank-ltd_rates.json",
+      "bank_code": "rajarambapu-sahakari-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 32,
+      "baseline": 16,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "rajkot-nagrik-sahakari-bank-ltd_rates.json",
+      "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 10,
+      "baseline": 10
+    },
+    {
+      "file": "rander-peoples-co-op-bank-ltd_rates.json",
+      "bank_code": "rander-peoples-co-op-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "samata-sahakari-bank-ltd-mumbai_rates.json",
+      "bank_code": "samata-sahakari-bank-ltd-mumbai",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "sangli-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "sangli-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "sangli-urban-co-operative-bank-ltd-sangli_rates.json",
+      "bank_code": "sangli-urban-co-operative-bank-ltd-sangli",
+      "variant": "regular",
+      "slabs_recovered": 17,
+      "baseline": 17,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "sangrur-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "sangrur-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "sardar-vallabhbhai-sahakari-bank-limited_rates.json",
+      "bank_code": "sardar-vallabhbhai-sahakari-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "sharad-nagari-sahakari-bank-ltd-solapur_rates.json",
+      "bank_code": "sharad-nagari-sahakari-bank-ltd-solapur",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "shimoga-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "shimoga-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur_rates.json",
+      "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "shri-mahalaxmi-coop-bank-ltdkolhapur_rates.json",
+      "bank_code": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "shri-shiddheshwar-co-operative-bank-ltd-bijapur_rates.json",
+      "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "sikar-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "sikar-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 12,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "sirsa-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "sirsa-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 7,
+      "baseline": 7,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "societe-generale_rates.json",
+      "bank_code": "societe-generale",
+      "variant": "regular",
+      "slabs_recovered": 14,
+      "baseline": 14,
+      "method": "manual_pdf_transcription"
+    },
+    {
+      "file": "suryoday-small-finance-bank-limited_rates.json",
+      "bank_code": "suryoday-small-finance-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 17,
+      "baseline": 17,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "thanjavur-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "thanjavur-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 1,
+      "baseline": 1,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-anantapur-co-operative-town-bank-ltd_rates.json",
+      "bank_code": "the-anantapur-co-operative-town-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-anantapur-district-co-operative-central-bank-ltd_rates.json",
+      "bank_code": "the-anantapur-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 10,
+      "baseline": 10,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-chhattisgarh-rajya-sahakari-bank-maryadit_rates.json",
+      "bank_code": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-haryana-state-co-operative-apex-bank-ltd_rates.json",
+      "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 30,
+      "baseline": 30
+    },
+    {
+      "file": "the-karimnagar-co-operative-urban-bank-ltd_rates.json",
+      "bank_code": "the-karimnagar-co-operative-urban-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon_rates.json",
+      "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+      "variant": "regular",
+      "slabs_recovered": 30,
+      "baseline": 28,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-kheda-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 14,
+      "baseline": 14,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-madhya-pradesh-rajya-sahakari-bank-maryadit_rates.json",
+      "bank_code": "the-madhya-pradesh-rajya-sahakari-bank-maryadit",
+      "variant": "regular",
+      "slabs_recovered": 11,
+      "baseline": 11,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "the-mehsana-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-mehsana-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "the-nanded-merchants-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-nanded-merchants-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-odisha-state-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-odisha-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 12,
+      "baseline": 12,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-rajasthan-state-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-rajasthan-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 15,
+      "baseline": 15,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-rajkot-district-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-rajkot-district-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 6,
+      "baseline": 6,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-sikkim-state-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-sikkim-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 13,
+      "baseline": 13,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "the-tamil-nadu-state-apex-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 13,
+      "baseline": 13,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "the-thane-palghar-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-thane-palghar-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 11,
+      "baseline": 11,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "the-uttarakhand-state-co-operative-bank-ltd_rates.json",
+      "bank_code": "the-uttarakhand-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 14,
+      "baseline": 14,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal_rates.json",
+      "bank_code": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "tirupati-co-operative-bank-ltd_rates.json",
+      "bank_code": "tirupati-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "tripura-gramin-bank_rates.json",
+      "bank_code": "tripura-gramin-bank",
+      "variant": "regular",
+      "slabs_recovered": 13,
+      "baseline": 13,
+      "method": "manual_image_transcription"
+    },
+    {
+      "file": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur_rates.json",
+      "bank_code": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+      "variant": "regular",
+      "slabs_recovered": 5,
+      "baseline": 5,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "united-overseas-bank-limited_rates.json",
+      "bank_code": "united-overseas-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8
+    },
+    {
+      "file": "uttar-pradesh-gramin-bank_rates.json",
+      "bank_code": "uttar-pradesh-gramin-bank",
+      "variant": "regular",
+      "slabs_recovered": 13,
+      "baseline": 13
+    },
+    {
+      "file": "uttar-pradesh-state-co-operative-bank-limited_rates.json",
+      "bank_code": "uttar-pradesh-state-co-operative-bank-limited",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "manual_transcription_from_rendered_text"
+    },
+    {
+      "file": "varanasi-district-central-co-operative-bank-ltd_rates.json",
+      "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 9,
+      "baseline": 9,
+      "method": "llm_inline_extraction"
+    },
+    {
+      "file": "vasai-vikas-sahakari-bank-ltd_rates.json",
+      "bank_code": "vasai-vikas-sahakari-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 11,
+      "baseline": 11,
+      "method": "automatic_html_static"
+    },
+    {
+      "file": "warangal-urban-co-operative-bank-ltd_rates.json",
+      "bank_code": "warangal-urban-co-operative-bank-ltd",
+      "variant": "regular",
+      "slabs_recovered": 8,
+      "baseline": 8,
+      "method": "manual_transcription_from_rendered_text"
+    }
+  ]
+}

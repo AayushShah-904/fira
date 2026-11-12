@@ -1,0 +1,132 @@
+{
+  "bank_code": "khurda-central-co-opertive-bank-ltd",
+  "bank_name": "khurda-central-co-opertive-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 19709,
+  "duration_ms": 19709,
+  "duration_api_ms": 17893,
+  "num_turns": 13,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.25254,
+  "input_tokens": 120650,
+  "output_tokens": 1405,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"khurda central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khurda.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 178,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khurdacentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"khurda central co-operative bank ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 163,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.khurdacentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 12,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khurdacentralcoopbank.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"khurda central co-operative bank ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"khurda central co-operative bank ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"khurda central co-operative bank ltd branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"khurda central co-operative bank ltd odisha\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 166,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://odishastatecoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 175,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.odishastatecoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1092,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://coop.odisha.gov.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/khurda-central-co-opertive-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"khurda-central-co-opertive-bank-ltd\\\",\\n  \\\"bank_name\\\": \\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/khurda-central-co-opertive-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"khurda-central-co-opertive-bank-ltd\\\",\\n  \\\"bank_name\\\": \\\"K"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website or rate page found for Khurda Central Co-operative Bank Ltd. All common domain patterns failed, and Odisha state umbrella portals do not list this DCCB or provide deposit rate/product information. Operator must check with RBI or state co-op department for rates.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 6,
+    "domain_was_known": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "bank_code": "indian-bank",
+  "bank_name": "indian-bank",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 42141,
+  "duration_ms": 42141,
+  "duration_api_ms": 40603,
+  "num_turns": 3,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.18043399999999998,
+  "llm_cost_usd": 0.18043399999999998,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 53541,
+  "output_tokens": 9169,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 770,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://indianbank.bank.in/departments/deposit-rates/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 766,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://indianbank.bank.in/departments/fcnr-b-deposits/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/indian-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indian-bank\\\",\\n  \\\"bank_name\\\": \\\"Indian Bank\\\",\\n  \\\"bank_type\\\": \\\"PS"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/indian-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indian-bank\\\",\\n  \\\"bank_name\\\": \\\"Indian Bank\\\",\\n  \\\"product_type\\\": \\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/indian-bank_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indian-bank\\\",\\n  \\\"bank_name\\\": \\\"Indian Bank\\\",\\n  \\\"product_type\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/indian-bank_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indian-bank\\\",\\n  \\\"bank_name\\\": \\\"Indian Bank\\\",\\n  \\\"product_type\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/indian-bank_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indian-bank\\\",\\n  \\\"bank_name\\\": \\\"Indian Bank\\\",\\n  \\\"product_type\\"
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "Static HTML tables. NRE/NRO rates same as domestic (stated on page). Senior citizen +0.50% all tenures, +0.75% for >5yr. Super senior +0.75% all tenures. Special products: IND Supreme 2.0 (300d), IND Secure (444d), IND Green (555d). Bulk deposit rates and savings rates also present on same page.",
+    "website_url": "https://indianbank.bank.in",
+    "rate_url_fd": "https://indianbank.bank.in/departments/deposit-rates/",
+    "slab_count": 19,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

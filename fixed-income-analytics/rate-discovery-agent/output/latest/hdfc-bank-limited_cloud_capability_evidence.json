@@ -1,0 +1,23 @@
+{
+  "bank_code": "hdfc-bank-limited",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:07:19.695Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T1957_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-xdxc51b"
+    },
+    {
+      "ts": "2026-06-08T21:23:20.834Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T11:53:24.173Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "bank_code": "ujjivan-small-finance-bank-limited",
+  "bank_name": "ujjivan-small-finance-bank-limited",
+  "category": "Small Finance Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "small-finance-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 26479,
+  "duration_ms": 26479,
+  "duration_api_ms": 26154,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.341204,
+  "llm_cost_usd": 0.341204,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 153314,
+  "output_tokens": 4322,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 323,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ujjivansfb.bank.in/interest-rates\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/ujjivan-small-finance-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ujjivan-small-finance-bank-limited\\\",\\n  \\\"bank_n"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/ujjivan-small-finance-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ujjivan-small-finance-bank-limited\\\",\\n  \\\"bank_na"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/ujjivan-small-finance-bank-limited_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ujjivan-small-finance-bank-limited\\\",\\n  \\\"ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/ujjivan-small-finance-bank-limited_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ujjivan-small-finance-bank-limited\\\",\\n  \\\"ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/ujjivan-small-finance-bank-limited_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ujjivan-small-finance-bank-limited\\\",\\n  \\\"ba"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "bank_code": "hsbc-bank-ibu",
+  "bank_name": "hsbc-bank-ibu",
+  "bank_type": "IBU",
+  "state": "Gujarat",
+  "website": "https://hsbc.co.in",
+  "scraper_type": "html_js",
+  "extraction_method": "automatic_html_js",
+  "slab_count": 36,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

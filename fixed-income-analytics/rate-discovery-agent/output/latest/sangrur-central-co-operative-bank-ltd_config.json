@@ -1,0 +1,19 @@
+{
+  "bank_code": "sangrur-central-co-operative-bank-ltd",
+  "bank_name": "sangrur-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Punjab",
+  "website": "https://codeforbanks.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://codeforbanks.com/banks/fd-interest-calculator/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:34:11.401Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

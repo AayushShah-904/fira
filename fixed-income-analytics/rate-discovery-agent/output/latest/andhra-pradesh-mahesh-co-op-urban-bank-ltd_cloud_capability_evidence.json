@@ -1,0 +1,17 @@
+{
+  "bank_code": "andhra-pradesh-mahesh-co-op-urban-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:08:53.753Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:42:07.533Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

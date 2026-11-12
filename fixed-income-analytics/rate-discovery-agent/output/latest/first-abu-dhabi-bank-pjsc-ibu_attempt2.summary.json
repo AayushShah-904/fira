@@ -1,0 +1,60 @@
+{
+  "bank_code": "first-abu-dhabi-bank-pjsc-ibu",
+  "bank_name": "first-abu-dhabi-bank-pjsc-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 6477,
+  "duration_ms": 6477,
+  "duration_api_ms": 6472,
+  "num_turns": 2,
+  "tool_call_count": 2,
+  "total_cost_usd": 0.03916,
+  "llm_cost_usd": 0.03916,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 15872,
+  "output_tokens": 927,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "write_file",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/first-abu-dhabi-bank-pjsc-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"first-a"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/first-abu-dhabi-bank-pjsc-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"first-ab"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "manual",
+    "notes": "FAB GIFT City IBU. No public retail deposit rate page found. The IBU does not publish FD/FCNR rates for retail customers on its website.",
+    "website_url": "https://bankfab.com",
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

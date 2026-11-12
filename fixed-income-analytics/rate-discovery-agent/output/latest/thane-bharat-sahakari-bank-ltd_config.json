@@ -1,0 +1,19 @@
+{
+  "bank_code": "thane-bharat-sahakari-bank-ltd",
+  "bank_name": "thane-bharat-sahakari-bank-ltd",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://tbsbl.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://tbsbl.bank.in/page/interest-rates-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:09:58.463Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

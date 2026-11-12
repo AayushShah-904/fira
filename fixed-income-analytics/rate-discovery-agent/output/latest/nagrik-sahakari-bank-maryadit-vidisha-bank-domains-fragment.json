@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "bank_code": "nagrik-sahakari-bank-maryadit-vidisha",
+    "extracted_at": "2026-06-06T11:03:31.828Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "nsbvidisha.bank.in",
+  "notes": "Website exists but interest‑rate pages not found in search preview.",
+  "rate_pages": {
+    "fd": "/term_deposit"
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "coop-bankin-2col-tenure-general",
+    "template_hash": "sha1:aa60843c304aca59774d7fa0eef9f5e8aa51c30f",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

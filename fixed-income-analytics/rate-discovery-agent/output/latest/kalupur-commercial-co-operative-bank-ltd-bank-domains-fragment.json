@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "kalupur-commercial-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:10:45.430Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "kalupur.bank.in",
+  "rate_pages": {
+    "fd": "/productcategory/term-deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Multiple HTML tables on product category page — one per deposit type (FD, Cumulative FD, RD, NRE). 4 tables",
+  "template": {
+    "template_id": "kalupur-3col-retail-bulk",
+    "template_hash": "sha1:f2bd82ab29a3df488be17d05c53515535cc6fc50",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_general_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

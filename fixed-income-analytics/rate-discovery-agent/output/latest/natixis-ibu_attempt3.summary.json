@@ -1,0 +1,23 @@
+{
+  "bank_code": "natixis-ibu",
+  "bank_name": "natixis-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 7708,
+  "duration_ms": 7708,
+  "duration_api_ms": 7708,
+  "num_turns": 1,
+  "tool_call_count": 0,
+  "total_cost_usd": 0.019748,
+  "llm_cost_usd": 0.019748,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 7530,
+  "output_tokens": 586,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": []
+}

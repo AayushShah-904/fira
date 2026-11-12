@@ -1,0 +1,51 @@
+{
+  "bank_code": "deutsche-bank-ag",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2025-10-06",
+  "source_url": "https://deutsche.bank.in/en/advantage-banking/fixed-deposit-overview/fcnr-deposit.html",
+  "scraped_at": "2026-07-07T06:38:53.939Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "1 year 4.75% p.a.  "
+    },
+    {
+      "tenure_text": ">1 – 2 years ",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": ">1 – 2 years  4.25% p.a."
+    },
+    {
+      "tenure_text": ">1 – 2 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": ">1 – 2 years 4.25% p.a."
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 290,
+    "last_scraped_at": "2026-07-07T06:38:53.939Z",
+    "manual_verification_needed": true
+  }
+}

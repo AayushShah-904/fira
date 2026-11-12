@@ -1,0 +1,211 @@
+{
+  "bank_code": "saraswat-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-07-01",
+  "source_url": "https://www.saraswat.bank.in/content.aspx?id=Interest-Rates",
+  "scraped_at": "2026-10-01T20:25:51.469Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 days to 14 days 3.00 3.50"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.15,
+      "rate_senior_pct": 3.65,
+      "rate_super_senior_pct": null,
+      "source_row_text": "15 days to 30 days 3.15 3.65"
+    },
+    {
+      "tenure_text": "31 days to 60 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "31 days to 60 days 3.50 4.00"
+    },
+    {
+      "tenure_text": "61 days to 91 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 91,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "61 days to 91 days 4.00 4.50"
+    },
+    {
+      "tenure_text": "92 days",
+      "tenure_min_days": 92,
+      "tenure_max_days": 92,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "92 days 4.50 5.00"
+    },
+    {
+      "tenure_text": "93 days to 179 days",
+      "tenure_min_days": 93,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "93 days to 179 days 4.75 5.25"
+    },
+    {
+      "tenure_text": "180 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "180 days 5.50 6.00"
+    },
+    {
+      "tenure_text": "181 days to 240 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 240,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "181 days to 240 days 5.75 6.25"
+    },
+    {
+      "tenure_text": "241 days up to less than 1 year",
+      "tenure_min_days": 241,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "241 days up to less than 1 year 6.00 6.50"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 year 6.60 7.10"
+    },
+    {
+      "tenure_text": "1 year 1 day to 1 year 10 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 year 1 day to 1 year 10 days 6.60 7.10"
+    },
+    {
+      "tenure_text": "1 year 11 days to 2 years",
+      "tenure_min_days": 376,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 year 11 days to 2 years 6.60 7.10"
+    },
+    {
+      "tenure_text": "2 years 1 day to 2 years 10 days",
+      "tenure_min_days": 731,
+      "tenure_max_days": 740,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 years 1 day to 2 years 10 days 6.60 7.10"
+    },
+    {
+      "tenure_text": "2 years 11 days to 3 years",
+      "tenure_min_days": 741,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 years 11 days to 3 years 6.80 7.30"
+    },
+    {
+      "tenure_text": "Above 3 years to 4 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 3 years to 4 years 7.00 7.40"
+    },
+    {
+      "tenure_text": "Above 4 years to 5 years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 4 years to 5 years 7.00 7.40"
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Above 5 years to 10 years 6.60 7.10"
+    },
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "7 days to 14 days 3.25 4.50 4.50 4.50"
+    },
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr",
+      "source_row_text": "7 days to 14 days 3.25 4.50 4.50 4.50"
+    },
+    {
+      "tenure_text": "15 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 15,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr",
+      "source_row_text": "15 days to 30 days 3.25"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 32",
+    "llm_chunk[0]: no result (API error or non-JSON)",
+    "llm_chunk[1]: no result (API error or non-JSON)",
+    "chunk[2]: no fixed deposit rate table found in the provided input (chunk yielded no slabs — informational, not blocking)",
+    "chunk[4]: no fixed deposit INR domestic rate table found in the input (chunk yielded no slabs — informational, not blocking)"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 92,
+    "last_scraped_at": "2026-10-01T20:25:51.469Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "bank_code": "mizuho-bank-ltd",
+  "bank_name": "mizuho-bank-ltd",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 23617,
+  "duration_ms": 23617,
+  "duration_api_ms": 20734,
+  "num_turns": 5,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.350412,
+  "llm_cost_usd": 0.350412,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 160998,
+  "output_tokens": 3552,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 568,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mizuhogroup.com/67cb23eaf0c6c4d4080e059a/6933592acbfc1f5eaff8a6a5_58789e2af171f1c6164c489ee2fe6464_rate1101.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 545,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mizuhogroup.com/67cb23eaf0c6c4d4080e059a/69c62e68952924081f630055_27032026BulkDeposit030Mandabove.pdf\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 803,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://mizuhogroup.com/asia-pacific/india/products-and-rates/rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 398,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://mizuhogroup.com/\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 279,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/6a1d29853f9a0a662853fe9c_rate1101.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 289,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/6a22697eadfa6ed37173020a_05062026BulkDeposit030Mandabove.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/mizuho-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"mizuho-bank-ltd\\\",\\n  \\\"bank_name\\\": \\\"Mizuho Bank Ltd\\\",\\n  \\\"bank_type\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/mizuho-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"mizuho-bank-ltd\\\",\\n  \\\"bank_name\\\": \\\"Mizuho Bank Ltd\\\",\\n  \\\"product_type"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/mizuho-bank-ltd_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"mizuho-bank-ltd\\\",\\n  \\\"bank_name\\\": \\\"Mizuho Bank Ltd\\\",\\n  \\\"product_"
+    }
+  ]
+}

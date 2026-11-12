@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-05-21T00:51:45.815Z",
+  "category": "Regional Rural Bank",
+  "succeeded": 28,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "arunachal-pradesh-rural-bank",
+      "status": "success",
+      "elapsed_sec": 44
+    },
+    {
+      "name": "andhra-pradesh-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 63
+    },
+    {
+      "name": "assam-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 96
+    },
+    {
+      "name": "gujarat-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 39
+    },
+    {
+      "name": "bihar-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 92
+    },
+    {
+      "name": "chhattisgarh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 125
+    },
+    {
+      "name": "himachal-pradesh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 63
+    },
+    {
+      "name": "haryana-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 115
+    },
+    {
+      "name": "jammu-and-kashmir-grameen-bank",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "kerala-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "karnataka-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 74
+    },
+    {
+      "name": "jharkhand-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 164
+    },
+    {
+      "name": "madhya-pradesh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 80
+    },
+    {
+      "name": "manipur-rural-bank",
+      "status": "success",
+      "elapsed_sec": 69
+    },
+    {
+      "name": "meghalaya-rural-bank",
+      "status": "success",
+      "elapsed_sec": 114
+    },
+    {
+      "name": "maharashtra-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 181
+    },
+    {
+      "name": "mizoram-rural-bank",
+      "status": "success",
+      "elapsed_sec": 124
+    },
+    {
+      "name": "nagaland-rural-bank",
+      "status": "success",
+      "elapsed_sec": 69
+    },
+    {
+      "name": "odisha-grameen-bank",
+      "status": "success",
+      "elapsed_sec": 89
+    },
+    {
+      "name": "puducherry-grama-bank",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "tamil-nadu-grama-bank",
+      "status": "success",
+      "elapsed_sec": 57
+    },
+    {
+      "name": "rajasthan-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 78
+    },
+    {
+      "name": "telangana-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 49
+    },
+    {
+      "name": "punjab-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 156
+    },
+    {
+      "name": "uttarakhand-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "west-bengal-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 59
+    },
+    {
+      "name": "tripura-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 384
+    },
+    {
+      "name": "uttar-pradesh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 774
+    }
+  ]
+}

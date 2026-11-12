@@ -1,0 +1,62 @@
+{
+  "bank_code": "the-bhagalpur-central-co-operative-bank-ltd-bhagalpur",
+  "bank_name": "The Bhagalpur Central Co-operative Bank Ltd., Bhagalpur",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 14740,
+  "duration_ms": 14740,
+  "duration_api_ms": 14365,
+  "num_turns": 8,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.016088400000000003,
+  "input_tokens": 37237,
+  "output_tokens": 746,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Bhagalpur Central Co-operative Bank Ltd., Bhagalpur\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhagalpurcentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhagalpurcentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Bhagalpur Central Co-operative Bank Ltd., Bhagalpur\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 141,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhagalpurcentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 147,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhagalpurcentralcooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhagalpurcentralcooperativebank.co.in\"}"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "bank_code": "nagarik-sahakari-bank-maryaditgwalior",
+  "bank_name": "Nagarik Sahakari Bank Maryaditgwalior",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-01-27",
+  "source_url": "https://nsbgwalior.bank.in/Encyc/2019/9/6/Deposit-interest-rates.html",
+  "scraped_at": "2026-06-06T07:14:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 दिन से 45 दिन तक",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 दिन से 179 दिन तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 दिन किन्तु 1 वर्ष से कम",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 वर्ष और उससे अधिक किन्तु 3 वर्ष से कम",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 वर्ष और उससे अधिक",
+      "tenure_min_days": 1095,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "425 दिन (योजना सीमित अवधि)",
+      "tenure_min_days": 425,
+      "tenure_max_days": 425,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1111 दिन (योजना सीमित अवधि) (i) 15 लाख से कम",
+      "tenure_min_days": 1111,
+      "tenure_max_days": 1111,
+      "rate_general_pct": null,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1111 दिन (योजना सीमित अवधि) (ii) 15 लाख और उससे अधिक (One Single FDR)",
+      "tenure_min_days": 1111,
+      "tenure_max_days": 1111,
+      "rate_general_pct": null,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "deposit_range": "15l_to_1cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 177,
+    "last_scraped_at": "2026-06-06T07:14:00Z",
+    "manual_verification_needed": true
+  }
+}

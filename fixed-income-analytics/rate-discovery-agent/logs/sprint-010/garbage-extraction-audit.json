@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "examined": 749,
+    "garbage": 0,
+    "suspect": 3,
+    "clean": 599,
+    "empty": 147,
+    "head_clean": 0,
+    "head_also_bad": 3
+  },
+  "candidates": []
+}

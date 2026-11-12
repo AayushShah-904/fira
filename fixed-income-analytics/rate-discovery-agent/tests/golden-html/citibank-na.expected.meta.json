@@ -1,0 +1,13 @@
+{
+  "bank_code": "citibank-na",
+  "bank_name": "citibank-na",
+  "bank_type": "FB",
+  "state": "USA",
+  "website": "https://citigroup.com",
+  "rate_page_url": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+  "scraper_type": "pdf",
+  "extraction_method": "automatic_pdf",
+  "slab_count": 34,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

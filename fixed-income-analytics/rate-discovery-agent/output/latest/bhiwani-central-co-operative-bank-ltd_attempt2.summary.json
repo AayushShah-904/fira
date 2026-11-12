@@ -1,0 +1,108 @@
+{
+  "bank_code": "bhiwani-central-co-operative-bank-ltd",
+  "bank_name": "bhiwani-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16500,
+  "duration_ms": 16500,
+  "duration_api_ms": 15662,
+  "num_turns": 9,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.1711,
+  "input_tokens": 80770,
+  "output_tokens": 1195,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Bhiwani Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhiwanicentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 172,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhiwanicentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Bhiwani Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Bhiwani Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Bhiwani Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 186,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bhiwanicentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bhiwanicentralcoopbank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 404,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bhiwani.gov.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/bhiwani-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bhiwani-central-co-operative-bank-ltd\\\",\\n  \\\"bank_name\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/bhiwani-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bhiwani-central-co-operative-bank-ltd\\\",\\n  \\\"bank_name\\\":"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website or rate page found for Bhiwani Central Co-operative Bank Ltd. All domain guesses failed, and the district government portal does not mention the bank. Operator review required.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

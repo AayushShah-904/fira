@@ -1,0 +1,80 @@
+{
+  "bank_code": "united-puri-nimpara-central-co-operative-bank-ltd",
+  "bank_name": "United Puri Nimpara Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12478,
+  "duration_ms": 12478,
+  "duration_api_ms": 12316,
+  "num_turns": 9,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.097678,
+  "input_tokens": 44539,
+  "output_tokens": 1075,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"United Puri Nimpara Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://unitedpurinimparacentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"United Puri Nimpara Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.unitedpurinimparacentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://unitedpurinimparacentralcoopbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"United Puri Nimpara Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"United Puri Nimpara Central Co-operative Bank Ltd.\\\" Odisha\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.puricoopbank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://puricoopbank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 7,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.odishastatecoopbank.com\"}"
+    }
+  ]
+}

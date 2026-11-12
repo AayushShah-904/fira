@@ -1,0 +1,17 @@
+{
+  "bank_code": "mahaveer-co-operative-bank-ltd-belgaum",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:33:11.708Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T17:15:35.425Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

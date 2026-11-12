@@ -1,0 +1,19 @@
+{
+  "bank_code": "american-express-banking-corporation",
+  "bank_name": "American Express Banking Corporation",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "americanexpress.com",
+    "found_via": "websearch",
+    "notes": "American Express Banking Corp India publishes only an INSTITUTIONAL term-deposit rate card (min deposit Rs 15 Lakh; accepts deposits only from Companies, Partnerships, Trusts, Associations, Societies, Clubs, NGOs; explicitly NOT individuals or HUFs). No retail FD product. Institutional rate-card PDF at americanexpress.com/content/dam/amex/in/legal/notice-board/Ratecard/RateCard_Jan..pdf (w.e.f. 30 Jan 2020) is a T&C sheet whose per-tenure grid is image-rendered / absent in text; WebFetch returns HTTP 403. Re-verified: web search returns only US AmEx CD products and aggregators."
+  },
+  "warnings": ["No retail/individual FD product; deposits institutional-only (>= Rs 15 Lakh)."],
+  "tier2_method": "websearch+webfetch"
+}

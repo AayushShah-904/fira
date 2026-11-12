@@ -1,0 +1,100 @@
+[
+  {
+    "idx": 1,
+    "bank_code": "akola-district-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Live page https://akolawashimdcc.bank.in/interest-rate-on-deposits.php (curl 200) has a single deposit table: row 1 Current a/c (no interest), row 2 Savings 2.50%, then 8 FD term-deposit slabs (7-30 days 2.75% ... 5yr-10yr 6.00%, w.e.f. 12.04.2023), plus a senior-citizen footnote (+1% above 1yr). Our 8 shipped slabs match the 8 FD rows exactly on tenure and rate. Baseline 10 included the Current + Savings non-FD rows, correctly dropped. Drop is benign."
+  },
+  {
+    "idx": 8,
+    "bank_code": "bank-of-india",
+    "variant": "nre",
+    "verdict": "UNREACHABLE",
+    "evidence": "https://bankofindia.bank.in/interest-rates-on-deposit returned HTTP 403 (bot protection) on the single permitted attempt. registry rate_page_fd /interest-rate/rupee-term-deposit-rate also lives on the same blocked host. Could not independently verify the NRE table against live source. Shipped 7 NRE slabs (1Y 6.50% ... 8-10yr 6.00%, eff 2026-05-18) are internally coherent (monotonic, plausible BOI rupee NRE ladder) but not confirmed against the live page."
+  },
+  {
+    "idx": 12,
+    "bank_code": "barclays-bank-plc",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Live page https://barclays.bank.in/home/schedule-of-charges-interest-rates/ (curl 200, via www redirect) is a navigation hub. The ONLY inline rate table we are scraping is the MCLR table (header literally 'Tenor | Annualized MCLR (%) | MCLR (%)') — i.e. lending rates, NOT fixed-deposit rates. Our 5 shipped 'FD' slabs (Overnight 7.50, 1mo 7.50, 3mo 7.70, 6mo 7.85, 12mo 8.00) are MCLR loan rates mislabeled as FD. 'fixed deposit'/'term deposit FD rate' tables are ABSENT from this page; actual FD rates are on linked sub-pages ('Deposit Rates < 3 CR', 'Deposit Rates > 3 CR', 'FCNR-RFC Deposit Rates'). The 26->5 drop removed the 20-row Base-Rate history table (junk) but the remaining 5 are still the wrong product. We are shipping lending rates as deposit FD rates.",
+    "correct_data": "No domestic FD table exists on the scraped page. The page exposes links to 'Deposit Rates < 3 CR' and 'Deposit Rates > 3 CR' (likely PDFs/sub-pages under barclays.bank.in) which hold the real FD rate card; those must be located instead. Do NOT accept the current MCLR-as-FD slabs."
+  },
+  {
+    "idx": 13,
+    "bank_code": "bhatinda-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Live page https://bathindaccb.bank.in/deposit-interest-rates/ (curl 200). The main 'INTEREST RATES ON TERM DEPOSIT W.E.F. 12-03-2026' table has 11 valid FD slabs (S.No 1-11). We ship ONLY 1 slab ('400 days' 7.02%), which comes from a tiny standalone 2-row table further down the page, NOT the main FD table. We lost the entire 11-slab FD ladder (baseline 12 -> current 1). Senior citizens get +0.50% (footnote).",
+    "correct_data": [
+      {"tenure_text": "7 - 14 Days", "rate_general_pct": 3.50, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "15-45 Days", "rate_general_pct": 3.55, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "46-90 Days", "rate_general_pct": 4.60, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "91-179 Days", "rate_general_pct": 4.75, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "180 Days to less than 1 Year", "rate_general_pct": 6.00, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "1 Year", "rate_general_pct": 6.50, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "1 Year to less than 2 Years", "rate_general_pct": 6.35, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "2 Year to less than 3 Years", "rate_general_pct": 6.25, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "3 Year to less than 5 Years", "rate_general_pct": 6.10, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "5 Years and above", "rate_general_pct": 6.10, "rate_senior_pct": null, "deposit_range": "below_3cr"},
+      {"tenure_text": "400 days", "rate_general_pct": 6.80, "rate_senior_pct": null, "deposit_range": "below_3cr"}
+    ]
+  },
+  {
+    "idx": 15,
+    "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+    "variant": "regular",
+    "verdict": "UNREACHABLE",
+    "evidence": "https://chikkamagalurudcc.bank.in/fixed-deposit-accounts/ is WordPress + Elementor; the FD table is rendered by an Elementor widget. Raw curl HTML (81KB) has no <table> and no rate numbers; WP REST content.rendered (wp-json/wp/v2/pages/7937, 200) contains only Elementor CSS/headings, no rate values; Playwright failed with ERR_NAME_NOT_RESOLVED (intermittent sandbox DNS). Could not compare to live source. Shipped 9 slabs (15-45d 4.5% ... 5yr+ 7%, Special 555d 8%, Term 365d 7.5/8.0, eff 2026-05-21) are internally coherent and the drop was only 10->9 (1 slab). Re-verify when the page is reachable; no evidence of data loss but unconfirmed."
+  },
+  {
+    "idx": 16,
+    "bank_code": "cosmos-co-operative-bank-ltd",
+    "variant": "nre",
+    "verdict": "VERIFIED",
+    "evidence": "Live page https://cosmos.bank.in/interest-rates (curl 200) has a dedicated NRE FD table (Period | Rate Of Interest): Only 1 year 6.85%, Above 12mo-<16mo 6.85%, 16 months 7.05%, Above 16-24mo 6.85%, Above 24-36mo 6.65%, Above 36mo-10yr 6.75%. Our 6 shipped NRE slabs match this exactly. NRE has a single rate column (no senior premium), so rate_senior_pct null is correct. Baseline 8 included extra NRO/NRE special-scheme rows (60-month NRO tax-exemption 6.75%, non-callable NRE bulk 13mo 7.00%) which are special schemes, not the standard NRE ladder. Drop benign."
+  },
+  {
+    "idx": 19,
+    "bank_code": "g-p-parsik-janata-sahakari-bank-ltd-thane",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Live page https://gpparsik.bank.in/interest-rates.html (curl 200, w.e.f. 20/01/2026). Domestic FD table has 8 tenure rows: 7-14d 3.00/3.25, 15-90d 4.00/4.25, 91-180d 4.50/4.75, 181d-<365d 5.75/6.25, 12-18mo 6.60/7.10, >18mo-3yr 6.70/7.20, >3-5yr 6.75/7.25, >5-10yr 6.30/6.80. Our 8 core FD slabs match exactly (general + senior). The full shipped file has 10: the 8 FD rows + a Tax Saving Scheme (6.75) + a Savings-Deposit footnote row (2.75). Baseline 17 -> 10 deduped the Bulk (>=100L) and NRE columns that had been split into separate slabs. The 8 FD slabs are correct; drop is benign. Minor: slab 10 (Savings 2.75%) is not a true FD slab, but this is pre-existing extractor behavior, not a regression from this drop."
+  },
+  {
+    "idx": 22,
+    "bank_code": "hoogly-district-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Live page https://hooghlydccb.bank.in/deposit (curl 200) has one combined deposit table. Term-deposit rows (Sl 2-9): 30-45d 4.10/4.10, 46-90d 4.50/5.00, 91-180d 5.00/5.50, 181-364d 5.90/6.40, 1Y 6.55/7.05, 1Y1d-<3yr 6.40/6.65, 3-5yr 6.35/6.60, 5Y1d-10Y 6.10/6.35. Our 8 shipped slabs match exactly (general + senior). Baseline 13 included non-FD rows: Saving Deposit (Sl 1), MIS 3yr (Sl 10), Bad Debt/Reserve Fund (Sl 11), Cash Security for Employees (Sl 12), plus header rows — all correctly dropped. The WBSCB bulk columns (1-5cr/5-10cr/10cr+) are empty for this bank. Drop benign."
+  },
+  {
+    "idx": 26,
+    "bank_code": "karur-vysya-bank-limited",
+    "variant": "nre",
+    "verdict": "VERIFIED",
+    "evidence": "KVB NRE page is fully JS-rendered (no <table> in raw HTML; rates load via /api/JavascriptMicroCampaignLite XHR). Playwright with --intercept captured the live API table 'Rates of Interest on NRE deposits (w.e.f. 06.04.2026)': 1Y-399d 6.55%, 400 Days 7.20%, 401d-2Y 6.55%, Above 2-3yr 6.55%, Above 3-5yr 6.55%, Above 5yr 6.25%, Green Deposits (2345 days) 6.25%. Our 7 shipped slabs match the live general rates and tenures exactly. Baseline 10 -> 7 removed 3 header/duplicate rows. Cosmetic note: our 7th slab tenure_text is the truncated '2345 days)' (lost the 'Green Deposits (' prefix) — rate 6.25% and the slab itself are correct. Our senior rates (6.71/7.40/etc.) are derived (NRE source publishes general only). Data correct; drop benign."
+  },
+  {
+    "idx": 28,
+    "bank_code": "nkgsb-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Live page https://nkgsb-bank.com/term-deposit.php (curl 200). Current FD table 'Interest rates on Fixed deposits (revised w.e.f. January 26, 2026)' has the 11-slab main ladder: 7-44d 2.75/3.00, 45-90d 4.00/4.50, 91-180d 5.00/5.50, 181-364d 5.75/6.00, 12-15mo 6.40/7.00, 15mo1d-<16mo 7.00/7.30, 16-24mo 6.80/7.20, 25-36mo 6.65/7.15, Above 3-5yr 6.60/7.10, Above 5-7yr 6.40/6.75, Above 7-10yr 6.40/6.75. Shipped file (output/latest/nkgsb-co-operative-bank-ltd-mumbai_rates.json) has exactly these 11 slabs, all general+senior values matching, effective_date 2026-01-26. The 4 dropped (baseline 15) were the Special Deposit Schemes block (200 days, 999 days, 444-day scheme, ATBS 5yr) — special schemes correctly excluded from the main FD ladder. Drop is a correct data-quality fix."
+  },
+  {
+    "idx": 31,
+    "bank_code": "shikshak-sahakari-bank-ltd-nagpur",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Live page https://shikshak.bank.in/deposits/ (curl 200, 'Term Deposite w.e.f. 3rd Oct 2024') has exactly 8 tenure rows with 5 rate columns (Below 1Cr | Bulk >=1Cr | Senior | Retired staff | Retired senior): 7-90d 4.00/.../4.75, 91-120d 5.50/.../6.25, 121-150d 6.00/.../6.75, 151-180d 6.15/.../6.90, 181d-1yr 6.15/.../6.90, >1-2yr 7.00/.../7.75, >2-3yr 6.25/.../7.00, >3-10yr 5.75/.../6.50. Our 8 shipped slabs match the Below-1Cr (general) and Senior columns exactly. Baseline 16 = 8 tenures double-counted across rate columns (the Bulk/Retired columns split into extra slabs). The 8 tenure rows with correct general+senior are right; drop benign. Minor coverage note: the Bulk >=1Cr and Retired-staff columns are not shipped as separate deposit_range slabs."
+  },
+  {
+    "idx": 33,
+    "bank_code": "united-overseas-bank-limited",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "evidence": "Live PDF https://www.uobgroup.com/assets/web-resources/in/pdf/useful/interest-rates/interest-rate.pdf (curl 200, parsed via pdf-parse). 'Interest Rates on INR Deposit, Effective 17/02/2026' has 8 FD tenure rows x 3 columns (col1 = FD With Preclosure, Max INR 3 Crs = below_3cr; col2/3 = > INR 3 Crs bulk): 7-14d 4.60, 15-28d 4.70, 29-45d 4.70, 46-60d 4.75, 61-90d 4.75, 91-180d 4.90, 181-365d 4.95, Above 1Y-3Y 5.05. Our 8 shipped slabs match col-1 (<=3Cr) exactly, effective_date 2026-02-17 matches. Baseline 10 -> 8 dropped 2 non-FD lines (the page's lower 'Overnight/One-month/.../Three Years' block at 6.47-7.96% are MCLR lending rates, plus Base Rate 9.20%) — correctly excluded. Drop benign. Minor coverage note: the two >3Cr bulk columns are not shipped as separate deposit_range slabs."
+  }
+]

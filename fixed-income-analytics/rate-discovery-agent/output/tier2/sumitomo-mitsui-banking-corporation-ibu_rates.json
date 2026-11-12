@@ -1,0 +1,19 @@
+{
+  "bank_code": "sumitomo-mitsui-banking-corporation-ibu",
+  "bank_name": "Sumitomo Mitsui Banking Corporation – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "smbc.co.jp",
+    "found_via": "registry_hint",
+    "notes": "SMBC's GIFT City / IFSC Banking Unit (smbc.co.jp/asia/GIFT-City/) does NOT publish a public foreign-currency deposit rate card; it is focused on FX-denominated lending and quotes deposit FX rates via relationship managers only. The only public SMBC India deposit card is the DOMESTIC onshore-branch INR wholesale term-deposit card (smbc.co.jp/global/india/interest_rates/fd_rates.pdf) — not the offshore IBU and not a retail/FX product. No GIFT/IFSC FX deposit slabs retrievable. Re-verified."
+  },
+  "warnings": ["Wholesale IBU; foreign-currency deposit rates quote-on-request, not published."],
+  "tier2_method": "websearch+webfetch"
+}

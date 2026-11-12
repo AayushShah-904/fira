@@ -1,0 +1,58 @@
+{
+  "bank_code": "g-p-parsik-janata-sahakari-bank-ltd-thane",
+  "bank_name": "G P Parsik Janata Sahakari Bank Ltd Thane",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-01-20",
+  "source_url": "https://gpparsik.bank.in/interest-rates.html",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 Months to 18 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 547,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_100lakh"
+    },
+    {
+      "tenure_text": "Above 18 Months to 3 years",
+      "tenure_min_days": 548,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_100lakh"
+    },
+    {
+      "tenure_text": "Above 3 Years to 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_100lakh"
+    },
+    {
+      "tenure_text": "Above 5 Years to 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_100lakh"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 184,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": true
+  }
+}

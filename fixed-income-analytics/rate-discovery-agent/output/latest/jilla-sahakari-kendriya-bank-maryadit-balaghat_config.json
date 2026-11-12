@@ -1,0 +1,33 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-balaghat",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit Balaghat",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website or rate page found for this DCCB. District government portal lists banks but provides no rate card or product info. Operator should check state co-operative bank portal or RBI database for rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "web_search + district portal fetch",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

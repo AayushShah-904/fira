@@ -1,0 +1,13 @@
+{
+  "bank_code": "ghaziabad-district-central-co-operative-bank-ltd",
+  "bank_name": "ghaziabad-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "state": "Uttar Pradesh",
+  "website": "https://zsblghaziabad.bank.in",
+  "rate_page_url": "https://zsblghaziabad.bank.in/irc.php",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 21,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

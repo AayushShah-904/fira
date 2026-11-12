@@ -1,0 +1,19 @@
+{
+  "bank_code": "bankura-district-central-co-operative-bank-ltd",
+  "bank_name": "Bankura District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "bankuradccb.bank.in",
+    "found_via": "websearch",
+    "notes": "Official site exists (bankuradccb.bank.in) with an FD calculator and a dedicated Interest Rate page at https://bankuradccb.bank.in/interest-rate/, but that page currently displays only 'Coming Soon' — no FD rate table, PDF, or image is published. Homepage shows a generic 'MIS & FD 5.5%' product indicator only."
+  },
+  "warnings": ["Interest Rate page is placeholder ('Coming Soon'); recheck later."],
+  "tier2_method": "websearch+webfetch"
+}

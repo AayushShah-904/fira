@@ -1,0 +1,171 @@
+{
+  "bank_code": "barclays-bank-plc",
+  "bank_name": "Barclays Bank PLC",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-03-02",
+  "source_url": "https://barclays.bank.in/content/dam/barclays-in/documents/schedule-charges/Deposit-Rates-below-3-Crore-02nd-March-2026.pdf",
+  "scraped_at": "2026-05-26T07:10:00Z",
+  "extraction_confidence": "high",
+  "special_schemes": [],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T07:10:00Z"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 719,
+      "rate_general_pct": 2.36,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 719,
+      "rate_general_pct": 2.21,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 719,
+      "rate_general_pct": 0.62,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 1079,
+      "rate_general_pct": 2.44,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 1079,
+      "rate_general_pct": 2.22,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 1079,
+      "rate_general_pct": 0.64,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1439,
+      "rate_general_pct": 2.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1439,
+      "rate_general_pct": 2.37,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 1439,
+      "rate_general_pct": 0.88,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1440,
+      "tenure_max_days": 1799,
+      "rate_general_pct": 2.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1440,
+      "tenure_max_days": 1799,
+      "rate_general_pct": 2.46,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1440,
+      "tenure_max_days": 1799,
+      "rate_general_pct": 0.94,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 2.58,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 2.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 0.79,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Section: FCNR Deposit Interest rates, w.e.f. 02.03.2026, for deposits < USD350,000/GBP300,000/EUR300,000. Currencies USD/GBP/EUR. No senior premium (FCNR). No interest for deposits < 1 year. Larger FCNR amounts published separately on website."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "bank_code": "citibank-na",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-29",
+  "source_url": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+  "scraped_at": "2026-06-28T10:21:07.373Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-10 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 10,
+      "rate_general_pct": 1.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "11-14 Days",
+      "tenure_min_days": 11,
+      "tenure_max_days": 14,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15-25 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 25,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "26-35 Days",
+      "tenure_min_days": 26,
+      "tenure_max_days": 35,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "36-45 Days",
+      "tenure_min_days": 36,
+      "tenure_max_days": 45,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46-60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "61-90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91-120 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121-150 Days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "151-180 Days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181-270 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271-364 Days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "365-400 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 400,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "401-540 Days",
+      "tenure_min_days": 401,
+      "tenure_max_days": 540,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "541-731 Days",
+      "tenure_min_days": 541,
+      "tenure_max_days": 731,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "732 - 1095 Days",
+      "tenure_min_days": 732,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": ">=1096 Days",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 1.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 55,
+    "last_scraped_at": "2026-06-28T10:21:07.373Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "bank_code": "the-patliputra-central-co-operative-bank-ltd-patna",
+  "bank_name": "The Patliputra Central Co-operative Bank Ltd., Patna",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 17662,
+  "duration_ms": 17662,
+  "duration_api_ms": 17277,
+  "num_turns": 8,
+  "tool_call_count": 8,
+  "total_cost_usd": 0.0166904,
+  "input_tokens": 38770,
+  "output_tokens": 739,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Patliputra Central Co-operative Bank Ltd., Patna\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Patliputra Central Co-operative Bank Ltd., Patna\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://the-patliputra-central-co-operative-bank-ltd-patna.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://patliputracentralbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Patliputra Central Co-operative Bank Ltd., Patna\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://patliputra.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://patliputracentralbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 279,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://patliputra.co.in\"}"
+    }
+  ]
+}

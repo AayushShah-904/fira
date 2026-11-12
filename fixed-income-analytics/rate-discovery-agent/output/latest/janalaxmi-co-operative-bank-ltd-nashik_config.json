@@ -1,0 +1,32 @@
+{
+  "bank_code": "janalaxmi-co-operative-bank-ltd-nashik",
+  "bank_name": "janalaxmi-co-operative-bank-ltd-nashik",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://janalaxmi.bank.in",
+  "scraper_type": "image",
+  "rate_page_urls": {
+    "fd": "https://janalaxmi.bank.in/assets/uploads/gallery/gallery_248.jpg"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-08T23:20:42.779Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "pending_vision",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:44:16.762Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "pending_vision",
+      "attempted_slab_count": null,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:pending_vision",
+      "retained_extraction_method": "pending_vision",
+      "retained_scraped_at": null,
+      "retained_slab_count": null
+    }
+  ]
+}

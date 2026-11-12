@@ -1,0 +1,19 @@
+{
+  "bank_code": "zoroastrian-co-operative-bank-ltd",
+  "bank_name": "zoroastrian-co-operative-bank-ltd",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://zoroastrianbank.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://zoroastrianbank.bank.in/download/InterestRates-Deposits.pdf"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:12:10.638Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

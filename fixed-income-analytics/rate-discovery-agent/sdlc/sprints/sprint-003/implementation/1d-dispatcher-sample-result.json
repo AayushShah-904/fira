@@ -1,0 +1,142 @@
+{
+  "run_at": "2026-05-15T18:06:17.184Z",
+  "sample_size": 12,
+  "passes": 9,
+  "pass_rate": 0.75,
+  "bar": 0.5,
+  "bar_met": true,
+  "results": [
+    {
+      "code": "bank-of-baroda",
+      "cat": "PSB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 15,
+      "actual": 15,
+      "extraction_method": "automatic_html_static",
+      "ms": 768
+    },
+    {
+      "code": "bank-of-india",
+      "cat": "PSB",
+      "kind": "html_js",
+      "status": "fail",
+      "reason": "0 slabs",
+      "expected": 30,
+      "actual": 0,
+      "extraction_method": "",
+      "ms": 120041
+    },
+    {
+      "code": "bandhan-bank-limited",
+      "cat": "PVB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 24,
+      "actual": 24,
+      "extraction_method": "automatic_html_static",
+      "ms": 1237
+    },
+    {
+      "code": "csb-bank-limited",
+      "cat": "PVB",
+      "kind": "html_js",
+      "status": "fail",
+      "reason": "0 slabs",
+      "expected": 17,
+      "actual": 0,
+      "extraction_method": "",
+      "ms": 63256
+    },
+    {
+      "code": "capital-small-finance-bank-limited",
+      "cat": "SFB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 7,
+      "actual": 11,
+      "extraction_method": "automatic_html_static",
+      "ms": 403
+    },
+    {
+      "code": "au-small-finance-bank-limited",
+      "cat": "SFB",
+      "kind": "html_js",
+      "status": "pass",
+      "reason": "",
+      "expected": 12,
+      "actual": 37,
+      "extraction_method": "automatic_html_js",
+      "ms": 8655
+    },
+    {
+      "code": "abhyudaya-co-operative-bank-ltd-mumbai",
+      "cat": "SUCB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 8,
+      "actual": 8,
+      "extraction_method": "automatic_html_static",
+      "ms": 428
+    },
+    {
+      "code": "bharati-sahakari-bank-limited",
+      "cat": "SUCB",
+      "kind": "html_js",
+      "status": "fail",
+      "reason": "0 slabs",
+      "expected": 7,
+      "actual": 0,
+      "extraction_method": "",
+      "ms": 19620
+    },
+    {
+      "code": "agra-zilla-sahakari-bank-ltd",
+      "cat": "DCCB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 9,
+      "actual": 9,
+      "extraction_method": "automatic_html_static",
+      "ms": 2441
+    },
+    {
+      "code": "eluru-district-co-operative-central-bank-ltd",
+      "cat": "DCCB",
+      "kind": "html_js",
+      "status": "pass",
+      "reason": "",
+      "expected": 6,
+      "actual": 6,
+      "extraction_method": "automatic_html_js",
+      "ms": 7991
+    },
+    {
+      "code": "ab-bank-plc",
+      "cat": "FB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 8,
+      "actual": 23,
+      "extraction_method": "automatic_html_static",
+      "ms": 3212
+    },
+    {
+      "code": "gujarat-state-co-operative-bank-ltd",
+      "cat": "SSCB",
+      "kind": "html_static",
+      "status": "pass",
+      "reason": "",
+      "expected": 11,
+      "actual": 12,
+      "extraction_method": "automatic_html_static",
+      "ms": 1073
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "bank_code": "thanjavur-central-co-operative-bank-ltd",
+  "bank_name": "Thanjavur Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": "https://www.thanjavurccb.bank.in/Fixed_deposit.php",
+  "scraped_at": "2026-05-27T18:20:23.244Z",
+  "effective_date": "2026-05-27",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "Fixed Deposit (single headline rate; no tenure ladder published)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 8.25,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Fixed Deposit 8.25% / Senior Citizen 8.50% — Additional 0.50% for senior citizens"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 review: the bank publishes only ONE headline FD rate (8.25% general / 8.50% senior) with no per-tenure ladder on its site — the single slab is correct, not a truncation."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "sourced_at": "2026-05-27T18:20:23.244Z",
+    "source_url": "https://www.thanjavurccb.bank.in/Fixed_deposit.php",
+    "discovery_status": "single_headline_rate"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:33.020Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-27T18:20:23.244Z",
+      "retained_slab_count": 1
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 57,
+    "last_scraped_at": "2026-05-27T18:20:23.244Z",
+    "manual_verification_needed": false
+  }
+}

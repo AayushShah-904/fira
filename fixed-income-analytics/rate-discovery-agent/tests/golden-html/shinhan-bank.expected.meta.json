@@ -1,0 +1,13 @@
+{
+  "bank_code": "shinhan-bank",
+  "bank_name": "shinhan-bank",
+  "bank_type": "FB",
+  "state": "South Korea",
+  "website": "https://shinhanbankindia.bank.in",
+  "rate_page_url": "https://shinhanbankindia.bank.in/fixed-deposit.html",
+  "scraper_type": "html_js",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 26,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

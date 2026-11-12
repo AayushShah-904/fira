@@ -1,0 +1,229 @@
+{
+  "bank_code": "mizuho-bank-ltd",
+  "scraped_at": "2026-05-13T18:43:33.660Z",
+  "source_url": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/6933592acbfc1f5eaff8a6a5_58789e2af171f1c6164c489ee2fe6464_rate1101.pdf",
+  "effective_date": "2026-03-01",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7 DAYS TO 14 DAYS",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.2,
+      "rate_senior_pct": 4.7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 DAYS TO 21 DAYS",
+      "tenure_min_days": 15,
+      "tenure_max_days": 21,
+      "rate_general_pct": 4.35,
+      "rate_senior_pct": 4.85,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "22 DAYS TO 29 DAYS",
+      "tenure_min_days": 22,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4.35,
+      "rate_senior_pct": 4.85,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 DAYS TO 46 DAYS",
+      "tenure_min_days": 30,
+      "tenure_max_days": 46,
+      "rate_general_pct": 4.4,
+      "rate_senior_pct": 4.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "47 DAYS TO 60 DAYS",
+      "tenure_min_days": 47,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.45,
+      "rate_senior_pct": 4.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 DAYS TO 74 DAYS",
+      "tenure_min_days": 61,
+      "tenure_max_days": 74,
+      "rate_general_pct": 4.45,
+      "rate_senior_pct": 4.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "75 DAYS TO 89 DAYS",
+      "tenure_min_days": 75,
+      "tenure_max_days": 89,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "90 DAYS TO 104 DAYS",
+      "tenure_min_days": 90,
+      "tenure_max_days": 104,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "105 DAYS TO 120 DAYS",
+      "tenure_min_days": 105,
+      "tenure_max_days": 120,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "121 DAYS TO 149 DAYS",
+      "tenure_min_days": 121,
+      "tenure_max_days": 149,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": 5.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "150 DAYS TO 164 DAYS",
+      "tenure_min_days": 150,
+      "tenure_max_days": 164,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": 5.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "165 DAYS TO 180 DAYS",
+      "tenure_min_days": 165,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": 5.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 DAYS TO 196 DAYS",
+      "tenure_min_days": 181,
+      "tenure_max_days": 196,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": 5.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "197 DAYS TO 226 DAYS",
+      "tenure_min_days": 197,
+      "tenure_max_days": 226,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": 5.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "227 DAYS TO 240 DAYS",
+      "tenure_min_days": 227,
+      "tenure_max_days": 240,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "241 DAYS TO 269 DAYS",
+      "tenure_min_days": 241,
+      "tenure_max_days": 269,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "270 DAYS TO 345 DAYS",
+      "tenure_min_days": 270,
+      "tenure_max_days": 345,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "346 DAYS TO 1 Year",
+      "tenure_min_days": 346,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.65,
+      "rate_senior_pct": 5.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "OVER 1 YEAR UPTO 15 MONTHS",
+      "tenure_min_days": 366,
+      "tenure_max_days": 455,
+      "rate_general_pct": 4.65,
+      "rate_senior_pct": 5.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "OVER 15 MONTHS UPTO 18 MONTHS",
+      "tenure_min_days": 456,
+      "tenure_max_days": 545,
+      "rate_general_pct": 4.85,
+      "rate_senior_pct": 5.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "OVER 18 MONTHS UPTO 2 YEARS",
+      "tenure_min_days": 546,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": 5.45,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "OVER 2 YEARS UPTO 5 YEARS",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "LLM-verified after sanity-gate flagged deterministic output.",
+    "Senior Citizens will be offered 0.5% above the normal interest rates across all maturities.",
+    "Rates apply for deposits less than INR 30 million.",
+    "Premature withdrawal penalty of 1% on interest rate applies after 7 days."
+  ],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "safe_replace",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 144,
+    "last_scraped_at": "2026-05-13T18:43:33.660Z",
+    "manual_verification_needed": true
+  }
+}

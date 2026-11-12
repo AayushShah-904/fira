@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+    "extracted_at": "2026-06-06T09:40:58.972Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "ssssbankltd.com",
+  "rate_pages": {
+    "fd": "/index.html#rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/index.html#rates",
+    "rd": "/index.html#rates"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site www.ssssbankltd.com is reachable (HTTP 200) and offers FD/RD products. However it only publishes summary ranges (Fixed Deposit 5.50%-7.75%, RD 5.25%-7.50%, Savings 3.00%-4.00%, senior +0.50%) on the homepage #rates section with no per-tenure FD rate table. The 'Interest Rate Policy' PDF link (assets/reports/interest-rate-policy.pdf) returns HTTP 404 (broken). No parseable per-slab rate card available; did not fabricate slabs from the summary range."
+  }
+}

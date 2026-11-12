@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+    "extracted_at": "2026-06-05T13:13:11.606Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "nutan.bank.in",
+  "rate_pages": {
+    "fd": "/page/97",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "HTML tables with tenure, general rate, senior citizen rate columns. 3 tables",
+  "template": {
+    "template_id": "nutan-nagarik-4col-regular-general-senior",
+    "template_hash": "sha1:b752db302f38b6edd1bfd5daaea59f3903f0a1cf",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.504Z",
+      "gates_passed": "PASS",
+      "slab_count": 5,
+      "cluster_reused": false
+    }
+  }
+}

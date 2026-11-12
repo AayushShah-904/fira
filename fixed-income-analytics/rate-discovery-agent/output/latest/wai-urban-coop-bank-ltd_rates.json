@@ -1,0 +1,87 @@
+{
+  "bank_code": "wai-urban-coop-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://waibank.co.in/deposit-interest-rate",
+  "scraped_at": "2026-06-09T16:31:07.785Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.05,
+      "rate_senior_pct": 3.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 15 days to 45 days 3.05% 3.55%"
+    },
+    {
+      "tenure_text": "46 days to 179 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.05,
+      "rate_senior_pct": 5.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 46 days to 179 days 5.05% 5.55%"
+    },
+    {
+      "tenure_text": "180 days to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": 6.3,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 180 days to 364 days 5.80% 6.30%"
+    },
+    {
+      "tenure_text": "1 Year to less than 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 1 Year to less than 2 Years 6.25% 6.75%"
+    },
+    {
+      "tenure_text": "2 Years to less than 3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 2 Years to less than 3 Years 6.45% 6.95%"
+    },
+    {
+      "tenure_text": "3 Years to less than 5 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 3 Years to less than 5 Years 6.30% 6.80%"
+    },
+    {
+      "tenure_text": "5 Years to 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": "मुदत ठेव 5 Years to 10 Years 6.05% 6.55%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/7 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 7"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T16:31:07.785Z",
+    "manual_verification_needed": false
+  }
+}

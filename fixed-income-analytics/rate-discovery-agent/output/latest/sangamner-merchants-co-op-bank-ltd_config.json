@@ -1,0 +1,19 @@
+{
+  "bank_code": "sangamner-merchants-co-op-bank-ltd",
+  "bank_name": "sangamner-merchants-co-op-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://smbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://smbank.bank.in/innerpages/17/Interest-Rate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:30:03.031Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

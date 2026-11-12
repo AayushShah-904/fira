@@ -1,0 +1,298 @@
+{
+  "bank_code": "canara-bank",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://www.canarabank.bank.in/pages/deposit-interest-rates",
+  "scraped_at": "2026-06-15T12:03:13.050Z",
+  "effective_date": "2026-05-29",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "scraper_type": "html_static",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 2.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 3.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "12 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "24 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "36 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "48 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_100k"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_100k"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD"
+    }
+  ],
+  "warnings": [
+    "Direct-extracted 2026-06-15 from Table 7 (FCNR matrix) on canarabank.bank.in/pages/deposit-interest-rates. Effective 2026-05-29. Agent re-extract pass extracted domestic + NRE + NRO from earlier tables on the same page and skipped FCNR.",
+    "USD has two deposit-range buckets on this page: \"< 100000\" and \">= 100000\" (encoded as below_100k / above_100k).",
+    "Page publishes both RATE and YIELD* columns per currency-bucket. RATE captured as offered rate; YIELD* (annualised return after compounding) is informational and not stored as separate slabs."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "bank_code": "saraspur-nagarik-co-op-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-09-01",
+  "source_url": "https://saraspur.bank.in/interest-rates",
+  "scraped_at": "2026-06-09T16:49:25.173Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days - 45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": 4.25,
+      "source_row_text": "7 Days - 45 Days 4.25 % 4.25 % 4.25 %"
+    },
+    {
+      "tenure_text": "46 Days - 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": 4.5,
+      "source_row_text": "46 Days - 90 Days 4.50 % 4.50 % 4.50 %"
+    },
+    {
+      "tenure_text": "91 Days - 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": 5.25,
+      "source_row_text": "91 Days - 180 Days 5.25 % 5.25 % 5.25 %"
+    },
+    {
+      "tenure_text": "181 Days - 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": 5.75,
+      "source_row_text": "181 Days - 364 Days 5.75 % 5.75 % 5.75 %"
+    },
+    {
+      "tenure_text": "12 Months - 15 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 7.75,
+      "source_row_text": "12 Months - 15 Months 7.00 % 7.50 % 7.75 %"
+    },
+    {
+      "tenure_text": "15 Months and 1 Day - 3 Years",
+      "tenure_min_days": 456,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": 7.25,
+      "source_row_text": "15 Months and 1 Day - 3 Years 6.50 % 7.00 % 7.25 %"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 24"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 325,
+    "last_scraped_at": "2026-06-09T16:49:25.173Z",
+    "manual_verification_needed": true
+  }
+}

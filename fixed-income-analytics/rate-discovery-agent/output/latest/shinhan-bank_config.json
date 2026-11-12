@@ -1,0 +1,22 @@
+{
+  "bank_code": "shinhan-bank",
+  "bank_name": "shinhan-bank",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "South Korea",
+  "website": "https://shinhanbankindia.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://shinhanbankindia.bank.in/fixed-deposit.html",
+    "fd_nre": "https://shinhanbankindia.bank.in/nre-deposits",
+    "fd_nro": "https://shinhanbankindia.bank.in/nro-deposits",
+    "fd_fcnr": "https://shinhanbankindia.bank.in/fcnr-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:01:21.078Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

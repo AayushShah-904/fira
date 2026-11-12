@@ -1,0 +1,24 @@
+{
+  "bank_code": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+  "bank_name": "the yavatmal urban co operative bank ltd yavatmal",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-08-15",
+  "source_url": "https://yavatmalurban.bank.in/rate-of-interest",
+  "scraped_at": "2026-05-25T17:52:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 - 45 Days", "tenure_min_days": 7, "tenure_max_days": 45, "rate_general_pct": 3.05, "rate_senior_pct": 3.55, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 - 179 Days", "tenure_min_days": 46, "tenure_max_days": 179, "rate_general_pct": 5.05, "rate_senior_pct": 5.55, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "180 - 210 Days", "tenure_min_days": 180, "tenure_max_days": 210, "rate_general_pct": 5.80, "rate_senior_pct": 6.30, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "211 Days - Below 1 Year", "tenure_min_days": 211, "tenure_max_days": 364, "rate_general_pct": 6.05, "rate_senior_pct": 6.55, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Year - Below 2 Years", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 6.25, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 Years - Below 3 Years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 6.45, "rate_senior_pct": 6.95, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Years - Below 5 Years", "tenure_min_days": 1095, "tenure_max_days": 1824, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5 Years - Below 10 Years", "tenure_min_days": 1825, "tenure_max_days": 3649, "rate_general_pct": 6.05, "rate_senior_pct": 7.05, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": ["FD rates published as a JPG image (Fixed-Deposit-Chart) on a JS-rendered WordPress page; transcribed via vision OCR. Savings 2.50%, Daily Recurring 3.50%, and Recurring/MIS 'as per Fixed Deposit' also shown."],
+  "errors": [],
+  "tier2_method": "ocr"
+}

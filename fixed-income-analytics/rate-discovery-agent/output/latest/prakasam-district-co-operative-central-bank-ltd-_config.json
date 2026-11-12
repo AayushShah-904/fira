@@ -1,0 +1,41 @@
+{
+  "bank_code": "prakasam-district-co-operative-central-bank-ltd-",
+  "bank_name": "Prakasam District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://prakasamdccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://prakasamdccb.bank.in/deposits-roi/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": "table",
+    "rows": "tbody tr",
+    "effective_date": "div.elementor-widget-container:contains('New revised Interest Rates from')"
+  },
+  "column_mapping": {
+    "1": "tenure_text",
+    "2": "rate_general_pct",
+    "3": "rate_senior_pct"
+  },
+  "expected_slab_count": 11,
+  "notes": "WordPress. Standard HTML table with 4 columns (S.No, Tenure, General Rate, Senior Citizen Rate). Effective date text above table: 'New revised Interest Rates from 27-10-2022'.",
+  "scraper_notes": {
+    "framework": "WordPress + Elementor",
+    "bot_protection": null,
+    "data_format": "Standard HTML table",
+    "rate_tables_on_page": 1
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "domain pre-lookup + direct fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

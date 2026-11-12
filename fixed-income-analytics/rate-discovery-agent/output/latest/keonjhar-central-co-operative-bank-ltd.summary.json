@@ -1,0 +1,50 @@
+{
+  "bank_code": "keonjhar-central-co-operative-bank-ltd",
+  "bank_name": "keonjhar-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9970,
+  "duration_ms": 9970,
+  "duration_api_ms": 9844,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.00863,
+  "input_tokens": 18835,
+  "output_tokens": 685,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"keonjhar central co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://keonjharcentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://keonjharcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://keonjharcentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://keonjharcentralcooperativebankltd.co.in\"}"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "keb-hana-bank",
+    "extracted_at": "2026-06-05T11:44:53.639Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "global.1qbank.com",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": "/fcnr-deposits"
+  },
+  "scraper_type": "manual",
+  "status": "wholesale_only",
+  "notes": "KEB Hana Bank India is corporate/wholesale banking. No retail deposit rates published.",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Foreign bank (Korea) with India branches at Chennai and Gurugram on global.1qbank.com (1Q Bank platform). India personal-bank section (/pb/ma/main?countryCode=IN) only exposes login-gated 'Application for Deposit' / 'Application history' flows and FX rate pages (/lounge/chennai/et/rate/index.html); no public INR domestic FD rate card published. Branch 'lounge' pages are JS-rendered and returned empty to WebFetch."
+  }
+}

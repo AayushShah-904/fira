@@ -1,0 +1,19 @@
+{
+  "bank_code": "amreli-nagrik-sahakari-bank-ltd",
+  "bank_name": "amreli-nagrik-sahakari-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://amrelibank.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://amrelibank.com/deposit-interest-rate.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:31:58.879Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_js"
+}

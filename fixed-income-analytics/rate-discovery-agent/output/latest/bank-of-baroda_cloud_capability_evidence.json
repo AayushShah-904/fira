@@ -1,0 +1,23 @@
+{
+  "bank_code": "bank-of-baroda",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:05:34.280Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T1957_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-xdxc51b"
+    },
+    {
+      "ts": "2026-06-08T20:31:52.796Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T10:59:40.679Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

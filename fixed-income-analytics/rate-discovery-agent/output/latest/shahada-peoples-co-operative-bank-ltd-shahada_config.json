@@ -1,0 +1,19 @@
+{
+  "bank_code": "shahada-peoples-co-operative-bank-ltd-shahada",
+  "bank_name": "shahada-peoples-co-operative-bank-ltd-shahada",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://spc.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:32:02.148Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

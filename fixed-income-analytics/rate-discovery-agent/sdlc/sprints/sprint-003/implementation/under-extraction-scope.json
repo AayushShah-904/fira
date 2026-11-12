@@ -1,0 +1,2940 @@
+{
+  "run_at": "2026-05-15T20:02:34.640Z",
+  "cache_dir": "output\\refresh\\2026-05-13T17-29-11\\fetched",
+  "banks_compared": 232,
+  "by_category": {
+    "llm_more": 87,
+    "llm_only": 104,
+    "both_empty": 23,
+    "equal": 11,
+    "dispatcher_more": 7
+  },
+  "totals": {
+    "dispatcher_more_extra_slabs": 28,
+    "llm_more_extra_slabs": 759
+  },
+  "results": [
+    {
+      "bank": "ab-bank-plc",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 1,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "agra-zilla-sahakari-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "ahmednagar-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 0,
+      "diff": -7,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "airtel-payments-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "ajmer-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "akhand-anand-co-operative-bank-ltd-surat",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "akola-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 1,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "andhra-pradesh-mahesh-co-op-urban-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 1,
+      "diff": -10,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "angul-united-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "aska-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "au-small-finance-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 20,
+      "dispatcher_count": 0,
+      "diff": -20,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "aurangabad-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 1,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "australia-and-new-zealand-banking-group-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "axis-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 1,
+      "diff": -17,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bagalkot-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 6,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bandhan-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 24,
+      "dispatcher_count": 0,
+      "diff": -24,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bandhan-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 24,
+      "dispatcher_count": 6,
+      "diff": -18,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 24 tables on page (11 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bandhan-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 24,
+      "dispatcher_count": 6,
+      "diff": -18,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 24 tables on page (11 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bandhan-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 24,
+      "dispatcher_count": 6,
+      "diff": -18,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 24 tables on page (11 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 1,
+      "diff": -5,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 5 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-baroda",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 35,
+      "dispatcher_count": 0,
+      "diff": -35,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-baroda",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 15,
+      "dispatcher_count": 0,
+      "diff": -15,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-baroda",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 15,
+      "dispatcher_count": 0,
+      "diff": -15,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-baroda",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 15,
+      "dispatcher_count": 0,
+      "diff": -15,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-ceylon",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-india-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 6,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-india",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-india",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-maharashtra-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-maharashtra",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bank-of-maharashtra",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "barclays-bank-plc-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "barclays-bank-plc-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bharat-co-operative-bank-mumbai-ltd",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 16,
+      "dispatcher_count": 0,
+      "diff": -16,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bharat-co-operative-bank-mumbai-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 40,
+      "dispatcher_count": 0,
+      "diff": -40,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bharati-sahakari-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 1,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "bnp-paribas-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "canara-bank",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 25,
+      "dispatcher_count": 0,
+      "diff": -25,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "canara-bank",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "canara-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "capital-small-finance-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 2,
+      "dispatcher_count": 6,
+      "diff": 4,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "capital-small-finance-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 11,
+      "diff": 4,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "capital-small-finance-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 11,
+      "diff": 4,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "central-bank-of-india",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 4,
+      "dispatcher_count": 0,
+      "diff": -4,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "central-bank-of-india",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "chitradurg-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 6,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "chittoor-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "city-union-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 33,
+      "dispatcher_count": 0,
+      "diff": -33,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "city-union-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 10,
+      "diff": 5,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [
+        "multi_table: 18 tables on page (12 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "city-union-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 10,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 18 tables on page (12 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "city-union-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 10,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 18 tables on page (12 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "cosmos-co-operative-bank-ltd",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 20,
+      "dispatcher_count": 0,
+      "diff": -20,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "cosmos-co-operative-bank-ltd",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 0,
+      "diff": -8,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "cosmos-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 15,
+      "dispatcher_count": 0,
+      "diff": -15,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "credit-agricole-corporate-and-investment-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "csb-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 30,
+      "dispatcher_count": 0,
+      "diff": -30,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "csb-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "csb-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "csb-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 17,
+      "dispatcher_count": 0,
+      "diff": -17,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "ctbc-bank-co-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "cuddapah-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 1,
+      "diff": -10,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dbs-bank-india-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 0,
+      "diff": -5,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dbs-bank-india-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 6,
+      "diff": -3,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dbs-bank-india-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 26,
+      "dispatcher_count": 14,
+      "diff": -12,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dbs-bank-india-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 26,
+      "dispatcher_count": 14,
+      "diff": -12,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dcb-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 0,
+      "diff": -13,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "deutsche-bank-ag",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 2,
+      "dispatcher_count": 0,
+      "diff": -2,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "deutsche-bank-ag",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 4,
+      "diff": -14,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (4 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "deutsche-bank-ag",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 4,
+      "diff": -14,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (4 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dhanlaxmi-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 16,
+      "dispatcher_count": 0,
+      "diff": -16,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "dhanlaxmi-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "doha-bank-qpsc",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "doha-bank-qpsc",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 4,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "doha-bank-qpsc",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 4,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "doha-bank-qpsc",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 4,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "eluru-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 1,
+      "diff": -5,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "emirates-nbd-bank-pjsc",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 3,
+      "dispatcher_count": 0,
+      "diff": -3,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "emirates-nbd-bank-pjsc",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 2,
+      "diff": -5,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 12 tables on page (12 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "emirates-nbd-bank-pjsc",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 23,
+      "dispatcher_count": 2,
+      "diff": -21,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 12 tables on page (12 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "emirates-nbd-bank-pjsc",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 23,
+      "dispatcher_count": 2,
+      "diff": -21,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 12 tables on page (12 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "equitas-small-finance-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 22,
+      "dispatcher_count": 0,
+      "diff": -22,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "federal-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 6,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [
+        "multi_table: 5 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "federal-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 13,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [
+        "multi_table: 7 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "fino-payments-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 1,
+      "dispatcher_count": 0,
+      "diff": -1,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "first-abu-dhabi-bank-pjsc-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "goa-urban-co-operative-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "gs-mahanagar-co-operative-bank-ltd-mumbai",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 1,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "gujarat-gramin-bank",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 0,
+      "diff": -5,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "gujarat-gramin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 0,
+      "diff": -13,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "guna-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 1,
+      "diff": -11,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hdfc-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 0,
+      "diff": -8,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "himachal-pradesh-gramin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 23,
+      "dispatcher_count": 0,
+      "diff": -23,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 14,
+      "dispatcher_count": 11,
+      "diff": -3,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (4 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 26,
+      "dispatcher_count": 16,
+      "diff": -10,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (4 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 26,
+      "dispatcher_count": 1,
+      "diff": -25,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hoogly-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 1,
+      "diff": -12,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "howrah-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 11,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hsbc-bank-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 36,
+      "dispatcher_count": 0,
+      "diff": -36,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "hsbc-bank-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 36,
+      "dispatcher_count": 1,
+      "diff": -35,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "icici-bank-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "icici-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 0,
+      "diff": -8,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "icici-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 2,
+      "dispatcher_count": 2,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "icici-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 2,
+      "dispatcher_count": 2,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "icici-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 2,
+      "dispatcher_count": 2,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "idbi-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 26,
+      "dispatcher_count": 0,
+      "diff": -26,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "idbi-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 4,
+      "diff": -3,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 9 tables on page (8 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "idbi-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 15,
+      "dispatcher_count": 4,
+      "diff": -11,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 9 tables on page (8 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "idbi-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 0,
+      "diff": -18,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "idfc-first-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indian-bank",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 40,
+      "dispatcher_count": 0,
+      "diff": -40,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indian-bank",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 0,
+      "diff": -8,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indian-bank",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 14,
+      "dispatcher_count": 0,
+      "diff": -14,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indian-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 17,
+      "dispatcher_count": 0,
+      "diff": -17,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indian-mercantile-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indian-overseas-bank",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 0,
+      "diff": -5,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indore-premier-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 1,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indusind-bank-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 24,
+      "dispatcher_count": 0,
+      "diff": -24,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indusind-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 27,
+      "dispatcher_count": 0,
+      "diff": -27,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indusind-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 0,
+      "diff": -5,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indusind-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "indusind-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "industrial-bank-of-korea",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "jalgaon-janata-sahakari-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 22,
+      "dispatcher_count": 0,
+      "diff": -22,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "jana-small-finance-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 14,
+      "dispatcher_count": 0,
+      "diff": -14,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "jsc-vtb-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 2,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kalupur-commercial-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 6,
+      "diff": -3,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 7 tables on page (6 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karad-urban-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 1,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karimnagar-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karnataka-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 36,
+      "dispatcher_count": 0,
+      "diff": -36,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karnataka-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karur-vysya-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 30,
+      "dispatcher_count": 0,
+      "diff": -30,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karur-vysya-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karur-vysya-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 17,
+      "dispatcher_count": 0,
+      "diff": -17,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "karur-vysya-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 17,
+      "dispatcher_count": 0,
+      "diff": -17,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "keb-hana-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kerala-grameena-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 0,
+      "diff": -13,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kookmin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kotak-mahindra-bank-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kotak-mahindra-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 1,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "kotak-mahindra-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 1,
+      "diff": -17,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 4 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "krishna-bhima-samruddhi-local-area-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 1,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "manipur-rural-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 1,
+      "diff": -10,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 6 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "mehsana-urban-co-op-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 5 tables on page (5 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "mizoram-rural-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "nainital-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "nasik-merchants-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "national-bank-for-agriculture-and-rural-development-nabard",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 1,
+      "diff": -4,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "natwest-markets-plc",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 25,
+      "dispatcher_count": 0,
+      "diff": -25,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "natwest-markets-plc",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 1,
+      "dispatcher_count": 0,
+      "diff": -1,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "natwest-markets-plc",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 4,
+      "dispatcher_count": 0,
+      "diff": -4,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "natwest-markets-plc",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 4,
+      "dispatcher_count": 1,
+      "diff": -3,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "nizamabad-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "nkgsb-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 15,
+      "dispatcher_count": 0,
+      "diff": -15,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "nonghyup-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "paytm-payments-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 2,
+      "diff": -10,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "prakasam-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 1,
+      "diff": -10,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "pravara-sahakari-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 8,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "puducherry-grama-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 5,
+      "diff": -5,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-gramin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 3,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-national-bank-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-national-bank-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 2,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-national-bank",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 30,
+      "dispatcher_count": 0,
+      "diff": -30,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-national-bank",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 0,
+      "diff": -8,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-national-bank",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 19,
+      "dispatcher_count": 0,
+      "diff": -19,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-national-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 19,
+      "dispatcher_count": 0,
+      "diff": -19,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-sind-bank",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 24,
+      "dispatcher_count": 0,
+      "diff": -24,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "punjab-sind-bank",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 22,
+      "dispatcher_count": 5,
+      "diff": -17,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "qatar-national-bank-qpsc-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rajasthan-gramin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 1,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rajkot-nagrik-sahakari-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 0,
+      "diff": -10,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rbl-bank-ibu",
+      "variant": "gift",
+      "bank_type": "",
+      "llm_count": 60,
+      "dispatcher_count": 0,
+      "diff": -60,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rbl-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 40,
+      "dispatcher_count": 0,
+      "diff": -40,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rbl-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 4,
+      "dispatcher_count": 10,
+      "diff": 6,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [
+        "multi_table: 6 tables on page (6 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rbl-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 10,
+      "diff": 4,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [
+        "multi_table: 6 tables on page (6 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "rbl-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 10,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 6 tables on page (6 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "saraswat-co-operative-bank-ltd",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "saraswat-co-operative-bank-ltd",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 0,
+      "diff": -9,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "saraswat-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 19,
+      "dispatcher_count": 0,
+      "diff": -19,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "sbpp-co-operative-bank-ltd-killa-pardi",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 1,
+      "diff": -12,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "shamrao-vithal-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 17,
+      "dispatcher_count": 0,
+      "diff": -17,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "shivalik-small-finance-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 16,
+      "dispatcher_count": 8,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 8 tables on page (6 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "slice-small-finance-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 1,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 9 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "solapur-janata-sahakari-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 5,
+      "diff": -4,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "south-canara-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 5,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "south-indian-bank-limited",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 33,
+      "dispatcher_count": 0,
+      "diff": -33,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "south-indian-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "south-indian-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "south-indian-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 0,
+      "diff": -12,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "sri-lakshminarayana-co-operative-bank-ltd-bangalore",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "sri-potti-sriramulu-nellore-district-cooperative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 1,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "standard-chartered-bank-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 6,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "state-bank-of-india-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 14,
+      "dispatcher_count": 1,
+      "diff": -13,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "state-bank-of-india",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 36,
+      "dispatcher_count": 0,
+      "diff": -36,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "state-bank-of-india",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 4,
+      "dispatcher_count": 5,
+      "diff": 1,
+      "category": "dispatcher_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "state-bank-of-india",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 9,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "state-bank-of-india",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 0,
+      "diff": -8,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "surat-peoples-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 14,
+      "dispatcher_count": 1,
+      "diff": -13,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "tamil-nadu-grama-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 10,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [
+        "multi_table: 5 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-anantapur-district-co-operative-central-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-arunachal-pradesh-state-co-operative-apex-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 6,
+      "dispatcher_count": 0,
+      "diff": -6,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-assam-co-operative-apex-bank-ltd-",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-bihar-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 5,
+      "diff": -5,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 1,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-daman-and-diu-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 8,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-district-co-operative-central-bank-ltd-srikakulam",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 1,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 5 tables on page (5 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-goa-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 5,
+      "diff": 0,
+      "category": "equal",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-himachal-pradesh-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 12,
+      "dispatcher_count": 1,
+      "diff": -11,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-karnataka-state-co-operative-apex-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 1,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-kerala-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 0,
+      "diff": -7,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 30,
+      "dispatcher_count": 0,
+      "diff": -30,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-mizoram-co-operative-apex-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 1,
+      "diff": -9,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-nagaland-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 3 tables on page (3 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-sikkim-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-tamil-nadu-state-apex-co-operative-bank-ltd-",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 11,
+      "dispatcher_count": 0,
+      "diff": -11,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-uttarakhand-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 1,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-vishweshwar-sahakari-bank-ltd-pune",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 1,
+      "diff": -7,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "the-west-bengal-state-co-operative-bank-ltd",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 4,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "tripura-gramin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "uco-bank",
+      "variant": "fcnr",
+      "bank_type": "",
+      "llm_count": 45,
+      "dispatcher_count": 0,
+      "diff": -45,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "uco-bank",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 7,
+      "dispatcher_count": 0,
+      "diff": -7,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "ujjivan-small-finance-bank-limited",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 5,
+      "dispatcher_count": 3,
+      "diff": -2,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "ujjivan-small-finance-bank-limited",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 7,
+      "diff": -3,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "ujjivan-small-finance-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 8,
+      "dispatcher_count": 7,
+      "diff": -1,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 7 tables on page (6 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "union-bank-of-india",
+      "variant": "nre",
+      "bank_type": "",
+      "llm_count": 10,
+      "dispatcher_count": 4,
+      "diff": -6,
+      "category": "llm_more",
+      "dispatcher_warnings": [],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "union-bank-of-india",
+      "variant": "nro",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 4,
+      "diff": -14,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "union-bank-of-india",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 18,
+      "dispatcher_count": 4,
+      "diff": -14,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 2 tables on page (2 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "uttar-pradesh-gramin-bank",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 13,
+      "dispatcher_count": 0,
+      "diff": -13,
+      "category": "llm_only",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "uttar-pradesh-state-co-operative-bank-limited",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 9,
+      "dispatcher_count": 1,
+      "diff": -8,
+      "category": "llm_more",
+      "dispatcher_warnings": [
+        "multi_table: 5 tables on page (4 rate-bearing); operator review recommended"
+      ],
+      "dispatcher_error": null
+    },
+    {
+      "bank": "yes-bank-ibu",
+      "variant": "regular",
+      "bank_type": "",
+      "llm_count": 0,
+      "dispatcher_count": 0,
+      "diff": 0,
+      "category": "both_empty",
+      "dispatcher_warnings": [
+        "rejected_or_zero"
+      ],
+      "dispatcher_error": null
+    }
+  ]
+}

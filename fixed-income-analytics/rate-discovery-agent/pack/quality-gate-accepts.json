@@ -1,0 +1,325 @@
+{
+  "_comment": "Operator-curated accepts for the pack quality gate. Each accepted_regression suppresses a BLOCK finding for that bank+variant. Accepts persist across runs; review periodically. See sdlc/sprints/sprint-005/design/observability-and-gate.md for the contract. SPRINT 005 PHASE D2 (2026-05-24): all entries MUST be signed via `node bin/approve-accept.js`. Unsigned entries are rejected at gate time. The signing key lives at ~/.rate-discovery/operator.key (operator-only). Direct edits to this file are detected and rejected: the 2026-05-23 incident where the agent fabricated 48 approvals is structurally impossible under the signed-accept design. AGENT GUARDRAIL: never edit this file directly — always use bin/approve-accept.js, which itself refuses to run inside an agent session.",
+  "_signed_format_version": 1,
+  "since_pack": "2026-05-14",
+  "accepted_regressions": [
+    {
+      "bank_code": "akola-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "finding_hash": "sha256:27de7ebecc29b9bdc5a96ceb0b21c962d92a6c199490270016b0f9b383a0e5d9",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:18:47.115Z",
+      "reason": "Dedup/rate-bound filter removed 2 redundant/out-of-band co-op slabs; 8 retail slabs verified against source.",
+      "signature": "hmac-sha256:00917e98b518fc2881b914ba31f3d72188f731e6418a84abf215ebcca5d094e0"
+    },
+    {
+      "bank_code": "bandhan-bank-limited",
+      "variant": "fcnr",
+      "finding_hash": "sha256:50369a4fa285d96258356f53f9e3c16249f7376d2ac6ecdf025c7dd54cd21dee",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:28:58.543Z",
+      "reason": "Prior FCNR (24) was over-extracted (INR sub-year rows + a GBP row mislabeled USD, EUR missing). Re-extracted the genuine FCNR card = 7 slabs (USD x6 + GBP x1).",
+      "signature": "hmac-sha256:0321300af0d51a1b1b841db00340205fc2d7d95978a3d74f03065cf6a7e1ad42"
+    },
+    {
+      "bank_code": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+      "variant": "regular",
+      "finding_hash": "sha256:47a3f98eeb1bde78711da9f2fc4fa0bc5fa190f4968e76fde44edd554e73b72e",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:28:59.106Z",
+      "reason": "Quarantine/gap: source host unreachable from our network; no current FD rate page.",
+      "signature": "hmac-sha256:ff1bb6fd165d9bb1433f256f7d0b0bd991091609aa24e543ee11cb3764fad678"
+    },
+    {
+      "bank_code": "bank-of-baroda-ibu",
+      "variant": "gift",
+      "finding_hash": "sha256:66c94af3b148926546ffcda1a8fb24f7abd1dc4e80c0e37d70ff75f09a23c6bd",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:28:59.665Z",
+      "reason": "Dedup removed 15 true-duplicate currency rows (callable/non-callable overlap on 3 long tenures); all 5 currencies retained (50 correct).",
+      "signature": "hmac-sha256:642a8cf23ea9e720b1c77c6f7f8fa03eb57eeb13d2d3dd47cdff3edb93a25579"
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "variant": "nre",
+      "finding_hash": "sha256:3b2ce8372ab838111b1c939dfd21cebbc9bd3986e9285d1d4d92a2679d9e42b3",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:29:00.243Z",
+      "reason": "Quarantined: registry domain was the Sri-Lankan parent boc.lk; its USD FD table was mislabeled as Indian NRE. No valid India NRE source found.",
+      "signature": "hmac-sha256:4cb2cae8229f07c42cab494d0868cfd789d0d088daab5744269272bfd73da2a4"
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "variant": "nro",
+      "finding_hash": "sha256:31a8a8acfa3f2e255462f1505a1e4e2256cafc3390f4496ec24b917ec06db7e0",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:29:00.800Z",
+      "reason": "Quarantined: same boc.lk Sri-Lankan USD table mislabeled as Indian NRO. No valid India NRO source found.",
+      "signature": "hmac-sha256:d34378c0594283585463c3db0a77523d1b4e629a7976679380b1d72bd0affc44"
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "variant": "fcnr",
+      "finding_hash": "sha256:b401343d57c3cead70afa6736cf3d03d74ea4f0f4d4edc51aa079b3569922f28",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:29:01.422Z",
+      "reason": "Quarantined: same boc.lk Sri-Lankan USD FD table mislabeled as FCNR (its AER% column had been read as a senior rate). No valid India FCNR source found.",
+      "signature": "hmac-sha256:c4a18a40f1aba6122c0f83376d967c645a7bf83d83a64fdd63758b981d9fcd27"
+    },
+    {
+      "bank_code": "bank-of-india",
+      "variant": "nre",
+      "finding_hash": "sha256:7e5556415aeb41e64aa5060c3b3dee93806a0a89ff8f46abbee6961b7343b3f0",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:25.894Z",
+      "reason": "Verified via Playwright (past the Cloudflare WAF): the 'NRE Rupee Term Deposits (CALLABLE)' table (w.e.f 18.05.2026) has exactly 7 rows (1Y-10Y). Baseline 11 was wrong; current 7 is complete and correct.",
+      "signature": "hmac-sha256:a113b4e12486981ef2f06454d5a212b4de00b9ebc79c81bc725e05e82e368a6b"
+    },
+    {
+      "bank_code": "bank-of-india",
+      "variant": "nro",
+      "finding_hash": "sha256:0531ead25c329509b05ad341520c1ed5019c04a2d47002af8c502bd7fe2ef260",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:26.446Z",
+      "reason": "BoI NRO page WAF-blocked (Cloudflare JS-challenge); no current extractable data.",
+      "signature": "hmac-sha256:5feb213d9ebfd095ad435ff09c13c5dca886b4332aa3a797a806e6fbc5a2baec"
+    },
+    {
+      "bank_code": "bank-of-india-ibu",
+      "variant": "regular",
+      "finding_hash": "sha256:37bfba5cd8d14d7a64599beca7b29818afdaba0980b280813bdcfce7a75279b1",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:26.997Z",
+      "reason": "IBU has no INR retail product; the data is correctly shipped under the gift variant (64 slabs). regular->0 is a variant reclassification, not a loss.",
+      "signature": "hmac-sha256:fed04d78719b5756902934fccf0f108c50e81ee69f87a1b07d4da1c0e33b353f"
+    },
+    {
+      "bank_code": "chennai-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "finding_hash": "sha256:17ea6e405807e33b08ccc5b90f0367b6a40c19c968ed83939b63b7803c9cb372",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:27.525Z",
+      "reason": "Source reachable but the rate card is an image (JPG), not a machine-readable table; no extractable FD rates (needs OCR).",
+      "signature": "hmac-sha256:e9e893081c43eb78fb7dd44196d23324171ac180eb218937105dd428caf21cb4"
+    },
+    {
+      "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+      "variant": "regular",
+      "finding_hash": "sha256:0e5bbe6435fbebdbfc2076e0c25c462817cfbcb69c77e9d3cac48c682f344157",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:28.075Z",
+      "reason": "Dedup removed 2 redundant slabs; shipped 8 verified internally consistent (live source JS-rendered, not re-confirmed).",
+      "signature": "hmac-sha256:121c769b76e551915db6f74f6b45822f6860a848579f446446fa11e928d2f545"
+    },
+    {
+      "bank_code": "cosmos-co-operative-bank-ltd",
+      "variant": "nre",
+      "finding_hash": "sha256:b22af6aa6151d6186eae2da32dd531709b5de3388245b29880427e72e378c22c",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:28.609Z",
+      "reason": "Dedup removed 2 redundant NRE slabs; 6 verified against source.",
+      "signature": "hmac-sha256:f6664c9ae122f9ede0ed6a0d93a4e38525a8af89e26f7953ae27911482b92cc1"
+    },
+    {
+      "bank_code": "fino-payments-bank-limited",
+      "variant": "regular",
+      "finding_hash": "sha256:4961b02352aa9c3d46e15547f7208836c6600b55f0372506ba2c40dd0836c46f",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:29.137Z",
+      "reason": "Payments Bank - cannot legally take term deposits; the advertised FD is partner Suryoday SFB. No own FD product.",
+      "signature": "hmac-sha256:fa40de03281c3a544282ebdace07617d378225176bfbaf53936998c6d50d8d6d"
+    },
+    {
+      "bank_code": "g-p-parsik-janata-sahakari-bank-ltd-thane",
+      "variant": "regular",
+      "finding_hash": "sha256:1083747e9db4f1a6536fcd925c57ff098cd7e2b28e710812e74533946d1fa9ee",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:29.678Z",
+      "reason": "Removed duplicate rows + a Savings-Deposit (2.75%) line that had leaked into rate_slabs as a fake FD slab; remaining 9 = 8 tenure-laddered FD + 1 Tax-Saving 5yr FD.",
+      "signature": "hmac-sha256:f0c49bce4ab0c3b16966cb8ae4abc3ed3979ef8e704edea3268aadb6e72c2260"
+    },
+    {
+      "bank_code": "hoogly-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "finding_hash": "sha256:7daf77f6fce35c0d7bb7ccf7b8d4af5c52b085801f0943b19ada74bf94567efc",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:30.206Z",
+      "reason": "Dedup removed 5 redundant slabs; 8 verified against source.",
+      "signature": "hmac-sha256:c282884886b41211ff016465e13610e851a508e91da2b731aeaf3ef49d457996"
+    },
+    {
+      "bank_code": "howrah-district-central-co-operative-bank-ltd",
+      "variant": "regular",
+      "finding_hash": "sha256:ae22839672fffacca9c1ce8f475333209121497dcc205eabbc3404009262e29c",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:30.749Z",
+      "reason": "Re-extracted full ladder with the correct senior column (prior run mismapped it); 10 retail slabs, 3 special schemes moved to special_schemes. Baseline 13 included the mis-mapped rows.",
+      "signature": "hmac-sha256:65c9e271d773a3758bbf17aa6fcb8096f83db76376807135d43068de78c935fc"
+    },
+    {
+      "bank_code": "jammu-kashmir-bank-limited",
+      "variant": "fcnr",
+      "finding_hash": "sha256:e6485c577e2cf6260f8ecb0c9f714103713f3742e37a6c31bcb91fcc95dea302",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:31.848Z",
+      "reason": "Dedup removed duplicate currency rows; all 6 currencies retained, with the legitimate <=3yr tenure cap on JPY/CAD/AUD (22 correct).",
+      "signature": "hmac-sha256:832f7b235f72e819108322629b9c258aa01231195907cd29e3c01c230c7ecf6b"
+    },
+    {
+      "bank_code": "karur-vysya-bank-limited",
+      "variant": "nre",
+      "finding_hash": "sha256:e0b2612df644a0d1e033be0fcc11dd3c0431610300c42aae22dc01b2b2b2a8ba",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:32.384Z",
+      "reason": "Dedup removed 3 redundant NRE slabs; 7 verified (one label truncation noted, rate correct).",
+      "signature": "hmac-sha256:0b2e26ecb935feceae9db4b7a65c512be9d39e5be25eb4034f4c56972443241d"
+    },
+    {
+      "bank_code": "national-bank-for-agriculture-and-rural-development-nabard",
+      "variant": "regular",
+      "finding_hash": "sha256:075896bbfb773edc989ecdad6451aae80b048a695a5420990bbd7c7c5ea8287a",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:32.981Z",
+      "reason": "NABARD is a development-finance institution (refinance rates); no retail FD product. Baseline URL now 404s.",
+      "signature": "hmac-sha256:3d28cb49f6cea0f5ef0a8db9cbc644996df87f96fbf737b55dc4986e2c824ea3"
+    },
+    {
+      "bank_code": "nkgsb-co-operative-bank-ltd",
+      "variant": "regular",
+      "finding_hash": "sha256:68c07449117d2c78b5962f61b81f0e468f1e443fb3ccc2c1ebbbe6fed3f25e46",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:33.559Z",
+      "reason": "Dropped a broken special-scheme slab (senior=0.1, a parse error) and corrected a stale 2017 effective_date to 2026-01-26; 11 correct slabs.",
+      "signature": "hmac-sha256:7a98f963eb007ec2349e8dff9ef2c006a3e519329932a7ab9d043aea1ab5e014"
+    },
+    {
+      "bank_code": "shikshak-sahakari-bank-ltd-nagpur",
+      "variant": "regular",
+      "finding_hash": "sha256:8fc04d2864e29d785b987ff9f5b8c856e8cd0e4e645656e865997b0ea38a4f5c",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:34.251Z",
+      "reason": "Dedup removed 8 redundant slabs; 8 verified against source.",
+      "signature": "hmac-sha256:af3daa5e113c69e7f801d802c5e6cca6e532a725cdc2ea9a237f4234a8d2e606"
+    },
+    {
+      "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+      "variant": "regular",
+      "finding_hash": "sha256:ee2aa2e103b70e765893371e268814748d49671f251beaa53de42e0809390dd1",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:34.842Z",
+      "reason": "Quarantined: host akolaurban.bank.in unreachable (TCP timeout); prior extraction had a Bulk-tier-as-super-senior mismap. Re-extract when reachable.",
+      "signature": "hmac-sha256:12e9bcc32bd126aca67b4b601f48cb086a400bd53969f5bc8c91a680802dcabd"
+    },
+    {
+      "bank_code": "ujjivan-small-finance-bank-limited",
+      "variant": "fcnr",
+      "finding_hash": "sha256:0f9b90cf98e8e4b0ffab4a886871a46e9e4c31324113d21b468ccb3cd5ae85dc",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:35.400Z",
+      "reason": "FCNR-B rate card is an image PDF (partial_silent marker retained); needs OCR. Known limitation.",
+      "signature": "hmac-sha256:9b638dd0336563cbbb966cf940f2970301c548eccb76ac81c241e5405646dcb1"
+    },
+    {
+      "bank_code": "united-overseas-bank-limited",
+      "variant": "regular",
+      "finding_hash": "sha256:418c900ac0d363765fe881c2d31bad6c2e11e76fadeebc654aed485ea073d099",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:35.949Z",
+      "reason": "Dedup removed 2 redundant slabs; 8 verified.",
+      "signature": "hmac-sha256:0160d51a390b28b5f2bce0df162fad610783ccb02ec2ed8dfefc20390b9f3473"
+    },
+    {
+      "bank_code": "dhule-and-nandurbar-jilha-sarkari-nokaranchi-sahakari-bank-ltd-dhule",
+      "variant": "regular",
+      "finding_hash": "sha256:122873b20c2f7706b659a8ebfefe9fd69af665c7c99211b635131431baaa1993",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:36.496Z",
+      "reason": "Already 0 slabs in baseline (no usable source); formally dropped from pack - no data lost.",
+      "signature": "hmac-sha256:48e4edf303dec78381fbfa561eec913dd18df934de5654babfb6745218837624"
+    },
+    {
+      "bank_code": "shri-kadasiddeshwar-pattan-sahakari-bank-niyamit-banhatti",
+      "variant": "regular",
+      "finding_hash": "sha256:33c84d9d32af70d6881cd2647fe79cbadcb302b7d6064be0ef162b8edf78b0c6",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:37.055Z",
+      "reason": "Already 0 slabs in baseline (no usable source); formally dropped from pack - no data lost.",
+      "signature": "hmac-sha256:ca9240e14e9a626dbcc3de3a0e930fb95c74bd54b3151242af38e1f3c7257b41"
+    },
+    {
+      "bank_code": "sriramnagar-pattana-sahakar-bank-niyamit-sriramnagar",
+      "variant": "regular",
+      "finding_hash": "sha256:ce63ba914e1baaadd781be01d0863f2d26ec3e8b9287319a976838bb76d43afc",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:37.611Z",
+      "reason": "Already 0 slabs in baseline (no usable source); formally dropped from pack - no data lost.",
+      "signature": "hmac-sha256:ad4b4261601c3a30d5a458637b32ac5616902432a24eb58fd8a438d1138b651d"
+    },
+    {
+      "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+      "variant": "regular",
+      "finding_hash": "sha256:6304c013a44d212a4dae01183c7f7fd8093314333b3d3253bbbbe596571f4b2f",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T18:08:28.950Z",
+      "reason": "Quarantined: live rate page returns HTTP 200 but EMPTY (0 bytes); bank shows OTS/distress signals + RBI regulatory history; the 2012 slabs have no current live source (re-checked 2026-05-26).",
+      "signature": "hmac-sha256:bb13eb6e74c6118912aa0d9ab394fbc6c2a3f8b1b63fc128d53ab764ce2cf30f"
+    }
+  ],
+  "accepted_anomalies": [
+    {
+      "bank_code": "axis-bank-limited",
+      "variant": "regular",
+      "finding_hash": "sha256:bf1c02f81e9e007dea984234ba11cd7c7028405ba06de4164c14803c3f62b453",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:28:56.864Z",
+      "reason": "Legit large gain: axis publishes 9 deposit-amount tiers x 18 tenures (verified live + the split general/senior PDF rows were merged into correct paired slabs).",
+      "signature": "hmac-sha256:52309d45d85971525d01dbd2bf4503e1a9dbbfad3aa430309fa93b9d1a08ae83"
+    },
+    {
+      "bank_code": "axis-bank-limited",
+      "variant": "nre",
+      "finding_hash": "sha256:f6ff2de6f44f042fe2b29859f67621d5e425b8787e1b370559b3bb4846fb1029",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:28:57.423Z",
+      "reason": "Legit gain: axis NRE = 8 tenures (all >=1yr) x 9 deposit tiers = 72; verified, senior correctly null for NRI.",
+      "signature": "hmac-sha256:50a65d6f84aacc350864652f0b1635c232e5dfa94000a0648097b37c6f43beec"
+    },
+    {
+      "bank_code": "axis-bank-limited",
+      "variant": "nro",
+      "finding_hash": "sha256:a8971246f258bf23a98a07cf55a8db36f958663720c9cb03fff757d6da0ee4d2",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:28:57.977Z",
+      "reason": "Legit gain: axis NRO mirrors the 18 domestic tenures x 9 deposit tiers = 162; verified.",
+      "signature": "hmac-sha256:8e14c657caa61497a8023af06e812cee179ea15c8f69b8fc52fb3325939c6410"
+    },
+    {
+      "bank_code": "indusind-bank-ibu",
+      "variant": "gift",
+      "finding_hash": "sha256:aa904cc5deebd8c3f33dc4c9538bbba915d22854fca00883226d804b742b3833",
+      "approved_by": "Samir Joshi",
+      "approved_at": "2026-05-26T15:51:31.307Z",
+      "reason": "Legit gain: full IBU GIFT ladder re-extracted (5 currencies USD/EUR/GBP/CAD/AUD, callable+non-callable) from raw HTML; prior 0 was a false-negative Playwright timeout. 0.01% sentinel placeholders dropped.",
+      "signature": "hmac-sha256:fb9e9df7e6dc87fb48453361af8e8e148c881017a6fd373de9c7bee1411fac22"
+    }
+  ],
+  "_open_real_regressions_2026_05_22": [
+    "bank-of-india (nre 11→7, nro 11→0) — investigate; LLM/orchestrator regression",
+    "bank-of-india-ibu (regular 8→0) — investigate; IBU GIFT regression",
+    "idbi-bank-ibu (gift 48→0) — investigate",
+    "indusind-bank-ibu (gift 24→0) — JS-render block",
+    "idfc-first-bank-limited (nre 5→1, nro 13→1) — drift after registry change",
+    "national-bank-for-agriculture-and-rural-development-nabard (5→0) — extract regression",
+    "tamil-nadu-grama-bank (10→0) — RRB regression",
+    "ujjivan-small-finance-bank-limited (fcnr 5→0) — known FCNR image-PDF; partial_silent marker retained",
+    "chennai-central-co-operative-bank-ltd (11→0) — DCCB regression; verify rate page still up",
+    "aurangabad-district-central-co-operative-bank-ltd (8→0 dropped) — check if dropped intentionally",
+    "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd (6→0 dropped) — verify",
+    "nkgsb-co-operative-bank-ltd (15→0 dropped) — verify",
+    "societe-generale (6→0 dropped) — verify",
+    "sri-lakshminarayana-co-operative-bank-ltd-bangalore (6→0 dropped) — verify",
+    "sri-potti-sriramulu-nellore-district-cooperative-central-bank-ltd (10→0 dropped) — verify",
+    "the-ahmedabad-mercantile-co-operative-bank-ltd (13→0 dropped) — verify",
+    "the-zoroastrian-co-operative-bank-ltd (15→0 dropped) — verify"
+  ]
+}

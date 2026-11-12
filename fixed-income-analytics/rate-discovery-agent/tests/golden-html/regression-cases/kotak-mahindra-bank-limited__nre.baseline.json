@@ -1,0 +1,7 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "variant": "nre",
+  "slab_count": 7,
+  "from": "rates-pack-2026-05-14",
+  "note": "Slab count only; full slab data not snapshotted by quality-gate. Phase A HTML harvester will capture the live page so Phase C extractor can validate against actual cell values."
+}

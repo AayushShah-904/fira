@@ -1,0 +1,19 @@
+{
+  "bank_code": "punjab-national-bank-ibu",
+  "bank_name": "punjab-national-bank-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "state": "Gujarat",
+  "website": "https://pnb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_gift": "https://pnb.bank.in/pnb-giftcity-InterestRate.aspx"
+  },
+  "deposit_insurance": false,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:26:27.706Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,33 @@
+{
+  "bank_code": "american-express-banking-corporation",
+  "bank_name": "american-express-banking-corporation",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://americanexpress.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/content/dam/amex/in/legal/notice-board/Ratecard/RateCard_Jan..pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Cloudflare/Akamai blocks default HTTP clients on PDF asset endpoints (WebFetch returns 403); curl with browser User-Agent succeeds. PDF rate card, single page, two parallel tables. 2 tables",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:32:52.369Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

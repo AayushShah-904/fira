@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "bank_code": "export-import-bank-of-india-exim-bank",
+    "extracted_at": "2026-06-05T13:08:08.944Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "eximbankindia.in",
+  "scraper_type": "manual",
+  "notes": "EXIM Bank is a development FI — does not accept retail deposits. No FD rates page.",
+  "status": "no_retail_deposits",
+  "rate_pages": {
+    "fd": "/mclr"
+  }
+}

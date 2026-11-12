@@ -1,0 +1,33 @@
+{
+  "bank_code": "gondia-district-central-co-operative-bank-ltd",
+  "bank_name": "Gondia District Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://gondiadccb.co.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Homepage and all visible content are dominated by recruitment notifications and exam schedules. No banking product or deposit rate pages found. This domain appears to be used only for recruitment purposes, not for customer banking information. Per Sprint 002 Rule 5, do not commit as authoritative for deposit rates. Operator review required.",
+  "scraper_notes": {
+    "framework": "React (empty root div)",
+    "bot_protection": null,
+    "data_format": "No banking product pages, only recruitment tables",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T07:01:10.151Z",
+    "discovery_method": "web_search + homepage fetch + JS rendering",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

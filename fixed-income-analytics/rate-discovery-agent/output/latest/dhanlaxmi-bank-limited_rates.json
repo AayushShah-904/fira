@@ -1,0 +1,157 @@
+{
+  "bank_code": "dhanlaxmi-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-02",
+  "source_url": "https://dhan.bank.in/interest-rates/",
+  "scraped_at": "2026-07-07T06:39:06.646Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 Days to 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 Days to 60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "61 Days to 90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 Days to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "180 Days to less than one year",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year and above up to & inclusive of 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "370 Days (Use 12 months and 5 days while opening FD in online mode)",
+      "tenure_min_days": 370,
+      "tenure_max_days": 370,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "666 Days (Use 21 months and 26 days while opening FD in online mode)",
+      "tenure_min_days": 666,
+      "tenure_max_days": 666,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 2 years upto & inclusive of 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1111 Days (Use 36 months and 15 days while opening FD in online mode)",
+      "tenure_min_days": 1111,
+      "tenure_max_days": 1111,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 3 years upto & inclusive of 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 5 years upto & inclusive of 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[2] (13 slabs) from 13 table(s); signals={\"pctRows\":14,\"tenureRows\":13,\"bothRows\":13,\"dataRows\":14,\"noisy\":true,\"colCount\":2}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[2]: table appears to list Savings Bank Account Rates, not Fixed Deposit rates; chunk[3]: no fixed deposit rate table found; given table is MCLR loan rates, not FD rates; chunk[4]: no domestic INR fixed-deposit rate table found in inpu)",
+    "llm_validation: chunk[5] dropped slab; neither source_row_text (\"Above Rs.10 Crore\u0000 and upto Rs.25 Crore 6.50 6.50 6.50 6.75 \") nor tenure_text (\"180 Days 6 less than 1 Year\") found in chunk text",
+    "llm_validation: chunk[5] dropped slab; neither source_row_text (\"Above Rs.50 Crore\u0000 6.50 6.50 6.50 6.75 6.75 6.10 6.00 6.00 6\") nor tenure_text (\"180 Days 6 less than 1 Year\") found in chunk text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 386,
+    "last_scraped_at": "2026-07-07T06:39:06.646Z",
+    "manual_verification_needed": true
+  }
+}

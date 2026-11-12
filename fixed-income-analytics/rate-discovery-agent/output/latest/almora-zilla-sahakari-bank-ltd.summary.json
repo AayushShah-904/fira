@@ -1,0 +1,56 @@
+{
+  "bank_code": "almora-zilla-sahakari-bank-ltd",
+  "bank_name": "almora-zilla-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11644,
+  "duration_ms": 11644,
+  "duration_api_ms": 11335,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.0088076,
+  "input_tokens": 18935,
+  "output_tokens": 771,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"almora zilla sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 43,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://almorazillasahakaribank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://almorazillasahakaribank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 173,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://almorazillasahakaribank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://almora-zilla-sahakari-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://almora-zilla-sahakari-bank-ltd.co.in/\"}"
+    }
+  ]
+}

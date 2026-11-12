@@ -1,0 +1,33 @@
+{
+  "bank_code": "mizuho-bank-ibu",
+  "bank_name": "Mizuho Bank, Ltd. - GIFT IBU Branch",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2025-09-10",
+  "source_url": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/68dd816514ae9148580a1e23_term-deposit-interest-rates.pdf",
+  "scraped_at": "2026-05-25T11:15:03Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "O/N (Overnight)", "tenure_min_days": 1, "tenure_max_days": 1, "rate_general_pct": 3.33, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Week", "tenure_min_days": 7, "tenure_max_days": 7, "rate_general_pct": 3.38, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 Weeks", "tenure_min_days": 14, "tenure_max_days": 14, "rate_general_pct": 3.23, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Weeks", "tenure_min_days": 21, "tenure_max_days": 21, "rate_general_pct": 3.23, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Month", "tenure_min_days": 30, "tenure_max_days": 30, "rate_general_pct": 3.23, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 Months", "tenure_min_days": 60, "tenure_max_days": 60, "rate_general_pct": 3.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Months", "tenure_min_days": 90, "tenure_max_days": 90, "rate_general_pct": 3.19, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "4 Months", "tenure_min_days": 120, "tenure_max_days": 120, "rate_general_pct": 3.14, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "5 Months", "tenure_min_days": 150, "tenure_max_days": 150, "rate_general_pct": 3.07, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "6 Months", "tenure_min_days": 180, "tenure_max_days": 180, "rate_general_pct": 3.03, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "7 Months", "tenure_min_days": 210, "tenure_max_days": 210, "rate_general_pct": 3.01, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "8 Months", "tenure_min_days": 240, "tenure_max_days": 240, "rate_general_pct": 3.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "9 Months", "tenure_min_days": 270, "tenure_max_days": 270, "rate_general_pct": 2.98, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "10 Months", "tenure_min_days": 300, "tenure_max_days": 300, "rate_general_pct": 2.94, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "11 Months", "tenure_min_days": 330, "tenure_max_days": 330, "rate_general_pct": 2.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "12 Months", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 2.86, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" }
+  ],
+  "warnings": [
+    "USD-only deposits. Rates apply to amounts from USD 0.5 Mio to USD 5 Mio (inclusive). For above USD 5 Mio, rates are on request from GIFT IBU branch.",
+    "Tenor labels are approximate-day mappings (months treated as 30-day multiples; 12 months mapped to 365)."
+  ],
+  "tier2_method": "raw PDF text extraction (pdfjs) + manual parse; deterministic extract_rates_pdf.mjs returned 0 slabs for this layout"
+}

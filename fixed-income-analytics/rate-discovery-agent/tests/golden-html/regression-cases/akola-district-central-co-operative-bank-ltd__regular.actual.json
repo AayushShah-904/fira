@@ -1,0 +1,104 @@
+{
+  "bank_code": "akola-district-central-co-operative-bank-ltd",
+  "variant": "regular",
+  "slab_count": 8,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "अ) 7 दिवस ते 30 दिवस",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  अ) 7 दिवस ते 30 दिवस 2.75"
+    },
+    {
+      "tenure_text": "ब) 31 दिवस ते 90 दिवस",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  ब) 31 दिवस ते 90 दिवस 3.75"
+    },
+    {
+      "tenure_text": "क) 91 दिवस ते 180 दिवस",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  क) 91 दिवस ते 180 दिवस 4.75"
+    },
+    {
+      "tenure_text": "ड) 181 दिवस ते 365 दिवस",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  ड) 181 दिवस ते 365 दिवस 5.50"
+    },
+    {
+      "tenure_text": "इ) 1 वर्षापेक्षा जास्त ते 2 वर्षापर्यंत",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  इ) 1 वर्षापेक्षा जास्त ते 2 वर्षापर्यंत 6.50"
+    },
+    {
+      "tenure_text": "ग) 2 वर्षापेक्षा जास्त ते 3 वर्षापर्यंत",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  ग) 2 वर्षापेक्षा जास्त ते 3 वर्षापर्यंत 7.00"
+    },
+    {
+      "tenure_text": "घ) 3 वर्षापेक्षा जास्त ते 5 वर्षापर्यंत",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  घ) 3 वर्षापेक्षा जास्त ते 5 वर्षापर्यंत 6.50"
+    },
+    {
+      "tenure_text": "न) 5 वर्षापेक्षा जास्त ते 10 वर्षापर्यंत",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "  न) 5 वर्षापेक्षा जास्त ते 10 वर्षापर्यंत 6.00"
+    }
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/2 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 8",
+    "chunk[0]: senior citizen rate is mentioned as 1.00 % extra for deposits above 1 year but no separate senior rate column present"
+  ],
+  "key_rates": {
+    "1y": {
+      "general": 5.5,
+      "senior": null
+    },
+    "2y": {
+      "general": 6.5,
+      "senior": null
+    },
+    "3y": {
+      "general": 7,
+      "senior": null
+    },
+    "5y": {
+      "general": 6.5,
+      "senior": null
+    }
+  }
+}

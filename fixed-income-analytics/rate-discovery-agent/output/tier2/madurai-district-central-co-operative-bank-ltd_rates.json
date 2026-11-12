@@ -1,0 +1,19 @@
+{
+  "bank_code": "madurai-district-central-co-operative-bank-ltd",
+  "bank_name": "Madurai District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "maduraidccb.bank.in",
+    "found_via": "websearch",
+    "notes": "Confirmed official bank domain maduraidccb.bank.in (has /deposit-interest-rates/ and /fixed-deposits/ pages) but the server is unreachable from this environment: DNS resolves no IP / HTTP 000 on curl and ECONNREFUSED on WebFetch for https://maduraidccb.bank.in/deposit-interest-rates/. Re-verified 2026-05-25 — still does not resolve. Bank states FD tenure 7 days-10 years with +0.50% senior premium, but the numeric rate table could not be retrieved. No rates fabricated."
+  },
+  "warnings": ["Own site exists with a dedicated deposit-interest-rates page but is not reachable from here (no DNS/IP). Re-attempt from another network."],
+  "tier2_method": "websearch+webfetch"
+}

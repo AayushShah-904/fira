@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+    "extracted_at": "2026-06-06T08:59:37.110Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "shriveershaiv.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

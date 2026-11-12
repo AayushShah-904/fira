@@ -1,0 +1,169 @@
+{
+  "bank_code": "sangli-urban-co-operative-bank-ltd-sangli",
+  "bank_name": "Sangli Urban Co-operative Bank Ltd Sangli",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-02",
+  "source_url": "https://sangliurban.bank.in/deposit-int-rate",
+  "scraped_at": "2026-05-25T11:21:34.648Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 Days TO 90 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91 Days TO 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 Year To less than 2 Years [Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 Year To less than 2 Years [Non-Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Years [Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Years [Non-Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Fixed Deposit 80 C & Samruddhi Deposit 80 C",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Sukanaya Samrudhi Deposit",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Non-Callable 12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "07 Days TO 90 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "91 Days 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "180 Days to less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "1 Year To Less Than 2 Years [Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "1 Year To Less Than 2 Years [Non-Cumulative]",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Year [Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "2 Years To Upto 10 Year [Non-Cumulative]",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    }
+  ],
+  "warnings": [
+    "bank-domains.json fd path (/rate_of_interest.html) was 404; correct path is /deposit-int-rate (found via homepage nav). Two deposit amount tiers + senior column. Cumulative/non-cumulative variants kept as separate slabs."
+  ],
+  "tier2_method": "webfetch_markdown_parse (corrected URL via homepage nav)"
+}

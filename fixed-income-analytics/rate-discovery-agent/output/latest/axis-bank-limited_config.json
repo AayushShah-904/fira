@@ -1,0 +1,22 @@
+{
+  "bank_code": "axis-bank-limited",
+  "bank_name": "axis-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Gujarat",
+  "website": "https://axis.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://www.axisbank.com/docs/default-source/default-document-library/interest-rates/domestic-fixed-deposit-interest-rates-less-than-3-crores-09-november-26.pdf?sfvrsn=8b6dfa7d_1",
+    "fd_nre": "https://www.axisbank.com/docs/default-source/default-document-library/interest-rates/nri-fixed-deposit-interest-rates-less-than-3-crores-09-november-26.pdf?sfvrsn=fa4f43fc_1",
+    "fd_nro": "https://www.axisbank.com/docs/default-source/default-document-library/interest-rates/nri-fixed-deposit-interest-rates-less-than-3-crores-09-november-26.pdf?sfvrsn=fa4f43fc_1",
+    "fd_fcnr": "https://axis.bank.in/docs/default-source/default-document-library/interest-rates/fcnr-rfc-deposits-22-august-26.pdf?sfvrsn=9c1472d8_1"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T09:22:35.109Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

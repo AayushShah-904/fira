@@ -1,0 +1,110 @@
+{
+  "bank_code": "tumkur-district-central-co-operative-bank-ltd",
+  "bank_name": "Tumkur District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 32101,
+  "duration_ms": 32101,
+  "duration_api_ms": 20313,
+  "num_turns": 13,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.409862,
+  "input_tokens": 199823,
+  "output_tokens": 1277,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Tumkur District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6009,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tumkurdccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Tumkur District Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tumkurdccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tumkurdccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tumkur District Central Co-operative Bank Ltd. interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tumkurdccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tumkurdccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tumkur District Central Co-operative Bank Ltd. Karnataka\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tumkur District Central Co-operative Bank Ltd. Karnataka official website\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tumkur District Central Co-operative Bank Ltd. Karnataka contact\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 3332,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://karnatakaapex.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 69,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://karnatakaapex.com/deposit-interest-rates/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1129,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://karnatakaapex.bank.in/new/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1142,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://karnatakaapex.bank.in/new/retail-banking/deposit-products/\"}"
+    }
+  ]
+}

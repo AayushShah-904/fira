@@ -1,0 +1,2716 @@
+{
+  "timestamp": "2026-06-09T02:49:15.428Z",
+  "category": "all",
+  "succeeded": 372,
+  "failed": 141,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "state-bank-of-india",
+      "status": "success",
+      "elapsed_sec": 174
+    },
+    {
+      "name": "bank-of-baroda",
+      "status": "success",
+      "elapsed_sec": 290
+    },
+    {
+      "name": "bank-of-india",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 6
+    },
+    {
+      "name": "bank-of-maharashtra",
+      "status": "success",
+      "elapsed_sec": 123
+    },
+    {
+      "name": "canara-bank",
+      "status": "success",
+      "elapsed_sec": 458
+    },
+    {
+      "name": "central-bank-of-india",
+      "status": "success",
+      "elapsed_sec": 106
+    },
+    {
+      "name": "indian-bank",
+      "status": "success",
+      "elapsed_sec": 131
+    },
+    {
+      "name": "indian-overseas-bank",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "punjab-national-bank",
+      "status": "success",
+      "elapsed_sec": 150
+    },
+    {
+      "name": "union-bank-of-india",
+      "status": "success",
+      "elapsed_sec": 141
+    },
+    {
+      "name": "punjab-sind-bank",
+      "status": "success",
+      "elapsed_sec": 204
+    },
+    {
+      "name": "uco-bank",
+      "status": "success",
+      "elapsed_sec": 221
+    },
+    {
+      "name": "axis-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bandhan-bank-limited",
+      "status": "success",
+      "elapsed_sec": 775
+    },
+    {
+      "name": "csb-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "city-union-bank-limited",
+      "status": "success",
+      "elapsed_sec": 295
+    },
+    {
+      "name": "dcb-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "dhanlaxmi-bank-limited",
+      "status": "success",
+      "elapsed_sec": 283
+    },
+    {
+      "name": "federal-bank-limited",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "hdfc-bank-limited",
+      "status": "success",
+      "elapsed_sec": 88
+    },
+    {
+      "name": "icici-bank-limited",
+      "status": "success",
+      "elapsed_sec": 72
+    },
+    {
+      "name": "idbi-bank-limited",
+      "status": "success",
+      "elapsed_sec": 200
+    },
+    {
+      "name": "idfc-first-bank-limited",
+      "status": "success",
+      "elapsed_sec": 109
+    },
+    {
+      "name": "indusind-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 90
+    },
+    {
+      "name": "jammu-kashmir-bank-limited",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "karnataka-bank-limited",
+      "status": "success",
+      "elapsed_sec": 149
+    },
+    {
+      "name": "karur-vysya-bank-limited",
+      "status": "success",
+      "elapsed_sec": 116
+    },
+    {
+      "name": "kotak-mahindra-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "nainital-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "rbl-bank-limited",
+      "status": "success",
+      "elapsed_sec": 121
+    },
+    {
+      "name": "south-indian-bank-limited",
+      "status": "success",
+      "elapsed_sec": 370
+    },
+    {
+      "name": "tamilnad-mercantile-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 346
+    },
+    {
+      "name": "yes-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "coastal-local-area-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "krishna-bhima-samruddhi-local-area-bank-limited",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "au-small-finance-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "capital-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "equitas-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "esaf-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "jana-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 115
+    },
+    {
+      "name": "shivalik-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "slice-small-finance-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 11
+    },
+    {
+      "name": "suryoday-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "ujjivan-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 54
+    },
+    {
+      "name": "unity-small-finance-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "utkarsh-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "airtel-payments-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "fino-payments-bank-limited",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "india-post-payments-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 23
+    },
+    {
+      "name": "jio-payments-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "nsdl-payments-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "paytm-payments-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "ab-bank-plc",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "american-express-banking-corporation",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "australia-and-new-zealand-banking-group-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bank-of-america",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "bank-of-bahrain-and-kuwait-bsc",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "bank-of-ceylon",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 6
+    },
+    {
+      "name": "bank-of-china-limited",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "bank-of-nova-scotia",
+      "status": "success",
+      "elapsed_sec": 16
+    },
+    {
+      "name": "barclays-bank-plc",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "bnp-paribas",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 19
+    },
+    {
+      "name": "citibank-na",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "cooperatieve-rabobank-ua",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 12
+    },
+    {
+      "name": "credit-agricole-corporate-and-investment-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "ctbc-bank-co-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "dbs-bank-india-limited",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "deutsche-bank-ag",
+      "status": "success",
+      "elapsed_sec": 96
+    },
+    {
+      "name": "doha-bank-qpsc",
+      "status": "success",
+      "elapsed_sec": 209
+    },
+    {
+      "name": "emirates-nbd-bank-pjsc",
+      "status": "success",
+      "elapsed_sec": 106
+    },
+    {
+      "name": "first-abu-dhabi-bank-pjsc",
+      "status": "success",
+      "elapsed_sec": 16
+    },
+    {
+      "name": "firstrand-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "status": "success",
+      "elapsed_sec": 189
+    },
+    {
+      "name": "industrial-and-commercial-bank-of-china-limited",
+      "status": "success",
+      "elapsed_sec": 108
+    },
+    {
+      "name": "industrial-bank-of-korea",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jp-morgan-chase-bank-na",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jsc-vtb-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "keb-hana-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "kookmin-bank",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "mashreqbank-psc",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "mizuho-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 15
+    },
+    {
+      "name": "mufg-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "natwest-markets-plc",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "nonghyup-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "pt-bank-maybank-indonesia-tbk",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "qatar-national-bank-qpsc",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "sbm-bank-india-limited",
+      "status": "success",
+      "elapsed_sec": 141
+    },
+    {
+      "name": "sberbank",
+      "status": "success",
+      "elapsed_sec": 34
+    },
+    {
+      "name": "shinhan-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 930
+    },
+    {
+      "name": "societe-generale",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "sonali-bank-plc",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "standard-chartered-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 27
+    },
+    {
+      "name": "sumitomo-mitsui-banking-corporation",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "ubs-ag",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "united-overseas-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 17
+    },
+    {
+      "name": "woori-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-andaman-and-nicobar-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 6
+    },
+    {
+      "name": "the-andhra-pradesh-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "the-arunachal-pradesh-state-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "the-assam-co-operative-apex-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "the-bihar-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "the-chandigarh-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 5
+    },
+    {
+      "name": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-daman-and-diu-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 94
+    },
+    {
+      "name": "the-delhi-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-goa-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "gujarat-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "the-haryana-state-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-himachal-pradesh-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "the-jammu-and-kashmir-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "jharkhand-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-karnataka-state-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "the-kerala-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "the-madhya-pradesh-rajya-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-maharashtra-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 18
+    },
+    {
+      "name": "the-manipur-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "the-meghalaya-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "the-mizoram-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "the-nagaland-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "the-odisha-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-puducherry-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "the-punjab-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 301
+    },
+    {
+      "name": "the-rajasthan-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-sikkim-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-telangana-state-cooperative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 47
+    },
+    {
+      "name": "tripura-state-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 95
+    },
+    {
+      "name": "uttar-pradesh-state-co-operative-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-uttarakhand-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-west-bengal-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "andhra-pradesh-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 23
+    },
+    {
+      "name": "arunachal-pradesh-rural-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 25
+    },
+    {
+      "name": "assam-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bihar-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "chhattisgarh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "gujarat-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "haryana-gramin-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "himachal-pradesh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "jammu-and-kashmir-grameen-bank",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "jharkhand-gramin-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 39
+    },
+    {
+      "name": "karnataka-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 40
+    },
+    {
+      "name": "kerala-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "madhya-pradesh-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "maharashtra-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 67
+    },
+    {
+      "name": "manipur-rural-bank",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "meghalaya-rural-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "mizoram-rural-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 317
+    },
+    {
+      "name": "nagaland-rural-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 7
+    },
+    {
+      "name": "odisha-grameen-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 5
+    },
+    {
+      "name": "puducherry-grama-bank",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "punjab-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "rajasthan-gramin-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "tamil-nadu-grama-bank",
+      "status": "success",
+      "elapsed_sec": 7
+    },
+    {
+      "name": "telangana-grameena-bank",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "tripura-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "uttar-pradesh-gramin-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "uttarakhand-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "west-bengal-gramin-bank",
+      "status": "success",
+      "elapsed_sec": 29
+    },
+    {
+      "name": "national-bank-for-agriculture-and-rural-development-nabard",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "export-import-bank-of-india-exim-bank",
+      "status": "success",
+      "elapsed_sec": 7
+    },
+    {
+      "name": "national-housing-bank-nhb",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "small-industries-development-bank-of-india-sidbi",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "ahmedabad-mercantile-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 18
+    },
+    {
+      "name": "kalupur-commercial-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "mehsana-urban-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 135
+    },
+    {
+      "name": "rajkot-nagrik-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 9
+    },
+    {
+      "name": "sbpp-co-operative-bank-ltd-killa-pardi",
+      "status": "success",
+      "elapsed_sec": 11
+    },
+    {
+      "name": "surat-peoples-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "amanath-co-operative-bank-ltd-bangalore",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "andhra-pradesh-mahesh-co-op-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 16
+    },
+    {
+      "name": "indian-mercantile-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "abhyudaya-co-operative-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "apna-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 310
+    },
+    {
+      "name": "bassein-catholic-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "bharat-co-operative-bank-mumbai-ltd",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "bharati-sahakari-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bombay-mercantile-co-operative-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 76
+    },
+    {
+      "name": "citizen-credit-co-operative-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "cosmos-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "dombivli-nagari-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 18
+    },
+    {
+      "name": "g-p-parsik-janata-sahakari-bank-ltd-thane",
+      "status": "success",
+      "elapsed_sec": 85
+    },
+    {
+      "name": "greater-bombay-co-operative-bank-limited",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "gs-mahanagar-co-operative-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "jalgaon-janata-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jalgaon-peoples-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "janakalyan-sahakari-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "janalaxmi-co-operative-bank-ltd-nashik",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 10
+    },
+    {
+      "name": "janata-sahakari-bank-ltd-pune",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "kalyan-janata-sahakari-bank-ltd-kalyan",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "karad-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "nasik-merchants-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "nkgsb-co-operative-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "pravara-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 93
+    },
+    {
+      "name": "rajarambapu-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "sangli-urban-co-operative-bank-ltd-sangli",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 104
+    },
+    {
+      "name": "saraswat-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 99
+    },
+    {
+      "name": "shamrao-vithal-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "solapur-janata-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "thane-bharat-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "tjsb-sahakari-bank",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "vasai-vikas-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 83
+    },
+    {
+      "name": "zoroastrian-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "model-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "the-vishweshwar-sahakari-bank-ltd-pune",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "ahmednagar-merchants-co-operative-bank-ltd-ahmednagar",
+      "status": "success",
+      "elapsed_sec": 61
+    },
+    {
+      "name": "nagpur-nagrik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "shikshak-sahakari-bank-ltd-nagpur",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "the-akola-janata-commercial-co-operative-bank-ltd-akola",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "the-akola-urban-co-operative-bank-ltd-akola",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "deogiri-nagari-sahakari-bank-ltd-chhatrapati-sambhajinagar",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "goa-urban-co-operative-bank-limited",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "australia-and-new-zealand-banking-group-limited-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "axis-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "bank-of-baroda-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 58
+    },
+    {
+      "name": "bank-of-india-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "bank-of-maharashtra-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "barclays-bank-plc-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bnp-paribas-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "canara-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "citi-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "credit-agricole-corporate-investment-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "ctbc-bank-co-ltd-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "dbs-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "deutsche-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "federal-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "first-abu-dhabi-bank-pjsc-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "hdfc-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "hsbc-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 8
+    },
+    {
+      "name": "icici-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "idbi-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "idfc-first-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "indian-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 5
+    },
+    {
+      "name": "indusind-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 110
+    },
+    {
+      "name": "jpmorgan-securities-plc-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jp-morgan-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "kotak-mahindra-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 88
+    },
+    {
+      "name": "mashreqbank-psc-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "mizuho-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "mufg-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "natixis-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "punjab-national-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "qatar-national-bank-qpsc-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "rbl-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "societe-generale-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "standard-chartered-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 9
+    },
+    {
+      "name": "state-bank-of-india-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 25
+    },
+    {
+      "name": "sumitomo-mitsui-banking-corporation-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "yes-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "pune-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 70
+    },
+    {
+      "name": "satara-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "kolhapur-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "sangli-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "ahmednagar-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 10
+    },
+    {
+      "name": "raigad-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 11
+    },
+    {
+      "name": "nasik-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "solapur-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "mumbai-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-thane-palghar-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jalgaon-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "nagpur-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "aurangabad-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 105
+    },
+    {
+      "name": "the-ahmedabad-district-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 10
+    },
+    {
+      "name": "the-rajkot-district-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-surat-district-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "the-amreli-jilla-madhyasth-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 98
+    },
+    {
+      "name": "the-banaskantha-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "the-baroda-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "the-bhavnagar-district-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "the-jamnagar-district-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "the-junagadh-jilla-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "the-kheda-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-mehsana-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 235
+    },
+    {
+      "name": "the-sabarkantha-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "the-valsad-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "the-panchmahal-district-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 94
+    },
+    {
+      "name": "south-canara-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "mysore-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "belgaum-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "tumkur-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "hassan-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 13
+    },
+    {
+      "name": "mandya-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "shimoga-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "davanagere-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 6
+    },
+    {
+      "name": "ludhiana-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "nawanshahr-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jalandhar-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 58
+    },
+    {
+      "name": "patiala-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "amritsar-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bhatinda-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 303
+    },
+    {
+      "name": "hoshiarpur-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "sangrur-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jaipur-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 31
+    },
+    {
+      "name": "sikar-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jodhpur-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "kota-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 86
+    },
+    {
+      "name": "udaipur-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "ajmer-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "bikaner-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "alwar-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 5
+    },
+    {
+      "name": "ganganagar-kendriya-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "tiruchirapalli-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "salem-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "coimbatore-district-central-co-opertive-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 6
+    },
+    {
+      "name": "madurai-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "chennai-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "the-erode-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "thanjavur-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "vellore-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 7
+    },
+    {
+      "name": "the-kancheepuram-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 8
+    },
+    {
+      "name": "bhopal-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 275
+    },
+    {
+      "name": "indore-premier-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 10
+    },
+    {
+      "name": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "jilla-sahakari-kendriya-bank-maryadit-gwalior",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jilla-sahakari-kendriya-bank-maryadit-dewas",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jilla-sahakari-kendriya-bank-maryadit-rewa",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "karimnagar-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "krishna-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 11
+    },
+    {
+      "name": "guntur-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-hyderabad-district-cooperative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "the-warangal-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "nizamabad-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 28
+    },
+    {
+      "name": "nellore-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 22
+    },
+    {
+      "name": "vishakapatnam-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "chittoor-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "the-anantapur-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "kanpur-zilla-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 23
+    },
+    {
+      "name": "zilla-sahakari-bank-ltd-lucknow",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "meerut-district-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 94
+    },
+    {
+      "name": "varanasi-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "agra-zilla-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "ghaziabad-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "gorakhpur-zilla-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "allahabad-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "karnal-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "hissar-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 312
+    },
+    {
+      "name": "rohtak-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 51
+    },
+    {
+      "name": "sirsa-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "panipat-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "cuttack-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "sambalpur-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "nadia-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "burdwan-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "hoogly-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "dehradun-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 18
+    },
+    {
+      "name": "kangra-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 18
+    },
+    {
+      "name": "jammu-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 11
+    },
+    {
+      "name": "akola-district-central-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "amravati-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "anantnag-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "angul-united-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "aska-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "azamgarh-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "bagalkot-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "balageria-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 7
+    },
+    {
+      "name": "bankura-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "banswara-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 10
+    },
+    {
+      "name": "barmer-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "beed-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "central-co-operative-bank-ltd-ara",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 150
+    },
+    {
+      "name": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "chitradurg-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "cuddapah-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "dhanbad-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "eluru-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "gondia-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "guna-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 20
+    },
+    {
+      "name": "howrah-district-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "kakinada-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "khurda-central-co-opertive-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 18
+    },
+    {
+      "name": "prakasam-district-co-operative-central-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "tamluk-ghatal-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 18
+    },
+    {
+      "name": "the-adilabad-district-co-operative-central-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 150
+    },
+    {
+      "name": "the-district-co-operative-central-bank-ltd-srikakulam",
+      "status": "success",
+      "elapsed_sec": 10
+    },
+    {
+      "name": "the-district-co-operative-central-bank-ltd-vizianagaram",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "rajapur-urban-cooperative-bank-ltd-rajapur",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "rajgurunagar-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 15
+    },
+    {
+      "name": "sharad-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "arvind-sahakari-bank-ltd-katol",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 308
+    },
+    {
+      "name": "shri-veershaiv-co-op-bank-ltd-kolhapur",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "lonavla-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "vita-merchants-coop-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 310
+    },
+    {
+      "name": "the-amravati-merchants-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "the-jalna-peoples-co-operative-bank-ltd-jalna",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-washim-urban-co-operative-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "navi-mumbai-co-operative-bank-ltd-vashi",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "chiplun-urban-coopbank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "vasai-janata-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-hasti-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 116
+    },
+    {
+      "name": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "sangamner-merchants-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "the-nanded-merchants-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "ajara-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "madheshwari-urban-development-co-operative-bank",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "wai-urban-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "gadhinglaj-urban-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "shahada-peoples-co-operative-bank-ltd-shahada",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 45
+    },
+    {
+      "name": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+      "status": "success",
+      "elapsed_sec": 11
+    },
+    {
+      "name": "gandhibag-sahakari-bank-ltd-nagpur",
+      "status": "success",
+      "elapsed_sec": 53
+    },
+    {
+      "name": "deccan-merchants-co-op-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "jijau-commercial-co-operative-bank-ltd-amravati",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "godavari-urban-co-opbank-ltdnashik",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "samata-sahakari-bank-ltd-mumbai",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 362
+    },
+    {
+      "name": "malegaon-merchants-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "modern-co-op-bank-ltd-chalisgaon-jalgaon",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "kalwan-marchants-co-op-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 5
+    },
+    {
+      "name": "sangola-urban-co-operative-bank-ltd-sangola",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 20
+    },
+    {
+      "name": "patan-urban-co-operative-bank-ltd-patan-satara",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "janata-sahakari-bank-ltd-satara",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jijamata-mahila-nagri-sahakari-bank-ltd-buldana",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "yadrav-co-operative-bank-ltd-yadrav",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "gautam-sahakari-bank-ltdkolpewadi",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "sharad-nagari-sahakari-bank-ltd-solapur",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "mahamantralaya-allied-offices-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "rayat-sevak-co-op-bank-ltd-satara",
+      "status": "success",
+      "elapsed_sec": 7
+    },
+    {
+      "name": "pritisangam-sahakari-bank-ltd-karad-satara",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "akhand-anand-co-operative-bank-ltd-surat",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "mehsana-nagrik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "sardar-vallabhbhai-sahakari-bank-limited",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "gandhidham-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "gandhinagar-nagarik-co-op-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 308
+    },
+    {
+      "name": "gandhinagar-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 16
+    },
+    {
+      "name": "saraspur-nagarik-co-op-bank-limited",
+      "status": "success",
+      "elapsed_sec": 14
+    },
+    {
+      "name": "kankaria-maninagar-nagarik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "maninagar-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "karnavathi-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "rander-peoples-co-op-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "porbandar-commercial-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "gondal-nagarik-sahakari-bank-limited",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "bhuj-commercial-co-op-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 94
+    },
+    {
+      "name": "shri-morbi-nagrik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "dahod-urban-co-op-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 7
+    },
+    {
+      "name": "godhra-urban-co-op-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "rajkot-commercial-cooperative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "hubli-urban-co-operative-bank-limited-hubli",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 123
+    },
+    {
+      "name": "mangalore-co-operative-town-bank-ltd-mangalore",
+      "status": "success",
+      "elapsed_sec": 12
+    },
+    {
+      "name": "udupi-co-operative-town-bank-ltd-udupi",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 104
+    },
+    {
+      "name": "mysore-merchants-co-operative-bank-ltd-mysore",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 308
+    },
+    {
+      "name": "bangalore-city-co-operative-bank-ltd-bangalore",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "bharath-co-operative-bank-limited-bangalore",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "grain-merchants-co-operative-bank-ltdbangalore",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "malleswaram-co-operative-bank-ltd-bangalore",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "janatha-seva-co-operative-bank-ltd-bangalore",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "sir-mvisvesvaraya-co-operative-bank-ltd-bangalore",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "vysya-co-operative-bank-ltd-tumkur",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "bagalkot-urban-co-operative-bank-ltd-bagalkot",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "davangere-urban-co-operative-bank-ltd-davangere",
+      "status": "success",
+      "elapsed_sec": 6
+    },
+    {
+      "name": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "haveri-urban-co-operative-bank-limited-haveri",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "mahaveer-co-operative-bank-ltd-belgaum",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "the-visakhapatnam-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "the-guntur-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "tirupati-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "warangal-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-karimnagar-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "eluru-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "the-kakinada-co-operative-town-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 13
+    },
+    {
+      "name": "the-nellore-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-anantapur-co-operative-town-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "mahanagar-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "trivandrum-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-kannur-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "calicut-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 11
+    },
+    {
+      "name": "kottayam-co-operative-urban-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 5
+    },
+    {
+      "name": "coastal-urban-co-operative-bank-ltdkollam",
+      "status": "success",
+      "elapsed_sec": 9
+    },
+    {
+      "name": "indore-paraspar-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "shramik-nagrik-sahakari-bank-maryadit-indore",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "ujjain-nagarik-sahakari-bank-maryadit-ujjain",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "nagarik-sahakari-bank-maryaditgwalior",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "jodhpur-nagarik-sahakari-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "kota-nagarik-sahakari-bank-ltd-kota",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "udaipur-urban-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "coimbatore-city-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "tiruchirapalli-city-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "salem-urban-co-op-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "erode-co-operative-urban-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 1
+    },
+    {
+      "name": "vellore-coop-town-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 7
+    },
+    {
+      "name": "delhi-nagrik-sehkari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 26
+    },
+    {
+      "name": "jamia-co-operative-bank-ltd-new-delhi",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "national-urban-co-operative-bank-ltd-delhi",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "alleppey-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 4
+    },
+    {
+      "name": "alwaye-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "almora-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "kurmanchal-nagar-sahkari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    },
+    {
+      "name": "the-midnapore-peoples-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-panihati-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-santragachi-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-shibpur-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "commercial-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "gujarat-mercantile-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 8
+    },
+    {
+      "name": "navabharat-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 3
+    },
+    {
+      "name": "model-co-operative-urban-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 11
+    },
+    {
+      "name": "the-bapatla-co-operative-urban-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "ramanagaram-urban-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    },
+    {
+      "name": "nagrik-sahakari-bank-maryadit-vidisha",
+      "status": "success",
+      "elapsed_sec": 5
+    },
+    {
+      "name": "sterling-urban-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "the-bhandara-urban-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 309
+    },
+    {
+      "name": "amreli-nagrik-sahakari-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 2
+    }
+  ]
+}

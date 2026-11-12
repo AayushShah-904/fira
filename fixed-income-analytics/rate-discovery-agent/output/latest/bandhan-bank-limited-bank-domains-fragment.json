@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "bank_code": "bandhan-bank-limited",
+    "extracted_at": "2026-06-05T09:42:47.768Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "bandhan.bank.in",
+  "rate_pages": {
+    "fd": "/rates-charges",
+    "fd_nre": "/rates-charges",
+    "fd_nro": "/rates-charges",
+    "fd_fcnr": "/rates-charges",
+    "savings": "/rates-charges",
+    "fd_nri_combined": "/rates-charges",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered static HTML. All rate types (domestic, NRO, NRE, FCNR, bulk) on single /rates-charges page. NRO rates identical to domestic. FCNR available in USD and GBP only.",
+  "template": {
+    "template_id": "bandhan-multi-tiered-bulk-retail-amount-bucket",
+    "template_hash": "sha1:16b647fdf55079cd96a2031ae3bd5d302b437cff",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 7,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_10cr",
+            "2": "rate_general_pct@10cr_to_25cr",
+            "3": "rate_general_pct@25cr_to_50cr",
+            "4": "rate_general_pct@above_50cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_10cr",
+            "2": "rate_general_pct@10cr_to_25cr",
+            "3": "rate_general_pct@25cr_to_50cr",
+            "4": "rate_general_pct@above_50cr"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 66,
+      "cluster_reused": false
+    }
+  }
+}

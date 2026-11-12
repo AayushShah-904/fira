@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "standard-chartered-bank-ibu",
+    "extracted_at": "2026-06-05T14:30:08.647Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "sc.com",
+  "rate_pages": {
+    "fd": "/in/commercial/cms-fixed-deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": null
+  },
+  "parent_bank_code": "standard-chartered-bank",
+  "scraper_type": "manual",
+  "notes": "Standard Chartered GIFT City IBU. No dedicated IBU rate page found; uses parent sc.com/in/.",
+  "template": {
+    "template_id": "ibu-usd-2col-tenure-rate",
+    "template_hash": "sha1:dda37808fed0050712e2c1c701cd53eb0258a028",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

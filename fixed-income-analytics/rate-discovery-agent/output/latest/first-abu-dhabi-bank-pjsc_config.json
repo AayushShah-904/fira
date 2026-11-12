@@ -1,0 +1,22 @@
+{
+  "bank_code": "first-abu-dhabi-bank-pjsc",
+  "bank_name": "first-abu-dhabi-bank-pjsc",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "UAE",
+  "website": "https://bankfab.com",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://bankfab.com/-/media/fab-uds/international/india/regulatory/documents/intrt.pdf?view=1",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:44:42.485Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

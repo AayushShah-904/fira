@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "bank_code": "karnavathi-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T10:03:05.240Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "karnavati.bank.in",
+  "rate_pages": {
+    "fd": "https://karnavati.bank.in/deposit/10",
+    "savings": "/",
+    "fd_prev": "/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "notes": "Official site uses .bank.in domain — specifics of FD or savings pages not crawlable due to robots.txt.",
+  "scraper_type": "html_static",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "https://karnavati.bank.in/deposit/10",
+    "slab_count": 8,
+    "hints": "Senior +0.50% (60+), Super-senior +0.75% (75+). Deposits >= Rs.15,00,000 get +0.50% bonus (not modelled; only one benefit applies per account). Bank migrated karnavatibank.com -> karnavati.bank.in.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "coop-bankin-2col-general-notes",
+    "template_hash": "sha1:88174198dd9be81297370e763826e6ff540fa834",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

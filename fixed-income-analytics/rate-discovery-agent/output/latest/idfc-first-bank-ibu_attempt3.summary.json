@@ -1,0 +1,42 @@
+{
+  "bank_code": "idfc-first-bank-ibu",
+  "bank_name": "idfc-first-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 13208,
+  "duration_ms": 13208,
+  "duration_api_ms": 12699,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.076546,
+  "llm_cost_usd": 0.076546,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 30145,
+  "output_tokens": 2032,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 508,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://idfcfirst.bank.in/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/idfc-first-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"idfc-first-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IDFC First Bank "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/idfc-first-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"idfc-first-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IDFC First Bank I"
+    }
+  ]
+}

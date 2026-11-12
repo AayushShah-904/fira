@@ -1,0 +1,15 @@
+{
+  "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+  "bank_name": "Amanath Co-operative Bank Ltd Bangalore",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://www.amanath-bank.com/intrestrates.html",
+  "scraped_at": "2026-05-25T11:22:14.160Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "Original domain amanath-bank.com had DNS failure in deterministic pipeline; via www it resolves but returns an empty <body> under headless Chromium and blank content via WebFetch (legacy frameset/JS that does not render headless). No rate table extractable. Search results indicate rates exist on the page but are not machine-accessible. Requires manual entry."
+  ],
+  "tier2_method": "playwright+webfetch (empty body / not rendered)"
+}

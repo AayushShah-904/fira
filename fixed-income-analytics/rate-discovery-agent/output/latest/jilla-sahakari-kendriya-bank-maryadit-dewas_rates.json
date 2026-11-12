@@ -1,0 +1,123 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-dewas",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-01-10",
+  "source_url": "https://dccbdewas.bank.in/Diposite.html",
+  "scraped_at": "2026-06-09T15:21:25.750Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 से 14  दिन तक",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 7 से 14  दिन तक 4.50 "
+    },
+    {
+      "tenure_text": "15 से 45 दिन तक",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 15 से 45 दिन तक 5.00 "
+    },
+    {
+      "tenure_text": "46 से 90 दिन तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 46 से 90 दिन तक 5.25 "
+    },
+    {
+      "tenure_text": "91 से 179 दिन तक",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 91 से 179 दिन तक 5.50 "
+    },
+    {
+      "tenure_text": "180 से 364  दिन तक",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 180 से 364  दिन तक 6.50 "
+    },
+    {
+      "tenure_text": "2वर्ष से अधिक 3 वर्ष से कम",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8 2वर्ष से अधिक 3 वर्ष से कम 7.00 "
+    },
+    {
+      "tenure_text": "3 वर्ष से अधिक 5 वर्ष से कम",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9 3 वर्ष से अधिक 5 वर्ष से कम 7.00 "
+    },
+    {
+      "tenure_text": "5 वर्ष से अधिक",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10 5 वर्ष से अधिक 7.25 "
+    },
+    {
+      "tenure_text": "1 वर्ष से अधिक 2 वर्ष से कम",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 1 वर्ष से अधिक 2 वर्ष से कम   7.00  "
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 2 tables on page (2 rate-bearing by score)",
+    "special_scheme_table: kept table[0] with 8 scheme-named rows (first label: \"1\") — slabs emitted with null tenure_min_days/tenure_max_days",
+    "special_scheme_table: kept table[1] with 9 scheme-named rows (first label: \"1\") — slabs emitted with null tenure_min_days/tenure_max_days",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 17",
+    "chunk[0]: Row 7 (1 वर्ष से अधिक 2 वर्ष से कम) has no rate and is skipped",
+    "chunk[0]: Tenure min/max days for year ranges estimated assuming 365 days/year",
+    "chunk[0]: No senior or super senior citizen rates found",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-10\" parses to 2023-01-10 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1290,
+    "last_scraped_at": "2026-06-09T15:21:25.750Z",
+    "manual_verification_needed": true
+  }
+}

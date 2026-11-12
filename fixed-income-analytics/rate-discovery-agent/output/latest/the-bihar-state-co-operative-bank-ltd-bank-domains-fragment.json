@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "the-bihar-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:23:50.505Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "biharscb.co.in",
+  "rate_pages": {
+    "fd": "/term-deposit-interest-rate/",
+    "savings": "/saving-account/",
+    "rd": "/recurring-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "WordPress with WPBakery Visual Composer",
+  "template": {
+    "template_id": "bihar-scb-amount-tiered-3bucket",
+    "template_hash": "sha1:b09a753fe92f3c1c361d049711d25742e8bc99ac",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "rate_general_pct@3cr_to_5cr",
+            "3": "rate_general_pct@above_5cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:06:59.463Z",
+      "gates_passed": "PASS",
+      "slab_count": 23,
+      "cluster_reused": false
+    }
+  }
+}

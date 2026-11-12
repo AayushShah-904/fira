@@ -1,0 +1,172 @@
+{
+  "bank_code": "suryoday-small-finance-bank-limited",
+  "bank_name": "Suryoday Small Finance Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://suryoday.bank.in/personal/deposits/fixed-deposits/domestic-fixed-deposits/",
+  "scraped_at": "2026-05-25T11:26:32.632Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 Days to 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.65,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days to 6 Months",
+      "tenure_min_days": 91,
+      "tenure_max_days": 182,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "6 Month 1 Day",
+      "tenure_min_days": 183,
+      "tenure_max_days": 183,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 6 Month 1 Day to 9 Months",
+      "tenure_min_days": 184,
+      "tenure_max_days": 273,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.65,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 9 Months to less than 1 Year",
+      "tenure_min_days": 274,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to Less than 18 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 546,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 Months",
+      "tenure_min_days": 547,
+      "tenure_max_days": 547,
+      "rate_general_pct": 7.6,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 18 Months to 2 Years",
+      "tenure_min_days": 548,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 2 Years to less than 30 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 911,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 Months",
+      "tenure_min_days": 912,
+      "tenure_max_days": 912,
+      "rate_general_pct": 8.1,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 30 Months to 3 Years",
+      "tenure_min_days": 913,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 Years to less than 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.9,
+      "rate_senior_pct": 8.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 5 Years to 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Rates extracted by driving the page tenure dropdown (Gatsby site; each tenure renders its General + Sr. Citizen rate client-side). No combined HTML table or API JSON existed to read.",
+    "Senior citizen premium is a flat +0.15% over general for every slab.",
+    "Effective date not shown on the page; left null. Special-tenure buckets (6m1d, 18m, 30m, 5y) carry the headline rates.",
+    "Single-tenure slabs given identical min/max day bounds; month bounds approximate."
+  ],
+  "tier2_method": "playwright_tables"
+}

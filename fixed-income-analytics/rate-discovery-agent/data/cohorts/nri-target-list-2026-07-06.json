@@ -1,0 +1,6178 @@
+{
+  "generated_at": "2026-07-06T18:02:02.609Z",
+  "as_of": "2026-07-06",
+  "script": "scripts/analysis/nri-target-list.js",
+  "inputs": {
+    "pack": "pack/dist/rates-pack.json",
+    "pack_generated_at": "2026-06-11T13:44:58.928Z",
+    "registry": "data/bank-domains.json",
+    "universe_csv": "data/Indian_Banks_Comprehensive_List_RBI.csv"
+  },
+  "rules": {
+    "fresh_cutoff": "2026-06-01",
+    "universe": "CSV categories PSB/PVB/FB/IBU in full; SFBs only if docs-large (AU, Equitas, Ujjivan) or measured NRI signal",
+    "fcnr_universe": "non-IBU cohort banks whose FCNR verdict is not EXCLUDED",
+    "t1": "all PSBs + major PVBs per sdlc/sprints/sprint-011/design/qa-data-quality-draft.md §7.1",
+    "combined_page": "fd_nri_combined counts as URL-known for NRE and NRO, not FCNR"
+  },
+  "summary": {
+    "banks_total": 121,
+    "per_variant": {
+      "nre": {
+        "OK": 4,
+        "STALE_OR_UNDATED": 46,
+        "MISSING_EXTRACTION": 8,
+        "UNKNOWN_PUBLISHES": 19,
+        "EXCLUDED": 7
+      },
+      "nro": {
+        "OK": 3,
+        "STALE_OR_UNDATED": 42,
+        "MISSING_EXTRACTION": 9,
+        "UNKNOWN_PUBLISHES": 23,
+        "EXCLUDED": 7
+      },
+      "fcnr": {
+        "OK": 5,
+        "STALE_OR_UNDATED": 36,
+        "MISSING_EXTRACTION": 12,
+        "UNKNOWN_PUBLISHES": 26,
+        "EXCLUDED": 5
+      },
+      "gift": {
+        "OK": 0,
+        "STALE_OR_UNDATED": 18,
+        "MISSING_EXTRACTION": 0,
+        "UNKNOWN_PUBLISHES": 4,
+        "EXCLUDED": 15
+      }
+    },
+    "per_bank_type": {
+      "PSB": {
+        "banks": 12,
+        "nre": {
+          "OK": 2,
+          "STALE_OR_UNDATED": 10,
+          "MISSING_EXTRACTION": 0,
+          "UNKNOWN_PUBLISHES": 0,
+          "EXCLUDED": 0
+        },
+        "nro": {
+          "OK": 1,
+          "STALE_OR_UNDATED": 9,
+          "MISSING_EXTRACTION": 0,
+          "UNKNOWN_PUBLISHES": 2,
+          "EXCLUDED": 0
+        },
+        "fcnr": {
+          "OK": 1,
+          "STALE_OR_UNDATED": 10,
+          "MISSING_EXTRACTION": 1,
+          "UNKNOWN_PUBLISHES": 0,
+          "EXCLUDED": 0
+        }
+      },
+      "PVB": {
+        "banks": 21,
+        "nre": {
+          "OK": 2,
+          "STALE_OR_UNDATED": 18,
+          "MISSING_EXTRACTION": 1,
+          "UNKNOWN_PUBLISHES": 0,
+          "EXCLUDED": 0
+        },
+        "nro": {
+          "OK": 2,
+          "STALE_OR_UNDATED": 16,
+          "MISSING_EXTRACTION": 2,
+          "UNKNOWN_PUBLISHES": 1,
+          "EXCLUDED": 0
+        },
+        "fcnr": {
+          "OK": 3,
+          "STALE_OR_UNDATED": 15,
+          "MISSING_EXTRACTION": 3,
+          "UNKNOWN_PUBLISHES": 0,
+          "EXCLUDED": 0
+        }
+      },
+      "FB": {
+        "banks": 44,
+        "nre": {
+          "OK": 0,
+          "STALE_OR_UNDATED": 12,
+          "MISSING_EXTRACTION": 7,
+          "UNKNOWN_PUBLISHES": 18,
+          "EXCLUDED": 7
+        },
+        "nro": {
+          "OK": 0,
+          "STALE_OR_UNDATED": 11,
+          "MISSING_EXTRACTION": 7,
+          "UNKNOWN_PUBLISHES": 19,
+          "EXCLUDED": 7
+        },
+        "fcnr": {
+          "OK": 1,
+          "STALE_OR_UNDATED": 8,
+          "MISSING_EXTRACTION": 7,
+          "UNKNOWN_PUBLISHES": 23,
+          "EXCLUDED": 5
+        }
+      },
+      "SFB": {
+        "banks": 7,
+        "nre": {
+          "OK": 0,
+          "STALE_OR_UNDATED": 6,
+          "MISSING_EXTRACTION": 0,
+          "UNKNOWN_PUBLISHES": 1,
+          "EXCLUDED": 0
+        },
+        "nro": {
+          "OK": 0,
+          "STALE_OR_UNDATED": 6,
+          "MISSING_EXTRACTION": 0,
+          "UNKNOWN_PUBLISHES": 1,
+          "EXCLUDED": 0
+        },
+        "fcnr": {
+          "OK": 0,
+          "STALE_OR_UNDATED": 3,
+          "MISSING_EXTRACTION": 1,
+          "UNKNOWN_PUBLISHES": 3,
+          "EXCLUDED": 0
+        }
+      },
+      "IBU": {
+        "banks": 37,
+        "gift": {
+          "OK": 0,
+          "STALE_OR_UNDATED": 18,
+          "MISSING_EXTRACTION": 0,
+          "UNKNOWN_PUBLISHES": 4,
+          "EXCLUDED": 15
+        }
+      }
+    },
+    "fcnr_universe_measured": 79,
+    "fcnr_universe_with_data": 41,
+    "priority_refresh_count": 61
+  },
+  "sanity_checks": {
+    "psb_count": 12,
+    "psb_count_expected": 12,
+    "ibu_count": 37,
+    "ibu_count_expected": 37,
+    "csv_rows_unmatched_in_pack_and_registry": [],
+    "nre_without_fcnr_banks": [
+      "bank-of-india",
+      "dcb-bank-limited",
+      "yes-bank-limited",
+      "citibank-na",
+      "cooperatieve-rabobank-ua",
+      "mizuho-bank-ltd",
+      "shinhan-bank",
+      "capital-small-finance-bank-limited",
+      "jana-small-finance-bank-limited",
+      "utkarsh-small-finance-bank-limited"
+    ],
+    "sfbs_excluded_no_nri_signal": [
+      "shivalik-small-finance-bank-limited",
+      "slice-small-finance-bank-limited",
+      "suryoday-small-finance-bank-limited",
+      "unity-small-finance-bank-limited"
+    ]
+  },
+  "priority_refresh": [
+    {
+      "bank_code": "bank-of-baroda",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "bank-of-india",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "bank-of-maharashtra",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "canara-bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "central-bank-of-india",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "punjab-sind-bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "state-bank-of-india",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "uco-bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "union-bank-of-india",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "indian-overseas-bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "punjab-national-bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "indian-bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "non_ok_variants": [
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "axis-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "hdfc-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "idfc-first-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "indusind-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "kotak-mahindra-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "rbl-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "yes-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "bandhan-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "federal-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "icici-bank-limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "american-express-banking-corporation",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "bank-of-america",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "bank-of-china-limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "bank-of-nova-scotia",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "barclays-bank-plc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "bnp-paribas",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "citibank-na",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "cooperatieve-rabobank-ua",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "credit-agricole-corporate-and-investment-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "ctbc-bank-co-limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "dbs-bank-india-limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "deutsche-bank-ag",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "doha-bank-qpsc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "emirates-nbd-bank-pjsc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "first-abu-dhabi-bank-pjsc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "industrial-and-commercial-bank-of-china-limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "jp-morgan-chase-bank-na",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "jsc-vtb-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "kookmin-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "mashreqbank-psc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "mizuho-bank-ltd",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "mufg-bank-ltd",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "natwest-markets-plc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:STALE_OR_UNDATED"
+      ]
+    },
+    {
+      "bank_code": "nonghyup-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "pt-bank-maybank-indonesia-tbk",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "qatar-national-bank-qpsc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "sberbank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "shinhan-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:STALE_OR_UNDATED",
+        "nro:STALE_OR_UNDATED",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "societe-generale",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "standard-chartered-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "sumitomo-mitsui-banking-corporation",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:UNKNOWN_PUBLISHES",
+        "nro:UNKNOWN_PUBLISHES",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "united-overseas-bank-limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "woori-bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:MISSING_EXTRACTION",
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "sbm-bank-india-limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "nre:MISSING_EXTRACTION",
+        "nro:MISSING_EXTRACTION"
+      ]
+    },
+    {
+      "bank_code": "ab-bank-plc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    },
+    {
+      "bank_code": "sonali-bank-plc",
+      "bank_type": "FB",
+      "tier1": false,
+      "non_ok_variants": [
+        "fcnr:UNKNOWN_PUBLISHES"
+      ]
+    }
+  ],
+  "banks": [
+    {
+      "bank_code": "bank-of-baroda",
+      "bank_name": "Bank of Baroda",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": "1st July 1995",
+          "pack_effective_date_parsed": "1995-07-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": "1st July 1995",
+          "pack_effective_date_parsed": "1995-07-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 30,
+          "pack_effective_date": "1st July 1995",
+          "pack_effective_date_parsed": "1995-07-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-india",
+      "bank_name": "Bank of India",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": true,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": "2026-05-18",
+          "pack_effective_date_parsed": "2026-05-18",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 11,
+          "pack_effective_date": "02.02.2026",
+          "pack_effective_date_parsed": "2026-02-02",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "bank-of-maharashtra",
+      "bank_name": "Bank of Maharashtra",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 25,
+          "pack_effective_date": "18.11.2024",
+          "pack_effective_date_parsed": "2024-11-18",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "canara-bank",
+      "bank_name": "Canara Bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 41,
+          "pack_effective_date": "01.07.2025",
+          "pack_effective_date_parsed": "2025-07-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 37,
+          "pack_effective_date": "01.07.2025",
+          "pack_effective_date_parsed": "2025-07-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 68,
+          "pack_effective_date": "01.07.2025",
+          "pack_effective_date_parsed": "2025-07-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "central-bank-of-india",
+      "bank_name": "Central Bank of India",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 6,
+          "pack_effective_date": "10.05.2026",
+          "pack_effective_date_parsed": "2026-05-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": "07.02.2026",
+          "pack_effective_date_parsed": "2026-02-07",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "indian-bank",
+      "bank_name": "Indian Bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 11,
+          "pack_effective_date": "2026-06-05",
+          "pack_effective_date_parsed": "2026-06-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "OK"
+        },
+        "nro": {
+          "pack_has_slabs": 19,
+          "pack_effective_date": "2026-06-05",
+          "pack_effective_date_parsed": "2026-06-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "OK"
+        },
+        "fcnr": {
+          "pack_has_slabs": 40,
+          "pack_effective_date": "2026-04-06",
+          "pack_effective_date_parsed": "2026-04-06",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "indian-overseas-bank",
+      "bank_name": "Indian Overseas Bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 5,
+          "pack_effective_date": "2026-06-05",
+          "pack_effective_date_parsed": "2026-06-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "OK"
+        },
+        "nro": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": "2025-12-15",
+          "pack_effective_date_parsed": "2025-12-15",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 45,
+          "pack_effective_date": "2026-03-13",
+          "pack_effective_date_parsed": "2026-03-13",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "punjab-national-bank",
+      "bank_name": "Punjab National Bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": "10.04.2025",
+          "pack_effective_date_parsed": "2025-04-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 23,
+          "pack_effective_date": "10.04.2025",
+          "pack_effective_date_parsed": "2025-04-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 30,
+          "pack_effective_date": "2026-06-01",
+          "pack_effective_date_parsed": "2026-06-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "OK"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "punjab-sind-bank",
+      "bank_name": "Punjab & Sind Bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 22,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 31,
+          "pack_effective_date": "2026-02-16",
+          "pack_effective_date_parsed": "2026-02-16",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 25,
+          "pack_effective_date": "2025-07-17",
+          "pack_effective_date_parsed": "2025-07-17",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "state-bank-of-india",
+      "bank_name": "State Bank of India",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 5,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 11,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 30,
+          "pack_effective_date": "01.04.2026",
+          "pack_effective_date_parsed": "2026-04-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "uco-bank",
+      "bank_name": "UCO Bank",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 21,
+          "pack_effective_date": "26.08.2025",
+          "pack_effective_date_parsed": "2025-08-26",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 37,
+          "pack_effective_date": "23-06-2025",
+          "pack_effective_date_parsed": "2025-06-23",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 45,
+          "pack_effective_date": "2024-03-11",
+          "pack_effective_date_parsed": "2024-03-11",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "union-bank-of-india",
+      "bank_name": "Union Bank of India",
+      "bank_type": "PSB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 10,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 27,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 69,
+          "pack_effective_date": "10.03.2026",
+          "pack_effective_date_parsed": "2026-03-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "axis-bank-limited",
+      "bank_name": "Axis Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 72,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined",
+            "extraction:fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 162,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined",
+            "extraction:fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 53,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr",
+            "extraction:fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bandhan-bank-limited",
+      "bank_name": "Bandhan Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 26,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 42,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": "2026-06-01",
+          "pack_effective_date_parsed": "2026-06-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "OK"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "city-union-bank-limited",
+      "bank_name": "City Union Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 38,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": "2026-04-07",
+          "pack_effective_date_parsed": "2026-04-07",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "csb-bank-limited",
+      "bank_name": "CSB Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": "2026-04-06",
+          "pack_effective_date_parsed": "2026-04-06",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 17,
+          "pack_effective_date": "2026-04-06",
+          "pack_effective_date_parsed": "2026-04-06",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 30,
+          "pack_effective_date": "2026-04-06",
+          "pack_effective_date_parsed": "2026-04-06",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "dcb-bank-limited",
+      "bank_name": "DCB Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "dhanlaxmi-bank-limited",
+      "bank_name": "Dhanlaxmi Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 8,
+          "pack_effective_date": "2nd-July-2025",
+          "pack_effective_date_parsed": "2025-07-02",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": "2nd-July-2025",
+          "pack_effective_date_parsed": "2025-07-02",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 20,
+          "pack_effective_date": "2026-04-20",
+          "pack_effective_date_parsed": "2026-04-20",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "federal-bank-limited",
+      "bank_name": "Federal Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 6,
+          "pack_effective_date": "2026-06-03",
+          "pack_effective_date_parsed": "2026-06-03",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "OK"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 5,
+          "pack_effective_date": "2026-02-18",
+          "pack_effective_date_parsed": "2026-02-18",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "hdfc-bank-limited",
+      "bank_name": "HDFC Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 17,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "extraction:fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 33,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "extraction:fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 24,
+          "pack_effective_date": "2026-03-01",
+          "pack_effective_date_parsed": "2026-03-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "icici-bank-limited",
+      "bank_name": "ICICI Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined",
+            "extraction:fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined",
+            "extraction:fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": "2026-06-09",
+          "pack_effective_date_parsed": "2026-06-09",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "OK"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "idbi-bank-limited",
+      "bank_name": "IDBI Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 10,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined",
+            "extraction:fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 18,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined",
+            "extraction:fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 36,
+          "pack_effective_date": "2026-05-01",
+          "pack_effective_date_parsed": "2026-05-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr",
+            "extraction:fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "idfc-first-bank-limited",
+      "bank_name": "IDFC FIRST Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": "18th April 2026",
+          "pack_effective_date_parsed": "2026-04-18",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "extraction:fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": "18th April 2026",
+          "pack_effective_date_parsed": "2026-04-18",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "extraction:fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 42,
+          "pack_effective_date": "2026-02-26",
+          "pack_effective_date_parsed": "2026-02-26",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "indusind-bank-limited",
+      "bank_name": "IndusInd Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": "2026-05-05",
+          "pack_effective_date_parsed": "2026-05-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": "2026-05-05",
+          "pack_effective_date_parsed": "2026-05-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 31,
+          "pack_effective_date": "2026-05-05",
+          "pack_effective_date_parsed": "2026-05-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "jammu-kashmir-bank-limited",
+      "bank_name": "Jammu & Kashmir Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": "2025-12-10",
+          "pack_effective_date_parsed": "2025-12-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": "2025-12-10",
+          "pack_effective_date_parsed": "2025-12-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 21,
+          "pack_effective_date": "2026-05-10",
+          "pack_effective_date_parsed": "2026-05-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "karnataka-bank-limited",
+      "bank_name": "Karnataka Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 20,
+          "pack_effective_date": "8th June 2026",
+          "pack_effective_date_parsed": "2026-06-08",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "OK"
+        },
+        "nro": {
+          "pack_has_slabs": 10,
+          "pack_effective_date": "8th June 2026",
+          "pack_effective_date_parsed": "2026-06-08",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "OK"
+        },
+        "fcnr": {
+          "pack_has_slabs": 36,
+          "pack_effective_date": "2026-03-02",
+          "pack_effective_date_parsed": "2026-03-02",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "karur-vysya-bank-limited",
+      "bank_name": "Karur Vysya Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 17,
+          "pack_effective_date": "08/06/2026",
+          "pack_effective_date_parsed": "2026-06-08",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "OK"
+        },
+        "fcnr": {
+          "pack_has_slabs": 30,
+          "pack_effective_date": "2026-06-01",
+          "pack_effective_date_parsed": "2026-06-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "OK"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "kotak-mahindra-bank-limited",
+      "bank_name": "Kotak Mahindra Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": "2026-05-14",
+          "pack_effective_date_parsed": "2026-05-14",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": "2026-05-01",
+          "pack_effective_date_parsed": "2026-05-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "nainital-bank-limited",
+      "bank_name": "Nainital Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "rbl-bank-limited",
+      "bank_name": "RBL Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 20,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 28,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 40,
+          "pack_effective_date": "2026-04-01",
+          "pack_effective_date_parsed": "2026-04-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "south-indian-bank-limited",
+      "bank_name": "South Indian Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 31,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 29,
+          "pack_effective_date": "2026-05-14",
+          "pack_effective_date_parsed": "2026-05-14",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 33,
+          "pack_effective_date": "2026-04-09",
+          "pack_effective_date_parsed": "2026-04-09",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "tamilnad-mercantile-bank-limited",
+      "bank_name": "Tamilnad Mercantile Bank Limited",
+      "bank_type": "PVB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 8,
+          "pack_effective_date": "2026-04-10",
+          "pack_effective_date_parsed": "2026-04-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 17,
+          "pack_effective_date": "2026-04-10",
+          "pack_effective_date_parsed": "2026-04-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 25,
+          "pack_effective_date": "2026-04-07",
+          "pack_effective_date_parsed": "2026-04-07",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "yes-bank-limited",
+      "bank_name": "YES Bank Limited",
+      "bank_type": "PVB",
+      "tier1": true,
+      "status": "site_unreachable",
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": true,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 10,
+          "pack_effective_date": "2026-03-05",
+          "pack_effective_date_parsed": "2026-03-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 18,
+          "pack_effective_date": "2026-03-05",
+          "pack_effective_date_parsed": "2026-03-05",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "ab-bank-plc",
+      "bank_name": "AB Bank PLC",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "foreign_currency_not_inr",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": true,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "american-express-banking-corporation",
+      "bank_name": "American Express Banking Corporation",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "australia-and-new-zealand-banking-group-ltd",
+      "bank_name": "Australia and New Zealand Banking Group Ltd.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-america",
+      "bank_name": "Bank of America",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+      "bank_name": "Bank of Bahrain and Kuwait B.S.C.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 6,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr",
+            "extraction:fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "bank_name": "Bank of Ceylon",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": true,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-china-limited",
+      "bank_name": "Bank of China Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-nova-scotia",
+      "bank_name": "Bank of Nova Scotia",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "barclays-bank-plc",
+      "bank_name": "Barclays Bank Plc.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 8,
+          "pack_effective_date": "2026-03-02",
+          "pack_effective_date_parsed": "2026-03-02",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 26,
+          "pack_effective_date": "2026-03-02",
+          "pack_effective_date_parsed": "2026-03-02",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 15,
+          "pack_effective_date": "2026-03-02",
+          "pack_effective_date_parsed": "2026-03-02",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bnp-paribas",
+      "bank_name": "BNP Paribas",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "citibank-na",
+      "bank_name": "Citibank N.A.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 17,
+          "pack_effective_date": "16-Dec-25",
+          "pack_effective_date_parsed": "2025-12-16",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 17,
+          "pack_effective_date": "16-Dec-25",
+          "pack_effective_date_parsed": "2025-12-16",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "cooperatieve-rabobank-ua",
+      "bank_name": "Cooperatieve Rabobank U.A.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 3,
+          "pack_effective_date": "2021-10-01",
+          "pack_effective_date_parsed": "2021-10-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "credit-agricole-corporate-and-investment-bank",
+      "bank_name": "Credit Agricole Corporate and Investment Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "ctbc-bank-co-limited",
+      "bank_name": "CTBC Bank Co., Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "bot_blocked",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "dbs-bank-india-limited",
+      "bank_name": "DBS Bank India Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": "2025-08-13",
+          "pack_effective_date_parsed": "2025-08-13",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 26,
+          "pack_effective_date": "2026-03-25",
+          "pack_effective_date_parsed": "2026-03-25",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 5,
+          "pack_effective_date": "2026-01-23",
+          "pack_effective_date_parsed": "2026-01-23",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "deutsche-bank-ag",
+      "bank_name": "Deutsche Bank A.G.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": "2025-07-25",
+          "pack_effective_date_parsed": "2025-07-25",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 18,
+          "pack_effective_date": "2025-07-25",
+          "pack_effective_date_parsed": "2025-07-25",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 3,
+          "pack_effective_date": "2025-10-06",
+          "pack_effective_date_parsed": "2025-10-06",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "doha-bank-qpsc",
+      "bank_name": "Doha Bank Q.P.S.C.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 7,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 33,
+          "pack_effective_date": "2026-01-12",
+          "pack_effective_date_parsed": "2026-01-12",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "emirates-nbd-bank-pjsc",
+      "bank_name": "Emirates NBD Bank P.J.S.C.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 23,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 3,
+          "pack_effective_date": "2026-03-16",
+          "pack_effective_date_parsed": "2026-03-16",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "first-abu-dhabi-bank-pjsc",
+      "bank_name": "First Abu Dhabi Bank PJSC",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "firstrand-bank-limited",
+      "bank_name": "FirstRand Bank Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "bank_name": "Hong Kong and Shanghai Banking Corporation Limited (HSBC)",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 14,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 26,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 23,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "industrial-and-commercial-bank-of-china-limited",
+      "bank_name": "Industrial and Commercial Bank of China Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "industrial-bank-of-korea",
+      "bank_name": "Industrial Bank of Korea",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "jp-morgan-chase-bank-na",
+      "bank_name": "J.P. Morgan Chase Bank N.A.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "jsc-vtb-bank",
+      "bank_name": "JSC VTB Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "site_unreachable",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": true,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "keb-hana-bank",
+      "bank_name": "KEB Hana Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "kookmin-bank",
+      "bank_name": "Kookmin Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "mashreqbank-psc",
+      "bank_name": "Mashreqbank P.S.C.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "mizuho-bank-ltd",
+      "bank_name": "Mizuho Bank Ltd.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 22,
+          "pack_effective_date": "2026-03-01",
+          "pack_effective_date_parsed": "2026-03-01",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 22,
+          "pack_effective_date": "2026-03-01",
+          "pack_effective_date_parsed": "2026-03-01",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "mufg-bank-ltd",
+      "bank_name": "MUFG Bank, Ltd.",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "rates_not_published",
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": true,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "natwest-markets-plc",
+      "bank_name": "NatWest Markets Plc",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 1,
+          "pack_effective_date": "2017-11-17",
+          "pack_effective_date_parsed": "2017-11-17",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 4,
+          "pack_effective_date": "2017-11-17",
+          "pack_effective_date_parsed": "2017-11-17",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 25,
+          "pack_effective_date": "2017-05-01",
+          "pack_effective_date_parsed": "2017-05-01",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "nonghyup-bank",
+      "bank_name": "NongHyup Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "pt-bank-maybank-indonesia-tbk",
+      "bank_name": "PT Bank Maybank Indonesia TBK",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "rates_not_published",
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": true,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "qatar-national-bank-qpsc",
+      "bank_name": "Qatar National Bank (Q.P.S.C.)",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "rates_not_published",
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": true,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "sberbank",
+      "bank_name": "Sberbank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "rates_not_published",
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": true,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "sbm-bank-india-limited",
+      "bank_name": "SBM Bank (India) Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": "01-Jun-2026",
+          "pack_effective_date_parsed": "2026-06-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "OK"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "shinhan-bank",
+      "bank_name": "Shinhan Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 2,
+          "pack_effective_date": "2023-07-10",
+          "pack_effective_date_parsed": "2023-07-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 2,
+          "pack_effective_date": "2023-07-10",
+          "pack_effective_date_parsed": "2023-07-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": true
+    },
+    {
+      "bank_code": "societe-generale",
+      "bank_name": "Societe Generale",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "sonali-bank-plc",
+      "bank_name": "Sonali Bank PLC",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "rates_not_published",
+      "discovery_status": "foreign_currency_not_inr",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": true,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": true,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "standard-chartered-bank",
+      "bank_name": "Standard Chartered Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "sumitomo-mitsui-banking-corporation",
+      "bank_name": "Sumitomo Mitsui Banking Corporation",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "ubs-ag",
+      "bank_name": "UBS AG",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "united-overseas-bank-limited",
+      "bank_name": "United Overseas Bank Limited",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "woori-bank",
+      "bank_name": "Woori Bank",
+      "bank_type": "FB",
+      "tier1": false,
+      "status": "rates_not_published",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": true,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "au-small-finance-bank-limited",
+      "bank_name": "Au Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": true,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 12,
+          "pack_effective_date": "2026-04-23",
+          "pack_effective_date_parsed": "2026-04-23",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 12,
+          "pack_effective_date": "2026-04-23",
+          "pack_effective_date_parsed": "2026-04-23",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 25,
+          "pack_effective_date": "2026-05-21",
+          "pack_effective_date_parsed": "2026-05-21",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false,
+      "sfb_inclusion_reason": "docs_large_sfb"
+    },
+    {
+      "bank_code": "capital-small-finance-bank-limited",
+      "bank_name": "Capital Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 6,
+          "pack_effective_date": "2026-04-29",
+          "pack_effective_date_parsed": "2026-04-29",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 11,
+          "pack_effective_date": "2026-04-29",
+          "pack_effective_date_parsed": "2026-04-29",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": true,
+      "sfb_inclusion_reason": "measured_nri_signal"
+    },
+    {
+      "bank_code": "equitas-small-finance-bank-limited",
+      "bank_name": "Equitas Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "nro": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "MISSING_EXTRACTION"
+        }
+      },
+      "nre_without_fcnr": false,
+      "sfb_inclusion_reason": "docs_large_sfb"
+    },
+    {
+      "bank_code": "esaf-small-finance-bank-limited",
+      "bank_name": "ESAF Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": "2026-03-01",
+          "pack_effective_date_parsed": "2026-03-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 11,
+          "pack_effective_date": "2026-05-01",
+          "pack_effective_date_parsed": "2026-05-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 6,
+          "pack_effective_date": "2026-05-01",
+          "pack_effective_date_parsed": "2026-05-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false,
+      "sfb_inclusion_reason": "measured_nri_signal"
+    },
+    {
+      "bank_code": "jana-small-finance-bank-limited",
+      "bank_name": "Jana Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 9,
+          "pack_effective_date": "2026-05-19",
+          "pack_effective_date_parsed": "2026-05-19",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 15,
+          "pack_effective_date": "2026-05-19",
+          "pack_effective_date_parsed": "2026-05-19",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": true,
+      "sfb_inclusion_reason": "measured_nri_signal"
+    },
+    {
+      "bank_code": "ujjivan-small-finance-bank-limited",
+      "bank_name": "Ujjivan Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 13,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 19,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro",
+            "fd_nri_combined"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 5,
+          "pack_effective_date": "2025-12-01",
+          "pack_effective_date_parsed": "2025-12-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_fcnr"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false,
+      "sfb_inclusion_reason": "docs_large_sfb"
+    },
+    {
+      "bank_code": "utkarsh-small-finance-bank-limited",
+      "bank_name": "Utkarsh Small Finance Bank Limited",
+      "bank_type": "SFB",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "nre": {
+          "pack_has_slabs": 6,
+          "pack_effective_date": "2025-12-01",
+          "pack_effective_date_parsed": "2025-12-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nre"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "nro": {
+          "pack_has_slabs": 5,
+          "pack_effective_date": "2025-12-01",
+          "pack_effective_date_parsed": "2025-12-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_nro"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        },
+        "fcnr": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": true,
+      "sfb_inclusion_reason": "measured_nri_signal"
+    },
+    {
+      "bank_code": "australia-and-new-zealand-banking-group-limited-ibu",
+      "bank_name": "Australia and New Zealand Banking Group Limited – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "axis-bank-ibu",
+      "bank_name": "Axis Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 24,
+          "pack_effective_date": "2026-04-10",
+          "pack_effective_date_parsed": "2026-04-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift",
+            "fd_gift_pdf"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-baroda-ibu",
+      "bank_name": "Bank of Baroda – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 45,
+          "pack_effective_date": "2026-05-29",
+          "pack_effective_date_parsed": "2026-05-29",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-india-ibu",
+      "bank_name": "Bank of India – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": true,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 64,
+          "pack_effective_date": "2026-02-13",
+          "pack_effective_date_parsed": "2026-02-13",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bank-of-maharashtra-ibu",
+      "bank_name": "Bank of Maharashtra – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "barclays-bank-plc-ibu",
+      "bank_name": "Barclays Bank Plc – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "bnp-paribas-ibu",
+      "bank_name": "BNP Paribas – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "canara-bank-ibu",
+      "bank_name": "Canara Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 32,
+          "pack_effective_date": "2026-05-14",
+          "pack_effective_date_parsed": "2026-05-14",
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "citi-bank-ibu",
+      "bank_name": "Citi Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "credit-agricole-corporate-investment-bank-ibu",
+      "bank_name": "Credit Agricole Corporate & Investment Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "ctbc-bank-co-ltd-ibu",
+      "bank_name": "CTBC Bank Co., Ltd. – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "bot_blocked",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "dbs-bank-ibu",
+      "bank_name": "DBS Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "deutsche-bank-ibu",
+      "bank_name": "Deutsche Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "federal-bank-ibu",
+      "bank_name": "Federal Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 55,
+          "pack_effective_date": "2026-01-15",
+          "pack_effective_date_parsed": "2026-01-15",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift",
+            "fd_gift_pdf"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "first-abu-dhabi-bank-pjsc-ibu",
+      "bank_name": "First Abu Dhabi Bank PJSC – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "hdfc-bank-ibu",
+      "bank_name": "HDFC Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 34,
+          "pack_effective_date": "2026-05-26",
+          "pack_effective_date_parsed": "2026-05-26",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "hsbc-bank-ibu",
+      "bank_name": "HSBC Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 36,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "icici-bank-ibu",
+      "bank_name": "ICICI Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 24,
+          "pack_effective_date": "2026-04-07",
+          "pack_effective_date_parsed": "2026-04-07",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "idbi-bank-ibu",
+      "bank_name": "IDBI Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 48,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "idfc-first-bank-ibu",
+      "bank_name": "IDFC First Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 22,
+          "pack_effective_date": "2026-01-16",
+          "pack_effective_date_parsed": "2026-01-16",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift",
+            "fd_gift_pdf",
+            "fd_gift_pdf_stable"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "indian-bank-ibu",
+      "bank_name": "Indian Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 18,
+          "pack_effective_date": "2026-03-02",
+          "pack_effective_date_parsed": "2026-03-02",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "indusind-bank-ibu",
+      "bank_name": "IndusInd Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 166,
+          "pack_effective_date": "2026-04-23",
+          "pack_effective_date_parsed": "2026-04-23",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "jp-morgan-bank-ibu",
+      "bank_name": "JP Morgan Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "jpmorgan-securities-plc-ibu",
+      "bank_name": "J.P.Morgan Securities PLC – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "kotak-mahindra-bank-ibu",
+      "bank_name": "Kotak Mahindra Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 55,
+          "pack_effective_date": "2026-04-24",
+          "pack_effective_date_parsed": "2026-04-24",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "mashreqbank-psc-ibu",
+      "bank_name": "Mashreqbank PSC – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "mizuho-bank-ibu",
+      "bank_name": "Mizuho Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 16,
+          "pack_effective_date": "2025-09-10",
+          "pack_effective_date_parsed": "2025-09-10",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "mufg-bank-ibu",
+      "bank_name": "MUFG Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "natixis-ibu",
+      "bank_name": "Natixis – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "punjab-national-bank-ibu",
+      "bank_name": "Punjab National Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 10,
+          "pack_effective_date": "2026-05-01",
+          "pack_effective_date_parsed": "2026-05-01",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "qatar-national-bank-qpsc-ibu",
+      "bank_name": "Qatar National Bank (Q.P.S.C.) – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "rbl-bank-ibu",
+      "bank_name": "RBL Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 84,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "societe-generale-ibu",
+      "bank_name": "Societe Generale – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": "wholesale_only",
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": true,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "EXCLUDED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "standard-chartered-bank-ibu",
+      "bank_name": "Standard Chartered Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 8,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "state-bank-of-india-ibu",
+      "bank_name": "State Bank of India – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": null,
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 16,
+          "pack_effective_date": "2026-05-20",
+          "pack_effective_date_parsed": "2026-05-20",
+          "registry_has_url": true,
+          "registry_url_sources": [
+            "fd_gift"
+          ],
+          "verdict": "STALE_OR_UNDATED"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "sumitomo-mitsui-banking-corporation-ibu",
+      "bank_name": "Sumitomo Mitsui Banking Corporation – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "website_known_no_rate_page",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": false,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    },
+    {
+      "bank_code": "yes-bank-ibu",
+      "bank_name": "Yes Bank – IBU",
+      "bank_type": "IBU",
+      "tier1": false,
+      "status": null,
+      "discovery_status": "unreachable",
+      "flags": {
+        "wholesale_only": false,
+        "no_retail_deposits": false,
+        "foreign_currency_not_inr": false,
+        "no_fd_product": false,
+        "cloud_blocked": false,
+        "site_unreachable": true,
+        "rates_not_published": false,
+        "in_pack": true,
+        "in_registry": true
+      },
+      "variants": {
+        "gift": {
+          "pack_has_slabs": 0,
+          "pack_effective_date": null,
+          "pack_effective_date_parsed": null,
+          "registry_has_url": false,
+          "registry_url_sources": [],
+          "verdict": "UNKNOWN_PUBLISHES"
+        }
+      },
+      "nre_without_fcnr": false
+    }
+  ]
+}

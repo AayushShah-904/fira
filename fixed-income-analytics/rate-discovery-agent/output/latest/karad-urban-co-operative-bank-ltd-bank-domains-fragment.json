@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "karad-urban-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:33:06.405Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "karadurban.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest-rates",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "HTML tables with tenure, general rate, CTD/pension rate, RIS columns. 3 tables",
+  "template": {
+    "template_id": "karad-urban-coop-4col-plain-ctd-ris",
+    "template_hash": "sha1:857d6b9ec5743f687eb4be6895a0e16c70ffc5f5",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

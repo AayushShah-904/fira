@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "bank_code": "bombay-mercantile-co-operative-bank-limited",
+    "extracted_at": "2026-06-05T13:22:11.255Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "bmcbankltd.com",
+  "rate_pages": {
+    "fd": "/deporates.php",
+    "fd_nre": "/deporates.php",
+    "fd_nro": null,
+    "fd_fcnr": "/deporates.php",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "notes": "All pages return 404 including static PDFs. Site may be down.",
+  "status": "site_unreachable"
+}

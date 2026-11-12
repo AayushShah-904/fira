@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "bank_code": "ctbc-bank-co-limited",
+    "extracted_at": "2026-06-05T11:30:52.448Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "ctbcbank.bank.in",
+  "rate_pages": {
+    "fd": "/content/dam/cbminisite/IN/deposit-rates.html",
+    "savings": "/content/dam/cbminisite/IN/deposit-rates.html",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Static HTML site with heavy JS obfuscation (Imperva/Incapsula bot protection), Imperva WAF — returns 'Access Denied' for all automated requests including headless Chromium with anti-detection measures",
+  "discovery_status": "bot_blocked",
+  "gap_classification": {
+    "reason": "bot_blocked",
+    "discovery_status": "bot_blocked",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "CTBC Bank's India deposit-rates page (ctbcbank.com/content/dam/cbminisite/IN/deposit-rates.html) 302-redirects to its .bank.in mini-site at https://ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html, which sits behind a WAF (prior attempt saw an 'Access Denied - request is denied per website security policies' page). Re-verified: the URL now returns HTTP 000 / empty reply (connection dropped). Rate page exists but is unreadable from here."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "mahaveer-co-operative-bank-ltd-belgaum",
+  "bank_name": "mahaveer-co-operative-bank-ltd-belgaum",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://mahaveerbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://mahaveerbank.bank.in/rate-of-interest-page"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:15:35.236Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

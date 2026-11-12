@@ -1,0 +1,19 @@
+{
+  "bank_code": "dhanbad-district-central-co-operative-bank-ltd",
+  "bank_name": "Dhanbad District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:30:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": "dhanbadccb.in",
+    "found_via": "registry_hint",
+    "notes": "The registry-hint domain dhanbadccb.in is now a parked domain: https://www.dhanbadccb.in/index.htm is a 114-byte stub that redirects to /lander, which serves a GoDaddy/wsimg 'parking-lander' page (adsense-for-domains). No bank content or rate pages remain. Only third-party listings exist (codeforbanks aggregator, dhanbad.nic.in govt directory). No live official website with FD rates found."
+  },
+  "warnings": ["Former bank domain is parked/defunct; no retrievable official site. Aggregator data deliberately not used."],
+  "tier2_method": "websearch+webfetch"
+}

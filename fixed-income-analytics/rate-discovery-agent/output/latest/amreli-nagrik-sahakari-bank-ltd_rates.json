@@ -1,0 +1,88 @@
+{
+  "bank_code": "amreli-nagrik-sahakari-bank-ltd",
+  "bank_name": "Amreli Nagrik Sahakari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-04",
+  "source_url": "https://www.amrelibank.com/deposit-interest-rate.php",
+  "scraped_at": "2026-04-12T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days To 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 Days To 89 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "90 Days to 179 Days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 to Less than 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year to Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Year to Less than 5 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years and Above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior citizen premium only kicks in at 1 Year and above slabs; for tenures shorter than 1 year general and senior rates are identical (rate_senior_pct copied from source table verbatim).",
+    "Senior citizen age cutoff is 58 years (lower than the typical 60-year industry standard).",
+    "Source SSL certificate is expired; page fetched with cert verification disabled."
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 384,
+    "last_scraped_at": "2026-04-12T00:00:00Z",
+    "manual_verification_needed": true
+  }
+}

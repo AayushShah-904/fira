@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "puducherry-grama-bank",
+    "extracted_at": "2026-06-05T12:56:34.465Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "pygb.bank.in",
+  "notes": "Also known as Puduvai Bharathiar Grama Bank. 48 branches.",
+  "rate_pages": {
+    "fd": "/fixed-deposit-account-2/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/savings-bank-account/",
+    "rd": "/recurring-deposit/"
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "pygb-2bucket-regular",
+    "template_hash": "sha1:7246385fd07fb1d190961efce73d5492cc785226",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_general_pct@1cr_to_3cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 20,
+      "cluster_reused": false
+    }
+  }
+}

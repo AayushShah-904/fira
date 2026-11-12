@@ -1,0 +1,104 @@
+{
+  "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "bank_name": "Shri Shiddheshwar Co-operative Bank Ltd Bijapur",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-04-01",
+  "source_url": "https://shiddeshwarbank.com/index.aspx?Cmd=Menu&Comp=Cms&Action=ArtById&MenuId=202&ArtId=37&PublicFile=INTEREST_RATES",
+  "scraped_at": "2026-05-21T02:07:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "30 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "31 days to 90 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "2 years to 10 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Interest rates are published in Kannada. Senior citizen premium (+0.5%) is applied only for deposits above 12 months as per table note. Savings rate row is ignored. Effective date is 01-04-2023.",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-01\" parses to 2023-04-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:22.727Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-21T02:07:00Z",
+      "retained_slab_count": 6
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1209,
+    "last_scraped_at": "2026-05-21T02:07:00Z",
+    "manual_verification_needed": true
+  }
+}

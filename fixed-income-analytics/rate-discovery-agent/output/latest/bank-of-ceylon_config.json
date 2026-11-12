@@ -1,0 +1,18 @@
+{
+  "bank_code": "bank-of-ceylon",
+  "bank_name": "bank-of-ceylon",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://boc.lk",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://boc.lk/rates-tariff"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:37:17.661Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

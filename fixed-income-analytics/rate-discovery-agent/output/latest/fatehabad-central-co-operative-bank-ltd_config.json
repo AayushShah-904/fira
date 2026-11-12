@@ -1,0 +1,33 @@
+{
+  "bank_code": "fatehabad-central-co-operative-bank-ltd",
+  "bank_name": "Fatehabad Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website or rate page found for Fatehabad Central Co-operative Bank Ltd. All plausible domain patterns failed to resolve or returned certificate errors. This DCCB likely publishes rates via state umbrella portals or RBI notifications, but none are accessible for Fatehabad. Operator must check Haryana State Cooperative Bank or RBI for rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "web_search + domain probe",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

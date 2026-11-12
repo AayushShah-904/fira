@@ -1,0 +1,57 @@
+{
+  "bank_code": "natwest-markets-plc",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2017-04-03",
+  "source_url": "https://natwestmarkets.bank.in/help-you/base-rate.html",
+  "scraped_at": "2026-07-07T06:54:22.788Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Overnight",
+      "tenure_min_days": 1,
+      "tenure_max_days": 1,
+      "rate_general_pct": 8.85,
+      "rate_senior_pct": 8.55,
+      "rate_super_senior_pct": 8.6
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 1/5 slabs had parseable tenures — likely textual content)",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: no fixed deposit INR rate table found; only benchmark rate table present)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 1 slab(s) from page text",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-03\" parses to 2017-04-03 (year 2017 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (Overnight): senior rate (8.55%) < general rate (8.85%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 3398,
+    "last_scraped_at": "2026-07-07T06:54:22.788Z",
+    "manual_verification_needed": true
+  }
+}

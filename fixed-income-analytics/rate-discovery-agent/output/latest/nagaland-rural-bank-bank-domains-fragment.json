@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "bank_code": "nagaland-rural-bank",
+    "extracted_at": "2026-06-05T12:54:05.122Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "nrb.bank.in",
+  "notes": "SBI-sponsored. 12 branches in 8 districts.",
+  "rate_pages": {
+    "fd": null
+  }
+}

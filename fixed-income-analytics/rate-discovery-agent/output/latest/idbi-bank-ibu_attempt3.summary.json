@@ -1,0 +1,42 @@
+{
+  "bank_code": "idbi-bank-ibu",
+  "bank_name": "idbi-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 31845,
+  "duration_ms": 31845,
+  "duration_api_ms": 31268,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.135468,
+  "llm_cost_usd": 0.135468,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 46822,
+  "output_tokens": 5228,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 577,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://idbi.bank.in/ibu/interest-rates.aspx\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/idbi-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"idbi-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IDBI Bank IBU\\\",\\n  \\\"bank_t"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/idbi-bank-ibu_gift_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"idbi-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IDBI Bank IBU\\\",\\n  \\\"pr"
+    }
+  ]
+}

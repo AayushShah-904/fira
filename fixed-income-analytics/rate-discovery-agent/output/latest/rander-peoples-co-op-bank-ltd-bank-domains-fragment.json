@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "rander-peoples-co-op-bank-ltd",
+    "extracted_at": "2026-06-06T10:05:18.200Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "rpcbl.in",
+  "rate_pages": {
+    "fd": "/deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-anantapur-co-operative-town-bank-ltd",
+  "bank_name": "the-anantapur-co-operative-town-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://asklaila.com",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://asklaila.com/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T11:00:51.017Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

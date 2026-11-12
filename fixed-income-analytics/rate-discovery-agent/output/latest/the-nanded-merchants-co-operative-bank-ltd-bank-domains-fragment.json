@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "the-nanded-merchants-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T09:09:48.181Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "www.nmcb.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://www.nmcb.in/Financial_Condition/Interest_Rates/",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_prev": "nmcbank.com",
+  "scraper_type": "html_static",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T15:54:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "https://www.nmcb.in/Financial_Condition/Interest_Rates/",
+    "slab_count": 9,
+    "hints": "nmcb.in Interest_Rates table (expired TLS cert — needs tolerant fetch); general+senior columns",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

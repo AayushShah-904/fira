@@ -1,0 +1,72 @@
+{
+  "bank_code": "kanpur-zilla-sahakari-bank-ltd",
+  "bank_name": "kanpur-zilla-sahakari-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 133924,
+  "duration_ms": 133924,
+  "duration_api_ms": 6751,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.050412,
+  "llm_cost_usd": 0.050412,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21518,
+  "output_tokens": 922,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30039,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dcbkanpur.com/intrest.php?id=1\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30060,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dcbkanpur.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32031,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dcbkanpur.com/intrest.php?id=1\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35043,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dcbkanpur.com/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 4,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "bank_code": "the-panchmahal-district-co-operative-bank-ltd",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\the-panchmahal-district-co-operative-bank-ltd_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.773847Z",
+  "overall_passed": false,
+  "metrics": {
+    "schema_completeness": {
+      "score": 79,
+      "passed": false,
+      "reason": "12 missing field values across 14 slabs",
+      "missing_breakdown": {
+        "tenure_min_days": 6,
+        "tenure_max_days": 6
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 14 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

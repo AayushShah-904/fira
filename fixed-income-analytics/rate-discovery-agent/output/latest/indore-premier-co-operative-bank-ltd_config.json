@@ -1,0 +1,19 @@
+{
+  "bank_code": "indore-premier-co-operative-bank-ltd",
+  "bank_name": "indore-premier-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://ipc.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://ipc.bank.in/%e0%a4%ac%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%9c-%e0%a4%a6%e0%a4%b0/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:20:58.367Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

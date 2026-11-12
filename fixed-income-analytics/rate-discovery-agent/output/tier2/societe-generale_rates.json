@@ -1,0 +1,32 @@
+{
+  "bank_code": "societe-generale",
+  "bank_name": "Societe Generale, India",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-19",
+  "source_url": "https://www.societegenerale.asia/fileadmin/user_upload/Societe_Generale_websites/Asia/India/Rates_and_charges/Deposit_rates/DepositRates.pdf",
+  "scraped_at": "2026-05-25T16:55:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {"tenure_text": "7 days", "tenure_min_days": 7, "tenure_max_days": 7, "rate_general_pct": 4.85, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "8 - 14 days", "tenure_min_days": 8, "tenure_max_days": 14, "rate_general_pct": 4.85, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "15 - 30 days", "tenure_min_days": 15, "tenure_max_days": 30, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "31 - 60 days", "tenure_min_days": 31, "tenure_max_days": 60, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "61 - 90 days", "tenure_min_days": 61, "tenure_max_days": 90, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "91 - 120 days", "tenure_min_days": 91, "tenure_max_days": 120, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "121 - 150 days", "tenure_min_days": 121, "tenure_max_days": 150, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "151 - 180 days", "tenure_min_days": 151, "tenure_max_days": 180, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "181 - 211 days", "tenure_min_days": 181, "tenure_max_days": 211, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "212 - 240 days", "tenure_min_days": 212, "tenure_max_days": 240, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "241 - 270 days", "tenure_min_days": 241, "tenure_max_days": 270, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "271 - 300 days", "tenure_min_days": 271, "tenure_max_days": 300, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "301 - 330 days", "tenure_min_days": 301, "tenure_max_days": 330, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"},
+    {"tenure_text": "331 - 365 days", "tenure_min_days": 331, "tenure_max_days": 365, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr"}
+  ],
+  "warnings": [
+    "Foreign wholesale bank; rate card covers only amount < INR 3 Crores and tenures up to 365 days. For tenors/amounts beyond the table, customers must contact their relationship manager (list.in-pcm@socgen.com).",
+    "No senior-citizen rates published (foreign bank, no senior tier).",
+    "Effective date shown two ways on the card: header '19-May-26' (used) and a 'INTEREST RATE ON DEPOSITS' date line."
+  ],
+  "tier2_method": "pdf"
+}

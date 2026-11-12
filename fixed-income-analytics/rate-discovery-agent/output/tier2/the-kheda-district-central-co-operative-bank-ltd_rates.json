@@ -1,0 +1,141 @@
+{
+  "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+  "bank_name": "The Kheda District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-02-07",
+  "source_url": "https://www.khedadccb.bank.in/bank-deposit-loan-interest-rates",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.00,
+      "rate_senior_pct": 4.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91-179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "180-364 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": 6.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 Year to 15 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 456,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "15 Months to 5 Years",
+      "tenure_min_days": 457,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.40,
+      "rate_senior_pct": 6.90,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "7-45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "91-179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "180-364 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "1 Year to 15 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 456,
+      "rate_general_pct": 6.40,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "15 Months to 5 Years",
+      "tenure_min_days": 457,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.10,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": ["Two deposit-amount tiers: up to Rs.1 crore (below_1cr) and above Rs.1 crore (above_1cr). Senior citizens get +0.50% over the listed general rate (applied to the below_1cr tier; the above_1cr bulk tier does not list a separate senior column). Savings deposit (2.75%) excluded as non-FD. Rates rendered via JS from CMS API; extracted from the page's deposit rate table."],
+  "tier2_method": "playwright_tables"
+}

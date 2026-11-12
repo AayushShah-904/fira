@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "krishna-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-05T18:29:52.716Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "krishnadccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

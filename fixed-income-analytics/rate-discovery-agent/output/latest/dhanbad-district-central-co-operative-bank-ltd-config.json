@@ -1,0 +1,32 @@
+{
+  "bank_code": "dhanbad-district-central-co-operative-bank-ltd",
+  "bank_name": "Dhanbad District Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found for Dhanbad District Central Co-operative Bank Ltd. after exhaustive search. No rate page available. Manual data entry required if rates are to be sourced from RBI or state co-operative portal.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "web_search + domain probing",
+    "confidence": "none"
+  }
+}

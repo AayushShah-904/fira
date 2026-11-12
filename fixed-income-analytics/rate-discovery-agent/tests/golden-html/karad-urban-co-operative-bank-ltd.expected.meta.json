@@ -1,0 +1,13 @@
+{
+  "bank_code": "karad-urban-co-operative-bank-ltd",
+  "bank_name": "karad-urban-co-operative-bank-ltd",
+  "bank_type": "SUCB",
+  "state": "Maharashtra",
+  "website": "https://karadurban.bank.in",
+  "rate_page_url": "https://karadurban.bank.in/interest-rates",
+  "scraper_type": "html_static",
+  "extraction_method": "automatic_html_static",
+  "slab_count": 22,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-05T18:36:59.764Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "nizamabaddccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-schemes/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/savings-deposit/",
+    "rd": "/recurring-deposit/"
+  },
+  "scraper_type": "html_js",
+  "extraction_method": "div_table",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "rate_pdfs": [
+    {
+      "url": "https://nizamabaddccb.bank.in/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-22-at-12.21.40-PM.jpeg",
+      "kind": "rd_rate_image",
+      "notes": "RD rate image"
+    },
+    {
+      "url": "https://nizamabaddccb.bank.in/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-22-at-12.21.41-PM.jpeg",
+      "kind": "telugu_scheme_image",
+      "notes": "Special scheme rate poster in Telugu — see L8 (multilingual)"
+    }
+  ],
+  "notes": "Rate table at /deposit-schemes/ — rendered as styled divs, NOT an HTML <table> element (slab counts 12 across DCCB-direct and PACS-tier columns plus a Kamadhenu Term Deposit special at 444 days/7.75%). The /fixed-deposit/ page is a stub with a \"View More\" link to /deposit-schemes/ — see L13 in agent-learnings.md. Two auxiliary rate images at /wp-content/uploads/2025/10/ — RD rates (image) and a Telugu-language scheme poster (image, multilingual — see L8). Senior citizen / PACS members get +0.50% per the footnote. Verified 2026-05-12 via live Playwright rendering + manual transcription.",
+  "template": {
+    "template_id": "dccb-4col-existing-revised-general-senior",
+    "template_hash": "sha1:fe3a0d367162f3f6815aae9b634e278b775f0395",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "rate_general_pct",
+            "4": "rate_senior_pct",
+            "5": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  },
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.786Z",
+    "manual_verification_needed": false
+  }
+}

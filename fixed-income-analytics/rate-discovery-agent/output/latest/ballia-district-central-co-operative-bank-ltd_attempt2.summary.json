@@ -1,0 +1,132 @@
+{
+  "bank_code": "ballia-district-central-co-operative-bank-ltd",
+  "bank_name": "ballia-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 24369,
+  "duration_ms": 24369,
+  "duration_api_ms": 23094,
+  "num_turns": 15,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.56868,
+  "input_tokens": 279852,
+  "output_tokens": 1122,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Ballia District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 48,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://balliadccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://balliadccb.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Ballia District Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Ballia District Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Ballia District Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Ballia District Central Co-operative Bank Ltd upcooperativebank.org\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcooperativebank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 377,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ballia.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 152,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ballia.nic.in/public-utility-category/banks/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 153,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ballia.nic.in/directory/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 171,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ballia.nic.in/public-utilities/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 155,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ballia.nic.in/public-utility-category/banks/page/2/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 155,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ballia.nic.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/ballia-district-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"ballia-district-central-co-operative-bank-ltd\\\",\\"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "manual",
+    "notes": "No official website or rate page found for Ballia District Central Co-operative Bank Ltd. Multiple domain and directory explorations yielded only government district information and listings of nationalized banks. No banking product or FD rate information for this DCCB is available online. Manual operator intervention required.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 6,
+    "fetch_error_count": 3,
+    "domain_was_known": false
+  }
+}

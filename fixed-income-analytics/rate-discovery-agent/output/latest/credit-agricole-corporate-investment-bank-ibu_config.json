@@ -1,0 +1,33 @@
+{
+  "bank_code": "credit-agricole-corporate-investment-bank-ibu",
+  "bank_name": "credit-agricole-corporate-investment-bank-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "website": "https://ca-cib.com",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Drupal/CMS (parent site)",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:19:12.995Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

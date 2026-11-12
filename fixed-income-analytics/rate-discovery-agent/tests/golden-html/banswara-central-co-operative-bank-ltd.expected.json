@@ -1,0 +1,27 @@
+{
+  "bank_code": "banswara-central-co-operative-bank-ltd",
+  "variant": "regular",
+  "slab_count": 33,
+  "key_rates": {
+    "1y": {
+      "general": 5.3,
+      "senior": 5.8
+    },
+    "2y": {
+      "general": 5.3,
+      "senior": 5.8
+    },
+    "3y": {
+      "general": 5.3,
+      "senior": 5.8
+    },
+    "5y": {
+      "general": 6,
+      "senior": 6.5
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://www.banswaraccb.com/wp-content/uploads/ccb-downloads/deposit-rates/BANSWARA%20CCB%20FD%20RATES%2011-07-2023.pdf",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.001Z"
+}

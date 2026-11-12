@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "shikshak-sahakari-bank-ltd-nagpur",
+    "extracted_at": "2026-06-05T13:49:37.871Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "shikshak.bank.in",
+  "rate_pages": {
+    "fd": "/deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "WordPress/Astra theme. HTML table with 6 columns (tenure + 5 rate categories). 1 tables",
+  "template": {
+    "template_id": "shikshak-bankin-7col-tenure-multi-category",
+    "template_hash": "sha1:75d9952451763f34d342f87a41549a252c41091c",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_1cr",
+            "3": "rate_general_pct@above_1cr",
+            "4": "rate_senior_pct@below_1cr",
+            "5": "rate_general_pct@retired_staff",
+            "6": "rate_general_pct@retired_staff_senior"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.137Z",
+      "gates_passed": "PASS",
+      "slab_count": 28,
+      "cluster_reused": false
+    }
+  }
+}

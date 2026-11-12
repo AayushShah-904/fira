@@ -1,0 +1,33 @@
+{
+  "bank_code": "the-delhi-state-co-operative-bank-ltd",
+  "bank_name": "the-delhi-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "website": "https://dscb.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/pdf/depositRate.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Static HTML with jQuery/Slick carousel, hidden sections via JS toggles",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:01:15.732Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

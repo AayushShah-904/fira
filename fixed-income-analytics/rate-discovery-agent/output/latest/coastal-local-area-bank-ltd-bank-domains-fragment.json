@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "bank_code": "coastal-local-area-bank-ltd",
+    "extracted_at": "2026-06-05T10:47:36.769Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "coastal.bank.in",
+  "rate_pages": {
+    "fd": "/public/images/pdf/Int%20rates%20from%2001-06-2025%20web%20site%201.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf",
+  "notes": "First LAB licensed by RBI (1999). Rate PDF hosted on old domain coastalareabank.com. coastal.bank.in term deposits page links to outdated 2020 PDF.",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:d13a9dd83aba8cdddfd3089af2fc3bf58c4a2a1d",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T08:27:09.183Z",
+      "gates_passed": "PASS",
+      "slab_count": 34,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

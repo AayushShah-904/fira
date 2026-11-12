@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "mangalore-co-operative-town-bank-ltd-mangalore",
+    "extracted_at": "2026-06-06T10:12:36.606Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "mangaloretownbank.com",
+  "rate_pages": {
+    "fd": "/deposits.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/deposits.html",
+    "rd": "/deposits.html"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "amanath-co-operative-bank-ltd-bangalore",
+    "extracted_at": "2026-06-05T13:16:45.275Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "amanath-bank.com",
+  "rate_pages": {
+    "fd": "/intrestrates.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "HTML tables with Existing/Revised columns. 2 tables"
+}

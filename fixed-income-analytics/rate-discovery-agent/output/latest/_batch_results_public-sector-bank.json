@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-06-25T11:24:59.101Z",
+  "category": "Public Sector Bank",
+  "succeeded": 3,
+  "failed": 2,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "State Bank of India",
+      "status": "success",
+      "elapsed_sec": 139
+    },
+    {
+      "name": "Bank of Baroda",
+      "status": "success",
+      "elapsed_sec": 327
+    },
+    {
+      "name": "Bank of India",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 7
+    },
+    {
+      "name": "Bank of Maharashtra",
+      "status": "success",
+      "elapsed_sec": 122
+    },
+    {
+      "name": "Canara Bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 7
+    }
+  ]
+}

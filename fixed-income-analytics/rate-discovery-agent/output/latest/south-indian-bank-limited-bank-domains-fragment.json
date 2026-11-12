@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "bank_code": "south-indian-bank-limited",
+    "extracted_at": "2026-06-05T10:38:43.971Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "www.southindianbank.bank.in",
+  "rate_pages": {
+    "fd": "/quick-links/interest-rates",
+    "savings": "/quick-links/interest-rates",
+    "rd": null,
+    "fd_nre": "/quick-links/interest-rates",
+    "fd_nro": "/quick-links/interest-rates",
+    "fd_fcnr": "/quick-links/interest-rates",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Bootstrap accordion/tab UI, JS-rendered content, 403 on direct HTTP fetch — requires Playwright with anti-detection",
+  "domain_source": "manual",
+  "scraper_notes": {
+    "framework": "Bootstrap 5 accordion/tab UI",
+    "bot_protection": "403 on direct HTTP fetch",
+    "data_format": "HTML tables inside collapsed accordion panels",
+    "rate_tables_on_page": 16,
+    "has_tabs": true,
+    "has_dropdowns": false,
+    "has_lazy_loading": false,
+    "playwright_flags": "--accordions",
+    "notes": "Only --accordions flag needed for Playwright. Do NOT use --scroll, --tabs, or --intercept — they cause timeout. All rate tables (FD, NRE, NRO, FCNR) are in the Deposits tab which is active by default."
+  },
+  "playwright_stealth": true,
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "playwright_timeout_ms": 120000,
+  "template": {
+    "template_id": "sib-multi-tier-retail-bulk-knd",
+    "template_hash": "sha1:8763cb88a1ab7cc5d86ca656b0ca011c5e6c2c52",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 12,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_5cr",
+            "2": "rate_general_pct@5cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_25cr",
+            "4": "rate_general_pct@25cr_to_100cr",
+            "5": "rate_general_pct@25cr_to_100cr",
+            "6": "rate_general_pct@above_100cr",
+            "7": "rate_general_pct@above_100cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 14,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_5cr",
+            "2": "rate_general_pct@5cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_25cr",
+            "4": "rate_general_pct@25cr_to_100cr",
+            "5": "rate_general_pct@25cr_to_100cr",
+            "6": "rate_general_pct@above_100cr",
+            "7": "rate_general_pct@above_100cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 7,
+          "header_row": 2,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 77,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+    "extracted_at": "2026-06-05T14:00:25.400Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "khamgaonurban.bank.in",
+  "rate_pages": {
+    "fd": "https://khamgaonurban.bank.in/interest-rate/interest-rate-on-deposits.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/interest-rate/interest-rate-on-deposits.html",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "Static HTML table, Marathi language. 1 tables",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:19:14.109Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_html_table_parse (Marathi/Devanagari)",
+    "source_url": "https://khamgaonurban.bank.in/interest-rate/interest-rate-on-deposits.html",
+    "slab_count": 30,
+    "hints": "khamgaonurban.bank.in Marathi/Devanagari HTML table; amount-tier columns",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

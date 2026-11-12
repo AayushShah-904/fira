@@ -1,0 +1,50 @@
+{
+  "bank_code": "fazilka-central-co-operative-bank-ltd",
+  "bank_name": "fazilka-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9393,
+  "duration_ms": 9393,
+  "duration_api_ms": 9130,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.008682,
+  "input_tokens": 18841,
+  "output_tokens": 716,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"fazilka central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fazilkacentralco-operativebankltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fazilkacentralcooperativebankltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fazilkacentralcooperativebankltd.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 160,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://fazilkacentralcooperativebankltd.com/\"}"
+    }
+  ]
+}

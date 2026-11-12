@@ -1,0 +1,50 @@
+{
+  "bank_code": "the-vaishali-district-central-co-operative-bank-ltd-vaishali",
+  "bank_name": "The Vaishali District Central Co-operative Bank Ltd., Vaishali",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11218,
+  "duration_ms": 11218,
+  "duration_api_ms": 10249,
+  "num_turns": 4,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.151586,
+  "input_tokens": 72085,
+  "output_tokens": 927,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Vaishali District Central Co-operative Bank Ltd., Vaishali\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 12,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vaishalidccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Vaishali District Central Co-operative Bank Ltd., Vaishali\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vaishalidccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 929,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://vaishalidccb.com\"}"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+  "bank_name": "babasaheb deshmukh sahakari bank ltd atpadi",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "http://bdsbanks.in/deposites.php",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 days to 45 days", "tenure_min_days": 7, "tenure_max_days": 45, "rate_general_pct": 4.00, "rate_senior_pct": 4.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "46 days to 91 days", "tenure_min_days": 46, "tenure_max_days": 91, "rate_general_pct": 5.00, "rate_senior_pct": 5.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 6.00, "rate_senior_pct": 6.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "181 days to less than 1 year", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 7.00, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "1 year to less than 3 years", "tenure_min_days": 365, "tenure_max_days": 1094, "rate_general_pct": 7.75, "rate_senior_pct": 8.25, "rate_super_senior_pct": null, "deposit_range": "below_15l" },
+    { "tenure_text": "3 years to 10 years", "tenure_min_days": 1095, "tenure_max_days": 3650, "rate_general_pct": 7.75, "rate_senior_pct": 8.25, "rate_super_senior_pct": null, "deposit_range": "below_15l" }
+  ],
+  "special_schemes": [
+    { "name": "Ichhapurti Thev", "tenure_text": "91 days to 7 years", "rate_general_pct": 7.50, "rate_senior_pct": 8.00 }
+  ],
+  "warnings": [
+    "Site serves over plain HTTP only (HTTPS handshake fails); rate table read directly from http://bdsbanks.in/deposites.php.",
+    "Marathi rate table; main 'Mudat Thev' (term deposit) slabs used. General = व्यक्तीगत ठेव column, senior = जेष्ठ नागरिक ठेव column.",
+    "No effective date printed on the page.",
+    "Separate columns for co-operative-society deposits and individual >=15 lakh lump-sum exist on the page but match the general/senior rates for these slabs."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "bank_code": "bank-of-ceylon",
+    "category": "Foreign Bank",
+    "state": "Sri Lanka"
+  },
+  {
+    "bank_code": "canara-bank",
+    "category": "Public Sector Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "bandhan-bank-limited",
+    "category": "Private Sector Bank (Indian)",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+    "category": "Foreign Bank",
+    "state": "Bahrain"
+  }
+]

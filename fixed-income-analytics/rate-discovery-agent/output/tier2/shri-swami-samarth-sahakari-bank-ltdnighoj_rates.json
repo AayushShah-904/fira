@@ -1,0 +1,19 @@
+{
+  "bank_code": "shri-swami-samarth-sahakari-bank-ltdnighoj",
+  "bank_name": "Shri Swami Samarth Sahakari Bank Ltd.Nighoj",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "ssssbankltd.com",
+    "found_via": "registry_hint",
+    "notes": "Official site www.ssssbankltd.com is reachable (HTTP 200) and offers FD/RD products. However it only publishes summary ranges (Fixed Deposit 5.50%-7.75%, RD 5.25%-7.50%, Savings 3.00%-4.00%, senior +0.50%) on the homepage #rates section with no per-tenure FD rate table. The 'Interest Rate Policy' PDF link (assets/reports/interest-rate-policy.pdf) returns HTTP 404 (broken). No parseable per-slab rate card available; did not fabricate slabs from the summary range."
+  },
+  "warnings": ["Only a summary FD range (5.50%-7.75%) is published; the detailed interest-rate-policy.pdf is a dead link (404). Senior citizens +0.50%."],
+  "tier2_method": "websearch+webfetch"
+}

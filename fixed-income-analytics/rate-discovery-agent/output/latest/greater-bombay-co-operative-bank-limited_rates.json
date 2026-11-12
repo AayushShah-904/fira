@@ -1,0 +1,174 @@
+{
+  "bank_code": "greater-bombay-co-operative-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-01",
+  "source_url": "https://greaterbank.bank.in/Deposit/term-deposits-account",
+  "scraped_at": "2026-06-09T13:54:44.919Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.6,
+      "rate_senior_pct": 3.6,
+      "rate_super_senior_pct": 3.6,
+      "deposit_range": "below_3cr",
+      "source_row_text": "1. 7 Days to 14 Days 3.60% p.a. 3.60% p.a. 3.60% p.a."
+    },
+    {
+      "tenure_text": "15 Days to 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.6,
+      "rate_senior_pct": 3.6,
+      "rate_super_senior_pct": 3.6,
+      "deposit_range": "below_3cr",
+      "source_row_text": "2. 15 Days to 45 Days 3.60% p.a. 3.60% p.a. 3.60% p.a."
+    },
+    {
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.85,
+      "rate_senior_pct": 3.85,
+      "rate_super_senior_pct": 3.85,
+      "deposit_range": "below_3cr",
+      "source_row_text": "3. 46 Days to 90 Days 3.85% p.a. 3.85% p.a. 3.85% p.a."
+    },
+    {
+      "tenure_text": "91 Days to 124 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 124,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": 4.1,
+      "rate_super_senior_pct": 4.1,
+      "deposit_range": "below_3cr",
+      "source_row_text": "4. 91 Days to 124 Days 4.10% p.a. 4.10% p.a. 4.10% p.a."
+    },
+    {
+      "tenure_text": "125 Days",
+      "tenure_min_days": 125,
+      "tenure_max_days": 125,
+      "rate_general_pct": 4.35,
+      "rate_senior_pct": 4.35,
+      "rate_super_senior_pct": 4.35,
+      "deposit_range": "below_3cr",
+      "source_row_text": "5. 125 Days 4.35% p.a. 4.35% p.a. 4.35% p.a."
+    },
+    {
+      "tenure_text": "126 Days to 150 Days",
+      "tenure_min_days": 126,
+      "tenure_max_days": 150,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": 4.6,
+      "rate_super_senior_pct": 4.6,
+      "deposit_range": "below_3cr",
+      "source_row_text": "6. 126 Days to 150 Days 4.60% p.a. 4.60% p.a. 4.60% p.a."
+    },
+    {
+      "tenure_text": "151 Days to 179 Days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.85,
+      "rate_senior_pct": 4.85,
+      "rate_super_senior_pct": 4.85,
+      "deposit_range": "below_3cr",
+      "source_row_text": "7. 151 Days to 179 Days 4.85% p.a. 4.85% p.a. 4.85% p.a."
+    },
+    {
+      "tenure_text": "180 days to less than 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.35,
+      "rate_senior_pct": 5.35,
+      "rate_super_senior_pct": 5.35,
+      "deposit_range": "below_3cr",
+      "source_row_text": "8. 180 days to less than 1 year 5.35% p.a. 5.35% p.a. 5.35% p.a."
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": 7,
+      "deposit_range": "below_3cr",
+      "source_row_text": "9. 1 year to less than 2 years 7.00% p.a. 7.35% p.a. 7.00% p.a."
+    },
+    {
+      "tenure_text": "400 Days",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": 7,
+      "deposit_range": "below_3cr",
+      "source_row_text": "10. 400 Days 7.00% p.a. 7.35% p.a. 7.00% p.a."
+    },
+    {
+      "tenure_text": "555 Days",
+      "tenure_min_days": 555,
+      "tenure_max_days": 555,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": 7,
+      "deposit_range": "below_3cr",
+      "source_row_text": "11. 555 Days 7.00% p.a. 7.35% p.a. 7.00% p.a."
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.6,
+      "deposit_range": "below_3cr",
+      "source_row_text": "12. 2 years to less than 3 years 6.60% p.a. 6.75% p.a. 6.60% p.a."
+    },
+    {
+      "tenure_text": "3 years up to 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": 6.75,
+      "deposit_range": "below_3cr",
+      "source_row_text": "13. 3 years up to 5 years 6.75% p.a. 6.85% p.a. 6.75% p.a."
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": 7,
+      "deposit_range": "below_3cr",
+      "source_row_text": "14. Above 5 years to 10 years 7.00% p.a. 7.50% p.a. 7.00% p.a."
+    },
+    {
+      "tenure_text": "GB Tax Gain Scheme",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": 6,
+      "deposit_range": "below_3cr",
+      "source_row_text": "15. GB Tax Gain Scheme 6.00% p.a. 6.10% p.a. 6.00% p.a."
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/14 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 15"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 52,
+    "last_scraped_at": "2026-06-09T13:54:44.919Z",
+    "manual_verification_needed": false
+  }
+}

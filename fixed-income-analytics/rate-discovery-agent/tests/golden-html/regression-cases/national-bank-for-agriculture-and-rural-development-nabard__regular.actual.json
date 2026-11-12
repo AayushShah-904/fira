@@ -1,0 +1,12 @@
+{
+  "bank_code": "national-bank-for-agriculture-and-rural-development-nabard",
+  "variant": "regular",
+  "slab_count": 0,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [
+    "NABARD does not accept retail deposits. No FD, savings, or RD rate tables are published. The referenced page contains refinance/lending rates for banks and institutions, not deposit rates."
+  ],
+  "key_rates": {}
+}

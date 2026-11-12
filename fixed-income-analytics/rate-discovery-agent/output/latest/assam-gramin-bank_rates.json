@@ -1,0 +1,140 @@
+{
+  "bank_code": "assam-gramin-bank",
+  "bank_name": "Assam Gramin Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "https://agvb.bank.in/pdf/rate_interest_deposit-account.pdf",
+  "scraped_at": "2026-05-25T17:30:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days to 180 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to less than 271 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 days to less than 1 year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 3 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years to less than or equal to 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Tax Savers Term Deposit (5 years)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "note": "A parallel 'Rs. 1.00 Crore to below Rs. 5.00 Crore' tier carries identical general rates to the below-1cr tier for every slab except Tax Saver (not offered). Staff get +1.00% over normal; Ex-Staff senior citizens +1.50%."
+    }
+  ],
+  "warnings": [
+    "Real domain is agvb.bank.in (bank rebranded to 'Assam Gramin Bank'; old agvbank.co.in no longer resolves). Registry hint pointed at a loan page; correct rate source is the 'Deposit Interest' PDF agvb.bank.in/pdf/rate_interest_deposit-account.pdf.",
+    "Senior-citizen premium of +0.50% applies only to deposits of 1 year and above (per the PDF footnote); rate_senior_pct is general+0.50 for those slabs and null for shorter tenures where no senior premium applies.",
+    "Tax Saver slab listed last (5-year lock-in). Effective date not printed on the circular (left null)."
+  ],
+  "tier2_method": "pdf",
+  "extraction_method": "manual_pdf_transcription",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "pdf",
+    "extraction_method": "manual_pdf_transcription",
+    "sourced_at": "2026-05-25T17:30:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:07.235Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_pdf_transcription",
+      "retained_extraction_method": "manual_pdf_transcription",
+      "retained_scraped_at": "2026-05-25T17:30:00Z",
+      "retained_slab_count": 10
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-05-25T17:30:00Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "bank_code": "the-surendranagar-district-co-operative-bank-ltd",
+  "bank_name": "The Surendranagar District Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 20625,
+  "duration_ms": 20625,
+  "duration_api_ms": 19578,
+  "num_turns": 14,
+  "tool_call_count": 16,
+  "total_cost_usd": 0.255718,
+  "input_tokens": 122551,
+  "output_tokens": 1327,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Surendranagar District Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://surendranagardccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Surendranagar District Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.surendranagardccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://surendranagardccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Surendranagar District Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Surendranagar District Co-operative Bank Gujarat\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Surendranagar District Central Co-operative Bank Gujarat official website\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Surendranagar District Central Co-operative Bank Gujarat FD rates\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Surendranagar District Central Co-operative Bank Gujarat contact\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Surendranagar District Central Co-operative Bank Gujarat branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Surendranagar DCCB Gujarat\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 132,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.gscbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 854,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://gsc.bank.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-surendranagar-district-co-operative-bank-ltd-config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-surendranagar-distr"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-surendranagar-district-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-surendranagar-distri"
+    }
+  ]
+}

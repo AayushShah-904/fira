@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-05-21T00:56:42.510Z",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "succeeded": 10,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "the-andaman-and-nicobar-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 30
+    },
+    {
+      "name": "the-arunachal-pradesh-state-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 55
+    },
+    {
+      "name": "the-assam-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 55
+    },
+    {
+      "name": "the-daman-and-diu-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "the-chandigarh-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 60
+    },
+    {
+      "name": "the-manipur-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 58
+    },
+    {
+      "name": "jharkhand-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 71
+    },
+    {
+      "name": "the-jammu-and-kashmir-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 108
+    },
+    {
+      "name": "the-nagaland-state-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 64
+    },
+    {
+      "name": "the-mizoram-co-operative-apex-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 101
+    }
+  ]
+}

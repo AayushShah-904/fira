@@ -1,0 +1,14 @@
+{
+  "bank_code": "bank-of-india-ibu",
+  "observations": [
+    {
+      "ts": "2026-06-09T14:18:55.236Z",
+      "evidence_url": "https://bankofindia.bank.in/ibu_interest_rate",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: Just a moment...",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

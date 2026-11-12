@@ -1,0 +1,50 @@
+{
+  "bank_code": "etah-district-co-operative-bank-ltd",
+  "bank_name": "etah-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8431,
+  "duration_ms": 8431,
+  "duration_api_ms": 8306,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0086164,
+  "input_tokens": 18837,
+  "output_tokens": 676,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"etah district co-operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etahdistrictcooperativebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etahdistrictcooperativebank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etahdistrictcooperativebankltd.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://etahdistrictcooperativebankltd.bank.in/\"}"
+    }
+  ]
+}

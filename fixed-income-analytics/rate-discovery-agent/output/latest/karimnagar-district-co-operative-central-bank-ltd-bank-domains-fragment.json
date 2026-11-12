@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-05T18:28:46.672Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "karimnagardccb.bank.in",
+  "rate_pages": {
+    "fd": "https://karimnagardccb.bank.in/wp-content/uploads/2024/08/Deposits-Rate.jpg",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-deposits/",
+    "rd": "/recurring-deposit/",
+    "fd_prev": "/rate-of-interest/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "notes": "WordPress. JPEG images embedded in page (not HTML tables, not PDF). 2 tables",
+  "status": "rates_in_images",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://karimnagardccb.bank.in/wp-content/uploads/2024/08/Deposits-Rate.jpg",
+    "slab_count": 6,
+    "hints": "Rate card image dated 24.07.2024, effective 25.07.2024 (latest published on official site). Senior citizen premium per circular: 0.50% over general.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

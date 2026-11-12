@@ -1,0 +1,19 @@
+{
+  "bank_code": "ramanagaram-urban-co-operative-bank-ltd",
+  "bank_name": "ramanagaram-urban-co-operative-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://rucbank.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:26:34.025Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

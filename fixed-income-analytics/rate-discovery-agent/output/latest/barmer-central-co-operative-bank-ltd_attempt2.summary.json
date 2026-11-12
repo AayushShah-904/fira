@@ -1,0 +1,114 @@
+{
+  "bank_code": "barmer-central-co-operative-bank-ltd",
+  "bank_name": "barmer-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14774,
+  "duration_ms": 14774,
+  "duration_api_ms": 13957,
+  "num_turns": 9,
+  "tool_call_count": 12,
+  "total_cost_usd": 0.132202,
+  "input_tokens": 61561,
+  "output_tokens": 1135,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Barmer Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmercentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 162,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmercentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Barmer Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 176,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.barmercentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 184,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmercoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 162,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmerdccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Barmer Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Barmer Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmercentralcoopbank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmercoopbank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barmercentralcoopbank.co.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 8,
+    "domain_was_known": false
+  }
+}

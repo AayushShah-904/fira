@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-maharashtra-ibu",
+    "extracted_at": "2026-06-05T14:04:43.105Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "bankofmaharashtra.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "gift": null,
+    "fd_gift": "/ibu-gift-city"
+  },
+  "scraper_type": "manual",
+  "parent_bank_code": "bank-of-maharashtra",
+  "notes": "Bank of Maharashtra GIFT City IBU. Products show -- (not yet launched).",
+  "status": "wholesale_only",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "GIFT City IFSC Banking Unit. No public foreign-currency (USD/GBP/EUR) term-deposit rate card located; prior attempt found the IBU products not yet launched (rate fields show '--'). Peer IBUs (ICICI/SBI/HDFC/Indian Bank/Axis/Federal) publish FC FD rate PDFs, but no Bank of Maharashtra IBU GIFT-City deposit rate page exists. Re-verified via web search."
+  }
+}

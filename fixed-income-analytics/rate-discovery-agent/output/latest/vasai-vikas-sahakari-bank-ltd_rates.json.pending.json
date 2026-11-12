@@ -1,0 +1,25 @@
+{
+  "bank_code": "vasai-vikas-sahakari-bank-ltd",
+  "bank_name": "Vasai Vikas Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://vvsb.bank.in/deposite/243",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Could not fetch the FD rate page due to DNS resolution failure (getaddrinfo EAI_AGAIN). No rate data extracted."
+  ],
+  "errors": [
+    "Domain unreachable at time of discovery. Operator should retry when the site is available."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

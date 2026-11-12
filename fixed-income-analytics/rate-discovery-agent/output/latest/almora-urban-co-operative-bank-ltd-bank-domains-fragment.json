@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "almora-urban-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T10:59:40.021Z",
+    "source": "bank-domains.json",
+    "source_sha": "aa9e98def3789918d3d7a48cd2b35838c862f8a0da66332f90d0e0937f2ad41e"
+  },
+  "domain": "almoraurban.bank.in",
+  "notes": "Official migrated domain confirmed; but specific FD/NRE/NRO/FCNR/savings rates pages not visible in search snippet",
+  "rate_pages": {
+    "fd": "/FixedDeposit.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/SavingAccount.aspx",
+    "rd": "/RecurringDeposit.aspx"
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "aucb-4col-regular-bulk-mixed",
+    "template_hash": "sha1:4d64ccb54df79cf6ae42e4ff3f9059d7a9c86620",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bank_code": "malda-district-central-co-operative-bank-ltd",
+  "bank_name": "Malda District Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://maldadccb.bank.in/",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://maldadccb.bank.in/Content.aspx?id=ROI",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://maldadccb.bank.in/Content.aspx?id=ROI",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table.content_table",
+    "rows": "tbody tr",
+    "effective_date": "div.col-lg-6 > div > h2"
+  },
+  "column_mapping": {
+    "2": "tenure_text",
+    "3": "rate_general_pct",
+    "4": "rate_senior_pct"
+  },
+  "expected_slab_count": 14,
+  "notes": "FD rates are published in an HTML table on the ROI page. No NRI/FCNR products for DCCB. Special schemes are listed below main slabs.",
+  "scraper_notes": {
+    "framework": "ASP.NET server-rendered",
+    "bot_protection": null,
+    "data_format": "HTML table with strong tags",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "homepage fetch + direct rate page fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

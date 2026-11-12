@@ -1,0 +1,48 @@
+{
+  "bank_code": "wai-urban-coop-bank-ltd",
+  "bank_name": "wai-urban-coop-bank-ltd",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10273,
+  "duration_ms": 10273,
+  "duration_api_ms": 9596,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.091238,
+  "llm_cost_usd": 0.091238,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 41063,
+  "output_tokens": 1139,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 557,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://waibank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 119,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://waibank.co.in/deposit-interest-rate\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/wai-urban-coop-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"wai-urban-coop-bank-ltd\\\",\\n  \\\"bank_name"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/wai-urban-coop-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"wai-urban-coop-bank-ltd\\\",\\n  \\\"bank_name\\"
+    }
+  ]
+}

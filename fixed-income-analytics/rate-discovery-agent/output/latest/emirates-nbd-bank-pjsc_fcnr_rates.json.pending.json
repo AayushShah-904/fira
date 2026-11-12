@@ -1,0 +1,131 @@
+{
+  "bank_code": "emirates-nbd-bank-pjsc",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-03-11",
+  "source_url": "https://emiratesnbd.bank.in/en/interest-rates",
+  "scraped_at": "2026-07-07T14:26:13.326Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "275 days and less than 1 year",
+      "tenure_min_days": 640,
+      "tenure_max_days": 640,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 year 1 day - 1 year 9 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 374,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 year 10 days",
+      "tenure_min_days": 375,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "1 year 11 days and less than 18 months",
+      "tenure_min_days": 916,
+      "tenure_max_days": 916,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "18 months and less than 2 years",
+      "tenure_min_days": 1270,
+      "tenure_max_days": 1270,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 years and less than 3 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3 years and <=5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "12m to <=13m",
+      "tenure_min_days": 360,
+      "tenure_max_days": 390,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "13m to <=24m",
+      "tenure_min_days": 390,
+      "tenure_max_days": 720,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "24m to <=36m",
+      "tenure_min_days": 720,
+      "tenure_max_days": 1080,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 9 (12m to <=13m): fcnr tenure 360d below minimum (365d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 134,
+    "last_scraped_at": "2026-07-07T14:26:13.326Z",
+    "manual_verification_needed": true
+  }
+}

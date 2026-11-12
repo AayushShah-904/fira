@@ -1,0 +1,97 @@
+{
+  "bank_code": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+  "bank_name": "Tumkur Veerashaiva Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": "https://tvcbltd.bank.in/",
+  "scraped_at": "2026-05-27T18:20:23.244Z",
+  "effective_date": "2026-05-27",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 to 90 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "15 to 90 Days Rate of Interest is 4.5%; 0.50% Extra Interest will be given for Senior Citizens"
+    },
+    {
+      "tenure_text": "91 to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "91 to 180 Days Rate of Interest is 5.5%; 0.50% Extra Interest will be given for Senior Citizens"
+    },
+    {
+      "tenure_text": "181 Days to 1 Year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "181 Days to 1 Year Rate of Interest is 6%; 0.50% Extra Interest will be given for Senior Citizens"
+    },
+    {
+      "tenure_text": "Above 1 Year up to 3 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 1 Year up to 3 Years Rate of Interest is 7%; 0.50% Extra Interest will be given for Senior Citizens"
+    },
+    {
+      "tenure_text": "Above 1 Year up to 3 Years (deposits > Rs.15 lakh)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_15l",
+      "currency": null,
+      "source_row_text": "Above 1 year and up to 3 Years, deposits exceeding Rs. 15 lakhs: 7.5% p.a."
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 fix: re-extracted from the bank's own site (prior rows were garbled run-on text). Senior +0.50% per page note. Dropped the 0-14 day 0% (no-interest) band."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "sourced_at": "2026-05-27T18:20:23.244Z",
+    "source_url": "https://tvcbltd.bank.in/",
+    "discovery_status": "recovered"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:46:01.173Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-27T18:20:23.244Z",
+      "retained_slab_count": 5
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 57,
+    "last_scraped_at": "2026-05-27T18:20:23.244Z",
+    "manual_verification_needed": false
+  }
+}

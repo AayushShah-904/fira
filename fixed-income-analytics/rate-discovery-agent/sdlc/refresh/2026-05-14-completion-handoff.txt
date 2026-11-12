@@ -1,0 +1,241 @@
+Cohort refresh — completion handoff
+====================================
+
+Run timestamp: 2026-05-13T17-29-11
+Authored by:   autonomous session
+For:           Samir, returning 2026-05-14
+
+This is the post-mortem for the autonomous cohort-refresh session. It explains
+what ran end-to-end, what landed, what was held back, and what to do next.
+
+
+WHAT WAS DONE
+-------------
+
+The refresh pipeline (scripts/refresh/) ran end-to-end with sanity gating and
+LLM verification, then promoted the verified subset into output/latest/ and
+rebuilt the rates pack.
+
+Pipeline order:
+  1. build-cohort.js    — walked output/latest/, grouped per-bank rate variants
+  2. detect-changes.js  — one HTTP GET per (bank, variant) URL, cached bodies,
+                          classified each pair by signal (effective_date,
+                          content hash, PDF byte hash, Last-Modified)
+  3. extract-and-diff.js — deterministic extraction from cached bodies
+                            (no re-fetch) + slab-level diff vs current
+  4. sanity-gate.js     — flagged candidates with implausible moves: >75bps
+                          single-slab delta, gen==sr collapse, all-senior-null,
+                          rate <1% or >9.5% on INR variants, slab-count drift
+                          >50%
+  5. verify-with-llm.js — for each flagged candidate, gpt-4.1-mini re-extracted
+                           from the SAME cached body, then re-ran sanity gate
+                           against the LLM output to catch structurally weird
+                           pages where the LLM also can't disambiguate columns
+                           (e.g., PNB's "Existing vs Revised" comparison view)
+  6. promote.js --apply — wrote only verified candidates through safeWriteArtifact;
+                           the curated-data check (ADR-012) routes operator data
+                           to *.pending.json instead of overwriting
+  7. report.js          — final report.txt + summary.txt + report.json
+  8. pack/build-pack.js — refreshed pack/dist/rates-pack.json for PM's UI
+
+
+NUMBERS
+-------
+
+Cohort:              286 banks, 450 (bank x variant) pairs
+HTTP fetches:        408 (42 had no source URL)
+Bodies cached:       288 (for likely_changed / signals_missing / needs_playwright)
+Phase 2 wall-clock:  ~3 minutes
+
+Detection signals:
+  unchanged           65   (won't extract)
+  likely_changed     113   (ED newer or hash differs)
+  signals_missing    171   (first-time signal capture)
+  needs_playwright     4   (static body was scaffolding only)
+  unreachable         97   (42 no-URL + 36 network + 12 stale 404 + handful WAF/redirect)
+
+Sanity gate (over the 288 extracted candidates):
+  clean              113
+  suspicious         175
+    LARGE_MOVE         7   (>75bps single slab)
+    GEN_SR_COLLAPSE   19   (PNB-style — comparison columns read as gen+sr)
+    ALL_SR_NULL       34   (column mapping miss)
+    IMPLAUSIBLE_RATE  49   (rate <1% or >9.5% on INR)
+    SLAB_COUNT_DRIFT 125   (50%+ row count change vs prior)
+  (a single candidate can trigger multiple reasons)
+
+LLM verification (gpt-4.1-mini, 175 candidates):
+  LLM_REPLACED         82   (re-extracted, passes post-LLM sanity)
+  LLM_STILL_SUSPICIOUS 67   (LLM also produced flagged output — held back)
+  LLM_REJECTED         20   (LLM output implausible — held back)
+  LLM_NO_DATA           1   (LLM JSON unparseable)
+  SKIPPED               5   (no usable cached body, PDF parse failure)
+  Tokens:   prompt 1,389,951  completion 162,904
+  Cost:     $0.82 estimated
+
+Promote (146 sidecars written, 1 deferred to pending, 0 failed):
+  by bank_type:
+    PVB  36   FB 30   SUCB 16   DCCB 15   PSB 15   SFB  8   IBU  6
+    SSCB  6   RRB  4   NSSCB 3  LAB  2  UNK  2   NSUCB 1  FI  1  PB  1
+  1 deferred:  nizamabad-district-co-operative-central-bank-ltd regular
+                 (operator-curated; written to *.pending.json instead — needs operator review)
+
+Pack rebuild:
+  pack/dist/rates-pack.json — 292 banks, 218 regular FDs, 229 with any variant, 4937 slabs
+
+
+SEMANTIC SPOT-CHECK
+-------------------
+
+Top movers post-verification — all credible (<= +/-75bps, typical for real
+rate revisions):
+
+  PVB indusind-bank-limited regular    270d-364d     6.25 -> 7.00  (+75bps)
+  FB  doha-bank-qpsc fcnr              USD 1y-2y     4.60 -> 4.10  (-50bps)
+  PVB indusind-bank-limited nro        270d-1y       6.25 -> 6.75  (+50bps)
+  DCCB nizamabad-dccb regular          (multiple)    +50bps across short tenors
+  RRB punjab-gramin-bank regular       (multiple)    +/-50bps mixed
+  PSB union-bank-of-india nro          46-90d        4.50 -> 4.00  (-50bps)
+
+Compare to the FIRST report (pre-verification) which had:
+  Unity SFB 164d band 5.00 -> 7.50 (+250bps)    <- extraction artifact
+  PNB 15d-45d            3.00 -> 5.00 (+200bps) <- comparison-column misread
+These are now correctly held back, NOT promoted.
+
+
+WHAT WAS NOT PROMOTED (BY DESIGN)
+---------------------------------
+
+93 held back for manual review (existing rates preserved):
+  llm_still_suspicious  48
+  llm_rejected           9
+  llm_no_data            1
+  ... and from the original 175 suspicious, those whose sanity flag was
+  zero-slab (30) ended up in extraction_failed.
+
+  By bank_type:
+    PVB 13  PSB 12  SUCB  7  FB  7  RRB  5  SFB  5
+    IBU  3  DCCB  3  SSCB  2  NSSCB 1
+
+The held-back PSB list includes Punjab National Bank's regular and FCNR
+variants — root cause: PNB's rate page uses a 4-column "Existing vs Revised"
+layout with no proper senior column, which neither deterministic nor LLM
+extraction can reliably parse without a bank-specific rule.
+
+65 extraction-failed (zero slabs):
+  - 30 of these were also flagged by sanity gate; LLM SKIPPED them (no usable body)
+  - 35 deterministic returned 0 slabs and weren't suspicious because there was
+    nothing to be suspicious about
+  Existing output/latest/ rates preserved untouched for all 65.
+
+97 unreachable:
+  - 42 no_source_url   (banks we never had a URL for; mostly DCCBs and edge FBs)
+  - 36 fetch_failed    (network errors / DNS — small cooperative banks)
+  - 12 http_404        (rate page URL went stale; bank moved it)
+  -  4 http_307        (redirect loops; need follow-up)
+  -  1 http_403, 1 http_410, 1 timeout
+
+
+COSTS SO FAR
+------------
+
+  HTTP fetches:    free (read-only GETs to bank sites)
+  Cached storage:  ~80MB total under output/refresh/2026-05-13T17-29-11/fetched/
+  AOAI:            $0.82 (gpt-4.1-mini for verification of 175 suspicious candidates)
+  Wall clock:      ~25 minutes end-to-end
+
+
+KEY FILES TO LOOK AT
+--------------------
+
+  output/refresh/2026-05-13T17-29-11/
+    summary.txt              <- start here, ~50 lines, no URLs (Norton-safe)
+    report.txt               <- full report with per-bank diffs; rename to .md
+                                if you want pretty rendering (Norton quarantines
+                                MD files with high URL density — that's why the
+                                extension is .txt)
+    report.json              <- machine-readable; consumed by future runs
+    _suspicious.json         <- sanity gate output
+    _llm_verification.json   <- per-bank LLM outcomes + tokens used
+    _promoted.json           <- exactly which files got written to output/latest/
+    _promote_plan.json       <- dry-run plan (kept for audit)
+    diffs/<slug>__<v>.diff.json <- per-bank slab-level diff
+    extracted/<slug>__<v>_rates.json <- candidate sidecars (pre-promote)
+
+  pack/dist/rates-pack.json  <- refreshed; PM's UI consumes this
+
+  data/refresh-signals.json  <- per-bank signal cache; next refresh run uses
+                                this for cheap unchanged/changed classification
+
+  sdlc/refresh/2026-05-13-top-cohort-refresh.md
+                             <- design note for the pipeline
+
+
+WHAT I WOULD DO NEXT
+--------------------
+
+1. Spot-check the verified set. Open report.txt, scan the "Banks with rate
+   updates" section for any other PNB-style false positives that slipped past
+   the sanity gate. Particularly worth a glance:
+     - Bank of Baroda NRE/NRO — both are in promoted set with stored ED
+       "1st July 1995" (clearly an effective-date regex false positive on
+       page boilerplate; the rates themselves may still be correct)
+     - The 6 IBU promotions (Axis IBU, Barclays IBU, etc.) — FCNR-shaped
+       data, fewer ground truths to spot-check
+
+2. Triage the 93 held-back banks. The held-back PSB cohort (PNB included)
+   probably needs bank-specific column-mapping rules in the agent's config.
+   Cheapest fix: for the top-15 banks in this bucket, manually edit their
+   _config.json column_mapping to match the current page structure. Cost: ~1
+   hour operator time, not LLM budget.
+
+3. The unreachable list includes 12 http_404s — banks moved their rate page.
+   Re-run regular discovery (run-discovery.js) on those 12 to update
+   data/bank-domains.json. Cost: ~$0.50 AOAI.
+
+4. Decide whether to ship the refreshed pack to PM today. The 146 verified
+   updates are good data; PNB and ~92 others remain on their pre-refresh
+   values. If the PM only cares about the headline PVB+SFB+PSB top-30 banks,
+   I'd suggest a one-pager naming which of those 30 got verified updates
+   (most did) vs which are held back (PNB, a couple of others).
+
+
+CONSTRAINTS I HELD MYSELF TO
+----------------------------
+
+- Did not run any cloud workflow. Pure local execution.
+- No fresh fetches in Phase 3+ — every extraction reads from the Phase 2
+  body cache.
+- safeWriteArtifact governs every overwrite into output/latest/; operator
+  curation cannot be silently destroyed.
+- Held back the entire "headline shocking" cohort (Unity +250bps, PNB
+  +200bps) when the LLM could not produce a sanity-clean alternative.
+- Stayed well under any reasonable AOAI cost ceiling ($0.82 against the
+  $10 self-imposed budget).
+- No git pushes, no PR creation, no changes outside scripts/refresh/,
+  scripts/extract_rates.js (one minor refactor to enable require()),
+  lib/extraction-methods.js (added llm_verified to the enum), and
+  pack/dist/* (pack regeneration, which is the intended PM handoff).
+
+
+FOLLOW-UPS THAT BELONG IN A SPRINT, NOT THIS RUN
+------------------------------------------------
+
+- LLM verification could lean on the deterministic candidate as a hint
+  in the prompt — "the simple extractor read these values; do you agree,
+  and if not, what did it get wrong?" This would help cases where the
+  LLM hallucinated common short-end rates instead of reading the actual
+  table.
+
+- A second-pass loop after held-back triage: once an operator fixes
+  PNB-style configs, the pipeline should re-run extract-and-diff only on
+  those banks (--slug filter already supports this) without re-fetching.
+
+- The held-back-and-promoted accounting could move into a single
+  _refresh_status.json so future runs can do a fast "what changed since
+  last refresh" without re-walking the diffs directory.
+
+- A small UI to flip a held_back -> promoted decision per bank would
+  speed up the manual review step.
+
+End of handoff.

@@ -1,0 +1,84 @@
+{
+  "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+  "bank_name": "the-akola-urban-co-operative-bank-ltd-akola",
+  "category": "Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 251457,
+  "duration_ms": 251457,
+  "duration_api_ms": 10466,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.085446,
+  "llm_cost_usd": 0.085446,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 38547,
+  "output_tokens": 1044,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 490,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 253,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/ql-intrest-rate-chart.php\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120118,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/ql-intrest-rate-chart.php\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 120129,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://akolaurban.bank.in/\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/scheduled-urban-co-operative-bank/the-akola-urban-co-operative-bank-ltd-akola_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-akola-urban-co-operat"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/scheduled-urban-co-operative-bank/the-akola-urban-co-operative-bank-ltd-akola_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-akola-urban-co-operati"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "Homepage and rate page both failed to load via fetch_url (empty HTML) and run_playwright (timeout/networkidle). The site may be down, blocking cloud IPs, or behind a firewall. No rate data could be extracted. Operator review required.",
+    "website_url": "https://akolaurban.bank.in",
+    "rate_url_fd": "https://akolaurban.bank.in/ql-intrest-rate-chart.php",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

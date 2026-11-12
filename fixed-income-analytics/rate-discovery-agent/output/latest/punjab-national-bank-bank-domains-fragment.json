@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "bank_code": "punjab-national-bank",
+    "extracted_at": "2026-06-05T09:33:22.994Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "pnb.bank.in",
+  "rate_pages": {
+    "fd": "/Interest-Rates-Deposit.html",
+    "fd_nre": "/Interest-Rates-Deposit.html",
+    "fd_nro": "/Interest-Rates-Deposit.html",
+    "fd_fcnr": "/Interest-Rates-Deposit.html",
+    "fd_nri_combined": "/Interest-Rates-Deposit.html",
+    "savings": "/Interest-Rates-Deposit.html",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "All deposit rates (domestic, NRE, NRO, FCNR, savings) on single page. NRO rates = domestic general public rates. Static HTML tables.",
+  "template": {
+    "template_id": "pnb-multi-tiered-regular-bulk-uttam-super-senior",
+    "template_hash": "sha1:31cba6802aedeea654119f54fb5876c3a517d924",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 17,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct",
+            "4": "rate_super_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 18,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct",
+            "4": "rate_super_senior_pct"
+          },
+          "deposit_range": "1cr_to_3cr"
+        },
+        {
+          "table_index": 19,
+          "header_row": 2,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "3": "rate_general_pct",
+            "5": "rate_general_pct@uttam"
+          },
+          "deposit_range": "3cr_to_10cr"
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 73,
+      "cluster_reused": false
+    }
+  }
+}

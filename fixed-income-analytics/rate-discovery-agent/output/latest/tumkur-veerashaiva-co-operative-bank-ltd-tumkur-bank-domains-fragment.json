@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "bank_code": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+    "extracted_at": "2026-06-06T10:34:39.054Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "tvcbltd.bank.in",
+  "rate_pages": {
+    "fd": "/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "domain_source": "discovered",
+  "last_discovered_at": "2026-05-27T18:20:23.244Z",
+  "discovery_status": "recovered",
+  "notes": "Own site; re-extracted sprint-008.",
+  "extraction_method": "manual_transcription_from_rendered_text"
+}

@@ -1,0 +1,24 @@
+{
+  "bank_code": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\ahmednagar-shahar-sahakari-bank-ltd-ahmednagar_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.416934Z",
+  "overall_passed": false,
+  "metrics": {
+    "schema_completeness": {
+      "score": 100,
+      "passed": true,
+      "reason": "All required fields present",
+      "missing_breakdown": {}
+    },
+    "extraction_confidence": {
+      "score": 40,
+      "passed": false,
+      "reason": "Confidence=high but only 4 slabs found (expected >=5)"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

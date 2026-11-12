@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "qatar-national-bank-qpsc",
+    "extracted_at": "2026-06-05T11:57:34.021Z",
+    "source": "bank-domains.json",
+    "source_sha": "d4c965f8960ae816dbe0af8cf78777c8bae86c6e274ea7bd1bcf21db8a24df79"
+  },
+  "domain": "qnb.com",
+  "scraper_type": "manual",
+  "notes": "QNB India. No India-specific website. GIFT City IBU rates on qnb.com India section.",
+  "status": "rates_not_published",
+  "domain_source": "manual",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  }
+}

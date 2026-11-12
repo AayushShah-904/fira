@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "janakalyan-sahakari-bank-ltd-mumbai",
+    "extracted_at": "2026-06-05T13:28:55.698Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "janakalyan.bank.in",
+  "rate_pages": {
+    "fd": "/Encyc/2019/5/27/Interest-Rate-Term-Deposits.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML table with 4 columns (tenure, general, senior citizen, high net worth). 1 tables",
+  "template": {
+    "template_id": "coop-bankin-4col-tenure-general-senior-super-senior",
+    "template_hash": "sha1:5942564245e1aca71e2c07ceff0812d5860438f0",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

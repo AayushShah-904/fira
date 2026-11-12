@@ -1,0 +1,22 @@
+{
+  "bank_code": "indian-mercantile-co-operative-bank-ltd",
+  "bank_name": "Indian Mercantile Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "imcbankltd.in",
+    "found_via": "registry_hint",
+    "notes": "Bank's own site exists. Prior reachable visit confirmed /term-deposit-rate-of-intt/ is an empty template (141KB HTML, header+nav only, 0 tables, 0 percent values, no rate image/PDF) via both Playwright and WebFetch; already flagged scraper_type=manual. This re-check found the whole site now returns HTTP 409 to automated clients (transient WAF), but the underlying issue is that the rate page publishes no data — requires manual entry."
+  },
+  "warnings": [
+    "/term-deposit-rate-of-intt/ is an empty template with no rate table/image/PDF (confirmed previously via Playwright, 141KB HTML, 0 tables).",
+    "Re-check: site currently returns HTTP 409 to automated clients (WAF) — could not re-render, but prior finding stands."
+  ],
+  "tier2_method": "playwright+webfetch"
+}

@@ -1,0 +1,18 @@
+{
+  "bank_code": "karur-vysya-bank-limited",
+  "bank_name": "karur-vysya-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "website": "https://kvb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://kvb.bank.in/nri/products/deposits/fcnr-deposits/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:42:33.498Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

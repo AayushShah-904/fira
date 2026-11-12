@@ -1,0 +1,13 @@
+{
+  "bank_code": "doha-bank-qpsc",
+  "bank_name": "Doha Bank Q.P.S.C.",
+  "bank_type": "FB",
+  "state": "Qatar",
+  "website": "https://in.dohabank.bank.in",
+  "rate_page_url": "https://in.dohabank.bank.in/personal-banking/deposit-interest-rates/",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 18,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

@@ -1,0 +1,48 @@
+{
+  "bank_code": "state-bank-of-india",
+  "bank_name": "state-bank-of-india",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10573,
+  "duration_ms": 10573,
+  "duration_api_ms": 10572,
+  "num_turns": 2,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.045182,
+  "llm_cost_usd": 0.045182,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 15231,
+  "output_tokens": 1840,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 1,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sbi.bank.in/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-nre-fixed-deposit-interest-rate\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sbi.bank.in/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-nro-fixed-deposit-interest-rate\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sbi.bank.in/web/interest-rates/interest-rates/sbi-nri-services-interest-rates/sbi-nri-services-fcnr-deposit-interest-rate\",\"accordions\":true}"
+    }
+  ]
+}

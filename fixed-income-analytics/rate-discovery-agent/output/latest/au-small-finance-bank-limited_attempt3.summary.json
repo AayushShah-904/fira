@@ -1,0 +1,48 @@
+{
+  "bank_code": "au-small-finance-bank-limited",
+  "bank_name": "au-small-finance-bank-limited",
+  "category": "Small Finance Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "small-finance-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 66936,
+  "duration_ms": 66936,
+  "duration_api_ms": 52257,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.401976,
+  "llm_cost_usd": 0.401976,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 192064,
+  "output_tokens": 2231,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 7436,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://au.bank.in/interest-rates/fixed-deposit-interest-rates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 7242,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://au.bank.in/interest-rates/au-fcnr\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/au-small-finance-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"au-small-finance-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"A"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/small-finance-bank/au-small-finance-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"au-small-finance-bank-limited\\\",\\n  \\\"bank_name\\\": \\\"AU"
+    }
+  ]
+}

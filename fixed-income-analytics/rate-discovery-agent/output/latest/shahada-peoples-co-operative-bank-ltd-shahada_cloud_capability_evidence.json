@@ -1,0 +1,17 @@
+{
+  "bank_code": "shahada-peoples-co-operative-bank-ltd-shahada",
+  "observations": [
+    {
+      "ts": "2026-06-09T01:49:48.411Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T16:32:02.304Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

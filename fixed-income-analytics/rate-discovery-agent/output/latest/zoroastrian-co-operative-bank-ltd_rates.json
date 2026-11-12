@@ -1,0 +1,117 @@
+{
+  "bank_code": "zoroastrian-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://zoroastrianbank.bank.in/download/InterestRates-Deposits.pdf",
+  "scraped_at": "2026-06-09T14:12:10.579Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15\t \tdays\t \tto\t \t45\t \tdays",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46\t \tdays\t \tto\t \t90\t \tdays",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181\t \tdays\t \tto\t \tless\t \tthan\t \ta\t \tyear",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1\t \tyear upto\t \t15\t \tmonths",
+      "tenure_min_days": 365,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t15\t \tmonths up\t \tto\t \t2\t \tyears",
+      "tenure_min_days": 450,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t2\t \tyears\t \tup\t \tto\t \t3\t \tyears",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t3\t \tyears\t \tup\t \tto\t \t5\t \tyears",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t5\t \tyears\t \tup\t \tto\t \t10\t \tyears",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1\t \tYear\t \tupto\t \t15\t \tMonths",
+      "tenure_min_days": 365,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t15\t \tMonths\t \tupto\t \t2\t \tYears",
+      "tenure_min_days": 450,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t3\t \tYears\t \tupto\t \t5\t \tYears",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Over\t \t5\t \tYears\t \tupto\t \t10\t \tYears",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T14:12:10.579Z",
+    "manual_verification_needed": false
+  }
+}

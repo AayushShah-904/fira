@@ -1,0 +1,25 @@
+{
+  "bank_code": "the-manipur-state-co-operative-bank-ltd",
+  "bank_name": "The Manipur State Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-21",
+  "source_url": "https://mscbmanipur.in",
+  "scraped_at": "2026-05-21T00:52:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Bank website (mscbmanipur.in) is not reachable (DNS failure). No rate data could be extracted. Operator intervention required."
+  ],
+  "errors": [
+    "Fetch failed: getaddrinfo ENOTFOUND mscbmanipur.in"
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-05-21T00:52:00Z",
+    "manual_verification_needed": false
+  }
+}

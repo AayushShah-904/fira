@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "bank_code": "dhanlaxmi-bank-limited",
+    "extracted_at": "2026-06-05T09:46:44.117Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "dhan.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates/",
+    "savings": "/interest-rates/",
+    "fd_nre": "/interest-rates/",
+    "fd_nro": "/interest-rates/",
+    "fd_fcnr": "/interest-rates/",
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Next.js (server-rendered with JSON component data embedded in HTML)",
+  "template": {
+    "template_id": "dhanlaxmi-multi-tiered-regular-bulk-fcnr",
+    "template_hash": "sha1:d48c5645cce4e81edd8fe8c56b46bcba0ad586e8",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 10,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_general_pct@3cr_to_5cr",
+            "2": "rate_general_pct@3cr_to_5cr",
+            "3": "rate_general_pct@3cr_to_5cr",
+            "4": "rate_general_pct@3cr_to_5cr",
+            "5": "rate_general_pct@3cr_to_5cr",
+            "6": "rate_general_pct@3cr_to_5cr",
+            "7": "rate_general_pct@3cr_to_5cr",
+            "8": "rate_general_pct@3cr_to_5cr",
+            "9": "rate_general_pct@3cr_to_5cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 6,
+          "header_row": 2,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "currency",
+            "1": "amount",
+            "2": "rate_general_pct@fcnr_1y_to_2y",
+            "3": "rate_general_pct@fcnr_2y_to_3y",
+            "4": "rate_general_pct@fcnr_3y_to_4y",
+            "5": "rate_general_pct@fcnr_4y_to_5y",
+            "6": "rate_general_pct@fcnr_5y"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.135Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

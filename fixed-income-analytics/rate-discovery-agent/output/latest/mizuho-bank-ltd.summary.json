@@ -1,0 +1,132 @@
+{
+  "bank_code": "mizuho-bank-ltd",
+  "bank_name": "mizuho-bank-ltd",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "orchestrator",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 15162,
+  "duration_ms": 15162,
+  "duration_api_ms": 473,
+  "num_turns": 0,
+  "tool_call_count": 14,
+  "total_cost_usd": 0,
+  "llm_cost_usd": 0,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "find_website",
+      "duration_ms": 1377,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:domain",
+      "duration_ms": 17,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd",
+      "duration_ms": 892,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "fetch_page:fd",
+      "duration_ms": 1043,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_rate_page:fd",
+      "duration_ms": 3,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "extract_pdf_table:fd",
+      "duration_ms": 1223,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nre",
+      "duration_ms": 3661,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_nre",
+      "duration_ms": 10,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_nro",
+      "duration_ms": 3619,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_nro",
+      "duration_ms": 11,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "find_rate_page:fd_fcnr",
+      "duration_ms": 2819,
+      "is_error": true,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_to_registry:rate_page_null:fd_fcnr",
+      "duration_ms": 12,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "commit_config",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": ""
+    },
+    {
+      "name": "classify_outcome",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": ""
+    }
+  ],
+  "failure_class": "agent_error",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "pdf",
+    "notes": "",
+    "website_url": "https://mizuhogroup.com",
+    "rate_url_fd": "https://mizuhogroup.com/asia-pacific/india/products-and-rates/rates",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": false,
+    "initial_tier": 1,
+    "retry_attempted": false,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

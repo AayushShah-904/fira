@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "bank_code": "indore-premier-co-operative-bank-ltd",
+    "extracted_at": "2026-06-09T00:35:32.357Z",
+    "source": "bank-domains.json",
+    "source_sha": "de587d3462b232d54d3203cecaf19d193ff0fae6834644ec62132ef3c509227a"
+  },
+  "domain": "ipc.bank.in",
+  "rate_pages": {
+    "fd": "/%e0%a4%ac%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%9c-%e0%a4%a6%e0%a4%b0/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "confidence": "high",
+  "last_discovered_at": "2026-05-12T00:00:00Z",
+  "extraction_notes": "multilingual_hindi",
+  "notes": "Official site at ipc.bank.in (3-letter acronym domain — agent missed this). Rate page URL path is URL-encoded Hindi (Devanagari): /ब्याज-दर/ = byaj-dar = interest-rate. Verified 2026-05-12 via Playwright — 1 HTML table with 8 slabs (7 days to 5+ years) and 3 rate columns. Tenure text is in Hindi (e.g., \"7 दिन से 14 दिन तक\"); the existing English-only text parser yields 0 slabs from this page. Extraction needs multilingual support — see L8 in agent-learnings.md. The dccbinb.com/IPCB surface the agent originally found is just the bank's online-banking login portal, not the public rate page.",
+  "effective_date": "2026-05-12",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 72,
+    "last_scraped_at": "2026-07-23T14:01:43.498Z",
+    "manual_verification_needed": false
+  }
+}

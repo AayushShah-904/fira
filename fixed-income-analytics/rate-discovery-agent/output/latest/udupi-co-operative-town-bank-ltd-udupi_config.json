@@ -1,0 +1,19 @@
+{
+  "bank_code": "udupi-co-operative-town-bank-ltd-udupi",
+  "bank_name": "udupi-co-operative-town-bank-ltd-udupi",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://udupitown.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://udupitown.bank.in/page/24"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:54:07.262Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_pdf"
+}

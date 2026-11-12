@@ -1,0 +1,15 @@
+{
+  "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+  "bank_name": "Rajkot Nagrik Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://rnsb.bank.in/RNSB/fixed-term-deposit.php",
+  "scraped_at": "2026-05-25T11:22:14.143Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "FD rate page renders rates only as JPG images under /admin/uploads/ (no HTML table, no PDF, no rate text). Playwright on both rnsb.bank.in and legacy rnsbindia.com (302-redirects to .bank.in) returned empty rate tables. WebFetch returned navigation only. Requires OCR of the rate image or manual entry."
+  ],
+  "tier2_method": "playwright+webfetch (no machine-readable rates found)"
+}

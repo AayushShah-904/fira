@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "coimbatore-district-central-co-opertive-bank-ltd",
+    "extracted_at": "2026-06-05T15:49:53.327Z",
+    "source": "bank-domains.json",
+    "source_sha": "ef427ffa0138d5d6fed70edf3cff3ae53b9a4e81e003fb30db332d0ccf9c400e"
+  },
+  "domain": "cdcc.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest-rates/deposit/",
+    "rd": null
+  },
+  "scraper_type": "html_js"
+}

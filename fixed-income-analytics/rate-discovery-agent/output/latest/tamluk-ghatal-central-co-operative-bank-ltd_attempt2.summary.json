@@ -1,0 +1,126 @@
+{
+  "bank_code": "tamluk-ghatal-central-co-operative-bank-ltd",
+  "bank_name": "tamluk-ghatal-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 25368,
+  "duration_ms": 25368,
+  "duration_api_ms": 16477,
+  "num_turns": 11,
+  "tool_call_count": 14,
+  "total_cost_usd": 0.193632,
+  "input_tokens": 91688,
+  "output_tokens": 1282,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Tamluk Ghatal Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tamlukghatalccb.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tamluk Ghatal Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tamlukghatalccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tamlukghatalccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 168,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tamlukghatalcentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tamluk Ghatal Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tamluk Ghatal Central Co-operative Bank Ltd website\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Tamluk Ghatal Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 3552,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://pbcoopbank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 4839,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.pbcoopbank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tamlukghatalcentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 46,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tamlukghatalcentralcoopbank.org/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 150,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tamlukghatalcentralcoopbank.org/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 7,
+    "domain_was_known": false
+  }
+}

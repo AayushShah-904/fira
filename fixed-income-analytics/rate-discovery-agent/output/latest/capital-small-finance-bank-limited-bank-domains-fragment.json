@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "bank_code": "capital-small-finance-bank-limited",
+    "extracted_at": "2026-06-05T10:53:26.994Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "capital.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates/callable-domestic-term-deposit",
+    "fd_non_callable": "/interest-rates/non-callable-domestic-term-deposit",
+    "fd_bulk_callable": "/interest-rates/bulk-callable-term-deposits",
+    "fd_bulk_non_callable": "/interest-rates/bulk-non-callable-term-deposits",
+    "fd_tax_saver": "/interest-rates/tax-saver-fixed-deposit",
+    "fd_nre": "/interest-rates/nre-term-deposits",
+    "fd_nro": "/interest-rates/nro-term-deposits",
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/interest-rates/savings-bank-account",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML with .bank.in domain",
+  "template": {
+    "template_id": "capital-sfb-2table-general-senior",
+    "template_hash": "sha1:9245ff791b1b84b9a4f768aadce22f53907c61a7",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.502Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "cluster_reused": false
+    }
+  }
+}

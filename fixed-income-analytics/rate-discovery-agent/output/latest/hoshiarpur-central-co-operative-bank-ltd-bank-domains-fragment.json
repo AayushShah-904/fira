@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "hoshiarpur-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:36:33.051Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "hoshiarpur.pbcoopbank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://hoshiarpur.pbcoopbank.in/deposit-interest-rates/",
+    "fd_prev": "/fixed-deposit/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "domain_prev": "hcb.bank.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "https://hoshiarpur.pbcoopbank.in/deposit-interest-rates/",
+    "slab_count": 10,
+    "hints": "Senior citizen rates computed as general +0.50% per page note (conditions apply); not shown as explicit column. Rates for deposits >= 1 crore not published on page.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

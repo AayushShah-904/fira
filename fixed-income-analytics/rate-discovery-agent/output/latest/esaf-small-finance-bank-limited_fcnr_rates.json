@@ -1,0 +1,143 @@
+{
+  "bank_code": "esaf-small-finance-bank-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://www.esaf.bank.in/interest-rates/",
+  "scraped_at": "2026-06-15T12:37:05.579Z",
+  "effective_date": "2026-06-15",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "scraper_type": "html_static",
+  "rate_slabs": [
+    {
+      "tenure_text": "365 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_500k"
+    },
+    {
+      "tenure_text": "365 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "500k_and_above"
+    },
+    {
+      "tenure_text": "366 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 366,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_500k"
+    },
+    {
+      "tenure_text": "366 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 366,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "500k_and_above"
+    },
+    {
+      "tenure_text": "367 days to 729 days",
+      "tenure_min_days": 367,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_500k"
+    },
+    {
+      "tenure_text": "367 days to 729 days",
+      "tenure_min_days": 367,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "500k_and_above"
+    },
+    {
+      "tenure_text": "730 days to 1095 days",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_500k"
+    },
+    {
+      "tenure_text": "730 days to 1095 days",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "500k_and_above"
+    },
+    {
+      "tenure_text": "1096 days to 1460 days",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_500k"
+    },
+    {
+      "tenure_text": "1096 days to 1460 days",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 7.13,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "500k_and_above"
+    },
+    {
+      "tenure_text": "1461 days to 1826 days",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1826,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_500k"
+    },
+    {
+      "tenure_text": "1461 days to 1826 days",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1826,
+      "rate_general_pct": 7.13,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "500k_and_above"
+    }
+  ],
+  "warnings": [
+    "Direct-extracted 2026-06-15 from Table 0 (\"Interest Rates for FCNR (B) Deposits\", effective 15-June-2026) on esaf.bank.in/interest-rates/. Agent re-extract pass extracted only domestic FD from this same page (23 domestic slabs) and skipped this section.",
+    "USD only — no other currencies published. Two amount tiers: \"less than USD 500,000/-\" and \"USD 500,000/- & above\" (encoded as below_500k / 500k_and_above)."
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 38,
+    "last_scraped_at": "2026-06-15T12:37:05.579Z",
+    "manual_verification_needed": false
+  }
+}

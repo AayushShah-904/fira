@@ -1,0 +1,80 @@
+{
+  "bank_code": "idfc-first-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-09-01",
+  "source_url": "https://idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates",
+  "scraped_at": "2026-10-02T20:59:42.133Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year – 370 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 370,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "1 year – 370 days 6.50% 6.75%",
+      "effective_date": "2026-09-01"
+    },
+    {
+      "tenure_text": "371 days – 499 days",
+      "tenure_min_days": 371,
+      "tenure_max_days": 499,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "371 days – 499 days 7.00% 7.25%",
+      "effective_date": "2026-09-01"
+    },
+    {
+      "tenure_text": "500 days – 3 years",
+      "tenure_min_days": 500,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "500 days – 3 years 7.10% 7.35%",
+      "effective_date": "2026-09-01"
+    },
+    {
+      "tenure_text": "3 years 1 day – 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "3 years 1 day – 5 years 6.75% 7.00%",
+      "effective_date": "2026-09-01"
+    },
+    {
+      "tenure_text": "5 years 1 day – 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "5 years 1 day – 10 years 6.00% 6.25%",
+      "effective_date": "2026-09-01"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_js"
+}

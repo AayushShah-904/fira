@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "bank_code": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+    "extracted_at": "2026-06-06T09:14:22.251Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "yavatmalurban.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://yavatmalurban.bank.in/rate-of-interest",
+    "fd_prev": "/fixed-deposit",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "image",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:52:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://yavatmalurban.bank.in/rate-of-interest",
+    "slab_count": 8,
+    "hints": "FD rates published as a JPG image (Fixed-Deposit-Chart) on a JS-rendered WordPress page; transcribed via vision OCR. Savings 2.50%, Daily Recurring 3.50%, and Recurring/MIS 'as per Fixed Deposit' also shown.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

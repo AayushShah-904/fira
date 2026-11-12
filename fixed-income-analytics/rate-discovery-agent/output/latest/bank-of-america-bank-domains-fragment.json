@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-america",
+    "extracted_at": "2026-06-05T11:19:25.329Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "business.bofa.com",
+  "rate_pages": {
+    "fd": "/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf",
+    "savings": "/content/dam/flagship/in/en/regulatory-legal-and-policy-documents/Deposit-Rates.pdf",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "Single-page PDF with one rate table. 1 tables",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:7440b64352fac75dc2c427a59f1d1233a93d7140",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T08:27:09.183Z",
+      "gates_passed": "PASS",
+      "slab_count": 9,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

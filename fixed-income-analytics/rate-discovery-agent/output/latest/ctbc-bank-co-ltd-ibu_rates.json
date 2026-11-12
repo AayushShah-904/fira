@@ -1,0 +1,25 @@
+{
+  "bank_code": "ctbc-bank-co-ltd-ibu",
+  "bank_name": "CTBC Bank Co. Ltd. IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-05-21",
+  "source_url": "https://www.ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html",
+  "scraped_at": "2026-05-20T22:24:04.362Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No IFSC deposit rates are published online for CTBC Bank GIFT City IBU. The deposit rates page is inaccessible due to website security policies (Access Denied). Operator should contact the bank directly for IFSC deposit rates."
+  ],
+  "errors": [
+    "No rate slabs could be extracted. Access Denied on deposit rates page."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-05-20T22:24:04.362Z",
+    "manual_verification_needed": false
+  }
+}

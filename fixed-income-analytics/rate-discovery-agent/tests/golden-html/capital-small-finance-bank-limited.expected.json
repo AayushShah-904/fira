@@ -1,0 +1,23 @@
+{
+  "bank_code": "capital-small-finance-bank-limited",
+  "variant": "regular",
+  "slab_count": 22,
+  "key_rates": {
+    "1y": {
+      "general": 6.9,
+      "senior": null
+    },
+    "2y": {
+      "general": 6.9,
+      "senior": null
+    },
+    "3y": {
+      "general": 6.9,
+      "senior": null
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://capital.bank.in/interest-rates/callable-domestic-term-deposit",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.032Z"
+}

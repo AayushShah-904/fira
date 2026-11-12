@@ -1,0 +1,35 @@
+{
+  "bank_code": "the-assam-co-operative-apex-bank-ltd-",
+  "bank_name": "The Assam Co-operative Apex Bank Ltd.",
+  "bank_type": "NSSCB",
+  "category": "Non-Scheduled State Co-operative Bank",
+  "website": "https://acab.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://www.acab.bank.in/fixed-deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://www.acab.bank.in/saving.php",
+    "rd": "https://www.acab.bank.in/recurring-deposit.php"
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "FD rates are not published in HTML or accessible PDF. Savings rates are published in text. Recurring deposit and RID rates are not published. Extraction not possible without manual entry.",
+  "scraper_notes": {
+    "framework": "PHP/static HTML",
+    "bot_protection": null,
+    "data_format": "Rates not published in HTML tables; PDF inaccessible",
+    "rate_tables_on_page": 0,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-04-14T22:07:00+05:30",
+    "discovery_method": "domain pre-lookup + web_search + page_fetch",
+    "confidence": "none"
+  }
+}

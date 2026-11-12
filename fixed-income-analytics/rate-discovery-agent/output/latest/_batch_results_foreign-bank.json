@@ -1,0 +1,230 @@
+{
+  "timestamp": "2026-05-21T00:01:50.515Z",
+  "category": "Foreign Bank",
+  "succeeded": 44,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "australia-and-new-zealand-banking-group-ltd",
+      "status": "success",
+      "elapsed_sec": 35
+    },
+    {
+      "name": "bank-of-america",
+      "status": "success",
+      "elapsed_sec": 89
+    },
+    {
+      "name": "bank-of-bahrain-and-kuwait-bsc",
+      "status": "success",
+      "elapsed_sec": 52
+    },
+    {
+      "name": "ab-bank-plc",
+      "status": "success",
+      "elapsed_sec": 182
+    },
+    {
+      "name": "american-express-banking-corporation",
+      "status": "success",
+      "elapsed_sec": 226
+    },
+    {
+      "name": "bank-of-ceylon",
+      "status": "success",
+      "elapsed_sec": 101
+    },
+    {
+      "name": "bank-of-china-limited",
+      "status": "success",
+      "elapsed_sec": 174
+    },
+    {
+      "name": "bnp-paribas",
+      "status": "success",
+      "elapsed_sec": 97
+    },
+    {
+      "name": "bank-of-nova-scotia",
+      "status": "success",
+      "elapsed_sec": 424
+    },
+    {
+      "name": "cooperatieve-rabobank-ua",
+      "status": "success",
+      "elapsed_sec": 163
+    },
+    {
+      "name": "credit-agricole-corporate-and-investment-bank",
+      "status": "success",
+      "elapsed_sec": 88
+    },
+    {
+      "name": "citibank-na",
+      "status": "success",
+      "elapsed_sec": 468
+    },
+    {
+      "name": "ctbc-bank-co-limited",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "dbs-bank-india-limited",
+      "status": "success",
+      "elapsed_sec": 57
+    },
+    {
+      "name": "deutsche-bank-ag",
+      "status": "success",
+      "elapsed_sec": 69
+    },
+    {
+      "name": "doha-bank-qpsc",
+      "status": "success",
+      "elapsed_sec": 96
+    },
+    {
+      "name": "barclays-bank-plc",
+      "status": "success",
+      "elapsed_sec": 831
+    },
+    {
+      "name": "firstrand-bank-limited",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "emirates-nbd-bank-pjsc",
+      "status": "success",
+      "elapsed_sec": 131
+    },
+    {
+      "name": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "industrial-bank-of-korea",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "industrial-and-commercial-bank-of-china-limited",
+      "status": "success",
+      "elapsed_sec": 228
+    },
+    {
+      "name": "jsc-vtb-bank",
+      "status": "success",
+      "elapsed_sec": 82
+    },
+    {
+      "name": "first-abu-dhabi-bank-pjsc",
+      "status": "success",
+      "elapsed_sec": 459
+    },
+    {
+      "name": "keb-hana-bank",
+      "status": "success",
+      "elapsed_sec": 63
+    },
+    {
+      "name": "mashreqbank-psc",
+      "status": "success",
+      "elapsed_sec": 76
+    },
+    {
+      "name": "kookmin-bank",
+      "status": "success",
+      "elapsed_sec": 161
+    },
+    {
+      "name": "mizuho-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 89
+    },
+    {
+      "name": "jp-morgan-chase-bank-na",
+      "status": "success",
+      "elapsed_sec": 535
+    },
+    {
+      "name": "mufg-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 88
+    },
+    {
+      "name": "pt-bank-maybank-indonesia-tbk",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "nonghyup-bank",
+      "status": "success",
+      "elapsed_sec": 129
+    },
+    {
+      "name": "natwest-markets-plc",
+      "status": "success",
+      "elapsed_sec": 181
+    },
+    {
+      "name": "sberbank",
+      "status": "success",
+      "elapsed_sec": 91
+    },
+    {
+      "name": "shinhan-bank",
+      "status": "success",
+      "elapsed_sec": 190
+    },
+    {
+      "name": "qatar-national-bank-qpsc",
+      "status": "success",
+      "elapsed_sec": 476
+    },
+    {
+      "name": "sonali-bank-plc",
+      "status": "success",
+      "elapsed_sec": 103
+    },
+    {
+      "name": "societe-generale",
+      "status": "success",
+      "elapsed_sec": 413
+    },
+    {
+      "name": "sumitomo-mitsui-banking-corporation",
+      "status": "success",
+      "elapsed_sec": 68
+    },
+    {
+      "name": "sbm-bank-india-limited",
+      "status": "success",
+      "elapsed_sec": 883
+    },
+    {
+      "name": "standard-chartered-bank",
+      "status": "success",
+      "elapsed_sec": 406
+    },
+    {
+      "name": "united-overseas-bank-limited",
+      "status": "success",
+      "elapsed_sec": 98
+    },
+    {
+      "name": "woori-bank",
+      "status": "success",
+      "elapsed_sec": 70
+    },
+    {
+      "name": "ubs-ag",
+      "status": "success",
+      "elapsed_sec": 378
+    }
+  ]
+}

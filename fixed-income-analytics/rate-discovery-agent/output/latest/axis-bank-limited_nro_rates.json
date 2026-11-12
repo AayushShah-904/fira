@@ -1,0 +1,561 @@
+{
+  "bank_code": "axis-bank-limited",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "2026-09-30",
+  "source_url": "https://axis.bank.in/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-27-august-26.pdf",
+  "scraped_at": "2026-10-01T22:15:31.224Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 – 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "7 – 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "15 – 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "15 – 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "30 – 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "30 – 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "46 – 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "46 – 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "61 days - 87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "61 days - 87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "61 days - 87 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 87,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "88 days – 3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "88 days – 3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "88 days – 3 months 24 days",
+      "tenure_min_days": 88,
+      "tenure_max_days": 114,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "3 months 25 days < 4 months",
+      "tenure_min_days": 115,
+      "tenure_max_days": 119,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "3 months 25 days < 4 months",
+      "tenure_min_days": 115,
+      "tenure_max_days": 119,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "4 months < 6 months",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "6 months < 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "6 months < 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "9 months < 1 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "9 months < 1 year",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year – 1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year – 1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year – 1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year – 1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_25cr",
+      "effective_date": "2026-09-30"
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "25cr_to_50cr",
+      "effective_date": "2026-09-30"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 2,
+    "last_scraped_at": "2026-08-29T19:46:58.296Z",
+    "manual_verification_needed": false
+  }
+}

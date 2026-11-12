@@ -1,0 +1,368 @@
+{
+  "bank_code": "karnataka-bank-limited",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "2026-06-08",
+  "source_url": "https://karnatakabank.bank.in/deposit-interest-rates",
+  "scraped_at": "2026-06-15T11:47:04.334Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "7 days to 45 days 3.50 3.50"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "46 days to 90 days 4.00 4.00"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "91 days to 179 days 4.75 4.75"
+    },
+    {
+      "tenure_text": "180 days to below 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "180 days to below 1 year 5.75 5.75"
+    },
+    {
+      "tenure_text": "1 year to 554 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 554,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "1 year to 554 days 6.50 6.30"
+    },
+    {
+      "tenure_text": "1 year to 554 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 554,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_10cr",
+      "source_row_text": "1 year to 554 days 6.50 6.30"
+    },
+    {
+      "tenure_text": "555 days only",
+      "tenure_min_days": 555,
+      "tenure_max_days": 555,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "555 days only 7.00 7.00"
+    },
+    {
+      "tenure_text": "556 days to 2 years",
+      "tenure_min_days": 556,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "556 days to 2 years 6.40 6.20"
+    },
+    {
+      "tenure_text": "556 days to 2 years",
+      "tenure_min_days": 556,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_10cr",
+      "source_row_text": "556 days to 2 years 6.40 6.20"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 2 years to 3 years 6.15 6.10"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_10cr",
+      "source_row_text": "Above 2 years to 3 years 6.15 6.10"
+    },
+    {
+      "tenure_text": "Above 3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 3 years to 5 years 6.15 6.10"
+    },
+    {
+      "tenure_text": "Above 3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_10cr",
+      "source_row_text": "Above 3 years to 5 years 6.15 6.10"
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "Above 5 years to 10 years 5.50 5.50"
+    },
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "7 days to 45 days 3.75 3.75"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "46 days to 90 days 4.25 4.25"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "91 days to 179 days 5.00 5.00"
+    },
+    {
+      "tenure_text": "180 days to below 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "180 days to below 1 year 6.00 6.00"
+    },
+    {
+      "tenure_text": "1 year to 554 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 554,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "1 year to 554 days 6.90 6.70"
+    },
+    {
+      "tenure_text": "555 days only",
+      "tenure_min_days": 555,
+      "tenure_max_days": 555,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "555 days only 7.40 7.40"
+    },
+    {
+      "tenure_text": "556 days to 2 years",
+      "tenure_min_days": 556,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "556 days to 2 years 6.80 6.60"
+    },
+    {
+      "tenure_text": "Above 2 years to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 2 years to 3 years 6.55 6.50"
+    },
+    {
+      "tenure_text": "Above 3 years to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 3 years to 5 years 6.55 6.50"
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr",
+      "source_row_text": "Above 5 years to 10 years 5.90 5.90"
+    },
+    {
+      "tenure_text": "46 d",
+      "tenure_min_days": 46,
+      "tenure_max_days": 46,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "46 d 3.50"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (10 slabs) from 12 table(s); signals={\"pctRows\":10,\"tenureRows\":10,\"bothRows\":10,\"dataRows\":10,\"noisy\":false,\"colCount\":3}",
+    "llm_fallback: deterministic returned 10 slabs (suspect: multi_table=true too_few=false); LLM extracted 60 — using LLM",
+    "chunk[3]: No NRO INR fixed deposit rate table found; provided table is FCNR(B) rates in multiple foreign currencies",
+    "llm_validation: chunk[5] dropped slab; neither source_row_text (\"Above 2 years to3 \u0000years 6.40 6.80 6.35 6.75\") nor tenure_text (\"Above 2 years to3 \u0000years\") found in chunk text",
+    "llm_validation: chunk[5] dropped slab; neither source_row_text (\"Above 2 years to3 \u0000years 6.40 6.80 6.35 6.75\") nor tenure_text (\"Above 2 years to3 \u0000years\") found in chunk text"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-07-07T06:53:28.394Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T06:53:35.700Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T06:54:32.671Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T07:01:01.232Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T07:01:07.166Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T07:08:14.650Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T07:09:52.137Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    },
+    {
+      "attempted_at": "2026-07-07T07:10:35.667Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "automatic_html_static",
+      "attempted_slab_count": 10,
+      "attempted_verdict": "shrink",
+      "rejected_reason": "shrink_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-06-15T11:47:04.334Z",
+      "retained_slab_count": 25
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 45,
+    "last_scraped_at": "2026-06-15T11:47:04.334Z",
+    "manual_verification_needed": false
+  }
+}

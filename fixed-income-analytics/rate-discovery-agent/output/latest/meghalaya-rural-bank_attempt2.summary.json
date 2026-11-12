@@ -1,0 +1,84 @@
+{
+  "bank_code": "meghalaya-rural-bank",
+  "bank_name": "meghalaya-rural-bank",
+  "category": "Regional Rural Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "regional-rural-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 14651,
+  "duration_ms": 14651,
+  "duration_api_ms": 14302,
+  "num_turns": 6,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.161072,
+  "llm_cost_usd": 0.161072,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 76448,
+  "output_tokens": 1022,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 192,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://meghalayaruralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 70,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://meghalayaruralbank.bank.in/fd.php\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://meghalayaruralbank.bank.in/assets/css/pages/fd.css?v=1.0\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 21,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://meghalayaruralbank.bank.in/assets/pdfs/fd-rates.pdf\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 21,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://meghalayaruralbank.bank.in/assets/pdfs/interest-rates.pdf\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 22,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://meghalayaruralbank.bank.in/assets/pdfs/Deposit-Rates.pdf\"}"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No detailed FD interest rate table or downloadable rate card is published on the official website. Only a headline rate (up to 7.5% for senior citizens) and a senior citizen premium (+0.50%) are mentioned. Operators must contact the bank or check for offline circulars to obtain tenure-wise rates.",
+    "website_url": "https://meghalayaruralbank.bank.in",
+    "rate_url_fd": "https://meghalayaruralbank.bank.in/fd.php",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 3,
+    "fetch_error_count": 3,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

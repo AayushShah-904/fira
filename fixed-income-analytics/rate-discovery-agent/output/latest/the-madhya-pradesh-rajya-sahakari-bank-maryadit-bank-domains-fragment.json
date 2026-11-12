@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "the-madhya-pradesh-rajya-sahakari-bank-maryadit",
+    "extracted_at": "2026-06-05T12:31:01.883Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "apexbankmp.bank.in",
+  "rate_pages": {
+    "fd": "https://apexbankmp.bank.in/Main/deposits",
+    "savings": "/Main/deposits",
+    "rd": "/Main/deposits",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_prev": "/Main/deposits",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML (likely Joomla/CMS)",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:40:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "host blocked playwright/normal GET (ERR_CONNECTION_TIMED_OUT + SSL unsafe-legacy-renegotiation) -> node --tls-cipher-list=DEFAULT@SECLEVEL=0 https GET -> manual HTML table parse",
+    "source_url": "https://apexbankmp.bank.in/Main/deposits",
+    "slab_count": 8,
+    "hints": "legacy SSL: node --tls-cipher-list=DEFAULT@SECLEVEL=0 + SSL_OP_LEGACY_SERVER_CONNECT (playwright/normal GET fail)",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

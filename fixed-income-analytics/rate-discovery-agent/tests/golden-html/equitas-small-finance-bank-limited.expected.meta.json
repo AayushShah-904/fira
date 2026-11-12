@@ -1,0 +1,13 @@
+{
+  "bank_code": "equitas-small-finance-bank-limited",
+  "bank_name": "equitas-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "state": "Tamil Nadu",
+  "website": "https://equitas.bank.in",
+  "rate_page_url": "https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/",
+  "scraper_type": "html_js",
+  "extraction_method": "automatic_text_pattern",
+  "slab_count": 23,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

@@ -1,0 +1,108 @@
+{
+  "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+  "bank_name": "babasaheb deshmukh sahakari bank ltd atpadi",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "http://bdsbanks.in/deposites.php",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "46 days to 91 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 91,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "181 days to less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 year to less than 3 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3 years to 10 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [
+    {
+      "name": "Ichhapurti Thev",
+      "tenure_text": "91 days to 7 years",
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8
+    }
+  ],
+  "warnings": [
+    "Site serves over plain HTTP only (HTTPS handshake fails); rate table read directly from http://bdsbanks.in/deposites.php.",
+    "Marathi rate table; main 'Mudat Thev' (term deposit) slabs used. General = व्यक्तीगत ठेव column, senior = जेष्ठ नागरिक ठेव column.",
+    "No effective date printed on the page.",
+    "Separate columns for co-operative-society deposits and individual >=15 lakh lump-sum exist on the page but match the general/senior rates for these slabs."
+  ],
+  "tier2_method": "websearch+webfetch",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "websearch+webfetch",
+    "extraction_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-25T00:00:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:10.010Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-25T00:00:00Z",
+      "retained_slab_count": 6
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-05-25T00:00:00Z",
+    "manual_verification_needed": false
+  }
+}

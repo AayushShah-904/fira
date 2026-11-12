@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "shinhan-bank",
+    "extracted_at": "2026-06-05T12:14:39.801Z",
+    "source": "bank-domains.json",
+    "source_sha": "175eeef65925e1b4befecd11a331ede1d3ba7a8a575395bd24642b497f0959c2"
+  },
+  "domain": "shinhanbankindia.bank.in",
+  "scraper_type": "html_js",
+  "notes": "bank.in domain found. 6 branches in India. Offers FD, RD, savings.",
+  "rate_pages": {
+    "fd": "/fixed-deposit.html",
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": "/fcnr-deposits",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  }
+}

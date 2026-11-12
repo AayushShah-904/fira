@@ -1,0 +1,33 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sidhi",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit Sidhi",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found after exhaustive search (including Hindi terms and common domain patterns). This DCCB likely does not publish rates online. Operator should check MP State Cooperative Bank portal or RBI database for rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "domain probe + multilingual search",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

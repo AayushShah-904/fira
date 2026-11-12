@@ -1,0 +1,10 @@
+{
+  "bank_code": "bank-of-bahrain-and-kuwait-bsc",
+  "variant": "regular",
+  "slab_count": 18,
+  "key_rates": {},
+  "effective_date": null,
+  "source_url": "https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.052Z"
+}

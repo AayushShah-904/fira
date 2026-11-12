@@ -1,0 +1,43 @@
+{
+  "bank_code": "chandrapur-district-central-co-operative-bank-ltd",
+  "bank_name": "Chandrapur District Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://cdccbank.co.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://cdccbank.co.in/index.php/accounts-deposits.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://cdccbank.co.in/index.php/accounts-deposits.html",
+    "rd": "https://cdccbank.co.in/index.php/accounts-deposits.html"
+  },
+  "selectors": {
+    "table": "table.table-bordered",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "0": "tenure_text",
+    "1": "rate_general_pct"
+  },
+  "expected_slab_count": 7,
+  "notes": "Senior citizen FD rates are +0.5% over general rates, as stated in the page text. Effective date: 1/10/2022. RD rates are same as FD rates.",
+  "scraper_notes": {
+    "framework": "Joomla/static HTML",
+    "bot_protection": null,
+    "data_format": "HTML table",
+    "rate_tables_on_page": 2,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "pre-looked-up domain + direct fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

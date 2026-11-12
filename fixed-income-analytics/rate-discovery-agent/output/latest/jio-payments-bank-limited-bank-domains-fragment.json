@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "jio-payments-bank-limited",
+    "extracted_at": "2026-06-05T11:15:12.062Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "jiopayments.bank.in",
+  "rate_pages": {
+    "savings": "/interest-rates-and-service-charges/",
+    "fd": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "React SPA on .bank.in domain, JS-rendered page, likely WAF",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_fd_product",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Payments Bank — legally cannot offer term/fixed deposits (RBI Payments Bank licence). Official 'Rate of Interest w.e.f. 16 January 2026' PDF (jiopayments.bank.in/docs/.../rate-of-interest-wef-16-january-2026.pdf) covers ONLY savings interest: <=Rs.1 lakh 0.50%, >Rs.1 lakh 4.00%. Balances above ~INR 1.95 lakh swept to partner Suryoday SFB. 'Savings Pro' uses overnight funds (not an FD). Aggregator 'FD rates' listings (codeforbanks) are fabricated."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "rajgurunagar-sahakari-bank-ltd",
+    "extracted_at": "2026-06-06T08:52:57.818Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "rajgurunagarbank.com",
+  "notes": "Official domain identified via branch locator reference, but no rate pages visible in search results.",
+  "rate_pages": {
+    "fd": "/Encyc/2024/1/19/Deposit-Interest.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "//Encyc/2023/12/19/Saving-Account.html",
+    "rd": "//Encyc/2023/12/19/Recurring-Deposit.html"
+  },
+  "scraper_type": "html_static"
+}

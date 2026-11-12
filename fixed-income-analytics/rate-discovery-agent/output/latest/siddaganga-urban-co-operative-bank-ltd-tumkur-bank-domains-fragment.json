@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+    "extracted_at": "2026-06-06T10:34:36.753Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "siddagangabank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  },
+  "domain_prev": "opencorpdata.com",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Candidate own-domain siddagangabank.in appears in search as an 'Index of /' directory listing (so it served content at some point), but is unreachable from here: DNS times out and curl returns HTTP 000 (no connection) on both https and http. No registry .bank.in domain. May come back online later."
+  }
+}

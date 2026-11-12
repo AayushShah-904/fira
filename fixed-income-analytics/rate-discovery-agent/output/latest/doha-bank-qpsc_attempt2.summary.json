@@ -1,0 +1,84 @@
+{
+  "bank_code": "doha-bank-qpsc",
+  "bank_name": "doha-bank-qpsc",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 31797,
+  "duration_ms": 31797,
+  "duration_api_ms": 31632,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.15392,
+  "llm_cost_usd": 0.15392,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 48224,
+  "output_tokens": 7184,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 163,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://in.dohabank.bank.in/personal-banking/deposit-interest-rates/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/doha-bank-qpsc_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"bank_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/doha-bank-qpsc_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"product_type\\\":"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/doha-bank-qpsc_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"product_typ"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/doha-bank-qpsc_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"product_typ"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/doha-bank-qpsc_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"doha-bank-qpsc\\\",\\n  \\\"product_ty"
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "FD, NRE/NRO, and FCNR rates are all published on the same page. No senior citizen rates. FCNR rates are in USD, EUR, GBP only. Effective date for INR FDs: 12th January 2026.",
+    "website_url": "https://in.dohabank.bank.in",
+    "rate_url_fd": "https://in.dohabank.bank.in/personal-banking/deposit-interest-rates/",
+    "slab_count": 13,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

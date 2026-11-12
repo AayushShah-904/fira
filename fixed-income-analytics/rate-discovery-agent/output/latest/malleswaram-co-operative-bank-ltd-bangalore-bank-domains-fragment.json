@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "bank_code": "malleswaram-co-operative-bank-ltd-bangalore",
+    "extracted_at": "2026-06-06T10:27:56.331Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "mcbl.in",
+  "notes": "Official website 'mcbl.in' located, but no direct FD/savings/interest‐rate pages were shown in search results",
+  "rate_pages": {
+    "fd": null
+  }
+}

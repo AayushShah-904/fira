@@ -1,0 +1,44 @@
+{
+  "bank_code": "chamoli-zilla-sahakari-bank-ltd",
+  "bank_name": "Chamoli Zilla Sahakari Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://ukscb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://ukscb.bank.in/interest-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": "table.aqua_table",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "0": "tenure_text",
+    "1": "rate_general_pct",
+    "2": "rate_senior_pct"
+  },
+  "expected_slab_count": 8,
+  "notes": "Rates are in Hindi and English mixed text; senior citizen premium rates are in the third column.",
+  "scraper_notes": {
+    "framework": "WordPress",
+    "bot_protection": null,
+    "data_format": "HTML table",
+    "rate_tables_on_page": 2,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "pre-known domain + fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

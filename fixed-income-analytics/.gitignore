@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.wrangler/
+*.local
+.env
+.env.*
+!.env.example
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+settings.local.json

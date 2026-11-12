@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-adilabad-district-co-operative-central-bank-ltd",
+  "bank_name": "The Adilabad District Co-operative Central Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "adilabaddccb.in",
+    "found_via": "websearch",
+    "notes": "Confirmed own official site adilabaddccb.in (real bank site with /branches/ page and FD deposit schemes indexed; bank est. 1941, RBI license 2011, 36 branches, now Telangana not AP). Server is unreachable from this environment: DNS resolves no IP / HTTP 000 on both adilabaddccb.in and www.adilabaddccb.in. The Telangana State Co-op Apex Bank portal (tgcab.bank.in/interest-rates) lists rates but is JS-rendered and not specifically the Adilabad DCCB rate card."
+  },
+  "warnings": ["Own site exists but is not reachable from here (no DNS/IP). Re-attempt from another network; alternatively apex bank tgcab.bank.in may carry affiliated DCCB rates."],
+  "tier2_method": "websearch+webfetch"
+}

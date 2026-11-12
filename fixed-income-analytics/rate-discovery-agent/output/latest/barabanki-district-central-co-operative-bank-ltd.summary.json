@@ -1,0 +1,62 @@
+{
+  "bank_code": "barabanki-district-central-co-operative-bank-ltd",
+  "bank_name": "barabanki-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13592,
+  "duration_ms": 13592,
+  "duration_api_ms": 13145,
+  "num_turns": 7,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.0195308,
+  "input_tokens": 46071,
+  "output_tokens": 689,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"barabanki district central co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barabanki-district-central-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barabankidccb.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"barabanki district central co operative bank ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barabanki-dccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 176,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barabanki-dccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 169,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barabankidccb.com/\"}"
+    }
+  ]
+}

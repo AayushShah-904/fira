@@ -1,0 +1,27 @@
+{
+  "bank_code": "central-co-operative-bank-ltd-ara",
+  "bank_name": "Central Co-operative Bank Ltd., Ara",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://ccbara.com",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": null,
+  "column_mapping": null,
+  "expected_slab_count": 0,
+  "notes": "Website https://ccbara.com is inaccessible due to expired SSL certificate. No online rate pages found. Manual data entry required.",
+  "scraper_notes": null,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "pre-looked-up domain, fetch failed",
+    "confidence": "none"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "bank_code": "vellore-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T16:00:03.736Z",
+    "source": "bank-domains.json",
+    "source_sha": "ef427ffa0138d5d6fed70edf3cff3ae53b9a4e81e003fb30db332d0ccf9c400e"
+  },
+  "domain": "velloredccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit-rate.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "dccb-5col-general-senior-staff",
+    "template_hash": "sha1:537eebd8591cde8ef256853d50ed8238f7ae3ef7",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

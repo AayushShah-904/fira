@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-andhra-pradesh-state-co-operative-bank-ltd",
+  "bank_name": "the-andhra-pradesh-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://apcob.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://apcob.bank.in/fixed-deposit/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:58:44.135Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

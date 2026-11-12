@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "patiala-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:35:10.805Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "patiala.pbcoopbank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://patiala.pbcoopbank.in/deposit-interest-rates/",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_prev": "cybo.com",
+  "scraper_type": "html_js",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T16:45:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "https://patiala.pbcoopbank.in/deposit-interest-rates/",
+    "slab_count": 11,
+    "hints": "pbcoopbank.in platform single rate col; eff 2026-03-13; senior +0.50% on 1yr+",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

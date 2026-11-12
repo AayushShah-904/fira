@@ -1,0 +1,17 @@
+{
+  "bank_code": "kurmanchal-nagar-sahkari-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:43:01.858Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T17:25:46.083Z",
+      "signal": "crash",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "bank_code": "zilla-sahakari-bank-ltd-muzaffarnagar",
+  "bank_name": "Zilla Sahakari  Bank Ltd., Muzaffarnagar",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12571,
+  "duration_ms": 12571,
+  "duration_api_ms": 12446,
+  "num_turns": 9,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.100452,
+  "input_tokens": 45514,
+  "output_tokens": 1178,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Zilla Sahakari Bank Ltd., Muzaffarnagar\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Zilla Sahakari Bank Ltd., Muzaffarnagar\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Zilla Sahakari Bank Ltd., Muzaffarnagar\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://zillabankmuzaffarnagar.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://zillabankmuzaffarnagar.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Zilla Sahakari Bank Ltd., Muzaffarnagar district central co-operative bank Uttar Pradesh interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Muzaffarnagar District Central Co-operative Bank official website\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://www.muzaffarnagardccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"http://muzaffarnagardccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 8,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcooperativebank.org\"}"
+    }
+  ]
+}

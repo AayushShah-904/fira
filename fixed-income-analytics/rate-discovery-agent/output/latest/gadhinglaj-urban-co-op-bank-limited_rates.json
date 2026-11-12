@@ -1,0 +1,118 @@
+{
+  "bank_code": "gadhinglaj-urban-co-op-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-07-01",
+  "source_url": "https://gadurban.in/deposit.html",
+  "scraped_at": "2026-06-09T16:31:23.559Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 Months to 24 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 Months to 24 months – 7.50% P.A 25 Months to 36 months – 7.50% P.A 37 Months to 120 months – 06.50% P.A"
+    },
+    {
+      "tenure_text": "25 Months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 Months to 24 months – 7.50% P.A 25 Months to 36 months – 7.50% P.A 37 Months to 120 months – 06.50% P.A"
+    },
+    {
+      "tenure_text": "37 Months to 120 months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 Months to 24 months – 7.50% P.A 25 Months to 36 months – 7.50% P.A 37 Months to 120 months – 06.50% P.A"
+    },
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 14 Days - 4.50% P.A 15 Days to 45 Days - 5.50% P.A 46 Days to 90 Days - 6.00% P.A 91 Days to 180 Days - 6.50% P.A 181 Days to Less than 1 Year 7.00% P.A Quarterly compound Interest"
+    },
+    {
+      "tenure_text": "15 Days to 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 14 Days - 4.50% P.A 15 Days to 45 Days - 5.50% P.A 46 Days to 90 Days - 6.00% P.A 91 Days to 180 Days - 6.50% P.A 181 Days to Less than 1 Year 7.00% P.A Quarterly compound Interest"
+    },
+    {
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 14 Days - 4.50% P.A 15 Days to 45 Days - 5.50% P.A 46 Days to 90 Days - 6.00% P.A 91 Days to 180 Days - 6.50% P.A 181 Days to Less than 1 Year 7.00% P.A Quarterly compound Interest"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 14 Days - 4.50% P.A 15 Days to 45 Days - 5.50% P.A 46 Days to 90 Days - 6.00% P.A 91 Days to 180 Days - 6.50% P.A 181 Days to Less than 1 Year 7.00% P.A Quarterly compound Interest"
+    },
+    {
+      "tenure_text": "181 Days to Less than 1 Year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 14 Days - 4.50% P.A 15 Days to 45 Days - 5.50% P.A 46 Days to 90 Days - 6.00% P.A 91 Days to 180 Days - 6.50% P.A 181 Days to Less than 1 Year 7.00% P.A Quarterly compound Interest"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 4 tables on page (4 rate-bearing by score)",
+    "multi_table_filter: dropped table[0] (only 0/2 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[1] (only 0/2 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[2] (only 0/2 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[3] (only 0/1 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 14",
+    "chunk[0]: senior citizen additional interest is 0.50% added to general rate",
+    "chunk[0]: tenure ranges converted from months to approximate days (30.42 days/month)",
+    "chunk[0]: quarterly compound interest mentioned but no separate rate column for super senior",
+    "chunk[1]: senior citizen additional interest 0.50% added to general rate",
+    "chunk[1]: tenure ranges converted from months to days approximately",
+    "rates-qc: effective_date \"01.07.2023\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-07-01\" parses to 2023-07-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1118,
+    "last_scraped_at": "2026-06-09T16:31:23.559Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bank_code": "uco-bank",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2025-08-26",
+  "source_url": "https://uco.bank.in/nri-scheme",
+  "scraped_at": "2026-07-07T07:07:59.819Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 1 Year – 443 Days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 443,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "444 Days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.45,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "445 Days – 2 Years",
+      "tenure_min_days": 445,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.1,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 2 Years – 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 3 Years – 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "5 Year and above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (7 slabs) from 6 table(s); signals={\"pctRows\":7,\"tenureRows\":7,\"bothRows\":7,\"dataRows\":7,\"noisy\":true,\"colCount\":3}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[2]: table does not list NRE INR fixed deposit rates; it lists FCNR foreign currency rates)",
+    "chunk[2]: table is FCNR rates in foreign currencies, not NRE INR fixed deposit rates"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 5,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (1 Year): senior rate (6.1%) < general rate (6.25%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (Above 1 Year – 443 Days): senior rate (6.1%) < general rate (6.2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (445 Days – 2 Years): senior rate (6.1%) < general rate (6.2%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (Above 2 Years – 3 Years): senior rate (6%) < general rate (6.15%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (Above 3 Years – 5 Years): senior rate (6%) < general rate (6.1%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 331,
+    "last_scraped_at": "2026-07-07T07:07:59.819Z",
+    "manual_verification_needed": true
+  }
+}

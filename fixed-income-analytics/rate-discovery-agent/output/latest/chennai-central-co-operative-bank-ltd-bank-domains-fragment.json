@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "chennai-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:51:37.084Z",
+    "source": "bank-domains.json",
+    "source_sha": "ef427ffa0138d5d6fed70edf3cff3ae53b9a4e81e003fb30db332d0ccf9c400e"
+  },
+  "domain": "ccbankchennai.com",
+  "domain_source": "manual_2026-05-23",
+  "rate_pages": {
+    "fd": null
+  },
+  "scraper_type": "manual",
+  "status": "site_unreachable",
+  "notes": "Real site ccbankchennai.com ECONNREFUSED 2026-05-23 (Fix #7 investigation). Prior registry entry pointed at ccb.bank.in — that domain actually belongs to Contai Co-operative Bank, so cohort #1's 11 slabs were Contai's rates mis-attributed. Re-check site availability before next cohort.",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Bank's own site is www.ccbankchennai.com with a deposits page at /deposits.php (indexed in search). The host refused all connections from here: curl HTTP 000, WebFetch ECONNREFUSED, Playwright ERR_CONNECTION_REFUSED. Site appears live (search-indexed) but unreachable from this network right now; the FD rate page exists at https://www.ccbankchennai.com/deposits.php and should be retried later."
+  },
+  "effective_date": "2026-05-23",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-07-23T14:01:43.251Z",
+    "manual_verification_needed": false
+  }
+}

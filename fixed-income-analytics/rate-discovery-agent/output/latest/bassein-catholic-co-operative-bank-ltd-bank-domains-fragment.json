@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "bassein-catholic-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:19:45.711Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "bccb.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates/deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "WordPress. HTML table via wp-block-table. 1 tables",
+  "template": {
+    "template_id": "bccb-7col-multi-bucket-general-senior",
+    "template_hash": "sha1:7aedcc0bf81e3b148a02e0925d8db2b15d5b1320",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_general_pct@above_1cr",
+            "3": "rate_general_pct@coop_society",
+            "4": "rate_general_pct@coop_society_above_1cr",
+            "5": "rate_senior_pct",
+            "6": "rate_senior_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 32,
+      "cluster_reused": false
+    }
+  }
+}

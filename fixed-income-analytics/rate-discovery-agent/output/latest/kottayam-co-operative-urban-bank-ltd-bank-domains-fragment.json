@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "kottayam-co-operative-urban-bank-ltd",
+    "extracted_at": "2026-06-06T10:45:09.814Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "kottayamurban.com",
+  "rate_pages": {
+    "fd": "/interestrate/deposits-interest-rate/",
+    "savings": "/our_products/deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null
+  },
+  "notes": "No .bank.in domain found; FD interest rates and general deposits page identified.",
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior",
+    "template_hash": "sha1:a3d61f9eba02f7d55e376b2ba99732d72194b046",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

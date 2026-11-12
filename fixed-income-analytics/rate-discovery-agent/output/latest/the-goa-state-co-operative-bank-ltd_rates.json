@@ -1,0 +1,127 @@
+{
+  "bank_code": "the-goa-state-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://gscbgoa.bank.in/deposit-rates/",
+  "scraped_at": "2026-05-23T09:39:20.496Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "180 days to less than 1 year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 year to 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1. Senior Citizens (Deposit for a period of One year and above)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 0.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2. Cooperative Societies (Deposit of Rs.10.00 lacs & above at a time for period of 12 months and above )",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 0.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "3. Societies maintaining deposits of Rs. 10:00 lakh and above in single receipt for the period of 12 months. (Subject to maintenance of aggregate deposit of Rs. 10.90 Crore and above with the Bank) (Inclusive of 0.5% extra)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "4. Local Bodies maintaining deposits of Rs. 5.00 lakh and above in single receipt for the period of 12 menthe (Subject to maintenance of aggregate deposit of Rs. 2.00 Crore and above with the Bank. (inclusive of 0.5% extra)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 2,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (1. Senior Citizens (Deposit for a period of One year and above)): general rate 0.5% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (2. Cooperative Societies (Deposit of Rs.10.00 lacs & above at a time for period of 12 months and above )): general rate 0.5% below floor (1.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-23T09:39:20.496Z",
+    "manual_verification_needed": false
+  }
+}

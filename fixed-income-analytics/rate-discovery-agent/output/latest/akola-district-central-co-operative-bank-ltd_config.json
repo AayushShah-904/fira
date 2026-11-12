@@ -1,0 +1,19 @@
+{
+  "bank_code": "akola-district-central-co-operative-bank-ltd",
+  "bank_name": "akola-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://akolawashimdcc.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://akolawashimdcc.bank.in/interest-rate-on-deposits.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:06:53.956Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

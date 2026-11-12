@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "bank_code": "madhya-pradesh-gramin-bank",
+    "extracted_at": "2026-06-05T12:49:55.089Z",
+    "source": "bank-domains.json",
+    "source_sha": "0619916b6239154a7c4c3ba562d0577776f86e3aefd6ddbcb640c53bbe52c81b"
+  },
+  "domain": "mpgb.bank.in",
+  "rate_pages": {
+    "fd": "https://mpgb.bank.in/inner-pages/ROI%20for%20Website.pdf",
+    "fd_prev": "/short_term.php",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "extraction_method": "manual_image_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:05:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "ocr",
+    "source_url": "https://mpgb.bank.in/inner-pages/ROI%20for%20Website.pdf",
+    "slab_count": 13,
+    "hints": "mpgb.bank.in ROI-for-Website.pdf (co.in redirects here); Hindi scanned PDF → OCR; senior col not machine-readable; eff 2026-05-25",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  }
+}

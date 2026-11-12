@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-nawada-central-co-operative-bank-ltd-nawada",
+  "bank_name": "The Nawada Central Co-operative Bank Ltd., Nawada",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 20381,
+  "duration_ms": 20381,
+  "duration_api_ms": 20268,
+  "num_turns": 9,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.019003600000000002,
+  "input_tokens": 43569,
+  "output_tokens": 985,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Nawada Central Co-operative Bank Ltd., Nawada\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nawadacentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nawadacentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Nawada Central Co-operative Bank Ltd., Nawada\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nawadacentralcooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nawadacentralcooperativebank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Nawada Central Co-operative Bank\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-nawada-central-co-operative-bank-ltd-nawada_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-nawada-central-co-op"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-nawada-central-co-operative-bank-ltd-nawada_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-nawada-central-co-ope"
+    }
+  ]
+}

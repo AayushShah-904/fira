@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "alwar-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:41:55.178Z",
+    "source": "bank-domains.json",
+    "source_sha": "f030030a8260a9de88e2a9c65c8519e12d8c5d8b855f42f69121fd82c7e1e5af"
+  },
+  "domain": "dccbalwar.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/fixed-deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-deposit.php",
+    "rd": "/recurring-deposit.php"
+  },
+  "scraper_type": "html_js",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site https://www.dccbalwar.bank.in is up; has a dedicated deposit rates page interest-rates-deposit.php whose only content is a link 'RATE OF INTEREST TERM DEPOSIT' -> https://www.dccbalwar.org.in/upload/file/Rate-of-Interest-Deposit.pdf . That secondary host (dccbalwar.org.in) is unreachable from here (DNS EAI_AGAIN via Node, HTTP 000 via curl, ECONNREFUSED via WebFetch). Rate PDF exists but cannot be retrieved; site footer 'Last Updated 08-06-2021' suggests stale content."
+  }
+}

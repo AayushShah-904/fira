@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "bank_code": "indusind-bank-limited",
+    "extracted_at": "2026-06-05T10:02:46.316Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "indusind.bank.in",
+  "rate_pages": {
+    "fd": "https://www.indusind.bank.in/in/en/personal/rates.html",
+    "savings": "/in/en/personal/accounts/savings-account-interest-rate.html",
+    "rd": "/in/en/personal/deposits/recurring-deposit.html",
+    "fd_nre": "/in/en/personal/rates.html",
+    "fd_nro": "/in/en/personal/rates.html",
+    "fd_fcnr": "/in/en/personal/rates.html",
+    "fd_nri_combined": "/in/en/personal/rates.html",
+    "fd_url_fixed_at": "2026-05-25",
+    "fd_prev": "https://www.indusind.bank.in/in/en/personal/fixed-deposit-interest-rate.html"
+  },
+  "scraper_type": "html_js",
+  "notes": "All rates (domestic, NRE, NRO, FCNR, IBU) on single page /in/en/personal/rates.html with sections. JS-rendered with hydration, Playwright works. Individual NRI product pages are descriptions only, not rate pages.",
+  "domain_source": "manual",
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "playwright_timeout_ms": 180000,
+  "playwright_browser": "firefox",
+  "template": {
+    "template_id": "indusind-multi-tier-premature-withdrawal",
+    "template_hash": "sha1:717e9d71543fd966c8ef2499541d48ec6918fee5",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 3,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "3cr_to_5cr"
+        },
+        {
+          "table_index": 6,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "1cr_to_3cr"
+        },
+        {
+          "table_index": 9,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": "3cr_to_5cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T05:44:26.896Z",
+      "gates_passed": "PASS",
+      "slab_count": 53,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "indusind-fcnr-multi-currency-amount-bucket",
+    "template_hash": "sha1:35359b364bc91d99122c944754b02a05740db895",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 13,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1mio#USD",
+            "2": "rate_general_pct@1mio_to_10mio#USD",
+            "3": "rate_general_pct@10mio_to_25mio#USD",
+            "4": "rate_general_pct@above_25mio#USD",
+            "5": "rate_general_pct#GBP",
+            "6": "rate_general_pct#EUR",
+            "7": "rate_general_pct#JPY",
+            "8": "rate_general_pct#CAD",
+            "9": "rate_general_pct#AUD"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 1825
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 45,
+      "cluster_reused": false
+    }
+  }
+}

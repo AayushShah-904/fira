@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-purnea-district-central-co-operative-bank-ltd-purnea",
+  "bank_name": "The Purnea District Central Co-operative Bank Ltd., Purnea",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16361,
+  "duration_ms": 16361,
+  "duration_api_ms": 12048,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.086228,
+  "input_tokens": 38710,
+  "output_tokens": 1101,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Purnea District Central Co-operative Bank Ltd., Purnea\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://purneadccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Purnea District Central Co-operative Bank Ltd., Purnea\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://purneadccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.purneadccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Purnea District Central Co-operative Bank Ltd., Purnea\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 77,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bihar.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 4012,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bihar.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 146,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.biharcooperativebank.com\"}"
+    }
+  ]
+}

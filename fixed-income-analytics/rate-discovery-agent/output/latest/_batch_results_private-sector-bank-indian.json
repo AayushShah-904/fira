@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-20T21:50:54.193Z",
+  "category": "Private Sector Bank (Indian)",
+  "succeeded": 2,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "icici-bank-limited",
+      "status": "success",
+      "elapsed_sec": 176
+    },
+    {
+      "name": "hdfc-bank-limited",
+      "status": "success",
+      "elapsed_sec": 395
+    }
+  ]
+}

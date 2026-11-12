@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "canara-bank-ibu",
+    "extracted_at": "2026-06-05T14:06:21.602Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "canarabank.bank.in",
+  "rate_pages": {
+    "fd": "/pages/ifsc-banking-unit",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/pages/ifsc-banking-unit",
+    "rd": null,
+    "fd_gift": null
+  },
+  "scraper_type": "html_js",
+  "parent_bank_code": "canara-bank",
+  "notes": "IFSC Banking Unit in GIFT City"
+}

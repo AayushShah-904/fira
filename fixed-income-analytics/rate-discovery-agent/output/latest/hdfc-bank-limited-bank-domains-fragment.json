@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "bank_code": "hdfc-bank-limited",
+    "extracted_at": "2026-06-05T09:52:00.127Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "hdfc.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposit/fd-interest-rate",
+    "fd_nre": "/nri-banking/fixed-deposit-rupee-account/nre-fixed-deposit/rates",
+    "fd_nro": "/nri-banking/fixed-deposit-rupee-account/nro-fixed-deposit/rates",
+    "fd_fcnr": "/nri-banking/fixed-deposit-foreign-currency-account/fcnr-deposit/rates",
+    "savings": "/savings-account/savings-interest-rate",
+    "rd": "/recurring-deposit/rd-interest-rate",
+    "fd_nri_combined": null
+  },
+  "extraction": {
+    "fd": {
+      "type": "html",
+      "fulfills_product": [
+        "fd",
+        "fd_nre",
+        "fd_nro"
+      ]
+    }
+  },
+  "scraper_type": "html_js",
+  "notes": "AEM/server-rendered with JS hydration, CloudFront WAF — blocks default headless Chromium; needs userAgent + webdriver flag removal. The /fixed-deposit/fd-interest-rate page publishes a section headed 'Domestic / NRO / NRE FIXED DEPOSIT RATE' with notes 'Senior Citizen rates do not apply to NRIs | The minimum tenor for NRE Deposit is 1 year' — Orch-1's section-context interpretation applies per-variant senior-exclusion and min-tenor filtering automatically. The separate NRE/NRO rate URLs serve no rate data.",
+  "playwright_stealth": true,
+  "playwright_timeout_ms": 180000,
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "template": {
+    "template_id": "hdfc-retail-bulk-3col-regular",
+    "template_hash": "sha1:5895a853801fe09d8046a8623f64b9d1ed989934",
+    "fingerprinted_at": "2026-05-25",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\hdfc-bank-limited.html",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "3cr_to_5cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.502Z",
+      "gates_passed": "PASS",
+      "slab_count": 32,
+      "cluster_reused": false
+    }
+  }
+}

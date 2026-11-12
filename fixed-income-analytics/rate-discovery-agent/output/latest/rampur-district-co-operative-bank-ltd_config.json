@@ -1,0 +1,33 @@
+{
+  "bank_code": "rampur-district-co-operative-bank-ltd",
+  "bank_name": "Rampur District Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found for Rampur District Co-operative Bank Ltd. No deposit rate page available. NABARD site only lists refinance rates, not retail deposit rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "web_search + failed fetches + NABARD check",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

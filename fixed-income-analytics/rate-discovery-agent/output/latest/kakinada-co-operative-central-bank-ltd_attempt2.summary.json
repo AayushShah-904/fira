@@ -1,0 +1,66 @@
+{
+  "bank_code": "kakinada-co-operative-central-bank-ltd",
+  "bank_name": "kakinada-co-operative-central-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10487,
+  "duration_ms": 10487,
+  "duration_api_ms": 10341,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.085978,
+  "llm_cost_usd": 0.085978,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 36385,
+  "output_tokens": 1651,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 145,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kakinadadccb.bank.in/Deposit-Schemes.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/kakinada-co-operative-central-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kakinada-co-operative-central"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/kakinada-co-operative-central-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kakinada-co-operative-central-"
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "HTML table with tenure, general rate, senior citizen rate columns. Savings rates are also present in the same table. Effective date is in the heading above the table.",
+    "website_url": "https://kakinadadccb.bank.in",
+    "rate_url_fd": "https://kakinadadccb.bank.in/Deposit-Schemes.html",
+    "slab_count": 7,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on regular: 7 < 0.8 * 9 (prior)",
+    "domain_was_known": true
+  }
+}

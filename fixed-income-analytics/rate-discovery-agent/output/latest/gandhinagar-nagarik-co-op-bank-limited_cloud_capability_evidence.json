@@ -1,0 +1,17 @@
+{
+  "bank_code": "gandhinagar-nagarik-co-op-bank-limited",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:04:29.793Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T16:48:45.943Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

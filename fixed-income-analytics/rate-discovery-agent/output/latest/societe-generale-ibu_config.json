@@ -1,0 +1,33 @@
+{
+  "bank_code": "societe-generale-ibu",
+  "bank_name": "societe-generale-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "website": "https://societegenerale.asia",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "IFSC Banking Unit in GIFT City. Wholesale/structured finance only (renewable energy, infrastructure, data centres, telecom). No retail deposit products or public rate card. GIFT City page: /en/india/societe-generales-gift-city/. Parent bank domestic INR rates at /fileadmin/user_upload/Societe_Generale_websites/Asia/India/Rates_and_charges/Deposit_rates/DepositRates.pdf",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:26:38.399Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "bank_code": "erode-co-operative-urban-bank-ltd",
+    "extracted_at": "2026-06-06T10:55:14.442Z",
+    "source": "bank-domains.json",
+    "source_sha": "d2f23613f2832a7ebcc59d6990089a7a026cb571c958a21a679f24a3e2b44dbc"
+  },
+  "domain": null,
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": null
+  },
+  "scraper_type": "manual",
+  "discovery_status": "no_website",
+  "last_discovered_at": "2026-05-27T18:13:56.859Z",
+  "notes": "No official website exists (distinct from Erode District Central Cooperative Bank). Only the forbidden codeforbanks aggregator listed rates."
+}

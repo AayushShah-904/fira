@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "bank_code": "saraswat-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T13:38:45.641Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "saraswat.bank.in",
+  "rate_pages": {
+    "fd": "https://www.saraswat.bank.in/content.aspx?id=Interest-Rates",
+    "fd_nre": "/content.aspx?id=Interest-Rates",
+    "fd_nro": null,
+    "fd_fcnr": "/content.aspx?id=Interest-Rates",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/content.aspx?id=Interest-Rates",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML tables, no custom CSS classes. 6 tables",
+  "template": {
+    "template_id": "saraswat-coop-multi-bucket-regular",
+    "template_hash": "sha1:9ae4743529463f872805912b37b3e0cc4e7e45f6",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 5,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_1cr"
+        },
+        {
+          "table_index": 6,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@1cr_to_2cr",
+            "2": "rate_general_pct@2cr_to_5cr",
+            "3": "rate_general_pct@5cr_to_10cr",
+            "4": "rate_general_pct@above_10cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 7,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_senior_pct@1cr_to_2cr",
+            "2": "rate_senior_pct@2cr_to_5cr",
+            "3": "rate_senior_pct@5cr_to_10cr",
+            "4": "rate_senior_pct@above_10cr"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:08:01.274Z",
+      "gates_passed": "PASS",
+      "slab_count": 53,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "saraswat-fcnr-usd-simple",
+    "template_hash": "sha1:9ae4743529463f872805912b37b3e0cc4e7e45f6",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 9,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 5,
+      "cluster_reused": false
+    }
+  }
+}

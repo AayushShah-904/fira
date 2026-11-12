@@ -1,0 +1,19 @@
+{
+  "bank_code": "central-co-operative-bank-ltd-ara",
+  "bank_name": "central-co-operative-bank-ltd-ara",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Bihar",
+  "website": "https://ccbara.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://ccbara.com/OurSchemes.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:10:59.303Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

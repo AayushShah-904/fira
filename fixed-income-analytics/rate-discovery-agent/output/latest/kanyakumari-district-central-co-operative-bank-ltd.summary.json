@@ -1,0 +1,50 @@
+{
+  "bank_code": "kanyakumari-district-central-co-operative-bank-ltd",
+  "bank_name": "kanyakumari-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9093,
+  "duration_ms": 9093,
+  "duration_api_ms": 8970,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0087124,
+  "input_tokens": 18889,
+  "output_tokens": 723,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"kanyakumari district central co operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanyakumari-district-central-co-operative-bank-ltd.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanyakumari-district-central-co-operative-bank-ltd.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanyakumaridccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 38,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanyakumari-dccb.co.in\"}"
+    }
+  ]
+}

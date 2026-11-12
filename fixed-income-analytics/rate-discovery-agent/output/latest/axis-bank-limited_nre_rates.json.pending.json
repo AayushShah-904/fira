@@ -1,0 +1,85 @@
+{
+  "bank_code": "axis-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-11-01",
+  "source_url": "https://www.axisbank.com/docs/default-source/default-document-library/interest-rates/nri-fixed-deposit-interest-rates-less-than-3-crores-09-november-26.pdf?sfvrsn=fa4f43fc_1",
+  "scraped_at": "2026-11-12T09:21:16.225Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year\t \t–\t \t1 year 10 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 375,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 year 11 days < 13 months",
+      "tenure_min_days": 376,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "13 months < 15 months",
+      "tenure_min_days": 390,
+      "tenure_max_days": 449,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15 months < 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "18 Months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 years < 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "5 years to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_pdf",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 11,
+    "last_scraped_at": "2026-11-12T09:21:16.225Z",
+    "manual_verification_needed": false
+  }
+}

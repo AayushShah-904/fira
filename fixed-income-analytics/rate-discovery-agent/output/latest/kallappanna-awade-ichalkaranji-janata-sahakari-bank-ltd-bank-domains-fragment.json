@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "bank_code": "kallappanna-awade-ichalkaranji-janata-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T13:31:26.681Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "kaijs.bank.in",
+  "rate_pages": {
+    "fd": "/fixed-deposits",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Next.js (React) with server-side rendering + JS hydration. HTML table with 5 columns (tenure + 4 rate columns for 2 customer types x 2 deposit tiers). 1 tables",
+  "template": {
+    "template_id": "coop-bankin-amount-tiered-general-senior",
+    "template_hash": "sha1:edf43e87a42f98a2e81a4bebaa7ef86a09e0deeb",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_general_pct@above_1cr",
+            "3": "rate_senior_pct@below_1cr",
+            "4": "rate_senior_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 14,
+      "cluster_reused": false
+    }
+  }
+}

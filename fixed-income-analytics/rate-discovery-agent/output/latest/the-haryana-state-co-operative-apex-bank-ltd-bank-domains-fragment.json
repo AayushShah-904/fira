@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+    "extracted_at": "2026-06-05T12:27:42.972Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "harco.bank.in",
+  "rate_pages": {
+    "fd": "https://www.harcobank.org.in/interest1",
+    "fd_alt": "/accounts/fd",
+    "special_schemes": "/accounts/specialschemes",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "fd_prev": "/interest1",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "Static HTML (org.in site), possibly JS-rendered (bank.in site)",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:20:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch (stale .bank.in URL) -> node https GET of www.harcobank.org.in/interest1 -> manual HTML table parse",
+    "source_url": "https://www.harcobank.org.in/interest1",
+    "slab_count": 10,
+    "hints": "live site harcobank.org.in (NOT .bank.in); plain node https GET + HTML table",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

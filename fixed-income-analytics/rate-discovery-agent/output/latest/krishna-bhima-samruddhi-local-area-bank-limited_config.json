@@ -1,0 +1,19 @@
+{
+  "bank_code": "krishna-bhima-samruddhi-local-area-bank-limited",
+  "bank_name": "krishna-bhima-samruddhi-local-area-bank-limited",
+  "bank_type": "LAB",
+  "category": "Local Area Bank",
+  "state": "Telangana",
+  "website": "https://www.kbsbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://www.kbsbank.bank.in/interestrates.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:26:49.412Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

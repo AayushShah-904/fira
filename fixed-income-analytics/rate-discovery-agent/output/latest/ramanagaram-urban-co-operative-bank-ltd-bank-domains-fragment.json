@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "bank_code": "ramanagaram-urban-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T11:02:57.721Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "rucbank.com",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "rd": null,
+    "savings": null
+  },
+  "notes": "Seeded by tier-2 gap sweep 2026-05-25; was absent from registry.",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Confirmed own official site www.rucbank.com (Ramanagaram Urban Co-op Bank, started 1994, RBI permission 1996; /about.php is indexed). Server is unreachable from this environment: DNS resolves no IP / HTTP 000 over both http and https on www.rucbank.com and rucbank.com, and WebFetch returns ECONNREFUSED. Re-verified 2026-05-25 — still down/unresolvable. May work from a different network."
+  },
+  "effective_date": "2026-05-25",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 59,
+    "last_scraped_at": "2026-07-23T14:01:43.857Z",
+    "manual_verification_needed": false
+  }
+}

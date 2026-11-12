@@ -1,0 +1,17 @@
+{
+  "bank_code": "vishakapatnam-district-co-operative-central-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T00:37:50.189Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T15:23:43.590Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

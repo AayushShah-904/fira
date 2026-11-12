@@ -1,0 +1,44 @@
+{
+  "bank_code": "nagaur-central-co-operative-bank-ltd",
+  "bank_name": "nagaur-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8152,
+  "duration_ms": 8152,
+  "duration_api_ms": 8068,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.0085984,
+  "input_tokens": 18760,
+  "output_tokens": 684,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"nagaur central co operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nagaurcentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nagaurcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nagaurcentralcooperative.bank.in\"}"
+    }
+  ]
+}

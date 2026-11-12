@@ -1,0 +1,60 @@
+{
+  "bank_code": "qatar-national-bank-qpsc",
+  "bank_name": "qatar-national-bank-qpsc",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 40768,
+  "duration_ms": 40768,
+  "duration_api_ms": 10570,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.115342,
+  "llm_cost_usd": 0.115342,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 53643,
+  "output_tokens": 1007,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://qnb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 63,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://qnb.com/en/india\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 15063,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://qnb.com/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 15045,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://qnb.com/en/india\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/qatar-national-bank-qpsc_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"qatar-national-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"Qatar National Ba"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/qatar-national-bank-qpsc_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"qatar-national-bank-qpsc\\\",\\n  \\\"bank_name\\\": \\\"Qatar National Ban"
+    }
+  ]
+}

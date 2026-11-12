@@ -1,0 +1,22 @@
+{
+  "bank_code": "yes-bank-limited",
+  "bank_name": "yes-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Maharashtra",
+  "website": "https://yes.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://yes.bank.in/rates-and-charges",
+    "fd_nre": "https://yes.bank.in/nri/nri-deposits/nre-fixed-deposit",
+    "fd_nro": "https://yes.bank.in/nri/nri-deposits/nro-fixed-deposit",
+    "fd_fcnr": "https://yes.bank.in/nri/nri-deposits/fcnr-b-deposit"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T09:20:39.210Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

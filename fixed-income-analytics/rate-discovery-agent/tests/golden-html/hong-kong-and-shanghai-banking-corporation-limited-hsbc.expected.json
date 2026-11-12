@@ -1,0 +1,23 @@
+{
+  "bank_code": "hong-kong-and-shanghai-banking-corporation-limited-hsbc",
+  "variant": "regular",
+  "slab_count": 26,
+  "key_rates": {
+    "1y": {
+      "general": 4,
+      "senior": 4.5
+    },
+    "2y": {
+      "general": 4.3,
+      "senior": 4.8
+    },
+    "3y": {
+      "general": 5.35,
+      "senior": 5.85
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://hsbc.co.in/accounts/products/fixed-deposits/",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.021Z"
+}

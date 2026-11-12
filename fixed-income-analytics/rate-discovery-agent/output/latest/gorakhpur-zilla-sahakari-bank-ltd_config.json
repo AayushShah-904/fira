@@ -1,0 +1,19 @@
+{
+  "bank_code": "gorakhpur-zilla-sahakari-bank-ltd",
+  "bank_name": "gorakhpur-zilla-sahakari-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Uttar Pradesh",
+  "website": "https://dcbgkp.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://dcbgkp.bank.in/intrest.php?id=4"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:52:04.031Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

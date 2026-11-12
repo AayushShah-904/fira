@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "bank_code": "karur-vysya-bank-limited",
+    "extracted_at": "2026-06-05T10:22:04.851Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "kvb.bank.in",
+  "rate_pages": {
+    "fd": "https://www.kvb.bank.in/interest-rates/resident-nro-deposits/",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/nri/products/deposits/nre-deposits/",
+    "fd_nro": "/nri/products/deposits/nro-deposits/",
+    "fd_fcnr": "/nri/products/deposits/fcnr-deposits/",
+    "fd_nri_combined": null,
+    "fd_prev": "/interest-rates/resident-nro-deposits/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "JS-rendered (content not in raw HTML, requires Playwright)",
+  "template": {
+    "template_id": "kvb-regular-senior-3col",
+    "template_hash": "sha1:4a91662670a5a10234364dbf88a8e203af0f53e0",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_senior_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:10:52.289Z",
+      "gates_passed": "PASS",
+      "slab_count": 16,
+      "cluster_reused": false
+    }
+  }
+}

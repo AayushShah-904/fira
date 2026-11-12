@@ -1,0 +1,19 @@
+{
+  "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+  "bank_name": "jalgaon-janata-sahakari-bank-ltd",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://jjsbl.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://jjsbl.bank.in/fixed-deposit-service"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:51:44.158Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

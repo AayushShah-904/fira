@@ -1,0 +1,44 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-dhar",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-dhar",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8421,
+  "duration_ms": 8421,
+  "duration_api_ms": 8192,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.0086456,
+  "input_tokens": 18938,
+  "output_tokens": 669,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit dhar\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditdhar.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditdhar.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 170,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditdhar.com\"}"
+    }
+  ]
+}

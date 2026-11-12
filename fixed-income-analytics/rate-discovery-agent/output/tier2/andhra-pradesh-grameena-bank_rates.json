@@ -1,0 +1,150 @@
+{
+  "bank_code": "andhra-pradesh-grameena-bank",
+  "bank_name": "Andhra Pradesh Grameena Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-15",
+  "source_url": "https://apgb.bank.in/banking-products/deposits/deposit-interest-rates",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.50,
+      "rate_senior_pct": 4.00,
+      "rate_super_senior_pct": 4.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.40,
+      "rate_senior_pct": 3.90,
+      "rate_super_senior_pct": 4.15,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.15,
+      "rate_senior_pct": 5.65,
+      "rate_super_senior_pct": 5.90,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.90,
+      "rate_senior_pct": 5.40,
+      "rate_super_senior_pct": 5.65,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.50,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.55,
+      "rate_senior_pct": 6.05,
+      "rate_super_senior_pct": 6.30,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "180 days to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.40,
+      "rate_senior_pct": 6.90,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 days to 364 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": 6.90,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": 7.75,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": 7.60,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "2 years and above",
+      "tenure_min_days": 730,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": 7.40,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years and above",
+      "tenure_min_days": 730,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.40,
+      "rate_senior_pct": 6.90,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "AKSHAYA Term Deposit Scheme (AKTDR) - Non-Callable (Rs 1 Cr & Above)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": 7.75,
+      "deposit_range": "1cr_to_10cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "name": "Ujwala Term Deposit (Scheme-II) - Non callable",
+      "note": "8.25% for one year period (General Public); a separate Senior Citizen rate is offered. Standalone row in source (6.35 / 6.85) was not clearly attributable to a tenure; excluded from rate_slabs to avoid fabrication."
+    }
+  ],
+  "warnings": [
+    "Senior and super-senior rates are published as a NOTE, not as table columns: 'Senior Citizens 0.50% extra in all slabs' and 'Super Senior Citizens 0.75% extra in all slabs'. Applied rate_senior_pct = general + 0.50, rate_super_senior_pct = general + 0.75 to every domestic FD slab.",
+    "Source FD table has two deposit-size columns under the current rate card (w.e.f. 15-12-2025): 'Less than Rs 1 Cr' -> below_3cr, 'Rs 1 Cr & Above' -> 1cr_to_10cr. The 07.07.2025 column header is commented out in the HTML; the second <tbody> is style='display:none' (superseded card) and was excluded.",
+    "effective_date corrected to 2025-12-15 (the live/visible rate card). Prior extraction labelled it 07.07.2025 (the commented-out, hidden card).",
+    "AKSHAYA non-callable scheme is offered only for the Rs 1 Cr & Above tier (shown as '-' for below 1 Cr); the below-1cr AKSHAYA row was dropped as it has no rate.",
+    "Staff/ex-staff premiums (+1.00% / +1.50%) noted in source are employee benefits, not senior-citizen tiers; not applied to senior columns."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract-senior",
+    "sourced_at": "2026-05-26T00:00:00Z",
+    "senior_source": "note_premium",
+    "senior_premium_pct": 0.50,
+    "super_senior_premium_pct": 0.75
+  }
+}

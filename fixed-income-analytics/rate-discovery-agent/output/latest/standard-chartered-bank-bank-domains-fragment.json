@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "standard-chartered-bank",
+    "extracted_at": "2026-06-05T12:18:10.441Z",
+    "source": "bank-domains.json",
+    "source_sha": "5fa78a99cefa2c2a29d10d614f2140066078cc3421236db9d941ad7a02082649"
+  },
+  "domain": "sc.com",
+  "rate_pages": {
+    "fd": "/in/deposits/fixed-deposit/",
+    "savings": "/in/deposits/interest-rates/",
+    "fd_nre": "/in/deposits/interest-rates/",
+    "fd_nro": "/in/deposits/interest-rates/",
+    "fd_fcnr": "/in/deposits/interest-rates/",
+    "fd_nri_combined": "/in/deposits/interest-rates/",
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "sc.bank.in exists but sc.com/in/ has the rate pages. JS-rendered."
+}

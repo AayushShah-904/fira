@@ -1,0 +1,19 @@
+{
+  "bank_code": "ujjain-nagarik-sahakari-bank-maryadit-ujjain",
+  "bank_name": "ujjain-nagarik-sahakari-bank-maryadit-ujjain",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://unsbujn.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://unsbujn.com/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:23:08.095Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

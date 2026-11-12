@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-vaishali-district-central-co-operative-bank-ltd-vaishali",
+  "bank_name": "The Vaishali District Central Co-operative Bank Ltd., Vaishali",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 22467,
+  "duration_ms": 22467,
+  "duration_api_ms": 19940,
+  "num_turns": 6,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.05663200000000001,
+  "input_tokens": 137448,
+  "output_tokens": 1033,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Vaishali District Central Co-operative Bank Ltd., Vaishali\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vaishalidccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Vaishali District Central Co-operative Bank Ltd., Vaishali\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2503,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://vaishalidccb.com\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-vaishali-district-central-co-operative-bank-ltd-vaishali_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-vaishal"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-vaishali-district-central-co-operative-bank-ltd-vaishali_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-vaishali"
+    }
+  ]
+}

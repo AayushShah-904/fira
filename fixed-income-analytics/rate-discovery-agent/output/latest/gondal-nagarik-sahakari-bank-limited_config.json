@@ -1,0 +1,19 @@
+{
+  "bank_code": "gondal-nagarik-sahakari-bank-limited",
+  "bank_name": "gondal-nagarik-sahakari-bank-limited",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Gujarat",
+  "website": "https://gnsb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://gnsb.bank.in/deposit/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:49:56.225Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

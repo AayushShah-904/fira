@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "bank_code": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+    "extracted_at": "2026-06-06T09:15:43.146Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "shaharbank.bank.in",
+  "rate_pages": {
+    "fd": "/DepositsRates.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior-super",
+    "template_hash": "sha1:a46b669df14870723c8ea9e0c39ec7da220235fd",
+    "fingerprinted_at": "2026-05-24",
+    "fingerprinted_from_url": "file://C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\tests\\golden-html\\ahmednagar-shahar-sahakari-bank-ltd-ahmednagar.html",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct",
+            "4": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    }
+  }
+}

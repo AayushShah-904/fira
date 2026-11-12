@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "bank_code": "the-bhavnagar-district-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:09:22.175Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "bhavnagar.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/n/fixed-deposit"
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "coop-bankin-2col-tenure-general-senior-note",
+    "template_hash": "sha1:e2619b49fe7463b9b23f26a01582210aee953644",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.994Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

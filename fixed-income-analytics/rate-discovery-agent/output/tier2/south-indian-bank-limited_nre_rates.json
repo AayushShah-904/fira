@@ -1,0 +1,122 @@
+{
+  "bank_code": "south-indian-bank-limited",
+  "bank_name": "South Indian Bank Limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-14",
+  "source_url": "https://www.southindianbank.bank.in/quick-links/interest-rates",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 year to 371 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 371,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "372 days",
+      "tenure_min_days": 372,
+      "tenure_max_days": 372,
+      "rate_general_pct": 6.40,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "373 days to less than 18 months",
+      "tenure_min_days": 373,
+      "tenure_max_days": 547,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "18 months",
+      "tenure_min_days": 548,
+      "tenure_max_days": 548,
+      "rate_general_pct": 6.60,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 18 months to less than 30 months",
+      "tenure_min_days": 549,
+      "tenure_max_days": 911,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 months",
+      "tenure_min_days": 912,
+      "tenure_max_days": 912,
+      "rate_general_pct": 6.80,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 30 months to less than 5 years",
+      "tenure_min_days": 913,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.20,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years to less than 66 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2008,
+      "rate_general_pct": 5.70,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "66 months (Green deposit)",
+      "tenure_min_days": 2009,
+      "tenure_max_days": 2009,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 66 months to upto and including 10 years",
+      "tenure_min_days": 2010,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.70,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "NRE Term Deposit table has a single rate column ('Single Deposit less than Rs.3 crore') and no senior column. Page footnote confirms: 'No additional interest will be paid for Senior Citizens under NRE Term deposit schemes.' rate_senior_pct and rate_super_senior_pct left null - not fabricated.",
+    "NRE deposits start at 1 year (no sub-1-year tenures exist for NRE), matching the minimum-tenure rule.",
+    "Effective date 14th May 2026 taken from the 'Interest rate on NRE Term Deposits with effect from' heading."
+  ],
+  "errors": []
+}

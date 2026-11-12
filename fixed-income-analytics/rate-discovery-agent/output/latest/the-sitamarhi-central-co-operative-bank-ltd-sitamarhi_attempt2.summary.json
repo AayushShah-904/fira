@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-sitamarhi-central-co-operative-bank-ltd-sitamarhi",
+  "bank_name": "The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12359,
+  "duration_ms": 12359,
+  "duration_api_ms": 11869,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.086922,
+  "input_tokens": 39533,
+  "output_tokens": 982,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sitamarhicentralbank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sitamarhicentralbank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi Bihar interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 143,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sitamarhicentralcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 140,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.biharcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 158,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharcoopbank.com\"}"
+    }
+  ]
+}

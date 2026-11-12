@@ -1,0 +1,33 @@
+{
+  "bank_code": "dhanbad-district-central-co-operative-bank-ltd",
+  "bank_name": "dhanbad-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://dhanbadccb.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Operator-verified 2026-05-12: homepage dhanbadccb.in loads, but the interest rate page (e.g., /advance-interest-rates/index.htm) does not load — appears non-existent or broken. The .bank.in mirror at dhanbadccb.bank.in returned errors during discovery; typical broken-mirror pattern (see L4 in agent-learnings.md). No usable rate page online. Operator may need branch contact for current rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:45:17.526Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "bank_code": "rayat-sevak-co-op-bank-ltd-satara",
+    "extracted_at": "2026-06-06T09:43:43.222Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "rayatsevak.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/deposit_interest_rate"
+  },
+  "scraper_type": "html_static"
+}

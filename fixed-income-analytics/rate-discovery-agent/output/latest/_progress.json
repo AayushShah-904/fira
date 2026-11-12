@@ -1,0 +1,14 @@
+{
+  "status": "idle",
+  "total": 0,
+  "processed": 1,
+  "succeeded": 1,
+  "failed": 0,
+  "skipped": 0,
+  "total_slabs": 0,
+  "current_bank": "saraswat-co-operative-bank-ltd",
+  "started_at": null,
+  "updated_at": "2026-11-12T11:32:24.622Z",
+  "output_dir": "D:\\Computer\\Workspace\\Projects\\fira-project-final\\fixed-income-analytics\\rate-discovery-agent\\output\\latest",
+  "percent": 0
+}

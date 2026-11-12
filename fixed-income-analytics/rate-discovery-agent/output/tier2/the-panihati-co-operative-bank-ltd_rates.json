@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-panihati-co-operative-bank-ltd",
+  "bank_name": "The Panihati Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No own-domain website found (re-verified). Searches return only aggregators/IFSC directories (codeforbanks, prokerala, bankbazaar, cleartax). Registry hint 'askbankifsccode.com' is a directory. Bank IFSC (HDFC0CTPHCB) is hosted under sponsor HDFC Bank. No own .bank.in or .com site exists."
+  },
+  "warnings": ["Confirms prior_reason: no own website; only directory/aggregator presence."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,54 @@
+{
+  "bank_code": "equitas-small-finance-bank-limited",
+  "bank_name": "equitas-small-finance-bank-limited",
+  "category": "Small Finance Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "small-finance-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 58425,
+  "duration_ms": 58425,
+  "duration_api_ms": 32659,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.729544,
+  "llm_cost_usd": 0.729544,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 360216,
+  "output_tokens": 1139,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 2187,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 78,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://equitas.bank.in/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 23500,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/small-finance-bank/equitas-small-finance-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"equitas-small-finance-bank-limited\\\",\\n  \\\"bank_n"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/small-finance-bank/equitas-small-finance-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"equitas-small-finance-bank-limited\\\",\\n  \\\"bank_na"
+    }
+  ]
+}

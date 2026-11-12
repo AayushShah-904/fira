@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "bank_code": "industrial-and-commercial-bank-of-china-limited",
+    "extracted_at": "2026-06-05T11:44:44.423Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "india.icbc.com.cn",
+  "rate_pages": {
+    "fd": "/cn/page/1096826937936109568.html",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "CMS-based server-rendered pages",
+  "template": {
+    "template_id": "icbc-india-8bucket-amount-tiered",
+    "template_hash": "sha1:d0a933d803485ea004b2df7cb6302335520c704e",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 13,
+          "header_row": 2,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_3cr",
+            "2": "rate_general_pct@3cr_to_5cr",
+            "3": "rate_general_pct@5cr_to_10cr",
+            "4": "rate_general_pct@10cr_to_25cr",
+            "5": "rate_general_pct@25cr_to_50cr",
+            "6": "rate_general_pct@50cr_to_100cr",
+            "7": "rate_general_pct@above_100cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 60,
+      "cluster_reused": false
+    }
+  }
+}

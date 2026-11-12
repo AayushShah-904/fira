@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "sberbank",
+    "extracted_at": "2026-06-05T12:13:31.894Z",
+    "source": "bank-domains.json",
+    "source_sha": "d4c965f8960ae816dbe0af8cf78777c8bae86c6e274ea7bd1bcf21db8a24df79"
+  },
+  "domain": "sber.bank.in",
+  "scraper_type": "manual",
+  "notes": "Sberbank India. Site very slow to load. FD page exists but is for corporate accounts only — no retail deposit rates published.",
+  "status": "rates_not_published",
+  "domain_source": "manual",
+  "rate_pages": {
+    "fd": "/bank-services/fixed-deposit-for-corporate-clients#layout_14_1",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  }
+}

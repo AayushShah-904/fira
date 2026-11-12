@@ -1,0 +1,123 @@
+{
+  "bank_code": "jammu-central-co-operative-bank-ltd",
+  "bank_name": "Jammu Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2017-04-01",
+  "source_url": "https://jammuccb.com/GeneralBankDocs/InterestRates-Deposits-01042017.pdf",
+  "scraped_at": "2026-06-06T08:31:21Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "1.\t \t7 days to 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "2\t \t31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3\t \t46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "4\t \t91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "5\t \t181 days to 270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "6\t \t271 days to Less than one year.",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "7\t \tOne year to Le\tss than 3 years.",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "8\t \tThree to less than 5 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "9\t \tFive years to 10 years",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Most recent parseable FD rate card is from April 2017. All newer PDFs (2018-2019) are either empty or scanned images. Tenure parsing is partial for some slabs due to non-standard text formatting.",
+    "Could not parse tenure: '6\t \t271 days to Less than one year.'",
+    "Could not parse tenure: '7\t \tOne year to Le\tss than 3 years.'",
+    "Could not parse tenure: '8\t \tThree to less than 5 years'",
+    "Could not parse tenure: '9\t \tFive years to 10 years'",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2017-04-01\" parses to 2017-04-01 (year 2017 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 3400,
+    "last_scraped_at": "2026-06-06T08:31:21Z",
+    "manual_verification_needed": true
+  }
+}

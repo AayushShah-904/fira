@@ -1,0 +1,120 @@
+[
+  {
+    "idx": 0,
+    "bank_code": "ahmedabad-mercantile-co-op-bank-ltd",
+    "variant": "nre",
+    "verdict": "BUG",
+    "reason_code": "has_rates_BUG",
+    "evidence": "https://amco.bank.in/n/deposit-interest-rate reachable (HTTP 200). Page has 3 HTML tables. Table immediately under heading 'NRE Deposits (Irrelevant of Deposit Amount):' contains exactly 3 slabs (matches NRE baseline of 3). Rates w.e.f. 01.01.2026. Extraction dropped to 0 but the NRE rate table is present and parseable (table.table-bordered.table-striped, rows = tr, col0=Period col1=Rate of Interest). No senior premium on NRE table.",
+    "recovered_slabs": [
+      {"tenure_text": "1 Year", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 6.75, "rate_senior_pct": null},
+      {"tenure_text": "Over 1 Years to 2 Years", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 6.65, "rate_senior_pct": null},
+      {"tenure_text": "Over 2 Years to 3 Years", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 6.25, "rate_senior_pct": null}
+    ]
+  },
+  {
+    "idx": 6,
+    "bank_code": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+    "variant": "regular",
+    "verdict": "UNREACHABLE",
+    "reason_code": "unreachable",
+    "evidence": "https://bengalurudcc.bank.in/fixed-deposite/ returned HTTP 000 (connection failed / host not reachable) on tolerant curl -sk. Registry discovery_status was already 'unreachable'. Could not load any page to confirm rate content. Baseline had 6 slabs; site currently down."
+  },
+  {
+    "idx": 9,
+    "bank_code": "bank-of-india",
+    "variant": "nro",
+    "verdict": "UNREACHABLE",
+    "reason_code": "unreachable",
+    "evidence": "https://bankofindia.bank.in/interest-rate/rupee-term-deposit-rate returns HTTP 403 with Cloudflare 'Just a moment... Enable JavaScript and cookies' interstitial (bot protection / JS challenge). WebFetch socket closed by WAF; Playwright could not resolve host in sandbox. Bank of India is a major PSB and certainly publishes rupee/NRO term deposit rates, but the page is gated behind a JS challenge and not extractable with current tooling. Not a clean zero and not a recoverable BUG via available tools."
+  },
+  {
+    "idx": 11,
+    "bank_code": "bank-of-nova-scotia",
+    "variant": "regular",
+    "verdict": "BUG",
+    "reason_code": "has_rates_BUG",
+    "evidence": "https://scotiabank.com/.../Interest-Rate-Schedule-of-Charges-Dec-2025.pdf reachable (HTTP 200, application/pdf 206KB after redirect to www). FlateDecode-decoded text contains a full 'Deposits less than INR 2 Crore' Domestic/NRO Term Deposit table w.e.f. 01 Dec 2025 with Regular + Senior Citizen columns (7 rows, matches baseline of 7). The current extraction salvaged only 1 garbled slab ('3\\t \\t91\\t...') because the PDF is tab/space-separated text, not a clean table. Note: PDF states 'Senior Citizen Rates do not apply to NRIs'. Recoverable.",
+    "recovered_slabs": [
+      {"tenure_text": "7 days to 30 days", "tenure_min_days": 7, "tenure_max_days": 30, "rate_general_pct": 3.50, "rate_senior_pct": 3.75},
+      {"tenure_text": "31 days to 90 days", "tenure_min_days": 31, "tenure_max_days": 90, "rate_general_pct": 3.50, "rate_senior_pct": 3.75},
+      {"tenure_text": "91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 3.60, "rate_senior_pct": 3.85},
+      {"tenure_text": "181 days to 364 days", "tenure_min_days": 181, "tenure_max_days": 364, "rate_general_pct": 3.70, "rate_senior_pct": 3.95},
+      {"tenure_text": "365 days to < 2 years", "tenure_min_days": 365, "tenure_max_days": 729, "rate_general_pct": 3.75, "rate_senior_pct": 4.00},
+      {"tenure_text": "2 years to < 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 3.90, "rate_senior_pct": 4.15},
+      {"tenure_text": "3 years to < 10 years", "tenure_min_days": 1095, "tenure_max_days": 3650, "rate_general_pct": 4.00, "rate_senior_pct": 4.25}
+    ]
+  },
+  {
+    "idx": 14,
+    "bank_code": "chennai-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "reason_code": "no_rate_page",
+    "evidence": "Current source_url https://www.chennaiccb.bank.in/deposits.php reachable (HTTP 200) but only lists deposit SCHEME NAMES (Fixed Deposits, RD, Cash Certificate, etc.) - 0 tables, 0 percent values. The only 'rate' artefact on the site is an image popup: images/deposit_popup2.jpg titled 'Interest Rates Revised for Fixed Deposits / Revised interest rate for Deposits'. Rates exist only inside a JPG image, not as extractable HTML/text. No machine-readable FD rate table on the site. Zero is legitimate for text extraction (would need OCR)."
+  },
+  {
+    "idx": 18,
+    "bank_code": "fino-payments-bank-limited",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "reason_code": "no_fd_product",
+    "evidence": "https://fino.bank.in/more/fixed-deposit reachable (HTTP 200). Page explicitly states the FD is 'In partnership with Suryoday Small Finance Bank Ltd.' - 'Fixed Deposit will be opened for 1 year tenure with our partner bank Suryoday Small Finance Bank Ltd.' Fino is a Payments Bank and legally cannot accept term deposits on its own books; the deposit sits with Suryoday SFB. The page shows only a marketing headline 'Earn upto 7.45%* p.a.' (single tenure, 1 year), not a tenure-by-tenure FD rate card. Baseline's single slab ('60 Years)Rate', 7.45) was this marketing number misparsed. Fino itself has no own FD product; zero is legitimate."
+  },
+  {
+    "idx": 27,
+    "bank_code": "national-bank-for-agriculture-and-rural-development-nabard",
+    "variant": "regular",
+    "verdict": "VERIFIED",
+    "reason_code": "no_rate_page",
+    "evidence": "Baseline/current source_url https://nabard.org/interestrate.aspx?cid=502&id=24 now returns HTTP 404 ('HTTP Error 404. The requested resource is not found'). www.nabard.org variant resets the connection (HTTP 000). Registry discovery_status was 'website_known_no_rate_page'. NABARD is a development finance institution (FI) - it provides refinance/lending rates to cooperative banks/RRBs, not retail public fixed-deposit products. No reachable FD rate page; zero is legitimate."
+  },
+  {
+    "idx": 32,
+    "bank_code": "ujjivan-small-finance-bank-limited",
+    "variant": "fcnr",
+    "verdict": "UNREACHABLE",
+    "reason_code": "unreachable",
+    "evidence": "FCNR PDF URL https://ujjivansfb.bank.in/sites/default/files/2025-12/ROI-for-FCNR-B-deposits-USD.pdf returned HTTP 200 but body is a WAF block page ('Request Rejected ... Your support ID is: <5582893832657819483>'), not a PDF (244 bytes, text/html). The parent interest-rates page https://ujjivansfb.bank.in/interest-rates returned HTTP 000 (connection failed). Site is behind an aggressive WAF; could not confirm whether the FCNR-B USD rate card still exists. Cannot determine - blocked, not a clean zero and not confirmable as a BUG."
+  },
+  {
+    "idx": 34,
+    "bank_code": "dhule-and-nandurbar-jilha-sarkari-nokaranchi-sahakari-bank-ltd-dhule",
+    "variant": null,
+    "verdict": "VERIFIED",
+    "reason_code": "no_rate_page",
+    "evidence": "Registry has no domain and no rate_page_fd; baseline_slab_count was already 0 and detail = 'bank dropped from pack'. No website/rate page exists to extract from (small co-operative bank with no online presence). Zero is legitimate - nothing to recover."
+  },
+  {
+    "idx": 35,
+    "bank_code": "shri-kadasiddeshwar-pattan-sahakari-bank-niyamit-banhatti",
+    "variant": null,
+    "verdict": "VERIFIED",
+    "reason_code": "no_rate_page",
+    "evidence": "Registry has no domain and no rate_page_fd; baseline_slab_count was already 0 and detail = 'bank dropped from pack'. No website/rate page exists (small co-operative bank, no online presence). Zero is legitimate - nothing to recover."
+  },
+  {
+    "idx": 36,
+    "bank_code": "sri-lakshminarayana-co-operative-bank-ltd-bangalore",
+    "variant": "regular",
+    "verdict": "BUG",
+    "reason_code": "has_rates_BUG",
+    "evidence": "https://slncb.com/deposits.html reachable (HTTP 200). Page contains a full FD rate card rendered as a numbered TEXT LIST under heading 'DEPOSITS RATE OF INTEREST' (NOT an HTML <table>, which is why current extraction got 0 - the page has 0 <table> elements). 6 slabs + 'Extra 0.5% For Senior Citizens', matching baseline of 6. Senior rate = general + 0.50. Recoverable via text-list parsing.",
+    "recovered_slabs": [
+      {"tenure_text": "From 30 days to 90 days", "tenure_min_days": 30, "tenure_max_days": 90, "rate_general_pct": 4.00, "rate_senior_pct": 4.50},
+      {"tenure_text": "From 91 days to 180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 4.50, "rate_senior_pct": 5.00},
+      {"tenure_text": "From 181 days to 365 days", "tenure_min_days": 181, "tenure_max_days": 365, "rate_general_pct": 5.50, "rate_senior_pct": 6.00},
+      {"tenure_text": "Above 1 Year to 2 Year", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 7.50, "rate_senior_pct": 8.00},
+      {"tenure_text": "From 2 Year to 3 Year", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 8.00, "rate_senior_pct": 8.50},
+      {"tenure_text": "Above 3 years", "tenure_min_days": 1096, "tenure_max_days": null, "rate_general_pct": 7.50, "rate_senior_pct": 8.00}
+    ]
+  },
+  {
+    "idx": 37,
+    "bank_code": "sriramnagar-pattana-sahakar-bank-niyamit-sriramnagar",
+    "variant": null,
+    "verdict": "VERIFIED",
+    "reason_code": "no_rate_page",
+    "evidence": "Registry has no domain and no rate_page_fd; baseline_slab_count was already 0 and detail = 'bank dropped from pack'. No website/rate page exists (small co-operative bank, no online presence). Zero is legitimate - nothing to recover."
+  }
+]

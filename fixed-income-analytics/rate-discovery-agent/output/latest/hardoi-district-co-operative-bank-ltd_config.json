@@ -1,0 +1,33 @@
+{
+  "bank_code": "hardoi-district-co-operative-bank-ltd",
+  "bank_name": "Hardoi District Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://hardoi.nic.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website or rate page found for Hardoi District Co-operative Bank Ltd. The district portal (hardoi.nic.in) lists banks but does not provide product/rate information. No evidence of a dedicated DCCB site or FD rate publication. Manual operator transcription required if rates are published locally.",
+  "scraper_notes": {
+    "framework": "WordPress district portal",
+    "bot_protection": null,
+    "data_format": "No banking product/rate pages found",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "web_search + district portal fetch",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

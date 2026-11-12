@@ -1,0 +1,49 @@
+{
+  "bank_code": "citizen-credit-co-operative-bank-ltd-mumbai",
+  "bank_name": "Citizen Credit Co-operative Bank Ltd Mumbai",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-01-15",
+  "source_url": "https://citizencreditbank.com/mybank/interest-rates",
+  "scraped_at": "2026-05-21T00:03:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "3 years upto 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 189,
+    "last_scraped_at": "2026-05-21T00:03:00Z",
+    "manual_verification_needed": true
+  }
+}

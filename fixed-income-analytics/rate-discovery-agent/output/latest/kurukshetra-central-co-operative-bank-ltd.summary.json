@@ -1,0 +1,44 @@
+{
+  "bank_code": "kurukshetra-central-co-operative-bank-ltd",
+  "bank_name": "kurukshetra-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 10234,
+  "duration_ms": 10234,
+  "duration_api_ms": 10154,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008542000000000001,
+  "input_tokens": 18819,
+  "output_tokens": 634,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"kurukshetra central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kurukshetra-central-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kurukshetracentralbank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kurukshetra-central-co-operative-bank-ltd.co.in/\"}"
+    }
+  ]
+}

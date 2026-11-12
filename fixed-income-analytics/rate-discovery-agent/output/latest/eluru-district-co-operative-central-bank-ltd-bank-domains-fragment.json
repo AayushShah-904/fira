@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "eluru-district-co-operative-central-bank-ltd",
+    "extracted_at": "2026-06-06T08:43:21.045Z",
+    "source": "bank-domains.json",
+    "source_sha": "d1f283b965600284ae2a2831e8eda7eb2310f96cc9d57c3c195db01f2cc75fb6"
+  },
+  "domain": "elurudccb.bank.in",
+  "rate_pages": {
+    "fd": "/term-deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving/",
+    "rd": "/recurring-deposits/"
+  },
+  "scraper_type": "html_js",
+  "notes": "WordPress + Elementor. HTML table rendered by Elementor; accessible via WP REST API. 1 tables",
+  "template": {
+    "template_id": "coop-bankin-2col-tenure-general",
+    "template_hash": "sha1:db57be35ac513b2b499913edb89f4e0bcb88c6f0",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

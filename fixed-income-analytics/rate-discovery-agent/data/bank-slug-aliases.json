@@ -1,0 +1,10 @@
+{
+  "_doc": "Maps alternate/historical bank slugs to canonical. Consumed by lib/slug-aliases.js#aliasToCanonical, applied in pack/build-pack.js at file-read time and scripts/quality-gate.js at compare time so that runs and baselines using either spelling resolve to the same identity. Add a new entry when two slugs refer to the same RBI-listed bank; leave the alternate entry out of data/bank-domains.json so the registry stays single-source.",
+  "_authored": "2026-05-23 (Fix #9) — addresses cohort #1→#2 'bank dropped from pack' anomalies where the new run and the baseline used different slug spellings for the same bank.",
+  "aliases": {
+    "nkgsb-co-operative-bank-ltd-mumbai": "nkgsb-co-operative-bank-ltd",
+    "the-zoroastrian-co-operative-bank-ltd": "zoroastrian-co-operative-bank-ltd",
+    "the-ahmedabad-mercantile-co-operative-bank-ltd": "ahmedabad-mercantile-co-op-bank-ltd",
+    "nellore-district-co-operative-central-bank-ltd": "sri-potti-sriramulu-nellore-district-cooperative-central-bank-ltd"
+  }
+}

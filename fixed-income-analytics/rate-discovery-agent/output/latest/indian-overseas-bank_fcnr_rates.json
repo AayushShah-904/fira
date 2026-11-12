@@ -1,0 +1,231 @@
+{
+  "bank_code": "indian-overseas-bank",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-11-10",
+  "source_url": "https://www.iob.bank.in/en/fcnr-rates",
+  "scraped_at": "2026-11-12T09:40:02.773Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year <2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50% 2.10% 2.15% 2.20% 2.25%"
+    },
+    {
+      "tenure_text": "2 Years <3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50% 2.10% 2.15% 2.20% 2.25%"
+    },
+    {
+      "tenure_text": "3 Years <4 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 2.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50% 2.10% 2.15% 2.20% 2.25%"
+    },
+    {
+      "tenure_text": "4 Years <5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50% 2.10% 2.15% 2.20% 2.25%"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50% 2.10% 2.15% 2.20% 2.25%"
+    },
+    {
+      "tenure_text": "1 Year <2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "EUR 2.50% 0.15% 0.15% 0.15% 0.15%"
+    },
+    {
+      "tenure_text": "1 Year <2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 0.03,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "source_row_text": "JPY 0.03% 0.05% 0.05% 0.05% 0.05%"
+    },
+    {
+      "tenure_text": "2 Years <3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 0.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "source_row_text": "JPY 0.03% 0.05% 0.05% 0.05% 0.05%"
+    },
+    {
+      "tenure_text": "3 Years <4 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 0.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "source_row_text": "JPY 0.03% 0.05% 0.05% 0.05% 0.05%"
+    },
+    {
+      "tenure_text": "4 Years <5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "source_row_text": "JPY 0.03% 0.05% 0.05% 0.05% 0.05%"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 0.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "JPY",
+      "source_row_text": "JPY 0.03% 0.05% 0.05% 0.05% 0.05%"
+    },
+    {
+      "tenure_text": "1 Year <2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 0.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 0.50% 1.60% 1.80% 1.90% 1.95%"
+    },
+    {
+      "tenure_text": "2 Years <3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 0.50% 1.60% 1.80% 1.90% 1.95%"
+    },
+    {
+      "tenure_text": "3 Years <4 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 1.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 0.50% 1.60% 1.80% 1.90% 1.95%"
+    },
+    {
+      "tenure_text": "4 Years <5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 0.50% 1.60% 1.80% 1.90% 1.95%"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 0.50% 1.60% 1.80% 1.90% 1.95%"
+    },
+    {
+      "tenure_text": "1 Year <2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 0.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 0.70% 1.00% 1.25% 1.55% 1.85%"
+    },
+    {
+      "tenure_text": "2 Years <3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 0.70% 1.00% 1.25% 1.55% 1.85%"
+    },
+    {
+      "tenure_text": "3 Years <4 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 1.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 0.70% 1.00% 1.25% 1.55% 1.85%"
+    },
+    {
+      "tenure_text": "4 Years <5 Years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 0.70% 1.00% 1.25% 1.55% 1.85%"
+    },
+    {
+      "tenure_text": "5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 1.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 0.70% 1.00% 1.25% 1.55% 1.85%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 2,
+    "last_scraped_at": "2026-11-12T09:40:02.773Z",
+    "manual_verification_needed": false
+  }
+}

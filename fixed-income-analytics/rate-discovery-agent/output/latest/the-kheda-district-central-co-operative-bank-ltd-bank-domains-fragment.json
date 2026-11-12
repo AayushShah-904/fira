@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:11:11.504Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "www.khedadccb.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://www.khedadccb.bank.in/bank-deposit-loan-interest-rates",
+    "fd_prev": "/interest-rates",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "domain_prev": "khedadccb.bank.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_tables",
+    "source_url": "https://www.khedadccb.bank.in/bank-deposit-loan-interest-rates",
+    "slab_count": 14,
+    "hints": "Two deposit-amount tiers: up to Rs.1 crore (below_1cr) and above Rs.1 crore (above_1cr). Senior citizens get +0.50% over the listed general rate (applied to the below_1cr tier; the above_1cr bulk tier does not list a separate senior column). Savings deposit (2.75%) excluded as non-FD. Rates rendered via JS from CMS API; extracted from the page's deposit rate table.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "coop-bankin-2bucket-regular",
+    "template_hash": "sha1:f4c87bd59c579e634eb5379f0f4a229e12bfb52e",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_general_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

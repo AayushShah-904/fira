@@ -1,0 +1,181 @@
+{
+  "bank_code": "panipat-central-co-operative-bank-ltd",
+  "bank_name": "Panipat Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-01-05",
+  "source_url": "https://www.pccbpanipat.org.in/wp-content/uploads/2024/01/Interest-of-Rates-on-Deposits_05-01-2024.pdf",
+  "scraped_at": "2026-05-21T00:57:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "Up to 15 days",
+      "tenure_min_days": 1,
+      "tenure_max_days": 15,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "16 to 45 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46 to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91 to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "181 to 365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "2 to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 3 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Up to 15 days",
+      "tenure_min_days": 1,
+      "tenure_max_days": 15,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "16 to 45 days",
+      "tenure_min_days": 16,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "46 to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "91 to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "181 to 365 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "1 to 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "2 to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    },
+    {
+      "tenure_text": "Above 3 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_and_above"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Official FD rate PDF is currently 404 on both panipatdccb.bank.in and pccbpanipat.org.in. Rates extracted from official summary table in web search. Operator should verify at branch for latest updates."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:01.793Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-21T00:57:00Z",
+      "retained_slab_count": 16
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 930,
+    "last_scraped_at": "2026-05-21T00:57:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "societe-generale-ibu",
+    "extracted_at": "2026-06-05T14:29:24.959Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "societegenerale.asia",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": "/en/newsroom/success-stories/success-stories-details/news/societe-generale-expands-in-india-with-launch-of-gift-city-branch/",
+    "gift": null
+  },
+  "scraper_type": "manual",
+  "parent_bank_code": "societe-generale",
+  "notes": "IFSC Banking Unit in GIFT City. Wholesale/structured finance only (renewable energy, infrastructure, data centres, telecom). No retail deposit products or public rate card. GIFT City page: /en/india/societe-generales-gift-city/. Parent bank domestic INR rates at /fileadmin/user_upload/Societe_Generale_websites/Asia/India/Rates_and_charges/Deposit_rates/DepositRates.pdf",
+  "status": "wholesale_only",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "GIFT City IBU (societegenerale.asia/en/india/societe-generales-gift-city). Presently offers only Term Loan facilities (ECBs) to corporates in USD/EUR/JPY; wholesale/structured finance. No deposit products or public rate card. Re-verified via web search."
+  }
+}

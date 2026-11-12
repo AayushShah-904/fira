@@ -1,0 +1,27 @@
+{
+  "bank_code": "rbl-bank-ibu",
+  "variant": "regular",
+  "slab_count": 60,
+  "key_rates": {
+    "1y": {
+      "general": 3.6,
+      "senior": null
+    },
+    "2y": {
+      "general": 3.4,
+      "senior": null
+    },
+    "3y": {
+      "general": 3.25,
+      "senior": null
+    },
+    "5y": {
+      "general": 2.75,
+      "senior": null
+    }
+  },
+  "effective_date": "2025-12-26",
+  "source_url": "https://rbl.bank.in/gift-city",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:53.976Z"
+}

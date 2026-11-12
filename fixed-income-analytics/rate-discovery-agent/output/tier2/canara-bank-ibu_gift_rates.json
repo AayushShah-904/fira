@@ -1,0 +1,17 @@
+{
+  "bank_code": "canara-bank-ibu",
+  "bank_name": "Canara Bank - IFSC Banking Unit (GIFT City)",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://www.canarabank.bank.in/pages/ifsc-banking-unit",
+  "scraped_at": "2026-05-25T11:20:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "No public foreign-currency term-deposit rate card found for Canara Bank IBU (GIFT City). The /pages/ifsc-banking-unit route returns HTTP 404 to direct/headless fetches (SPA route not server-rendered); the indexed page only states a savings-account rate of 2.0% p.a. and directs customers to contact the IBU Treasury for USD 10 Million and above deposits.",
+    "The bank's main deposit-interest-rates page carries only domestic INR, FCNR(B) and RFC rates - no IBU/GIFT-City foreign-currency term-deposit slabs.",
+    "GIFT-City term-deposit rates appear to be quote-on-request (not publicly published)."
+  ],
+  "tier2_method": "playwright fetch (404 on /pages/ifsc-banking-unit) + WebSearch + WebFetch of deposit-interest-rates (no IBU rates) -> rates non-public / on request"
+}

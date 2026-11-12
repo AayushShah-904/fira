@@ -1,0 +1,48 @@
+{
+  "bank_code": "indusind-bank-ibu",
+  "bank_name": "indusind-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 155897,
+  "duration_ms": 155897,
+  "duration_api_ms": 35744,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.229912,
+  "llm_cost_usd": 0.229912,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 85996,
+  "output_tokens": 7240,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 120034,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.indusind.bank.in/in/en/personal/rates.html\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 118,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.indusind.bank.in/in/en/personal/rates.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/indusind-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indusind-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IndusInd Bank IBU\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/indusind-bank-ibu_gift_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indusind-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IndusInd Bank IB"
+    }
+  ]
+}

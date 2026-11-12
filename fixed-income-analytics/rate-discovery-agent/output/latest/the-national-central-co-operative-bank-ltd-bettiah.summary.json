@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-national-central-co-operative-bank-ltd-bettiah",
+  "bank_name": "The National Central Co-operative Bank Ltd., Bettiah",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13860,
+  "duration_ms": 13860,
+  "duration_api_ms": 13544,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.0139804,
+  "input_tokens": 32323,
+  "output_tokens": 657,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The National Central Co-operative Bank Ltd., Bettiah\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nationalcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"The National Central Co-operative Bank Ltd., Bettiah official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 155,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nationalcentralcooperativebankbettiah.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nationalcentralcooperativebankbettiah.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 110,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nationalcentralcooperativebankbettiah.org\"}"
+    }
+  ]
+}

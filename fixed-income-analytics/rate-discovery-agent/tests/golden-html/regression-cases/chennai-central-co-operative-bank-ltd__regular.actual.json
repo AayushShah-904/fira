@@ -1,0 +1,12 @@
+{
+  "bank_code": "chennai-central-co-operative-bank-ltd",
+  "variant": "regular",
+  "slab_count": 0,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [
+    "FD rate card is published only as an image (https://www.chennaiccb.bank.in/images/deposit_popup2.jpg) — cannot extract slabs without Vision OCR or operator transcription. No extractable HTML or PDF rate table found. Savings rate (3% p.a.) confirmed from account opening page. FD rates only available via image; third-party aggregator rates are not authoritative."
+  ],
+  "key_rates": {}
+}

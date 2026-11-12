@@ -1,0 +1,78 @@
+{
+  "bank_code": "equitas-small-finance-bank-limited",
+  "bank_name": "equitas-small-finance-bank-limited",
+  "category": "Small Finance Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "small-finance-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 53146,
+  "duration_ms": 53146,
+  "duration_api_ms": 26771,
+  "num_turns": 4,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.475142,
+  "llm_cost_usd": 0.475142,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 223579,
+  "output_tokens": 3498,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 223,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://equitas.bank.in/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 23592,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 2558,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://equitas.bank.in/strapi-dev/uploads/Overall_Interest_Rates_1_f80c5a50c4.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/small-finance-bank/equitas-small-finance-bank-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"equitas-small-finance-bank-limited\\\",\\n  \\\"bank_n"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-04T0722_all/small-finance-bank/equitas-small-finance-bank-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"equitas-small-finance-bank-limited\\\",\\n  \\\"bank_na"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_js",
+    "notes": "Strapi CMS, JS-heavy, rate data is visible to users but not extractable via Playwright or static HTML fetch. The FD rate table is rendered as styled divs, not as a semantic HTML table. Manual extraction or a custom visual parser is required.",
+    "website_url": "https://equitas.bank.in",
+    "rate_url_fd": "https://equitas.bank.in/personal-banking/save/fixed-deposits/fixed-deposit/",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

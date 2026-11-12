@@ -1,0 +1,19 @@
+{
+  "bank_code": "porbandar-commercial-co-op-bank-ltd",
+  "bank_name": "Porbandar Commercial Co-Op Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "pccb.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Official site confirmed (pccb.bank.in, est. 1971). Full nav enumerated: About, Services (Core Banking/RTGS-NEFT/SMS/Mobile/DD), Products (Loans, Locker), Contact. Only deposit-related docs are charges PDFs (wp-content/uploads/2026/02/charges_charges-1_merged-1-new.pdf, 2025/12/accounts-and-deposits-charges.pdf). No FD/term-deposit interest-rate page, table, PDF, or image published. Re-verified prior finding."
+  },
+  "warnings": ["No FD rate page exists; only service-charge PDFs are published."],
+  "tier2_method": "websearch+webfetch"
+}

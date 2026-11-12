@@ -1,0 +1,151 @@
+{
+  "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://nizamabaddccb.bank.in/deposit-schemes/",
+  "scraped_at": "2026-06-09T15:23:11.616Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "Savings Bank Accounts",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 Savings Bank Accounts 3.00 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "7 To 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 7 To 14 Days 3.50 4.00 3.50 4.00"
+    },
+    {
+      "tenure_text": "15 To 45Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 15 To 45Days 4.00 4.50 4.00 4.50"
+    },
+    {
+      "tenure_text": "46 To 60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.6,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 46 To 60 Days 4.60 5.10 4.60 5.10"
+    },
+    {
+      "tenure_text": "61 To 90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.8,
+      "rate_senior_pct": 5.3,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 61 To 90 Days 4.80 5.30 4.80 5.30"
+    },
+    {
+      "tenure_text": "91 To 120 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 91 To 120 Days 5.00 5.50 5.40 5.90"
+    },
+    {
+      "tenure_text": "121 To 179 Days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 121 To 179 Days 5.10 5.60 5.40 5.90"
+    },
+    {
+      "tenure_text": "180 To 210 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 210,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8 180 To 210 Days 6.15 6.65 6.40 6.90"
+    },
+    {
+      "tenure_text": "211 days To Less than 1 year",
+      "tenure_min_days": 211,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9 211 days To Less than 1 year 6.15 6.65 6.40 6.90"
+    },
+    {
+      "tenure_text": "1 Year to Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10 1 Year to Less than 2 Year 7.25 7.75 7.50 8.00"
+    },
+    {
+      "tenure_text": "2 Year to Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "11 2 Year to Less than 3 Year 7.10 7.60 7.35 7.85"
+    },
+    {
+      "tenure_text": "3 Year to Less than  5 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7.05,
+      "rate_senior_pct": 7.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": "12 3 Year to Less than  5 Year 7.05 7.55 7.30 7.80"
+    },
+    {
+      "tenure_text": "5 Years and Above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "source_row_text": "13 5 Years and Above 6.80 7.30 7.05 7.55"
+    },
+    {
+      "tenure_text": "444",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Kamadhenu Term Deposit Scheme 1). Individuals 2). Bank Staff 3). Senior Citizens 444 Rs. 10,000/- 7.75%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (13 slabs) from 3 table(s); signals={\"pctRows\":13,\"tenureRows\":12,\"bothRows\":12,\"dataRows\":13,\"noisy\":false,\"colCount\":6}",
+    "llm_fallback: deterministic returned 13 slabs (suspect: multi_table=true too_few=false); LLM extracted 27 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T15:23:11.616Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bank_code": "kolar-district-central-co-opertive-bank-ltd",
+  "bank_name": "Kolar District Central Co-opertive Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-09",
+  "source_url": null,
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No official website or deposit rate page found for Kolar District Central Co-opertive Bank Ltd. after exhaustive search. Manual entry required."
+  ],
+  "errors": [
+    "No rate slabs extracted. No web source available."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 75,
+    "last_scraped_at": "2026-05-08T19:11:00Z",
+    "manual_verification_needed": false
+  }
+}

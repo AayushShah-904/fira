@@ -1,0 +1,19 @@
+{
+  "bank_code": "first-abu-dhabi-bank-pjsc-ibu",
+  "bank_name": "First Abu Dhabi Bank PJSC – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "bankfab.com",
+    "found_via": "registry_hint",
+    "notes": "First Abu Dhabi Bank PJSC operates as a wholesale/corporate bank in India (1 onshore branch, Mumbai) plus a GIFT City IFSC Banking Unit. No public GIFT-City / IFSC retail deposit rate card is published; bankfab.com publishes only UAE-domestic Smart Deposit / Fixed Deposit products (en-ae). India IBU deposit (FX) rates are relationship-managed, not published. Web search surfaced only other banks' IBU rate cards (Axis, Federal, ICICI GIFT City) and FAB's UAE retail products."
+  },
+  "warnings": ["Wholesale IBU; no public GIFT-City retail/FX deposit rate card. Only UAE-domestic FAB deposit products are published online."],
+  "tier2_method": "websearch+webfetch"
+}

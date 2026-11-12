@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "ahmedabad-mercantile-co-op-bank-ltd",
+    "extracted_at": "2026-06-05T13:09:46.543Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "amco.bank.in",
+  "rate_pages": {
+    "fd": "/n/deposit-interest-rate",
+    "fd_nre": "/n/deposit-interest-rate",
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/n/deposit-interest-rate",
+    "rd": "/n/deposit-interest-rate"
+  },
+  "scraper_type": "html_static",
+  "notes": "static HTML (PHP/server-rendered with Bootstrap CSS). HTML tables (table.table-bordered.table-striped). 3 tables. amcobank.com redirects to amco.bank.in.",
+  "template": {
+    "template_id": "amco-2col-tenure-rate",
+    "template_hash": "sha1:cc30734d550bfcf308db18903ea88ea538c3ee72",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  },
+  "tls_skip_verify": true,
+  "tls_skip_verify_reason": "Sprint 009 Phase 9.5 (2026-06-05): amco.bank.in same TLS cert issue as Arunachal RRB. Site returns clean HTML with -k; local env masks via Norton MITM CA."
+}

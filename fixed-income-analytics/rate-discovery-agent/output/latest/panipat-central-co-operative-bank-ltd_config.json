@@ -1,0 +1,19 @@
+{
+  "bank_code": "panipat-central-co-operative-bank-ltd",
+  "bank_name": "panipat-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Haryana",
+  "website": "https://dnb.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:03:35.434Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-06-08T20:18:57.507Z",
+  "category": "all",
+  "succeeded": 9,
+  "failed": 3,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "state-bank-of-india",
+      "status": "success",
+      "elapsed_sec": 177
+    },
+    {
+      "name": "bank-of-baroda",
+      "status": "success",
+      "elapsed_sec": 286
+    },
+    {
+      "name": "hdfc-bank-limited",
+      "status": "success",
+      "elapsed_sec": 103
+    },
+    {
+      "name": "bandhan-bank-limited",
+      "status": "success",
+      "elapsed_sec": 458
+    },
+    {
+      "name": "au-small-finance-bank-limited",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 4
+    },
+    {
+      "name": "citibank-na",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "indusind-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 143
+    },
+    {
+      "name": "hdfc-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 2
+    },
+    {
+      "name": "abhyudaya-co-operative-bank-ltd-mumbai",
+      "status": "success",
+      "elapsed_sec": 15
+    },
+    {
+      "name": "banswara-central-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 10
+    },
+    {
+      "name": "wai-urban-coop-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 26
+    },
+    {
+      "name": "haryana-gramin-bank",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 3
+    }
+  ]
+}

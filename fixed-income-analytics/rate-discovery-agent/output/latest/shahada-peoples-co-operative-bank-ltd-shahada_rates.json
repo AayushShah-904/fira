@@ -1,0 +1,122 @@
+{
+  "bank_code": "shahada-peoples-co-operative-bank-ltd-shahada",
+  "bank_name": "Shahada People's Co-operative Bank Ltd. Shahada",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-10-01",
+  "source_url": "https://www.shahadapeoplesbank.com/Deposit-Interest-Rates/",
+  "scraped_at": "2026-05-21T02:07:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-30 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31-60 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.1,
+      "rate_senior_pct": 4.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61-90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91-180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181-365 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Only 13 Month",
+      "tenure_min_days": 395,
+      "tenure_max_days": 395,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "14-24 Months",
+      "tenure_min_days": 420,
+      "tenure_max_days": 720,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "25-60 Months",
+      "tenure_min_days": 750,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.35,
+      "rate_senior_pct": 7.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61-120 Months",
+      "tenure_min_days": 1830,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "38-60 Months",
+      "tenure_min_days": 1140,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 7.7,
+      "rate_senior_pct": 7.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "Amrut Prakash Deposit Scheme",
+      "deposit_range": "above_1cr",
+      "tenure_text": "Only 25 Months",
+      "tenure_min_days": 750,
+      "tenure_max_days": 750,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 7.75
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 295,
+    "last_scraped_at": "2026-05-21T02:07:00Z",
+    "manual_verification_needed": true
+  }
+}

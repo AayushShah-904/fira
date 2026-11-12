@@ -1,0 +1,269 @@
+{
+  "bank_code": "hdfc-bank-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-07-03",
+  "source_url": "https://www.hdfcbank.com/nri-banking/rates/fcnr-deposit/rates",
+  "scraped_at": "2026-07-22T18:13:09.815Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official HDFC Bank FCNR Deposit Rates table w.e.f. July 3, 2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.4,
+      "currency": "GBP",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.5,
+      "currency": "USD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.3,
+      "currency": "EURO",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.9,
+      "currency": "JPY",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.5,
+      "currency": "AUD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.3,
+      "currency": "CAD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "1 Year- less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.15,
+      "currency": "SGD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "2 years - less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.25,
+      "currency": "GBP",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "2 years - less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.25,
+      "currency": "USD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "2 years - less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.9,
+      "currency": "EURO",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "2 years - less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.25,
+      "currency": "AUD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "2 years - less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.1,
+      "currency": "CAD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "2 years - less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1,
+      "currency": "SGD",
+      "effective_date": "2026-07-03"
+    },
+    {
+      "tenure_text": "3 year to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 5.9,
+      "currency": "GBP",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "3 year to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6,
+      "currency": "USD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "3 year to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 4.5,
+      "currency": "EURO",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "3 year to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.25,
+      "currency": "AUD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "3 year to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 4.5,
+      "currency": "CAD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "3 year to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.4,
+      "currency": "SGD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5.9,
+      "currency": "GBP",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6,
+      "currency": "USD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 4.55,
+      "currency": "EURO",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.25,
+      "currency": "AUD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 4.5,
+      "currency": "CAD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.4,
+      "currency": "SGD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.9,
+      "currency": "GBP",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6,
+      "currency": "USD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.55,
+      "currency": "EURO",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "currency": "AUD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4.5,
+      "currency": "CAD",
+      "effective_date": "2026-06-22"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.4,
+      "currency": "SGD",
+      "effective_date": "2026-06-22"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 20,
+    "last_scraped_at": "2026-07-22T18:13:09.815Z",
+    "manual_verification_needed": false
+  }
+}

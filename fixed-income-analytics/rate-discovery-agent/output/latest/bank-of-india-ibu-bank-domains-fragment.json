@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-india-ibu",
+    "extracted_at": "2026-06-05T14:04:40.808Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "bankofindia.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": "/ibu_interest_rate"
+  },
+  "scraper_type": "html_js",
+  "parent_bank_code": "bank-of-india",
+  "notes": "IFSC Banking Unit at GIFT City. IBU pages at /ibu-gift-city, /ibu-products, /corporate-ibu-gift-city. Entire site behind reCAPTCHA (403 on direct fetch), needs Playwright stealth.",
+  "template": {
+    "template_id": "ibu-gift-currency-amount-2bucket",
+    "template_hash": "sha1:1f7c45b6fd69f4f0f0f8e6c6ea971dc4228a196d",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#EUR",
+            "3": "rate_general_pct#GBP",
+            "4": "rate_general_pct#JPY"
+          },
+          "deposit_range": "below_1mio"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#EUR",
+            "3": "rate_general_pct#GBP",
+            "4": "rate_general_pct#JPY"
+          },
+          "deposit_range": "above_1mio"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:50:50.980Z",
+      "gates_passed": "PASS",
+      "slab_count": 62,
+      "cluster_reused": false
+    }
+  },
+  "playwright_disabled": true,
+  "playwright_disabled_reason": "Sprint 009 cloud-validation-3 (2026-06-04): Azure Container Apps -> sbi.bank.in / bankofindia.bank.in network path causes 120s spawnSync ETIMEDOUT on every Playwright launch. Same image on chromium preflight launches in 11s, BoB/PNB Playwright work. Disable Playwright for this bank so LLM picks fetch_url / static HTML / PDF fallback in cloud runs. Local runs can override by removing this flag temporarily."
+}

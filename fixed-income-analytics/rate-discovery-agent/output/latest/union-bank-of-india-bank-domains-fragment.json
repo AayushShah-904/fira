@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "bank_code": "union-bank-of-india",
+    "extracted_at": "2026-06-05T09:35:46.456Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "unionbankofindia.bank.in",
+  "rate_pages": {
+    "fd": "/en/details/rate-of-interest",
+    "fd_nre": "/en/common/interest-rates-for-nre",
+    "fd_nro": "/en/details/rate-of-interest",
+    "fd_fcnr": "/en/common/interest-rates-fcnr-b-rfc",
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "jQuery (server-rendered HTML). HTML tables with .inner-table class. 2 tables",
+  "template": {
+    "template_id": "union-bankin-2col-tenure-regular-savings",
+    "template_hash": "sha1:049e5d3b7645f5381bcc97a10c195f4a30f11b10",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "amount",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 18,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "union-fcnr-multi-currency-amount-bucket",
+    "template_hash": "sha1:74627b652a452be883813cbda152d1f4a14946d8",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 2,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "rate_general_pct@below_200k#USD",
+            "3": "ignore",
+            "4": "rate_general_pct@above_200k#USD",
+            "5": "ignore",
+            "6": "rate_general_pct#GBP",
+            "7": "ignore",
+            "8": "rate_general_pct#JPY",
+            "9": "ignore",
+            "10": "rate_general_pct#EUR",
+            "11": "ignore",
+            "12": "rate_general_pct#CAD",
+            "13": "ignore",
+            "14": "rate_general_pct#AUD"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 28,
+      "cluster_reused": false
+    }
+  }
+}

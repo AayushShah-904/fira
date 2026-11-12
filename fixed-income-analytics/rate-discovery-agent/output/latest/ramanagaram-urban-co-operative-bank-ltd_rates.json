@@ -1,0 +1,23 @@
+{
+  "bank_code": "ramanagaram-urban-co-operative-bank-ltd",
+  "bank_name": "Ramanagaram Urban Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-21",
+  "source_url": "https://rucbank.com",
+  "scraped_at": "2026-05-21T02:07:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Website unreachable (DNS error). No rate page accessible. Operator must obtain rates manually from bank office or physical documents."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 63,
+    "last_scraped_at": "2026-05-21T02:07:00Z",
+    "manual_verification_needed": false
+  }
+}

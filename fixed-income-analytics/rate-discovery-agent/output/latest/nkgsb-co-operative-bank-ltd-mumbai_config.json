@@ -1,0 +1,19 @@
+{
+  "bank_code": "nkgsb-co-operative-bank-ltd-mumbai",
+  "bank_name": "nkgsb-co-operative-bank-ltd-mumbai",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://nkgsb-bank.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://nkgsb-bank.com/term-deposit.php"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:58:36.764Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

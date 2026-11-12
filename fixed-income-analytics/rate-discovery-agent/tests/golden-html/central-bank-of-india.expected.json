@@ -1,0 +1,27 @@
+{
+  "bank_code": "central-bank-of-india",
+  "variant": "regular",
+  "slab_count": 31,
+  "key_rates": {
+    "1y": {
+      "general": 6.1,
+      "senior": 6.24
+    },
+    "2y": {
+      "general": 6.25,
+      "senior": 6.4
+    },
+    "3y": {
+      "general": 6,
+      "senior": 6.14
+    },
+    "5y": {
+      "general": 6,
+      "senior": 6.14
+    }
+  },
+  "effective_date": "10.09.2025",
+  "source_url": "https://centralbank.bank.in/en/interest-rates-on-deposit",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.006Z"
+}

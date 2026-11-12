@@ -1,0 +1,19 @@
+{
+  "bank_code": "chennai-central-co-operative-bank-ltd",
+  "bank_name": "chennai-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Tamil Nadu",
+  "website": "https://ccbankchennai.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://ccbankchennai.com/interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:15:27.103Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

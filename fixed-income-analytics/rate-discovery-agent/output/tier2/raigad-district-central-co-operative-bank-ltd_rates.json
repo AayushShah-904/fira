@@ -1,0 +1,44 @@
+{
+  "bank_code": "raigad-district-central-co-operative-bank-ltd",
+  "bank_name": "Raigad District Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://rdcc.bank.in/check-rates",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [
+    { "tenure_text": "7 Days To 30 Days", "tenure_min_days": 7, "tenure_max_days": 30, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "31 Days To 45 Days", "tenure_min_days": 31, "tenure_max_days": 45, "rate_general_pct": 4.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 Days To 180 Days", "tenure_min_days": 46, "tenure_max_days": 180, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 Days To 270 Days", "tenure_min_days": 181, "tenure_max_days": 270, "rate_general_pct": 5.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "271 Days To 364 Days", "tenure_min_days": 271, "tenure_max_days": 364, "rate_general_pct": 6.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Year", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 8.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Year To 2 Year", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 8.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "2 Year To 3 Year", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 8.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Year To 5 Year", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 7.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "5 Year Above", "tenure_min_days": 1826, "tenure_max_days": null, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+
+    { "tenure_text": "7 Days To 30 Days (Above 1 Crore, Non Callable)", "tenure_min_days": 7, "tenure_max_days": 30, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "31 Days To 45 Days (Above 1 Crore, Non Callable)", "tenure_min_days": 31, "tenure_max_days": 45, "rate_general_pct": 4.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "46 Days To 180 Days (Above 1 Crore, Non Callable)", "tenure_min_days": 46, "tenure_max_days": 180, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "181 Days To 270 Days (Above 1 Crore, Non Callable)", "tenure_min_days": 181, "tenure_max_days": 270, "rate_general_pct": 5.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "271 Days To 364 Days (Above 1 Crore, Non Callable)", "tenure_min_days": 271, "tenure_max_days": 364, "rate_general_pct": 6.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "1 Year (Above 1 Crore, Non Callable)", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 8.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "1 Year To 2 Year (Above 1 Crore, Non Callable)", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 8.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "2 Year To 3 Year (Above 1 Crore, Non Callable)", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 8.15, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "3 Year To 5 Year (Above 1 Crore, Non Callable)", "tenure_min_days": 1096, "tenure_max_days": 1825, "rate_general_pct": 8.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" },
+    { "tenure_text": "5 Year Above (Above 1 Crore, Non Callable)", "tenure_min_days": 1826, "tenure_max_days": null, "rate_general_pct": 7.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "1cr_to_10cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "No senior citizen column on source page; columns are amount tiers (Below 1 Crore / Above 1 Crore Non-Callable). rate_senior_pct left null for all slabs.",
+    "Above-1-Crore slabs are Non-Callable (premature withdrawal/OD not allowed) and emitted as deposit_range 1cr_to_10cr.",
+    "No w.e.f. effective date shown on source page."
+  ],
+  "errors": []
+}

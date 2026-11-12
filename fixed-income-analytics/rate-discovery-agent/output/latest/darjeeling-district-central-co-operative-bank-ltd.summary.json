@@ -1,0 +1,50 @@
+{
+  "bank_code": "darjeeling-district-central-co-operative-bank-ltd",
+  "bank_name": "darjeeling-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9671,
+  "duration_ms": 9671,
+  "duration_api_ms": 9574,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.014240400000000002,
+  "input_tokens": 32697,
+  "output_tokens": 726,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"darjeeling district central co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"darjeeling district central co operative bank ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://darjeelingdistrictcentralcooperativebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://darjeelingdccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://darjeelingdccb.co.in/\"}"
+    }
+  ]
+}

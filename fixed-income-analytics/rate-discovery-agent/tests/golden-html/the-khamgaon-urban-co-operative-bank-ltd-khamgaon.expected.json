@@ -1,0 +1,27 @@
+{
+  "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+  "variant": "regular",
+  "slab_count": 30,
+  "key_rates": {
+    "1y": {
+      "general": 5.5,
+      "senior": 6
+    },
+    "2y": {
+      "general": 6.5,
+      "senior": 7
+    },
+    "3y": {
+      "general": 6.35,
+      "senior": 6.85
+    },
+    "5y": {
+      "general": 6.35,
+      "senior": 6.85
+    }
+  },
+  "effective_date": "2026-01-05",
+  "source_url": "https://khamgaonurban.bank.in/interest-rate/interest-rate-on-deposits.html",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.012Z"
+}

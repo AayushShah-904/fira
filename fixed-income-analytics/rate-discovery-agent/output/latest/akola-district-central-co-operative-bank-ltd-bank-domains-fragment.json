@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "akola-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T08:31:54.994Z",
+    "source": "bank-domains.json",
+    "source_sha": "569e7d836788c0f048aa9a8caece448b6f1a4ea6436d1455a2b7db56b8a96798"
+  },
+  "domain": "akolawashimdcc.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rate-on-deposits.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

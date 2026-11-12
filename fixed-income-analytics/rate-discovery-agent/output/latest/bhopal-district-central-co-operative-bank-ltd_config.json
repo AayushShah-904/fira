@@ -1,0 +1,19 @@
+{
+  "bank_code": "bhopal-district-central-co-operative-bank-ltd",
+  "bank_name": "bhopal-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://bccbbhopal.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://bccbbhopal.bank.in/rate_of_interest"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:20:44.705Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_js"
+}

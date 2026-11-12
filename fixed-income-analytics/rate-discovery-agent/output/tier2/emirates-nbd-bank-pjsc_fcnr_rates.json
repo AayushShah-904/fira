@@ -1,0 +1,23 @@
+{
+  "bank_code": "emirates-nbd-bank-pjsc",
+  "bank_name": "Emirates NBD Bank PJSC",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-03-16",
+  "source_url": "https://www.emiratesnbd.bank.in/en/interest-rates",
+  "scraped_at": "2026-05-26T07:05:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": ">=12m to <=13m", "tenure_min_days": 365, "tenure_max_days": 395, "rate_general_pct": 3.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": ">13m to <=24m", "tenure_min_days": 396, "tenure_max_days": 730, "rate_general_pct": 3.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": ">24m to <=36m", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 3.65, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Replaces prior buggy file (23 slabs) that had folded the INR domestic term-deposit card (sub-year tenures, with currency stamped USD) into FCNR. Live page publishes only the FCNR Deposits Card Rates (USD currency) table = exactly 3 long-tenure rows for amounts <= USD 100,000.",
+    "Rates shown apply to amounts <= USD 100,000; for amounts > USD 100,000 the bank directs customers to contact RM/Branch Manager (no published rate).",
+    "USD is the only currency published in the FCNR card. FCNR has no senior-citizen premium."
+  ],
+  "errors": [],
+  "discovery_metadata": { "run_method": "tier-2-reextract", "sourced_at": "2026-05-26T07:05:00Z" }
+}

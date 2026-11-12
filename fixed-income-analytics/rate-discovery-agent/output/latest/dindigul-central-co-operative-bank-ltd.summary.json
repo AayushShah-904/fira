@@ -1,0 +1,50 @@
+{
+  "bank_code": "dindigul-central-co-operative-bank-ltd",
+  "bank_name": "dindigul-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9329,
+  "duration_ms": 9329,
+  "duration_api_ms": 9187,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0085828,
+  "input_tokens": 18857,
+  "output_tokens": 650,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"dindigul central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 39,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dindigulcentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dindigulcentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dindigulcentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dindigulcentralcooperativebankltd.co.in\"}"
+    }
+  ]
+}

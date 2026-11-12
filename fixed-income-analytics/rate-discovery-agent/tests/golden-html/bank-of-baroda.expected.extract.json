@@ -1,0 +1,33 @@
+{
+  "_comment": "Multi-table extract config: one block per distinct domestic FD rate table on bankofbaroda.bank.in (callable & non-callable up to ten crores). Mirrors lib/templating/llm_propose.js output. idx=0 = retail <3Cr (tenure/general/senior/super-senior). idx=1 = bulk 3Cr-5Cr amount-tiered table (7 identical bulk-tier rate columns per row → coalesced to one slab per tenure). Header band on idx=1 spans rows 0-1; data starts row 2.",
+  "extracts": [
+    {
+      "table_index": 0,
+      "header_row": 0,
+      "header_span_rows": 1,
+      "deposit_range": "below_3cr",
+      "column_map": {
+        "0": "tenure_text",
+        "1": "rate_general_pct",
+        "2": "rate_senior_pct",
+        "3": "rate_super_senior_pct"
+      }
+    },
+    {
+      "table_index": 1,
+      "header_row": 1,
+      "header_span_rows": 1,
+      "deposit_range": "3cr_to_5cr",
+      "column_map": {
+        "0": "tenure_text",
+        "1": "rate_general_pct",
+        "2": "rate_general_pct",
+        "3": "rate_general_pct",
+        "4": "rate_general_pct",
+        "5": "rate_general_pct",
+        "6": "rate_general_pct",
+        "7": "rate_general_pct"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "bank-of-nova-scotia",
+    "extracted_at": "2026-06-05T11:23:31.289Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "scotiabank.com",
+  "rate_pages": {
+    "fd": "/content/dam/global/india/Interest-Rate-Schedule-of-Charges-Dec-2025.pdf",
+    "savings": "/content/dam/global/india/Interest-Rate-Schedule-of-Charges-Dec-2025.pdf",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "PDF rate card with tabular data. 2 tables"
+}

@@ -1,0 +1,23 @@
+{
+  "bank_code": "state-bank-of-india",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:00:46.592Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T1957_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-xdxc51b"
+    },
+    {
+      "ts": "2026-06-08T20:27:00.556Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T10:52:29.126Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

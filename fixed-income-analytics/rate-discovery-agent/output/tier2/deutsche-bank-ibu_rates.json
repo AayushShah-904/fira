@@ -1,0 +1,19 @@
+{
+  "bank_code": "deutsche-bank-ibu",
+  "bank_name": "Deutsche Bank – IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "deutsche.bank.in",
+    "found_via": "registry_hint",
+    "notes": "GIFT City IBU (launched Jul 2022, country.db.com/india/GIFT-City). Corporate/wholesale only: Trade Finance, Fixed Income & Currencies, credit facilities and cash-pooling/deposit propositions for corporate clients. No public retail FC term-deposit rate card. Re-verified via web search."
+  },
+  "warnings": ["IBU: deposit_insurance false. Wholesale/institutional; no retail FD rate card published."],
+  "tier2_method": "websearch+webfetch"
+}

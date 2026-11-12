@@ -1,0 +1,168 @@
+{
+  "bank_code": "karur-vysya-bank-limited",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "2026-06-08",
+  "source_url": "https://kvb.bank.in/nri/products/deposits/nro-deposits/",
+  "scraped_at": "2026-07-07T06:52:27.113Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.06,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "15 Days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.06,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "31 Days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 4.58,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "46 Days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.84,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "91 Days to 120 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.88,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "121 Days to 180 Days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.14,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "181 Days to 270 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "271 Days to 332 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 332,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.56,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "333 Days",
+      "tenure_min_days": 333,
+      "tenure_max_days": 333,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.19,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "334 Days to less than 1 year",
+      "tenure_min_days": 334,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.56,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 Year to up to 399 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 399,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "400 Days",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "401 Days up to 2 Years",
+      "tenure_min_days": 401,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 2 years up to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 3 years up to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": 6.55
+    },
+    {
+      "tenure_text": "2345 days)",
+      "tenure_min_days": 2345,
+      "tenure_max_days": 2345,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 3 tables on page (3 rate-bearing by score)",
+    "multi_table_dedup: dropped 1 near-duplicate rate table(s) (same heading + same first row)",
+    "section_notes_unparsed: 2 note(s) preserved but not converted to rule overrides: { \"@context\": \"https://schema.org\", \"@type\": \"Website\", \"url\": \"https://www.kvb.bank.in/\", \"potentialAction\": { \"@type\": \"SearchAction\", \"target\": \"https://www.kvb.bank.in?q={search_term_string}\", \"query-input\": \"required name=search_term_string\" } } NRO Deposits | Karur Vysya Bank {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"dateModified\":\"2026-07-06T14:38:36+00:00\",\"datePublished\":\"2026-07-06T14:38:36+00:00\",\"description\":\"Non Resident Ordinary - Fixed Deposit is a scheme majorly fo",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[2]: why)",
+    "llm_validation: chunk[1] dropped slab; neither source_row_text (\"7 Days to 14 days\u0000 4.00% 4.06%\") nor tenure_text (\"7 Days to 14 days\u0000\") found in chunk text",
+    "llm_validation: chunk[1] dropped slab; neither source_row_text (\"15 Days to 30 days\u0000 4.00% 4.06%\") nor tenure_text (\"15 Days to 30 days\u0000\") found in chunk text",
+    "llm_validation: chunk[1] dropped slab; neither source_row_text (\"31 Days to 45 days\u0000 4.50% 4.58%\") nor tenure_text (\"31 Days to 45 days\u0000\") found in chunk text",
+    "llm_validation: chunk[1] dropped slab; neither source_row_text (\"46 Days to 90 days\u0000 4.75% 4.84%\") nor tenure_text (\"46 Days to 90 days\u0000\") found in chunk text",
+    "llm_validation: chunk[1] dropped slab; neither source_row_text (\"91 Days to 120 Days \u0000 5.75% 5.88%\") nor tenure_text (\"91 Days to 120 Days \u0000\") found in chunk text",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 34 slab(s) from page text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 45,
+    "last_scraped_at": "2026-07-07T06:52:27.113Z",
+    "manual_verification_needed": false
+  }
+}

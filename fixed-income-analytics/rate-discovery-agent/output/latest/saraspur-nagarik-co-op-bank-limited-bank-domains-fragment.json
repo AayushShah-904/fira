@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "saraspur-nagarik-co-op-bank-limited",
+    "extracted_at": "2026-06-06T10:02:05.203Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "saraspur.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/interest-rates"
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "coop-bankin-4col-tenure-general-senior-super",
+    "template_hash": "sha1:8d3255dcc3cfe9dc402a805e1250428cc651ffc9",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ],
+      "tenure_cap_days": 1095
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 6,
+      "cluster_reused": false
+    }
+  }
+}

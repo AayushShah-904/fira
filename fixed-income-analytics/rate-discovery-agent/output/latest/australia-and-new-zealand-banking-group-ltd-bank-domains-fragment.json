@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "australia-and-new-zealand-banking-group-ltd",
+    "extracted_at": "2026-06-05T11:18:42.434Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "anz.com",
+  "rate_pages": {
+    "fd": "/personal/credit-cards/",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_fcnr": null,
+    "fd_nro": null
+  },
+  "scraper_type": "manual",
+  "status": "wholesale_only",
+  "notes": "ANZ India is wholesale/institutional banking only. No retail deposit products in India.",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "ANZ India (anz.com/institutional/global/india) is an institutional & corporate banking branch only — transaction banking, markets, trade & supply chain, term financing. No retail/consumer term-deposit product and no public FD rate card. ANZ's term-deposit rate pages on anz.com.au / anz.co.nz are for Australia/NZ, not the India branch."
+  }
+}

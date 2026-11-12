@@ -1,0 +1,74 @@
+{
+  "bank_code": "sasnagar-central-co-operative-bank-ltd",
+  "bank_name": "S.A.S.Nagar Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10943,
+  "duration_ms": 10943,
+  "duration_api_ms": 10585,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.084778,
+  "input_tokens": 38677,
+  "output_tokens": 928,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"S.A.S.Nagar Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sasnagarcentralcoopbank.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"S.A.S.Nagar Central Co-operative Bank Ltd.\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sasnagarcoopbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sasnagarcoopbank.com\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"S.A.S.Nagar Central Co-operative Bank Ltd.\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 129,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://punjabcooperation.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 95,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://punjab.gov.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 46,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.punjab.gov.in\"}"
+    }
+  ]
+}

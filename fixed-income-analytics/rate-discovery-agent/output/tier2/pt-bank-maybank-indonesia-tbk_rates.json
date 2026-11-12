@@ -1,0 +1,32 @@
+{
+  "bank_code": "pt-bank-maybank-indonesia-tbk",
+  "bank_name": "PT Bank Maybank Indonesia TBK",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-01",
+  "source_url": "https://www.maybank.co.in/downloads_pdf/Deposit%20rates_01052026.pdf",
+  "scraped_at": "2026-05-25T17:40:00Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    { "tenure_text": "7-15 days", "tenure_min_days": 7, "tenure_max_days": 15, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "16-30 days", "tenure_min_days": 16, "tenure_max_days": 30, "rate_general_pct": 4.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "31-45 days", "tenure_min_days": 31, "tenure_max_days": 45, "rate_general_pct": 4.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46-70 days", "tenure_min_days": 46, "tenure_max_days": 70, "rate_general_pct": 5.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "71-90 days", "tenure_min_days": 71, "tenure_max_days": 90, "rate_general_pct": 5.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91-100 days", "tenure_min_days": 91, "tenure_max_days": 100, "rate_general_pct": 5.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "101-120 days", "tenure_min_days": 101, "tenure_max_days": 120, "rate_general_pct": 5.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "121-180 days", "tenure_min_days": 121, "tenure_max_days": 180, "rate_general_pct": 5.95, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181-270 days", "tenure_min_days": 181, "tenure_max_days": 270, "rate_general_pct": 6.15, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "271-365 days", "tenure_min_days": 271, "tenure_max_days": 365, "rate_general_pct": 6.30, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "366 days - 2 years", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 6.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": ">2 years", "tenure_min_days": 731, "tenure_max_days": null, "rate_general_pct": 6.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Foreign bank (PT Bank Maybank Indonesia TBK, India operations) — no senior citizen premium offered; rate_senior_pct left null.",
+    "PDF publishes 4 amount tiers x 2 withdrawal types. Slabs recorded here are the 'below INR 30 Mio (below ~3cr), non-premature withdrawal' table = below_3cr retail tier. A separate higher tier 'INR 30 Mio and above' (non-premature) offers higher rates (e.g. 7-15d 4.75, peak 271-365d 6.55, 366d-2y 6.50).",
+    "Premature-withdrawal variant of each tier is 0.05-0.20 pct lower; not recorded separately."
+  ],
+  "errors": [],
+  "tier2_method": "pdf"
+}

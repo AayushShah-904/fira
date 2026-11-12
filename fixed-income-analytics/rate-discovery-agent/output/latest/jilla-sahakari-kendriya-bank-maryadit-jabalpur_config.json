@@ -1,0 +1,19 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Madhya Pradesh",
+  "website": "https://dccbjabalpur.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:36:53.762Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

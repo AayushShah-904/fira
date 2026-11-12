@@ -1,0 +1,369 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-07-01",
+  "source_url": "https://kotak.bank.in/en/personal-banking/nri/accounts-deposits/deposits/fcnr-deposits/interest-rate.html",
+  "scraped_at": "2026-07-07T07:00:59.866Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": ">=1 Year - Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": ">=1 Year - Less than 2 Year 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": ">=1 Year - Less than 2 Year 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": ">=1 Year - Less than 2 Year 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": ">=1 Year - Less than 2 Year 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": "2 Year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": "2 Year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 Year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "2 Year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 Year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "2 Year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 Year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "2 Year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "3 Year - Less than 4 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": "3 Year - Less than 4 Year 6.00% 6.15% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "3 Year - Less than 4 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "3 Year - Less than 4 Year 6.00% 6.15% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "3 Year - Less than 4 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "3 Year - Less than 4 Year 6.00% 6.15% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "3 Year - Less than 4 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "3 Year - Less than 4 Year 6.00% 6.15% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "4 Year - Less than 5 Year",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": "4 Year - Less than 5 Year 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": ">=1 Year - Less than 2 years 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": ">=1 Year - Less than 2 years 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": ">=1 Year - Less than 2 years 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": ">=1 Year - Less than 2 years 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": ">=1 Year - Less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "SGD",
+      "source_row_text": ">=1 Year - Less than 2 years 4.00% 4.00% 3.95% 2.40% 4.50% 1.25%"
+    },
+    {
+      "tenure_text": "2 year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": "2 year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "2 year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "2 year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "2 year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "2 year - Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "SGD",
+      "source_row_text": "2 year - Less than 3 Year 3.70% 3.70% 3.65% 1.90% 4.15% 1.10%"
+    },
+    {
+      "tenure_text": "3 Years Only",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": "3 Years Only 3.40% 3.40% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "3 Years Only",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "3 Years Only 3.40% 3.40% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "3 Years Only",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "3 Years Only 3.40% 3.40% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "3 Years Only",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "3 Years Only 3.40% 3.40% 3.45% 1.90% 3.85% No Quote"
+    },
+    {
+      "tenure_text": "4 Year - Less than 5 Year",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "4 Year - Less than 5 Year 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": "4 Year - Less than 5 Year",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "4 Year - Less than 5 Year 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": "4 Year - Less than 5 Year",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "4 Year - Less than 5 Year 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": "5 Year Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "0_5_mio",
+      "source_row_text": "5 Year Only 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": "5 Year Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "5 Year Only 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": "5 Year Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "5 Year Only 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    },
+    {
+      "tenure_text": "5 Year Only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "5 Year Only 6.00% 6.15% No Quote No Quote No Quote No Quote"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 22,
+    "last_scraped_at": "2026-07-07T07:00:59.866Z",
+    "manual_verification_needed": false
+  }
+}

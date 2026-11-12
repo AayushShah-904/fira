@@ -1,0 +1,27 @@
+{
+  "bank_code": "mizuho-bank-ltd",
+  "bank_name": "Mizuho Bank Ltd",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": null,
+  "source_url": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/6a1d29853f9a0a662853fe9c_rate1101.pdf",
+  "scraped_at": "2026-06-05T11:52:06Z",
+  "extraction_confidence": "medium",
+  "rate_slabs": [
+    {
+      "tenure_text": "346 DAYS TO 1 Year",
+      "tenure_min_days": 346,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Only one NRE/NRO slab found in PDF. No other tenures published for NRE/NRO."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction"
+}

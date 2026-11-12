@@ -1,0 +1,168 @@
+{
+  "bank_code": "bharat-co-operative-bank-mumbai-ltd",
+  "bank_name": "Bharat Co-operative Bank (Mumbai) Ltd.",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-04-06",
+  "source_url": "https://www.bharatbank.bank.in/interest_rates_fd.html",
+  "scraped_at": "2026-04-12T12:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 12 months to 24 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "Above 36 months to 120 months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr"
+    },
+    {
+      "tenure_text": "Above 12 months to 24 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr"
+    },
+    {
+      "tenure_text": "Above 36 months to 120 months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_2cr"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr"
+    },
+    {
+      "tenure_text": "Above 12 months to 24 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr"
+    },
+    {
+      "tenure_text": "Above 36 months to 120 months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "2cr_to_5cr"
+    },
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr"
+    },
+    {
+      "tenure_text": "Above 12 months to 24 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr"
+    },
+    {
+      "tenure_text": "Above 36 months to 120 months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_5cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "NRE deposits have no senior citizen premium",
+    "NRE minimum tenure is 12 months (no short-term NRE deposits)"
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 108,
+    "last_scraped_at": "2026-04-12T12:00:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "bank_code": "godhra-urban-co-op-bank-limited",
+  "bank_name": "godhra-urban-co-op-bank-limited",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 7462,
+  "duration_ms": 7462,
+  "duration_api_ms": 7027,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.049878000000000006,
+  "llm_cost_usd": 0.049878000000000006,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21531,
+  "output_tokens": 852,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 187,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tgucbl.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 148,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tgucbl.bank.in/deposits/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 39,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tgucbl.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 61,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tgucbl.bank.in/deposits/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 4,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

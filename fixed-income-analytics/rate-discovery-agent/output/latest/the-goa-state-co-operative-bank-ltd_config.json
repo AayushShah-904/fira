@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-goa-state-co-operative-bank-ltd",
+  "bank_name": "the-goa-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Goa",
+  "website": "https://gscbgoa.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://gscbgoa.bank.in/deposit-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:06:27.135Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

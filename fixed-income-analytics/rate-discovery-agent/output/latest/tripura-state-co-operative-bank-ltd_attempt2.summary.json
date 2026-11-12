@@ -1,0 +1,66 @@
+{
+  "bank_code": "tripura-state-co-operative-bank-ltd",
+  "bank_name": "tripura-state-co-operative-bank-ltd",
+  "category": "Scheduled State Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-state-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 32914,
+  "duration_ms": 32914,
+  "duration_api_ms": 7509,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.063374,
+  "llm_cost_usd": 0.063374,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 28739,
+  "output_tokens": 737,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 6010,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tscb.bank.in/page/54\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 10007,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.tscb.bank.in/page/54\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 9388,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tscb.bank.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 3,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

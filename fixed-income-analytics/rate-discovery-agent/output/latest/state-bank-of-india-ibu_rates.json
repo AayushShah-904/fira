@@ -1,0 +1,152 @@
+{
+  "bank_code": "state-bank-of-india-ibu",
+  "scraped_at": "2026-04-14T19:59:00Z",
+  "source_url": "https://ifsc.statebank/interest-rates",
+  "effective_date": "2026-04-03",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7d to 1m",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "7d to 1m",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.6,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    },
+    {
+      "tenure_text": "1m1d to 3m",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.65,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "1m1d to 3m",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    },
+    {
+      "tenure_text": "3m 1d to 6m",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.8,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "3m 1d to 6m",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.9,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    },
+    {
+      "tenure_text": "6m 1d to 9m",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 3.9,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "6m 1d to 9m",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    },
+    {
+      "tenure_text": "9m 1d to 12m",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 3.9,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "9m 1d to 12m",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    },
+    {
+      "tenure_text": "1 Yr 1d to 3 Yrs",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.65,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "1 Yr 1d to 3 Yrs",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    },
+    {
+      "tenure_text": "3Yrs 1d to 5 Yrs",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.65,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "below_1m_usd"
+    },
+    {
+      "tenure_text": "3Yrs 1d to 5 Yrs",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "1m_usd_and_above"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "fill_empty",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 111,
+    "last_scraped_at": "2026-04-14T19:59:00Z",
+    "manual_verification_needed": true
+  }
+}

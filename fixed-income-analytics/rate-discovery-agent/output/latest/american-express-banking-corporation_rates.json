@@ -1,0 +1,140 @@
+{
+  "bank_code": "american-express-banking-corporation",
+  "scraped_at": "2026-04-15T02:20:00Z",
+  "source_url": "https://www.americanexpress.com/content/dam/amex/in/legal/notice-board/Ratecard/RateCard_Jan..pdf",
+  "effective_date": "2020-01-30",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 days to 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 days to 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "121 days to 180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 210 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 210,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "211 days to 270 days",
+      "tenure_min_days": 211,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271 days to less than 1 year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Institutional deposits only. No senior citizen or super-senior rates. No NRI/FCNR products.",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-01-30\" parses to 2020-01-30 (year 2020 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-04-16",
+    "rule": "fill_empty",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 2366,
+    "last_scraped_at": "2026-04-15T02:20:00Z",
+    "manual_verification_needed": true
+  }
+}

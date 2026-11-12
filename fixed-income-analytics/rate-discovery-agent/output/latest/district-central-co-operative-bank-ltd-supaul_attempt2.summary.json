@@ -1,0 +1,108 @@
+{
+  "bank_code": "district-central-co-operative-bank-ltd-supaul",
+  "bank_name": "district-central-co-operative-bank-ltd-supaul",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12528,
+  "duration_ms": 12528,
+  "duration_api_ms": 12171,
+  "num_turns": 10,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.145862,
+  "input_tokens": 68327,
+  "output_tokens": 1151,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"district central co operative bank ltd supaul\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbsupaul.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dccbsupaul.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"district central co operative bank ltd supaul official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbsupaul.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dccbsupaul.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"district central co operative bank ltd supaul interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"सुपौल जिला केंद्रीय सहकारी बैंक ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 99,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bihar.gov.in/cooperation\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 93,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.bihar.gov.in/cooperation\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://odishastatecoopbank.com\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 7,
+    "domain_was_known": false
+  }
+}

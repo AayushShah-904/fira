@@ -1,0 +1,85 @@
+{
+  "bank_code": "central-bank-of-india",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-06-10",
+  "source_url": "https://centralbank.bank.in/en/NRE-DEPOSIT-INTEREST-RATES",
+  "scraped_at": "2026-07-07T06:34:28.871Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 yr to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "1 yr to less than 2 years 6.10 6.10"
+    },
+    {
+      "tenure_text": "2 yr to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "2 yr to less than 3 years 6.25 6.25"
+    },
+    {
+      "tenure_text": "3 yr to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "3 yr to less than 5 years 6.00 6.00"
+    },
+    {
+      "tenure_text": "5 years & above up to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "5 years & above up to 10 years 6.00 6.00"
+    },
+    {
+      "tenure_text": "444",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "less_than_3cr",
+      "source_row_text": "444 6.50 6.70 6.60 6.80"
+    },
+    {
+      "tenure_text": "444",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_10cr",
+      "source_row_text": "444 6.50 6.70 6.60 6.80"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (4 slabs) from 3 table(s); signals={\"pctRows\":5,\"tenureRows\":4,\"bothRows\":4,\"dataRows\":5,\"noisy\":true,\"colCount\":3}",
+    "llm_fallback: deterministic returned 4 slabs (suspect: multi_table=true too_few=false); LLM extracted 10 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 43,
+    "last_scraped_at": "2026-07-07T06:34:28.871Z",
+    "manual_verification_needed": false
+  }
+}

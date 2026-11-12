@@ -1,0 +1,19 @@
+{
+  "bank_code": "gujarat-gramin-bank",
+  "bank_name": "gujarat-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Gujarat",
+  "website": "https://ggb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://ggb.bank.in/interest-rate.php#tab-2"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:21:33.696Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

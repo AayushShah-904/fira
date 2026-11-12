@@ -1,0 +1,114 @@
+{
+  "bank_code": "erode-co-operative-urban-bank-ltd",
+  "bank_name": "erode-co-operative-urban-bank-ltd",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16741,
+  "duration_ms": 16741,
+  "duration_api_ms": 15761,
+  "num_turns": 9,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.20099,
+  "llm_cost_usd": 0.20099,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 95375,
+  "output_tokens": 1280,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Erode Co-operative Urban Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 197,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://erodecoopurbanbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://erodecoopurbanbank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 161,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://erodecooperativeurbanbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 42,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://erodecooperativeurbanbank.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Erode Co-operative Urban Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 43,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tncooperation.gov.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 504,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://erode.nic.in/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/erode-co-operative-urban-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"erode-co-operative-urban-bank-l"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/non-scheduled-urban-co-operative-bank/erode-co-operative-urban-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"erode-co-operative-urban-bank-lt"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 5,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": false
+  }
+}

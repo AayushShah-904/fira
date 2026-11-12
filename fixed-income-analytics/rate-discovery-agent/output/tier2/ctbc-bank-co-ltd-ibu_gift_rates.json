@@ -1,0 +1,15 @@
+{
+  "bank_code": "ctbc-bank-co-ltd-ibu",
+  "bank_name": "CTBC Bank Co., Ltd. — IFSC Banking Unit (GIFT City)",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://www.ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html",
+  "scraped_at": "2026-05-25T17:05:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "IFSC Banking Unit (GIFT City), parent CTBC Bank Co. Ltd. The parent deposit-rates page (ctbcbank.bank.in AEM minisite) is protected by a WAF returning 'Access Denied' to headless/automated requests (Playwright domcontentloaded render returned an Access-Denied incident page; WebFetch returned empty). No CTBC-specific GIFT City foreign-currency rate card surfaced in web search. CTBC's GIFT IBU is corporate/wholesale-focused; foreign-currency (USD/EUR/etc.) term-deposit rates appear to be quoted on inquiry rather than published. No rates fabricated. GIFT deposits are foreign-currency and NOT DICGC-insured."
+  ],
+  "tier2_method": "playwright_tables"
+}

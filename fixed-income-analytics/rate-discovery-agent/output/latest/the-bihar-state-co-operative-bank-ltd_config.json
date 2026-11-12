@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-bihar-state-co-operative-bank-ltd",
+  "bank_name": "the-bihar-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Bihar",
+  "website": "https://biharscb.co.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://biharscb.co.in/term-deposit-interest-rate/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:59:18.255Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

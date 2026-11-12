@@ -1,0 +1,17 @@
+{
+  "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:20:09.595Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T13:55:39.492Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

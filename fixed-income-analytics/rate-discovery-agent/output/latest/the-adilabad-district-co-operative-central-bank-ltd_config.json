@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-adilabad-district-co-operative-central-bank-ltd",
+  "bank_name": "the-adilabad-district-co-operative-central-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://adilabaddccb.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": "https://adilabaddccb.in/deposit-schemes/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:15:33.731Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

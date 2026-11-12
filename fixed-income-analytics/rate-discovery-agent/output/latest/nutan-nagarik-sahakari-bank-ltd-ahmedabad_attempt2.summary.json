@@ -1,0 +1,66 @@
+{
+  "bank_code": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+  "bank_name": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+  "category": "Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10802,
+  "duration_ms": 10802,
+  "duration_api_ms": 9101,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.06462000000000001,
+  "llm_cost_usd": 0.06462000000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 28858,
+  "output_tokens": 863,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 515,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nutan.bank.in/page/97\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 882,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.nutan.bank.in/page/97\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 304,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nutan.bank.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 3,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

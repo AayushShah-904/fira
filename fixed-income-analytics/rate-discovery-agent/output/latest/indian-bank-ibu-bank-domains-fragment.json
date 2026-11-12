@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "bank_code": "indian-bank-ibu",
+    "extracted_at": "2026-06-05T14:12:00.602Z",
+    "source": "bank-domains.json",
+    "source_sha": "35179242bd1c38e9e49381a91261b90d7bec8be6c74ca7b43ed6dc133602499f"
+  },
+  "domain": "indianbank.bank.in",
+  "rate_pages": {
+    "fd": "/wp-content/uploads/2024/03/Deposit-rates-IBU-March_2026.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": "/departments/indian-bank-ifsc-banking-unit-gift-city/"
+  },
+  "scraper_type": "pdf",
+  "parent_bank_code": "indian-bank",
+  "notes": "IFSC Banking Unit in GIFT City. USD-only deposits. PDF rate card with month-year filename pattern. Two deposit tiers: up to $0.50 Mio and above $0.50 Mio. IBU page: /departments/indian-bank-ifsc-banking-unit-gift-city/",
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:377d36e7f99e79c57302b0bbae4c225070e396a8",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T08:27:09.183Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  }
+}

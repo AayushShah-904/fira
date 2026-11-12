@@ -1,0 +1,19 @@
+{
+  "bank_code": "ramanagaram-urban-co-operative-bank-ltd",
+  "bank_name": "Ramanagaram Urban Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "rucbank.com",
+    "found_via": "websearch",
+    "notes": "Confirmed own official site www.rucbank.com (Ramanagaram Urban Co-op Bank, started 1994, RBI permission 1996; /about.php is indexed). Server is unreachable from this environment: DNS resolves no IP / HTTP 000 over both http and https on www.rucbank.com and rucbank.com, and WebFetch returns ECONNREFUSED. Re-verified 2026-05-25 — still down/unresolvable. May work from a different network."
+  },
+  "warnings": ["Own site exists but is not reachable from here (no DNS/IP, ECONNREFUSED). Re-attempt from another network."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,17 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-dewas",
+  "observations": [
+    {
+      "ts": "2026-06-09T00:35:55.126Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T15:21:25.956Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

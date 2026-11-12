@@ -1,0 +1,10 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "variant": "nre",
+  "slab_count": 0,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [],
+  "extraction_method": "automatic_html_static",
+  "warnings": [],
+  "key_rates": {}
+}

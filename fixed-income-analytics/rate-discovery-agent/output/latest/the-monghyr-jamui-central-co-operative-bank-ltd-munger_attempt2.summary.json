@@ -1,0 +1,86 @@
+{
+  "bank_code": "the-monghyr-jamui-central-co-operative-bank-ltd-munger",
+  "bank_name": "The Monghyr-Jamui Central Co-operative Bank Ltd., Munger",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 13570,
+  "duration_ms": 13570,
+  "duration_api_ms": 13441,
+  "num_turns": 10,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.109916,
+  "input_tokens": 50246,
+  "output_tokens": 1178,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Monghyr-Jamui Central Co-operative Bank Ltd., Munger\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mjccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Monghyr-Jamui Central Co-operative Bank Ltd., Munger\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.mjccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mjccb.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Monghyr-Jamui Central Co-operative Bank Ltd., Munger\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Monghyr Jamui Central Co-operative Bank Munger Bihar interest rates\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Bihar State Co-operative Bank interest rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 7,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.coop\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 9,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://biharstate.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 29,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.biharstate.co.in\"}"
+    }
+  ]
+}

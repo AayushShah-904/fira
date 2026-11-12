@@ -1,0 +1,27 @@
+{
+  "bank_code": "dbs-bank-india-limited",
+  "variant": "regular",
+  "slab_count": 24,
+  "key_rates": {
+    "1y": {
+      "general": 6.3,
+      "senior": 6.8
+    },
+    "2y": {
+      "general": 6.4,
+      "senior": 6.9
+    },
+    "3y": {
+      "general": 6.4,
+      "senior": 6.9
+    },
+    "5y": {
+      "general": 6.25,
+      "senior": 6.75
+    }
+  },
+  "effective_date": "2026-03-25",
+  "source_url": "https://www.dbs.bank.in/digibank/in/deposit/fixed-deposit/interest-rates.page",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.024Z"
+}

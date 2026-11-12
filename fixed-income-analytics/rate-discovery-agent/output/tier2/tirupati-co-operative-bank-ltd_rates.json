@@ -1,0 +1,19 @@
+{
+  "bank_code": "tirupati-co-operative-bank-ltd",
+  "bank_name": "Tirupati Co-Operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-08-26",
+  "source_url": "https://tirupati.bank.in/Encyc/2025/10/13/interest-rates-on-deposits.html",
+  "scraped_at": "2026-05-25T18:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "15 to 180 Days", "tenure_min_days": 15, "tenure_max_days": 180, "rate_general_pct": 4.50, "rate_senior_pct": 4.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 Days to 1 Year", "tenure_min_days": 181, "tenure_max_days": 365, "rate_general_pct": 6.00, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 1 Yr to 15 months", "tenure_min_days": 366, "tenure_max_days": 450, "rate_general_pct": 7.00, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 15 Months to 3 Yrs", "tenure_min_days": 451, "tenure_max_days": 1095, "rate_general_pct": 7.25, "rate_senior_pct": 7.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 3 Yrs", "tenure_min_days": 1096, "tenure_max_days": null, "rate_general_pct": 7.40, "rate_senior_pct": 7.65, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": ["Savings Bank deposit (2.75%) excluded as it is not an FD product."],
+  "tier2_method": "webfetch"
+}

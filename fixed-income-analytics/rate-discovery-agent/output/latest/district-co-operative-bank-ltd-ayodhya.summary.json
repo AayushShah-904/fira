@@ -1,0 +1,44 @@
+{
+  "bank_code": "district-co-operative-bank-ltd-ayodhya",
+  "bank_name": "district-co-operative-bank-ltd-ayodhya",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9407,
+  "duration_ms": 9407,
+  "duration_api_ms": 9313,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008534400000000001,
+  "input_tokens": 18788,
+  "output_tokens": 637,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"district co-operative bank ltd ayodhya\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://districtcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://district-cooperative-bank-ltd-ayodhya.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://districtcooperativebankayodhya.bank.in\"}"
+    }
+  ]
+}

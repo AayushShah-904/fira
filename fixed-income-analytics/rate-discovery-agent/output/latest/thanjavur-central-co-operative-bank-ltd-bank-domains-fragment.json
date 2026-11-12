@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "bank_code": "thanjavur-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:53:26.479Z",
+    "source": "bank-domains.json",
+    "source_sha": "ef427ffa0138d5d6fed70edf3cff3ae53b9a4e81e003fb30db332d0ccf9c400e"
+  },
+  "domain": "thanjavurccb.bank.in",
+  "rate_pages": {
+    "fd": "/Fixed_deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "manual",
+  "domain_source": "discovered",
+  "last_discovered_at": "2026-05-27T18:20:23.244Z",
+  "discovery_status": "single_headline_rate",
+  "notes": "Bank publishes one headline FD rate only (confirmed sprint-008).",
+  "extraction_method": "manual_transcription_from_rendered_text"
+}

@@ -1,0 +1,35 @@
+{
+  "bank_code": "the-tamil-nadu-state-apex-co-operative-bank-ltd-",
+  "bank_name": "The Tamil Nadu State Apex Co-operative Bank Ltd.",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "website": "https://tnsc.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://tnsc.bank.in/interest-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Interest rate information is published only as JPEG images, not as HTML tables or downloadable PDFs. Automated extraction is not possible.",
+  "scraper_notes": {
+    "framework": "WordPress + Elementor",
+    "bot_protection": null,
+    "data_format": "Interest rates are published as JPEG images, not parseable HTML or PDF tables.",
+    "rate_tables_on_page": 0,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-04-15T04:20:00Z",
+    "discovery_method": "domain pre-lookup + direct fetch",
+    "confidence": "high"
+  }
+}

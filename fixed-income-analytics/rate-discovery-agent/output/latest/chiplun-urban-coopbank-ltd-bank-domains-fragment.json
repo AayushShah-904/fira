@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "chiplun-urban-coopbank-ltd",
+    "extracted_at": "2026-06-06T09:07:04.320Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "chiplunurbanbank.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://chiplunurbanbank.bank.in/%e0%a4%a0%e0%a5%87%e0%a4%b5%e0%a5%80%e0%a4%82%e0%a4%b5%e0%a4%b0%e0%a5%80%e0%a4%b2-%e0%a4%b5%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%9c%e0%a4%a6%e0%a4%b0/",
+    "fd_prev": "/in/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_prev": "cuc.bank.in",
+  "scraper_type": "html_static",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "websearch+webfetch",
+    "source_url": "https://chiplunurbanbank.bank.in/%e0%a4%a0%e0%a5%87%e0%a4%b5%e0%a5%80%e0%a4%82%e0%a4%b5%e0%a4%b0%e0%a5%80%e0%a4%b2-%e0%a4%b5%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%9c%e0%a4%a6%e0%a4%b0/",
+    "slab_count": 8,
+    "hints": "Senior premium +0.25% on 1-10yr tenures per page note. Bank retirees +1.00%, senior retirees +1.25% (not modelled). Savings account 3.00% excluded from FD slabs.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  }
+}

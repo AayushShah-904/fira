@@ -1,0 +1,36 @@
+{
+  "bank_code": "ab-bank-plc",
+  "bank_name": "AB Bank PLC",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://abbl.com",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://abbl.com/rates-and-charge/fixed-deposit-rates/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://abbl.com/rates-and-charge/deposit-rates/",
+    "rd": null
+  },
+  "selectors": null,
+  "column_mapping": null,
+  "expected_slab_count": 0,
+  "notes": "AB Bank PLC is a Bangladeshi bank; abbl.com publishes BDT fixed-deposit rates (8-12%), not Indian INR FD. Excluded from the INR pack. AB Bank India-branch INR rates, if published, would need separate sourcing.",
+  "scraper_notes": {
+    "framework": "WordPress PHP, static tables",
+    "bot_protection": null,
+    "data_format": "HTML tables, BDT currency only, not INR",
+    "rate_tables_on_page": 2,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-05T05:38:00Z",
+    "discovery_method": "pre-lookup + page_fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

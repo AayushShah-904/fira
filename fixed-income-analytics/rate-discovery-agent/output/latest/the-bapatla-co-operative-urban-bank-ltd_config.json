@@ -1,0 +1,33 @@
+{
+  "bank_code": "the-bapatla-co-operative-urban-bank-ltd",
+  "bank_name": "The Bapatla Co-operative Urban Bank Ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "website": "https://bapatlacoopurbanbank.com/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No working official website or deposit rate page found. Domain exists but only serves a default ASP.NET page. All attempts to fetch failed. No rate information available online. Operator should contact the bank branch directly for current FD rates.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-21T02:07:00Z",
+    "discovery_method": "web_search + fetch_url",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

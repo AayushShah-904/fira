@@ -1,0 +1,14 @@
+{
+  "bank_code": "paytm-payments-bank-limited",
+  "observations": [
+    {
+      "ts": "2026-06-09T12:32:47.707Z",
+      "evidence_url": "https://paytm.bank.in/products/fixed-deposit",
+      "http_status": 403,
+      "vendor": "cloudfront",
+      "signal": "body-match: ERROR: The request could not be satisfied",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

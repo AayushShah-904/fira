@@ -1,0 +1,40 @@
+{
+  "bank_code": "nizamabad-district-co-operative-central-bank-ltd-",
+  "bank_name": "Nizamabad District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://nizamabaddccb.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://nizamabaddccb.bank.in/fixed-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://nizamabaddccb.bank.in/savings-deposit/",
+    "rd": "https://nizamabaddccb.bank.in/recurring-deposit/"
+  },
+  "selectors": {
+    "table": null,
+    "rows": null,
+    "effective_date": null
+  },
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "WordPress site with JS-rendered content. No rate tables or slabs found on FD page.",
+  "scraper_notes": {
+    "framework": "WordPress (JS-rendered)",
+    "bot_protection": null,
+    "data_format": "No tables or rate slabs visible after JS rendering.",
+    "rate_tables_on_page": 0,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:20:30.667Z",
+    "discovery_method": "domain pre-lookup + JS-rendered fetch",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

@@ -1,0 +1,61 @@
+{
+  "bank_code": "central-co-operative-bank-ltd-ara_dds",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "http://ccbara.com/OurSchemes.aspx",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "extraction_method": null,
+  "rate_slabs": [
+    {
+      "tenure_text": "Upto 1 Year",
+      "tenure_min_days": null,
+      "tenure_max_days": 365,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "1 Year To 2 Year",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "2 Year To 3 Year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "3 Year To 5 Year",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    },
+    {
+      "tenure_text": "Above 5 Year",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "No effective date provided. No NRI/FCNR products."
+  ]
+}

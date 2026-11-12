@@ -1,0 +1,19 @@
+{
+  "bank_code": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+  "bank_name": "ahmednagar-shahar-sahakari-bank-ltd-ahmednagar",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://shaharbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://shaharbank.bank.in/DepositsRates.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:32:26.434Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "sumitomo-mitsui-banking-corporation",
+    "extracted_at": "2026-06-05T12:18:49.170Z",
+    "source": "bank-domains.json",
+    "source_sha": "5fa78a99cefa2c2a29d10d614f2140066078cc3421236db9d941ad7a02082649"
+  },
+  "domain": "smbc.co.jp",
+  "rate_pages": {
+    "fd": "/global/india/interest_rates/fd_rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf",
+  "notes": "PDF with two rate tables, created in MS Word. 2 tables"
+}

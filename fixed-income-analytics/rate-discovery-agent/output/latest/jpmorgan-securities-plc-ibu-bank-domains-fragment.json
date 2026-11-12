@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "bank_code": "jpmorgan-securities-plc-ibu",
+    "extracted_at": "2026-06-05T14:19:54.081Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "jpmorgan.com",
+  "rate_pages": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": null
+  },
+  "scraper_type": "manual",
+  "status": "wholesale_only",
+  "parent_bank_code": "jp-morgan-chase-bank-na",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "J.P. Morgan's GIFT IFSC banking unit (jpmorgan.com/IN/en/about-us/gift-city, IFSC GIFT0CHAS01) serves offshore/onshore corporate & institutional clients with fixed income, FX, commodities and debt/capital-market solutions across specified currencies (AUD,CAD,CHF,EUR,GBP,JPY,NOK,NZD,SEK,SGD,USD). No public foreign-currency term-deposit rate card; wholesale only. The 'Securities PLC' entity is a securities dealer, not a retail deposit-taking unit."
+  }
+}

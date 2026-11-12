@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "cooperatieve-rabobank-ua",
+    "extracted_at": "2026-06-05T11:29:23.805Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "rabobank.com",
+  "rate_pages": {
+    "fd": "/asia/india/downloads",
+    "savings": null,
+    "rd": null,
+    "fd_nre": "/nre-deposits",
+    "fd_nro": "/nro-deposits",
+    "fd_fcnr": "/fcnr-deposits"
+  },
+  "scraper_type": "pdf",
+  "notes": "Rabobank corporate CMS (rabobank.com), None observed on downloads page"
+}

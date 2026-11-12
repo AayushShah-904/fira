@@ -1,0 +1,117 @@
+{
+  "bank_code": "state-bank-of-india",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-15",
+  "source_url": "https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+  "scraped_at": "2026-07-07T07:01:55.063Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.05,
+      "rate_senior_pct": 3.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 days to 45 days 3.05 3.05 3.55 3.55"
+    },
+    {
+      "tenure_text": "46 days to 179 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": 5.4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "46 days to 179 days 4.90 4.90 5.40 5.40"
+    },
+    {
+      "tenure_text": "180 days to 210 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 210,
+      "rate_general_pct": 5.65,
+      "rate_senior_pct": 6.15,
+      "rate_super_senior_pct": null,
+      "source_row_text": "180 days to 210 days 5.65 5.65 6.15 6.15"
+    },
+    {
+      "tenure_text": "211 days to less than 1 year",
+      "tenure_min_days": 211,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.9,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": null,
+      "source_row_text": "211 days to less than 1 year 5.90 5.90 6.40 6.40"
+    },
+    {
+      "tenure_text": "1 Year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 Year to less than 2 years 6.25 6.25 6.75 6.75"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 years to less than 3 years 6.45 6.40 6.95 6.90"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 years to less than 5 years 6.30 6.30 6.80 6.80"
+    },
+    {
+      "tenure_text": "5 years and up to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 years and up to 10 years 6.05 6.05  7.05*  7.05*"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "1 Year 0.30% above Card Rate 6.55% 7.05%"
+    },
+    {
+      "tenure_text": "2 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "source_row_text": "2 Years 0.40% above Card Rate 6.80% 7.30%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (8 slabs) from 2 table(s); signals={\"pctRows\":8,\"tenureRows\":8,\"bothRows\":8,\"dataRows\":8,\"noisy\":true,\"colCount\":5}",
+    "llm_fallback: deterministic returned 8 slabs (suspect: multi_table=true too_few=false); LLM extracted 10 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 220,
+    "last_scraped_at": "2026-07-07T07:01:55.063Z",
+    "manual_verification_needed": true
+  }
+}

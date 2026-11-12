@@ -1,0 +1,20 @@
+{
+  "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+  "bank_name": "Karimnagar District Co-operative Central Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-07-25",
+  "source_url": "https://karimnagardccb.bank.in/wp-content/uploads/2024/08/Deposits-Rate.jpg",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 to 30 days", "tenure_min_days": 7, "tenure_max_days": 30, "rate_general_pct": 4.00, "rate_senior_pct": 4.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "31 to 90 days", "tenure_min_days": 31, "tenure_max_days": 90, "rate_general_pct": 4.50, "rate_senior_pct": 5.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 to 179 days", "tenure_min_days": 91, "tenure_max_days": 179, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "180 days to below 1 year", "tenure_min_days": 180, "tenure_max_days": 364, "rate_general_pct": 6.75, "rate_senior_pct": 7.25, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 year to 3 years", "tenure_min_days": 365, "tenure_max_days": 1095, "rate_general_pct": 7.60, "rate_senior_pct": 8.10, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 3 years and above", "tenure_min_days": 1096, "tenure_max_days": null, "rate_general_pct": 7.25, "rate_senior_pct": 7.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": ["Rate card image dated 24.07.2024, effective 25.07.2024 (latest published on official site). Senior citizen premium per circular: 0.50% over general."],
+  "tier2_method": "ocr"
+}

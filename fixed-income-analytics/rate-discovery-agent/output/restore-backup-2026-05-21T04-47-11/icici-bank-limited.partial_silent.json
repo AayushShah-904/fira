@@ -1,0 +1,6 @@
+{
+  "bank_code": "icici-bank-limited",
+  "reason": "slab drift on regular: 2 < 0.8 * 5 (floor)",
+  "detected_at": "2026-05-20T21:47:14.205Z",
+  "attempts": 3
+}

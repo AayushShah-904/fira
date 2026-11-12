@@ -1,0 +1,32 @@
+{
+  "bank_code": "karnataka-central-co-operative-bank-ltd",
+  "bank_name": "Karnataka Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found for Karnataka Central Co-operative Bank Ltd. No deposit rate information available online. Most DCCBs in Karnataka publish rates via the Apex State Co-operative Bank or RBI, but no FD rate page was found for this bank.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "web_search + direct fetch attempts",
+    "confidence": "none"
+  }
+}

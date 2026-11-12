@@ -1,0 +1,105 @@
+{
+  "bank_code": "jana-small-finance-bank-limited",
+  "bank_name": "Jana Small Finance Bank Limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-19",
+  "source_url": "https://jana.bank.in/interest-rates/",
+  "scraped_at": "2026-05-20T22:03:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year (minimum)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "366 Days – 369 Days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 369,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "370 Days – 380 Days",
+      "tenure_min_days": 370,
+      "tenure_max_days": 380,
+      "rate_general_pct": 8.11,
+      "rate_senior_pct": 8.11,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "381 Days - < 2 Years 6 Months",
+      "tenure_min_days": 381,
+      "tenure_max_days": 913,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years 6 Months (914 Days)",
+      "tenure_min_days": 914,
+      "tenure_max_days": 914,
+      "rate_general_pct": 8,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "> 2 Years 6 Months - 3 Years (1095 Days)",
+      "tenure_min_days": 915,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">3 Years - <5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7.77,
+      "rate_senior_pct": 7.77,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years (1825 Days)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.77,
+      "rate_senior_pct": 7.77,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": ">5 Years - 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Minimum tenure for NRE FD is 1 year. No interest paid if withdrawn before 1 year. Slabs below 1 year omitted."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 65,
+    "last_scraped_at": "2026-05-20T22:03:00Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bank_code": "dindigul-central-co-operative-bank-ltd",
+  "bank_name": "Dindigul Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://dindigulccb.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://dindigulccb.bank.in/docs/DEA%20FUND%20LIST%20Upto%20NOV'2025.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No FD rate slabs found in the PDF. The PDF appears to be a DEAF account list, not a rate card.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": "PDF (DEAF account list, not rate card)",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T21:46:12Z",
+    "discovery_method": "homepage fetch + PDF fetch",
+    "confidence": "none"
+  }
+}

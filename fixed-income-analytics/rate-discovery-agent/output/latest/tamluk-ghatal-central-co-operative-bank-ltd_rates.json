@@ -1,0 +1,133 @@
+{
+  "bank_code": "tamluk-ghatal-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-06-04",
+  "source_url": "https://tgccb.bank.in/pages/rateofinterestdeposit",
+  "scraped_at": "2026-06-09T16:13:01.754Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "a 7 days to 14 days 3.50 5.55 3.50 5.60 4.75"
+    },
+    {
+      "tenure_text": "15 days to 29 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "b 15 days to 29 days 4.00 5.55 4.00 5.60 4.75"
+    },
+    {
+      "tenure_text": "30 days to 45 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "c 30 days to 45 days 4.00 5.55 4.00 5.60 4.75"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "d 46 days to 90 days 4.50 5.75 4.50 5.80 5.25"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "e 91 days to 180 days 5.50 5.75 5.50 5.80 5.25"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "source_row_text": "f 181 days to 364 days 6.05 6.00 6.05 6.10 6.85"
+    },
+    {
+      "tenure_text": "365 days / 12 Months / 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "g 365 days / 12 Months / 1 year 6.75 6.75 6.75 6.80 7.25"
+    },
+    {
+      "tenure_text": "Above 12 months to 24 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "source_row_text": "h Above 12 months to 24 months 6.80 6.50 6.80 6.55 7.35"
+    },
+    {
+      "tenure_text": "Above 24 months to less than 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "source_row_text": "i Above 24 months to less than 36 months 6.70 6.80 6.70 6.85 7.30"
+    },
+    {
+      "tenure_text": "36 months to 60 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null,
+      "source_row_text": "j 36 months to 60 months 6.50 6.30 6.50 6.35 7.10"
+    },
+    {
+      "tenure_text": "More than 60 months to 120 months",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "source_row_text": "k More than 60 months to 120 months 6.30 6.05 6.30 6.10 7.35"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 11"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (91 days to 180 days): senior rate (5.25%) < general rate (5.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 414,
+    "last_scraped_at": "2026-06-09T16:13:01.754Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "bank_code": "firstrand-bank-limited",
+    "extracted_at": "2026-06-05T11:40:02.287Z",
+    "source": "bank-domains.json",
+    "source_sha": "f56451fd285464e44df82942611e62337d4ba7c2ffdc37e9aadcaf6f24a49161"
+  },
+  "domain": "firstrand.co.in",
+  "rate_pages": {
+    "fd": null,
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "scraper_type": "manual",
+  "status": "wholesale_only",
+  "notes": "FirstRand India is wholesale banking only. No public retail deposit rate page.",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Official India site firstrand.co.in is reachable (HTTP 200) but FirstRand Bank India is a corporate & investment bank (Indo-African corridor) with no retail/term-deposit product. The India branch license is being wound down to a representative office and all Savings/Current/NRI customer accounts are being migrated to HDFC Bank. No deposit interest-rate page exists."
+  }
+}

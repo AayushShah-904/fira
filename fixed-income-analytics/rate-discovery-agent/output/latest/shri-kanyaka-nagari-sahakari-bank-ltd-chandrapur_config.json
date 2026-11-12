@@ -1,0 +1,19 @@
+{
+  "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+  "bank_name": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://kanyakabank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://kanyakabank.bank.in/Pages/Fixed-Deposit.aspx"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:50:18.487Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

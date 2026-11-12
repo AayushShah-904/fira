@@ -1,0 +1,72 @@
+{
+  "bank_code": "qatar-national-bank-qpsc-ibu",
+  "bank_name": "qatar-national-bank-qpsc-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 132867,
+  "duration_ms": 132867,
+  "duration_api_ms": 12703,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.07567199999999999,
+  "llm_cost_usd": 0.07567199999999999,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 33288,
+  "output_tokens": 1137,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 120100,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://qnb.com/sites/qnb/qnbindia/page/en/enifscbankingunit.html\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 63,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://qnb.com/sites/qnb/qnbindia/page/en/enifscbankingunit.html\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/qatar-national-bank-qpsc-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"qatar-national-bank-qpsc-ibu\\\",\\n  \\\"bank_name\\\": "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/qatar-national-bank-qpsc-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"qatar-national-bank-qpsc-ibu\\\",\\n  \\\"bank_name\\\": \\"
+    }
+  ],
+  "failure_class": "unclassified",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "manual",
+    "notes": "QNB GIFT City IBU. IFSC banking unit page with deposit rates on qnb.com India section. Both Playwright and fetch_url failed: Playwright timed out (cloud env restriction), fetch_url returned HTTP 403 (bot protection). Manual extraction required.",
+    "website_url": "https://qnb.com",
+    "rate_url_fd": "https://qnb.com/sites/qnb/qnbindia/page/en/enifscbankingunit.html",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 1,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

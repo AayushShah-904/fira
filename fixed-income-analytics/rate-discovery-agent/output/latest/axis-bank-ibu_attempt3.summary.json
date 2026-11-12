@@ -1,0 +1,42 @@
+{
+  "bank_code": "axis-bank-ibu",
+  "bank_name": "axis-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10459,
+  "duration_ms": 10459,
+  "duration_api_ms": 10106,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.076532,
+  "llm_cost_usd": 0.076532,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 34338,
+  "output_tokens": 982,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 353,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.axis.bank.in/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/axis-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"axis-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Axis Bank IBU\\\",\\n  \\\"bank_t"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/axis-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"axis-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"Axis Bank IBU\\\",\\n  \\\"product"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "chhattisgarh-gramin-bank",
+    "extracted_at": "2026-06-05T12:43:21.031Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "cgb.bank.in",
+  "notes": "Also known as Chhattisgarh Rajya Gramin Bank. Legacy: cedgerrbmb.in/CRGB",
+  "rate_pages": {
+    "fd": "/Home/Page/InterestRate"
+  },
+  "scraper_type": "html_static",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site (cgb.bank.in, mirror crgb.bank.in) reachable only via TLS-tolerant fetch. InterestRate page (w.e.f 16/12/2025) publishes ONLY a Loans & Advances rate table; the 'Deposit Products' heading has no term-deposit rate rows (percentages there are loan rates / 'X% over deposit rate' for loans-against-deposit). Deposits page (/Home/Page/Deposits) describes term/RD/tax-saving deposit PRODUCTS with no rate numbers. Prior attempt also confirmed via Playwright (toggled all deposit sections, scanned for rate images/PDFs) — none. Re-verified."
+  }
+}

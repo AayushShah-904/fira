@@ -1,0 +1,188 @@
+{
+  "bank_code": "dhanlaxmi-bank-limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2025-07-02",
+  "source_url": "https://dhan.bank.in/interest-rates/",
+  "scraped_at": "2026-07-07T08:38:57.596Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year & above but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_inclusive_of_1_lakh",
+      "source_row_text": "i) USD  Up to & inclusive of 1 Lakh 5.20 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "2 years & above but less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4.01,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_inclusive_of_1_lakh",
+      "source_row_text": "i) USD  Up to & inclusive of 1 Lakh 5.20 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "3 years & above but less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.86,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_inclusive_of_1_lakh",
+      "source_row_text": "i) USD  Up to & inclusive of 1 Lakh 5.20 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "4 years & above but < 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.86,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_inclusive_of_1_lakh",
+      "source_row_text": "i) USD  Up to & inclusive of 1 Lakh 5.20 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.96,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "up_to_inclusive_of_1_lakh",
+      "source_row_text": "i) USD  Up to & inclusive of 1 Lakh 5.20 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "1 year & above but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_1_lakh_and_up_to_5_lakh",
+      "source_row_text": "i) USD  Above 1 Lakh and up to 5 Lakh 5.30 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "1 year & above but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.51,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "deposit_range": "above_5_lakh",
+      "source_row_text": "i) USD  Above 5 Lakh 5.51 4.01 3.86 3.86 3.96"
+    },
+    {
+      "tenure_text": "1 year & above but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.54,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP  3.54 3.29 1.99 1.99 1.99"
+    },
+    {
+      "tenure_text": "2 years & above but less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.29,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP  3.54 3.29 1.99 1.99 1.99"
+    },
+    {
+      "tenure_text": "3 years & above but less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.99,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP  3.54 3.29 1.99 1.99 1.99"
+    },
+    {
+      "tenure_text": "4 years & above but < 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 1.99,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP  3.54 3.29 1.99 1.99 1.99"
+    },
+    {
+      "tenure_text": "5 years only",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.99,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP  3.54 3.29 1.99 1.99 1.99"
+    },
+    {
+      "tenure_text": "1 years & above but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "i) USD 5.20 5.20 4.01 3.86"
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.86,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "i) USD 5.20 5.20 4.01 3.86"
+    },
+    {
+      "tenure_text": "1 years & above but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.54,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP 3.54 3.54 3.29 1.99"
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1.99,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "ii) GBP 3.54 3.54 3.29 1.99"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 386,
+    "last_scraped_at": "2026-07-07T08:38:57.596Z",
+    "manual_verification_needed": true
+  }
+}

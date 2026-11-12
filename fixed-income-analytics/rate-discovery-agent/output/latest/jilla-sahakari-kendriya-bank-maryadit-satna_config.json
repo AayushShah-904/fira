@@ -1,0 +1,36 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-satna",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit Satna",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://satna.nic.in/notice/%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%9c%e0%a4%bf%e0%a4%b2%e0%a4%be-%e0%a4%aa%e0%a4%82%e0%a4%9c%e0%a5%80%e0%a4%af%e0%a4%95-%e0%a4%b8%e0%a4%a4%e0%a4%a8-3/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official bank website found. District portal hosts a rate card PDF, but PDF returns no extractable text (likely scanned image). Needs manual transcription or Vision OCR.",
+  "scraper_notes": {
+    "framework": "WordPress (district portal)",
+    "bot_protection": null,
+    "data_format": "PDF (scanned image, not extractable)",
+    "rate_tables_on_page": null,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T07:29:41Z",
+    "discovery_method": "district portal + PDF fetch",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

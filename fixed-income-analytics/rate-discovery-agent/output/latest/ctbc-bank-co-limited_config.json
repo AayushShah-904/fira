@@ -1,0 +1,22 @@
+{
+  "bank_code": "ctbc-bank-co-limited",
+  "bank_name": "ctbc-bank-co-limited",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Taiwan",
+  "website": "https://ctbcbank.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:35:37.942Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_js"
+}

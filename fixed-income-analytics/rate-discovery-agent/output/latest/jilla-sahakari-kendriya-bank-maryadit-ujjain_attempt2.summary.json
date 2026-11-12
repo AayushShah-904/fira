@@ -1,0 +1,66 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 8504,
+  "duration_ms": 8504,
+  "duration_api_ms": 8043,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.050648,
+  "llm_cost_usd": 0.050648,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21492,
+  "output_tokens": 958,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 116,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jskbrjn.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 201,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jskbrjn.bank.in/interest-rates.php\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 144,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.jskbrjn.bank.in/\"}"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "Domain jskbrjn.bank.in is RBI-mandated but currently unreachable (DNS resolution failure: getaddrinfo EAI_AGAIN). No rate data could be fetched. Operator should verify if the bank has an alternate or legacy website, or if the domain is temporarily down.",
+    "website_url": "https://jskbrjn.bank.in",
+    "rate_url_fd": "https://jskbrjn.bank.in/interest-rates.php",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 3,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

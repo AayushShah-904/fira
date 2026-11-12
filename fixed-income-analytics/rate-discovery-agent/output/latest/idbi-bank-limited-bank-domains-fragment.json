@@ -1,0 +1,177 @@
+{
+  "_meta": {
+    "bank_code": "idbi-bank-limited",
+    "extracted_at": "2026-06-05T09:58:57.341Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "idbi.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates.aspx",
+    "savings": "/interest-rates.aspx",
+    "fd_nre": "/nri-interest-rates.aspx",
+    "fd_nro": "/nri-interest-rates.aspx",
+    "fd_fcnr": "/nri-interest-rates.aspx",
+    "fd_nri_combined": "/nri-interest-rates.aspx",
+    "rd": null
+  },
+  "extraction": {
+    "fd_nri_combined": {
+      "type": "html",
+      "fulfills_product": [
+        "fd_nre",
+        "fd_nro",
+        "fd_fcnr"
+      ]
+    }
+  },
+  "scraper_type": "html_static",
+  "notes": "ASP.NET (.aspx). /nri-interest-rates.aspx is a combined NRI page publishing NRE + NRO + FCNR — Orch-2 fulfills_product hint routes all three product iterations to that one URL instead of fetching three times.",
+  "template": {
+    "template_id": "idbi-retail-plus-bulk-3col-8bucket",
+    "template_hash": "sha1:801ef8525df195bccb9c92da7e145c3a2ecbe2b9",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 3,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 10,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_7.5cr",
+            "2": "rate_general_pct@7.5cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_50cr",
+            "4": "rate_general_pct@50cr_to_100cr",
+            "5": "rate_general_pct@100cr_to_200cr",
+            "6": "rate_general_pct@200cr_to_500cr",
+            "7": "rate_general_pct@above_500cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 9,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@3cr_to_7.5cr",
+            "2": "rate_general_pct@7.5cr_to_10cr",
+            "3": "rate_general_pct@10cr_to_50cr",
+            "4": "rate_general_pct@50cr_to_100cr",
+            "5": "rate_general_pct@100cr_to_200cr",
+            "6": "rate_general_pct@200cr_to_500cr",
+            "7": "rate_general_pct@above_500cr"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 8,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ],
+      "tenure_cap_days": 7300
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 108,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "idbi-fcnr-multi-currency-multi-bucket",
+    "template_hash": "sha1:b73be140e0b3556b84a2206d5e34a39d17b4c36b",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 4,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#GBP",
+            "3": "rate_general_pct#EUR",
+            "4": "rate_general_pct#JPY"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 6,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD",
+            "2": "rate_general_pct#GBP",
+            "3": "rate_general_pct#EUR",
+            "4": "rate_general_pct#AUD",
+            "5": "rate_general_pct#CAD",
+            "6": "rate_general_pct#JPY",
+            "7": "rate_general_pct#SGD",
+            "8": "rate_general_pct#HKD",
+            "9": "rate_general_pct#CHF"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 7,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@1m_to_5m#USD",
+            "2": "rate_general_pct@above_5m#USD"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 59,
+      "cluster_reused": false
+    }
+  }
+}

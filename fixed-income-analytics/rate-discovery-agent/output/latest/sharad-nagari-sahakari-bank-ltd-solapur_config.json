@@ -1,0 +1,19 @@
+{
+  "bank_code": "sharad-nagari-sahakari-bank-ltd-solapur",
+  "bank_name": "sharad-nagari-sahakari-bank-ltd-solapur",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://opencorpdata.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:52:52.892Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

@@ -1,0 +1,22 @@
+{
+  "bank_code": "nainital-bank-limited",
+  "bank_name": "nainital-bank-limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "state": "Uttarakhand",
+  "website": "https://nainitalbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://www.nainitalbank.bank.in/english/interest_rate.aspx",
+    "fd_nre": "https://nainitalbank.bank.in/nre-deposits",
+    "fd_nro": "https://nainitalbank.bank.in/nro-deposits",
+    "fd_fcnr": "https://nainitalbank.bank.in/fcnr-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:54:31.748Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

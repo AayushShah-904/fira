@@ -1,0 +1,25 @@
+{
+  "bank_code": "rbl-bank-limited",
+  "bank_name": "RBL Bank Limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-02-11",
+  "source_url": "https://rbl.bank.in/interest-rates",
+  "scraped_at": "2026-05-26T07:05:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "365 days (12 months) to 500 days", "tenure_min_days": 365, "tenure_max_days": 500, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "501 days to less than 18 months", "tenure_min_days": 501, "tenure_max_days": 547, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "18 months to 36 months", "tenure_min_days": 548, "tenure_max_days": 1095, "rate_general_pct": 7.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "36 months 1 day to less than 60 months", "tenure_min_days": 1096, "tenure_max_days": 1799, "rate_general_pct": 7.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "60 months to 120 months", "tenure_min_days": 1800, "tenure_max_days": 3650, "rate_general_pct": 6.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Replaces prior buggy file (28 slabs) that had dumped the domestic FD + savings amount-tier tables into the NRE file with no NRE filtering. Per the source page, NRE rates equal the General Citizen column of the combined Domestic/NRO/NRE/Flexi FD table, restricted to tenures >= 1 year (page states 'Minimum tenor for NRE Deposit is 1 Year').",
+    "NRE deposits are INR-denominated; no currency field. Senior Citizen Rates do not apply to NRIs, so rate_senior_pct/rate_super_senior_pct are null.",
+    "Rates are for deposits below INR 3 crore (the only retail tier published in the combined table)."
+  ],
+  "errors": [],
+  "discovery_metadata": { "run_method": "tier-2-reextract", "sourced_at": "2026-05-26T07:05:00Z" }
+}

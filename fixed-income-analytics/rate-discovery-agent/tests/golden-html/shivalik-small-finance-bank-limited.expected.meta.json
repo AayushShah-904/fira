@@ -1,0 +1,13 @@
+{
+  "bank_code": "shivalik-small-finance-bank-limited",
+  "bank_name": "shivalik-small-finance-bank-limited",
+  "bank_type": "SFB",
+  "state": "Delhi",
+  "website": "https://shivalik.bank.in",
+  "rate_page_url": "https://shivalik.bank.in/interest-rate",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 46,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

@@ -1,0 +1,13 @@
+{
+  "bank_code": "bank-of-baroda",
+  "bank_name": "Bank of Baroda",
+  "bank_type": "PSB",
+  "state": "Gujarat",
+  "website": "https://bankofbaroda.bank.in",
+  "rate_page_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 28,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

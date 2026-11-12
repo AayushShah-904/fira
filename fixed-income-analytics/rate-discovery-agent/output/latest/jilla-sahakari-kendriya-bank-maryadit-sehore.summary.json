@@ -1,0 +1,50 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sehore",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-sehore",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11779,
+  "duration_ms": 11779,
+  "duration_api_ms": 11687,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0143492,
+  "input_tokens": 32949,
+  "output_tokens": 731,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jilla sahakari kendriya bank maryadit sehore\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"jilla sahakari kendriya bank maryadit sehore\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditsehore.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakarikendriyabankmaryaditsehore.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillasahakari-kendriya-bank-maryadit-sehore.co.in/\"}"
+    }
+  ]
+}

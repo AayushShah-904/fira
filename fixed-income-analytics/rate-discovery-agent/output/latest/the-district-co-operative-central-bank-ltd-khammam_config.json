@@ -1,0 +1,33 @@
+{
+  "bank_code": "the-district-co-operative-central-bank-ltd-khammam",
+  "bank_name": "The District Co-operative Central Bank Ltd., Khammam",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found for The District Co-operative Central Bank Ltd., Khammam. Multiple domain attempts failed. No rate page available. Rates may be published via APCOB or RBI, but not found in this run.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "domain guessing + homepage fetch",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

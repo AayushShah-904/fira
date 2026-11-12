@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+  "bank_name": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+  "bank_type": "SUCB",
+  "category": "Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://khamgaonurban.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://khamgaonurban.bank.in/interest-rate/interest-rate-on-deposits.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:59:02.549Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

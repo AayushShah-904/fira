@@ -1,0 +1,20 @@
+{
+  "bank_code": "ubs-ag",
+  "bank_name": "UBS AG",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:20:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "ubs.com",
+    "found_via": "registry_hint",
+    "notes": "UBS AG operates a single Mumbai branch (scheduled commercial bank licence) that functions as an investment/wholesale bank - corporate, institutional and wealth-management clients only. No public retail fixed-deposit product or term-deposit rate card is published on ubs.com/in. No own .bank.in retail rate page."
+  },
+  "warnings": ["Foreign wholesale/investment bank; no retail FD offering in India."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

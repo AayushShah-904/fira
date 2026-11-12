@@ -1,0 +1,44 @@
+{
+  "bank_code": "barmer-central-co-operative-bank-ltd",
+  "bank_name": "Barmer Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://rscb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://rscb.bank.in",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": "#slideout_innerr table",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "0": "tenure_text",
+    "1": "rate_general_pct",
+    "2": "rate_25l_to_2cr_pct",
+    "3": "rate_above_2cr_pct"
+  },
+  "expected_slab_count": 15,
+  "notes": "Rates for Barmer DCCB are published on the Rajasthan State Co-operative Bank portal. Senior citizen premium is mentioned in ticker below the table (+0.50%).",
+  "scraper_notes": {
+    "framework": "ASP.NET server-rendered",
+    "bot_protection": null,
+    "data_format": "HTML table with three deposit tiers; senior premium in ticker",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "web_search + page_fetch",
+    "confidence": "high"
+  }
+}

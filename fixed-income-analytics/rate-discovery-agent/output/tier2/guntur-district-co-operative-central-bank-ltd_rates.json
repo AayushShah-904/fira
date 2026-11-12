@@ -1,0 +1,19 @@
+{
+  "bank_code": "guntur-district-co-operative-central-bank-ltd",
+  "bank_name": "Guntur District Co-operative Central Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:24:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "gunturdccb.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Official site gunturdccb.com 301-redirects to gunturdccb.bank.in (live WordPress). Has dedicated product pages (/term-deposit/, /saving-deposits/, /recurring-deposit/) but the Term Deposit page only states 'Interest will be paid on the deposits at the rates in force as per the Reserve Bank's directive from time to time' with NO rate table, no tenure slabs, no rate values. WP media library has 100 PDFs but none are interest-rate/ROI/deposit-rate cards. No FD rate data published anywhere on the site."
+  },
+  "warnings": ["DCCB site live but term-deposit page carries only an RBI-directive disclaimer; no published FD rate values or rate PDF."],
+  "tier2_method": "websearch+webfetch"
+}

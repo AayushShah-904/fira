@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "city-union-bank-limited",
+    "extracted_at": "2026-06-05T09:45:09.994Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "cityunionbank.bank.in",
+  "rate_pages": {
+    "fd": "https://cityunionbank.bank.in/deposit-interest-rate",
+    "fd_nre": "/deposit-interest-rate",
+    "fd_nro": "/deposit-interest-rate",
+    "fd_fcnr": "/deposit-interest-rate",
+    "fd_nri_combined": "/deposit-interest-rate",
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered static HTML. All rate variants (domestic/NRO, NRE, FCNR, bulk) on same page under tabs. NRO = domestic rates. 8 rate tables total.",
+  "template": {
+    "template_id": "city-union-domestic-callable-td-3col",
+    "template_hash": "sha1:fa3d0aac51eca6c9bcd914f10b1db099afa9578d",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 3,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct",
+            "3": "rate_super_senior_pct"
+          }
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "claude-manual",
+      "verdict_at": "2026-05-25T07:17:23.777Z",
+      "gates_passed": "PASS",
+      "slab_count": 11,
+      "note": "constrained to table[1] Domestic/NRO Callable TD; LLM-propose had over-extracted across 15 tables (savings/bulk/FCNR)"
+    }
+  }
+}

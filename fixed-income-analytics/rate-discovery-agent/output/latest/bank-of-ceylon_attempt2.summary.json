@@ -1,0 +1,84 @@
+{
+  "bank_code": "bank-of-ceylon",
+  "bank_name": "bank-of-ceylon",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 40048,
+  "duration_ms": 40048,
+  "duration_api_ms": 9219,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.09611600000000001,
+  "llm_cost_usd": 0.09611600000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 43802,
+  "output_tokens": 1064,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 237,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://boc.lk/international-banking/overseas-branches\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://boc.lk/rates-tariff\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 15203,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://boc.lk/international-banking/overseas-branches\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 15354,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://boc.lk/rates-tariff\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bank-of-ceylon_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-ceylon\\\",\\n  \\\"bank_name\\\": \\\"Bank of Ceylon\\\",\\n  \\\"bank_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bank-of-ceylon_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bank-of-ceylon\\\",\\n  \\\"bank_name\\\": \\\"Bank of Ceylon\\\",\\n  \\\"product_type\\\":"
+    }
+  ],
+  "failure_class": "extraction_failed",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "All known rate pages on boc.lk are blocked by CloudFront WAF (HTTP 403) even with Playwright. No rate data could be extracted. Operator review required.",
+    "website_url": "https://boc.lk",
+    "rate_url_fd": "https://boc.lk/international-banking/overseas-branches",
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 2,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

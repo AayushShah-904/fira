@@ -1,0 +1,48 @@
+{
+  "bank_code": "sangola-urban-co-operative-bank-ltd-sangola",
+  "bank_name": "sangola-urban-co-operative-bank-ltd-sangola",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 127604,
+  "duration_ms": 127604,
+  "duration_api_ms": 7387,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.050376,
+  "llm_cost_usd": 0.050376,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21476,
+  "output_tokens": 928,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30073,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sangolaurban.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30048,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sangolaurban.bank.in/interest-rate\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30043,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sangolaurban.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30053,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.sangolaurban.bank.in/interest-rate\"}"
+    }
+  ]
+}

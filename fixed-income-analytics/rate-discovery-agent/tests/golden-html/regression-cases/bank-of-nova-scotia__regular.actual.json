@@ -1,0 +1,19 @@
+{
+  "bank_code": "bank-of-nova-scotia",
+  "variant": "regular",
+  "slab_count": 1,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "3\t \t91\t \tdays to\t \t18\t0 days",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "extraction_method": "automatic_pdf",
+  "warnings": [],
+  "key_rates": {}
+}

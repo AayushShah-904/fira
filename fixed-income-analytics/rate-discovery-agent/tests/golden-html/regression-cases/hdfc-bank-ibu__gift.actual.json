@@ -1,0 +1,110 @@
+{
+  "bank_code": "hdfc-bank-ibu",
+  "variant": "gift",
+  "slab_count": 8,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "2 months < 3 months",
+      "tenure_min_days": 60,
+      "tenure_max_days": 89,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "6 Months < 9 months",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "12 months < 18 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 539,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "18 months < 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "2 years < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "3 years < 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "4 years < 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "5 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    }
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [
+    "PDF extraction returned only one currency column (likely USD); other currencies may be present as images or in columns not parsed. No senior citizen rates for IBU deposits."
+  ],
+  "key_rates": {
+    "1y": {
+      "general": 4,
+      "senior": null
+    },
+    "2y": {
+      "general": 4,
+      "senior": null
+    },
+    "3y": {
+      "general": 3.1,
+      "senior": null
+    },
+    "5y": {
+      "general": 3.1,
+      "senior": null
+    }
+  }
+}

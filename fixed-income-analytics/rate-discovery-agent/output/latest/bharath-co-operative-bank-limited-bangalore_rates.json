@@ -1,0 +1,97 @@
+{
+  "bank_code": "bharath-co-operative-bank-limited-bangalore",
+  "bank_name": "The Bharath Co-Operative Bank Limited, Bengaluru",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-04-01",
+  "source_url": "https://bcbbank.in/static-v1.1.1/files/deposits-schemes-2026.pdf",
+  "scraped_at": "2026-05-25T23:10:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "30 days to 90 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "81 days to 180 days",
+      "tenure_min_days": 81,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 Months (1 Year)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": 7.65,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 year upto 3 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 years upto 10 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Scanned-PDF rate card (English); DI server-side fetch failed (TLS altname mismatch on bcbbank.in). Transcribed via vision OCR of the rendered page. Effective date 2023-04-01 (likely stale)."
+  ],
+  "tier2_method": "ocr",
+  "extraction_method": "manual_image_transcription",
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "discovery": "claude_fetch_llm_parse",
+    "tier2_method": "ocr",
+    "extraction_method": "manual_image_transcription",
+    "sourced_at": "2026-05-25T23:10:00Z"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:21.386Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-05-25T23:10:00Z",
+      "retained_slab_count": 6
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1209,
+    "last_scraped_at": "2026-05-25T23:10:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bank_code": "sangli-urban-co-operative-bank-ltd-sangli",
+  "bank_name": "sangli-urban-co-operative-bank-ltd-sangli",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://sangliurban.bank.in/deposit-int-rate",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Could not fetch rate page due to DNS resolution failure (getaddrinfo EAI_AGAIN). No rate data extracted. Operator should verify domain status and retry."
+  ],
+  "errors": [
+    "DNS resolution failure for sangliurban.bank.in"
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

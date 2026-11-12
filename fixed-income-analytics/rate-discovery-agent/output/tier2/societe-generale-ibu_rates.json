@@ -1,0 +1,19 @@
+{
+  "bank_code": "societe-generale-ibu",
+  "bank_name": "Societe Generale – IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "societegenerale.asia",
+    "found_via": "registry_hint",
+    "notes": "GIFT City IBU (societegenerale.asia/en/india/societe-generales-gift-city). Presently offers only Term Loan facilities (ECBs) to corporates in USD/EUR/JPY; wholesale/structured finance. No deposit products or public rate card. Re-verified via web search."
+  },
+  "warnings": ["IBU: deposit_insurance false. Wholesale-only (ECB lending); no deposit product."],
+  "tier2_method": "websearch+webfetch"
+}

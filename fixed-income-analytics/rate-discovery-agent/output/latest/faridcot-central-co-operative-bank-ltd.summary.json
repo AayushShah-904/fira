@@ -1,0 +1,50 @@
+{
+  "bank_code": "faridcot-central-co-operative-bank-ltd",
+  "bank_name": "faridcot-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 11128,
+  "duration_ms": 11128,
+  "duration_api_ms": 10820,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0085452,
+  "input_tokens": 18827,
+  "output_tokens": 634,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"faridcot central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 35,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://faridcot-central-co-operative-bank-ltd.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://faridcotcentralbank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 70,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://faridcotcentralbank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 173,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://faridcotcentralbank.com\"}"
+    }
+  ]
+}

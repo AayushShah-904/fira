@@ -1,0 +1,32 @@
+{
+  "pack_version": "1.0.0",
+  "checked_at": "2026-07-08T10:52:57.802Z",
+  "pass": true,
+  "operator_override": null,
+  "effective_pass": true,
+  "baseline_file": "C:\\sw\\BharatOmni\\UFA\\BIRD\\rate-discovery-agent\\pack\\baseline\\baseline-pack-2026-05-28.json",
+  "baseline_summary": {
+    "total_slabs": 8369,
+    "banks_total": 517
+  },
+  "current_summary": {
+    "total_slabs": 9039,
+    "banks_total": 578
+  },
+  "thresholds": {
+    "global_slab_drop": 0.1,
+    "high_confidence_bank_slab_drop": 0.5
+  },
+  "checks": {
+    "global": {
+      "baseline_slabs": 8369,
+      "current_slabs": 9039,
+      "delta": 670,
+      "delta_pct": 0.08005735452264309,
+      "block": false,
+      "reason": null
+    },
+    "high_confidence_regressions": []
+  },
+  "block_reasons": []
+}

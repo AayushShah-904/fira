@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "bank_code": "janatha-seva-co-operative-bank-ltd-bangalore",
+    "extracted_at": "2026-06-06T10:27:58.641Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "jscbl.bank.in",
+  "rate_pages": {
+    "fd": "https://jscbl.bank.in/page/91",
+    "fd_prev": "/interest-rates-2/",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "notes": "Official site on .bank.in; deposit interest rates page includes FD rates. No separate NRE/NRO/FCNR/savings sections visible.",
+  "scraper_type": "html_static",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T18:05:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "https://jscbl.bank.in/page/91",
+    "slab_count": 6,
+    "hints": "Senior citizen rates shown explicitly (+0.50%). Savings rate 3.50%.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "coop-bankin-3col-tenure-general-senior",
+    "template_hash": "sha1:e7211d4682860f5109a365e20151013be3a76be9",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 2,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

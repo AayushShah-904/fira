@@ -1,0 +1,31 @@
+{
+  "bank_code": "patiala-central-co-operative-bank-ltd",
+  "bank_name": "The Patiala Central Cooperative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-03-13",
+  "source_url": "https://patiala.pbcoopbank.in/deposit-interest-rates/",
+  "scraped_at": "2026-05-25T16:45:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 - 45 Days", "tenure_min_days": 7, "tenure_max_days": 14, "rate_general_pct": 3.15, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "15 - 45 Days", "tenure_min_days": 15, "tenure_max_days": 45, "rate_general_pct": 3.15, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 - 90 Days", "tenure_min_days": 46, "tenure_max_days": 90, "rate_general_pct": 4.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 - 179 Days", "tenure_min_days": 91, "tenure_max_days": 179, "rate_general_pct": 5.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "180 - 270 Days", "tenure_min_days": 180, "tenure_max_days": 270, "rate_general_pct": 5.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "271 Days to less than 1 Year", "tenure_min_days": 271, "tenure_max_days": 364, "rate_general_pct": 6.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "1 Year", "tenure_min_days": 365, "tenure_max_days": 365, "rate_general_pct": 6.50, "rate_senior_pct": 7.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "More than 1 Year to less than 2 Years", "tenure_min_days": 366, "tenure_max_days": 729, "rate_general_pct": 6.35, "rate_senior_pct": 6.85, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "More than 2 Years to less than 3 Years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 6.45, "rate_senior_pct": 6.95, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "3 Years and above", "tenure_min_days": 1095, "tenure_max_days": null, "rate_general_pct": 6.40, "rate_senior_pct": 6.90, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "440 days (Super Special Deposit Scheme)", "tenure_min_days": 440, "tenure_max_days": 440, "rate_general_pct": 6.60, "rate_senior_pct": 7.10, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [
+    { "name": "Provident Fund", "rate_general_pct": 6.50 },
+    { "name": "New Recurring Deposit Scheme (Minor)", "rate_general_pct": 6.40 }
+  ],
+  "warnings": [
+    "Effective 13-03-2026. Source table has a single rate column ('Rate Below 1.00 Crore'); the 'Above 1.00 Crore' column is blank. Senior-citizen rate is NOT a table column — it is a conditional +0.50% per page note ('Interest of 0.50% above ... for FD/LTFDs of Sr.Citizens for Rs.50000 or above with minimum one year'), so senior rate = general + 0.50% is applied only to tenures of 1 year and above (and the 440-day special); shorter tenures left null since the min-1-year condition is not met. Retired staff/senior may get up to +1.00% (not modelled). Savings deposit = 2.25%. Provident Fund and Minor RD schemes recorded under special_schemes."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

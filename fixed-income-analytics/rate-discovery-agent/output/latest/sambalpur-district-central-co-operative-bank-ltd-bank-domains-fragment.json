@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "bank_code": "sambalpur-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T18:53:30.246Z",
+    "source": "bank-domains.json",
+    "source_sha": "cedc199f88a31158f58ab3cc2faacee37e3534061ee8e40ddcce12fdde42ddeb"
+  },
+  "domain": "sambalpurdccb.bank.in",
+  "rate_pages": {
+    "fd": "/Interestrates.aspx",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "dccb-6col-existing-revised-general-senior",
+    "template_hash": "sha1:da2e84f804dc01c9d73b825d0c3517da0b4cebfe",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "rate_general_pct",
+            "4": "ignore",
+            "5": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 10,
+      "cluster_reused": false
+    }
+  }
+}

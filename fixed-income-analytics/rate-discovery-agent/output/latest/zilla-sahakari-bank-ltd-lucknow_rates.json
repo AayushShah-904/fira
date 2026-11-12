@@ -1,0 +1,91 @@
+{
+  "bank_code": "zilla-sahakari-bank-ltd-lucknow",
+  "bank_name": "Zilla Sahakari Bank Ltd Lucknow",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2020-11-10",
+  "source_url": "https://dcblucknow.bank.in/intrest.php?id=4",
+  "scraped_at": "2026-06-05T18:26:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to less than 1 year",
+      "tenure_min_days": 91,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year or more & less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 year or more & less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 5.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 year or more & less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 year or more & less than 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3649,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior citizen premium is 0.50% extra for deposits of 10,000 or more for minimum 1 year tenure.",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2020-11-10\" parses to 2020-11-10 (year 2020 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 2081,
+    "last_scraped_at": "2026-06-05T18:26:00Z",
+    "manual_verification_needed": true
+  }
+}

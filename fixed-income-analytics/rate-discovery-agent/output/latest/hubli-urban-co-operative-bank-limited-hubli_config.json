@@ -1,0 +1,19 @@
+{
+  "bank_code": "hubli-urban-co-operative-bank-limited-hubli",
+  "bank_name": "hubli-urban-co-operative-bank-limited-hubli",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Karnataka",
+  "website": "https://hubliurban.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://hubliurban.bank.in/Services"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:52:15.670Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

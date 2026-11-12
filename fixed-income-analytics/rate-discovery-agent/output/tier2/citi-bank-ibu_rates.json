@@ -1,0 +1,20 @@
+{
+  "bank_code": "citi-bank-ibu",
+  "bank_name": "Citi Bank – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:20:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "citigroup.com",
+    "found_via": "registry_hint",
+    "notes": "Citi's GIFT City IFSC Banking Unit is a wholesale/institutional unit (Citi exited Indian consumer banking in 2023, sold to Axis). No public GIFT City / IBU foreign-currency deposit rate card was found for Citi (searches surface only ICICI/SBI/Axis/Indian Bank IBU rate pages). No retail FD product published; IBU deposits are not DICGC-insured."
+  },
+  "warnings": ["IFSC Banking Unit serving institutional clients; no published retail/foreign-currency FD rate card located."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

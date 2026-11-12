@@ -1,0 +1,17 @@
+{
+  "bank_code": "punjab-national-bank-ibu",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:44:04.013Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T14:26:27.881Z",
+      "signal": "zero_slab",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

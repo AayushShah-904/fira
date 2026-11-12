@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "bank_code": "dbs-bank-india-limited",
+    "extracted_at": "2026-06-05T11:34:30.960Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "dbs.bank.in",
+  "rate_pages": {
+    "fd": "https://www.dbs.bank.in/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates",
+    "savings": "/in/treasures/common/interest-rates.page",
+    "rd": null,
+    "fd_nre": "/in/treasures/nri-banking/deposits/nri-fixed-deposits/nre-fixed-deposit/nre-fd-rates",
+    "fd_nro": "/in/treasures/nri-banking/deposits/nri-fixed-deposits/nro-fixed-deposit/nro-fd-rates",
+    "fd_fcnr": "/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates",
+    "fd_nri_combined": null,
+    "fd_prev": "https://www.dbs.bank.in/digibank/in/deposit/fixed-deposit/interest-rates.page",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered static HTML, None observed",
+  "template": {
+    "template_id": "dbs-bank-3col-tenure-general-senior",
+    "template_hash": "sha1:ded1ba65a9a919003d847b23ec7808a7f5543f48",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T06:08:01.274Z",
+      "gates_passed": "PASS",
+      "slab_count": 25,
+      "cluster_reused": false
+    }
+  },
+  "template_fcnr": {
+    "template_id": "dbs-fcnr-usd-2col",
+    "template_hash": "sha1:431dd49f98963f16244ba03afaaa7c40816be4b3",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct#USD"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "fcnr": {
+        "rate_page_key": "fd_fcnr"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T13:03:42.521Z",
+      "gates_passed": "PASS",
+      "slab_count": 5,
+      "cluster_reused": false
+    }
+  }
+}

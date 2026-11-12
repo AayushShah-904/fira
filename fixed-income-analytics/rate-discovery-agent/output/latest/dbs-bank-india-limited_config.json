@@ -1,0 +1,22 @@
+{
+  "bank_code": "dbs-bank-india-limited",
+  "bank_name": "dbs-bank-india-limited",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Singapore",
+  "website": "https://dbs.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://www.dbs.bank.in/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates",
+    "fd_nre": "https://dbs.bank.in/in/treasures/nri-banking/deposits/nri-fixed-deposits/nre-fixed-deposit/nre-fd-rates",
+    "fd_nro": "https://dbs.bank.in/in/treasures/nri-banking/deposits/nri-fixed-deposits/nro-fixed-deposit/nro-fd-rates",
+    "fd_fcnr": "https://dbs.bank.in/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:36:32.541Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

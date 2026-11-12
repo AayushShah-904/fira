@@ -1,0 +1,19 @@
+{
+  "bank_code": "alwar-central-co-operative-bank-ltd",
+  "bank_name": "Alwar Central Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T17:55:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "dccbalwar.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Official site https://www.dccbalwar.bank.in is up; has a dedicated deposit rates page interest-rates-deposit.php whose only content is a link 'RATE OF INTEREST TERM DEPOSIT' -> https://www.dccbalwar.org.in/upload/file/Rate-of-Interest-Deposit.pdf . That secondary host (dccbalwar.org.in) is unreachable from here (DNS EAI_AGAIN via Node, HTTP 000 via curl, ECONNREFUSED via WebFetch). Rate PDF exists but cannot be retrieved; site footer 'Last Updated 08-06-2021' suggests stale content."
+  },
+  "warnings": ["FD rate card exists as PDF on dccbalwar.org.in but that host is down/unreachable from this environment; may work later. No inline rates on the .bank.in site."],
+  "tier2_method": "websearch+webfetch"
+}

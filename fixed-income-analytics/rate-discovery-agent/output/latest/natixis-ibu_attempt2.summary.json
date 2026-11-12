@@ -1,0 +1,60 @@
+{
+  "bank_code": "natixis-ibu",
+  "bank_name": "natixis-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 5772,
+  "duration_ms": 5772,
+  "duration_api_ms": 5766,
+  "num_turns": 2,
+  "tool_call_count": 2,
+  "total_cost_usd": 0.038174,
+  "llm_cost_usd": 0.038174,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 15743,
+  "output_tokens": 836,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "write_file",
+      "duration_ms": 6,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/natixis-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"natixis-ibu\\\",\\n  \\\"bank_"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/natixis-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"natixis-ibu\\\",\\n  \\\"bank_n"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "no_candidates",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

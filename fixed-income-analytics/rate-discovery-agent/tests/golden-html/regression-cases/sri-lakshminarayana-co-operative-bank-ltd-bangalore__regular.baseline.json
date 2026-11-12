@@ -1,0 +1,7 @@
+{
+  "bank_code": "sri-lakshminarayana-co-operative-bank-ltd-bangalore",
+  "variant": "regular",
+  "slab_count": 6,
+  "from": "rates-pack-2026-05-14",
+  "note": "Slab count only; full slab data not snapshotted by quality-gate. Phase A HTML harvester will capture the live page so Phase C extractor can validate against actual cell values."
+}

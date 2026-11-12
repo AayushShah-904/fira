@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-ahmedabad-mercantile-co-operative-bank-ltd",
+  "scraped_at": "2026-04-12T00:00:00Z",
+  "source_url": "https://amco.bank.in/n/deposit-interest-rate",
+  "effective_date": "2026-01-01",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 1 Year to 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 2 Years to 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "NRE rates are denominated in INR. Bank only publishes NRE for tenures >= 1 year (regulatory minimum). Senior citizen / super senior citizen premium does NOT apply to NRE deposits per bank policy.",
+    "No NRO or FCNR rates published — co-operative bank does not offer those products."
+  ],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "fill_empty",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 203,
+    "last_scraped_at": "2026-04-12T00:00:00Z",
+    "manual_verification_needed": true
+  }
+}

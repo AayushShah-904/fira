@@ -1,0 +1,31 @@
+{
+  "bank_code": "mufg-bank-ltd",
+  "bank_name": "MUFG Bank, Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-25",
+  "source_url": "https://www.bk.mufg.jp/report/indiarate/fd_cards_rates.pdf",
+  "scraped_at": "2026-05-25T16:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 - 10 Days", "tenure_min_days": 7, "tenure_max_days": 10, "rate_general_pct": 3.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "11 - 14 Days", "tenure_min_days": 11, "tenure_max_days": 14, "rate_general_pct": 3.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "15 - 30 Days", "tenure_min_days": 15, "tenure_max_days": 30, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "31 - 45 Days", "tenure_min_days": 31, "tenure_max_days": 45, "rate_general_pct": 4.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "46 - 60 Days", "tenure_min_days": 46, "tenure_max_days": 60, "rate_general_pct": 4.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "61 - 75 Days", "tenure_min_days": 61, "tenure_max_days": 75, "rate_general_pct": 4.30, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "76 - 90 Days", "tenure_min_days": 76, "tenure_max_days": 90, "rate_general_pct": 4.30, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91 Days to 120 Days", "tenure_min_days": 91, "tenure_max_days": 120, "rate_general_pct": 4.40, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "121 Days to 150 Days", "tenure_min_days": 121, "tenure_max_days": 150, "rate_general_pct": 4.40, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "151 Days to 180 Days", "tenure_min_days": 151, "tenure_max_days": 180, "rate_general_pct": 4.50, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181 Days up to 270 days", "tenure_min_days": 181, "tenure_max_days": 270, "rate_general_pct": 4.80, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "271 days to 1 year", "tenure_min_days": 271, "tenure_max_days": 365, "rate_general_pct": 4.80, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 1 Y up to 2 Yrs", "tenure_min_days": 366, "tenure_max_days": 730, "rate_general_pct": 4.95, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 2 Y up to 3 Yrs", "tenure_min_days": 731, "tenure_max_days": 1095, "rate_general_pct": 4.95, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 3 Yrs", "tenure_min_days": 1096, "tenure_max_days": null, "rate_general_pct": 4.95, "rate_senior_pct": null, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "warnings": [
+    "MUFG Bank India is a wholesale/corporate Foreign Bank — FD rates are amount-tiered, not age-tiered; no senior-citizen premium. Slabs captured are the retail-equivalent '< 30 Mio' (below Rs.3 crore) column of the 'INR Term Deposit Card Rates (with preclosure option)'. Higher amount tiers exist in the same PDF (30-<100 Mio, 100-<150 Mio, 150-<155 Mio, 155-<250 Mio, 250 Mio+ = 'Contact RM') but are bulk tiers not captured here. A separate 'Without Preclosure' card also exists. PDF source is MUFG's official global domain bk.mufg.jp/report/indiarate/ (India rate cards); .bank.in site bk.mufg.bank.in does not publish rates inline."
+  ],
+  "tier2_method": "pdf"
+}

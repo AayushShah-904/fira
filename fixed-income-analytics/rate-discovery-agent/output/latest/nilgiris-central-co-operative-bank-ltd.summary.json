@@ -1,0 +1,56 @@
+{
+  "bank_code": "nilgiris-central-co-operative-bank-ltd",
+  "bank_name": "nilgiris-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9175,
+  "duration_ms": 9175,
+  "duration_api_ms": 8881,
+  "num_turns": 3,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.008572,
+  "input_tokens": 18874,
+  "output_tokens": 639,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"nilgiris central co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nilgiriscentral.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nilgiriscentralcooperativebank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nilgiriscentralcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nilgiriscentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 184,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://nilgiriscentralcooperativebank.com\"}"
+    }
+  ]
+}

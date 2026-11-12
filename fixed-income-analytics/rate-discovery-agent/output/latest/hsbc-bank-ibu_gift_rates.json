@@ -1,0 +1,382 @@
+{
+  "bank_code": "hsbc-bank-ibu",
+  "bank_name": "HSBC Bank IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-06-05",
+  "source_url": "https://hsbc.co.in/nri/products/gift-city/",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 - 9 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 9,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "7 - 9 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 9,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "7 - 9 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 9,
+      "rate_general_pct": 0.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "10 - 14 Days",
+      "tenure_min_days": 10,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "10 - 14 Days",
+      "tenure_min_days": 10,
+      "tenure_max_days": 14,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "10 - 14 Days",
+      "tenure_min_days": 10,
+      "tenure_max_days": 14,
+      "rate_general_pct": 0.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "15 - 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "15 - 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "15 - 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 0.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "30 - 59 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 59,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "30 - 59 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 59,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "30 - 59 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 59,
+      "rate_general_pct": 0.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "60 - 89 Days",
+      "tenure_min_days": 60,
+      "tenure_max_days": 89,
+      "rate_general_pct": 2.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "60 - 89 Days",
+      "tenure_min_days": 60,
+      "tenure_max_days": 89,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "60 - 89 Days",
+      "tenure_min_days": 60,
+      "tenure_max_days": 89,
+      "rate_general_pct": 0.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "90 - 92 Days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 92,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "90 - 92 Days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 92,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "90 - 92 Days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 92,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "93 - 119 Days",
+      "tenure_min_days": 93,
+      "tenure_max_days": 119,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "93 - 119 Days",
+      "tenure_min_days": 93,
+      "tenure_max_days": 119,
+      "rate_general_pct": 2.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "93 - 119 Days",
+      "tenure_min_days": 93,
+      "tenure_max_days": 119,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "120 - 179 Days",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "120 - 179 Days",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 2.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "120 - 179 Days",
+      "tenure_min_days": 120,
+      "tenure_max_days": 179,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "180 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "180 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "180 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "181- 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 2.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "181- 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 2.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "181- 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 0.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "365 Days - Less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "365 Days - Less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "365 Days - Less than 24 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "24 Months - Less than 36 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_500k_usd",
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "24 Months - Less than 36 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_gbp",
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "24 Months - Less than 36 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 0.95,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_415k_eur",
+      "currency": "EUR"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "kottayam-co-operative-urban-bank-ltd",
+  "bank_name": "kottayam-co-operative-urban-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Kerala",
+  "website": "https://kottayamurban.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://kottayamurban.com/interestrate/deposits-interest-rate/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:17:19.075Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

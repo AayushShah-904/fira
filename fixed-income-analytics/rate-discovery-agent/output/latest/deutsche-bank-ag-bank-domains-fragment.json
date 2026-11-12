@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "bank_code": "deutsche-bank-ag",
+    "extracted_at": "2026-06-05T11:35:50.895Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "deutsche.bank.in",
+  "rate_pages": {
+    "fd": "/en/advantage-banking/interest-rates.html",
+    "savings": "/en/advantage-banking/interest-rates.html",
+    "rd": "/en/advantage-banking/interest-rates.html",
+    "fd_nre": "/en/advantage-banking/interest-rates.html",
+    "fd_nro": "/en/advantage-banking/interest-rates.html",
+    "fd_fcnr": "/en/advantage-banking/fixed-deposit-overview/fcnr-deposit.html",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Static HTML, server-rendered",
+  "template": {
+    "template_id": "deutsche-bankin-3col-tenure-general-senior",
+    "template_hash": "sha1:6ff60fc8fd1d3fa4c65de9769eb4ac0279165ecf",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": "below_3cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 18,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "madurai-district-central-co-operative-bank-ltd",
+  "bank_name": "madurai-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Tamil Nadu",
+  "website": "https://maduraidccb.bank.in",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:15:21.695Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

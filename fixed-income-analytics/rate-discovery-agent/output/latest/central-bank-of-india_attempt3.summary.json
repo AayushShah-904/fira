@@ -1,0 +1,84 @@
+{
+  "bank_code": "central-bank-of-india",
+  "bank_name": "central-bank-of-india",
+  "category": "Public Sector Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "public-sector-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 74220,
+  "duration_ms": 74220,
+  "duration_api_ms": 37200,
+  "num_turns": 6,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.6377079999999999,
+  "llm_cost_usd": 0.6377079999999999,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 297322,
+  "output_tokens": 5383,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 15017,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://centralbank.bank.in/en/interest-rates-on-deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 10011,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://centralbank.bank.in/en/NRE-DEPOSIT-INTEREST-RATES\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 10346,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://centralbank.bank.in/en/Intt_Rate\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 863,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://centralbank.bank.in/en/interest-rates-on-deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 649,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://centralbank.bank.in/en/NRE-DEPOSIT-INTEREST-RATES\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 133,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://centralbank.bank.in/en/Intt_Rate\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/central-bank-of-india_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"central-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Central Bank of I"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/central-bank-of-india_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"central-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Central Bank of In"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/central-bank-of-india_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"central-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Central Bank o"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/public-sector-bank/central-bank-of-india_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"central-bank-of-india\\\",\\n  \\\"bank_name\\\": \\\"Central Bank "
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "bank_code": "pravara-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T13:36:12.642Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "pravara.bank.in",
+  "rate_pages": {
+    "fd": "/page/70",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": "/page/73"
+  },
+  "scraper_type": "html_static",
+  "notes": "Standard HTML table with tenure and rate columns. 1 tables",
+  "template": {
+    "template_id": "coop-bankin-2col-tenure-general-special-bulk",
+    "template_hash": "sha1:3fc6d24eb027d0c5f0238c6d42e9c205730b2a65",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.137Z",
+      "gates_passed": "PASS",
+      "slab_count": 9,
+      "cluster_reused": false
+    }
+  }
+}

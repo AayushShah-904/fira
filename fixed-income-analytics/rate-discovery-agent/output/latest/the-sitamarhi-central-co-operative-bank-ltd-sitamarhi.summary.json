@@ -1,0 +1,68 @@
+{
+  "bank_code": "the-sitamarhi-central-co-operative-bank-ltd-sitamarhi",
+  "bank_name": "The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 21430,
+  "duration_ms": 21430,
+  "duration_api_ms": 21230,
+  "num_turns": 8,
+  "tool_call_count": 8,
+  "total_cost_usd": 0.017069200000000003,
+  "input_tokens": 38741,
+  "output_tokens": 983,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sitamarhicentral.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The Sitamarhi Central Co-operative Bank Ltd., Sitamarhi\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 149,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sitamarhicentralcooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://sitamarhicentralcooperativebank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Sitamarhi Central Co-operative Bank\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-sitamarhi-central-co-operative-bank-ltd-sitamarhi_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-sitamarhi-cent"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/the-sitamarhi-central-co-operative-bank-ltd-sitamarhi_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-sitamarhi-centr"
+    }
+  ]
+}

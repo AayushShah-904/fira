@@ -1,0 +1,27 @@
+{
+  "bank_code": "janakalyan-sahakari-bank-ltd-mumbai",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\janakalyan-sahakari-bank-ltd-mumbai_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.596752Z",
+  "overall_passed": true,
+  "metrics": {
+    "schema_completeness": {
+      "score": 94,
+      "passed": true,
+      "reason": "2 missing field values across 9 slabs",
+      "missing_breakdown": {
+        "tenure_min_days": 1,
+        "tenure_max_days": 1
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 9 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

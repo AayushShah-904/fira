@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "uttarakhand-gramin-bank",
+    "extracted_at": "2026-06-05T13:06:31.849Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "ukgb.bank.in",
+  "notes": "Merged from Uttaranchal Gramin Bank (SBI) + Nainital Almora KGVB (BoB).",
+  "rate_pages": {
+    "fd": null
+  },
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site ukgb.bank.in is up. FD page https://ukgb.bank.in/personalbanking/fixed_deposit.html exists and links to 'document/deposit_interest_rate.pdf' for deposit rates, but that PDF returns HTTP 404 on every resolved path (/personalbanking/document/, /document/). Re-verified the prior finding. The site DOES publish document/ROIAdv.pdf (advances/loan rates) but no working deposit-rate document. No inline FD rate numbers anywhere."
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "bank_code": "indian-bank",
+  "variant": "fcnr",
+  "slab_count": 25,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Yr to <2 Yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "USD 5.50 3.80 3.50 3.40 3.40"
+    },
+    {
+      "tenure_text": "2 Yrs & above to < 3 Yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "USD 5.50 3.80 3.50 3.40 3.40"
+    },
+    {
+      "tenure_text": "3 Yrs & above to < 4 Yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "USD 5.50 3.80 3.50 3.40 3.40"
+    },
+    {
+      "tenure_text": "4 Yrs & above to < 5 Yrs",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "USD 5.50 3.80 3.50 3.40 3.40"
+    },
+    {
+      "tenure_text": "Exactly 5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD",
+      "source_row_text": "USD 5.50 3.80 3.50 3.40 3.40"
+    },
+    {
+      "tenure_text": "1 Yr to <2 Yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50 3.00 3.00 2.50 2.70"
+    },
+    {
+      "tenure_text": "2 Yrs & above to < 3 Yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50 3.00 3.00 2.50 2.70"
+    },
+    {
+      "tenure_text": "3 Yrs & above to < 4 Yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50 3.00 3.00 2.50 2.70"
+    },
+    {
+      "tenure_text": "4 Yrs & above to < 5 Yrs",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50 3.00 3.00 2.50 2.70"
+    },
+    {
+      "tenure_text": "Exactly 5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP",
+      "source_row_text": "GBP 4.50 3.00 3.00 2.50 2.70"
+    },
+    {
+      "tenure_text": "1 Yr to <2 Yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "EUR 1.50 1.80 1.50 1.25 1.50"
+    },
+    {
+      "tenure_text": "2 Yrs & above to < 3 Yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "EUR 1.50 1.80 1.50 1.25 1.50"
+    },
+    {
+      "tenure_text": "3 Yrs & above to < 4 Yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "EUR 1.50 1.80 1.50 1.25 1.50"
+    },
+    {
+      "tenure_text": "4 Yrs & above to < 5 Yrs",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 1.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "EUR 1.50 1.80 1.50 1.25 1.50"
+    },
+    {
+      "tenure_text": "Exactly 5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR",
+      "source_row_text": "EUR 1.50 1.80 1.50 1.25 1.50"
+    },
+    {
+      "tenure_text": "1 Yr to <2 Yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 3.50 3.30 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "2 Yrs & above to < 3 Yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 3.50 3.30 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "3 Yrs & above to < 4 Yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 3.50 3.30 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "4 Yrs & above to < 5 Yrs",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 3.50 3.30 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "Exactly 5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "CAD",
+      "source_row_text": "CAD 3.50 3.30 3.00 3.00 3.00"
+    },
+    {
+      "tenure_text": "1 Yr to <2 Yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 3.60 3.50 2.05 2.30 2.45"
+    },
+    {
+      "tenure_text": "2 Yrs & above to < 3 Yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 3.60 3.50 2.05 2.30 2.45"
+    },
+    {
+      "tenure_text": "3 Yrs & above to < 4 Yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 2.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 3.60 3.50 2.05 2.30 2.45"
+    },
+    {
+      "tenure_text": "4 Yrs & above to < 5 Yrs",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 2.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 3.60 3.50 2.05 2.30 2.45"
+    },
+    {
+      "tenure_text": "Exactly 5 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "AUD",
+      "source_row_text": "AUD 3.60 3.50 2.05 2.30 2.45"
+    }
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "warnings": [],
+  "key_rates": {
+    "1y": {
+      "general": 5.5,
+      "senior": null
+    },
+    "2y": {
+      "general": 3.8,
+      "senior": null
+    },
+    "3y": {
+      "general": 3.5,
+      "senior": null
+    },
+    "5y": {
+      "general": 3.4,
+      "senior": null
+    }
+  }
+}

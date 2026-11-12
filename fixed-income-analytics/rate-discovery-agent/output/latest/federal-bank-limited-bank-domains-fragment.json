@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "bank_code": "federal-bank-limited",
+    "extracted_at": "2026-06-05T09:49:37.584Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "federal.bank.in",
+  "rate_pages": {
+    "fd": "https://www.federal.bank.in/deposit-rate",
+    "nre_fd": "/nre-fixed-deposits",
+    "fd_nre": "/nre-fixed-deposits",
+    "fd_nro": null,
+    "fd_fcnr": "/fcnr-b-deposits",
+    "fd_nri_combined": null,
+    "savings": "/savings-rate",
+    "rd": null,
+    "fd_url_fixed_at": "2026-05-25",
+    "fd_prev": "https://federal.bank.in/deposit-rate"
+  },
+  "scraper_type": "html_static",
+  "notes": "Liferay portlet (InterestRateUser_WAR_InterestRateUserportlet)",
+  "playwright_stealth": true,
+  "playwright_skip": [
+    "selects",
+    "tabs"
+  ],
+  "playwright_timeout_ms": 120000,
+  "template": {
+    "template_id": "fb-3col-regular-general-senior",
+    "template_hash": "sha1:937562fddc03cb22ab7853eb857dca47adaccbf5",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T05:49:10.535Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bank_code": "ctbc-bank-co-ltd-ibu",
+  "bank_name": "CTBC Bank Co. Ltd. IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-06-05",
+  "source_url": "https://ctbcbank.bank.in",
+  "scraped_at": "2026-06-05T09:12:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No accessible website or rate page found for CTBC Bank Co. Ltd. IBU (ctbcbank.bank.in). Manual extraction required."
+  ],
+  "errors": [
+    "Domain not serving banking content or unreachable."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T09:12:00Z",
+    "manual_verification_needed": false
+  }
+}

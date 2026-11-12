@@ -1,0 +1,72 @@
+{
+  "bank_code": "indusind-bank-ibu",
+  "bank_name": "indusind-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 158537,
+  "duration_ms": 158537,
+  "duration_api_ms": 38384,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.229954,
+  "llm_cost_usd": 0.229954,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 86021,
+  "output_tokens": 7239,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 120048,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.indusind.bank.in/in/en/personal/rates.html#gift_city\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 104,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.indusind.bank.in/in/en/personal/rates.html#gift_city\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/indusind-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indusind-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IndusInd Bank IBU\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/ifsc-banking-unit-ifsca/indusind-bank-ibu_gift_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"indusind-bank-ibu\\\",\\n  \\\"bank_name\\\": \\\"IndusInd Bank IB"
+    }
+  ],
+  "failure_class": "unclassified",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": false,
+    "scraper_type": "html_js",
+    "notes": "Rates for IndusInd Bank's IFSC Banking Unit (GIFT City). FDs in USD, GBP, EUR. No DICGC insurance. JS-rendered tab. For deposits >= USD 1M, contact RM. Rates change daily (forex working day).",
+    "website_url": "https://www.indusind.bank.in",
+    "rate_url_fd": "https://www.indusind.bank.in/in/en/personal/rates.html#gift_city",
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 2,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

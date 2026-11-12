@@ -1,0 +1,84 @@
+{
+  "bank_code": "kookmin-bank",
+  "bank_name": "kookmin-bank",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 117155,
+  "duration_ms": 117155,
+  "duration_api_ms": 25683,
+  "num_turns": 9,
+  "tool_call_count": 10,
+  "total_cost_usd": 1.0435599999999998,
+  "llm_cost_usd": 1.0435599999999998,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 514168,
+  "output_tokens": 1903,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 524,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/depo/product/interestRates\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22144,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/depo/product/interestRates\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22197,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/nre-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 24224,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/nro-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 22378,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://kbstar.bank.in/fcnr-deposits\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_type\\\": \\\"FB\\\","
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": \\\"FD\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 2,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": \\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/kookmin-bank_fcnr_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"kookmin-bank\\\",\\n  \\\"bank_name\\\": \\\"kookmin-bank\\\",\\n  \\\"product_type\\\": "
+    }
+  ]
+}

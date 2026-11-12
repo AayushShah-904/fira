@@ -1,0 +1,301 @@
+{
+  "bank_code": "canara-bank-ibu",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-06-11",
+  "source_url": "https://ifscgift.canarabank.bank.in/deposit-interest-rates",
+  "scraped_at": "2026-07-22T18:19:28.279Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Canara Bank IBU Gift City Term Deposit rate table w.e.f. 11.06.2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "07 Days to 1M",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.55,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "07 Days to 1M",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.65,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "07 Days to 1M",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 1.75,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "07 Days to 1M",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.7,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1M 1D to 3M",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.85,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "1M 1D to 3M",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "1M 1D to 3M",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 1.8,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1M 1D to 3M",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3M 1D to 6M",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "3M 1D to 6M",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.2,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "3M 1D to 6M",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 1.85,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3M 1D to 6M",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.85,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "6M 1D to 9M",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "6M 1D to 9M",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 4.3,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "6M 1D to 9M",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 1.6,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "6M 1D to 9M",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 3.85,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "9M 1D to 12M",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.35,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "9M 1D to 12M",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 4.45,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "9M 1D to 12M",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 1.5,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "9M 1D to 12M",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 3.85,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1Y 1D to 2Y",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.35,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "1Y 1D to 2Y",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 4.45,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "1Y 1D to 2Y",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 1.25,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "1Y 1D to 2Y",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "2Y 1D to 3Y",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.75,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "2Y 1D to 3Y",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 3.8,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "2Y 1D to 3Y",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 1,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "2Y 1D to 3Y",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 2.75,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3Y 1D to 5Y",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.4,
+      "currency": "USD",
+      "deposit_range": "upto_5m"
+    },
+    {
+      "tenure_text": "3Y 1D to 5Y",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.5,
+      "currency": "USD",
+      "deposit_range": "above_5m"
+    },
+    {
+      "tenure_text": "3Y 1D to 5Y",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 1,
+      "currency": "EUR",
+      "deposit_range": "standard"
+    },
+    {
+      "tenure_text": "3Y 1D to 5Y",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.5,
+      "currency": "GBP",
+      "deposit_range": "standard"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 42,
+    "last_scraped_at": "2026-07-22T18:19:28.279Z",
+    "manual_verification_needed": false
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-09-24T08:29:21.147Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 32,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:19:28.279Z",
+      "retained_slab_count": 32
+    },
+    {
+      "attempted_at": "2026-09-24T08:33:58.211Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 32,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T18:19:28.279Z",
+      "retained_slab_count": 32
+    }
+  ]
+}

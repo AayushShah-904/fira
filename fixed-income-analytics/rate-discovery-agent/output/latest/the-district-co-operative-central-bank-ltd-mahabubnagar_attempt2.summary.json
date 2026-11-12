@@ -1,0 +1,74 @@
+{
+  "bank_code": "the-district-co-operative-central-bank-ltd-mahabubnagar",
+  "bank_name": "The District Co-operative Central Bank Ltd., Mahabubnagar",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12081,
+  "duration_ms": 12081,
+  "duration_api_ms": 11686,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.086102,
+  "input_tokens": 38699,
+  "output_tokens": 1088,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The District Co-operative Central Bank Ltd., Mahabubnagar\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmbnr.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The District Co-operative Central Bank Ltd., Mahabubnagar\\\" official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 139,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmbnr.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dccbmbnr.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"The District Co-operative Central Bank Ltd., Mahabubnagar\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 42,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.mahabubnagardccb.org\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 139,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mahabubnagardccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mahabubnagardccb.co.in\"}"
+    }
+  ]
+}

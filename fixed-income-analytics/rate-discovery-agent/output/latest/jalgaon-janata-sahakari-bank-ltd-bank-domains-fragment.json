@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T13:27:42.605Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "jjsbl.bank.in",
+  "rate_pages": {
+    "fd": "https://jjsbl.bank.in/fixed-deposit-service",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account-service",
+    "rd": "/recurring-deposit-service",
+    "fd_prev": "/fixed-deposit-service",
+    "fd_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "notes": "HTML table with Marathi/Devanagari text and numerals. 2 tables",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:19:14.116Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch_markdown_parse",
+    "source_url": "https://jjsbl.bank.in/fixed-deposit-service",
+    "slab_count": 22,
+    "hints": "jjsbl.bank.in/fixed-deposit-service (webfetch markdown parse)",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

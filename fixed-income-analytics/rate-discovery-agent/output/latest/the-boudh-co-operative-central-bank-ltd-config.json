@@ -1,0 +1,44 @@
+{
+  "bank_code": "the-boudh-co-operative-central-bank-ltd",
+  "bank_name": "The Boudh Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://boudhccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://boudhccb.bank.in/interest.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://boudhccb.bank.in/interest.php",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table",
+    "rows": "tr",
+    "effective_date": "div.section-title + p"
+  },
+  "column_mapping": {
+    "0": "sl_no",
+    "1": "deposit_type",
+    "2": "tenure_text",
+    "3": "rate_general_pct"
+  },
+  "expected_slab_count": 11,
+  "notes": "Senior Citizen will be allowed 0.50% more in all slabs. Premature withdrawal penalty: 0.50% below applicable rate.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": "Single HTML table, tenure/rate pairs, senior premium noted below table.",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "guessed domain + homepage fetch",
+    "confidence": "high"
+  }
+}

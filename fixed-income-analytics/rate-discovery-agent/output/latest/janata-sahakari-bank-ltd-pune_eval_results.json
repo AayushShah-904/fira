@@ -1,0 +1,27 @@
+{
+  "bank_code": "janata-sahakari-bank-ltd-pune",
+  "rates_file": "D:\\College\\Intership\\Bharatomni Technology\\Development\\week-5\\fia-agent-intregrations\\fixed-income-analytics\\rate-discovery-agent\\output\\latest\\janata-sahakari-bank-ltd-pune_rates.json",
+  "evaluated_at": "2026-07-08T08:52:08.599169Z",
+  "overall_passed": true,
+  "metrics": {
+    "schema_completeness": {
+      "score": 92,
+      "passed": true,
+      "reason": "8 missing field values across 24 slabs",
+      "missing_breakdown": {
+        "tenure_min_days": 4,
+        "tenure_max_days": 4
+      }
+    },
+    "extraction_confidence": {
+      "score": 90,
+      "passed": true,
+      "reason": "Confidence=high consistent with 24 slabs"
+    },
+    "hallucination_check": {
+      "score": null,
+      "passed": null,
+      "reason": "Skipped \u2014 FI_API_KEY not set"
+    }
+  }
+}

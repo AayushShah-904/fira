@@ -1,0 +1,199 @@
+{
+  "bank_code": "amritsar-central-co-operative-bank-ltd",
+  "bank_name": "Amritsar Central Cooperative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": "https://amritsar.pbcoopbank.in/deposit-interest-rates/",
+  "scraped_at": "2026-05-27T18:13:56.859Z",
+  "effective_date": "2025-06-16",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "7 Days to 14 Days | 3.40% | 3.40%"
+    },
+    {
+      "tenure_text": "15 Days to 30 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "15 Days to 30 Days | 3.40% | 3.40%"
+    },
+    {
+      "tenure_text": "31 to 45 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "31 to 45 Days | 3.40% | 3.40%"
+    },
+    {
+      "tenure_text": "46 to 60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "46 to 60 Days | 3.50% | 3.50%"
+    },
+    {
+      "tenure_text": "61 to 90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "61 to 90 Days | 3.75% | 3.75%"
+    },
+    {
+      "tenure_text": "91 to 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "91 to 179 Days | 4.50% | 4.50%"
+    },
+    {
+      "tenure_text": "180 to upto 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "180 to upto 270 days | 5.00% | 5.00%"
+    },
+    {
+      "tenure_text": "271 to upto 364 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "271 to upto 364 days | 5.50% | 5.50%"
+    },
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "1 Year | 6.80% | 6.80% (senior +0.50% per note)"
+    },
+    {
+      "tenure_text": "Above 1 yr to upto 2 Yr",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 1 yr to upto 2 Yr | 6.80% | 6.80% (senior +0.50% per note)"
+    },
+    {
+      "tenure_text": "Above 2 Yr to upto 3 Yr",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 2 Yr to upto 3Yr | 6.25% | 6.25% (senior +0.50% per note)"
+    },
+    {
+      "tenure_text": "Above 3 Yr to upto 5 Yr",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "Above 3 Yr to upto 5 Yr | 6.30% | 6.30% (senior +0.50% per note)"
+    },
+    {
+      "tenure_text": "5 Years and above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "5 Years and above | 6.50% | 6.50% (senior +0.50% per note)"
+    },
+    {
+      "tenure_text": "455 days",
+      "tenure_min_days": 455,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "455 days | 6.90% | 6.90% (senior +0.50% per note)"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 correctness fix: prior data was scraped from forbidden aggregator codeforbanks.com; re-extracted from the bank's own official source.",
+    "Senior citizen rate = general + 0.50% for deposits >= Rs.20,000 with >= 1-year maturity, per page note (not a printed column)."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "tier2_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-27T18:13:56.859Z",
+    "source_url": "https://amritsar.pbcoopbank.in/deposit-interest-rates/",
+    "fixed_from": "codeforbanks.com aggregator",
+    "discovery_status": "recovered"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:04.608Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-27T18:13:56.859Z",
+      "retained_slab_count": 14
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 402,
+    "last_scraped_at": "2026-05-27T18:13:56.859Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "bank_code": "nadia-district-central-co-operative-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T01:18:49.386Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T16:04:49.079Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

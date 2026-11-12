@@ -1,0 +1,13 @@
+{
+  "bank_code": "punjab-sind-bank",
+  "bank_name": "Punjab & Sind Bank",
+  "bank_type": "PSB",
+  "state": "Delhi",
+  "website": "https://punjabandsind.bank.in",
+  "rate_page_url": "https://punjabandsind.bank.in/content/interestdom",
+  "scraper_type": "html_static",
+  "extraction_method": "automatic_html_static",
+  "slab_count": 30,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

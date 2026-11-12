@@ -1,0 +1,66 @@
+{
+  "bank_code": "citibank-na",
+  "bank_name": "citibank-na",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 27720,
+  "duration_ms": 27720,
+  "duration_api_ms": 24928,
+  "num_turns": 3,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.153968,
+  "llm_cost_usd": 0.153968,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 55960,
+  "output_tokens": 5256,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 954,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 933,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 903,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"bank_type\\\": \\\"FB\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_nre_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"product_type\\\": \\\"FD"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/citibank-na_nro_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"citibank-na\\\",\\n  \\\"bank_name\\\": \\\"citibank-na\\\",\\n  \\\"product_type\\\": \\\"FD"
+    }
+  ]
+}

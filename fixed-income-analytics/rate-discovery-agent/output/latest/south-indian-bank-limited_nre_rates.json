@@ -1,0 +1,287 @@
+{
+  "bank_code": "south-indian-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-07-07",
+  "source_url": "https://www.southindianbank.bank.in/quick-links/interest-rates",
+  "scraped_at": "2026-07-07T07:05:55.496Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 1 year to 371 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 371,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": 6.35,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "372 days",
+      "tenure_min_days": 372,
+      "tenure_max_days": 372,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "373 days to less than 18 months",
+      "tenure_min_days": 373,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "18 months",
+      "tenure_min_days": 540,
+      "tenure_max_days": 540,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 18 months to less than 30 months",
+      "tenure_min_days": 541,
+      "tenure_max_days": 899,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": 6.35,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "30 months",
+      "tenure_min_days": 900,
+      "tenure_max_days": 900,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 30 months to less than 3 years",
+      "tenure_min_days": 901,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": 6.35,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "5 years to less than 66 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1979,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 6.2,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "66 months (Green deposit)",
+      "tenure_min_days": 1980,
+      "tenure_max_days": 1980,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 66 months to upto and including 10 years",
+      "tenure_min_days": 1981,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 6.2,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "5 Years )",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 6.2,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 3.75
+    },
+    {
+      "tenure_text": "3 years to less than 4 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": 2.45
+    },
+    {
+      "tenure_text": "4 years to less than 5 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": 2.45
+    },
+    {
+      "tenure_text": "3 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 2.45
+    },
+    {
+      "tenure_text": "2 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.85,
+      "rate_senior_pct": 6.16,
+      "rate_super_senior_pct": 6.35
+    },
+    {
+      "tenure_text": "4 years",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.98,
+      "rate_super_senior_pct": 6.7
+    },
+    {
+      "tenure_text": "6 years",
+      "tenure_min_days": 2190,
+      "tenure_max_days": 2190,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 6.74,
+      "rate_super_senior_pct": 6.2
+    },
+    {
+      "tenure_text": "7 years",
+      "tenure_min_days": 2555,
+      "tenure_max_days": 2555,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 6.94,
+      "rate_super_senior_pct": 6.2
+    },
+    {
+      "tenure_text": "8 years",
+      "tenure_min_days": 2920,
+      "tenure_max_days": 2920,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 7.16,
+      "rate_super_senior_pct": 6.2
+    },
+    {
+      "tenure_text": "9 years",
+      "tenure_min_days": 3285,
+      "tenure_max_days": 3285,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 7.38,
+      "rate_super_senior_pct": 6.2
+    },
+    {
+      "tenure_text": "10 years",
+      "tenure_min_days": 3650,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 7.61,
+      "rate_super_senior_pct": 6.2
+    },
+    {
+      "tenure_text": "271 days to 365 days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": 6.6
+    },
+    {
+      "tenure_text": "366 Days to 389 Days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 389,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": 6.6
+    },
+    {
+      "tenure_text": "390 Days",
+      "tenure_min_days": 390,
+      "tenure_max_days": 390,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": 6.8
+    },
+    {
+      "tenure_text": "390 Days to up to and including 2 Years",
+      "tenure_min_days": 390,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.8,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": 6.05
+    },
+    {
+      "tenure_text": "5 Years to up to and including 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": 5.8,
+      "rate_super_senior_pct": 5.8
+    },
+    {
+      "tenure_text": "less than Rs. 200 cr Rs. 200 cr and above 366 Days to 389 Days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 388,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.6,
+      "rate_super_senior_pct": 6.6
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[3]: no NRE INR fixed-deposit rate table found in input)",
+    "llm_chunk[4]: no result (API error or non-JSON)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 149 slab(s) from page text",
+    "non_fd_filter: dropped 8 non-FD slab(s) (savings, deposit-tier indicators, penalty rules)",
+    "malformed_slab_filter: dropped 4 slab(s) with tenure_text containing concatenated rate/table fragments (div-table extraction artefact)"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 26 (271 days to 365 days): nre tenure 271d below minimum (365d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 16,
+    "last_scraped_at": "2026-07-07T07:05:55.496Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "bank_code": "canara-bank",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "2026-07-13",
+  "source_url": "https://canarabank.bank.in/pages/deposit-interest-rates",
+  "scraped_at": "2026-07-22T17:21:55.592Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Canara Bank official rates page states: NRO - all maturities: Same as applicable to Domestic Term Deposits w.e.f. 13.07.2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year Only",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "1 Year Only | 6.20% Callable | 6.35% Yield"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "Above 1 Year to less than 2 Years | 6.20% Callable"
+    },
+    {
+      "tenure_text": "2 years & above to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "2 years & above to less than 3 years | 5.50% Callable"
+    },
+    {
+      "tenure_text": "3 years & above to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "3 years & above to less than 5 years | 5.00% Callable"
+    },
+    {
+      "tenure_text": "5 years & above to 10 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "deposit_range": "3cr_to_10cr_callable",
+      "source_row_text": "5 years & above to 10 years | 5.00% Callable"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 10,
+    "last_scraped_at": "2026-07-22T17:21:55.592Z",
+    "manual_verification_needed": false
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-08-30T13:12:40.796Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 12,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-24T08:28:22.447Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-24T08:31:25.373Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-24T08:33:32.599Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:43:00.418Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:43:19.621Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:45:38.017Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:47:57.312Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:48:54.381Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:50:55.595Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-09-30T13:52:34.893Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-10-01T20:18:03.266Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-10-01T20:20:19.101Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-10-01T20:22:19.429Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-11-11T13:39:17.709Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-11-11T13:41:44.316Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-11-11T13:43:52.601Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-11-12T09:37:14.874Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-11-12T09:40:06.487Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    },
+    {
+      "attempted_at": "2026-11-12T09:42:15.674Z",
+      "attempted_source": "agent",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 24,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_image_transcription",
+      "retained_extraction_method": "manual_image_transcription",
+      "retained_scraped_at": "2026-07-22T17:21:55.592Z",
+      "retained_slab_count": 5
+    }
+  ]
+}

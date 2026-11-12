@@ -1,0 +1,147 @@
+{
+  "bank_code": "ajmer-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": "https://www.ajmerccb.bank.in/Intreast%20Rates.jpg",
+  "scraped_at": "2026-06-09T15:14:22.739Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "बचत खाता एक लाख से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "बचत खाता एक लाख से 50 लाख तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "बचत खाता 50 लाख से अधिक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 दिवस से 14 दिवस तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 दिवस से 29 दिवस तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30 दिवस से 45 दिवस तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 दिवस से 90 दिवस तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 दिवसे से 180 दिवस तक",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 दिवस से अधिक परन्तु 1 वर्ष से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 वर्ष एवं 1 वर्ष से अधिक परन्तु 2 वर्ष से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "715 दिवस (नया प्रोडक्ट)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 7.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 वर्ष एवं इससे अधिक परन्तु 3 वर्ष से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 वर्ष एवं इससे अधिक परन्तु 5 वर्ष से कम",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 वर्ष एवं इससे अधिक पर",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "automatic_ocr",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T15:14:22.739Z",
+    "manual_verification_needed": false
+  }
+}

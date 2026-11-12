@@ -1,0 +1,13 @@
+{
+  "bank_code": "dcb-bank-limited",
+  "bank_name": "dcb-bank-limited",
+  "bank_type": "PVB",
+  "state": "Maharashtra",
+  "website": "https://dcb.bank.in",
+  "rate_page_url": "https://dcb.bank.in/rates/fixed-deposit-interest-rate",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 47,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

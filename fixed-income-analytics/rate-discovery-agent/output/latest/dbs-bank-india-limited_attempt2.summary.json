@@ -1,0 +1,96 @@
+{
+  "bank_code": "dbs-bank-india-limited",
+  "bank_name": "dbs-bank-india-limited",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 102402,
+  "duration_ms": 102402,
+  "duration_api_ms": 92138,
+  "num_turns": 5,
+  "tool_call_count": 8,
+  "total_cost_usd": 0.7515200000000001,
+  "llm_cost_usd": 0.7515200000000001,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 362196,
+  "output_tokens": 3391,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 126,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.dbs.bank.in/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.dbs.bank.in/in/treasures/nri-banking/deposits/nri-fixed-deposits/nre-fixed-deposit/nre-fd-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.dbs.bank.in/in/treasures/nri-banking/deposits/nri-fixed-deposits/nro-fixed-deposit/nro-fd-rates\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.dbs.bank.in/in/treasures/deposits/your-accounts/fixed-deposits\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.dbs.bank.in/in/treasures/common/interest-rates.page\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 10033,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.dbs.bank.in/in/treasures/common/interest-rates.page\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/dbs-bank-india-limited_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"dbs-bank-india-limited\\\",\\n  \\\"bank_name\\\": \\\"DBS Bank India Limite"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/dbs-bank-india-limited_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"dbs-bank-india-limited\\\",\\n  \\\"bank_name\\\": \\\"DBS Bank India Limited"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 5,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

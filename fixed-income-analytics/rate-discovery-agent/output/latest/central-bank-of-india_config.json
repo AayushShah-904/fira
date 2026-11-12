@@ -1,0 +1,22 @@
+{
+  "bank_code": "central-bank-of-india",
+  "bank_name": "central-bank-of-india",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "state": "Maharashtra",
+  "website": "https://centralbank.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://centralbank.bank.in/en/interest-rates-on-deposit",
+    "fd_nre": "https://centralbank.bank.in/en/NRE-DEPOSIT-INTEREST-RATES",
+    "fd_nro": null,
+    "fd_fcnr": "https://centralbank.bank.in/en/Intt_Rate"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:35:34.861Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

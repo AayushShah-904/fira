@@ -1,0 +1,78 @@
+{
+  "bank_code": "karnal-central-co-operative-bank-ltd",
+  "bank_name": "karnal-central-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 15689,
+  "duration_ms": 15689,
+  "duration_api_ms": 13482,
+  "num_turns": 4,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.14777,
+  "llm_cost_usd": 0.14777,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 66517,
+  "output_tokens": 1842,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1015,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cbkarnal.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 399,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://cbkarnal.com/rate-of-interest/\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 792,
+      "is_error": false,
+      "input_preview": "{\"url\":\"http://www.cbkarnal.com/wp-content/uploads/2023/12/Revision-Rate-of-Interest-01-12-2023_20231214_0001-1.pdf\",\"referer\":\"https://www.cbkarnal.com/rate-of-interest/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/karnal-central-co-operative-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"karnal-central-co-operative-ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-bank/karnal-central-co-operative-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"karnal-central-co-operative-bank"
+    }
+  ],
+  "failure_class": "success",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "pdf",
+    "notes": "FD rates are published as a downloadable PDF. No NRI/FCNR products for DCCBs. Some tenures could not be parsed due to PDF OCR errors.",
+    "website_url": "https://cbkarnal.com",
+    "rate_url_fd": "https://cbkarnal.com/rate-of-interest/",
+    "slab_count": 8,
+    "extraction_confidence": "medium",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

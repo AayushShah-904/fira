@@ -1,0 +1,42 @@
+{
+  "bank_code": "bnp-paribas-ibu",
+  "bank_name": "bnp-paribas-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 7301,
+  "duration_ms": 7301,
+  "duration_api_ms": 6255,
+  "num_turns": 2,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.044092,
+  "llm_cost_usd": 0.044092,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 18106,
+  "output_tokens": 985,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1042,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bnpparibas.bank.in/en/gift-city/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 4,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/bnp-paribas-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bnp-paribas-ibu\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/bnp-paribas-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bnp-paribas-ibu\\\",\\n  "
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "bank_code": "trivandrum-co-operative-urban-bank-ltd",
+  "bank_name": "trivandrum-co-operative-urban-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "website": "https://tcubltd.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/interest-rates",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "Official website found (tcubltd.in), but specific pages for FD or savings rates not visible in search results.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T17:16:44.653Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

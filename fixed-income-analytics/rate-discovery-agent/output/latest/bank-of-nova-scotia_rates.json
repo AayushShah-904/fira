@@ -1,0 +1,111 @@
+{
+  "bank_code": "bank-of-nova-scotia",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-01",
+  "source_url": null,
+  "scraped_at": "2026-05-26T06:53:27.870Z",
+  "extraction_confidence": "high",
+  "special_schemes": [],
+  "warnings": [
+    "Corrected via Tier-2 verification 2026-05-26: prior extraction had a column/source error; rates re-read from live source."
+  ],
+  "errors": [],
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "discovery_metadata": {
+    "run_method": "tier-2-verify-fold",
+    "sourced_at": "2026-05-26T06:53:27.870Z",
+    "note": "agent-verified correct_data folded; clobber-protected (sprint-007 bug fix)"
+  },
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 30 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31 days to 90 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.6,
+      "rate_senior_pct": 3.85,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to 364 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": 3.95,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "365 days to < 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years to < 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.9,
+      "rate_senior_pct": 4.15,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years to < 10 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:17.144Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "automatic_pdf",
+      "attempted_slab_count": 1,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-26T06:53:27.870Z",
+      "retained_slab_count": 7
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 234,
+    "last_scraped_at": "2026-05-26T06:53:27.870Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "bank_code": "karnataka-grameena-bank",
+    "extracted_at": "2026-06-05T12:49:11.528Z",
+    "source": "bank-domains.json",
+    "source_sha": "0619916b6239154a7c4c3ba562d0577776f86e3aefd6ddbcb640c53bbe52c81b"
+  },
+  "domain": "karnatakagb.bank.in",
+  "notes": "1751 branches across Karnataka.",
+  "rate_pages": {
+    "fd": "/banking-proserv/deposit-interest-rates",
+    "fd_nre": "/banking-proserv/deposit-interest-rates",
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/banking-proserv/savings-account",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "template": {
+    "template_id": "kgb-amount-tiered-regular-nre",
+    "template_hash": "sha1:a8290d25e6d59fce5a31bec582730f90b2578957",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_1cr",
+            "3": "rate_senior_pct@below_1cr",
+            "4": "rate_general_pct@above_1cr",
+            "5": "ignore"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct@below_1cr",
+            "3": "rate_general_pct@above_1cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 38,
+      "cluster_reused": false
+    }
+  }
+}

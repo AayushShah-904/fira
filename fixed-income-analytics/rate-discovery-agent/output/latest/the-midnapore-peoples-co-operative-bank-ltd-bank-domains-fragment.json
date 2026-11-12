@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "the-midnapore-peoples-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T11:00:18.026Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "mpcbmid.com",
+  "rate_pages": {
+    "fd": null
+  },
+  "notes": "No .bank.in domain found. Official site mpcbmid.com. Interest Rate section visible in menu but no direct FD page identifiable in search results ([mpcbmid.com](https://mpcbmid.com/))",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Homepage loads over HTTP (http://www.mpcbmid.com/ - HTTPS has an invalid cert) and links 'Interest Rate on FD' -> Deposit.htm. But Deposit.htm and the other inner .htm pages (Circulars.htm etc.) all return HTTP 404 - the site's inner pages are broken/missing. The FD rate page (http://www.mpcbmid.com/Deposit.htm) is advertised but not retrievable."
+  }
+}

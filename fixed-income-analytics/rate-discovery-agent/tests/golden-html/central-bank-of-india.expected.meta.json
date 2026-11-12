@@ -1,0 +1,13 @@
+{
+  "bank_code": "central-bank-of-india",
+  "bank_name": "central-bank-of-india",
+  "bank_type": "PSB",
+  "state": "Maharashtra",
+  "website": "https://centralbank.bank.in",
+  "rate_page_url": "https://centralbank.bank.in/en/interest-rates-on-deposit",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 31,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

@@ -1,0 +1,36 @@
+{
+  "bank_code": "jp-morgan-bank-ibu",
+  "bank_name": "jp-morgan-bank-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 5633,
+  "duration_ms": 5633,
+  "duration_api_ms": 5628,
+  "num_turns": 2,
+  "tool_call_count": 2,
+  "total_cost_usd": 0.038524,
+  "llm_cost_usd": 0.038524,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 15774,
+  "output_tokens": 872,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "write_file",
+      "duration_ms": 5,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/jp-morgan-bank-ibu_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jp-morgan-bank-ibu"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": true,
+      "input_preview": "{\"file_path\":\"C:/sw/BharatOmni/UFA/BIRD/rate-discovery-agent/output/runs/2026-05-23T0901_all/ifsc-banking-unit-ifsca/jp-morgan-bank-ibu_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jp-morgan-bank-ibu\\"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "bank_code": "barclays-bank-plc",
+  "bank_name": "Barclays Bank PLC",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2026-06-05",
+  "source_url": "https://barclays.bank.in/content/dam/barclays-in/documents/schedule-charges/FCNR-RFC-Deposit-13th-May-2026.pdf",
+  "scraped_at": "2026-06-05T11:25:07Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 2.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 720,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 2.17,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1080,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 2.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1440,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 2.72,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 1800,
+      "rate_general_pct": 2.66,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "No currency breakdown in PDF, assumed USD as default. No senior citizen rates. Effective date not found in PDF."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T11:25:07Z",
+    "manual_verification_needed": false
+  }
+}

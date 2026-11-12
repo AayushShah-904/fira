@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "mehsana-nagrik-sahakari-bank-ltd",
+    "extracted_at": "2026-06-06T09:44:48.170Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "mnsb.bank.in",
+  "rate_pages": {
+    "fd": "/accounts-deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/accounts-deposits/",
+    "rd": "/accounts-deposits/"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

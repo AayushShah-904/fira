@@ -1,0 +1,25 @@
+{
+  "bank_code": "bank-of-ceylon",
+  "bank_name": "bank-of-ceylon",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://boc.lk/international-banking/overseas-branches",
+  "scraped_at": "2026-06-05T11:21:30Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "All known rate pages on boc.lk are blocked by CloudFront WAF (HTTP 403) even with Playwright. No rate data could be extracted. Operator review required."
+  ],
+  "errors": [
+    "HTTP 403 on both fetch_url and run_playwright for all rate pages."
+  ],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T11:21:30Z",
+    "manual_verification_needed": false
+  }
+}

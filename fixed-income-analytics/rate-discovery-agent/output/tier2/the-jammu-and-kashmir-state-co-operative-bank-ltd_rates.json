@@ -1,0 +1,22 @@
+{
+  "bank_code": "the-jammu-and-kashmir-state-co-operative-bank-ltd",
+  "bank_name": "The Jammu and Kashmir State Co-operative Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "jkscbank.com",
+    "found_via": "websearch",
+    "notes": "The bank's own site jkscbank.com (titled 'J&K STATE COOPERATIVE Bank') appears in search results but is unreachable from here (HTTP 000 / connection timeout on https, http, and www variants). Registry hint domain coopbank.co.in is a third-party banking portal, not the bank. No FD rate page could be retrieved; may work later."
+  },
+  "warnings": [
+    "Do NOT confuse with Jammu & Kashmir Bank (jkb.bank.in), a separate commercial bank — search results repeatedly conflated the two.",
+    "Bank contact email is jkscb21000@yahoo.com per district NIC listings, consistent with weak web presence."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

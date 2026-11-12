@@ -1,0 +1,19 @@
+{
+  "bank_code": "barclays-bank-plc-ibu",
+  "bank_name": "Barclays Bank Plc – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "barclays.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Barclays GIFT City IFSC Banking Unit is wholesale/corporate banking only. No public retail deposit rate card; GIFT-City foreign-currency term-deposit rates are quote-on-request (not published). Confirmed wholesale-only status from registry plus web search. Re-verified prior finding."
+  },
+  "warnings": ["Wholesale IBU; GIFT-City deposit rates not public (quote on request)."],
+  "tier2_method": "websearch+webfetch"
+}

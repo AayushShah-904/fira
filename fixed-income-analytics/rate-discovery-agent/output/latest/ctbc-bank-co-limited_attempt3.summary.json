@@ -1,0 +1,42 @@
+{
+  "bank_code": "ctbc-bank-co-limited",
+  "bank_name": "ctbc-bank-co-limited",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 11992,
+  "duration_ms": 11992,
+  "duration_api_ms": 11308,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.06963,
+  "llm_cost_usd": 0.06963,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 31279,
+  "output_tokens": 884,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "run_playwright",
+      "duration_ms": 587,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html\",\"accordions\":true}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 10,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 87,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://ctbcbank.bank.in/\"}"
+    }
+  ]
+}

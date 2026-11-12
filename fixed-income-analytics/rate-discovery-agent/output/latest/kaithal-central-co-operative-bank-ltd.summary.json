@@ -1,0 +1,50 @@
+{
+  "bank_code": "kaithal-central-co-operative-bank-ltd",
+  "bank_name": "kaithal-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8466,
+  "duration_ms": 8466,
+  "duration_api_ms": 8357,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0086028,
+  "input_tokens": 18847,
+  "output_tokens": 665,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"kaithal central co operative bank\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kaithalcentralcooperativebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kaithalcentralcooperativebank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kaithalcentralcooperativebankltd.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kaithalcentralcooperativebankltd.bank.in/\"}"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "bank_code": "mizuho-bank-ltd",
+  "scraped_at": "2026-06-05T11:52:07Z",
+  "source_url": "https://cdn.prod.website-files.com/67cb23eaf0c6c4d4080e059a/6a22697eadfa6ed37173020a_05062026BulkDeposit030Mandabove.pdf",
+  "effective_date": "2026-06-05",
+  "extraction_method": "llm_inline_extraction",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 10 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 10,
+      "rate_general_pct": 5.06,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "11 days to 14 days",
+      "tenure_min_days": 11,
+      "tenure_max_days": 14,
+      "rate_general_pct": 5.07,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "15 days to 20 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 20,
+      "rate_general_pct": 5.08,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "21 days to 25 days",
+      "tenure_min_days": 21,
+      "tenure_max_days": 25,
+      "rate_general_pct": 5.08,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "26 days to 29 days",
+      "tenure_min_days": 26,
+      "tenure_max_days": 29,
+      "rate_general_pct": 5.09,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "30 days to 46 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 46,
+      "rate_general_pct": 5.13,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "47 days to 59 days",
+      "tenure_min_days": 47,
+      "tenure_max_days": 59,
+      "rate_general_pct": 5.15,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "60 days to 74 days",
+      "tenure_min_days": 60,
+      "tenure_max_days": 74,
+      "rate_general_pct": 5.16,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "75 days to 89 days",
+      "tenure_min_days": 75,
+      "tenure_max_days": 89,
+      "rate_general_pct": 5.17,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "90 days to 104 days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 104,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "105 days to 120 days",
+      "tenure_min_days": 105,
+      "tenure_max_days": 120,
+      "rate_general_pct": 5.16,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "121 days to 149 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 149,
+      "rate_general_pct": 5.18,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "150 days to 164 days",
+      "tenure_min_days": 150,
+      "tenure_max_days": 164,
+      "rate_general_pct": 5.26,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "165 days to 179 days",
+      "tenure_min_days": 165,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.28,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "180 days to 196 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 196,
+      "rate_general_pct": 5.4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "197 days to 226 days",
+      "tenure_min_days": 197,
+      "tenure_max_days": 226,
+      "rate_general_pct": 5.32,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "227 days to 240 days",
+      "tenure_min_days": 227,
+      "tenure_max_days": 240,
+      "rate_general_pct": 5.34,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "241 days to 269 days",
+      "tenure_min_days": 241,
+      "tenure_max_days": 269,
+      "rate_general_pct": 5.35,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "270 days to 345 days",
+      "tenure_min_days": 270,
+      "tenure_max_days": 345,
+      "rate_general_pct": 5.37,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "346 days to 1 year",
+      "tenure_min_days": 346,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.41,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "Over 1 year upto 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 450,
+      "rate_general_pct": 5.42,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "Over 15 months upto 18 months",
+      "tenure_min_days": 450,
+      "tenure_max_days": 540,
+      "rate_general_pct": 5.37,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "Over 18 months upto 2 years",
+      "tenure_min_days": 540,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.34,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    },
+    {
+      "tenure_text": "Over 2 years upto 5 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 5.32,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:stg-cohort",
+    "rule": "safe_replace",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T11:52:07Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "madheshwari-urban-development-co-operative-bank",
+  "bank_name": "Madheshwari Urban Development Co-operative Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:31:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "Re-verified prior finding: no official website exists. Bank is in Madha, Solapur district, Maharashtra. IFSC HDFC0CMUDCB indicates it is an HDFC Bank sub-member (no independent NEFT/RTGS infra), a very small NSUCB. Only third-party directory/IFSC listings exist (codeforbanks, cleartax, asklaila, indiacom). The registry-hint 'opencorpdata.com' is a corporate-data directory, not the bank's site."
+  },
+  "warnings": ["Small co-op (HDFC sub-member) with no web presence; no FD rates publishable. Aggregators deliberately not used."],
+  "tier2_method": "websearch+webfetch"
+}

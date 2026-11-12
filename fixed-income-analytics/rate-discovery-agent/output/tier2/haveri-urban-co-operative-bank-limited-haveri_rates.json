@@ -1,0 +1,19 @@
+{
+  "bank_code": "haveri-urban-co-operative-bank-limited-haveri",
+  "bank_name": "Haveri Urban Co-operative Bank Limited. Haveri",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No official own-domain website found. The bank's IFSC code is ICIC00HAVCB (ICICI-sponsored sub-member code), indicating it has no independent CBS/web presence and routes NEFT/RTGS via ICICI Bank. All search results are aggregators/directories (codeforbanks, bankbazaar, india.com IFSC pages) — banned as sources. Registry hint was prokerala.com (a directory, not the bank). No retrievable official FD rate page."
+  },
+  "warnings": ["No bank-owned website; bank operates as an ICICI-sponsored sub-member (IFSC ICIC00HAVCB). Only aggregator listings exist."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,145 @@
+{
+  "bank_code": "bassein-catholic-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-01-01",
+  "source_url": "https://bccb.bank.in/interest-rates/deposits/",
+  "scraped_at": "2026-06-09T13:48:30.626Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "From 7 Days to 30 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.25,
+      "deposit_range": null,
+      "source_row_text": "From 7 Days to 30 Days 3.75% 4.00% 4.00% 4.00% 4.00% 4.25%"
+    },
+    {
+      "tenure_text": "From 31 Days to 90 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "From 31 Days to 90 Days 4.50% 4.75% 4.75% 4.75% 4.75% 5.00%"
+    },
+    {
+      "tenure_text": "From 91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "From 91 Days to 180 Days 5.00% 5.25% 5.25% 5.25% 5.25% 5.50%"
+    },
+    {
+      "tenure_text": "From 181 Days UPTO 12 Months",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "From 181 Days UPTO 12 Months 5.50% 5.75% 5.75% 5.75% 5.75% 6.00%"
+    },
+    {
+      "tenure_text": "Greater than 12 Months and UPTO 18 Months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 548,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "Greater than 12 Months and UPTO 18 Months 6.90% 7.10% 7.10%  7.15% 7.15% 7.30%"
+    },
+    {
+      "tenure_text": "BCCB-SANCHAY-15 Months                      \n(w.e.f 03.09.2024)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": 7.15,
+      "deposit_range": null,
+      "source_row_text": "BCCB-SANCHAY-15 Months                      \n(w.e.f 03.09.2024) 6.90% 6.90% 6.90% 6.90% 7.15% 7.15%"
+    },
+    {
+      "tenure_text": "Greater than 18 Months and UPTO 36 Months",
+      "tenure_min_days": 549,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.3,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "Greater than 18 Months and UPTO 36 Months 6.90% 7.05% 7.05% 7.05% 7.15% 7.30%"
+    },
+    {
+      "tenure_text": "Greater than 36 Months and UPTO 60 Months",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.05,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "Greater than 36 Months and UPTO 60 Months 6.70% 6.80% 6.80% 6.80% 6.95% 7.05%"
+    },
+    {
+      "tenure_text": "Greater than 60 Months and UPTO 120 Months",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "Greater than 60 Months and UPTO 120 Months 6.60% 6.75% 6.75% 6.75% 6.75% 6.95%"
+    },
+    {
+      "tenure_text": "BTDSDBD, BTDSFDR (Minimum Period 5 Years)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "source_row_text": "BTDSDBD, BTDSFDR (Minimum Period 5 Years) 6.50% — — — 6.50% —"
+    },
+    {
+      "tenure_text": "BCCB Simply Save Deposit Scheme for 18 months (Simple Interest)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": 6.9,
+      "deposit_range": null,
+      "source_row_text": "BCCB Simply Save Deposit Scheme for 18 months (Simple Interest) 6.90% 6.90% 6.90% 6.90% 6.90% 6.90%"
+    },
+    {
+      "tenure_text": "BCCB-2020-RD-43 Months",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 6.75,
+      "deposit_range": null,
+      "source_row_text": "BCCB-2020-RD-43 Months 6.75% 6.75% 6.75% 6.75% 6.75% 6.75%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (12 slabs) from 1 table(s); signals={\"pctRows\":13,\"tenureRows\":12,\"bothRows\":12,\"dataRows\":13,\"noisy\":true,\"colCount\":7}",
+    "llm_fallback: deterministic returned 12 slabs (suspect: multi_table=true too_few=false); LLM extracted 12 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 203,
+    "last_scraped_at": "2026-06-09T13:48:30.626Z",
+    "manual_verification_needed": true
+  }
+}

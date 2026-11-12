@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "the-kancheepuram-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T16:06:38.762Z",
+    "source": "bank-domains.json",
+    "source_sha": "ef427ffa0138d5d6fed70edf3cff3ae53b9a4e81e003fb30db332d0ccf9c400e"
+  },
+  "domain": "kpmccb.bank.in",
+  "rate_pages": {
+    "fd": "/term_deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

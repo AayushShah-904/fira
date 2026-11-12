@@ -1,0 +1,126 @@
+{
+  "bank_code": "purulia-central-co-operative-bank-ltd",
+  "bank_name": "purulia-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 19698,
+  "duration_ms": 19698,
+  "duration_api_ms": 15524,
+  "num_turns": 13,
+  "tool_call_count": 14,
+  "total_cost_usd": 0.205314,
+  "input_tokens": 97757,
+  "output_tokens": 1225,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Purulia Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://puruliacentralbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 169,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://puruliacentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Purulia Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 167,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.puruliacentralcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://puruliacentralcoopbank.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Purulia Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"पुरुलिया सेंट्रल को-ऑपरेटिव बैंक ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Purulia Central Co-operative Bank Ltd branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Purulia Central Co-operative Bank Ltd government portal\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 2460,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://pbcoopbank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1000,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://purulia.gov.in/cooperative/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 167,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://wbcoopbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 153,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.purulia.gov.in/cooperative/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 7,
+    "domain_was_known": false
+  }
+}

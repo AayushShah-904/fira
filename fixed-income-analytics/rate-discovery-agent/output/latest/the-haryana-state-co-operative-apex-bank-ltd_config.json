@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+  "bank_name": "the-haryana-state-co-operative-apex-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Haryana",
+  "website": "https://harco.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://harco.bank.in/interest1"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:39:21.249Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

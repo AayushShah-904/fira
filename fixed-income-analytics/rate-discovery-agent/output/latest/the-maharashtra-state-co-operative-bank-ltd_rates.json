@@ -1,0 +1,114 @@
+{
+  "bank_code": "the-maharashtra-state-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-18",
+  "source_url": "https://msc.bank.in/rate-of-interest-on-savings-and-various-term-deposits",
+  "scraped_at": "2026-06-09T13:09:33.631Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2. 7 Days to 29 Days 3.25% -- 3.25% -- -- --"
+    },
+    {
+      "tenure_text": "30 Days to 60 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3. 30 Days to 60 Days 4.25% -- 4.25% -- -- --"
+    },
+    {
+      "tenure_text": "61 Days to 90 Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4. 61 Days to 90 Days 4.75% -- 4.75% -- -- --"
+    },
+    {
+      "tenure_text": "91 days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.9,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5. 91 days to 180 Days 4.90% -- 4.90% -- -- --"
+    },
+    {
+      "tenure_text": "181 days to 364 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6. 181 days to 364 Days 5.05% -- 5.05% -- -- --"
+    },
+    {
+      "tenure_text": "365 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": 7.03,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7. 365 days 6.85%  7.03% 7.00%  7.19% -- --"
+    },
+    {
+      "tenure_text": "More than 1 Year to upto 2 years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.08,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8. More than 1 Year to upto 2 years 6.90%  7.08% 7.05% 7.24% -- --"
+    },
+    {
+      "tenure_text": "2 years to upto 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.19,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9. 2 years to upto 3 years 7.00%  7.19% 7.10%  7.29% -- --"
+    },
+    {
+      "tenure_text": "3 years to below 10 years (Maximum 10 years)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.88,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10. 3 years to below 10 years (Maximum 10 years) 5.75%  5.88% 5.75%  5.88% -- --"
+    },
+    {
+      "tenure_text": "Tax Benefit Deposit Scheme (2016)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "11. Tax Benefit Deposit Scheme (2016) 5.75% -- -- -- -- --"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/11 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 10"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 66,
+    "last_scraped_at": "2026-06-09T13:09:33.631Z",
+    "manual_verification_needed": false
+  }
+}

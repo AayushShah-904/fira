@@ -1,0 +1,133 @@
+{
+  "bank_code": "himachal-pradesh-gramin-bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-28",
+  "source_url": "https://hpgb.bank.in/page/rate-of-interest",
+  "scraped_at": "2026-06-09T13:22:09.619Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 45 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 to 45 days 3.25 3.25 3.75 3.75 NA NA"
+    },
+    {
+      "tenure_text": "46 to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "46 to 90 days 4.25 4.25 4.75 4.75 NA NA"
+    },
+    {
+      "tenure_text": "91 to 179 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "91 to 179 days 4.25 4.25 4.75 4.75 NA NA"
+    },
+    {
+      "tenure_text": "180 to 270 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "source_row_text": "180 to 270 days 5.25 5.25 5.75 5.75 NA NA"
+    },
+    {
+      "tenure_text": "271 days to < 1 year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.55,
+      "rate_senior_pct": 6.05,
+      "rate_super_senior_pct": null,
+      "source_row_text": "271 days to < 1 year 5.55 5.55 6.05 6.05 NA NA"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": 6.35,
+      "source_row_text": "1 year 6.15 6.15 6.65 6.65 6.35 6.35"
+    },
+    {
+      "tenure_text": "440 Days",
+      "tenure_min_days": 440,
+      "tenure_max_days": 440,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 7.1,
+      "rate_super_senior_pct": 6.85,
+      "source_row_text": "440 Days 6.40 6.60 6.90 7.10 6.65 6.85"
+    },
+    {
+      "tenure_text": "(HPGB VARADDHI) 515 Days",
+      "tenure_min_days": 515,
+      "tenure_max_days": 515,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": 6.95,
+      "rate_super_senior_pct": null,
+      "source_row_text": "(HPGB VARADDHI) 515 Days 6.45 6.45 6.95 6.95 NA NA"
+    },
+    {
+      "tenure_text": ">1 year to 2 year",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": null,
+      "source_row_text": ">1 year to 2 year 6.30 6.30 6.80 6.80 NA NA"
+    },
+    {
+      "tenure_text": ">2 year to 3 year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": 6.8,
+      "rate_super_senior_pct": 6.5,
+      "source_row_text": ">2 year to 3 year 6.30 6.30 6.80 6.80 6.50 6.50"
+    },
+    {
+      "tenure_text": ">3 year upto 5 year",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.15,
+      "rate_senior_pct": 6.65,
+      "rate_super_senior_pct": null,
+      "source_row_text": ">3 year upto 5 year 6.15 6.15 6.65 6.65 NA NA"
+    },
+    {
+      "tenure_text": ">5 year upto 10 year",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": ">5 year upto 10 year 6.05 6.05 6.55 6.55 NA NA"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (12 slabs) from 1 table(s); signals={\"pctRows\":13,\"tenureRows\":12,\"bothRows\":12,\"dataRows\":13,\"noisy\":true,\"colCount\":7}",
+    "llm_fallback: deterministic returned 12 slabs (suspect: multi_table=true too_few=false); LLM extracted 12 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 86,
+    "last_scraped_at": "2026-06-09T13:22:09.619Z",
+    "manual_verification_needed": false
+  }
+}

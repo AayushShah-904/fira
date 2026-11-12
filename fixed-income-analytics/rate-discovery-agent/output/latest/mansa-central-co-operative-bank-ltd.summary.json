@@ -1,0 +1,56 @@
+{
+  "bank_code": "mansa-central-co-operative-bank-ltd",
+  "bank_name": "mansa-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13843,
+  "duration_ms": 13843,
+  "duration_api_ms": 13748,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.014354,
+  "input_tokens": 33297,
+  "output_tokens": 647,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"mansa central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"mansa central co-operative bank ltd\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"mansa central co-operative bank ltd\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mansa-central-co-operative-bank-ltd.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mansacentralbank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://mansacentralbank.co.in\"}"
+    }
+  ]
+}

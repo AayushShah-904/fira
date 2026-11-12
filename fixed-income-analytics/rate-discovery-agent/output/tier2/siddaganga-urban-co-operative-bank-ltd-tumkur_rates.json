@@ -1,0 +1,20 @@
+{
+  "bank_code": "siddaganga-urban-co-operative-bank-ltd-tumkur",
+  "bank_name": "siddaganga urban co operative bank ltd tumkur",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T18:08:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "unreachable",
+  "website_metadata": {
+    "domain": "siddagangabank.in",
+    "found_via": "websearch",
+    "notes": "Candidate own-domain siddagangabank.in appears in search as an 'Index of /' directory listing (so it served content at some point), but is unreachable from here: DNS times out and curl returns HTTP 000 (no connection) on both https and http. No registry .bank.in domain. May come back online later."
+  },
+  "warnings": ["Re-verified prior attempt's finding; domain still down."],
+  "errors": [],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,27 @@
+{
+  "bank_code": "union-bank-of-india",
+  "variant": "regular",
+  "slab_count": 27,
+  "key_rates": {
+    "1y": {
+      "general": 6.25,
+      "senior": null
+    },
+    "2y": {
+      "general": 6.2,
+      "senior": null
+    },
+    "3y": {
+      "general": 6.2,
+      "senior": null
+    },
+    "5y": {
+      "general": 6,
+      "senior": null
+    }
+  },
+  "effective_date": null,
+  "source_url": "https://unionbankofindia.bank.in/en/details/rate-of-interest",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.020Z"
+}

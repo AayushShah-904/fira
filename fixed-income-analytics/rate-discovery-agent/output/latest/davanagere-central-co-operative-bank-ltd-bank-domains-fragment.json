@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "davanagere-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T15:33:42.650Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "davanageredcc.bank.in",
+  "rate_pages": {
+    "fd": "/?page_id=813",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/?page_id=816",
+    "rd": "/?page_id=948"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

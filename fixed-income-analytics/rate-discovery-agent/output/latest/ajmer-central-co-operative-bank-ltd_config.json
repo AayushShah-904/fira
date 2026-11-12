@@ -1,0 +1,32 @@
+{
+  "bank_code": "ajmer-central-co-operative-bank-ltd",
+  "bank_name": "ajmer-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Rajasthan",
+  "website": "https://ajmerccb.bank.in",
+  "scraper_type": "image",
+  "rate_page_urls": {
+    "fd": "https://www.ajmerccb.bank.in/Intreast%20Rates.jpg"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-05T15:39:37.342Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "pending_vision",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:00.386Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "pending_vision",
+      "attempted_slab_count": null,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:pending_vision",
+      "retained_extraction_method": "pending_vision",
+      "retained_scraped_at": null,
+      "retained_slab_count": null
+    }
+  ]
+}

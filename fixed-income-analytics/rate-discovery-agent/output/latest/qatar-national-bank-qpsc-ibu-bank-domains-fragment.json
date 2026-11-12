@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "qatar-national-bank-qpsc-ibu",
+    "extracted_at": "2026-06-05T14:29:20.358Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "qnb.com",
+  "rate_pages": {
+    "fd": "/sites/qnb/qnbindia/page/en/enifscbankingunit.html",
+    "fd_gift": null,
+    "fd_gift_pdf": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "savings": null,
+    "rd": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_js",
+  "notes": "QNB GIFT City IBU. IFSC banking unit page with deposit rates on qnb.com India section.",
+  "domain_source": "manual",
+  "parent_bank_code": "qatar-national-bank-qpsc",
+  "template": {
+    "template_id": "ibu-static-usd-2col-tenure-rate",
+    "template_hash": "sha1:3ac2aea7a424ff5b0df569c3181b97a4fb689397",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 13,
+      "cluster_reused": false
+    }
+  }
+}

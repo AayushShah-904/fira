@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "bank_code": "assam-gramin-bank",
+    "extracted_at": "2026-06-05T12:42:34.469Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "agvb.bank.in",
+  "notes": "Formerly Assam Gramin Vikash Bank (AGVB), renamed to Assam Gramin Bank per Govt notification Oct 2025.",
+  "rate_pages": {
+    "fd": "https://agvb.bank.in/pdf/rate_interest_deposit-account.pdf",
+    "fd_prev": "/menu-content/get-content/banking-product/loans-and-advances/lad-las/loan-tl-od-against-term-deposit-lic-nsv-kvp",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "pdf",
+  "extraction_method": "manual_pdf_transcription",
+  "tier2": {
+    "sourced_at": "2026-05-25T17:30:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "pdf",
+    "source_url": "https://agvb.bank.in/pdf/rate_interest_deposit-account.pdf",
+    "slab_count": 10,
+    "hints": "agvb.bank.in/pdf/rate_interest_deposit-account.pdf (registry hint was a loan page); senior +0.50% for >=1yr",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  },
+  "template": {
+    "template_id": "extract_rates_pdf.mjs",
+    "template_hash": "pdf:037a3b7d9d3dada1d190bbfb8e9a94ead08047b1",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "extract_rates_pdf.mjs"
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T17:06:51.518Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "source": "pdf",
+      "pdf_method": "pdfjs"
+    }
+  },
+  "effective_date": "2025-10-01",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 295,
+    "last_scraped_at": "2026-07-23T14:01:43.094Z",
+    "manual_verification_needed": true
+  }
+}

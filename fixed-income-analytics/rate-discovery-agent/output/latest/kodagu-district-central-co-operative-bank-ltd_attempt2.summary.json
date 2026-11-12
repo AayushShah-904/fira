@@ -1,0 +1,132 @@
+{
+  "bank_code": "kodagu-district-central-co-operative-bank-ltd",
+  "bank_name": "kodagu-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 21367,
+  "duration_ms": 21367,
+  "duration_api_ms": 17404,
+  "num_turns": 15,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.27188999999999997,
+  "input_tokens": 131045,
+  "output_tokens": 1225,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Kodagu District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kodagudccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 165,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kodagudccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 168,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.kodagudccb.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd Kodagu Karnataka\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd branch list\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd deposit schemes\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd contact\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd site:co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Kodagu District Central Co-operative Bank Ltd Karnataka\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 3605,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.karnatakaapex.com/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 1,
+    "fetch_error_count": 3,
+    "domain_was_known": false
+  }
+}

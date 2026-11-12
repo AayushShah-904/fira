@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "the-delhi-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:26:24.404Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "dscb.bank.in",
+  "rate_pages": {
+    "fd": "/pdf/depositRate.pdf",
+    "interest_rate_pdf": "/pdf/intrestrate.pdf",
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf",
+  "notes": "Static HTML with jQuery/Slick carousel, hidden sections via JS toggles",
+  "domain_prev": "dscb.in",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Re-verified both mirrors (dscb.bank.in and dscb.in). Both homepages link to 'fixed-deposit.html' which returns HTTP 404 (broken link on the bank's own site). No deposit-rate PDF on the homepage; among deposit pages only saving-account.html and fixed-deposit.html exist, and the FD one is dead. The previously recorded dscb.in/pdf/depositRate.pdf is also gone (404). Site is live but publishes no working FD rate page."
+  }
+}

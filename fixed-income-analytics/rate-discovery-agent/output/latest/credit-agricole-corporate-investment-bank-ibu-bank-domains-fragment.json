@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "bank_code": "credit-agricole-corporate-investment-bank-ibu",
+    "extracted_at": "2026-06-05T14:06:26.183Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "ca-cib.com",
+  "rate_pages": {
+    "fd": null,
+    "gift": null,
+    "fd_gift": null
+  },
+  "scraper_type": "manual",
+  "notes": "Drupal/CMS (parent site)",
+  "status": "wholesale_only",
+  "parent_bank_code": "credit-agricole-corporate-and-investment-bank",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "wholesale_no_retail",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "websearch",
+    "notes": "Credit Agricole CIB's GIFT City IFSC Banking Unit (opened Aug 2025) page (ca-cib.com/en/our-ifsc-banking-unit-gift-city-india) lists only wholesale/corporate cross-border products: External Commercial Borrowings, buyer/supplier credit, letters of credit, bank guarantees, receivable & supply-chain finance. No term/fixed-deposit product and no deposit interest-rate card published."
+  }
+}

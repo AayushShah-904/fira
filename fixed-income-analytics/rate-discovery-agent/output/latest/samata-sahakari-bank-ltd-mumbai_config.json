@@ -1,0 +1,19 @@
+{
+  "bank_code": "samata-sahakari-bank-ltd-mumbai",
+  "bank_name": "samata-sahakari-bank-ltd-mumbai",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://samatabank.com",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://samatabank.com/fixed_deposit"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:41:05.378Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

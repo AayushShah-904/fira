@@ -1,0 +1,6 @@
+{
+  "bank_code": "kotak-mahindra-bank-limited",
+  "reason": "slab drift on fcnr: 17 < 0.8 * 30 (floor)",
+  "detected_at": "2026-05-20T21:40:55.839Z",
+  "attempts": 3
+}

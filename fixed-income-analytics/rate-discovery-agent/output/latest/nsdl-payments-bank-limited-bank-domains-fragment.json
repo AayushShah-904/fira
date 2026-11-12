@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "bank_code": "nsdl-payments-bank-limited",
+    "extracted_at": "2026-06-05T11:16:04.127Z",
+    "source": "bank-domains.json",
+    "source_sha": "b818b2b9aff093594e994025fb42776c637322a7c58c5911a56b44b34664d2f7"
+  },
+  "domain": "nsdlpayments.bank.in",
+  "rate_pages": {
+    "savings": "/advantage_saving_account.php",
+    "savings_bsbd": "/bsbda.php",
+    "fd": "/rates-and-charges.php",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Payments bank — no FD product; savings-only (sprint-008).",
+  "discovery_status": "no_fd_product",
+  "last_discovered_at": "2026-05-27T18:20:23.244Z"
+}

@@ -1,0 +1,110 @@
+{
+  "bank_code": "jamia-co-operative-bank-ltd-new-delhi",
+  "bank_name": "Jamia Co-operative Bank Ltd, New Delhi",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-01",
+  "source_url": "https://jamiacoopbank.com/interest-rates.php?id=OQ%3D%3D",
+  "scraped_at": "2026-05-26T13:10:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7-30 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": 3.50,
+      "rate_super_senior_pct": 3.75,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31-45 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.00,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": 4.00,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46-90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": 4.00,
+      "rate_super_senior_pct": 4.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91-180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 5.00,
+      "rate_super_senior_pct": 5.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days to upto 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 6.00,
+      "rate_super_senior_pct": 6.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year (365 days) to 3 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": 7.25,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 3 Years and less than 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.50,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years and above",
+      "tenure_min_days": 1825,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": 7.75,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [
+    {
+      "scheme_name": "Fixed Deposit - Pension Scheme (monthly interest payment, 10 years)",
+      "tenure_text": "10 years",
+      "tenure_min_days": 3650,
+      "tenure_max_days": 3650,
+      "rate_general_pct": null,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": 8.00,
+      "deposit_range": "below_3cr",
+      "note": "Pension Scheme rates published only for Senior Citizen (incl. senior benefits) = 7.75% and Super Senior Citizen (incl. super senior benefits) = 8.00%. No general-citizen rate published for this scheme."
+    }
+  ],
+  "warnings": [
+    "Senior/super-senior rates are a NOTE-based premium, not a separate column. Live table (w.e.f. 01/07/2025) note: 'Senior citizens 60 yrs and above ... additional 75 BPS and super senior citizens 80 yrs and above ... additional 100 BPS on card rate.' Applied rate_senior_pct = general + 0.75 and rate_super_senior_pct = general + 1.00 to every FD card-rate slab.",
+    "Page contains an older commented-out (<!-- -->) table dated 01.05.2022 with a different +50/+75 BPS note; the ACTIVE/visible table is the w.e.f. 01/07/2025 one used here. Prior extraction mixed both (e.g. 'More than 1 year to 3 Years 5.75%' came from the stale table) — superseded.",
+    "Special Pension Scheme (10-year, monthly payout) carries its own published Senior 7.75% / Super-Senior 8.00% rates (no general rate); recorded under special_schemes.",
+    "Deposits above Rs. 1.00 crore (single deposit): rate decided by Board at time of deposit — not published.",
+    "Savings Bank row (2.50% w.e.f. 01.07.2025) excluded from FD rate_slabs."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract-senior",
+    "senior_source": "note (+0.75% senior / +1.00% super-senior on card rate)",
+    "sourced_at": "2026-05-26T13:10:00Z"
+  }
+}

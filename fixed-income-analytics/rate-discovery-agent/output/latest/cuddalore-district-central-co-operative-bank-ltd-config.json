@@ -1,0 +1,32 @@
+{
+  "bank_code": "cuddalore-district-central-co-operative-bank-ltd",
+  "bank_name": "Cuddalore District Central Co-operative Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://cuddaloredccb.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://cuddaloredccb.bank.in/term_deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No deposit interest rates found on the website. The 'Term Deposit' page describes eligibility but does not list rates. No downloadable rate card or circular found. Likely rates are posted at branches or available via phone/email.",
+  "scraper_notes": {
+    "framework": "PHP static site",
+    "bot_protection": null,
+    "data_format": "No rate tables or downloadable PDFs found",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "homepage fetch + menu exploration",
+    "confidence": "none"
+  }
+}

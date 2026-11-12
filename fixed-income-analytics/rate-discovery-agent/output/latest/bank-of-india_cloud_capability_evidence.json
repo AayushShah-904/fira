@@ -1,0 +1,17 @@
+{
+  "bank_code": "bank-of-india",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:32:01.051Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T10:59:49.025Z",
+      "signal": "crash",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

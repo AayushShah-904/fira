@@ -1,0 +1,176 @@
+{
+  "bank_code": "rbl-bank-limited",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-10-22",
+  "source_url": "https://rbl.bank.in/interest-rates",
+  "scraped_at": "2026-11-12T09:27:09.865Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "365 days (12 months) to 500 days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 500,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.08,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "365 days (12 months) to 500 days 6.90% 7.08% 7.40% 7.61% 7.65% 7.87%"
+    },
+    {
+      "tenure_text": "501 days to less than 18 months",
+      "tenure_min_days": 501,
+      "tenure_max_days": 539,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.08,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "501 days to less than 18 months 6.90% 7.08% 7.40% 7.61% 7.65% 7.87%"
+    },
+    {
+      "tenure_text": "18 months to less than 60 months",
+      "tenure_min_days": 540,
+      "tenure_max_days": 1799,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.19,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "18 months to less than 60 months 7.00%Highest 7.19%Highest 7.50%Highest 7.71%Highest 7.75%Highest 7.98%Highest"
+    },
+    {
+      "tenure_text": "60 months to 120 months",
+      "tenure_min_days": 1800,
+      "tenure_max_days": 3600,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 6.87,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "60 months to 120 months 6.70% 6.87% 7.20% 7.40% 7.45% 7.66%"
+    },
+    {
+      "tenure_text": "Tax Savings Fixed Deposits (60 months)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 6.87,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "Tax Savings Fixed Deposits (60 months) 6.70% 6.87% 7.20% 7.40% 7.45% 7.66%"
+    },
+    {
+      "tenure_text": "12 months to 17 months",
+      "tenure_min_days": 360,
+      "tenure_max_days": 510,
+      "rate_general_pct": 6.9,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "12 months to 17 months 6.90% 7.40% 6.90% 6.90%"
+    },
+    {
+      "tenure_text": "18 months to 59 months",
+      "tenure_min_days": 540,
+      "tenure_max_days": 1770,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "18 months to 59 months 7.00%Highest 7.50%Highest 7.00%Highest 7.00%Highest"
+    },
+    {
+      "tenure_text": "Upto INR 5 lakh",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.04,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "Upto INR 5 lakh 3.00% 3.04%"
+    },
+    {
+      "tenure_text": "Above INR 5 lakh upto INR 10 lakh",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.12,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "Above INR 5 lakh upto INR 10 lakh 5.00% 5.12%"
+    },
+    {
+      "tenure_text": "Above INR 10 lakh upto INR 3 Crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.17,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "Above INR 10 lakh upto INR 3 Crore 6.00% 6.17%"
+    },
+    {
+      "tenure_text": "Above INR 3 Crore upto INR 25 Crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.12,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "Above INR 3 Crore upto INR 25 Crore 5.00% 5.12%"
+    },
+    {
+      "tenure_text": "Above INR 25 Crore",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.07,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY",
+      "source_row_text": "Above INR 25 Crore 4.00% 4.07%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "validation": {
+    "passed": true,
+    "warning_count": 1,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (12 months to 17 months): nre tenure 360d below minimum (365d)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 21,
+    "last_scraped_at": "2026-11-12T09:27:09.865Z",
+    "manual_verification_needed": false
+  }
+}

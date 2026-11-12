@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "bnp-paribas",
+    "extracted_at": "2026-06-05T11:26:41.076Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "bnpparibas.bank.in",
+  "rate_pages": {
+    "fd": "/en/deposit-rates/",
+    "fd_pdf": "/app/uploads/sites/25/2026/03/bnp-paribas-india-standard-deposit-card-rate-24th-march-2026.pdf",
+    "fd_bulk_pdf": "/app/uploads/sites/25/2026/03/interest-rates-for-bulk-deposits-as-on-27th-march-2026.pdf",
+    "savings": "/en/deposit-rates/",
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "WordPress"
+}

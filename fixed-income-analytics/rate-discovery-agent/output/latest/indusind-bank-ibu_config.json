@@ -1,0 +1,17 @@
+{
+  "bank_code": "indusind-bank-ibu",
+  "bank_name": "indusind-bank-ibu",
+  "bank_type": "UNKNOWN",
+  "website": "https://indusind.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://indusind.bank.in/in/en/personal/rates.html#gift_city"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-26T09:51:30.400Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

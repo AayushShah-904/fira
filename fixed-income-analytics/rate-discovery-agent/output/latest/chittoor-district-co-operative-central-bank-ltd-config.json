@@ -1,0 +1,42 @@
+{
+  "bank_code": "chittoor-district-co-operative-central-bank-ltd",
+  "bank_name": "Chittoor District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://chittoordccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://chittoordccb.bank.in/depositschemes.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://chittoordccb.bank.in/depositschemes.html",
+    "rd": null
+  },
+  "selectors": {
+    "table": "table[align='center'] table[align='center'] table[align='center']",
+    "rows": "tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "1": "tenure_text",
+    "2": "rate_general_pct"
+  },
+  "expected_slab_count": 10,
+  "notes": "Rates are presented as a numbered list in a table, not standard HTML tables. Senior citizen premium is mentioned as 0.50% extra for one year and above deposits.",
+  "scraper_notes": {
+    "framework": "Legacy static HTML",
+    "bot_protection": null,
+    "data_format": "Numbered rows in table, not standard table headers",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00Z",
+    "discovery_method": "domain pre-lookup + direct fetch",
+    "confidence": "high"
+  }
+}

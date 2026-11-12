@@ -1,0 +1,33 @@
+{
+  "bank_code": "jsc-vtb-bank",
+  "bank_name": "jsc-vtb-bank",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "website": "https://vtb.bank.in",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "VTB Bank India. vtb.bank.in exists but minimal site with no deposit rate information.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:52:17.683Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

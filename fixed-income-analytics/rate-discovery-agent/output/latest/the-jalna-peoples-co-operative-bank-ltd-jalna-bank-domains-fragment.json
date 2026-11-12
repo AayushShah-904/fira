@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "bank_code": "the-jalna-peoples-co-operative-bank-ltd-jalna",
+    "extracted_at": "2026-06-06T09:06:09.682Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "jpcb.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/"
+  },
+  "scraper_type": "html_js",
+  "discovery_status": "website_known_no_rate_page",
+  "gap_classification": {
+    "reason": "no_rate_page",
+    "discovery_status": "website_known_no_rate_page",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site jpcb.bank.in (Jalna; tel 02482-237761) is live with a Term Deposit menu (FDR /pages/fdr/, CDR /pages/cdr/, RD, Pigmy) but every product page only describes the scheme — no FD interest-rate table, image rate-card, or PDF is published. Probed /deposit-rates, /interest-rate, /pages/cdr/ — all generic pages with zero rate numbers."
+  }
+}

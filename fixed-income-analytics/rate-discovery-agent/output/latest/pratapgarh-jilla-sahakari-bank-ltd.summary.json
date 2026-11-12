@@ -1,0 +1,44 @@
+{
+  "bank_code": "pratapgarh-jilla-sahakari-bank-ltd",
+  "bank_name": "pratapgarh-jilla-sahakari-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8368,
+  "duration_ms": 8368,
+  "duration_api_ms": 8273,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.008552800000000001,
+  "input_tokens": 18846,
+  "output_tokens": 634,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"pratapgarh jilla sahakari bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 37,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pratapgarh-jilla-sahakari-bank-ltd.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pratapgarh-jillasahakaribank.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pratapgarhsahakaribank.bank.in\"}"
+    }
+  ]
+}

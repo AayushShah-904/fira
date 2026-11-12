@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-11-12T09:45:07.999Z",
+  "category": "all",
+  "succeeded": 15,
+  "failed": 3,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "yes-bank-limited",
+      "status": "success",
+      "elapsed_sec": 66
+    },
+    {
+      "name": "yes-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 19
+    },
+    {
+      "name": "axis-bank-limited",
+      "status": "success",
+      "elapsed_sec": 93
+    },
+    {
+      "name": "axis-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 24
+    },
+    {
+      "name": "au-small-finance-bank-limited",
+      "status": "success",
+      "elapsed_sec": 110
+    },
+    {
+      "name": "icici-bank-limited",
+      "status": "success",
+      "elapsed_sec": 67
+    },
+    {
+      "name": "icici-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "rbl-bank-limited",
+      "status": "success",
+      "elapsed_sec": 139
+    },
+    {
+      "name": "rbl-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 0
+    },
+    {
+      "name": "idfc-first-bank-limited",
+      "status": "success",
+      "elapsed_sec": 60
+    },
+    {
+      "name": "idfc-first-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 47
+    },
+    {
+      "name": "canara-bank",
+      "status": "success",
+      "elapsed_sec": 411
+    },
+    {
+      "name": "canara-bank-ibu",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 24
+    },
+    {
+      "name": "indian-overseas-bank",
+      "status": "success",
+      "elapsed_sec": 143
+    },
+    {
+      "name": "bank-of-maharashtra",
+      "status": "success",
+      "elapsed_sec": 127
+    },
+    {
+      "name": "bank-of-maharashtra-ibu",
+      "status": "success",
+      "elapsed_sec": 45
+    },
+    {
+      "name": "saraswat-co-operative-bank-ltd",
+      "status": "failed",
+      "exitCode": 1,
+      "elapsed_sec": 16
+    },
+    {
+      "name": "cosmos-co-operative-bank-ltd",
+      "status": "success",
+      "elapsed_sec": 105
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "bank_code": "ctbc-bank-co-ltd-ibu",
+    "extracted_at": "2026-06-05T14:07:03.295Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "ctbcbank.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": null
+  },
+  "parent_bank_code": "ctbc-bank-co-limited",
+  "notes": "CTBC Bank GIFT City IBU. Parent domain ctbcbank.bank.in.",
+  "discovery_status": "bot_blocked",
+  "gap_classification": {
+    "reason": "bot_blocked",
+    "discovery_status": "bot_blocked",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "IFSC Banking Unit (GIFT City), parent CTBC Bank Co. Ltd. The parent deposit-rates page (https://www.ctbcbank.bank.in/content/dam/cbminisite/IN/deposit-rates.html, AEM minisite) is behind a WAF: returns HTTP 202 with an ~18KB JS challenge/incident page (no rate data) to browser-UA curl, and 'Access Denied' to Playwright headless render. CTBC's GIFT IBU is corporate/wholesale-focused; foreign-currency term-deposit rates appear quoted on inquiry rather than published. A companion _gift_rates.json exists with the same finding."
+  }
+}

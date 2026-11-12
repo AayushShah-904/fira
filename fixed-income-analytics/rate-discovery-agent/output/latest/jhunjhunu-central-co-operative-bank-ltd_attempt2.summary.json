@@ -1,0 +1,102 @@
+{
+  "bank_code": "jhunjhunu-central-co-operative-bank-ltd",
+  "bank_name": "jhunjhunu-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 9916,
+  "duration_ms": 9916,
+  "duration_api_ms": 9259,
+  "num_turns": 5,
+  "tool_call_count": 10,
+  "total_cost_usd": 0.0748,
+  "input_tokens": 32568,
+  "output_tokens": 1208,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Jhunjhunu Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jhunjhunuccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jhunjhunu-central-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jhunjhunu Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 163,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jhunjhunudccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jhunjhunudccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jhunjhunu-central-co-operative-bank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 166,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jhunjhunu-central-co-operative-bank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 180,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.jhunjhunudccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.jhunjhunudccb.co.in/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 8,
+    "domain_was_known": false
+  }
+}

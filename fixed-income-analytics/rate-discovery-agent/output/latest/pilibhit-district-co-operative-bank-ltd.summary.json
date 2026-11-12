@@ -1,0 +1,56 @@
+{
+  "bank_code": "pilibhit-district-co-operative-bank-ltd",
+  "bank_name": "pilibhit-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 16460,
+  "duration_ms": 16460,
+  "duration_api_ms": 16380,
+  "num_turns": 5,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.014554000000000001,
+  "input_tokens": 33373,
+  "output_tokens": 753,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"pilibhit district co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"pilibhit district co operative bank ltd\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"pilibhit district co operative bank ltd\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pilibhit-district-co-operative-bank-ltd.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pilibhitdistrictbank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 24,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://pilibhitdccb.co.in/\"}"
+    }
+  ]
+}

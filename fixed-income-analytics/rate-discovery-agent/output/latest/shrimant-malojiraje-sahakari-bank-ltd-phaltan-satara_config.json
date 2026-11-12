@@ -1,0 +1,19 @@
+{
+  "bank_code": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+  "bank_name": "shrimant-malojiraje-sahakari-bank-ltd-phaltan-satara",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://malojiraje.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://malojiraje.bank.in/Quick%20Link:%20Charges%20and%20Interest%20Rate%20(from%20contact%20page)"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:30:34.802Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,17 @@
+{
+  "bank_code": "udaipur-urban-coop-bank-ltd",
+  "observations": [
+    {
+      "ts": "2026-06-09T02:41:00.997Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T17:23:41.012Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "bank_code": "madhya-pradesh-gramin-bank",
+  "bank_name": "Madhya Pradesh Gramin Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-20",
+  "source_url": "https://mpgb.bank.in/inner-pages/ROI%20for%20Website.pdf",
+  "scraped_at": "2026-05-26T13:10:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days (07 दिन से 14 दिन तक)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 days to 45 days (15 दिन से 45 दिन तक)",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days (46 दिन से 90 दिन तक)",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 179 days (91 दिन से 179 दिन तक)",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 days to 269 days (180 दिन से 269 दिन तक)",
+      "tenure_min_days": 180,
+      "tenure_max_days": 269,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": 6.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "270 days to 364 days (270 दिन से 364 दिन तक)",
+      "tenure_min_days": 270,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year (1 वर्ष)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": 6.80,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "451 days special (451 दिनों हेतु)",
+      "tenure_min_days": 451,
+      "tenure_max_days": 451,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 7.15,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 year to less than 2 years (1 वर्ष से अधिक एवं 2 वर्ष से कम तक)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.40,
+      "rate_senior_pct": 6.90,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 years (2 वर्ष)",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": 6.80,
+      "rate_super_senior_pct": 6.95,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 2 years to less than 3 years (2 वर्ष से अधिक एवं 3 वर्ष से कम तक)",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": 6.80,
+      "rate_super_senior_pct": 6.95,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 years and above to less than 5 years (3 वर्ष व अधिक एवं 5 वर्ष से कम तक)",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.30,
+      "rate_senior_pct": 6.80,
+      "rate_super_senior_pct": 6.95,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 years and above to 10 years (5 वर्ष व अधिक एवं 10 वर्ष तक)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": 6.50,
+      "rate_super_senior_pct": 6.65,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior/super-senior rates are NOTE-based premiums (not separate columns) and were captured this run via image OCR of the Hindi rate card. Senior Citizen (वरिष्ठ नागरिक, 60 yrs+): +0.50% over regular for deposits of 6 months (06 माह) and above. Super Senior Citizen (अति वरिष्ठ नागरिक, 80 yrs+): +0.65% over regular for deposits of 2 years (02 वर्ष) and above. Applied accordingly: senior premium only where tenure_min_days >= 180; super-senior premium only where tenure_min_days >= 730. Slabs under 6 months keep rate_senior_pct null; slabs under 2 years keep rate_super_senior_pct null.",
+    "Rate card is an image-based PDF (inner-pages/ROI for Website.pdf, 0 extractable text via pdftotext). Rendered to PNG via PyMuPDF and read visually (no tesseract/pdftoppm/Azure Doc Intelligence available locally this run). Effective date 20 April 2026 read from card body (circular Prakra/2026-27/11 dated 18.04.2026; rates w.e.f. दिनांक 20 अप्रैल 2026) — corrected from prior file's 2026-05-25 page-header date.",
+    "Card has two amount columns: below Rs 1 crore (used here as below_3cr retail) and Rs 1cr to <10cr (not captured in this regular variant). General rates for the below-1cr column match the prior extraction.",
+    "Tenure labels translated from Hindi (दिन=days, वर्ष=year)."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract-senior",
+    "senior_source": "note (+0.50% senior for >=6mo / +0.65% super-senior for >=2yr), via image OCR",
+    "sourced_at": "2026-05-26T13:10:00Z"
+  }
+}

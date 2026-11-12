@@ -1,0 +1,50 @@
+{
+  "bank_code": "wardha-district-central-co-operative-bank-ltd",
+  "bank_name": "Wardha District Central Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 33543,
+  "duration_ms": 33543,
+  "duration_api_ms": 31228,
+  "num_turns": 6,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0445624,
+  "input_tokens": 104550,
+  "output_tokens": 1714,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Wardha District Central Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 374,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 653,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in/%e0%a4%ac%e0%a4%81%e0%a4%95%e0%a5%87%e0%a4%9a%e0%a0%80-%e0%a4%86%e0%a4%b0%e0%a5%8d%e0%a4%a5%e0%a4%bf%e0%a4%95-%e0%a4%b8%e0%a5%8d%e0%a4%a5%e0%a4%bf%e0%a4%a4%e0%a5%80/"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 633,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in/%E0%A4%85%E0%A4%82%E0%A4%9A%E0%A4%96%E0%A5%80-%E0%A4%AA%E0%A4%B9%E0%A4%BE\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 655,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://wardhadccb.bank.in/%e0%a4%ac%e0%a4%9f%e0%a5%8d%e0%a4%a4%e0%a5%87-%e0%a4%a5%e0%a5%8b%e0%a4%b5-%e0%a4%85%e0%a4%b5%e0%a4%a6%e0%a4%bf/\"}"
+    }
+  ]
+}

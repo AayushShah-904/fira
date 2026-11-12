@@ -1,0 +1,108 @@
+{
+  "bank_code": "baran-central-co-operative-bank-ltd",
+  "bank_name": "baran-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 28670,
+  "duration_ms": 28670,
+  "duration_api_ms": 16047,
+  "num_turns": 10,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.145536,
+  "input_tokens": 68152,
+  "output_tokens": 1154,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Baran Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6009,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://baranccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 160,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://barancentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Baran Central Co-operative Bank Ltd interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 6022,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.baranccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 161,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.barancentralcoopbank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Baran Central Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Baran Central Co-operative Bank Ltd ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 45,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://baran.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 50,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.baran.nic.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 176,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://rajcoopbank.com/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 7,
+    "domain_was_known": false
+  }
+}

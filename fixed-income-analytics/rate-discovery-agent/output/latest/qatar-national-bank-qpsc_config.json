@@ -1,0 +1,22 @@
+{
+  "bank_code": "qatar-national-bank-qpsc",
+  "bank_name": "qatar-national-bank-qpsc",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Qatar",
+  "website": "https://qnb.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:53:34.693Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

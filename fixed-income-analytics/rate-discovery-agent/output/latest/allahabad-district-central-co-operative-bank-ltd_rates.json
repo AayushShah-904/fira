@@ -1,0 +1,118 @@
+{
+  "bank_code": "allahabad-district-central-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2015-10-12",
+  "source_url": "https://dcballahabad.bank.in/intrest.php?id=1",
+  "scraped_at": "2026-05-23T10:41:32.712Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 15 days to 45 days 4.50%"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 46 days to 90 days 5.25%"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 91 days to 180 days 5.25%"
+    },
+    {
+      "tenure_text": "More than 181 days but less than 1 year",
+      "tenure_min_days": 182,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 More than 181 days but less than 1 year 6.25%"
+    },
+    {
+      "tenure_text": "More than 1 year but less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 8,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 More than 1 year but less than 2 years 8.00%"
+    },
+    {
+      "tenure_text": "More than 2 years but less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 More than 2 years but less than 3 years 7.75%"
+    },
+    {
+      "tenure_text": "More than 3 years but less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 More than 3 years but less than 5 years 7.75%"
+    },
+    {
+      "tenure_text": "More than 5 years but less than 8 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2919,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8 More than 5 years but less than 8 years 7.50%"
+    },
+    {
+      "tenure_text": "More than 8 years up to 10 years",
+      "tenure_min_days": 2920,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9 More than 8 years up to 10 years 7.50%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 4/9 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 9",
+    "rates-qc: effective_date \"12/10/2015\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2015-10-12\" parses to 2015-10-12 (year 2015 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 3937,
+    "last_scraped_at": "2026-05-23T10:41:32.712Z",
+    "manual_verification_needed": true
+  }
+}

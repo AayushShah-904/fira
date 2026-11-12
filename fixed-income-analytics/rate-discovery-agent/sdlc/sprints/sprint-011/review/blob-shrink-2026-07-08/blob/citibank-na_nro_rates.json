@@ -1,0 +1,25 @@
+{
+  "bank_code": "citibank-na",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": null,
+  "source_url": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+  "scraped_at": "2026-06-09T12:35:08.714Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "46-60 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "rates-qc: effective_date \"29-May-26\" is not a parseable date; set to null"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_pdf"
+}

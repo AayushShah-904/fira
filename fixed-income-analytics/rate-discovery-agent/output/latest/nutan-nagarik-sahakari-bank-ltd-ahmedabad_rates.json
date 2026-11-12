@@ -1,0 +1,153 @@
+{
+  "bank_code": "nutan-nagarik-sahakari-bank-ltd-ahmedabad",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-01-01",
+  "source_url": "https://nutan.bank.in/page/97",
+  "scraped_at": "2026-05-23T09:48:22.059Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 30 Days (FDR)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 7 Days to 30 Days (FDR) 3.50% N.A."
+    },
+    {
+      "tenure_text": "31 Days to 90 Days (FDR)",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 31 Days to 90 Days (FDR) 3.50% N.A."
+    },
+    {
+      "tenure_text": "91 Days to 180 Days (FDR)",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 91 Days to 180 Days (FDR) 4.50% N.A."
+    },
+    {
+      "tenure_text": "181 Days to 363 Days (FDR)",
+      "tenure_min_days": 181,
+      "tenure_max_days": 363,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 181 Days to 363 Days (FDR) 5.50% N.A."
+    },
+    {
+      "tenure_text": "For 1 Year & Up to 2 Years (Quaterly basis i.e 12,15,18,21,24 months only)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": 7.2,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 For 1 Year & Up to 2 Years (Quaterly basis i.e 12,15,18,21,24 months only) 6.70% 7.20%"
+    },
+    {
+      "tenure_text": "Above 2 Years & Up to 3 Years (Quaterly basis i.e 27,30,33,36 months only)",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.35,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 Above 2 Years & Up to 3 Years (Quaterly basis i.e 27,30,33,36 months only) 6.35% 6.85%"
+    },
+    {
+      "tenure_text": "For 90 days to 180 days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "For 90 days to 180 days 5.00% N.A"
+    },
+    {
+      "tenure_text": "For 181 days to 363 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 363,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "For 181 days to 363 days 5.50% N.A"
+    },
+    {
+      "tenure_text": "For 1 Year & upto 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "For 1 Year & upto 2 Years 7.00% N.A"
+    },
+    {
+      "tenure_text": "For 30 days to 89 days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 89,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "inter_bank",
+      "source_row_text": "For 30 days to 89 days 5.00%"
+    },
+    {
+      "tenure_text": "For 90 days to 179 days",
+      "tenure_min_days": 90,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "inter_bank",
+      "source_row_text": "For 90 days to 179 days 6.00%"
+    },
+    {
+      "tenure_text": "For 180 days to 363 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 363,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "inter_bank",
+      "source_row_text": "For 180 days to 363 days 6.50%"
+    },
+    {
+      "tenure_text": "For 1 Year & up to 3 Years ",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "inter_bank",
+      "source_row_text": "For 1 Year & up to 3 Years [Minimum Deposit Rs.50/- Lac and above] [For P.B.M. No Penalty ] 7.00%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/21 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 15",
+    "llm_validation: chunk[0] dropped slab; neither source_row_text (\"5 Nutan Samruddhi 364 Days\u0000\u0000\u0000 Auto Renew (Cumm. & Non Cumm.)\") nor tenure_text (\"Nutan Samruddhi 364 Days\u0000\u0000\u0000 Auto Renew (Cumm. & Non Cumm.)\") found in chunk text",
+    "llm_validation: chunk[0] dropped slab; neither source_row_text (\"For 1 Year & upto 2 Years\u0000\u0000 6.95% N.A\") nor tenure_text (\"For 1 Year & upto 2 Years\u0000\u0000\") found in chunk text",
+    "llm_validation: chunk[0] dropped slab; neither source_row_text (\"Above 2 Years & upto 3 Years\u0000 \u0000[For P.B.M. the same slab rat\") nor tenure_text (\"Above 2 Years & upto 3 Years\u0000 \u0000[For P.B.M. the same slab rate will be applicable]\u0000\") found in chunk text",
+    "llm_validation: chunk[0] dropped slab; neither source_row_text (\"10 Junior citizen recurring scheme. (From Minimum 4 years\u0000 t\") nor tenure_text (\"Junior citizen recurring scheme. (From Minimum 4 years\u0000 to Maximum 10 years)\") found in chunk text",
+    "malformed_slab_filter: dropped 2 slab(s) with tenure_text containing concatenated rate/table fragments (div-table extraction artefact)"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 203,
+    "last_scraped_at": "2026-05-23T09:48:22.059Z",
+    "manual_verification_needed": true
+  }
+}

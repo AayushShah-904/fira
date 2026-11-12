@@ -1,0 +1,33 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-khargone",
+  "bank_name": "Jilla Sahakari Kendriya Bank Maryadit Khargone",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": null,
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No official website found for this DCCB. All domain and Hindi search attempts failed. Likely rates are published via the Madhya Pradesh State Co-operative Bank or government portals. Operator should check mpstatecoopbank.com or RBI database for rate information.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": null
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "domain probe + Hindi search",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

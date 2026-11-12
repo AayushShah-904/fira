@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "bank_code": "the-karimnagar-co-operative-urban-bank-ltd",
+    "extracted_at": "2026-06-06T10:42:22.901Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "kcubltd.com",
+  "rate_pages": {
+    "fd": "http://kcubltd.com/depositintrates.html",
+    "savings": "/depositintrates.html",
+    "fd_prev": "/depositintrates.html",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "notes": "No .bank.in domain found; official site kcubltd.com lists deposit interest rates including fixed deposits and savings rates ([kcubltd.com](https://www.kcubltd.com/))",
+  "scraper_type": "html_static",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "http://kcubltd.com/depositintrates.html",
+    "slab_count": 5,
+    "hints": "Site served over HTTP (no HTTPS); rate page kcubltd.com/depositintrates.html. | Senior citizen rates computed as general + 0.50% per inline note ('senior citizens @0.50% extra'). | Savings Bank rows on the same table excluded (product_type FD). No explicit w.e.f. date on the page.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "coop-bankin-2col-general-senior-inline",
+    "template_hash": "sha1:9bcab4eb67b9c31e918325c460c1f24b3ec121c4",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.125Z",
+      "gates_passed": "PASS",
+      "slab_count": 5,
+      "cluster_reused": false
+    }
+  }
+}

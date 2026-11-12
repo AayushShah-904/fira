@@ -1,0 +1,13 @@
+{
+  "bank_code": "coastal-local-area-bank-ltd",
+  "bank_name": "coastal-local-area-bank-ltd",
+  "bank_type": "LAB",
+  "state": "Andhra Pradesh",
+  "website": "https://coastal.bank.in",
+  "rate_page_url": "https://coastal.bank.in/public/images/pdf/Int%20rates%20from%2001-06-2025%20web%20site%201.pdf",
+  "scraper_type": "pdf",
+  "extraction_method": "automatic_pdf",
+  "slab_count": 34,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

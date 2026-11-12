@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-21T04:47:11.939Z",
+  "reason": "Restoring April-15 full-power-Claude scraped data over destroyed/empty May re-run outputs",
+  "files_restored_count": 223,
+  "partial_silent_markers_cleared": [
+    "ab-bank-plc",
+    "bank-of-baroda",
+    "bank-of-china-limited",
+    "bank-of-india",
+    "bank-of-maharashtra",
+    "bnp-paribas",
+    "central-bank-of-india",
+    "hdfc-bank-limited",
+    "icici-bank-limited",
+    "idfc-first-bank-limited",
+    "indian-bank-ibu",
+    "industrial-and-commercial-bank-of-china-limited",
+    "jammu-kashmir-bank-limited",
+    "kotak-mahindra-bank-limited",
+    "mizuho-bank-ltd",
+    "punjab-national-bank-ibu",
+    "punjab-national-bank",
+    "rbl-bank-ibu",
+    "standard-chartered-bank-ibu"
+  ],
+  "source_commit": "95b0bf13e23632c45d6b3bfc479cd85f56e7bbb9"
+}

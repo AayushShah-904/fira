@@ -1,0 +1,23 @@
+{
+  "bank_code": "societe-generale-ibu",
+  "bank_name": "societe-generale-ibu",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "ifsc-banking-unit-ifsca",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 5369,
+  "duration_ms": 5369,
+  "duration_api_ms": 5369,
+  "num_turns": 1,
+  "tool_call_count": 0,
+  "total_cost_usd": 0.022656,
+  "llm_cost_usd": 0.022656,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 7656,
+  "output_tokens": 918,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": []
+}

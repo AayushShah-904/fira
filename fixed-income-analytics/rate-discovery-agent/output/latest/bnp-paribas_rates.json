@@ -1,0 +1,105 @@
+{
+  "bank_code": "bnp-paribas",
+  "bank_name": "BNP Paribas",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-05",
+  "source_url": "https://bnpparibas.bank.in/app/uploads/sites/25/2026/03/bnp-paribas-india-standard-deposit-card-rate-24th-march-2026.pdf",
+  "scraped_at": "2026-06-05T11:26:26Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days (\tX0,\t \tXY,\t \tXZ,\t \tX1\t)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 2,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 days to 30 days (X2)",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "31 days to 60 days (X3)",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 days to 90 days (X4)",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days (X5)",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to\t \t731 days\t \t(X6)",
+      "tenure_min_days": 181,
+      "tenure_max_days": 731,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "732 days\t \tto\t \t109\t5\t \tdays\t \t(YI)",
+      "tenure_min_days": 732,
+      "tenure_max_days": 5,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "109\t6\t \tdays\t \tto\t \t14\t6\t0\t \tdays\t \t(YJ)",
+      "tenure_min_days": null,
+      "tenure_max_days": null,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "14\t6\t1\t \tdays\t \tto\t \t1825 days\t \t(YK)",
+      "tenure_min_days": 1,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Could not parse tenure: '109\\t6\\t \\tdays\\t \\tto\\t \\t14\\t6\\t0\\t \\tdays\\t \\t(YJ)' (normalized: '109\\t6\\t \\tdays\\t \\tto\\t \\t14\\t6\\t0\\t \\tdays\\t \\t(YJ)')"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 48,
+    "last_scraped_at": "2026-06-05T11:26:26Z",
+    "manual_verification_needed": false
+  }
+}

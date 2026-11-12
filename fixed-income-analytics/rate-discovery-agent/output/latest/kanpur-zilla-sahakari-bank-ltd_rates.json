@@ -1,0 +1,145 @@
+{
+  "bank_code": "kanpur-zilla-sahakari-bank-ltd",
+  "bank_name": "Kanpur Zilla Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2021-09-01",
+  "source_url": "https://dcbkanpur.com/intrest.php?id=1",
+  "scraped_at": "2026-06-05T18:26:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": 2.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 3.9,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 3.95,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to below 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": 4.4,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 months fixed deposit",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.3,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than one year to two years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than two years Up to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": 5.1,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 3 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.2,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "12 months fixed deposit (Senior Citizen)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.8,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than one year to two years (Senior Citizen)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than two years Up to 3 years (Senior Citizen)",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "More than 3 years (Senior Citizen)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": null,
+      "rate_general_pct": 5.7,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior citizen rates appear in a separate section but are included in the same table with general rates.",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-09-01\" parses to 2021-09-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1786,
+    "last_scraped_at": "2026-06-05T18:26:00Z",
+    "manual_verification_needed": true
+  }
+}

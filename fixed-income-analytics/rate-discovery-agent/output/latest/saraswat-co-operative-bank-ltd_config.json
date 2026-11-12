@@ -1,0 +1,20 @@
+{
+  "bank_code": "saraswat-co-operative-bank-ltd",
+  "bank_name": "saraswat-co-operative-bank-ltd",
+  "bank_type": "SUCB",
+  "category": "discover",
+  "website": "https://saraswat.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://www.saraswat.bank.in/content.aspx?id=Interest-Rates",
+    "fd_nre": null,
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T11:32:23.741Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

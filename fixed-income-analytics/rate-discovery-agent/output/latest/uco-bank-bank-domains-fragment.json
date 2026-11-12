@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "bank_code": "uco-bank",
+    "extracted_at": "2026-06-05T09:40:39.621Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "uco.bank.in",
+  "rate_pages": {
+    "fd": "/en/web/guest/interest-rates-on-deposit-schemes",
+    "fd_nre": "/nri-scheme",
+    "fd_nro": "/en/web/guest/interest-rates-on-deposit-schemes",
+    "fd_fcnr": "/nri-scheme",
+    "fd_nri_combined": "/nri-scheme",
+    "savings": "/en/web/guest/interest-rates-on-deposit-schemes",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Liferay portal. NRO rates same as domestic. NRI page is combined (NRE + FCNR). 444-day special scheme. Legacy domain ucobank.com redirects to uco.bank.in",
+  "template": {
+    "template_id": "uco-bank-retail-bulk-green-staff-senior",
+    "template_hash": "sha1:e827edc3827e50b372683cb38b119dfb5685fe15",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 5,
+          "header_row": 0,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_general_pct"
+          },
+          "deposit_range": "3cr_to_10cr"
+        },
+        {
+          "table_index": 3,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "rate_general_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_super_senior_pct",
+            "2": "rate_super_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 4,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_senior_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 29,
+      "cluster_reused": false
+    }
+  }
+}

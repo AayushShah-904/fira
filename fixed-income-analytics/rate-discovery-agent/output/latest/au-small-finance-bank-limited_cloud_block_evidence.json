@@ -1,0 +1,23 @@
+{
+  "bank_code": "au-small-finance-bank-limited",
+  "observations": [
+    {
+      "ts": "2026-06-09T12:26:54.797Z",
+      "evidence_url": "https://au.bank.in/interest-rates/fixed-deposit-interest-rates",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: Just a moment...",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    },
+    {
+      "ts": "2026-06-09T12:26:56.006Z",
+      "evidence_url": "https://au.bank.in/interest-rates/au-fcnr",
+      "http_status": 403,
+      "vendor": "cloudflare",
+      "signal": "body-match: Just a moment...",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

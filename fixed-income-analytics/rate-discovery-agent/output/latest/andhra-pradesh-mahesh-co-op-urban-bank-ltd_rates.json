@@ -1,0 +1,114 @@
+{
+  "bank_code": "andhra-pradesh-mahesh-co-op-urban-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2024-01-02",
+  "source_url": "https://apmahesh.bank.in/interest-rates-on-deposits.aspx",
+  "scraped_at": "2026-06-09T13:42:07.364Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 29 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 29,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 4,
+      "rate_super_senior_pct": 4.25,
+      "source_row_text": "1. 7 Days to 29 Days 3.50% 4.00% 4.25%"
+    },
+    {
+      "tenure_text": "30 Days to 90 Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": 5.75,
+      "source_row_text": "1. 30 Days to 90 Days 5.00% 5.50% 5.75%"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": 5.75,
+      "source_row_text": "2. 91 Days to 180 Days 5.00% 5.50% 5.75%"
+    },
+    {
+      "tenure_text": "181 Days to 299 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 299,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": 6.5,
+      "source_row_text": "3. 181 Days to 299 Days 5.75% 6.25% 6.50%"
+    },
+    {
+      "tenure_text": "300 Days",
+      "tenure_min_days": 300,
+      "tenure_max_days": 300,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": 7.25,
+      "source_row_text": "4. 300 Days 6.50% 7.00% 7.25%"
+    },
+    {
+      "tenure_text": "301 Days & upto 1 year",
+      "tenure_min_days": 301,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": 7,
+      "source_row_text": "5. 301 Days & upto 1 year 6.25% 6.75% 7.00%"
+    },
+    {
+      "tenure_text": "Above 1 Year & upto 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": 8.25,
+      "source_row_text": "6. Above 1 Year & upto 2 Years 7.50% 8.00% 8.25%"
+    },
+    {
+      "tenure_text": "Above 2 Years & upto 3 Years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": 8,
+      "source_row_text": "7. Above 2 Years & upto 3 Years 7.25% 7.75% 8.00%"
+    },
+    {
+      "tenure_text": "Above 3 Years & Upto 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": 7.5,
+      "source_row_text": "8 Above 3 Years & Upto 5 Years 6.75% 7.25% 7.50%"
+    },
+    {
+      "tenure_text": "Above 5 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": 7.25,
+      "source_row_text": "9. Above 5 Years 6.50% 7.00% 7.25%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table_filter: dropped table[0] (only 0/11 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 11"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 933,
+    "last_scraped_at": "2026-06-09T13:42:07.364Z",
+    "manual_verification_needed": true
+  }
+}

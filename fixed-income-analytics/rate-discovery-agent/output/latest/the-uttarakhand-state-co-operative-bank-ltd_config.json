@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-uttarakhand-state-co-operative-bank-ltd",
+  "bank_name": "the-uttarakhand-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Uttarakhand",
+  "website": "https://ukscb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://ukscb.bank.in/interest-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:42:26.415Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

@@ -1,0 +1,32 @@
+{
+  "bank_code": "fino-payments-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-11",
+  "source_url": "https://fino.bank.in/more/fixed-deposit",
+  "scraped_at": "2026-06-09T12:32:22.725Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "60 Years)Rate",
+      "tenure_min_days": 21900,
+      "tenure_max_days": 21900,
+      "rate_general_pct": 7.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "llm_fallback_no_result: deterministic returned 0 slabs; LLM produced no usable slabs (trigger: zero=true suspect=false prefer=false)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 3 slab(s) from page text"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_text_pattern",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 377,
+    "last_scraped_at": "2026-06-09T12:32:22.725Z",
+    "manual_verification_needed": true
+  }
+}

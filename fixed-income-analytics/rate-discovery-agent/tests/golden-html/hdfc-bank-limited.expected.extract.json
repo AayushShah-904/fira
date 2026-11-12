@@ -1,0 +1,28 @@
+{
+  "_comment": "Multi-table extract config: one block per distinct FD rate table on hdfc.bank.in/fixed-deposit/fd-interest-rate. Mirrors what lib/templating/llm_propose.js produces. table_index is source-order DOM index. idx=0 = retail <3Cr (header band spans 2 rows), idx=2 = bulk >=3Cr to <5Cr. idx=1 is a desktop/mobile duplicate of idx=0 and is intentionally not mapped.",
+  "tenure_cap_days": 5475,
+  "extracts": [
+    {
+      "table_index": 0,
+      "header_row": 0,
+      "header_span_rows": 2,
+      "deposit_range": "below_3cr",
+      "column_map": {
+        "0": "tenure_text",
+        "1": "rate_general_pct",
+        "2": "rate_senior_pct"
+      }
+    },
+    {
+      "table_index": 2,
+      "header_row": 0,
+      "header_span_rows": 2,
+      "deposit_range": "3cr_to_5cr",
+      "column_map": {
+        "0": "tenure_text",
+        "1": "rate_general_pct",
+        "2": "rate_senior_pct"
+      }
+    }
+  ]
+}

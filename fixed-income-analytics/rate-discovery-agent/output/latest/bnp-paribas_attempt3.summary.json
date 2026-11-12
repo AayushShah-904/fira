@@ -1,0 +1,54 @@
+{
+  "bank_code": "bnp-paribas",
+  "bank_name": "bnp-paribas",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16257,
+  "duration_ms": 16257,
+  "duration_api_ms": 15652,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.096814,
+  "llm_cost_usd": 0.096814,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 34623,
+  "output_tokens": 3446,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 311,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bnpparibas.bank.in/app/uploads/sites/25/2026/03/bnp-paribas-india-standard-deposit-card-rate-24th-march-2026.pdf\"}"
+    },
+    {
+      "name": "fetch_pdf",
+      "duration_ms": 292,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://bnpparibas.bank.in/app/uploads/sites/25/2026/03/interest-rates-for-bulk-deposits-as-on-27th-march-2026.pdf\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bnp-paribas_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bnp-paribas\\\",\\n  \\\"bank_name\\\": \\\"BNP Paribas\\\",\\n  \\\"bank_type\\\": \\\"FB\\\",\\n "
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bnp-paribas_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bnp-paribas\\\",\\n  \\\"bank_name\\\": \\\"BNP Paribas\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/bnp-paribas_bulk_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"bnp-paribas\\\",\\n  \\\"bank_name\\\": \\\"BNP Paribas\\\",\\n  \\\"product_type\\\": \\\"F"
+    }
+  ]
+}

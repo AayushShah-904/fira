@@ -1,0 +1,102 @@
+{
+  "bank_code": "vysya-co-operative-bank-ltd-tumkur",
+  "bank_name": "vysya-co-operative-bank-ltd-tumkur",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 13811,
+  "duration_ms": 13811,
+  "duration_api_ms": 13127,
+  "num_turns": 9,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.14534,
+  "llm_cost_usd": 0.14534,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 68738,
+  "output_tokens": 983,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Vysya Co-operative Bank Ltd Tumkur\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 198,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysyacooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 40,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysyacooperativebank.co.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 67,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysya-co-operative-bank-ltd-tumkur.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 181,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tumkurvysyabank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 162,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tumkurvysyacooperativebank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://tumkurvysyacooperativebank.co.in\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 6,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": false
+  }
+}

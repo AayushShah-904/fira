@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "bank_code": "yes-bank-ibu",
+    "extracted_at": "2026-06-05T14:32:18.461Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "yes.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": null
+  },
+  "parent_bank_code": "yes-bank-limited",
+  "scraper_type": null,
+  "notes": "IFSC Banking Unit in GIFT City",
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official GIFT IBU page https://www.yes.bank.in/gift-ibu is a JavaScript-only SPA. Re-verified: Playwright render fails with net::ERR_HTTP2_PROTOCOL_ERROR and WebFetch times out (>60s). No inline rate table, no rate PDF link, no discoverable XHR rate endpoint. Web search indicates Yes Bank GIFT IBU offers ~4-5% on foreign-currency deposits but no public rate card is published."
+  }
+}

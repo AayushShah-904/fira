@@ -1,0 +1,136 @@
+{
+  "bank_code": "chittoor-district-co-operative-central-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-23",
+  "source_url": "https://chittoordccb.bank.in/depositschemes.html",
+  "scraped_at": "2026-05-22T20:34:34.311Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 To 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2. 7 To 14 Days 4.75%"
+    },
+    {
+      "tenure_text": "15 To 45 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3. 15 To 45 Days 5.00%"
+    },
+    {
+      "tenure_text": "46 To 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4. 46 To 90 Days 5.25%"
+    },
+    {
+      "tenure_text": "91 To 179 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5. 91 To 179 Days 5.75%"
+    },
+    {
+      "tenure_text": "180 Days To 1 Year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6. 180 Days To 1 Year 6.50%"
+    },
+    {
+      "tenure_text": "1 Year To 2 Year",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7. 1 Year To 2 Year 7.25%"
+    },
+    {
+      "tenure_text": "2 Year To 3 Year",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8. 2 Year To 3 Year 6.50%"
+    },
+    {
+      "tenure_text": "3 Years To 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9. 3 Years To 5 Years 6.50%"
+    },
+    {
+      "tenure_text": "5 Years & Above",
+      "tenure_min_days": 1826,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10. 5 Years & Above 6.25%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "multi_table: 21 tables on page (17 rate-bearing by score)",
+    "multi_table_filter: dropped table[0] (only 0/13 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[1] (only 0/12 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[5] (only 0/12 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[6] (only 0/12 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[10] (only 0/11 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[12] (only 0/10 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[13] (only 0/10 slabs had parseable tenures — likely textual content)",
+    "multi_table_filter: dropped table[14] (only 0/9 slabs had parseable tenures — likely textual content)",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 54",
+    "chunk[0]: 0.50% extra for one year and above deposits of senior citizens, PACS and Urban Banks (not separately tabulated)",
+    "chunk[0]: No explicit effective date found",
+    "chunk[1]: 0.50% extra for one year and above deposits of senior citizens, PACS and Urban Banks (not separately tabulated)",
+    "chunk[1]: No explicit effective date found",
+    "chunk[2]: 0.50% extra for one year and above deposits of senior citizens, PACS and Urban Banks (not separately tabulated)",
+    "chunk[2]: No explicit effective date found",
+    "chunk[3]: 0.50% extra for one year and above deposits of senior citizens, PACS and Urban Banks (not separately tabulated)",
+    "chunk[3]: No explicit effective date found",
+    "chunk[4]: 0.50% extra for one year and above deposits of senior citizens, PACS and Urban Banks mentioned in context but no separate senior rate column in table",
+    "chunk[5]: 0.50% extra for one year and above deposits of senior citizens, PACS and Urban Banks mentioned in context but no separate senior rate column in table"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:43:31.863Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 9,
+      "attempted_verdict": "garbage",
+      "rejected_reason": "garbage_overwrite_blocked",
+      "retained_extraction_method": "llm_inline_extraction",
+      "retained_scraped_at": "2026-05-22T20:34:34.311Z",
+      "retained_slab_count": 9
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-05-22T20:34:34.311Z",
+    "manual_verification_needed": false
+  }
+}

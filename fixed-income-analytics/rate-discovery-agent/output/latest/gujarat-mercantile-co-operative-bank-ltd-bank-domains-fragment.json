@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "gujarat-mercantile-co-operative-bank-ltd",
+    "extracted_at": "2026-06-06T11:01:19.895Z",
+    "source": "bank-domains.json",
+    "source_sha": "c522a7e9f7a693094a1567a764053b414aaefe02e34fb35e9449ab6ce131f89e"
+  },
+  "domain": "gmcbank.in",
+  "rate_pages": {
+    "fd": "/deposit-interest-rate.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/saving-account.php",
+    "rd": "/recurring-deposit.php"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

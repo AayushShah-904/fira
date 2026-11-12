@@ -1,0 +1,36 @@
+{
+  "bank_code": "medak-district-co-operative-central-bank-ltd",
+  "bank_name": "Medak District Co-operative Central Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://medakdccb.bank.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://medakdccb.bank.in/term-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://medakdccb.bank.in/saving-deposits/",
+    "rd": "https://medakdccb.bank.in/recuring-deposit/"
+  },
+  "selectors": null,
+  "column_mapping": null,
+  "expected_slab_count": 0,
+  "notes": "No interest rate table or rate card is published on the website. The 'Term Deposit' and 'Recurring Deposit' pages only mention that interest will be paid as per RBI directives, but do not specify any actual rates or slabs. Operator/manual entry required if rates are available elsewhere.",
+  "scraper_notes": {
+    "framework": "WordPress with Elementor",
+    "bot_protection": null,
+    "data_format": "No rate table or rate card present; only product descriptions.",
+    "rate_tables_on_page": 0,
+    "has_tabs": true,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "web_search + homepage navigation + direct fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "bank_code": "bharat-co-operative-bank-mumbai-ltd",
+    "extracted_at": "2026-06-05T13:20:43.539Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "bharatbank.bank.in",
+  "rate_pages": {
+    "fd": "https://www.bharatbank.bank.in/interest_rates_fd.html",
+    "fd_nre": "/interest_rates_fd.html",
+    "fd_nro": "/interest_rates_fd.html",
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_prev": "/interest_rates_fd.html",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_static",
+  "notes": "HTML tables with class .tbl_intRate. 5 tables",
+  "template": {
+    "template_id": "bharat-coop-multi-tiered-regular",
+    "template_hash": "sha1:6d3a20432ae9f37f2cb97ef69a3d826445e9d7db",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 3,
+          "header_span_rows": 3,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": "below_1cr"
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 1,
+          "column_map": {
+            "1": "tenure_text",
+            "2": "rate_general_pct@1cr_to_2cr",
+            "3": "rate_general_pct@2cr_to_5cr",
+            "4": "rate_general_pct@above_5cr"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T10:03:02.503Z",
+      "gates_passed": "PASS",
+      "slab_count": 20,
+      "cluster_reused": false
+    }
+  }
+}

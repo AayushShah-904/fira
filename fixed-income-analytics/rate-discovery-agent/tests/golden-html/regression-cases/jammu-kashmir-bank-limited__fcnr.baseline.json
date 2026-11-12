@@ -1,0 +1,7 @@
+{
+  "bank_code": "jammu-kashmir-bank-limited",
+  "variant": "fcnr",
+  "slab_count": 30,
+  "from": "rates-pack-2026-05-14",
+  "note": "Slab count only; full slab data not snapshotted by quality-gate. Phase A HTML harvester will capture the live page so Phase C extractor can validate against actual cell values."
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "bank_code": "pune-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "satara-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "kolhapur-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "sangli-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "ahmednagar-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "raigad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "nasik-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "solapur-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "mumbai-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-thane-palghar-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "jalgaon-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "nagpur-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "aurangabad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Maharashtra"
+  },
+  {
+    "bank_code": "the-ahmedabad-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-rajkot-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-surat-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-amreli-jilla-madhyasth-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-banaskantha-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-baroda-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-bhavnagar-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-jamnagar-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-junagadh-jilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-mehsana-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-sabarkantha-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-valsad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "the-panchmahal-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Gujarat"
+  },
+  {
+    "bank_code": "bangalore-district-and-bangalore-rural-district-co-op-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "south-canara-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "mysore-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "belgaum-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "tumkur-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "hassan-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "mandya-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "shimoga-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "davanagere-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Karnataka"
+  },
+  {
+    "bank_code": "ludhiana-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "nawanshahr-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "jalandhar-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "patiala-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "amritsar-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "bhatinda-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "hoshiarpur-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "sangrur-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Punjab"
+  },
+  {
+    "bank_code": "jaipur-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "sikar-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "jodhpur-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "kota-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "udaipur-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "ajmer-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "bikaner-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "alwar-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "ganganagar-kendriya-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Rajasthan"
+  },
+  {
+    "bank_code": "tiruchirapalli-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "salem-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "coimbatore-district-central-co-opertive-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "madurai-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "chennai-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "the-erode-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "thanjavur-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "vellore-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "the-kancheepuram-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Tamil Nadu"
+  },
+  {
+    "bank_code": "bhopal-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "indore-premier-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-gwalior",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-dewas",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "jilla-sahakari-kendriya-bank-maryadit-rewa",
+    "category": "District Central Co-operative Bank",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "krishna-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "guntur-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-hyderabad-district-cooperative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-warangal-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "nellore-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "vishakapatnam-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "chittoor-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "the-anantapur-district-co-operative-central-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "bank_code": "kanpur-zilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "zilla-sahakari-bank-ltd-lucknow",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "meerut-district-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "agra-zilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "ghaziabad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "gorakhpur-zilla-sahakari-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "allahabad-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "bank_code": "karnal-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "hissar-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "rohtak-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "sirsa-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "panipat-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Haryana"
+  },
+  {
+    "bank_code": "cuttack-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "sambalpur-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Odisha"
+  },
+  {
+    "bank_code": "nadia-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "burdwan-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "hoogly-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "West Bengal"
+  },
+  {
+    "bank_code": "dehradun-district-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Uttarakhand"
+  },
+  {
+    "bank_code": "kangra-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "bank_code": "jammu-central-co-operative-bank-ltd",
+    "category": "District Central Co-operative Bank",
+    "state": "Jammu and Kashmir"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "bank_code": "dombivli-nagari-sahakari-bank-ltd",
+    "extracted_at": "2026-06-05T13:24:28.732Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "dns.bank.in",
+  "rate_pages": {
+    "fd": "/personal/invest/interest-rate-on-deposit",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_js",
+  "notes": "Next.js (React). HTML tables. 2 tables",
+  "template": {
+    "template_id": "dnsb-3col-regular-plus-cip-bulk",
+    "template_hash": "sha1:06a167082e33c4336bed51382c6df6eff1bebbd3",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "rate_senior_pct"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore",
+            "3": "rate_senior_pct",
+            "4": "ignore"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 2,
+          "header_row": 2,
+          "header_span_rows": 3,
+          "column_map": {
+            "0": "ignore",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "above_5cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T17:46:20.136Z",
+      "gates_passed": "PASS",
+      "slab_count": 14,
+      "cluster_reused": false
+    }
+  }
+}

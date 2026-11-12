@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-punjab-state-co-operative-bank-ltd",
+  "bank_name": "the-punjab-state-co-operative-bank-ltd",
+  "bank_type": "SSCB",
+  "category": "Scheduled State Co-operative Bank",
+  "state": "Punjab",
+  "website": "https://pscb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://pscb.bank.in/deposit-interest-rates/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T13:16:56.821Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

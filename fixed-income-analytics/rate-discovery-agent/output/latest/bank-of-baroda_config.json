@@ -1,0 +1,22 @@
+{
+  "bank_code": "bank-of-baroda",
+  "bank_name": "bank-of-baroda",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "state": "Gujarat",
+  "website": "https://bankofbaroda.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+    "fd_nre": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+    "fd_nro": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/fixed-deposits-callable-and-non-callable-upto-ten-crores",
+    "fd_fcnr": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates/foreign-currency-non-resident-bank-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T06:32:18.000Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

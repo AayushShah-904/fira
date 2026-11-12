@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "bank_code": "solapur-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T14:47:58.602Z",
+    "source": "bank-domains.json",
+    "source_sha": "0b1621ff8ada4e7ad417da27634ceb169b5c8931942759debc1840372852957f"
+  },
+  "domain": "solapurdccb.bank.in",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/product-other-info/deposit"
+  },
+  "scraper_type": "html_static"
+}

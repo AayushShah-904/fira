@@ -1,0 +1,6 @@
+{
+  "bank_code": "punjab-national-bank-ibu",
+  "reason": "slab drift on gift: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T22:45:07.182Z",
+  "attempts": 3
+}

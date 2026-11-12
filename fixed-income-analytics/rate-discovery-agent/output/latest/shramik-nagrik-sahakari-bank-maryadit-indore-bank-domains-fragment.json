@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "shramik-nagrik-sahakari-bank-maryadit-indore",
+    "extracted_at": "2026-06-06T10:46:44.167Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "shramiknagrik.bank.in",
+  "notes": "Official .bank.in domain found; specific rate pages (FD, NRE etc.) not visible in search results.",
+  "rate_pages": {
+    "fd": "/Interest_rate_DEP.html",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/Interest_rate_DEP.html",
+    "rd": null
+  },
+  "scraper_type": "html_static"
+}

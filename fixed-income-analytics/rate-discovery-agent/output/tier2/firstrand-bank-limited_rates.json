@@ -1,0 +1,19 @@
+{
+  "bank_code": "firstrand-bank-limited",
+  "bank_name": "FirstRand Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "firstrand.co.in",
+    "found_via": "websearch",
+    "notes": "Official India site firstrand.co.in is reachable (HTTP 200) but FirstRand Bank India is a corporate & investment bank (Indo-African corridor) with no retail/term-deposit product. The India branch license is being wound down to a representative office and all Savings/Current/NRI customer accounts are being migrated to HDFC Bank. No deposit interest-rate page exists."
+  },
+  "warnings": ["Branch winding down; retail and NRI accounts transferred to HDFC Bank. No public FD rate card."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,33 @@
+{
+  "bank_code": "dindigul-central-co-operative-bank-ltd",
+  "bank_name": "Dindigul Central Co-operative Bank Ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://dindigulccb.bank.in/",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No FD/interest rate page or downloadable rate card found anywhere on the official website. All visible content is about loans, ATM locations, lockers, and branch details. No mention of deposit rates or FD products. This is a known pattern for small DCCBs in Tamil Nadu. Operator review needed.",
+  "scraper_notes": {
+    "framework": "PHP static site with Bootstrap, no JS rendering",
+    "bot_protection": null,
+    "data_format": "No rate tables or deposit product pages found",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-13T06:09:00Z",
+    "discovery_method": "homepage fetch + services/downloads exploration",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "bank_code": "godavari-urban-co-opbank-ltdnashik",
+    "extracted_at": "2026-06-06T09:22:28.731Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "godavaribank.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "/interest.html"
+  },
+  "scraper_type": "manual",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "last_discovered_at": "2026-05-27T18:13:56.859Z",
+  "discovery_status": "recovered",
+  "notes": "Re-discovered own site after codeforbanks aggregator removal (sprint-008)."
+}

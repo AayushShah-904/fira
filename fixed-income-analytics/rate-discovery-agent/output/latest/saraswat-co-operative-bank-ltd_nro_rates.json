@@ -1,0 +1,175 @@
+{
+  "bank_code": "saraswat-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "nro",
+  "effective_date": "2026-06-30",
+  "source_url": "https://www.saraswat.bank.in/Assets/INTEREST_RATE_TD_GP_GENERAL.pdf",
+  "scraped_at": "2026-07-22T18:25:53.410Z",
+  "extraction_confidence": "high",
+  "extraction_method": "manual_image_transcription",
+  "notes": "Transcribed manually from official Saraswat Co-op Bank Interest rates on term deposits for General public & NRO table w.e.f. 30.06.2026.",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "7 days to 14 days | 4.25%"
+    },
+    {
+      "tenure_text": "15 days to 30 dats",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 4.65,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "15 days to 30 dats | 4.65%"
+    },
+    {
+      "tenure_text": "31 days to 60 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "31 days to 60 days | 5.50%"
+    },
+    {
+      "tenure_text": "61 days to 91 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 91,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "61 days to 91 days | 5.50%"
+    },
+    {
+      "tenure_text": "92 days",
+      "tenure_min_days": 92,
+      "tenure_max_days": 92,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "92 days | 5.50%"
+    },
+    {
+      "tenure_text": "93 days to 179 days",
+      "tenure_min_days": 93,
+      "tenure_max_days": 179,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "93 days to 179 days | 5.75%"
+    },
+    {
+      "tenure_text": "180 days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "180 days | 5.75%"
+    },
+    {
+      "tenure_text": "181 days to 240 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 240,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "181 days to 240 days | 6.00%"
+    },
+    {
+      "tenure_text": "241 days up to less than 1 year",
+      "tenure_min_days": 241,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "241 days up to less than 1 year | 6.00%"
+    },
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "1 year | 6.40%"
+    },
+    {
+      "tenure_text": "1 year 1 day to 1 year 10 days",
+      "tenure_min_days": 366,
+      "tenure_max_days": 375,
+      "rate_general_pct": 7.1,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "1 year 1 day to 1 year 10 days | 7.10%"
+    },
+    {
+      "tenure_text": "1 year 11 days to 2 years",
+      "tenure_min_days": 376,
+      "tenure_max_days": 730,
+      "rate_general_pct": 7.15,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "1 year 11 days to 2 years | 7.15%"
+    },
+    {
+      "tenure_text": "2 year 1 day to 2 years 10 days",
+      "tenure_min_days": 731,
+      "tenure_max_days": 740,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "2 year 1 day to 2 years 10 days | 7.20%"
+    },
+    {
+      "tenure_text": "2 year 11 days to 3 years",
+      "tenure_min_days": 741,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "2 year 11 days to 3 years | 6.40%"
+    },
+    {
+      "tenure_text": "Above 3 years to 4 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1460,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "Above 3 years to 4 years | 6.30%"
+    },
+    {
+      "tenure_text": "Above 4 years to 5 years",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "Above 4 years to 5 years | 6.30%"
+    },
+    {
+      "tenure_text": "Above 5 years to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.3,
+      "rate_senior_pct": null,
+      "deposit_range": "above_1cr",
+      "source_row_text": "Above 5 years to 10 years | 6.30%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 23,
+    "last_scraped_at": "2026-07-22T18:25:53.410Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bank_code": "vysya-co-operative-bank-ltd-tumkur",
+  "bank_name": "vysya-co-operative-bank-ltd-tumkur",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "non-scheduled-urban-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 18133,
+  "duration_ms": 18133,
+  "duration_api_ms": 17880,
+  "num_turns": 14,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.239072,
+  "llm_cost_usd": 0.239072,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 114460,
+  "output_tokens": 1269,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Vysya Co-operative Bank Ltd Tumkur\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysyacooperativebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 158,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysyacooperativebank.com/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysyacooperativebank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://vysya-co-operative-bank-tumkur.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Sahakari Bank Tumkur\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"ವೈಶ್ಯ ಸಹಕಾರಿ ಬ್ಯಾಂಕ್ ತುಮಕೂರು ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Tumkur Karnataka\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur branch contact\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur FD interest rate\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur Tumakuru\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur Karnataka official website\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Vysya Co-operative Bank Ltd Tumkur Karnataka sahakari\"}"
+    }
+  ]
+}

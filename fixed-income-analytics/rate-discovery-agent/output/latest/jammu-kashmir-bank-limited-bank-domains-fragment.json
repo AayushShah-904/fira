@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "bank_code": "jammu-kashmir-bank-limited",
+    "extracted_at": "2026-06-05T10:04:19.140Z",
+    "source": "bank-domains.json",
+    "source_sha": "6482654f2960157d525c76bcc6debd576f363746ef307926b7f52299011a404a"
+  },
+  "domain": "jkb.bank.in",
+  "rate_pages": {
+    "fd": "/interest-rates",
+    "savings": "/interest-rates",
+    "rd": null,
+    "fd_nre": "/deposits/nre-fixed-deposits",
+    "fd_nro": "/deposits/nro-fixed-deposits",
+    "fd_fcnr": "/deposits/foreign-currency-non-resident-banks-fcnr-b",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_static",
+  "notes": "Server-rendered HTML",
+  "template": {
+    "template_id": "jkb-retail-plus-bulk-regular-revised",
+    "template_hash": "sha1:4e128b5ef9516ef06d5c6e01333c2d08897db1d1",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "ignore",
+            "3": "rate_general_pct"
+          },
+          "deposit_range": "below_3cr"
+        },
+        {
+          "table_index": 2,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "ignore",
+            "3": "rate_general_pct"
+          },
+          "deposit_range": "3cr_to_5cr"
+        },
+        {
+          "table_index": 3,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "ignore",
+            "2": "ignore",
+            "3": "rate_general_pct"
+          },
+          "deposit_range": "3cr_to_5cr"
+        }
+      ],
+      "tenure_cap_days": 3650
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 32,
+      "cluster_reused": false
+    }
+  }
+}

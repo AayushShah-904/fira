@@ -1,0 +1,19 @@
+{
+  "bank_code": "paytm-payments-bank-limited",
+  "bank_name": "paytm-payments-bank-limited",
+  "bank_type": "PB",
+  "category": "Payments Bank",
+  "state": "Uttar Pradesh",
+  "website": "https://paytm.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://paytm.bank.in/products/fixed-deposit"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:32:47.723Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_static"
+}

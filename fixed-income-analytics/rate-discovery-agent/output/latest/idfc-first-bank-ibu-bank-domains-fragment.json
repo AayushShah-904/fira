@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "bank_code": "idfc-first-bank-ibu",
+    "extracted_at": "2026-06-05T14:11:24.982Z",
+    "source": "bank-domains.json",
+    "source_sha": "35179242bd1c38e9e49381a91261b90d7bec8be6c74ca7b43ed6dc133602499f"
+  },
+  "domain": "idfcfirst.bank.in",
+  "rate_pages": {
+    "fd": "/gift-city/non-resident-banking/fixed-deposit-account",
+    "fd_gift_pdf": "/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf",
+    "fd_gift_pdf_stable": "/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits.pdf",
+    "fd_fcnr": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift": "/content/dam/idfcfirstbank/interest-rate/Interest-Rates-on-Gift-City-Fixed-Deposits-website-16012026.pdf"
+  },
+  "scraper_type": "pdf",
+  "parent_bank_code": "idfc-first-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City. USD and EUR deposits. PDF rate card with date-stamped URL pattern.",
+  "template": {
+    "template_id": "ibu-static-pdf-quarterly",
+    "template_hash": "pdf:1d19260a19c1cf4cfd34b6fdeb6c9641f6b52976",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "ibu-static-pdf-quarterly"
+    },
+    "variants": {
+      "gift": {
+        "rate_page_key": "fd_gift"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T09:32:04.012Z",
+      "gates_passed": "PASS",
+      "slab_count": 22,
+      "source": "pdf",
+      "pdf_method": "doc_intelligence"
+    }
+  }
+}

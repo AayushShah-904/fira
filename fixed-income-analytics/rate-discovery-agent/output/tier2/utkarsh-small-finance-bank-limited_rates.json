@@ -1,0 +1,117 @@
+{
+  "bank_code": "utkarsh-small-finance-bank-limited",
+  "bank_name": "Utkarsh Small Finance Bank Limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-05-05",
+  "source_url": "https://utkarsh.bank.in/assests/pdf/Annexure_Domestic_Fixed_Deposit_Interest_Rates.pdf",
+  "scraped_at": "2026-05-25T11:27:23.835Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 Days to 90 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": 5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 Days to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 Days to 370 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 370,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "371 Days to 665 Days",
+      "tenure_min_days": 371,
+      "tenure_max_days": 665,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "666 Days",
+      "tenure_min_days": 666,
+      "tenure_max_days": 666,
+      "rate_general_pct": 8.1,
+      "rate_senior_pct": 8.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "667 Days to 2 Years (729 Days)",
+      "tenure_min_days": 667,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years (730 Days) to 3 Years (1095 Days)",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.5,
+      "rate_senior_pct": 8,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 Years (1096 Days) to less than 4 Years (1460 Days)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "4 Years (1461 Days) to 5 Years (1826 Days)",
+      "tenure_min_days": 1461,
+      "tenure_max_days": 1826,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 5 Years to 10 Years",
+      "tenure_min_days": 1827,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "Rates taken from the official Domestic FD rate-card PDF (the HTML FD page only shows fees/calculator, not the rate matrix).",
+    "For deposits less than Rs 3 crore, with premature-withdrawal facility (callable). 666-day is the headline special.",
+    "Senior citizen premium is +0.50% on most slabs (+0.15% on the 666-day special)."
+  ],
+  "tier2_method": "webfetch"
+}

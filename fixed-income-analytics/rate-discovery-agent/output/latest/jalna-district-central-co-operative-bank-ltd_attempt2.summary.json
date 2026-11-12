@@ -1,0 +1,132 @@
+{
+  "bank_code": "jalna-district-central-co-operative-bank-ltd",
+  "bank_name": "jalna-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 23451,
+  "duration_ms": 23451,
+  "duration_api_ms": 20667,
+  "num_turns": 15,
+  "tool_call_count": 15,
+  "total_cost_usd": 0.44846400000000003,
+  "input_tokens": 218396,
+  "output_tokens": 1459,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"jalna district central co-operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalnadccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalnadccb.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jalna district central co-operative bank ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jalna district central co-operative bank ltd interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"jalna district central co-operative bank ltd ब्याज दर\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 168,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.jalnadccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 41,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalnadccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 144,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://jalnadccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 328,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.jalnadccbank.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 331,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://jalna.gov.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 155,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://jalna.gov.in/public-utility-category/%e0%a4%ac%e0%a4%81%e0%a4%95%e0%a4%be/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 551,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalna.gov.in/document-category/%E0%A4%AC%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C-%E0%A4%A6%E0%A4%B0/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 486,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalna.gov.in/document-category/%E0%A4%AC%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C-%E0%A4%A6%E0%A4%B0%E0%A4%BE/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 522,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jalna.gov.in/document-category/%E0%A4%AC%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C-%E0%A4%A6%E0%A4%B0%E0%A5%87/\"}"
+    }
+  ],
+  "failure_class": "partial_success",
+  "phase_outcomes": {
+    "website": "reachable_uncommitted",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 4,
+    "fetch_error_count": 7,
+    "domain_was_known": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "bank_code": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T18:53:48.379Z",
+    "source": "bank-domains.json",
+    "source_sha": "cedc199f88a31158f58ab3cc2faacee37e3534061ee8e40ddcce12fdde42ddeb"
+  },
+  "domain": "bbccb.bank.in",
+  "rate_pages": {
+    "fd": "/deposit.php",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/deposit.php",
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "odisha-dccb-ccb-pacs-revised-fd",
+    "template_hash": "sha1:205cd5d33860b3be82bd6d83fc81a344ba940018",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 1,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "ignore",
+            "4": "rate_general_pct",
+            "5": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "bank_code": "sumitomo-mitsui-banking-corporation-ibu",
+  "bank_name": "sumitomo-mitsui-banking-corporation-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "website": "https://smbc.co.jp",
+  "scraper_type": "manual",
+  "extraction_method": "registry_skip",
+  "rate_page_urls": {
+    "fd": "/global/india/interest_rates/fd_rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "SMBC India FD rates PDF. GIFT City branch operational but no separate IBU rate page.",
+  "scraper_notes": {
+    "framework": null,
+    "bot_protection": null,
+    "data_format": null,
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T14:27:41.456Z",
+    "discovery_method": "registry_skip",
+    "confidence": "high"
+  }
+}

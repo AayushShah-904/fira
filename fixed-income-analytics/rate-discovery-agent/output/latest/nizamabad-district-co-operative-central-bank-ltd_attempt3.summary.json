@@ -1,0 +1,54 @@
+{
+  "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+  "bank_name": "nizamabad-district-co-operative-central-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 128514,
+  "duration_ms": 128514,
+  "duration_api_ms": 14827,
+  "num_turns": 5,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.496894,
+  "llm_cost_usd": 0.496894,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 243347,
+  "output_tokens": 1275,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1168,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nizamabaddccb.bank.in/deposit-schemes/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 772,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nizamabaddccb.bank.in/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 111746,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://nizamabaddccb.bank.in/deposit-schemes/\",\"accordions\":true}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-central-bank/nizamabad-district-co-operative-central-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"nizamabad-d"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-06T0714_all/district-central-co-operative-central-bank/nizamabad-district-co-operative-central-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"nizamabad-di"
+    }
+  ]
+}

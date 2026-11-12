@@ -1,0 +1,122 @@
+{
+  "bank_code": "sardar-vallabhbhai-sahakari-bank-limited",
+  "bank_name": "Sardar Vallabhbhai Sahakari Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "source_url": "https://sardar.bank.in/interest-rates.php",
+  "scraped_at": "2026-05-27T18:13:56.859Z",
+  "effective_date": "2025-10-01",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 7 Days to 45 Days | 3.75% | --- | ---"
+    },
+    {
+      "tenure_text": "46 Days to 100 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 100,
+      "rate_general_pct": 4,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 46 Days to 100 Days | 4.00% | --- | ---"
+    },
+    {
+      "tenure_text": "101 Days to 180 Days",
+      "tenure_min_days": 101,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 101 Days to 180 Days | 4.75% | --- | ---"
+    },
+    {
+      "tenure_text": "181 Days to 1 Year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 181 Days to 1 Year(181 Days to 365 Days) | 5.50% | --- | ---"
+    },
+    {
+      "tenure_text": "1 Year above to 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 1 Years above to 2 Years(366 Days to 24 Months) | 6.75% | 7.25% | 7.00%"
+    },
+    {
+      "tenure_text": "2 Years above to 36 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 2 Years above to 36 Months(25 Months to 36 Months) | 6.50% | 7.00% | 7.00%"
+    },
+    {
+      "tenure_text": "3 Years above to 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": null,
+      "currency": null,
+      "source_row_text": "From 3 Years above to 5 Years(37 Months to 60 Months) | 6.25% | 6.75% | 7.00%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Sprint-008 correctness fix: prior data was scraped from forbidden aggregator codeforbanks.com; re-extracted from the bank's own official source.",
+    "Senior citizen +0.50% applies only above 1 year per page footnote; sub-1-year senior cells shown \"---\" on the page (left null). Bulk-deposit column not used."
+  ],
+  "discovery_metadata": {
+    "run_method": "tier-2",
+    "tier2_method": "manual_transcription_from_rendered_text",
+    "sourced_at": "2026-05-27T18:13:56.859Z",
+    "source_url": "https://sardar.bank.in/interest-rates.php",
+    "fixed_from": "codeforbanks.com aggregator",
+    "discovery_status": "recovered"
+  },
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:17.340Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "registry_skip",
+      "attempted_slab_count": 0,
+      "attempted_verdict": null,
+      "rejected_reason": "curated:manual_transcription_from_rendered_text",
+      "retained_extraction_method": "manual_transcription_from_rendered_text",
+      "retained_scraped_at": "2026-05-27T18:13:56.859Z",
+      "retained_slab_count": 7
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 295,
+    "last_scraped_at": "2026-05-27T18:13:56.859Z",
+    "manual_verification_needed": true
+  }
+}

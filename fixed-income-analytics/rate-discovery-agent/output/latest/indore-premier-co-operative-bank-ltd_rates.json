@@ -1,0 +1,252 @@
+{
+  "bank_code": "indore-premier-co-operative-bank-ltd",
+  "bank_name": "Indore Premier Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-04-03",
+  "source_url": "https://ipc.bank.in/%e0%a4%ac%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%9c-%e0%a4%a6%e0%a4%b0/",
+  "scraped_at": "2026-06-06T19:38:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 दिन से 14 दिन तक",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "7 दिन से 14 दिन तक",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "7 दिन से 14 दिन तक",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "15 दिन से 45 दिन तक",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "15 दिन से 45 दिन तक",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "15 दिन से 45 दिन तक",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "46 दिन से 90 दिन तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "46 दिन से 90 दिन तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "46 दिन से 90 दिन तक",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "91 दिन से179 दिन तक",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "91 दिन से179 दिन तक",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "91 दिन से179 दिन तक",
+      "tenure_min_days": 91,
+      "tenure_max_days": 179,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "180 दिन व इससे अधिक किन्‍तु 364 दिन तक",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "180 दिन व इससे अधिक किन्‍तु 364 दिन तक",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "180 दिन व इससे अधिक किन्‍तु 364 दिन तक",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "1 वर्ष व इससे अधिक किन्‍तु 3 वर्ष से कम",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "1 वर्ष व इससे अधिक किन्‍तु 3 वर्ष से कम",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "1 वर्ष व इससे अधिक किन्‍तु 3 वर्ष से कम",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "3 वर्ष व इससे अधिक किन्‍तु 5 वर्ष से कम",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "3 वर्ष व इससे अधिक किन्‍तु 5 वर्ष से कम",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "3 वर्ष व इससे अधिक किन्‍तु 5 वर्ष से कम",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    },
+    {
+      "tenure_text": "5 वर्ष एवं उससे अधिक",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 99999,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_1cr"
+    },
+    {
+      "tenure_text": "5 वर्ष एवं उससे अधिक",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 99999,
+      "rate_general_pct": 7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "1cr_to_10cr"
+    },
+    {
+      "tenure_text": "5 वर्ष एवं उससे अधिक",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 99999,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_10cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-04-03\" parses to 2023-04-03 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1207,
+    "last_scraped_at": "2026-06-06T19:38:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,217 @@
+[
+  {
+    "idx": 38,
+    "bank_code": "ajara-urban-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source table at aucb.bank.in/Deposit-Interest-Rates has 3 rate columns: General | Institution | Sr.Citizen. Pack used col2 (Institution) as the senior rate. True senior column is HIGHER than general (e.g. 8-45d Gen 3.25 / Sr.Citizen 3.50; 181-364d Gen 6.25 / Sr 6.50; 60-120mo Gen 6.50 / Sr 6.75). The shipped 'sr' values (2.75, 5.50, 5.25...) are the Institution column.",
+    "correct_data": [
+      {"tenure": "8 to 45 Days", "general": 3.25, "senior": 3.50},
+      {"tenure": "46 Days to 90 Days", "general": 4.50, "senior": 4.75},
+      {"tenure": "91 Days to 180 Days", "general": 5.25, "senior": 5.50},
+      {"tenure": "181 Days to 364 Days", "general": 6.25, "senior": 6.50},
+      {"tenure": "12 Month to 24 Month", "general": 7.25, "senior": 7.50},
+      {"tenure": "25 Month to 60 Month", "general": 6.75, "senior": 7.00},
+      {"tenure": "60 Month to 120 Month", "general": 6.50, "senior": 6.75}
+    ]
+  },
+  {
+    "idx": 39,
+    "bank_code": "balageria-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source table has 4 columns under General(<1Cr | 1-25Cr) and Senior(<1Cr | 1-25Cr). Pack mapped the General(1-25Cr) bulk column as 'sr'. The real Senior(<1Cr) column equals General(<1Cr) on most tenures and is higher on 1yr+ (e.g. 91-180d Gen 5.25 / Sr 5.25; 1Yr Gen 7.00 / Sr 7.50). Shipped sr values (4.35, 4.50, 4.75) are the bulk general column.",
+    "correct_data": [
+      {"tenure": "46-90 Days", "general": 4.50, "senior": 4.50},
+      {"tenure": "91-180 Days", "general": 5.25, "senior": 5.25},
+      {"tenure": "181-364 Days", "general": 5.50, "senior": 5.50},
+      {"tenure": "1 Year", "general": 7.00, "senior": 7.50},
+      {"tenure": "Above 1 Year to less than 3 Years", "general": 6.75, "senior": 7.00},
+      {"tenure": "3 Yrs. to 5 Yrs.", "general": 6.50, "senior": 6.75},
+      {"tenure": "More than 5 Yrs.", "general": 6.25, "senior": 6.50}
+    ]
+  },
+  {
+    "idx": 40,
+    "bank_code": "bank-of-ceylon",
+    "variant": "nre",
+    "verdict": "BUG",
+    "evidence": "boc.lk is the Sri Lankan parent's site; its 'USD FD' foreign-currency table has columns Period | Rate% | AER% (Annual Equivalent Rate). Pack used the AER column as 'senior' (03mo Rate 3.50 / AER 3.55; 02yr Rate 4.25 / AER 4.16). AER is not a senior rate. Also NRE deposits are INR with NO senior premium and should not carry USD-FD rates at all -- wrong product mapping. The 'USD FD' header row (g=1, sr=2.75) is a parse artifact from 'USD FD | 01 Month | 2.75'.",
+    "correct_data": [
+      {"tenure": "03 Months (USD FD Rate/AER, not general/senior)", "general": 3.50, "senior": null},
+      {"tenure": "06 Months", "general": 3.75, "senior": null},
+      {"tenure": "01 Year maturity", "general": 4.00, "senior": null},
+      {"tenure": "02 Year maturity", "general": 4.25, "senior": null}
+    ]
+  },
+  {
+    "idx": 41,
+    "bank_code": "bank-of-ceylon",
+    "variant": "nro",
+    "verdict": "BUG",
+    "evidence": "Identical to idx 40. The 'sr' column is the USD FD AER% column, not a senior rate. NRO is an INR product; the Sri Lankan USD foreign-currency FD table was wrongly mapped to the NRO variant. AER 3.55/3.79/4.16 etc. are annual-equivalent yields of the same general rate (3.50/3.75/4.25).",
+    "correct_data": [
+      {"tenure": "03 Months (Rate/AER columns)", "general": 3.50, "senior": null},
+      {"tenure": "06 Months", "general": 3.75, "senior": null},
+      {"tenure": "02 Year maturity", "general": 4.25, "senior": null}
+    ]
+  },
+  {
+    "idx": 42,
+    "bank_code": "bank-of-ceylon",
+    "variant": "fcnr",
+    "verdict": "BUG",
+    "evidence": "Same boc.lk USD FD table (Period | Rate% | AER%). Pack used AER% as senior. FCNR has no senior premium by definition, so a senior column should never have been populated. The values are a Sri Lankan domestic USD-FD product, not an Indian FCNR rate card; Rate vs AER columns were read as general vs senior.",
+    "correct_data": [
+      {"tenure": "03 Months USD (Rate/AER)", "general": 3.50, "senior": null},
+      {"tenure": "06 Months USD", "general": 3.75, "senior": null},
+      {"tenure": "02 Year maturity USD", "general": 4.25, "senior": null}
+    ]
+  },
+  {
+    "idx": 43,
+    "bank_code": "coastal-urban-co-operative-bank-ltdkollam",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "The FD table at coastalurban.bank.in/interest-rates.html has only Duration | Rate columns -- NO senior or super-senior column at all. The flagged super_senior_below_senior slab (g=11, sr=11.5, ss=11) is the HOUSING LOAN row from the separate loans table (Products | Rate | Duration), not a deposit. FD slabs have no senior/super-senior data.",
+    "correct_data": [
+      {"tenure": "HOUSING LOAN (not an FD; loan rate, no senior tier)", "general": 11.00, "senior": null}
+    ]
+  },
+  {
+    "idx": 44,
+    "bank_code": "haryana-gramin-bank",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source PDF (Less than Rs.2.00 Crore Callable) has columns General | Senior | Super-Senior. In the source super-senior is ALWAYS >= senior (e.g. 61-90d Gen 5.75 / Sr 6.25 / SuSr 6.40). Pack dropped the General column and shifted: shipped g=6.25(=Sr), sr=6.40(=SuSr), and ss was pulled from the separate Rs.2-10Cr bulk non-callable column (5.80/6.00/6.30), producing a false ss<sr. True super-senior >= senior on every tenure.",
+    "correct_data": [
+      {"tenure": "61 to 90 days", "general": 5.75, "senior": 6.25, "super_senior": 6.40},
+      {"tenure": "91 to 179 days", "general": 5.75, "senior": 6.25, "super_senior": 6.40},
+      {"tenure": "180 to 270 days", "general": 5.75, "senior": 6.25, "super_senior": 6.40},
+      {"tenure": "271 to 299 days", "general": 5.75, "senior": 6.25, "super_senior": 6.40}
+    ]
+  },
+  {
+    "idx": 45,
+    "bank_code": "howrah-district-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source has 4 columns: General(<1Cr) | General(>=1Cr) | Senior(<1Cr) | Affiliated Co-op. Pack used the General(>=1Cr) bulk column as the senior rate. Real Senior(<1Cr) equals General(<1Cr) on short tenures and is higher on 1yr+ (91-180d Gen 5.25 / Sr 5.25; 181-364d Gen 5.50 / Sr 5.50; 1Yr Gen 6.50 / Sr 7.00). Shipped sr (4.75, 4.85, 6.35) is the bulk general column.",
+    "correct_data": [
+      {"tenure": "91 days to 180 days", "general": 5.25, "senior": 5.25},
+      {"tenure": "181 days to 364 days", "general": 5.50, "senior": 5.50},
+      {"tenure": "1 Year", "general": 6.50, "senior": 7.00}
+    ]
+  },
+  {
+    "idx": 46,
+    "bank_code": "kanpur-zilla-sahakari-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source (dcbkanpur.com/intrest.php?id=1) Term Deposit table columns are 'Ex interest rates' (old) | 'Interest Rates effective 01/09/2021' (current) -- both for GENERAL public, not general/senior. Pack used the old rate as general and current rate as 'senior'. A SEPARATE 'Term Deposits for Senior Citizen' table below has higher rates (12mo Gen 5.30 vs Sr 5.60; >3yr Gen 5.20 vs Sr 5.75). Senior is genuinely higher.",
+    "correct_data": [
+      {"tenure": "12 months fixed deposit", "general": 5.30, "senior": 5.60},
+      {"tenure": "More than one year to two years", "general": 5.20, "senior": 5.60},
+      {"tenure": "More than 3 years", "general": 5.20, "senior": 5.75}
+    ]
+  },
+  {
+    "idx": 47,
+    "bank_code": "nadia-district-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source (ndcb.bank.in/interest-rate/) columns: सामान्य (General) | वरि0नाग0 (Senior) | बैंकर्स जमा (Bankers Deposit). Senior > General everywhere (1yr Gen 6.90 / Sr 7.40). There is NO super-senior column; the pack read the 'Bankers Deposit' column (=general, e.g. 6.90) as super-senior, producing false ss<sr. No genuine super-senior tier exists.",
+    "correct_data": [
+      {"tenure": "181 days to <1 year", "general": 5.75, "senior": 6.25, "super_senior": null},
+      {"tenure": "1 to 2 years", "general": 6.90, "senior": 7.40, "super_senior": null},
+      {"tenure": "2 to 3 years", "general": 7.00, "senior": 7.50, "super_senior": null},
+      {"tenure": "3 to 5 years", "general": 6.75, "senior": 7.25, "super_senior": null}
+    ]
+  },
+  {
+    "idx": 48,
+    "bank_code": "nasik-district-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Pack reused the SAME ndcb.bank.in page as idx 47 for a different bank (Nasik DCCB shares ndcb.bank.in in registry, but that site is Nadia DCCB's Hindi rate page). Same column issue: General | Senior | Bankers Deposit; senior > general; the 'Bankers Deposit' column was read as super-senior. No super-senior tier exists. NOTE: the source domain may not even belong to Nasik DCCB -- possible wrong-domain mapping in addition to the column bug.",
+    "correct_data": [
+      {"tenure": "1 to 2 years (per ndcb.bank.in source)", "general": 6.90, "senior": 7.40, "super_senior": null},
+      {"tenure": "2 to 3 years", "general": 7.00, "senior": 7.50, "super_senior": null}
+    ]
+  },
+  {
+    "idx": 49,
+    "bank_code": "raigad-district-central-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source (rdcc.bank.in/check-rates) FD rates are in spans with columns 'Above 1 Crore (Non Callable)' vs 'Below 1 crore' -- deposit-amount tiers, NOT general vs senior. There is NO senior column on the page. Pack used the Above-1Cr (callable) value as general and Below-1Cr as 'senior' (1Yr 8.05 vs 8.00; 2-3Yr 8.15 vs 8.10). No genuine senior data exists.",
+    "correct_data": [
+      {"tenure": "1 Year (above-1cr / below-1cr, both general)", "general": 8.05, "senior": null},
+      {"tenure": "1 Year To 2 Year", "general": 8.05, "senior": null},
+      {"tenure": "2 Year To 3 Year", "general": 8.15, "senior": null}
+    ]
+  },
+  {
+    "idx": 50,
+    "bank_code": "sharad-sahakari-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "COLUMNS SWAPPED. Source (sharadbank.bank.in/regularfixeddeposit) columns: Individuals | Senior&Staff | Bulk. Senior is HIGHER than general on every FD tenure (Up to 30d Ind 4.00 / Sr 4.25; 31-90d 4.50/5.00; 91-180d 5.75/6.00). Pack put the Senior rate in 'general' and the Individuals rate in 'senior'. True senior > general.",
+    "correct_data": [
+      {"tenure": "Up to 30 Days", "general": 4.00, "senior": 4.25},
+      {"tenure": "31 Days to 90 Days", "general": 4.50, "senior": 5.00},
+      {"tenure": "91 Days to 180 Days", "general": 5.75, "senior": 6.00},
+      {"tenure": "181 Days to 365 Days", "general": 6.50, "senior": 6.75},
+      {"tenure": "Above 12 Month to 18 Month", "general": 7.25, "senior": 7.50},
+      {"tenure": "Above 18 Month to 36 Month", "general": 7.50, "senior": 7.75}
+    ]
+  },
+  {
+    "idx": 51,
+    "bank_code": "south-indian-bank-limited",
+    "variant": "nre",
+    "verdict": "BUG",
+    "evidence": "SIB NRE FD source table (rendered via Playwright) has a SINGLE rate column 'Single Deposit less than Rs.3 crore' -- no senior or super-senior (NRE has no senior premium by RBI rule). The NRE KND table has columns ROI | Annualized Yield (also no senior tier). Pack fabricated senior/super-senior columns for the NRE variant -- the flagged super_senior_below_senior comparison is spurious. The g/sr pairs in the sample (e.g. 7d-30d 2.90/3.40) actually come from the DOMESTIC General|Senior table, not NRE.",
+    "correct_data": [
+      {"tenure": "1 year (NRE FD, single rate column)", "general": 6.25, "senior": null},
+      {"tenure": "Above 1 year to 371 days", "general": 5.85, "senior": null},
+      {"tenure": "18 months", "general": 6.60, "senior": null}
+    ]
+  },
+  {
+    "idx": 52,
+    "bank_code": "telangana-grameena-bank",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source (tgb.bank.in/deposit-interest-rates) columns: Below 1 Crore (Existing | Proposed w.e.f 10.02.2026) | 1 Crore & Above (Existing | Proposed). All four are GENERAL-public columns; there is NO senior column. Pack used Below-1Cr Existing as general and Below-1Cr Proposed as 'senior' (1-2yr Existing 7.15 / Proposed 6.45). Page note 4 states seniors get +0.50% over card rate for 1yr+. True senior = current general + 0.50%.",
+    "correct_data": [
+      {"tenure": "271 days to 364 days (Proposed general)", "general": 6.15, "senior": 6.15},
+      {"tenure": "1 year to <2 years", "general": 6.45, "senior": 6.95},
+      {"tenure": "2 year to <3 years", "general": 6.45, "senior": 6.95}
+    ]
+  },
+  {
+    "idx": 53,
+    "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source (akolaurban.bank.in/ql-intrest-rate-chart.php) columns: Rate of Interest | Senior Citizen | Bulk(Rs.100L+). Senior > general everywhere (1yr-3yr Gen 6.55 / Sr 7.05; 5-10yr Gen 6.50 / Sr 7.50). NO super-senior column. Pack read the Bulk-deposit general value (1yr-3yr 'General-6.65%') as super-senior, giving false ss(6.65)<sr(7.05). No super-senior tier exists.",
+    "correct_data": [
+      {"tenure": "1 Year to below 3 Year", "general": 6.55, "senior": 7.05, "super_senior": null},
+      {"tenure": "5 Years to 10 Years", "general": 6.50, "senior": 7.50, "super_senior": null}
+    ]
+  },
+  {
+    "idx": 54,
+    "bank_code": "the-nagaland-state-co-operative-bank-ltd",
+    "variant": "regular",
+    "verdict": "BUG",
+    "evidence": "Source (nscb.bank.in/nstcb-deposit/) FD table has paired Existing|Revised columns for: General | Senior | Staff | General(Above Rs.2Cr). Pack pulled the 'General (Above Rs.2.00 Crs)' bulk-tier column (07-14d Existing 5.25 / Revised 4.80) as if it were general/senior. The real retail General Revised vs Senior Revised shows senior > general (e.g. 1-2yr Gen 6.55 / Sr 6.75; 2-3yr Gen 6.75 / Sr 7.25). Shipped values mix the wrong (>2Cr) tier and existing/revised.",
+    "correct_data": [
+      {"tenure": "07 days to 14 days (General/Senior Revised, retail)", "general": 3.35, "senior": 3.85},
+      {"tenure": "181 days to <1 year", "general": 6.85, "senior": 6.80},
+      {"tenure": "1 year to <2 years", "general": 6.55, "senior": 6.75},
+      {"tenure": "2 years to <3 years", "general": 6.75, "senior": 7.25}
+    ]
+  }
+]

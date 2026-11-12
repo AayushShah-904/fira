@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "gandhidham-co-op-bank-limited",
+    "extracted_at": "2026-06-06T09:45:12.640Z",
+    "source": "bank-domains.json",
+    "source_sha": "843140279b1a69ef480c1b460897f0155a660abd975730a73cd6b29b04c0067c"
+  },
+  "domain": "gcbl.bank.in",
+  "rate_pages": {
+    "fd": "/page/98",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "/page/93",
+    "rd": "/page/95"
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered"
+}

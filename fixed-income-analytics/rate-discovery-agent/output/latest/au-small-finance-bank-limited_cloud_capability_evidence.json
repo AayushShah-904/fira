@@ -1,0 +1,23 @@
+{
+  "bank_code": "au-small-finance-bank-limited",
+  "observations": [
+    {
+      "ts": "2026-06-08T20:15:06.114Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T1957_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-xdxc51b"
+    },
+    {
+      "ts": "2026-06-08T21:50:44.603Z",
+      "signal": "crash",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T12:26:56.202Z",
+      "signal": "crash",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

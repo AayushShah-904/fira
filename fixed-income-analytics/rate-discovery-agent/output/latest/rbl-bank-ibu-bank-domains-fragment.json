@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "bank_code": "rbl-bank-ibu",
+    "extracted_at": "2026-06-05T14:29:22.658Z",
+    "source": "bank-domains.json",
+    "source_sha": "2498dc63e770088b033567527597217361fddd6106fad2f97bc33238fadbbb83"
+  },
+  "domain": "rbl.bank.in",
+  "rate_pages": {
+    "fd": "/gift-city",
+    "fd_gift": "https://rbl.bank.in/gift-city",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "fd_gift_prev": "/gift-city",
+    "fd_gift_fixed_at": "2026-05-25"
+  },
+  "scraper_type": "html_js",
+  "parent_bank_code": "rbl-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City. Rate page has callable (6 currencies, 10 slabs) and non-callable (3 currencies, 8 slabs) term deposits. Static HTML tables with .satable class.",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T11:20:53.901Z",
+    "run_method": "tier-2",
+    "tier2_method": "fetch_rates_playwright.js --scroll + cheerio parse of .satable div-tables from page_html",
+    "source_url": "https://rbl.bank.in/gift-city",
+    "slab_count": 84,
+    "hints": ".satable div-tables on /gift-city (playwright --scroll; NOT <table>); callable + non-callable via deposit_type",
+    "note": "Claude-powered Tier-2 retrieval; deterministic pipeline could not extract this layout"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "bank_code": "vellore-district-central-co-operative-bank-ltd",
+  "bank_name": "vellore-district-central-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 128916,
+  "duration_ms": 128916,
+  "duration_api_ms": 8166,
+  "num_turns": 3,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.050682,
+  "llm_cost_usd": 0.050682,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 21421,
+  "output_tokens": 980,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 30243,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://velloredccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30246,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://velloredccb.bank.in/deposit-rate.php\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30231,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.velloredccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30030,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.velloredccb.bank.in/deposit-rate.php\"}"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+  "bank_name": "Rajkot Nagrik Sahakari Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-12-12",
+  "source_url": "https://rnsb.bank.in/RNSB/fixed-term-deposit.php",
+  "scraped_at": "2026-04-12T12:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 179 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 179,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "180 Days to 364 Days",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.25,
+      "rate_senior_pct": 5.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year to 3 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 Years to 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years to less than 10 Years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3649,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "7 Days to 179 Days (Bulk Rs 100L+)",
+      "tenure_min_days": 7,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_100cr"
+    },
+    {
+      "tenure_text": "180 Days to 364 Days (Bulk Rs 100L+)",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_100cr"
+    },
+    {
+      "tenure_text": "1 Year to 3 Years (Bulk Rs 100L+)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_100cr"
+    },
+    {
+      "tenure_text": "3 Years to 5 Years (Bulk Rs 100L+)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_100cr"
+    },
+    {
+      "tenure_text": "5 Years to less than 10 Years (Bulk Rs 100L+)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3649,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "above_100cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior Citizen column header says 'Senior Citizen/Staff' — staff rates may be same as senior citizen rates",
+    "Bulk deposit threshold is Rs 100 Lakhs (1 Crore), mapped to above_100cr but actual threshold is 1cr",
+    "'Combined Eligibilities' column (bulk + senior) captured as senior rate within bulk deposit_range slabs"
+  ],
+  "errors": [],
+  "_safe_write_history": [
+    {
+      "attempted_at": "2026-06-09T17:45:10.617Z",
+      "attempted_source": "cloud-pull",
+      "attempted_extraction_method": "llm_inline_extraction",
+      "attempted_slab_count": 0,
+      "attempted_verdict": "empty",
+      "rejected_reason": "empty_overwrite_blocked",
+      "retained_extraction_method": null,
+      "retained_scraped_at": "2026-04-12T12:00:00Z",
+      "retained_slab_count": 10
+    }
+  ],
+  "data_quality": {
+    "freshness_status": "VERY_STALE",
+    "days_since_effective": 223,
+    "last_scraped_at": "2026-04-12T12:00:00Z",
+    "manual_verification_needed": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "bank_code": "nainital-bank-limited",
+  "bank_name": "nainital-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-09",
+  "source_url": null,
+  "scraped_at": "2026-06-09T12:10:13.812Z",
+  "extraction_method": "registry_skip",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Bank skipped at discovery time: discovery_status=curated:manual_transcription_from_rendered_text. Website known but no usable rate page. Re-run with --rates-only mode after a rate page URL is added to the registry."
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 44,
+    "last_scraped_at": "2026-06-09T12:10:13.812Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "bank_code": "the-akola-urban-co-operative-bank-ltd-akola",
+  "bank_name": "The Akola Urban Co-operative Bank Ltd., Akola",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "https://akolaurban.bank.in/ql-intrest-rate-chart.php",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "none",
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  },
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "Source host akolaurban.bank.in (103.159.239.24) resolves via DNS but TCP connection to :443 (and :80) times out from this environment across all transports: curl (multiple retries, up to 180s timeout), Playwright/Chromium (net::ERR_CONNECTION_TIMED_OUT), and WebFetch (ECONNREFUSED). Site previously timed out as well.",
+    "Intended column mapping (Rate of Interest -> rate_general_pct, Senior Citizen -> rate_senior_pct, Bulk Rs.100L+ -> separate above_100cr tier) could not be applied because no page content was retrieved. No rates fabricated."
+  ],
+  "errors": [
+    "Source page unreachable from extraction environment (connection timeout); FD rate table not retrieved."
+  ]
+}

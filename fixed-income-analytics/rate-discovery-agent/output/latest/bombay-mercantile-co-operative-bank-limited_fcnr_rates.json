@@ -1,0 +1,32 @@
+{
+  "bank_code": "bombay-mercantile-co-operative-bank-limited",
+  "bank_name": "Bombay Mercantile Co-operative Bank Limited",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "effective_date": "2025-06-01",
+  "source_url": "https://bmc.bank.in/deporates.php",
+  "scraped_at": "2026-05-21T00:08:13Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr",
+      "currency": "USD"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 417,
+    "last_scraped_at": "2026-05-21T00:08:13Z",
+    "manual_verification_needed": true
+  }
+}

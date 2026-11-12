@@ -1,0 +1,22 @@
+{
+  "bank_code": "citibank-na",
+  "bank_name": "citibank-na",
+  "bank_type": "FB",
+  "category": "Foreign Bank",
+  "state": "Maharashtra",
+  "website": "https://citigroup.com",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "fd_nre": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "fd_nro": "https://citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/deposit-rate.pdf",
+    "fd_fcnr": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-28T10:21:50.317Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

@@ -1,0 +1,135 @@
+{
+  "bank_code": "balasore-bhadrak-district-central-co-operative-bank-ltd",
+  "bank_name": "Balasore Bhadrak District Central Co-operative Bank Ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-06-01",
+  "source_url": "https://bbccb.bank.in/deposit.php",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 4.00,
+      "rate_senior_pct": 4.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15 to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 4.00,
+      "rate_senior_pct": 4.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": 5.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61 to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.50,
+      "rate_senior_pct": 5.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 4.75,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "121 to 180 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.00,
+      "rate_senior_pct": 5.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 to less then 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": 6.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Yr to less then 2 yrs",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 7.25,
+      "rate_senior_pct": 7.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Yrs to less then 3 yrs",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 to 5 yrs",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": 7.50,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 to less then 8 Yrs.",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2919,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "8 yrs to less then 10 yrs",
+      "tenure_min_days": 2920,
+      "tenure_max_days": 3649,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": 7.00,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Senior rate is published as a NOTE, not a table column: 'Additional interest @0.50% p.a. in case of senior citizen over and above existing rate (Not Applicable to PACS/LAMPCS)'. Applied rate_senior_pct = general + 0.50 to all FD maturity slabs. The general column used is the Revised CCB-level rate (PACS-level rates differ and some are 0.00).",
+    "No super-senior citizen tier is published; rate_super_senior_pct left null.",
+    "rate_general_pct taken from the 'Revised Indicative Rate of Interest -> At CCB level' column (the current revised card, effective 01.06.2023).",
+    "Excluded the deposit-amount table (Up to 3 lakh / Above 3 lakhs / Above 5 lakhs) - source note states those are Saving Deposit slabs, not FD maturity slabs; the prior extraction had mixed them into the FD list."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract-senior",
+    "sourced_at": "2026-05-26T00:00:00Z",
+    "senior_source": "note_premium",
+    "senior_premium_pct": 0.50,
+    "super_senior_premium_pct": null
+  }
+}

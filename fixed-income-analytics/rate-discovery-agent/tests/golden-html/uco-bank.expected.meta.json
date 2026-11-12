@@ -1,0 +1,13 @@
+{
+  "bank_code": "uco-bank",
+  "bank_name": "UCO Bank",
+  "bank_type": "PSB",
+  "state": "West Bengal",
+  "website": "https://uco.bank.in",
+  "rate_page_url": "https://uco.bank.in/en/web/guest/interest-rates-on-deposit-schemes",
+  "scraper_type": "html_static",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 31,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

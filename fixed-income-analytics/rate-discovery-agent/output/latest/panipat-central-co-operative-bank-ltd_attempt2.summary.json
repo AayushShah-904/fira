@@ -1,0 +1,66 @@
+{
+  "bank_code": "panipat-central-co-operative-bank-ltd",
+  "bank_name": "panipat-central-co-operative-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 68477,
+  "duration_ms": 68477,
+  "duration_api_ms": 7730,
+  "num_turns": 4,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.063912,
+  "llm_cost_usd": 0.063912,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 28692,
+  "output_tokens": 816,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 266,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dnb.com/\"}"
+    },
+    {
+      "name": "run_playwright",
+      "duration_ms": 60449,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://dnb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.dnb.com/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 2,
+    "slab_drift_detected": false,
+    "slab_drift_reason": null,
+    "domain_was_known": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bank_code": "sberbank",
+  "bank_name": "sberbank",
+  "category": "Foreign Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "foreign-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12764,
+  "duration_ms": 12764,
+  "duration_api_ms": 9255,
+  "num_turns": 3,
+  "tool_call_count": 3,
+  "total_cost_usd": 0.132884,
+  "llm_cost_usd": 0.132884,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 62638,
+  "output_tokens": 951,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 3508,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://sber.bank.in/bank-services/fixed-deposit-for-corporate-clients#layout_14_1\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/sberbank_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"sberbank\\\",\\n  \\\"bank_name\\\": \\\"sberbank\\\",\\n  \\\"bank_type\\\": \\\"FB\\\",\\n  \\\"catego"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/foreign-bank/sberbank_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"sberbank\\\",\\n  \\\"bank_name\\\": \\\"sberbank\\\",\\n  \\\"product_type\\\": \\\"FD\\\",\\n  \\\"vari"
+    }
+  ]
+}

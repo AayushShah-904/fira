@@ -1,0 +1,12 @@
+{
+  "bank_code": "canara-bank-ibu",
+  "bank_name": "canara-bank-ibu",
+  "bank_type": "IBU",
+  "state": "Gujarat",
+  "website": "https://canarabank.bank.in",
+  "scraper_type": "html_js",
+  "extraction_method": "llm_inline_extraction",
+  "slab_count": 32,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

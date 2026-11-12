@@ -1,0 +1,148 @@
+{
+  "bank_code": "model-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2023-01-01",
+  "source_url": "https://modelbank.bank.in/fixed-deposit",
+  "scraped_at": "2026-06-09T14:12:43.548Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 to 30 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 3.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 to 30 Days 3.50 3.50 3.50 3.50"
+    },
+    {
+      "tenure_text": "31 to 90 Days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "31 to 90 Days 4.50 4.25 4.75 4.50"
+    },
+    {
+      "tenure_text": "91 to 180 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5,
+      "rate_senior_pct": 5.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "91 to 180 Days 5.25 5.00 5.50 5.25"
+    },
+    {
+      "tenure_text": "181 to 270 Days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 270,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": 6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "181 to 270 Days 6.00 5.75 6.25 6.00"
+    },
+    {
+      "tenure_text": "271 to less than 1 year",
+      "tenure_min_days": 271,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6,
+      "rate_senior_pct": 6.25,
+      "rate_super_senior_pct": null,
+      "source_row_text": "271 to less than 1 year 6.25 6.00 6.50 6.25"
+    },
+    {
+      "tenure_text": "1 year (MIP/QIP/QRIP)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": 6.85,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 year (MIP/QIP/QRIP) 6.85 6.60 7.10 6.85"
+    },
+    {
+      "tenure_text": "More than 1 year to 2 Years (MIP/QIP/QRIP)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "More than 1 year to 2 Years (MIP/QIP/QRIP) 6.75 6.75 7.00 7.00"
+    },
+    {
+      "tenure_text": "15 Months # ",
+      "tenure_min_days": 450,
+      "tenure_max_days": 450,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "15 Months # 6.75 6.75 7.00 7.00"
+    },
+    {
+      "tenure_text": "More than 2 Years to 5 Years (MIP/QIP/QRIP)",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "More than 2 Years to 5 Years (MIP/QIP/QRIP) 6.50 6.25 6.75 6.50"
+    },
+    {
+      "tenure_text": "More than 5 Years to 10 Years (MIP/QIP/QRIP)",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "source_row_text": "More than 5 Years to 10 Years (MIP/QIP/QRIP) 6.50 6.25 6.75 6.50"
+    },
+    {
+      "tenure_text": "Recurring Deposits (1 Year to 10 Years)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 3650,
+      "rate_general_pct": null,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "Recurring Deposits (1 Year to 10 Years) As per FD rate As per FD rate As per FD rate As per FD rate"
+    },
+    {
+      "tenure_text": "MODEL MILLIONAIRE SCHEME (60 Months)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "MODEL MILLIONAIRE SCHEME (60 Months) 6.65 Instalment – Rs.14,032/- Maturity Amount – Rs.10,00,089/- 6.65 Instalment – Rs.14,032/- Maturity Amount – Rs.10,00,089/- 6.90 Instalment – Rs.13,940/- Maturity Amount – Rs.10,00,111/- 6.90 IInstalment – Rs.13,940/- Maturity Amount – Rs.10,00,111/-"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[0] (11 slabs) from 2 table(s); signals={\"pctRows\":12,\"tenureRows\":12,\"bothRows\":11,\"dataRows\":13,\"noisy\":true,\"colCount\":5}",
+    "llm_fallback: deterministic returned 11 slabs (suspect: multi_table=true too_few=false); LLM extracted 16 — using LLM",
+    "chunk[1]: source rows contain 4 rate values but only 2 rate columns are labeled; possible extra columns or formatting issue",
+    "chunk[1]: last tenure row '271 to less than 1 year' is incomplete or missing rates",
+    "rates-qc: effective_date \"01.01.2023\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2023-01-01\" parses to 2023-01-01 (year 2023 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1299,
+    "last_scraped_at": "2026-06-09T14:12:43.548Z",
+    "manual_verification_needed": true
+  }
+}

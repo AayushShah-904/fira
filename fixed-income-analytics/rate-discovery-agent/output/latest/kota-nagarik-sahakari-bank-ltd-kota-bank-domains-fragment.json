@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "bank_code": "kota-nagarik-sahakari-bank-ltd-kota",
+    "extracted_at": "2026-06-06T10:52:58.943Z",
+    "source": "bank-domains.json",
+    "source_sha": "708c3ddeefde72b8af43af3e828842df7e683be32f1c96d477966ae501d23643"
+  },
+  "domain": "kotanagrikbank.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://kotanagrikbank.com/interest-rates/",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_prev": "ktnsb.com",
+  "scraper_type": "html_js",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_tables",
+    "source_url": "https://kotanagrikbank.com/interest-rates/",
+    "slab_count": 7,
+    "hints": "kotanagrikbank.com/interest-rates; WebFetch hits 307 redirect, use Playwright",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  },
+  "template": {
+    "template_id": "coop-bankin-4col-tenure-general-senior",
+    "template_hash": "sha1:f79b6d745eb5e57ab3b8e4fa0c9e01021c782753",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "rate_general_pct",
+            "3": "rate_senior_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T17:06:51.517Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-05-20T23:08:31.595Z",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "succeeded": 37,
+  "failed": 0,
+  "rate_limited": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "name": "australia-and-new-zealand-banking-group-limited-ibu",
+      "status": "success",
+      "elapsed_sec": 49
+    },
+    {
+      "name": "axis-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 61
+    },
+    {
+      "name": "bank-of-maharashtra-ibu",
+      "status": "success",
+      "elapsed_sec": 21
+    },
+    {
+      "name": "bank-of-baroda-ibu",
+      "status": "success",
+      "elapsed_sec": 153
+    },
+    {
+      "name": "barclays-bank-plc-ibu",
+      "status": "success",
+      "elapsed_sec": 71
+    },
+    {
+      "name": "bnp-paribas-ibu",
+      "status": "success",
+      "elapsed_sec": 31
+    },
+    {
+      "name": "citi-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 81
+    },
+    {
+      "name": "canara-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 231
+    },
+    {
+      "name": "ctbc-bank-co-ltd-ibu",
+      "status": "success",
+      "elapsed_sec": 156
+    },
+    {
+      "name": "credit-agricole-corporate-investment-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 287
+    },
+    {
+      "name": "deutsche-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 17
+    },
+    {
+      "name": "dbs-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 50
+    },
+    {
+      "name": "federal-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 38
+    },
+    {
+      "name": "first-abu-dhabi-bank-pjsc-ibu",
+      "status": "success",
+      "elapsed_sec": 19
+    },
+    {
+      "name": "bank-of-india-ibu",
+      "status": "success",
+      "elapsed_sec": 636
+    },
+    {
+      "name": "hsbc-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 104
+    },
+    {
+      "name": "hdfc-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 108
+    },
+    {
+      "name": "idfc-first-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 134
+    },
+    {
+      "name": "idbi-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 172
+    },
+    {
+      "name": "indian-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 37
+    },
+    {
+      "name": "icici-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 354
+    },
+    {
+      "name": "jpmorgan-securities-plc-ibu",
+      "status": "success",
+      "elapsed_sec": 145
+    },
+    {
+      "name": "kotak-mahindra-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 253
+    },
+    {
+      "name": "mashreqbank-psc-ibu",
+      "status": "success",
+      "elapsed_sec": 36
+    },
+    {
+      "name": "mizuho-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 64
+    },
+    {
+      "name": "mufg-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 126
+    },
+    {
+      "name": "indusind-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 796
+    },
+    {
+      "name": "jp-morgan-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 742
+    },
+    {
+      "name": "punjab-national-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 90
+    },
+    {
+      "name": "rbl-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 198
+    },
+    {
+      "name": "societe-generale-ibu",
+      "status": "success",
+      "elapsed_sec": 25
+    },
+    {
+      "name": "standard-chartered-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 184
+    },
+    {
+      "name": "state-bank-of-india-ibu",
+      "status": "success",
+      "elapsed_sec": 75
+    },
+    {
+      "name": "natixis-ibu",
+      "status": "success",
+      "elapsed_sec": 780
+    },
+    {
+      "name": "sumitomo-mitsui-banking-corporation-ibu",
+      "status": "success",
+      "elapsed_sec": 42
+    },
+    {
+      "name": "qatar-national-bank-qpsc-ibu",
+      "status": "success",
+      "elapsed_sec": 763
+    },
+    {
+      "name": "yes-bank-ibu",
+      "status": "success",
+      "elapsed_sec": 871
+    }
+  ]
+}

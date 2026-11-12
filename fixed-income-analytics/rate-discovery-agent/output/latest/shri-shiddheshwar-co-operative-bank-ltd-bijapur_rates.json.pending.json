@@ -1,0 +1,23 @@
+{
+  "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+  "bank_name": "Shri Shiddheshwar Co-operative Bank Ltd Bijapur",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-06-06",
+  "source_url": "https://shiddeshwarbank.com/index.aspx?Cmd=Menu&Comp=Cms&Action=ArtById&MenuId=202&ArtId=37&PublicFile=INTEREST_RATES",
+  "scraped_at": "2026-06-06T07:14:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "special_schemes": [],
+  "warnings": [
+    "No rate data could be extracted. Both homepage and rate page timed out (30s). Site may be down, extremely slow, or blocking automated requests."
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 47,
+    "last_scraped_at": "2026-06-06T07:14:00Z",
+    "manual_verification_needed": false
+  }
+}

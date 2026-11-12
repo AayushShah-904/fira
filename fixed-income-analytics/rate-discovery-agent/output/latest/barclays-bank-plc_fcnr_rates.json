@@ -1,0 +1,158 @@
+{
+  "bank_code": "barclays-bank-plc",
+  "product_type": "FD",
+  "variant": "fcnr",
+  "source_url": "https://www.barclays.bank.in/content/dam/barclays-in/documents/schedule-charges/Deposit-Rates-below-3-Crore-10th-June-2026.pdf",
+  "scraped_at": "2026-06-15T12:46:33.335Z",
+  "effective_date": "2026-06-10",
+  "extraction_method": "automatic_ocr",
+  "extraction_confidence": "high",
+  "scraper_type": "pdf",
+  "rate_slabs": [
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.62,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.24,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 2.63,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 2.57,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.62,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "USD"
+    },
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 2.61,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 2.74,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 2.94,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 2.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 2.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "GBP"
+    },
+    {
+      "tenure_text": ">= 12 months < 24 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 0.94,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": ">= 24 months < 36 months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 1.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": ">= 36 months < 48 months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 1.31,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": ">= 48 months < 60 months",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 1.02,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    },
+    {
+      "tenure_text": "60 months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 0.57,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "currency": "EUR"
+    }
+  ],
+  "warnings": [
+    "Direct-extracted 2026-06-15 via Azure DI Layout from Table 2 (FCNR, 3rd in the PDF) of the consolidated \"Deposit Rates below 3 Crore\" PDF effective 2026-06-10. Tables 0 (Domestic FD), 1 (NRE), and 3 (RFC) on the same PDF are different products and not included here.",
+    "Operator-provided PDF URL 2026-06-15 — the bank-domains rate_pages.fd_fcnr URL was null prior to this; should be added."
+  ],
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 43,
+    "last_scraped_at": "2026-06-15T12:46:33.335Z",
+    "manual_verification_needed": false
+  }
+}

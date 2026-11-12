@@ -1,0 +1,19 @@
+{
+  "bank_code": "tripura-gramin-bank",
+  "bank_name": "tripura-gramin-bank",
+  "bank_type": "RRB",
+  "category": "Regional Rural Bank",
+  "state": "Tripura",
+  "website": "https://tripuragramin.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://tripuragramin.bank.in/tgb/16/child_menu/fixed-deposit"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T09:46:09.376Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

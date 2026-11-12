@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "bank_code": "karnal-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T18:46:25.813Z",
+    "source": "bank-domains.json",
+    "source_sha": "6b45a74ab1f84071130c68e56ef5b87180144af08acaf9f870376df306bc95f9"
+  },
+  "domain": "cbkarnal.com",
+  "rate_pages": {
+    "fd": "/rate-of-interest/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "pdf",
+  "domain_source": "discovered"
+}

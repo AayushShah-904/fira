@@ -1,0 +1,72 @@
+{
+  "bank_code": "the-junagadh-jilla-sahakari-bank-ltd",
+  "bank_name": "the-junagadh-jilla-sahakari-bank-ltd",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "agent_path": "llm",
+  "run_label": "district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 18050,
+  "duration_ms": 18050,
+  "duration_api_ms": 15747,
+  "num_turns": 4,
+  "tool_call_count": 4,
+  "total_cost_usd": 0.32849,
+  "llm_cost_usd": 0.32849,
+  "ocr_cost_usd": 0,
+  "ocr_pages": 0,
+  "input_tokens": 157177,
+  "output_tokens": 1767,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "fetch_url",
+      "duration_ms": 1262,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://thejjs.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 1041,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://thejjs.bank.in/fixed-deposit-account/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/district-central-co-operative-bank/the-junagadh-jilla-sahakari-bank-ltd_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-junagadh-jilla-sahakari-ban"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-06-05T0912_all/district-central-co-operative-bank/the-junagadh-jilla-sahakari-bank-ltd_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"the-junagadh-jilla-sahakari-bank"
+    }
+  ],
+  "failure_class": "partial_silent",
+  "phase_outcomes": {
+    "website": "found_committed",
+    "rate_page": "found",
+    "extraction": "succeeded"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "html_static",
+    "notes": "Recurring Deposit rates are stated as 'applicable as per term deposit rates'. No NRI/FCNR products for DCCB.",
+    "website_url": "https://thejjs.bank.in",
+    "rate_url_fd": "https://thejjs.bank.in/fixed-deposit-account/",
+    "slab_count": 7,
+    "extraction_confidence": "high",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 2,
+    "fetch_error_count": 0,
+    "slab_drift_detected": true,
+    "slab_drift_reason": "slab drift on regular: 7 < 0.8 * 22 (prior)",
+    "domain_was_known": true
+  }
+}

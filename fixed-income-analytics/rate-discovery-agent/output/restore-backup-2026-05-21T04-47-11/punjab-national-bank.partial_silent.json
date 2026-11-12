@@ -1,0 +1,6 @@
+{
+  "bank_code": "punjab-national-bank",
+  "reason": "slab drift on nre: 9 < 0.8 * 21 (floor)",
+  "detected_at": "2026-05-20T17:08:51.550Z",
+  "attempts": 3
+}

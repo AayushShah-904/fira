@@ -1,0 +1,95 @@
+{
+  "bank_code": "the-daman-and-diu-state-co-operative-bank-ltd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-01",
+  "source_url": "https://ddscbl.bank.in/Deposits.aspx",
+  "scraped_at": "2026-05-23T09:39:05.318Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 Days to 45 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 Days to 45 Days 3.50%"
+    },
+    {
+      "tenure_text": "46 Days to 179 Days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 179,
+      "rate_general_pct": 4.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "46 Days to 179 Days 4.50%"
+    },
+    {
+      "tenure_text": "180 Days to Less than one year",
+      "tenure_min_days": 180,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "180 Days to Less than one year 5.75%"
+    },
+    {
+      "tenure_text": "444 Days",
+      "tenure_min_days": 444,
+      "tenure_max_days": 444,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "444 Days 6.55%"
+    },
+    {
+      "tenure_text": "1 Year to Less than 2 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 Year to Less than 2 Year 6.50%"
+    },
+    {
+      "tenure_text": "2 Year to Less than 3 Year",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 Year to Less than 3 Year 6.45%"
+    },
+    {
+      "tenure_text": "3 Year to Less than 5 Year",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.45,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 Year to Less than 5 Year 6.45%"
+    },
+    {
+      "tenure_text": "5 Years to 10 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 Years to 10 Years 6.25%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 8"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 113,
+    "last_scraped_at": "2026-05-23T09:39:05.318Z",
+    "manual_verification_needed": true
+  }
+}

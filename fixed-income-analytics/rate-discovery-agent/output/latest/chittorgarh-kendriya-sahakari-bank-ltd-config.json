@@ -1,0 +1,44 @@
+{
+  "bank_code": "chittorgarh-kendriya-sahakari-bank-ltd",
+  "bank_name": "Chittorgarh Kendriya Sahakari Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://rscb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://rscb.bank.in",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "selectors": {
+    "table": "#slideoutr table",
+    "rows": "tbody tr",
+    "effective_date": "#slideoutr .bn-news ul li:first-child"
+  },
+  "column_mapping": {
+    "0": "tenure_text",
+    "1": "rate_below_25l_pct",
+    "2": "rate_25l_to_2cr_pct",
+    "3": "rate_2cr_and_above_pct"
+  },
+  "expected_slab_count": 15,
+  "notes": "Senior citizen premium +0.50% p.a. on FDRs & RDs as per homepage ticker. No separate senior table.",
+  "scraper_notes": {
+    "framework": ".NET server-rendered",
+    "bot_protection": null,
+    "data_format": "HTML table in floating sidebar",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "web_search + direct fetch",
+    "confidence": "high"
+  }
+}

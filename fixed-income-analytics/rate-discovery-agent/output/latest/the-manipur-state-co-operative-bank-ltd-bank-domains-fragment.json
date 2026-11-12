@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "the-manipur-state-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T12:32:20.451Z",
+    "source": "bank-domains.json",
+    "source_sha": "77c2b7b9f8572e9f96aba1880fec32d83f9656c0351c79a730b0a517d5ae8526"
+  },
+  "domain": "mscbmanipur.in",
+  "notes": "Established 1956. 15 CBS-enabled branches. No bank.in domain.",
+  "rate_pages": {
+    "fd": null
+  },
+  "discovery_status": "unreachable",
+  "gap_classification": {
+    "reason": "unreachable",
+    "discovery_status": "unreachable",
+    "classified_at": "2026-05-25",
+    "source": "tier-2-gap-sweep-2026-05-25",
+    "found_via": "registry_hint",
+    "notes": "Official site mscbmanipur.in re-verified ECONNREFUSED from this environment (homepage and /mscb-deposits-scheme/). Site lists deposit schemes but no numeric FD rate table is retrievable while host is unreachable. No .bank.in domain. Retry when reachable."
+  }
+}

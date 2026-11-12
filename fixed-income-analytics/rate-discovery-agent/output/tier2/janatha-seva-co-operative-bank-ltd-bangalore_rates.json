@@ -1,0 +1,24 @@
+{
+  "bank_code": "janatha-seva-co-operative-bank-ltd-bangalore",
+  "bank_name": "janatha seva co operative bank ltd bangalore",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-01-01",
+  "source_url": "https://jscbl.bank.in/page/91",
+  "scraped_at": "2026-05-25T18:05:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "31-90 days", "tenure_min_days": 31, "tenure_max_days": 90, "rate_general_pct": 5.00, "rate_senior_pct": 5.50, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "91-180 days", "tenure_min_days": 91, "tenure_max_days": 180, "rate_general_pct": 5.50, "rate_senior_pct": 6.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "181-365 days", "tenure_min_days": 181, "tenure_max_days": 365, "rate_general_pct": 6.25, "rate_senior_pct": 6.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 12-18 months", "tenure_min_days": 366, "tenure_max_days": 540, "rate_general_pct": 7.50, "rate_senior_pct": 8.00, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 19-36 months", "tenure_min_days": 571, "tenure_max_days": 1080, "rate_general_pct": 7.25, "rate_senior_pct": 7.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" },
+    { "tenure_text": "Above 37-60 months", "tenure_min_days": 1111, "tenure_max_days": 1800, "rate_general_pct": 7.25, "rate_senior_pct": 7.75, "rate_super_senior_pct": null, "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [
+    { "name": "Janatha Seva Samruddhi Deposit (quarterly payout, w.e.f. 01.09.2025)", "tenure_text": "21 months", "tenure_min_days": 630, "tenure_max_days": 630, "rate_general_pct": 7.80, "rate_senior_pct": 8.30 }
+  ],
+  "warnings": ["Senior citizen rates shown explicitly (+0.50%). Savings rate 3.50%."],
+  "errors": [],
+  "tier2_method": "webfetch"
+}

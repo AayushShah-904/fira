@@ -1,0 +1,17 @@
+{
+  "bank_code": "sumitomo-mitsui-banking-corporation-ibu",
+  "observations": [
+    {
+      "ts": "2026-06-08T23:44:54.803Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-08T2024_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-n55y5dr"
+    },
+    {
+      "ts": "2026-06-09T14:27:41.535Z",
+      "signal": "cloud_succeeded",
+      "run_label": "2026-06-09T1048_all",
+      "execution_name": "caj-bofia-rate-discovery-prod-550ptm4"
+    }
+  ]
+}

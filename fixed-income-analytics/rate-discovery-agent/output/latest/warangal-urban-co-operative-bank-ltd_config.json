@@ -1,0 +1,19 @@
+{
+  "bank_code": "warangal-urban-co-operative-bank-ltd",
+  "bank_name": "warangal-urban-co-operative-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Telangana",
+  "website": "https://dnb.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:59:40.599Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

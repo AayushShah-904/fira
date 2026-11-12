@@ -1,0 +1,50 @@
+{
+  "bank_code": "kanara-district-central-co-operative-bank-ltd",
+  "bank_name": "kanara-district-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 8887,
+  "duration_ms": 8887,
+  "duration_api_ms": 8622,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0086164,
+  "input_tokens": 18817,
+  "output_tokens": 681,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Kanara District Central Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanaradccb.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 33,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanaradccb.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 172,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanaradccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 30,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://kanaradccb.in/\"}"
+    }
+  ]
+}

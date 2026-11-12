@@ -1,0 +1,51 @@
+{
+  "bank_code": "national-housing-bank-nhb",
+  "bank_name": "National Housing Bank (NHB)",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2016-12-05",
+  "source_url": "https://www.nhb.org.in/deposits-and-bonds/deposit-schemes/nhb-sunidhi-term-deposit-scheme/",
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "12 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "24 Months",
+      "tenure_min_days": 730,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": 7.35,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "36 Months",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": 7.60,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "60 Months",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 7.00,
+      "rate_senior_pct": 7.60,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": ["NHB Sunidhi scheme; minimum deposit Rs. 50,000 in multiples of Rs. 10,000. Senior citizens get +0.60% p.a. Effective date (w.e.f. 05/12/2016) is the page-stated rate-revision date; rates have not changed on the public page since."],
+  "tier2_method": "webfetch"
+}

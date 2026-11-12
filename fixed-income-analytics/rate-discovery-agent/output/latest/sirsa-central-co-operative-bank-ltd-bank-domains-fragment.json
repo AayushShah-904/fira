@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "bank_code": "sirsa-central-co-operative-bank-ltd",
+    "extracted_at": "2026-06-05T18:47:54.647Z",
+    "source": "bank-domains.json",
+    "source_sha": "cedc199f88a31158f58ab3cc2faacee37e3534061ee8e40ddcce12fdde42ddeb"
+  },
+  "domain": "coopbksirsa.com",
+  "domain_source": "discovered",
+  "rate_pages": {
+    "fd": "https://coopbksirsa.com/rate-of-interest-on-fd/",
+    "fd_prev": null,
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_prev": "askbankifsccode.com",
+  "scraper_type": "html_js",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T15:54:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "playwright_tables",
+    "source_url": "https://coopbksirsa.com/rate-of-interest-on-fd/",
+    "slab_count": 7,
+    "hints": "coopbksirsa.com Revised-rate column; general only, senior +0.50% noted not tabulated",
+    "note": "Claude-powered Tier-2 retrieval (breadth-nourl 2026-05-25); deterministic pipeline could not discover/extract this layout"
+  },
+  "template": {
+    "template_id": "dccb-2col-revised-rate",
+    "template_hash": "sha1:9a9e3c79119a5868b14f2a8829239a45eb388996",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "ignore",
+            "1": "tenure_text",
+            "2": "ignore",
+            "3": "rate_general_pct"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T17:06:51.517Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

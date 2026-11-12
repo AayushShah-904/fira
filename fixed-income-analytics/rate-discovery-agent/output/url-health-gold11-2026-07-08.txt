@@ -1,0 +1,82 @@
+
+#### yes-bank-limited  [yes.bank.in]
+  ? fd                 200 LIVE-SUSPECT text/html
+      https://yes.bank.in/rates-and-charges
+  ? fd_fcnr            200 LIVE-SUSPECT text/html
+      https://yes.bank.in/pdf?name=nri_interest_rates_pdf.pdf
+
+#### yes-bank-ibu
+  (no NRI rate URLs in registry)
+
+#### axis-bank-limited  [axis.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_nre             200 LIVE-OK      text/html
+  ✓ fd_fcnr            200 LIVE-OK      pdf
+  ✗ fd_nri_combined    404 DEAD         text/html; charset=utf-8
+      https://axis.bank.in/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-13-june-26.pdf
+  ✗ fd_pdf_nri_plus    404 DEAD         text/html; charset=utf-8
+      https://axis.bank.in/docs/default-source/default-document-library/interest-rates/nri-fixed-deposits-plus-13-june-26.pdf
+
+#### axis-bank-ibu  [axis.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_gift            200 LIVE-OK      pdf
+
+#### au-small-finance-bank-limited  [au.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_fcnr            200 LIVE-OK      text/html
+
+#### icici-bank-limited  [icici.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_nre             200 LIVE-OK      text/html
+  ✓ fd_fcnr            200 LIVE-OK      text/html
+
+#### icici-bank-ibu  [icici.bank.in]
+  ✗ fd                 404 DEAD         text/html;charset=utf-8
+      https://icici.bank.in/personal-banking/fixed-deposit/fd-interest-rates
+  ✓ fd_gift            200 LIVE-OK      text/html
+
+#### rbl-bank-limited  [rbl.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+
+#### rbl-bank-ibu  [rbl.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+
+#### idfc-first-bank-limited  [idfcfirst.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_nre             200 LIVE-OK      text/html
+  ✓ fd_nro             200 LIVE-OK      text/html
+  ✓ fd_fcnr            200 LIVE-OK      text/html
+
+#### idfc-first-bank-ibu  [idfcfirst.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_gift            200 LIVE-OK      pdf
+
+#### canara-bank  [canarabank.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+
+#### canara-bank-ibu  [canarabank.bank.in]
+  ✗ fd                 404 DEAD         text/html
+      https://canarabank.bank.in/pages/ifsc-banking-unit
+  ✓ fd_gift            200 LIVE-OK      text/html
+
+#### indian-overseas-bank  [iob.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✗ fd_nre             404 DEAD         text/html;charset=UTF-8
+      https://iob.bank.in/en/retail-deposit-interest-rates-domestic-nro-and-nre
+  ✗ fd_fcnr            404 DEAD         text/html;charset=UTF-8
+      https://iob.bank.in/en/fcnr-rates
+
+#### bank-of-maharashtra  [bankofmaharashtra.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_nre             200 LIVE-OK      text/html
+  ✓ fd_fcnr            200 LIVE-OK      text/html
+
+#### bank-of-maharashtra-ibu  [bankofmaharashtra.bank.in]
+  ✓ fd_gift            200 LIVE-OK      text/html
+
+#### saraswat-co-operative-bank-ltd  [saraswat.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html
+  ✓ fd_nre             200 LIVE-OK      text/html
+
+#### cosmos-co-operative-bank-ltd  [cosmos.bank.in]
+  ✓ fd                 200 LIVE-OK      text/html

@@ -1,0 +1,19 @@
+{
+  "bank_code": "axis-bank-ibu",
+  "bank_name": "axis-bank-ibu",
+  "bank_type": "IBU",
+  "category": "IFSC Banking Unit (IFSCA)",
+  "state": "Gujarat",
+  "website": "https://axis.bank.in",
+  "scraper_type": "pdf",
+  "rate_page_urls": {
+    "fd_gift": "https://axis.bank.in/docs/default-source/default-document-library/axis-bank-gift-city-ibu-fixed-deposit-rate-chart.pdf"
+  },
+  "deposit_insurance": false,
+  "discovery_metadata": {
+    "discovered_at": "2026-11-12T09:23:01.397Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_pdf"
+}

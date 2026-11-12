@@ -1,0 +1,44 @@
+{
+  "bank_code": "eluru-district-co-operative-central-bank-ltd-",
+  "bank_name": "Eluru District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://elurudccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://elurudccb.bank.in/term-deposits/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://elurudccb.bank.in/saving/",
+    "rd": "https://elurudccb.bank.in/recurring-deposits/"
+  },
+  "selectors": {
+    "table": "table",
+    "rows": "tbody tr",
+    "effective_date": null
+  },
+  "column_mapping": {
+    "0": "sno",
+    "1": "tenure_text",
+    "2": "rate_general_pct"
+  },
+  "expected_slab_count": 6,
+  "notes": "WordPress + Elementor. HTML table rendered by Elementor; accessible via WP REST API. Senior citizen premium is listed separately as 0.50%.",
+  "scraper_notes": {
+    "framework": "WordPress + Elementor",
+    "bot_protection": null,
+    "data_format": "HTML table",
+    "rate_tables_on_page": 1,
+    "has_tabs": false,
+    "has_dropdowns": false,
+    "has_lazy_loading": false
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+05:30",
+    "discovery_method": "domain pre-lookup + page fetch",
+    "confidence": "high"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

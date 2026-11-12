@@ -1,0 +1,83 @@
+{
+  "bank_code": "cosmos-co-operative-bank-ltd",
+  "variant": "nre",
+  "slab_count": 6,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "Only 1 year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 12 months to less than 16 months",
+      "tenure_min_days": 366,
+      "tenure_max_days": 480,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "16 months",
+      "tenure_min_days": 480,
+      "tenure_max_days": 480,
+      "rate_general_pct": 7.05,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 16 months to 24 months",
+      "tenure_min_days": 481,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.85,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 24 months to 36 months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.65,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 36 months to 10 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "warnings": [
+    "No senior citizen premium for NRE deposits."
+  ],
+  "key_rates": {
+    "1y": {
+      "general": 6.85,
+      "senior": null
+    },
+    "2y": {
+      "general": 6.85,
+      "senior": null
+    },
+    "3y": {
+      "general": 6.65,
+      "senior": null
+    },
+    "5y": {
+      "general": 6.75,
+      "senior": null
+    }
+  }
+}

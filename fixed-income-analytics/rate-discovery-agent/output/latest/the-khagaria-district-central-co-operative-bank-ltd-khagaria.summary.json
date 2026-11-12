@@ -1,0 +1,56 @@
+{
+  "bank_code": "the-khagaria-district-central-co-operative-bank-ltd-khagaria",
+  "bank_name": "The Khagaria District Central Co-operative Bank Ltd., Khagaria",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 15291,
+  "duration_ms": 15291,
+  "duration_api_ms": 15062,
+  "num_turns": 7,
+  "tool_call_count": 6,
+  "total_cost_usd": 0.0140812,
+  "input_tokens": 32399,
+  "output_tokens": 701,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Khagaria District Central Co-operative Bank Ltd., Khagaria\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khagariadccb.bank.in\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"The Khagaria District Central Co-operative Bank Ltd., Khagaria official website india\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khagariadccb.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 146,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khagariadccb.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://khagaria-dccb.co.in\"}"
+    }
+  ]
+}

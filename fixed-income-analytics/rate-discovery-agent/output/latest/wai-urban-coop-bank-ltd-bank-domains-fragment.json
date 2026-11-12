@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "bank_code": "wai-urban-coop-bank-ltd",
+    "extracted_at": "2026-06-06T09:12:28.562Z",
+    "source": "bank-domains.json",
+    "source_sha": "a6fec7ccbc4db10ed74d806647adfe85c682f694d34fb9d7e82b5d22b2b33ba3"
+  },
+  "domain": "waibank.co.in",
+  "notes": "Official site found (waibank.co.in), but no specific FD or savings rate pages visible in search results.",
+  "rate_pages": {
+    "fd": "/deposit-interest-rate"
+  },
+  "scraper_type": "html_static"
+}

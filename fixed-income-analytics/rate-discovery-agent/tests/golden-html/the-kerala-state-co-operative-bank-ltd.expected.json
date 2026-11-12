@@ -1,0 +1,27 @@
+{
+  "bank_code": "the-kerala-state-co-operative-bank-ltd",
+  "variant": "regular",
+  "slab_count": 19,
+  "key_rates": {
+    "5y": {
+      "general": 10.95,
+      "senior": 3
+    },
+    "3y": {
+      "general": 10.95,
+      "senior": null
+    },
+    "1y": {
+      "general": 10.95,
+      "senior": null
+    },
+    "2y": {
+      "general": 12.2,
+      "senior": null
+    }
+  },
+  "effective_date": "30.06.2025",
+  "source_url": "https://kerala.bank.in/rate.php",
+  "captured_from": "tmp/baseline-pre-reset",
+  "captured_at": "2026-05-23T19:47:54.049Z"
+}

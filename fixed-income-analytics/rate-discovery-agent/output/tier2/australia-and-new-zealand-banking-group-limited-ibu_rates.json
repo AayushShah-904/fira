@@ -1,0 +1,21 @@
+{
+  "bank_code": "australia-and-new-zealand-banking-group-limited-ibu",
+  "bank_name": "Australia and New Zealand Banking Group Limited – IBU",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "wholesale_no_retail",
+  "website_metadata": {
+    "domain": "anz.com",
+    "found_via": "websearch",
+    "notes": "ANZ's GIFT City IFSC Banking Unit page (anz.com/institutional/global/india/en/gift-city/) lists only Foreign Currency Loans and Buyer's Credit for institutional and corporate clients. No term/fixed deposit product and no published interest-rate table. Wholesale-only IBU."
+  },
+  "warnings": [
+    "IBU bank type; FCNR/GIFT-style currency deposits not offered to retail."
+  ],
+  "tier2_method": "websearch+webfetch"
+}

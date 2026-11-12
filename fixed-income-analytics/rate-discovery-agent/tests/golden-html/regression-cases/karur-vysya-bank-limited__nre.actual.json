@@ -1,0 +1,88 @@
+{
+  "bank_code": "karur-vysya-bank-limited",
+  "variant": "nre",
+  "slab_count": 7,
+  "from": "tmp/baseline-pre-reset",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year to up to 399 Days",
+      "tenure_min_days": 365,
+      "tenure_max_days": 399,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "400 Days",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 7.2,
+      "rate_senior_pct": 7.4,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "401 Days up to 2 Years",
+      "tenure_min_days": 401,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 2 years up to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 3 years up to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": 6.71,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "Above 5 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": null
+    },
+    {
+      "tenure_text": "2345 days)",
+      "tenure_min_days": 2345,
+      "tenure_max_days": 2345,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.4,
+      "rate_super_senior_pct": null
+    }
+  ],
+  "extraction_method": "automatic_text_pattern",
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[2]: why)",
+    "text_pattern_fallback: deterministic + LLM returned 0 usable; recovered 14 slab(s) from page text"
+  ],
+  "key_rates": {
+    "1y": {
+      "general": 6.55,
+      "senior": 6.71
+    },
+    "2y": {
+      "general": 6.55,
+      "senior": 6.71
+    },
+    "3y": {
+      "general": 6.55,
+      "senior": 6.71
+    },
+    "5y": {
+      "general": 6.55,
+      "senior": 6.71
+    }
+  }
+}

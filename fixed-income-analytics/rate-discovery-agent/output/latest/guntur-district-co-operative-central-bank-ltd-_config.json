@@ -1,0 +1,33 @@
+{
+  "bank_code": "guntur-district-co-operative-central-bank-ltd-",
+  "bank_name": "Guntur District Co-operative Central Bank Ltd.",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "website": "https://gunturdccb.bank.in",
+  "scraper_type": "manual",
+  "rate_page_urls": {
+    "fd": "https://gunturdccb.bank.in/term-deposit/",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": "https://gunturdccb.bank.in/saving-deposits/",
+    "rd": "https://gunturdccb.bank.in/recurring-deposit-%ef%bf%bc/"
+  },
+  "selectors": {},
+  "column_mapping": {},
+  "expected_slab_count": 0,
+  "notes": "No fixed deposit interest rates are published on the website. Only generic product descriptions and eligibility. For actual rates, customers are instructed to contact the nearest branch.",
+  "scraper_notes": {
+    "framework": "WordPress (Elementor/Astra)",
+    "bot_protection": null,
+    "data_format": "No rate tables or numbers present. Manual inquiry required.",
+    "rate_tables_on_page": 0
+  },
+  "discovery_metadata": {
+    "discovered_at": "2026-05-08T19:11:00+00:00",
+    "discovery_method": "homepage + deposit product pages",
+    "confidence": "none"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

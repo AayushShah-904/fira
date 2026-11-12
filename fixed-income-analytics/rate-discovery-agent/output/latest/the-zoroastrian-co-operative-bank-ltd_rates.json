@@ -1,0 +1,133 @@
+{
+  "bank_code": "the-zoroastrian-co-operative-bank-ltd",
+  "scraped_at": "2026-05-13T18:46:06.725Z",
+  "source_url": "https://zoroastrianbank.bank.in/download/InterestRates-Deposits.pdf",
+  "effective_date": "2025-06-16",
+  "extraction_method": "stale_needs_refresh",
+  "extraction_confidence": "high",
+  "run_method": null,
+  "stale": false,
+  "rate_slabs": [
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3,
+      "rate_senior_pct": 3.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46 days to 90 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 90,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 4.25,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91 days to 180 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 180,
+      "rate_general_pct": 4.25,
+      "rate_senior_pct": 4.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "181 days to less than a year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 5.5,
+      "rate_senior_pct": 5.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 year upto 15 months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 15 months up to 2 years",
+      "tenure_min_days": 456,
+      "tenure_max_days": 730,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 2 years up to 3 years",
+      "tenure_min_days": 731,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 6.75,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 3 years up to 5 years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Over 5 years up to 10 years",
+      "tenure_min_days": 1826,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Special Deposits under Sec. 80C of the IT Act",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": 6.5,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Could not parse tenure: \"181\t \tdays\t \tto\t \tless\t \tthan\t \ta\t \tyear\" (normalized: \"181\t \tdays\t \tto\t \tless\t \tthan\t \ta\t \tyear\")",
+    "Could not parse tenure: \"1\t \tyear upto\t \t15\t \tmonths\" (normalized: \"1\t \tyear upto\t \t15\t \tmonths\")",
+    "Could not parse tenure: \"Over\t \t15\t \tmonths up\t \tto\t \t2\t \tyears\" (normalized: \"Over\t \t15\t \tmonths up\t \tto\t \t2\t \tyears\")",
+    "Could not parse tenure: \"Over\t \t2\t \tyears\t \tup\t \tto\t \t3\t \tyears\" (normalized: \"Over\t \t2\t \tyears\t \tup\t \tto\t \t3\t \tyears\")",
+    "Could not parse tenure: \"Over\t \t3\t \tyears\t \tup\t \tto\t \t5\t \tyears\" (normalized: \"Over\t \t3\t \tyears\t \tup\t \tto\t \t5\t \tyears\")",
+    "Could not parse tenure: \"Over\t \t5\t \tyears\t \tup\t \tto\t \t10\t \tyears\" (normalized: \"Over\t \t5\t \tyears\t \tup\t \tto\t \t10\t \tyears\")",
+    "Could not parse tenure: \"1\t \tYear\t \tupto\t \t15\t \tMonths\" (normalized: \"1\t \tYear\t \tupto\t \t15\t \tMonths\")",
+    "Could not parse tenure: \"Over\t \t15\t \tMonths\t \tupto\t \t2\t \tYears\" (normalized: \"Over\t \t15\t \tMonths\t \tupto\t \t2\t \tYears\")",
+    "Could not parse tenure: \"Over\t \t3\t \tYears\t \tupto\t \t5\t \tYears\" (normalized: \"Over\t \t3\t \tYears\t \tupto\t \t5\t \tYears\")",
+    "Could not parse tenure: \"Over\t \t5\t \tYears\t \tupto\t \t10\t \tYears\" (normalized: \"Over\t \t5\t \tYears\t \tupto\t \t10\t \tYears\")",
+    "LLM-verified after sanity-gate flagged deterministic output.",
+    "Senior Citizens get 0.25% higher interest than general rates except for NRE deposits.",
+    "NRE Term Deposits minimum tenure is one year; no interest if withdrawn before one year.",
+    "Staff and Ex-Staff members get 0.50% extra interest; staff/ex-staff above 60 years get combined benefits up to 0.75% p.a.",
+    "Premature withdrawal penalty of 1% interest applies after 15 days.",
+    "Rates apply for single rupee term deposits less than Rs. 1 crore; bulk deposits (>= Rs. 1 crore) may get special rates with approval."
+  ],
+  "_best_per_variant_picked": {
+    "picked_at": "2026-06-11T13:30:00.000Z",
+    "picked_from": "pack:2026-05-14",
+    "rule": "fill_empty",
+    "reason": "best_per_variant_chooser_2026-06-11_v2"
+  },
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 402,
+    "last_scraped_at": "2026-05-13T18:46:06.725Z",
+    "manual_verification_needed": true
+  }
+}

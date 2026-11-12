@@ -1,0 +1,19 @@
+{
+  "bank_code": "modern-co-op-bank-ltd-chalisgaon-jalgaon",
+  "bank_name": "modern co op bank ltd chalisgaon jalgaon",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No own website found for The Modern Co-op Bank Ltd (Chalisgaon, Jalgaon dist, Maharashtra). Only aggregator/IFSC-directory presence (codeforbanks, prokerala). IFSC HDFC0CMCBLC is hosted under sponsor HDFC Bank. Registry hint 'bankifsccode.com' is a directory, not the bank."
+  },
+  "warnings": ["Distinct from Jalgaon DCCB and Jalgaon Peoples Co-op Bank, which do have sites."],
+  "tier2_method": "websearch+webfetch"
+}

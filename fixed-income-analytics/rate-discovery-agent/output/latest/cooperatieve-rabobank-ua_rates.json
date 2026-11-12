@@ -1,0 +1,154 @@
+{
+  "bank_code": "cooperatieve-rabobank-ua",
+  "bank_name": "Cooperatieve Rabobank U.A.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2021-10-01",
+  "source_url": "https://media.rabobank.com/m/6a5d11a8d3455a6/original/Rabobank-deposit-rates-20211001.pdf",
+  "scraped_at": "2026-05-13T18:06:32.464Z",
+  "extraction_method": "automatic_pdf",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "07days - 14 Days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "15Days - 29 Days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 29,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "30Days - 45Days",
+      "tenure_min_days": 30,
+      "tenure_max_days": 45,
+      "rate_general_pct": 2.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "46Days - 60days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "61Days - 90Days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "91Days - 181 Days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 181,
+      "rate_general_pct": 2.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "182Days - 270Days",
+      "tenure_min_days": 182,
+      "tenure_max_days": 270,
+      "rate_general_pct": 2.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "271Days - 366Days",
+      "tenure_min_days": 271,
+      "tenure_max_days": 366,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "367 days-2Years",
+      "tenure_min_days": 367,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "> 2Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year to less than 2 Years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years to less than 3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 Years to 5 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1825,
+      "rate_general_pct": 3.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "2026-05-16: Operator spot-fix slab[8] tenure parsing (367 days-2Years → 367-730 days). Previous agent emission had min=133955 (multiplied 367 by 365 days/year erroneously). Parser extended to handle hyphen-separator (scripts/utils/parse-tenure.js).",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained",
+    "rates-qc: effective_date \"2021-10-01\" parses to 2021-10-01 (year 2021 < 2024) — EXTREMELY STALE rate date retained"
+  ],
+  "errors": [],
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 1756,
+    "last_scraped_at": "2026-05-13T18:06:32.464Z",
+    "manual_verification_needed": true
+  }
+}

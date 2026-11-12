@@ -1,0 +1,151 @@
+{
+  "bank_code": "bank-of-india",
+  "bank_name": "Bank of India",
+  "product_type": "FD",
+  "variant": "nre",
+  "effective_date": "2026-05-18",
+  "source_url": "https://bankofindia.bank.in/interest-rates-on-deposit",
+  "scraped_at": "2026-05-26T00:00:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1 Year",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 2 Years",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "2 Years to less than 3 Years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.60,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "3 Years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 6.70,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "Above 3 Years to less than 5 Years",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "5 Years to less than 8 Years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2920,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "8 years & above to up to 10 Years",
+      "tenure_min_days": 2921,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_3cr"
+    },
+    {
+      "tenure_text": "1 Year (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 365,
+      "tenure_max_days": 365,
+      "rate_general_pct": 6.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "Above 1 Year to less than 2 Years (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 366,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.25,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "2 Years to less than 3 Years (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.00,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "3 Years (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1095,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "Above 3 Years to less than 5 Years (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 1096,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "5 Years to less than 8 Years (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2920,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    },
+    {
+      "tenure_text": "8 years & above to up to 10 Years (Rs.3 cr & above but less than Rs.10 cr)",
+      "tenure_min_days": 2921,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 5.50,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "3cr_to_5cr"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "VERIFIED via Playwright (Firefox engine) to defeat the Cloudflare WAF that blocked curl (403). The page heading for this table reads exactly 'Rates for NRE Rupee Term Deposits (CALLABLE)', confirming these are the genuine NRE rates, w.e.f 18.05.2026.",
+    "The genuine NRE callable table has 7 tenure rows (1Y through 8-10Y), all >= 1 year (NRE has no sub-year deposits). The prior baseline expectation of 11 rows was WRONG; the current output/latest file (7 below_3cr slabs) is CORRECT for the retail tier. Slabs 1-7 here exactly match it.",
+    "Added 7 additional slabs (deposit_range '3cr_to_5cr') for the bank's second NRE column. Bank of India labels that column 'Rs.3 cr & above but less than Rs.10 cr' (band 3cr-10cr), wider than the schema's 3cr_to_5cr bucket; mapped to the nearest bucket and noted in each tenure_text.",
+    "NRE rates are denominated in INR. No senior-citizen premium for NRE (rate_senior_pct null). FCNR and RFC rates are on separate tables (same page) and are out of scope for this NRE file."
+  ],
+  "errors": [],
+  "extraction_method": "playwright_firefox_table_extraction",
+  "discovery_metadata": {
+    "run_method": "tier-2-recheck",
+    "sourced_at": "2026-05-26T00:00:00Z"
+  }
+}

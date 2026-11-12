@@ -1,0 +1,84 @@
+{
+  "bank_code": "rae-bareli-district-co-operative-bank-ltd",
+  "bank_name": "rae-bareli-district-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 10831,
+  "duration_ms": 10831,
+  "duration_api_ms": 10359,
+  "num_turns": 6,
+  "tool_call_count": 7,
+  "total_cost_usd": 0.088104,
+  "input_tokens": 39748,
+  "output_tokens": 1076,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Rae Bareli District Co-operative Bank Ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://raebareli.bank.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Rae Bareli District Co-operative Bank Ltd official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Rae Bareli District Central Cooperative Bank interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 161,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.raebarelidccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 173,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://raebarelidccb.com/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 111,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://upcooperativebank.org/\"}"
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_attempted",
+    "extraction": "not_attempted"
+  },
+  "failure_signals": {
+    "config_exists": false,
+    "rates_exists": false,
+    "scraper_type": null,
+    "notes": "",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": null,
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 4,
+    "domain_was_known": false
+  }
+}

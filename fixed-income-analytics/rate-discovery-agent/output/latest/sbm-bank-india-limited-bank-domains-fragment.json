@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "bank_code": "sbm-bank-india-limited",
+    "extracted_at": "2026-06-05T12:12:36.158Z",
+    "source": "bank-domains.json",
+    "source_sha": "d4c965f8960ae816dbe0af8cf78777c8bae86c6e274ea7bd1bcf21db8a24df79"
+  },
+  "domain": "sbm.bank.in",
+  "rate_pages": {
+    "fd": "/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rates",
+    "rd": "/personal-banking/recurring-deposit/",
+    "savings": "/personal-banking/savings-account-interest-rates",
+    "fd_nre": "/nri-banking/accounts",
+    "fd_nro": "/nri-banking/accounts",
+    "fd_fcnr": "/nri-banking/nri-deposit/fcnr-deposit/interest-rate",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "html_js",
+  "notes": "NRE page has no rates (contact form only). NRO page has no rates (callback form only). FCNR has rates. Domestic FD page is JS-rendered (Next.js).",
+  "domain_source": "manual",
+  "template": {
+    "template_id": "sbm-bank-amount-tiered-5bucket",
+    "template_hash": "sha1:7c38675cc63a7b20c8764341f98193a87125f27e",
+    "fingerprinted_at": "2026-05-24",
+    "fetch": {},
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 1,
+          "header_span_rows": 2,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct@below_1cr",
+            "2": "rate_general_pct@1cr_to_3cr_callable",
+            "3": "rate_general_pct@1cr_to_3cr_non_callable",
+            "4": "rate_general_pct@3cr_to_5cr_callable",
+            "5": "rate_general_pct@3cr_to_5cr_non_callable"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-24T18:09:22.429Z",
+      "gates_passed": "PASS",
+      "slab_count": 115,
+      "cluster_reused": false
+    }
+  }
+}

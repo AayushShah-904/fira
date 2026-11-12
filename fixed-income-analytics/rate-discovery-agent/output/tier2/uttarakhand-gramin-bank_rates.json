@@ -1,0 +1,19 @@
+{
+  "bank_code": "uttarakhand-gramin-bank",
+  "bank_name": "Uttarakhand Gramin Bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T17:58:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_rate_page",
+  "website_metadata": {
+    "domain": "ukgb.bank.in",
+    "found_via": "registry_hint",
+    "notes": "Official site ukgb.bank.in is up. FD page https://ukgb.bank.in/personalbanking/fixed_deposit.html exists and links to 'document/deposit_interest_rate.pdf' for deposit rates, but that PDF returns HTTP 404 on every resolved path (/personalbanking/document/, /document/). Re-verified the prior finding. The site DOES publish document/ROIAdv.pdf (advances/loan rates) but no working deposit-rate document. No inline FD rate numbers anywhere."
+  },
+  "warnings": ["Deposit interest-rate PDF is referenced but 404 (broken link) site-wide; only loan-rate PDF (ROIAdv.pdf) is live. SBI-sponsored RRB, FD 7d-10y, senior +0.50% per page text but no rate values published. No retail FD rates retrievable; retry once bank republishes the deposit rate PDF."],
+  "tier2_method": "websearch+webfetch"
+}

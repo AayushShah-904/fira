@@ -1,0 +1,50 @@
+{
+  "bank_code": "koraput-central-co-operative-bank-ltd",
+  "bank_name": "koraput-central-co-operative-bank-ltd",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 9309,
+  "duration_ms": 9309,
+  "duration_api_ms": 9190,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.0085516,
+  "input_tokens": 18839,
+  "output_tokens": 635,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"koraput central co operative bank ltd\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 32,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://koraputcentral.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 34,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://koraputcentralcooperativebank.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://koraputcentralcooperativebank.co.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://koraputcentralcooperativebankltd.co.in/\"}"
+    }
+  ]
+}

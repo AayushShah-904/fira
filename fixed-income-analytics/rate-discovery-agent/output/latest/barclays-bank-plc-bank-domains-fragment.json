@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "bank_code": "barclays-bank-plc",
+    "extracted_at": "2026-06-05T11:25:24.407Z",
+    "source": "bank-domains.json",
+    "source_sha": "f09382b23665aa0242da7f360d0a9198e3f34817fa6edad30df0775578badf70"
+  },
+  "domain": "barclays.bank.in",
+  "rate_pages": {
+    "fd": "/home/schedule-of-charges-interest-rates/",
+    "fd_pdf_below_3cr": "/content/dam/barclays-in/documents/schedule-charges/Deposit-Rates-below-3-Crore-02nd-March-2026.pdf",
+    "fd_pdf_above_3cr": "/content/dam/barclays-in/documents/schedule-charges/FD-Rates-27-03-2026-till-29-03-2026.pdf",
+    "savings": null,
+    "rd": null,
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": "/content/dam/barclays-in/documents/schedule-charges/FCNR-RFC-Deposit-13th-May-2026.pdf",
+    "fd_nri_combined": null
+  },
+  "scraper_type": "pdf",
+  "notes": "AEM/server-rendered"
+}

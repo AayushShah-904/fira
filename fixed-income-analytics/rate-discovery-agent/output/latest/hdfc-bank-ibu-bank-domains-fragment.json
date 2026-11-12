@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "bank_code": "hdfc-bank-ibu",
+    "extracted_at": "2026-06-05T14:07:52.539Z",
+    "source": "bank-domains.json",
+    "source_sha": "17b854106580269aa1b202ad80ed535b27d80afbc4066fca37897ad211a5a6ea"
+  },
+  "domain": "hdfc.bank.in",
+  "rate_pages": {
+    "fd": null,
+    "fd_gift": "https://www.hdfcgiftcity.bank.in/content/dam/hdfc-bank-offshore-sites/gc/en/home-page/pdfs/offshore-deposit-interest-rates.pdf",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null,
+    "gift": null
+  },
+  "scraper_type": "pdf",
+  "parent_bank_code": "hdfc-bank-limited",
+  "notes": "IFSC Banking Unit in GIFT City. Multi-currency offshore-deposit PDF lives under www.hdfcgiftcity.bank.in (subdomain, NOT the canonical hdfc.bank.in). LLM PDF path (gpt-4.1) extracts 8 USD-only slabs but drops EUR (baseline was 34 USD+EUR). Azure DI Layout attempted 2026-05-23 — returned 0 tables (PDF rates are styled spans, not <table> cells). FUTURE: needs either (a) Vision-LLM extraction for the EUR block, (b) DI Layout with prebuilt-document model instead of prebuilt-layout, or (c) per-bank prompt augmentation to force the LLM to read both currency blocks.",
+  "template": {
+    "template_id": "ibu-static-pdf-quarterly",
+    "template_hash": "pdf:90c970ad3ffeee239d081d6de4b305d6c2ad5399",
+    "scraper_type": "pdf",
+    "fingerprinted_at": "2026-05-25",
+    "extract": {
+      "extractor": "ibu-static-pdf-quarterly"
+    },
+    "variants": {
+      "gift": {
+        "rate_page_key": "fd_gift"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T09:32:04.012Z",
+      "gates_passed": "PASS",
+      "slab_count": 34,
+      "source": "pdf",
+      "pdf_method": "doc_intelligence"
+    }
+  },
+  "effective_date": "2026-05-23",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 61,
+    "last_scraped_at": "2026-07-23T14:01:43.436Z",
+    "manual_verification_needed": false
+  }
+}

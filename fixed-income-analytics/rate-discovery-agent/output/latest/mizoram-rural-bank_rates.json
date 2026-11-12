@@ -1,0 +1,184 @@
+{
+  "bank_code": "mizoram-rural-bank",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2025-07-01",
+  "source_url": "https://mrb.bank.in/depositrate",
+  "scraped_at": "2026-05-23T09:45:11.249Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": 3.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "1 7 days to 14 days 3.6% 3.1% 4.1% 3.6%"
+    },
+    {
+      "tenure_text": "15 days to 45 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.1,
+      "rate_senior_pct": 3.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "2 15 days to 45 days 3.6% 3.1% 4.1% 3.6%"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "3 46 days to 60 days 4.8% 5.1% 5.3% 5.6%"
+    },
+    {
+      "tenure_text": "61 days to 180 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 180,
+      "rate_general_pct": 5.1,
+      "rate_senior_pct": 5.6,
+      "rate_super_senior_pct": null,
+      "source_row_text": "4 61 days to 180 days 5.5% 5.1% 6.0% 5.6%"
+    },
+    {
+      "tenure_text": "181 days to less than 1 year",
+      "tenure_min_days": 181,
+      "tenure_max_days": 364,
+      "rate_general_pct": 6.05,
+      "rate_senior_pct": 6.55,
+      "rate_super_senior_pct": null,
+      "source_row_text": "5 181 days to less than 1 year 6.1% 6.05% 6.6% 6.55%"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "6 1 year to less than 2 years 7% 6.4% 7.5% 6.9%"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": 7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "7 2 years to less than 3 years 7.1% 6.5% 7.6% 7.0%"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.4,
+      "rate_senior_pct": 6.9,
+      "rate_super_senior_pct": null,
+      "source_row_text": "8 3 years to less than 5 years 7.0% 6.4% 7.5% 6.9%"
+    },
+    {
+      "tenure_text": "5 years and upto 8 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2920,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "9 5 years and upto 8 years 7.0% 6.2% 7.5% 6.7%"
+    },
+    {
+      "tenure_text": "8 years and upto 10 years",
+      "tenure_min_days": 2921,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.2,
+      "rate_senior_pct": 6.7,
+      "rate_super_senior_pct": null,
+      "source_row_text": "10 8 years and upto 10 years 7.0% 6.2% 7.5% 6.7%"
+    },
+    {
+      "tenure_text": "TDR-PHEICHHAM2-400D",
+      "tenure_min_days": 400,
+      "tenure_max_days": 400,
+      "rate_general_pct": 6.7,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "source_row_text": "11 TDR-PHEICHHAM2-400D 7.3% 6.7%  "
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.55,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_10cr",
+      "source_row_text": "1 1 year to less than 2 years 7.2% 6.55% 7.5% 6.6%"
+    },
+    {
+      "tenure_text": "1 year to less than 2 years",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "10cr_and_above",
+      "source_row_text": "1 1 year to less than 2 years 7.2% 6.55% 7.5% 6.6%"
+    },
+    {
+      "tenure_text": "2 years to less than 3 years",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 6.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_10cr",
+      "source_row_text": "2 2 years to less than 3 years 7.5% 6.6% 7.5% 6.6%"
+    },
+    {
+      "tenure_text": "3 years to less than 5 years",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_10cr",
+      "source_row_text": "3 3 years to less than 5 years 7.3% 6.5% 7.5% 6.5%"
+    },
+    {
+      "tenure_text": "5 years and upto 8 years",
+      "tenure_min_days": 1825,
+      "tenure_max_days": 2920,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_10cr",
+      "source_row_text": "4 5 years and upto 8 years 7.0% 6.5% 7.1% 6.5%"
+    },
+    {
+      "tenure_text": "8 years and upto 10 years",
+      "tenure_min_days": 2921,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "5cr_to_10cr",
+      "source_row_text": "5 8 years and upto 10 years 7.0% 6.5% 7.1% 6.5%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[1] (11 slabs) from 3 table(s); signals={\"pctRows\":12,\"tenureRows\":12,\"bothRows\":12,\"dataRows\":12,\"noisy\":true,\"colCount\":6}",
+    "llm_fallback: deterministic returned 11 slabs (suspect: multi_table=true too_few=false); LLM extracted 22 — using LLM"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "EXTREMELY_STALE",
+    "days_since_effective": 387,
+    "last_scraped_at": "2026-05-23T09:45:11.249Z",
+    "manual_verification_needed": true
+  }
+}

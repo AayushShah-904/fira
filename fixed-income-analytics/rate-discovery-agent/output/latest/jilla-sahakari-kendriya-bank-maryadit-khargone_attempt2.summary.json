@@ -1,0 +1,96 @@
+{
+  "bank_code": "jilla-sahakari-kendriya-bank-maryadit-khargone",
+  "bank_name": "jilla-sahakari-kendriya-bank-maryadit-khargone",
+  "category": null,
+  "mode": "discover",
+  "run_label": "unknown",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 12489,
+  "duration_ms": 12489,
+  "duration_api_ms": 12427,
+  "num_turns": 8,
+  "tool_call_count": 9,
+  "total_cost_usd": 0.12193999999999999,
+  "input_tokens": 55962,
+  "output_tokens": 1252,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Jilla Sahakari Kendriya Bank Maryadit Khargone\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jillakendriyakhargone.bank.in/\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 36,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://jilla-sahakari-kendriya-bank-maryadit-khargone.co.in/\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jilla Sahakari Kendriya Bank Maryadit Khargone interest rates deposit\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jilla Sahakari Kendriya Bank Maryadit Khargone official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jilla Sahakari Kendriya Bank Maryadit Khargone ब्याज दर\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Jilla Sahakari Kendriya Bank Maryadit Khargone branch list\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-khargone_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-khargone\\\""
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-13T0609_all/unknown/jilla-sahakari-kendriya-bank-maryadit-khargone_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"jilla-sahakari-kendriya-bank-maryadit-khargone\\\","
+    }
+  ],
+  "failure_class": "discovery_failed",
+  "phase_outcomes": {
+    "website": "candidates_all_failed",
+    "rate_page": "not_found",
+    "extraction": "failed"
+  },
+  "failure_signals": {
+    "config_exists": true,
+    "rates_exists": true,
+    "scraper_type": "manual",
+    "notes": "No official website found for this DCCB. All domain and Hindi search attempts failed. Likely rates are published via the Madhya Pradesh State Co-operative Bank or government portals. Operator should check mpstatecoopbank.com or RBI database for rate information.",
+    "website_url": null,
+    "rate_url_fd": null,
+    "slab_count": 0,
+    "extraction_confidence": "none",
+    "agent_success": true,
+    "initial_tier": 1,
+    "retry_attempted": true,
+    "fetch_ok_count": 0,
+    "fetch_error_count": 2,
+    "domain_was_known": false
+  }
+}

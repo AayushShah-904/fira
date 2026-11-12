@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-nellore-co-operative-urban-bank-ltd",
+  "bank_name": "The Nellore Co-Operative Urban Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No own website for this NSUCB found. Searches return only aggregators/IFSC directories (codeforbanks, prokerala). Registry hint 'prokerala.com' is a directory, not the bank. Note: nelloredccb.com is the Nellore DCCB (Sri Potti Sriramulu Nellore District Cooperative Central Bank) — a DIFFERENT entity, not this urban bank."
+  },
+  "warnings": ["FD product exists per aggregator descriptions but no official rate page; do not confuse with Nellore DCCB (nelloredccb.com)."],
+  "tier2_method": "websearch+webfetch"
+}

@@ -1,0 +1,18 @@
+{
+  "bank_code": "punjab-national-bank",
+  "bank_name": "Punjab National Bank",
+  "bank_type": "PSB",
+  "category": "Public Sector Bank",
+  "website": "https://pnb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd_fcnr": "https://pnb.bank.in/Interest-Rates-Deposit.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T08:33:50.001Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

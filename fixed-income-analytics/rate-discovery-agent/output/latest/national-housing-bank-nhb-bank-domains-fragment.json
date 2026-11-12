@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "bank_code": "national-housing-bank-nhb",
+    "extracted_at": "2026-06-05T13:08:11.239Z",
+    "source": "bank-domains.json",
+    "source_sha": "a55823425a047ac83adfaf1328524e23e082723da942d46372fc6b475ddd2f7d"
+  },
+  "domain": "www.nhb.org.in",
+  "scraper_type": "html_static",
+  "notes": "NHB is a refinancing institution under RBI — does not accept retail deposits.",
+  "status": "no_retail_deposits",
+  "rate_pages": {
+    "fd": "https://www.nhb.org.in/deposits-and-bonds/deposit-schemes/nhb-sunidhi-term-deposit-scheme/",
+    "fd_prev": "/wp-content/uploads/2026/05/Corrigendum-Eng.pdf",
+    "fd_url_fixed_at": "2026-05-25"
+  },
+  "domain_prev": "nhb.org.in",
+  "extraction_method": "manual_transcription_from_rendered_text",
+  "tier2": {
+    "sourced_at": "2026-05-25T00:00:00Z",
+    "run_method": "tier-2",
+    "tier2_method": "webfetch",
+    "source_url": "https://www.nhb.org.in/deposits-and-bonds/deposit-schemes/nhb-sunidhi-term-deposit-scheme/",
+    "slab_count": 4,
+    "hints": "NHB Sunidhi scheme; minimum deposit Rs. 50,000 in multiples of Rs. 10,000. Senior citizens get +0.60% p.a. Effective date (w.e.f. 05/12/2016) is the page-stated rate-revision date; rates have not changed on the public page since.",
+    "note": "Claude Tier-2 gap sweep (2026-05-25); deterministic pipeline could not discover/extract."
+  },
+  "template": {
+    "template_id": "nhb-3col-tenure-rate-annualised",
+    "template_hash": "sha1:562d163f39bd6f8646e5270513f0e28202a2e946",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": null
+        },
+        {
+          "table_index": 1,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct",
+            "2": "ignore"
+          },
+          "deposit_range": null
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T18:03:14.124Z",
+      "gates_passed": "PASS",
+      "slab_count": 8,
+      "cluster_reused": false
+    }
+  }
+}

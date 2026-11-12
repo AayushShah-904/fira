@@ -1,0 +1,16 @@
+{
+  "bank_code": "bank-of-maharashtra-ibu",
+  "bank_name": "Bank of Maharashtra - GIFT City IBU",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": null,
+  "source_url": "https://bankofmaharashtra.bank.in/ibu-gift-city",
+  "scraped_at": "2026-05-25T11:22:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "warnings": [
+    "rates non-public / on request - Bank of Maharashtra GIFT City IBU products are not yet launched (rate page shows \"--\"). No foreign-currency term-deposit rates published.",
+    "Confirmed wholesale_only status from registry plus web search; no GIFT-City foreign-currency term-deposit rate card located."
+  ],
+  "tier2_method": "registry status=wholesale_only verified via WebSearch (no public GIFT rate card found)"
+}

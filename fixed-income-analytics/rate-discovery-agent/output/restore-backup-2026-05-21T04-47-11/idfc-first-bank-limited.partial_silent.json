@@ -1,0 +1,6 @@
+{
+  "bank_code": "idfc-first-bank-limited",
+  "reason": "slab drift on nre: 0 < 0.8 * 1 (expected)",
+  "detected_at": "2026-05-20T19:27:00.595Z",
+  "attempts": 3
+}

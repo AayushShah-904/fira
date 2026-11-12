@@ -1,0 +1,18 @@
+{
+  "bank_code": "federal-bank-limited",
+  "bank_name": "Federal Bank Limited",
+  "bank_type": "PVB",
+  "category": "Private Sector Bank (Indian)",
+  "website": "https://federal.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd_fcnr": "https://federal.bank.in/fcnr-b-deposits"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-07-07T07:59:11.323Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "automatic_html_js"
+}

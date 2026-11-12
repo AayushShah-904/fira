@@ -1,0 +1,25 @@
+{
+  "bank_code": "central-co-operative-bank-ltd-ara_rd",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": "http://ccbara.com/OurSchemes.aspx",
+  "scraped_at": "2026-05-08T19:11:00Z",
+  "extraction_confidence": "high",
+  "extraction_method": null,
+  "rate_slabs": [
+    {
+      "tenure_text": "Above 12 Month",
+      "tenure_min_days": 366,
+      "tenure_max_days": null,
+      "rate_general_pct": 6.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "below_15l"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "No effective date provided. No NRI/FCNR products."
+  ]
+}

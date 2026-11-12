@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "bank_code": "jamia-co-operative-bank-ltd-new-delhi",
+    "extracted_at": "2026-06-06T10:57:05.440Z",
+    "source": "bank-domains.json",
+    "source_sha": "d2f23613f2832a7ebcc59d6990089a7a026cb571c958a21a679f24a3e2b44dbc"
+  },
+  "domain": "jamiacoopbank.com",
+  "rate_pages": {
+    "fd": "/interest-rates.php?id=OQ%3D%3D",
+    "fd_nre": null,
+    "fd_nro": null,
+    "fd_fcnr": null,
+    "fd_nri_combined": null,
+    "savings": null,
+    "rd": null
+  },
+  "scraper_type": "html_static",
+  "domain_source": "discovered",
+  "template": {
+    "template_id": "jamia-coop-2col-tenure-rate",
+    "template_hash": "sha1:0c2541bb4146b13e209167673f5152c7df7b665e",
+    "fingerprinted_at": "2026-05-25",
+    "fetch": {
+      "expand_accordions": true,
+      "wait_for_network_idle": true,
+      "settle_window_ms": 2500
+    },
+    "extract": {
+      "extractor": "_generic-html-3col",
+      "extracts": [
+        {
+          "table_index": 0,
+          "header_row": 0,
+          "header_span_rows": 1,
+          "column_map": {
+            "0": "tenure_text",
+            "1": "rate_general_pct"
+          },
+          "deposit_range": "below_1cr"
+        }
+      ]
+    },
+    "variants": {
+      "regular": {
+        "rate_page_key": "fd"
+      }
+    },
+    "audit": {
+      "persisted_by": "bulk-author",
+      "verdict_at": "2026-05-25T16:37:58.995Z",
+      "gates_passed": "PASS",
+      "slab_count": 7,
+      "cluster_reused": false
+    }
+  }
+}

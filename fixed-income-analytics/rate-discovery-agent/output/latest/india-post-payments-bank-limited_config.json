@@ -1,0 +1,19 @@
+{
+  "bank_code": "india-post-payments-bank-limited",
+  "bank_name": "india-post-payments-bank-limited",
+  "bank_type": "PB",
+  "category": "Payments Bank",
+  "state": "Delhi",
+  "website": "https://ippbonline.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://ippbonline.bank.in/web/ippb/bank-notices"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T12:32:34.040Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

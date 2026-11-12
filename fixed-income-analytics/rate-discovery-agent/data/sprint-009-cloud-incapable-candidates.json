@@ -1,0 +1,2203 @@
+{
+  "generated_at": "2026-06-06T16:55:06.288Z",
+  "source": "scripts/analysis/sprint-009-cloud-incapable-candidates.js",
+  "inputs": {
+    "batch_failures_from": ".\\logs\\sprint-009\\batch-9zulerb.json",
+    "partial_silent_from": ".\\output\\latest",
+    "baseline_pack": ".\\logs\\sprint-009\\baseline-pack-2026-05-28.json",
+    "current_pack": ".\\pack\\dist\\rates-pack.json"
+  },
+  "summary": {
+    "total_candidates": 132,
+    "with_batch_failure": 16,
+    "with_partial_silent_fingerprint": 28,
+    "with_regressed_to_zero_slabs": 107,
+    "with_two_or_more_signals": 19,
+    "with_all_three_signals": 0
+  },
+  "candidates": [
+    {
+      "bank_code": "au-small-finance-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "au-small-finance-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "au-small-finance-bank-limited",
+          "baseline_slabs": 61,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Small Finance Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 113
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "chikmagalur-district-central-co-operative-bank-ltd-dcc-bank-building",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "cuttack-central-co-operative-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "cuttack-central-co-operative-bank-ltd",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 74
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "cuttack-central-co-operative-bank-ltd",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "icici-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "icici-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "icici-bank-limited",
+          "baseline_slabs": 32,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Private Sector Bank (Indian)"
+        }
+      }
+    },
+    {
+      "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 39
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "jilla-sahakari-kendriya-bank-maryadit-ujjain",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "kakinada-co-operative-central-bank-ltd",
+      "signals": [
+        "partial_silent_fingerprint",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "kakinada-co-operative-central-bank-ltd",
+          "fingerprint_kind": null,
+          "observed_at": null
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "kakinada-co-operative-central-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "krishna-district-co-operative-central-bank-ltd",
+      "signals": [
+        "partial_silent_fingerprint",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "krishna-district-co-operative-central-bank-ltd",
+          "fingerprint_kind": null,
+          "observed_at": null
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "krishna-district-co-operative-central-bank-ltd",
+          "baseline_slabs": 4,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "meerut-district-co-operative-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "meerut-district-co-operative-bank-ltd",
+          "failure_class": "discovery_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 77
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "meerut-district-co-operative-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+          "failure_class": "partial_success",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 277
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "nizamabad-district-co-operative-central-bank-ltd",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "panipat-central-co-operative-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "panipat-central-co-operative-bank-ltd",
+          "failure_class": "discovery_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 209
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "panipat-central-co-operative-bank-ltd",
+          "baseline_slabs": 16,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "rander-peoples-co-op-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "rander-peoples-co-op-bank-ltd",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 131
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "rander-peoples-co-op-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "rayat-sevak-co-op-bank-ltd-satara",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "rayat-sevak-co-op-bank-ltd-satara",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 75
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "rayat-sevak-co-op-bank-ltd-satara",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "samata-sahakari-bank-ltd-mumbai",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "samata-sahakari-bank-ltd-mumbai",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 432
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "samata-sahakari-bank-ltd-mumbai",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "saraspur-nagarik-co-op-bank-limited",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "saraspur-nagarik-co-op-bank-limited",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 656
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "saraspur-nagarik-co-op-bank-limited",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 281
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "shri-shiddheshwar-co-operative-bank-ltd-bijapur",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-junagadh-jilla-sahakari-bank-ltd",
+      "signals": [
+        "partial_silent_fingerprint",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "the-junagadh-jilla-sahakari-bank-ltd",
+          "fingerprint_kind": null,
+          "observed_at": null
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-junagadh-jilla-sahakari-bank-ltd",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "tiruchirapalli-city-co-op-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "tiruchirapalli-city-co-op-bank-ltd",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 46
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "tiruchirapalli-city-co-op-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "medium",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+          "failure_class": "discovery_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 271
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "varanasi-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "wai-urban-coop-bank-ltd",
+      "signals": [
+        "batch_failure",
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "wai-urban-coop-bank-ltd",
+          "failure_class": "extraction_failed",
+          "reason": "zero_slab_extraction",
+          "exit_code": null,
+          "elapsed_sec": 37
+        },
+        "regressed_to_zero_slabs": {
+          "bank_code": "wai-urban-coop-bank-ltd",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "medium",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "ajmer-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "ajmer-central-co-operative-bank-ltd",
+          "baseline_slabs": 14,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "amritsar-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "amritsar-central-co-operative-bank-ltd",
+          "baseline_slabs": 14,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "angul-united-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "angul-united-central-co-operative-bank-ltd",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": null,
+          "current_confidence": null,
+          "category": null
+        }
+      }
+    },
+    {
+      "bank_code": "assam-gramin-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "assam-gramin-bank",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Regional Rural Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "axis-bank-ibu",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "axis-bank-ibu",
+          "baseline_slabs": 24,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "IFSC Banking Unit (IFSCA)"
+        }
+      }
+    },
+    {
+      "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "babasaheb-deshmukh-sahakari-bank-ltd-atpadi",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "bandhan-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bandhan-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "bank-of-america",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bank-of-america",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "bank-of-baroda",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bank-of-baroda",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "bank-of-ceylon",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "bank-of-ceylon",
+          "baseline_slabs": 11,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "bank-of-china-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bank-of-china-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "bank-of-india",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bank-of-india",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "bank-of-maharashtra",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bank-of-maharashtra",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "banswara-central-co-operative-bank-ltd",
+      "signals": [
+        "batch_failure"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "banswara-central-co-operative-bank-ltd",
+          "failure_class": null,
+          "reason": null,
+          "exit_code": 1,
+          "elapsed_sec": 3
+        }
+      }
+    },
+    {
+      "bank_code": "barclays-bank-plc",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "barclays-bank-plc",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "barmer-central-co-operative-bank-ltd",
+      "signals": [
+        "batch_failure"
+      ],
+      "details": {
+        "batch_failure": {
+          "bank_code": "barmer-central-co-operative-bank-ltd",
+          "failure_class": null,
+          "reason": null,
+          "exit_code": 1,
+          "elapsed_sec": 3
+        }
+      }
+    },
+    {
+      "bank_code": "bharath-co-operative-bank-limited-bangalore",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "bharath-co-operative-bank-limited-bangalore",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "bharati-sahakari-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "bharati-sahakari-bank-limited",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "bnp-paribas",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "bnp-paribas",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "canara-bank-ibu",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "canara-bank-ibu",
+          "baseline_slabs": 32,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "IFSC Banking Unit (IFSCA)"
+        }
+      }
+    },
+    {
+      "bank_code": "central-bank-of-india",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "central-bank-of-india",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "chiplun-urban-coopbank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "chiplun-urban-coopbank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "citibank-na",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "citibank-na",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "equitas-small-finance-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "equitas-small-finance-bank-limited",
+          "baseline_slabs": 23,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "medium",
+          "category": "Small Finance Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "export-import-bank-of-india-exim-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "export-import-bank-of-india-exim-bank",
+          "baseline_slabs": 4,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Financial Institution"
+        }
+      }
+    },
+    {
+      "bank_code": "federal-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "federal-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "first-abu-dhabi-bank-pjsc",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "first-abu-dhabi-bank-pjsc",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "ganganagar-kendriya-sahakari-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "ganganagar-kendriya-sahakari-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "godavari-urban-co-opbank-ltdnashik",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "godavari-urban-co-opbank-ltdnashik",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "medium",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "gondia-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "gondia-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": null,
+          "current_confidence": "none",
+          "category": null
+        }
+      }
+    },
+    {
+      "bank_code": "grain-merchants-co-operative-bank-ltdbangalore",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "grain-merchants-co-operative-bank-ltdbangalore",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "low",
+          "current_confidence": "low",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "hoshiarpur-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "hoshiarpur-central-co-operative-bank-ltd",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "indian-overseas-bank",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "indian-overseas-bank",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "industrial-and-commercial-bank-of-china-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "industrial-and-commercial-bank-of-china-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jabalpur-mahila-nagarik-sahakari-bank-maryadit",
+          "baseline_slabs": 4,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jalgaon-janata-sahakari-bank-ltd",
+          "baseline_slabs": 22,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jammu-kashmir-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "jammu-kashmir-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "janata-sahakari-bank-ltd-satara",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "janata-sahakari-bank-ltd-satara",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "janatha-seva-co-operative-bank-ltd-bangalore",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "janatha-seva-co-operative-bank-ltd-bangalore",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jharkhand-state-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jharkhand-state-co-operative-bank-ltd",
+          "baseline_slabs": 19,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jijau-commercial-co-operative-bank-ltd-amravati",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jijau-commercial-co-operative-bank-ltd-amravati",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jilla-sahakari-kendriya-bank-maryadit-jabalpur",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jilla-sahakari-kendriya-bank-maryadit-sagar",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "none",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jodhpur-nagarik-sahakari-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jodhpur-nagarik-sahakari-bank-ltd",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "jp-morgan-chase-bank-na",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "jp-morgan-chase-bank-na",
+          "baseline_slabs": 26,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "karimnagar-district-co-operative-central-bank-ltd",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "medium",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "karnavathi-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "karnavathi-co-operative-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "kookmin-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "kookmin-bank",
+          "baseline_slabs": 14,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "kota-nagarik-sahakari-bank-ltd-kota",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "kota-nagarik-sahakari-bank-ltd-kota",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "ludhiana-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "ludhiana-central-co-operative-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "madhya-pradesh-gramin-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "madhya-pradesh-gramin-bank",
+          "baseline_slabs": 13,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Regional Rural Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "mashreqbank-psc",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "mashreqbank-psc",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "meghalaya-rural-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "meghalaya-rural-bank",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Regional Rural Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "mizuho-bank-ibu",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "mizuho-bank-ibu",
+          "baseline_slabs": 16,
+          "current_slabs": 0,
+          "baseline_confidence": "none",
+          "current_confidence": "none",
+          "category": "IFSC Banking Unit (IFSCA)"
+        }
+      }
+    },
+    {
+      "bank_code": "mizuho-bank-ltd",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "mizuho-bank-ltd",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "mufg-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "mufg-bank-ltd",
+          "baseline_slabs": 15,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "medium",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "mumbai-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "mumbai-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 13,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "nainital-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "nainital-bank-limited",
+          "baseline_slabs": 16,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Private Sector Bank (Indian)"
+        }
+      }
+    },
+    {
+      "bank_code": "nawanshahr-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "nawanshahr-central-co-operative-bank-ltd",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "patan-urban-co-operative-bank-ltd-patan-satara",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "patan-urban-co-operative-bank-ltd-patan-satara",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "patiala-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "patiala-central-co-operative-bank-ltd",
+          "baseline_slabs": 11,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "paytm-payments-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "paytm-payments-bank-limited",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Payments Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "pt-bank-maybank-indonesia-tbk",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "pt-bank-maybank-indonesia-tbk",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "punjab-national-bank",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "punjab-national-bank",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "qatar-national-bank-qpsc",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "qatar-national-bank-qpsc",
+          "baseline_slabs": 16,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "rajarambapu-sahakari-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "rajarambapu-sahakari-bank-ltd",
+          "baseline_slabs": 16,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "rajkot-nagrik-sahakari-bank-ltd",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sangli-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sangli-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sangli-urban-co-operative-bank-ltd-sangli",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sangli-urban-co-operative-bank-ltd-sangli",
+          "baseline_slabs": 17,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sangrur-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sangrur-central-co-operative-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sardar-vallabhbhai-sahakari-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sardar-vallabhbhai-sahakari-bank-limited",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sberbank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sberbank",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sharad-nagari-sahakari-bank-ltd-solapur",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sharad-nagari-sahakari-bank-ltd-solapur",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "medium",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "shimoga-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "shimoga-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "shinhan-bank",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "shinhan-bank",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "shri-kanyaka-nagari-sahakari-bank-ltd-chandrapur",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "shri-mahalaxmi-coop-bank-ltdkolhapur",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sikar-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sikar-central-co-operative-bank-ltd",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "sirsa-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "sirsa-central-co-operative-bank-ltd",
+          "baseline_slabs": 7,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "small-industries-development-bank-of-india-sidbi",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "small-industries-development-bank-of-india-sidbi",
+          "baseline_slabs": 3,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Financial Institution"
+        }
+      }
+    },
+    {
+      "bank_code": "societe-generale",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "societe-generale",
+          "baseline_slabs": 14,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "suryoday-small-finance-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "suryoday-small-finance-bank-limited",
+          "baseline_slabs": 17,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Small Finance Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "thanjavur-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "thanjavur-central-co-operative-bank-ltd",
+          "baseline_slabs": 1,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-anantapur-co-operative-town-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-anantapur-co-operative-town-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-anantapur-district-co-operative-central-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-anantapur-district-co-operative-central-bank-ltd",
+          "baseline_slabs": 10,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-chhattisgarh-rajya-sahakari-bank-maryadit",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-haryana-state-co-operative-apex-bank-ltd",
+          "baseline_slabs": 30,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-karimnagar-co-operative-urban-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-karimnagar-co-operative-urban-bank-ltd",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "medium",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-khamgaon-urban-co-operative-bank-ltd-khamgaon",
+          "baseline_slabs": 28,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-kheda-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 14,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-madhya-pradesh-rajya-sahakari-bank-maryadit",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-madhya-pradesh-rajya-sahakari-bank-maryadit",
+          "baseline_slabs": 11,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-mehsana-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-mehsana-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-nanded-merchants-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-nanded-merchants-co-operative-bank-ltd",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-odisha-state-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-odisha-state-co-operative-bank-ltd",
+          "baseline_slabs": 12,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-rajasthan-state-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-rajasthan-state-co-operative-bank-ltd",
+          "baseline_slabs": 15,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-rajkot-district-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-rajkot-district-co-operative-bank-ltd",
+          "baseline_slabs": 6,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-sikkim-state-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-sikkim-state-co-operative-bank-ltd",
+          "baseline_slabs": 13,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-tamil-nadu-state-apex-co-operative-bank-ltd",
+          "baseline_slabs": 13,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-thane-palghar-district-central-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-thane-palghar-district-central-co-operative-bank-ltd",
+          "baseline_slabs": 11,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "District Central Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-uttarakhand-state-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-uttarakhand-state-co-operative-bank-ltd",
+          "baseline_slabs": 14,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "the-yavatmal-urban-co-operative-bank-ltd-yavatmal",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "tirupati-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "tirupati-co-operative-bank-ltd",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "tripura-gramin-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "tripura-gramin-bank",
+          "baseline_slabs": 13,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Regional Rural Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "tumkur-veerashaiva-co-operative-bank-ltd-tumkur",
+          "baseline_slabs": 5,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "uco-bank",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "uco-bank",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "ujjivan-small-finance-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "ujjivan-small-finance-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "union-bank-of-india",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "union-bank-of-india",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    },
+    {
+      "bank_code": "united-overseas-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "united-overseas-bank-limited",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Foreign Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "uttar-pradesh-gramin-bank",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "uttar-pradesh-gramin-bank",
+          "baseline_slabs": 13,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Regional Rural Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "uttar-pradesh-state-co-operative-bank-limited",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "uttar-pradesh-state-co-operative-bank-limited",
+          "baseline_slabs": 9,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "high",
+          "category": "Scheduled State Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "vasai-vikas-sahakari-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "vasai-vikas-sahakari-bank-ltd",
+          "baseline_slabs": 11,
+          "current_slabs": 0,
+          "baseline_confidence": "high",
+          "current_confidence": "none",
+          "category": "Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "warangal-urban-co-operative-bank-ltd",
+      "signals": [
+        "regressed_to_zero_slabs"
+      ],
+      "details": {
+        "regressed_to_zero_slabs": {
+          "bank_code": "warangal-urban-co-operative-bank-ltd",
+          "baseline_slabs": 8,
+          "current_slabs": 0,
+          "baseline_confidence": "medium",
+          "current_confidence": "medium",
+          "category": "Non-Scheduled Urban Co-operative Bank"
+        }
+      }
+    },
+    {
+      "bank_code": "yes-bank-limited",
+      "signals": [
+        "partial_silent_fingerprint"
+      ],
+      "details": {
+        "partial_silent_fingerprint": {
+          "bank_code": "yes-bank-limited",
+          "fingerprint_kind": null,
+          "observed_at": null
+        }
+      }
+    }
+  ]
+}

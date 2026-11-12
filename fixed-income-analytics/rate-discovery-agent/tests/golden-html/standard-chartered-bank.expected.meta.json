@@ -1,0 +1,13 @@
+{
+  "bank_code": "standard-chartered-bank",
+  "bank_name": "standard-chartered-bank",
+  "bank_type": "FB",
+  "state": "UK",
+  "website": "https://sc.com",
+  "rate_page_url": "https://sc.com/in/deposits/fixed-deposit/",
+  "scraper_type": "html_js",
+  "extraction_method": "automatic_html_js",
+  "slab_count": 20,
+  "sprint_005_phase": "0.4",
+  "note": "Captured before Phase A. HTML capture deferred to Phase A harvester (scripts/analysis/harvest-golden-html.js will follow)."
+}

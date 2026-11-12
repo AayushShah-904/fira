@@ -1,0 +1,60 @@
+{
+  "bank_code": "hdfc-bank-ibu",
+  "bank_name": "HDFC Bank Ltd. (IFSC Banking Unit, GIFT City)",
+  "product_type": "FD",
+  "variant": "gift",
+  "effective_date": "2026-05-26",
+  "source_url": "https://www.hdfcgiftcity.bank.in/content/dam/hdfc-bank-offshore-sites/gc/en/home-page/pdfs/offshore-deposit-interest-rates.pdf",
+  "scraped_at": "2026-05-26T06:55:00Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    { "tenure_text": "7 days < 1 month", "tenure_min_days": 7, "tenure_max_days": 29, "rate_general_pct": 3.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "1 month < 2 months", "tenure_min_days": 30, "tenure_max_days": 59, "rate_general_pct": 3.75, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 months < 3 months", "tenure_min_days": 60, "tenure_max_days": 89, "rate_general_pct": 3.95, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 months < 6 months", "tenure_min_days": 90, "tenure_max_days": 179, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "6 months < 9 months", "tenure_min_days": 180, "tenure_max_days": 269, "rate_general_pct": 4.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "9 months < 12 months", "tenure_min_days": 270, "tenure_max_days": 359, "rate_general_pct": 4.20, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "12 months < 18 months", "tenure_min_days": 360, "tenure_max_days": 539, "rate_general_pct": 4.30, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "18 months < 2 years", "tenure_min_days": 540, "tenure_max_days": 729, "rate_general_pct": 4.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 years < 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 3.85, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years < 4 years", "tenure_min_days": 1095, "tenure_max_days": 1459, "rate_general_pct": 3.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "4 years < 5 years", "tenure_min_days": 1460, "tenure_max_days": 1824, "rate_general_pct": 3.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+    { "tenure_text": "5 years", "tenure_min_days": 1825, "tenure_max_days": 1825, "rate_general_pct": 3.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "USD", "deposit_range": "below_3cr" },
+
+    { "tenure_text": "1 month < 2 months", "tenure_min_days": 30, "tenure_max_days": 59, "rate_general_pct": 1.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 months < 3 months", "tenure_min_days": 60, "tenure_max_days": 89, "rate_general_pct": 1.85, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 months < 6 months", "tenure_min_days": 90, "tenure_max_days": 179, "rate_general_pct": 1.95, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "6 months < 9 months", "tenure_min_days": 180, "tenure_max_days": 269, "rate_general_pct": 2.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "9 months < 12 months", "tenure_min_days": 270, "tenure_max_days": 359, "rate_general_pct": 2.10, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "12 months < 18 months", "tenure_min_days": 360, "tenure_max_days": 539, "rate_general_pct": 2.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "18 months < 2 years", "tenure_min_days": 540, "tenure_max_days": 729, "rate_general_pct": 2.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 years < 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 1.60, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years < 4 years", "tenure_min_days": 1095, "tenure_max_days": 1459, "rate_general_pct": 1.25, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "4 years < 5 years", "tenure_min_days": 1460, "tenure_max_days": 1824, "rate_general_pct": 1.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+    { "tenure_text": "5 years", "tenure_min_days": 1825, "tenure_max_days": 1825, "rate_general_pct": 1.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "EUR", "deposit_range": "below_3cr" },
+
+    { "tenure_text": "1 month < 2 months", "tenure_min_days": 30, "tenure_max_days": 59, "rate_general_pct": 3.35, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 months < 3 months", "tenure_min_days": 60, "tenure_max_days": 89, "rate_general_pct": 3.70, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 months < 6 months", "tenure_min_days": 90, "tenure_max_days": 179, "rate_general_pct": 3.80, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "6 months < 9 months", "tenure_min_days": 180, "tenure_max_days": 269, "rate_general_pct": 4.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "9 months < 12 months", "tenure_min_days": 270, "tenure_max_days": 359, "rate_general_pct": 4.05, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "12 months < 18 months", "tenure_min_days": 360, "tenure_max_days": 539, "rate_general_pct": 4.15, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "18 months < 2 years", "tenure_min_days": 540, "tenure_max_days": 729, "rate_general_pct": 3.90, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "2 years < 3 years", "tenure_min_days": 730, "tenure_max_days": 1094, "rate_general_pct": 3.60, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "3 years < 4 years", "tenure_min_days": 1095, "tenure_max_days": 1459, "rate_general_pct": 3.00, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "4 years < 5 years", "tenure_min_days": 1460, "tenure_max_days": 1824, "rate_general_pct": 2.55, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" },
+    { "tenure_text": "5 years", "tenure_min_days": 1825, "tenure_max_days": 1825, "rate_general_pct": 2.45, "rate_senior_pct": null, "rate_super_senior_pct": null, "currency": "GBP", "deposit_range": "below_3cr" }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "Offshore GIFT-City deposit. Not covered by DICGC deposit insurance (IFSCA-regulated).",
+    "rate_general_pct uses the USD 'FD rate WITH premature withdrawal' column as the standard customer rate. The PDF also publishes a USD 'without premature withdrawal' column (7d-1m 3.30, 1-2m 3.85, 2-3m 4.05, 3-6m 4.10, 6-9m 4.20, 9-12m 4.30, 12-18m 4.40, 18m-2y 4.25, 2-3y 4.05, 3-4y 4.00, 4-5y 3.30, 5y 3.25) for corporate/professional clients; not shipped as separate slabs.",
+    "EUR and GBP publish a single rate column each (no with/without-premature split). The '7 days < 1 month' bucket shows '-' for EUR and GBP, so no EUR/GBP slab is emitted for that tenure.",
+    "EUR/GBP premature liquidation rate is 0% per PDF footnote. Rates above USD 2 Million / other currencies require Relationship Manager contact."
+  ],
+  "errors": [],
+  "discovery_metadata": {
+    "run_method": "tier-2-reextract",
+    "sourced_at": "2026-05-26T06:55:00Z"
+  }
+}

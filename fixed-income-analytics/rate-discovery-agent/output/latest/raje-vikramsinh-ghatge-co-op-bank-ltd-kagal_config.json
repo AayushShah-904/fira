@@ -1,0 +1,19 @@
+{
+  "bank_code": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+  "bank_name": "raje-vikramsinh-ghatge-co-op-bank-ltd-kagal",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Maharashtra",
+  "website": "https://rajebank.com",
+  "scraper_type": null,
+  "rate_page_urls": {
+    "fd": null
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T16:32:12.528Z",
+    "discovery_method": "orchestrator",
+    "confidence": "medium"
+  },
+  "extraction_method": "llm_inline_extraction"
+}

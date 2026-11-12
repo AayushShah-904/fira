@@ -1,0 +1,19 @@
+{
+  "bank_code": "tirupati-co-operative-bank-ltd",
+  "bank_name": "tirupati-co-operative-bank-ltd",
+  "bank_type": "NSUCB",
+  "category": "Non-Scheduled Urban Co-operative Bank",
+  "state": "Andhra Pradesh",
+  "website": "https://tirupati.bank.in",
+  "scraper_type": "html_js",
+  "rate_page_urls": {
+    "fd": "https://tirupati.bank.in/Encyc/2025/10/24/about-our-bank.html"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-05-23T10:59:17.482Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_js"
+}

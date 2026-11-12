@@ -1,0 +1,86 @@
+{
+  "bank_code": "zila-sahkari-bank-ltd-garhwal-kotdwar",
+  "bank_name": "Zila Sahkari Bank Ltd. Garhwal (Kotdwar)",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1",
+  "wall_clock_ms": 16363,
+  "duration_ms": 16363,
+  "duration_api_ms": 15747,
+  "num_turns": 10,
+  "tool_call_count": 11,
+  "total_cost_usd": 0.199406,
+  "input_tokens": 91951,
+  "output_tokens": 1938,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"Zila Sahkari Bank Ltd. Garhwal (Kotdwar)\\\"\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Zila Sahkari Bank Ltd. Garhwal (Kotdwar)\\\" official website india\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"\\\"Zila Sahkari Bank Ltd. Garhwal (Kotdwar)\\\" interest rates deposit\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 26,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://zila-sahkari-bank-ltd-garhwal-kotdwar.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 31,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://www.zilabankgarhwal.com\"}"
+    },
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"Zila Sahkari Bank Ltd. Garhwal (Kotdwar) Uttarakhand district central co-operative bank\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 25,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://garhwalbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 394,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://www.ukstcbank.com\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 139,
+      "is_error": false,
+      "input_preview": "{\"url\":\"https://ukscb.bank.in/interest-rates/\"}"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 1,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/zila-sahkari-bank-ltd-garhwal-kotdwar_config.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"zila-sahkari-bank-ltd-garhwal-kotd"
+    },
+    {
+      "name": "write_file",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"file_path\":\"/app/output/runs/2026-05-08T1911_district-central-co-operative-bank/zila-sahkari-bank-ltd-garhwal-kotdwar_rates.json\",\"content\":\"{\\n  \\\"bank_code\\\": \\\"zila-sahkari-bank-ltd-garhwal-kotdw"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "bank_code": "the-bharuch-district-co-operative-bank-ltd",
+  "bank_name": "The Bharuch District Co-operative Bank Ltd.",
+  "category": "District Central Co-operative Bank",
+  "mode": "discover",
+  "run_label": "2026-05-08T1911_district-central-co-operative-bank",
+  "model": "gpt-4.1-mini",
+  "wall_clock_ms": 13191,
+  "duration_ms": 13191,
+  "duration_api_ms": 12963,
+  "num_turns": 3,
+  "tool_call_count": 5,
+  "total_cost_usd": 0.006299600000000001,
+  "input_tokens": 13173,
+  "output_tokens": 644,
+  "is_error": false,
+  "rate_limit_events": [],
+  "tool_calls": [
+    {
+      "name": "web_search",
+      "duration_ms": 0,
+      "is_error": false,
+      "input_preview": "{\"query\":\"site:bank.in \\\"The Bharuch District Co-operative Bank Ltd.\\\"\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 27,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bharuchdistrict.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 23,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bharuchdistrictcooperative.bank.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 28,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bharuchdistrictcooperative.co.in\"}"
+    },
+    {
+      "name": "fetch_url",
+      "duration_ms": 150,
+      "is_error": true,
+      "input_preview": "{\"url\":\"https://bharuchdistrictcooperative.com\"}"
+    }
+  ]
+}

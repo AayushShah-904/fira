@@ -1,0 +1,65 @@
+{
+  "bank_code": "dbs-bank-india-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-07-07",
+  "source_url": "https://www.dbs.bank.in/in/treasures/nri-banking/deposits/fcnr-deposit-account/fcnr-interest-rates",
+  "scraped_at": "2026-07-07T06:36:30.560Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "1Y to <2Y",
+      "tenure_min_days": 365,
+      "tenure_max_days": 729,
+      "rate_general_pct": 3.75,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "usd_350_000",
+      "source_row_text": "1Y to <2Y 3.75% 0.01%"
+    },
+    {
+      "tenure_text": "2Y to <3Y",
+      "tenure_min_days": 730,
+      "tenure_max_days": 1094,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "usd_350_000",
+      "source_row_text": "2Y to <3Y 3.50% 0.01%"
+    },
+    {
+      "tenure_text": "3Y to <4Y",
+      "tenure_min_days": 1095,
+      "tenure_max_days": 1459,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "usd_350_000",
+      "source_row_text": "3Y to <4Y 5.60% 5.60%"
+    },
+    {
+      "tenure_text": "4Y to <5Y",
+      "tenure_min_days": 1460,
+      "tenure_max_days": 1824,
+      "rate_general_pct": 5.6,
+      "rate_senior_pct": null,
+      "rate_super_senior_pct": null,
+      "deposit_range": "usd_350_000",
+      "source_row_text": "4Y to <5Y 5.60% 5.60%"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "section_notes_unparsed: 4 note(s) preserved but not converted to rule overrides: Created with Sketch.At a GlanceWhy FCNR Deposits?FCNR Interest RatesHow to ApplyFrequently Asked QuestionsRelated Links | NRI BankingNRI DepositsFCNR Interest Rates | <!-- .download-btn { background-image: linear-gradient(to right, #b58655, #603913); padding: 12px 30px; border-radius: 25px; color: #fff; font-size: 14px; } .download-btn:hover, .download-btn:focus{color: #fff;} --> Open an NRI Account<style type=\"text/css\">&lt;!-- .download-btn { background-image: linear-gradient(to right, #b58655, #603913); padding: 12px 30px; border-radius: 25px; color: #fff; font-size: 14px; } .download-btn:hover, .download-btn:focus{color: #fff;} --&gt;</style><p style=\"mar",
+    "llm_fallback: deterministic returned 0 slabs; LLM extracted 10",
+    "non_fd_filter: dropped 4 non-FD slab(s) (savings, deposit-tier indicators, penalty rules)"
+  ],
+  "errors": [],
+  "extraction_method": "llm_inline_extraction",
+  "data_quality": {
+    "freshness_status": "FRESH",
+    "days_since_effective": 16,
+    "last_scraped_at": "2026-07-07T06:36:30.560Z",
+    "manual_verification_needed": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "the-erode-district-central-co-operative-bank-ltd",
+  "bank_name": "the-erode-district-central-co-operative-bank-ltd",
+  "bank_type": "DCCB",
+  "category": "District Central Co-operative Bank",
+  "state": "Tamil Nadu",
+  "website": "https://erodedccb.bank.in",
+  "scraper_type": "html_static",
+  "rate_page_urls": {
+    "fd": "https://erodedccb.bank.in/rate-of-interest/"
+  },
+  "deposit_insurance": true,
+  "discovery_metadata": {
+    "discovered_at": "2026-06-09T15:15:50.264Z",
+    "discovery_method": "orchestrator",
+    "confidence": "high"
+  },
+  "extraction_method": "automatic_html_static"
+}

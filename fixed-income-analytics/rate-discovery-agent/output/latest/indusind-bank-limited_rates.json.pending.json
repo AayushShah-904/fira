@@ -1,0 +1,422 @@
+{
+  "bank_code": "indusind-bank-limited",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": "2026-04-23",
+  "source_url": "https://www.indusind.bank.in/in/en/personal/rates.html",
+  "scraped_at": "2026-07-07T06:49:55.979Z",
+  "extraction_confidence": "high",
+  "rate_slabs": [
+    {
+      "tenure_text": "7 days to 14 days",
+      "tenure_min_days": 7,
+      "tenure_max_days": 14,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 1.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "15 days to 30 days",
+      "tenure_min_days": 15,
+      "tenure_max_days": 30,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 1.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "31 days to 45 days",
+      "tenure_min_days": 31,
+      "tenure_max_days": 45,
+      "rate_general_pct": 3.8,
+      "rate_senior_pct": 1.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "46 days to 60 days",
+      "tenure_min_days": 46,
+      "tenure_max_days": 60,
+      "rate_general_pct": 3.8,
+      "rate_senior_pct": 1.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "61 days to 90 days",
+      "tenure_min_days": 61,
+      "tenure_max_days": 90,
+      "rate_general_pct": 3.8,
+      "rate_senior_pct": 1.9,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "91 days to 120 days",
+      "tenure_min_days": 91,
+      "tenure_max_days": 120,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": 2.3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "121 days to 150 days",
+      "tenure_min_days": 121,
+      "tenure_max_days": 150,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": 2.3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "151 days to 180 days",
+      "tenure_min_days": 151,
+      "tenure_max_days": 180,
+      "rate_general_pct": 3.95,
+      "rate_senior_pct": 2.3,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "181 days to 210 days",
+      "tenure_min_days": 181,
+      "tenure_max_days": 210,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "211 days to 240 days",
+      "tenure_min_days": 211,
+      "tenure_max_days": 240,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "241 days to 269 days",
+      "tenure_min_days": 241,
+      "tenure_max_days": 269,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.5,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "270 days to 330 days",
+      "tenure_min_days": 270,
+      "tenure_max_days": 330,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "331 days to 343 days",
+      "tenure_min_days": 331,
+      "tenure_max_days": 343,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "344 days to 354 days",
+      "tenure_min_days": 344,
+      "tenure_max_days": 354,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "355 days to 364 days",
+      "tenure_min_days": 355,
+      "tenure_max_days": 364,
+      "rate_general_pct": 4,
+      "rate_senior_pct": 2.6,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "365 days to Below 1 Year 3 Months",
+      "tenure_min_days": 365,
+      "tenure_max_days": 455,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": 2.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year 3 Months to Below 1 Year 4 Months",
+      "tenure_min_days": 455,
+      "tenure_max_days": 485,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": 2.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year 4 Months to Below 1 Year 6 Months",
+      "tenure_min_days": 485,
+      "tenure_max_days": 545,
+      "rate_general_pct": 4.3,
+      "rate_senior_pct": 2.7,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "1 Year 6 Months upto 2 Year",
+      "tenure_min_days": 545,
+      "tenure_max_days": 730,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": 0.01,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 2 Year to Below 2 Year 6 Months",
+      "tenure_min_days": 731,
+      "tenure_max_days": 910,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": 0.01,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 Year 6 Months to Below 2 Year 7 Months",
+      "tenure_min_days": 910,
+      "tenure_max_days": 940,
+      "rate_general_pct": 3.7,
+      "rate_senior_pct": 0.01,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "2 Year 7 Months to 3 Year 3 Months",
+      "tenure_min_days": 940,
+      "tenure_max_days": 1185,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 0.01,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "Above 3 Year 3 Months to Below 61 Months",
+      "tenure_min_days": 1186,
+      "tenure_max_days": 1830,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 0.01,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    },
+    {
+      "tenure_text": "61 Months and above upto 10 Years",
+      "tenure_min_days": 1830,
+      "tenure_max_days": 3650,
+      "rate_general_pct": 3.5,
+      "rate_senior_pct": 0.01,
+      "rate_super_senior_pct": null,
+      "min_deposit": null,
+      "compounding_freq": "QUARTERLY"
+    }
+  ],
+  "special_schemes": [],
+  "warnings": [
+    "ambiguous_columns: existing-vs-revised or W.E.F.-dated two-column layout detected on cached_body; falling through to live dispatcher",
+    "cheerio_multi_table: picked table[15] (24 slabs) from 36 table(s); signals={\"pctRows\":24,\"tenureRows\":24,\"bothRows\":24,\"dataRows\":24,\"noisy\":false,\"colCount\":4}",
+    "llm_errors_present: keeping deterministic (LLM reported: chunk[0]: no Domestic INR fixed deposit rate table found in input)",
+    "chunk[0]: table is for IBU Term Deposit Rates in foreign currencies, not Domestic INR fixed deposit rates"
+  ],
+  "errors": [],
+  "extraction_method": "automatic_html_static",
+  "validation": {
+    "passed": true,
+    "warning_count": 30,
+    "flags": [
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 1 (7 days to 14 days): senior rate (1.7%) < general rate (3.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 2 (15 days to 30 days): senior rate (1.7%) < general rate (3.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 3 (31 days to 45 days): senior rate (1.9%) < general rate (3.8%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 4 (46 days to 60 days): senior rate (1.9%) < general rate (3.8%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 5 (61 days to 90 days): senior rate (1.9%) < general rate (3.8%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 6 (91 days to 120 days): senior rate (2.3%) < general rate (3.95%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 7 (121 days to 150 days): senior rate (2.3%) < general rate (3.95%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 8 (151 days to 180 days): senior rate (2.3%) < general rate (3.95%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 9 (181 days to 210 days): senior rate (2.5%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 10 (211 days to 240 days): senior rate (2.5%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 11 (241 days to 269 days): senior rate (2.5%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 12 (270 days to 330 days): senior rate (2.6%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 13 (331 days to 343 days): senior rate (2.6%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 14 (344 days to 354 days): senior rate (2.6%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 15 (355 days to 364 days): senior rate (2.6%) < general rate (4%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 16 (365 days to Below 1 Year 3 Months): senior rate (2.7%) < general rate (4.3%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 17 (1 Year 3 Months to Below 1 Year 4 Months): senior rate (2.7%) < general rate (4.3%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 18 (1 Year 4 Months to Below 1 Year 6 Months): senior rate (2.7%) < general rate (4.3%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 19 (1 Year 6 Months upto 2 Year): senior rate 0.01% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 19 (1 Year 6 Months upto 2 Year): senior rate (0.01%) < general rate (3.7%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 20 (Above 2 Year to Below 2 Year 6 Months): senior rate 0.01% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 20 (Above 2 Year to Below 2 Year 6 Months): senior rate (0.01%) < general rate (3.7%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 21 (2 Year 6 Months to Below 2 Year 7 Months): senior rate 0.01% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 21 (2 Year 6 Months to Below 2 Year 7 Months): senior rate (0.01%) < general rate (3.7%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 22 (2 Year 7 Months to 3 Year 3 Months): senior rate 0.01% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 22 (2 Year 7 Months to 3 Year 3 Months): senior rate (0.01%) < general rate (3.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 23 (Above 3 Year 3 Months to Below 61 Months): senior rate 0.01% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 23 (Above 3 Year 3 Months to Below 61 Months): senior rate (0.01%) < general rate (3.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 24 (61 Months and above upto 10 Years): senior rate 0.01% below floor (1.5%)"
+      },
+      {
+        "severity": "warning",
+        "flag_type": "validate-rates",
+        "details": "Slab 24 (61 Months and above upto 10 Years): senior rate (0.01%) < general rate (3.5%)"
+      }
+    ]
+  },
+  "data_quality": {
+    "freshness_status": "STALE",
+    "days_since_effective": 91,
+    "last_scraped_at": "2026-07-07T06:49:55.979Z",
+    "manual_verification_needed": true
+  }
+}

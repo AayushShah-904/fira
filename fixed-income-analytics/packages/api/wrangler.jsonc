@@ -1,0 +1,35 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bird-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bird-db",
+      "database_id": "69524ce4-0c5a-4954-98a4-7ca7996ea6cb",
+      "migrations_dir": "src/db/migrations"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "development",
+    "CORS_ORIGINS": "http://localhost:5173"
+  },
+  "env": {
+    "production": {
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "bird-db",
+          "database_id": "69524ce4-0c5a-4954-98a4-7ca7996ea6cb",
+          "migrations_dir": "src/db/migrations"
+        }
+      ],
+      "vars": {
+        "ENVIRONMENT": "production",
+        "CORS_ORIGINS": "https://bird-web.pages.dev,https://*.bird-web.pages.dev"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_code": "coimbatore-city-coop-bank-ltd",
+  "bank_name": "Coimbatore City Coop. Bank Ltd.",
+  "product_type": "FD",
+  "variant": "regular",
+  "effective_date": null,
+  "source_url": null,
+  "scraped_at": "2026-05-25T00:00:00Z",
+  "extraction_confidence": "none",
+  "rate_slabs": [],
+  "gap_reason": "no_website",
+  "website_metadata": {
+    "domain": null,
+    "found_via": "none",
+    "notes": "No official own-domain website found on re-attempt. Web searches surface only aggregators (codeforbanks, bankbazaar, groww) and the unrelated Coimbatore District Central Co-operative Bank (cdcc.bank.in / cdccbank.com). Registry hint 'coopbank.co.in' is a generic/unrelated domain. The bank exists (codeforbanks lists a senior-citizen FD rate of 8.50% for 1 year) but publishes no retrievable official rate page."
+  },
+  "warnings": ["No bank-owned website located; only aggregator listings (banned as source). Do not confuse with Coimbatore DCCB (cdcc.bank.in)."],
+  "tier2_method": "websearch+webfetch"
+}
