@@ -31,41 +31,38 @@ fdrates/
 
 ---
 
-## Quick Start
+## Quick Start (100% Local - Zero Cloud Required)
 
 ### Prerequisites
 - Node.js 18+ and npm 9+
 
-### 1. Install all dependencies
+### 🚀 1-Click Launch (Windows)
+Double-click **`run-local.bat`** (or run `.\run-local.ps1` in PowerShell).  
+It automatically verifies the database, starts both the API and UI servers, and opens your browser at **http://localhost:5173**.
+
+---
+
+### Manual Start:
+#### 1. Install dependencies (if not already installed)
 ```bash
-npm install          # installs root workspace deps (concurrently)
-cd api && npm install
-cd ../ui && npm install
+npm install
 ```
 
-### 2. Seed the database
+#### 2. Seed database (already pre-seeded with 570+ banks & 8,400+ rates)
 ```bash
-cd api && npm run seed
+cd api && npm run seed && cd ..
 ```
-This creates `api/data/fdrates.db` with:
-- 8 bank categories
-- 60+ indexed banks
-- 80+ FD rates (verified from live sources as of Apr 2026)
-- Demo user: `demo@fdrates.in` / `demo123!`
 
-### 3. Start development servers
-From the project root:
+#### 3. Start development servers
 ```bash
 npm run dev
 ```
-This starts both servers concurrently:
-- API: http://localhost:4000
-- UI:  http://localhost:5173
+- UI:  **http://localhost:5173**
+- API: **http://localhost:4000**
 
-### 4. Open the app
-Navigate to **http://localhost:5173** and sign in with:
-- Email: `demo@fdrates.in`
-- Password: `demo123!`
+#### 4. Sign in
+- **Email**: `demo@fdrates.in` (or `demo@fira.in`)
+- **Password**: `demo123!`
 
 ---
 

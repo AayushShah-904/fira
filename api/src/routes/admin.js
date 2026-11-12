@@ -5,6 +5,12 @@ const { spawn } = require('child_process');
 const { getDb } = require('../db/connection');
 const { requireAuth, requireRole } = require('../middleware/auth');
 
+const localAgentPath = path.resolve(__dirname, '../../../fixed-income-analytics/rate-discovery-agent');
+const siblingAgentPath = path.resolve(__dirname, '../../../../fixed-income-analytics/rate-discovery-agent');
+const DEFAULT_AGENT_ROOT = fs.existsSync(localAgentPath) ? localAgentPath : siblingAgentPath;
+const configuredAgentRoot = (process.env.RATE_AGENT_ROOT || '').replace(/^["']|["']$/g, '');
+const AGENT_ROOT = configuredAgentRoot || DEFAULT_AGENT_ROOT;
+
 const AZURE_COHORT_BANKS = {
   'fcnr-top-5': [
     'bank-of-ceylon',
@@ -334,9 +340,6 @@ router.get('/analytics', (req, res) => {
 });
 
 // ─── ADMIN PIPELINE ROUTE HANDLERS ─────────────────────────────────
-const DEFAULT_AGENT_ROOT = path.resolve(__dirname, '../../../../fixed-income-analytics/rate-discovery-agent');
-const AGENT_ROOT = process.env.RATE_AGENT_ROOT || DEFAULT_AGENT_ROOT;
-
 const pipelineJobs = new Map();
 let activeJobId = null;
 

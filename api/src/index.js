@@ -1,3 +1,5 @@
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -84,6 +86,19 @@ app.use('/api/v1/analytics', analyticsRoutes);
 app.use('/api/v1/user', userRoutes);
 app.use('/api/v1/simulator', simulatorRoutes);
 // app.use('/api/v1/evaluation', require('../../evaluation-ui/api/evaluation-routes'));
+
+// ─── STATIC UI (Fallback if ui/dist exists) ───────────────────────
+const fs = require('fs');
+const uiDist = path.resolve(__dirname, '../../ui/dist');
+if (fs.existsSync(uiDist)) {
+  app.use(express.static(uiDist));
+  app.get('*', (req, res, next) => {
+    if (req.originalUrl.startsWith('/api/') || req.originalUrl.startsWith('/health')) {
+      return next();
+    }
+    res.sendFile(path.join(uiDist, 'index.html'));
+  });
+}
 
 // ─── 404 ─────────────────────────────────────────────────────────
 app.use('*', (req, res) => {
